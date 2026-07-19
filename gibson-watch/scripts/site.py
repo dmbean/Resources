@@ -5,12 +5,22 @@ The page is published as a claude.ai Artifact (stable URL, redeployed each run).
 Self-contained: no external requests; data embedded inline; light/dark themed.
 Usage: python3 scripts/site.py
 """
+import base64
 import json
 import os
 
 HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DB = os.path.join(HERE, "database.json")
 OUT = os.path.join(HERE, "site", "index.html")
+THUMBS = os.path.join(HERE, "site", "thumbs")
+
+
+def thumb_uri(gid):
+    path = os.path.join(THUMBS, "%s.jpg" % gid)
+    if not os.path.exists(path):
+        return None
+    with open(path, "rb") as f:
+        return "data:image/jpeg;base64," + base64.b64encode(f.read()).decode("ascii")
 
 # Spec target bands used for the in-target tick marks, per category.
 BANDS = {
@@ -62,6 +72,7 @@ def main():
             "found": g.get("date_discovered"), "confirmed": g.get("last_confirmed_active"),
             "notes": g.get("notes"), "research": g.get("research"),
             "breakdown": g.get("score_breakdown"),
+            "thumb": thumb_uri(g["id"]),
         })
     payload = json.dumps({"meta": meta, "bands": BANDS, "guitars": guitars},
                          ensure_ascii=False).replace("</", "<\\/")
@@ -114,8 +125,13 @@ select,input[type=search]{background:var(--bg-raise);color:var(--ink);border:1px
 input[type=search]{flex:1;min-width:140px}
 .count{font-size:12px;color:var(--ink-soft);margin-left:auto;font-variant-numeric:tabular-nums}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:14px;margin-top:16px}
-.card{background:var(--bg-raise);border:1px solid var(--line);border-radius:8px;padding:14px 16px;display:flex;flex-direction:column;gap:10px}
+.card{background:var(--bg-raise);border:1px solid var(--line);border-radius:8px;padding:0 0 14px;display:flex;flex-direction:column;gap:10px;overflow:hidden}
+.card>*:not(.photo){margin-left:16px;margin-right:16px}
+.card>.toprow{margin-top:12px}
 .card.sold{opacity:.55}
+.photo{width:100%;height:180px;background:var(--line);display:block}
+.photo img{width:100%;height:100%;object-fit:cover;display:block}
+.photo.none{display:flex;align-items:center;justify-content:center;color:var(--ink-soft);font-size:11px;letter-spacing:.12em;text-transform:uppercase}
 .toprow{display:flex;gap:12px;align-items:flex-start}
 .scoreblock{text-align:center;min-width:52px}
 .scorenum{font:700 26px/1 Charter,Georgia,serif;font-variant-numeric:tabular-nums}
@@ -237,7 +253,11 @@ function card(g){
   const stier = g.score>=88?"hi":(g.score>=75?"mid":"lo");
   const research = g.research ? `<details><summary>Community research</summary><ul>${g.research.map(b=>`<li>${esc(b)}</li>`).join("")}</ul></details>` : "";
   const notes = g.notes ? `<details><summary>Agent notes</summary><div style="margin-top:6px">${esc(g.notes)}</div></details>` : "";
+  const photo = g.thumb
+    ? `<a class="photo" href="${esc(g.url)}" target="_blank" rel="noopener"><img src="${g.thumb}" alt="${esc(g.model||"")}" loading="lazy"></a>`
+    : `<div class="photo none">No photo</div>`;
   return `<div class="card ${(g.status==="SOLD"||g.status==="EXCLUDED")?"sold":""}">
+    ${photo}
     <div class="toprow">
       <div class="scoreblock"><div class="scorenum ${stier}">${g.score==null?"—":g.score}</div><div class="scorelabel">score</div></div>
       <div class="titleblock">
