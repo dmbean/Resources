@@ -19,6 +19,27 @@ BANDS = {
 }
 
 
+def color_family(finish):
+    """Bucket free-text finish names into filterable color families."""
+    f = (finish or "").lower()
+    if not f:
+        return "other"
+    if any(w in f for w in ("burst", "iced tea", "ice tea", "unburst", "lemon",
+                            "tangerine", "tomato", "teaburst")):
+        return "sunburst"
+    if any(w in f for w in ("ebony", "black")):
+        return "black"
+    if "cherry" in f:
+        return "cherry"
+    if any(w in f for w in ("natural", "blonde")):
+        return "natural"
+    if any(w in f for w in ("walnut", "mocha", "brown")):
+        return "walnut"
+    if any(w in f for w in ("goldtop", "gold top")):
+        return "gold"
+    return "other"
+
+
 def main():
     with open(DB) as f:
         db = json.load(f)
@@ -31,6 +52,7 @@ def main():
             "url": g.get("url"), "price": g.get("price_usd"),
             "condition": g.get("condition"), "loc": g.get("city_state"),
             "year": g.get("year"), "model": g.get("model"), "finish": g.get("finish"),
+            "color": color_family(g.get("finish")),
             "serial": g.get("serial"), "weight": g.get("weight_lbs"),
             "nut": g.get("nut_width_in"), "f1": g.get("fret1_depth_in"),
             "f12": g.get("fret12_depth_in"), "profile": g.get("neck_profile"),
@@ -152,6 +174,16 @@ details li{margin-bottom:4px}
     <option value="weight">Sort: weight (low → high)</option>
     <option value="new">Sort: newest find</option>
   </select>
+  <select id="colorsel">
+    <option value="any">Color: any</option>
+    <option value="sunburst">Sunburst / burst</option>
+    <option value="black">Black / Ebony</option>
+    <option value="cherry">Cherry</option>
+    <option value="natural">Natural / Blonde</option>
+    <option value="walnut">Walnut / Brown</option>
+    <option value="gold">Goldtop</option>
+    <option value="other">Other colors</option>
+  </select>
   <select id="nutsel">
     <option value="any">Nut: any</option>
     <option value="narrow">Nut ≤ 1-19/32″ (1.60) — 335 target</option>
@@ -240,8 +272,10 @@ function render(){
   const sort=document.getElementById("sortsel").value;
   const q=document.getElementById("q").value.trim().toLowerCase();
   const nut=document.getElementById("nutsel").value;
+  const color=document.getElementById("colorsel").value;
   let gs=DATA.guitars.slice();
   if(cat!=="all") gs=gs.filter(g=>g.cat===cat);
+  if(color!=="any") gs=gs.filter(g=>g.color===color);
   if(status==="live") gs=gs.filter(g=>g.status!=="SOLD"&&g.status!=="EXCLUDED");
   if(nut!=="any") gs=gs.filter(g=>{
     if(nut==="unknown") return g.nut==null;
@@ -263,7 +297,7 @@ document.getElementById("catseg").addEventListener("click",e=>{
   document.querySelectorAll("#catseg button").forEach(x=>x.classList.toggle("on",x===b));
   render();
 });
-["statussel","sortsel","nutsel"].forEach(id=>document.getElementById(id).addEventListener("change",render));
+["statussel","sortsel","nutsel","colorsel"].forEach(id=>document.getElementById(id).addEventListener("change",render));
 document.getElementById("q").addEventListener("input",render);
 const m=DATA.meta, live=DATA.guitars.filter(g=>g.status!=="SOLD"&&g.status!=="EXCLUDED").length;
 document.getElementById("substat").innerHTML=
