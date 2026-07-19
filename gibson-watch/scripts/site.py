@@ -29,6 +29,28 @@ BANDS = {
 }
 
 
+US_STATES = {
+    "AL", "AK", "AZ", "AR", "CA", "CO", "CT", "DE", "FL", "GA", "HI", "ID", "IL",
+    "IN", "IA", "KS", "KY", "LA", "ME", "MD", "MA", "MI", "MN", "MS", "MO", "MT",
+    "NE", "NV", "NH", "NJ", "NM", "NY", "NC", "ND", "OH", "OK", "OR", "PA", "RI",
+    "SC", "SD", "TN", "TX", "UT", "VT", "VA", "WA", "WV", "WI", "WY", "DC",
+}
+
+
+def us_state(city_state):
+    """Last valid two-letter state code in the free-text location."""
+    import re
+    codes = [t for t in re.findall(r"\b[A-Z]{2}\b", city_state or "") if t in US_STATES]
+    return codes[-1] if codes else None
+
+
+def finish_label(finish):
+    """Canonical short finish name for the finish dropdown ('Washed Cherry
+    Sunburst, nitro VOS' -> 'Washed Cherry Sunburst')."""
+    f = (finish or "").split("(")[0].split(",")[0].strip().strip("'\"")
+    return f or "Unstated"
+
+
 def color_family(finish):
     """Bucket free-text finish names into filterable color families."""
     f = (finish or "").lower()
@@ -63,6 +85,8 @@ def main():
             "condition": g.get("condition"), "loc": g.get("city_state"),
             "year": g.get("year"), "model": g.get("model"), "finish": g.get("finish"),
             "color": color_family(g.get("finish")),
+            "finish_label": finish_label(g.get("finish")),
+            "state": us_state(g.get("city_state")),
             "serial": g.get("serial"), "weight": g.get("weight_lbs"),
             "nut": g.get("nut_width_in"), "f1": g.get("fret1_depth_in"),
             "f12": g.get("fret12_depth_in"), "profile": g.get("neck_profile"),
@@ -200,6 +224,8 @@ details li{margin-bottom:4px}
     <option value="gold">Goldtop</option>
     <option value="other">Other colors</option>
   </select>
+  <select id="finishsel"><option value="any">Finish: any</option></select>
+  <select id="locsel"><option value="any">Location: any</option></select>
   <select id="nutsel">
     <option value="any">Nut: any</option>
     <option value="narrow">Nut ≤ 1-19/32″ (1.60) — 335 target</option>
@@ -296,6 +322,10 @@ function render(){
   let gs=DATA.guitars.slice();
   if(cat!=="all") gs=gs.filter(g=>g.cat===cat);
   if(color!=="any") gs=gs.filter(g=>g.color===color);
+  const finish=document.getElementById("finishsel").value;
+  if(finish!=="any") gs=gs.filter(g=>g.finish_label===finish);
+  const loc=document.getElementById("locsel").value;
+  if(loc!=="any") gs=gs.filter(g=>g.state===loc);
   if(status==="live") gs=gs.filter(g=>g.status!=="SOLD"&&g.status!=="EXCLUDED");
   if(nut!=="any") gs=gs.filter(g=>{
     if(nut==="unknown") return g.nut==null;
@@ -317,7 +347,27 @@ document.getElementById("catseg").addEventListener("click",e=>{
   document.querySelectorAll("#catseg button").forEach(x=>x.classList.toggle("on",x===b));
   render();
 });
-["statussel","sortsel","nutsel","colorsel"].forEach(id=>document.getElementById(id).addEventListener("change",render));
+function rebuildFinishOptions(){
+  const fam=document.getElementById("colorsel").value;
+  const sel=document.getElementById("finishsel");
+  const prev=sel.value;
+  const pool=DATA.guitars.filter(g=>fam==="any"||g.color===fam);
+  const counts={};
+  pool.forEach(g=>{counts[g.finish_label]=(counts[g.finish_label]||0)+1;});
+  const names=Object.keys(counts).sort((a,b)=>a.localeCompare(b));
+  sel.innerHTML='<option value="any">Finish: any</option>'+
+    names.map(n=>`<option value="${esc(n)}">${esc(n)} (${counts[n]})</option>`).join("");
+  sel.value=names.includes(prev)?prev:"any";
+}
+document.getElementById("colorsel").addEventListener("change",rebuildFinishOptions);
+(function(){
+  const counts={};
+  DATA.guitars.forEach(g=>{if(g.state)counts[g.state]=(counts[g.state]||0)+1;});
+  document.getElementById("locsel").innerHTML='<option value="any">Location: any</option>'+
+    Object.keys(counts).sort().map(s=>`<option value="${s}">${s} (${counts[s]})</option>`).join("");
+})();
+["statussel","sortsel","nutsel","colorsel","finishsel","locsel"].forEach(id=>document.getElementById(id).addEventListener("change",render));
+rebuildFinishOptions();
 document.getElementById("q").addEventListener("input",render);
 const m=DATA.meta, live=DATA.guitars.filter(g=>g.status!=="SOLD"&&g.status!=="EXCLUDED").length;
 document.getElementById("substat").innerHTML=

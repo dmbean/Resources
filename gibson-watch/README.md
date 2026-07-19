@@ -15,6 +15,8 @@ Long-running sourcing agent for a Gibson Les Paul and an ES-335. Runs every 24 h
 
 1. Re-confirm every ACTIVE listing's URL. Missing/sold → mark `SOLD` (keep in database). Price changed → mark `PRICE DROP`/`PRICE INCREASE` and append to `price_history`.
 2. Sweep all dealers in `dealers.md` for new listings (individual product pages only — never category/search pages). **Continental-US availability is required**: exclude listings located outside the lower 48 (international, Alaska, Hawaii, PR). Existing entries found to violate this get status `EXCLUDED` (kept in the database, hidden from live views).
+   **Price cap from buyer signal (2026-07-19): $10,000** — do not ingest listings priced above
+   $10k; existing entries above the cap are EXCLUDED (re-include if a price drop brings one under).
    **Model exclusions from buyer signals**: Les Paul Standard 60s Plain Top (rejected 2026-07-19)
    — do not ingest; existing entries are EXCLUDED. Figured-top Standard 60s remain in scope.
    **Standing narrow-nut hunt**: every sweep must include dedicated queries for 1-9/16" nut ES-335s — the buyer's ideal nut, found only on 1965–1981 vintage examples (modern reissues are all 1-11/16"). Reverb API queries: "es-335 1 9/16", "es-335 narrow nut", "es-335 1.56", plus year-specific searches 1968–1980; also sweep dealers that publish nut widths (Carter, CME used, Gruhn).

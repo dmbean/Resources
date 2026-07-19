@@ -27,3 +27,4 @@ _None yet — no rejections or favorites recorded. Log them below as they happen
 |------|-------------|--------|---------------------------|
 | 2026-07-19 | g014 (1973 ES-335, UK) | Buyer requires continental-US availability | Hard constraint: only lower-48 listings qualify; international/AK/HI/PR excluded at sweep time |
 | 2026-07-19 | g041 (Willcutt Ebony Plain Top) | "Not a fan of the new LP Standard 60s Plain Top" — model rejected | Remove Standard 60s Plain Top from target models; exclude at sweep time. Figured-top Standard 60s remain in scope. Possible weak signal against plain/unfigured tops generally — watch for confirmation before generalizing. |
+| 2026-07-19 | g031, g067, g071 (all >$10k) | "Exclude anything over 10k" | Hard budget cap: $10,000. Applies at sweep time; re-include on price drop below cap. |
