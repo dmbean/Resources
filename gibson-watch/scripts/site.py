@@ -1,0 +1,249 @@
+#!/usr/bin/env python3
+"""Generate the Gibson Watch listings site (site/index.html) from database.json.
+
+The page is published as a claude.ai Artifact (stable URL, redeployed each run).
+Self-contained: no external requests; data embedded inline; light/dark themed.
+Usage: python3 scripts/site.py
+"""
+import json
+import os
+
+HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DB = os.path.join(HERE, "database.json")
+OUT = os.path.join(HERE, "site", "index.html")
+
+# Spec target bands used for the in-target tick marks, per category.
+BANDS = {
+    "les_paul": {"weight": (8.3, 9.0), "nut": (1.68, 1.71), "f1": (0.79, 0.82), "f12": (0.89, 0.92)},
+    "es_335": {"weight": (7.4, 8.0), "nut": (1.56, 1.60), "f1": (0.76, 0.82), "f12": (0.86, 0.94)},
+}
+
+
+def main():
+    with open(DB) as f:
+        db = json.load(f)
+    meta = db["meta"]
+    guitars = []
+    for g in db["guitars"]:
+        guitars.append({
+            "id": g["id"], "cat": g["category"], "score": g.get("score"),
+            "status": g.get("status", "ACTIVE"), "dealer": g.get("dealer"),
+            "url": g.get("url"), "price": g.get("price_usd"),
+            "condition": g.get("condition"), "loc": g.get("city_state"),
+            "year": g.get("year"), "model": g.get("model"), "finish": g.get("finish"),
+            "serial": g.get("serial"), "weight": g.get("weight_lbs"),
+            "nut": g.get("nut_width_in"), "f1": g.get("fret1_depth_in"),
+            "f12": g.get("fret12_depth_in"), "profile": g.get("neck_profile"),
+            "shoulders": g.get("shoulder_description"), "radius": g.get("fingerboard_radius"),
+            "pickups": g.get("pickups"), "case": g.get("case_included"),
+            "mods": g.get("modifications"), "meas": g.get("measurements_source"),
+            "found": g.get("date_discovered"), "confirmed": g.get("last_confirmed_active"),
+            "notes": g.get("notes"), "research": g.get("research"),
+            "breakdown": g.get("score_breakdown"),
+        })
+    payload = json.dumps({"meta": meta, "bands": BANDS, "guitars": guitars},
+                         ensure_ascii=False).replace("</", "<\\/")
+
+    html = HTML_TEMPLATE.replace("__DATA__", payload)
+    os.makedirs(os.path.dirname(OUT), exist_ok=True)
+    with open(OUT, "w") as f:
+        f.write(html)
+    print("wrote %s (%d guitars)" % (OUT, len(guitars)))
+
+
+HTML_TEMPLATE = r"""<title>Gibson Watch</title>
+<style>
+:root{
+  --bg:#FAF6EF; --bg-raise:#FFFDF8; --ink:#251E17; --ink-soft:#6B6054; --line:#E4DBCC;
+  --amber:#B07818; --amber-soft:#F3E8D2; --cherry:#8A3033; --cherry-soft:#F2E2E0;
+  --good:#4A6B4F; --good-soft:#E4EBE2; --warn:#9A6A1F;
+  --chip-sold:#B5B0A6;
+}
+@media (prefers-color-scheme: dark){:root{
+  --bg:#171210; --bg-raise:#211A16; --ink:#EDE4D6; --ink-soft:#A2937F; --line:#372D25;
+  --amber:#D89A3C; --amber-soft:#3A2C14; --cherry:#C96B6E; --cherry-soft:#3B2323;
+  --good:#8FB894; --good-soft:#25301F; --warn:#D2A24C; --chip-sold:#5A5248;
+}}
+:root[data-theme="dark"]{
+  --bg:#171210; --bg-raise:#211A16; --ink:#EDE4D6; --ink-soft:#A2937F; --line:#372D25;
+  --amber:#D89A3C; --amber-soft:#3A2C14; --cherry:#C96B6E; --cherry-soft:#3B2323;
+  --good:#8FB894; --good-soft:#25301F; --warn:#D2A24C; --chip-sold:#5A5248;
+}
+:root[data-theme="light"]{
+  --bg:#FAF6EF; --bg-raise:#FFFDF8; --ink:#251E17; --ink-soft:#6B6054; --line:#E4DBCC;
+  --amber:#B07818; --amber-soft:#F3E8D2; --cherry:#8A3033; --cherry-soft:#F2E2E0;
+  --good:#4A6B4F; --good-soft:#E4EBE2; --warn:#9A6A1F; --chip-sold:#B5B0A6;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font:15px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif}
+.serif{font-family:Charter,"Bitstream Charter",Cambria,Georgia,serif}
+.wrap{max-width:1180px;margin:0 auto;padding:0 20px 64px}
+header{padding:28px 0 18px;border-bottom:2px solid var(--ink);margin-bottom:14px}
+.eyebrow{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--amber);font-weight:600}
+h1{font-family:Charter,Cambria,Georgia,serif;font-size:clamp(26px,4vw,36px);margin:2px 0 6px;text-wrap:balance}
+.substat{color:var(--ink-soft);font-size:13px}
+.substat b{color:var(--ink);font-variant-numeric:tabular-nums}
+.controls{display:flex;flex-wrap:wrap;gap:8px;align-items:center;padding:10px 0 18px;position:sticky;top:0;background:var(--bg);z-index:5;border-bottom:1px solid var(--line)}
+.seg{display:flex;border:1px solid var(--line);border-radius:6px;overflow:hidden}
+.seg button{border:0;background:var(--bg-raise);color:var(--ink-soft);padding:6px 12px;font:600 12px/1 system-ui;letter-spacing:.05em;text-transform:uppercase;cursor:pointer}
+.seg button.on{background:var(--ink);color:var(--bg)}
+select,input[type=search]{background:var(--bg-raise);color:var(--ink);border:1px solid var(--line);border-radius:6px;padding:6px 9px;font:13px system-ui}
+input[type=search]{flex:1;min-width:140px}
+.count{font-size:12px;color:var(--ink-soft);margin-left:auto;font-variant-numeric:tabular-nums}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:14px;margin-top:16px}
+.card{background:var(--bg-raise);border:1px solid var(--line);border-radius:8px;padding:14px 16px;display:flex;flex-direction:column;gap:10px}
+.card.sold{opacity:.55}
+.toprow{display:flex;gap:12px;align-items:flex-start}
+.scoreblock{text-align:center;min-width:52px}
+.scorenum{font:700 26px/1 Charter,Georgia,serif;font-variant-numeric:tabular-nums}
+.scorenum.hi{color:var(--amber)} .scorenum.mid{color:var(--ink)} .scorenum.lo{color:var(--ink-soft)}
+.scorelabel{font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-soft)}
+.titleblock{flex:1;min-width:0}
+.gname{font-family:Charter,Cambria,Georgia,serif;font-size:17px;line-height:1.25;margin:0;text-wrap:balance}
+.gsub{font-size:12.5px;color:var(--ink-soft);margin-top:2px}
+.chips{display:flex;flex-wrap:wrap;gap:5px}
+.chip{font-size:10px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:2px 8px;border-radius:99px}
+.chip.lp{background:var(--amber-soft);color:var(--amber)}
+.chip.es{background:var(--cherry-soft);color:var(--cherry)}
+.chip.active{background:var(--good-soft);color:var(--good)}
+.chip.pricedrop{background:var(--good-soft);color:var(--good)}
+.chip.priceup{background:var(--cherry-soft);color:var(--cherry)}
+.chip.sold{background:var(--chip-sold);color:var(--bg)}
+.chip.newtoday{background:var(--ink);color:var(--bg)}
+.specs{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:8px 0}
+.spec{text-align:center}
+.spec .v{font-variant-numeric:tabular-nums;font-weight:600;font-size:14px}
+.spec .k{font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-soft)}
+.spec .v .tick{color:var(--good);font-size:11px}
+.spec .v .cross{color:var(--warn);font-size:11px}
+.meta{font-size:12.5px;color:var(--ink-soft);line-height:1.45}
+.meta b{color:var(--ink);font-weight:600}
+.price{font:700 18px/1 Charter,Georgia,serif;font-variant-numeric:tabular-nums}
+.bottomrow{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:auto}
+a.listing{color:var(--amber);font-weight:600;font-size:13px;text-decoration:none;border-bottom:1px solid currentColor}
+a.listing:focus-visible,button:focus-visible,select:focus-visible,input:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+details{font-size:12.5px;color:var(--ink-soft)}
+details summary{cursor:pointer;font-weight:600;color:var(--ink);font-size:12px;letter-spacing:.05em;text-transform:uppercase}
+details ul{margin:6px 0 0;padding-left:16px}
+details li{margin-bottom:4px}
+.empty{color:var(--ink-soft);padding:40px 0;text-align:center;font-style:italic}
+@media (max-width:480px){.specs{grid-template-columns:repeat(2,1fr)}}
+</style>
+<div class="wrap">
+<header>
+  <div class="eyebrow">Sourcing agent · daily sweep</div>
+  <h1>Gibson Watch — Les Paul &amp; ES-335 Board</h1>
+  <div class="substat" id="substat"></div>
+</header>
+<div class="controls">
+  <div class="seg" id="catseg">
+    <button data-cat="all" class="on">All</button>
+    <button data-cat="les_paul">Les Paul</button>
+    <button data-cat="es_335">ES-335</button>
+  </div>
+  <select id="statussel">
+    <option value="live">Live listings</option>
+    <option value="all">Include sold</option>
+  </select>
+  <select id="sortsel">
+    <option value="score">Sort: score</option>
+    <option value="price">Sort: price (low → high)</option>
+    <option value="weight">Sort: weight (low → high)</option>
+    <option value="new">Sort: newest find</option>
+  </select>
+  <input type="search" id="q" placeholder="Search model, finish, dealer…">
+  <span class="count" id="count"></span>
+</div>
+<div class="grid" id="grid"></div>
+<div class="empty" id="empty" hidden>No guitars match.</div>
+</div>
+<script>
+const DATA = __DATA__;
+const bands = DATA.bands;
+const money = v => v==null ? "—" : "$"+Math.round(v).toLocaleString("en-US");
+const esc = s => String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+function tick(cat,key,v){
+  if(v==null) return "";
+  const b = bands[cat] && bands[cat][key];
+  if(!b) return "";
+  return (v>=b[0]&&v<=b[1]) ? ' <span class="tick" title="in target band">●</span>'
+                            : ' <span class="cross" title="outside target band">○</span>';
+}
+function spec(cat,key,label,v,unit){
+  const shown = v==null ? "—" : (typeof v==="number"? v : esc(v));
+  return `<div class="spec"><div class="v">${shown}${v!=null&&unit?unit:""}${typeof v==="number"?tick(cat,key,v):""}</div><div class="k">${label}</div></div>`;
+}
+function chipStatus(s){
+  const m={ACTIVE:["active","Active"],"PRICE DROP":["pricedrop","Price drop"],"PRICE INCREASE":["priceup","Price up"],SOLD:["sold","Sold"]};
+  const [cls,label]=m[s]||["active",esc(s||"")];
+  return `<span class="chip ${cls}">${label}</span>`;
+}
+function card(g){
+  const cls = g.cat==="les_paul" ? ["lp","Les Paul"] : ["es","ES-335"];
+  const isNew = g.found === DATA.meta.last_run;
+  const stier = g.score>=88?"hi":(g.score>=75?"mid":"lo");
+  const research = g.research ? `<details><summary>Community research</summary><ul>${g.research.map(b=>`<li>${esc(b)}</li>`).join("")}</ul></details>` : "";
+  const notes = g.notes ? `<details><summary>Agent notes</summary><div style="margin-top:6px">${esc(g.notes)}</div></details>` : "";
+  return `<div class="card ${g.status==="SOLD"?"sold":""}">
+    <div class="toprow">
+      <div class="scoreblock"><div class="scorenum ${stier}">${g.score==null?"—":g.score}</div><div class="scorelabel">score</div></div>
+      <div class="titleblock">
+        <h2 class="gname">${g.year?esc(g.year)+" ":""}${esc(g.model||"")}</h2>
+        <div class="gsub">${esc(g.finish||"")}</div>
+      </div>
+    </div>
+    <div class="chips"><span class="chip ${cls[0]}">${cls[1]}</span>${chipStatus(g.status)}${isNew?'<span class="chip newtoday">New today</span>':""}</div>
+    <div class="specs">
+      ${spec(g.cat,"weight","Weight",g.weight," lb")}
+      ${spec(g.cat,"nut","Nut",g.nut,"″")}
+      ${spec(g.cat,"f1","1st fret",g.f1,"″")}
+      ${spec(g.cat,"f12","12th fret",g.f12,"″")}
+    </div>
+    <div class="meta">
+      <b>${esc(g.dealer||"")}</b>${g.loc?" · "+esc(g.loc):""}<br>
+      ${g.profile?"Neck: "+esc(g.profile)+"<br>":""}
+      ${g.pickups?"Pickups: "+esc(g.pickups)+"<br>":""}
+      ${g.serial?"Serial: "+esc(g.serial)+" · ":""}${g.meas?esc(g.meas):""}
+      ${g.mods&&g.mods!=="None"?"<br>Mods: "+esc(g.mods):""}
+    </div>
+    ${research}${notes}
+    <div class="bottomrow">
+      <span class="price">${money(g.price)}</span>
+      <a class="listing" href="${esc(g.url)}" target="_blank" rel="noopener">View listing ↗</a>
+    </div>
+  </div>`;
+}
+let cat="all";
+function render(){
+  const status=document.getElementById("statussel").value;
+  const sort=document.getElementById("sortsel").value;
+  const q=document.getElementById("q").value.trim().toLowerCase();
+  let gs=DATA.guitars.slice();
+  if(cat!=="all") gs=gs.filter(g=>g.cat===cat);
+  if(status==="live") gs=gs.filter(g=>g.status!=="SOLD");
+  if(q) gs=gs.filter(g=>[g.model,g.finish,g.dealer,g.loc,g.pickups,g.year,g.profile].join(" ").toLowerCase().includes(q));
+  const key={score:g=>-(g.score??-1),price:g=>g.price??1e9,weight:g=>g.weight??1e9,new:g=>g.found?-Date.parse(g.found):0}[sort];
+  gs.sort((a,b)=>key(a)<key(b)?-1:key(a)>key(b)?1:0);
+  document.getElementById("grid").innerHTML=gs.map(card).join("");
+  document.getElementById("empty").hidden=gs.length>0;
+  document.getElementById("count").textContent=gs.length+" shown";
+}
+document.getElementById("catseg").addEventListener("click",e=>{
+  const b=e.target.closest("button"); if(!b) return;
+  cat=b.dataset.cat;
+  document.querySelectorAll("#catseg button").forEach(x=>x.classList.toggle("on",x===b));
+  render();
+});
+["statussel","sortsel"].forEach(id=>document.getElementById(id).addEventListener("change",render));
+document.getElementById("q").addEventListener("input",render);
+const m=DATA.meta, live=DATA.guitars.filter(g=>g.status!=="SOLD").length;
+document.getElementById("substat").innerHTML=
+  `<b>${live}</b> live listings · <b>${DATA.guitars.length}</b> tracked all-time · last sweep <b>${esc(m.last_run)}</b> · run #<b>${m.run_count}</b> — ● spec in target band, ○ outside`;
+render();
+</script>
+"""
+
+
+if __name__ == "__main__":
+    main()
