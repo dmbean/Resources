@@ -141,12 +141,14 @@ header{padding:28px 0 18px;border-bottom:2px solid var(--ink);margin-bottom:14px
 h1{font-family:Charter,Cambria,Georgia,serif;font-size:clamp(26px,4vw,36px);margin:2px 0 6px;text-wrap:balance}
 .substat{color:var(--ink-soft);font-size:13px}
 .substat b{color:var(--ink);font-variant-numeric:tabular-nums}
-.controls{display:flex;flex-wrap:wrap;gap:8px;align-items:center;padding:10px 0 18px;position:sticky;top:0;background:var(--bg);z-index:5;border-bottom:1px solid var(--line)}
+.controls{display:flex;flex-wrap:wrap;gap:6px;align-items:center;padding:8px 0 14px;position:sticky;top:0;background:var(--bg);z-index:5;border-bottom:1px solid var(--line)}
 .seg{display:flex;border:1px solid var(--line);border-radius:6px;overflow:hidden}
-.seg button{border:0;background:var(--bg-raise);color:var(--ink-soft);padding:6px 12px;font:600 12px/1 system-ui;letter-spacing:.05em;text-transform:uppercase;cursor:pointer}
+.seg button{border:0;background:var(--bg-raise);color:var(--ink-soft);padding:5px 9px;font:600 11px/1 system-ui;letter-spacing:.04em;text-transform:uppercase;cursor:pointer}
 .seg button.on{background:var(--ink);color:var(--bg)}
-select,input[type=search]{background:var(--bg-raise);color:var(--ink);border:1px solid var(--line);border-radius:6px;padding:6px 9px;font:13px system-ui}
-input[type=search]{flex:1;min-width:140px}
+select,input[type=search]{background:var(--bg-raise);color:var(--ink);border:1px solid var(--line);border-radius:6px;padding:5px 7px;font:12px system-ui;max-width:150px}
+input[type=search]{flex:1;min-width:110px}
+.toggle{border:1px solid var(--line);background:var(--bg-raise);color:var(--ink-soft);border-radius:6px;padding:5px 10px;font:600 11px/1 system-ui;letter-spacing:.04em;text-transform:uppercase;cursor:pointer}
+.toggle.on{background:var(--amber);border-color:var(--amber);color:var(--bg)}
 .count{font-size:12px;color:var(--ink-soft);margin-left:auto;font-variant-numeric:tabular-nums}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:14px;margin-top:16px}
 .card{background:var(--bg-raise);border:1px solid var(--line);border-radius:8px;padding:0 0 14px;display:flex;flex-direction:column;gap:10px;overflow:hidden}
@@ -225,13 +227,13 @@ details li{margin-bottom:4px}
     <option value="other">Other colors</option>
   </select>
   <select id="finishsel"><option value="any">Finish: any</option></select>
-  <select id="locsel"><option value="any">Location: any</option></select>
+  <button id="nybtn" class="toggle" type="button" aria-pressed="false">NY only</button>
   <select id="nutsel">
     <option value="any">Nut: any</option>
-    <option value="narrow">Nut ≤ 1-19/32″ (1.60) — 335 target</option>
+    <option value="narrow">Nut ≤ 1.60″</option>
     <option value="mid">Nut 1.60–1.69″</option>
-    <option value="wide">Nut ≥ 1-11/16″ (1.69) — LP target</option>
-    <option value="unknown">Nut unmeasured</option>
+    <option value="wide">Nut ≥ 1.69″</option>
+    <option value="unknown">Nut n/a</option>
   </select>
   <input type="search" id="q" placeholder="Search model, finish, dealer…">
   <span class="count" id="count"></span>
@@ -324,8 +326,7 @@ function render(){
   if(color!=="any") gs=gs.filter(g=>g.color===color);
   const finish=document.getElementById("finishsel").value;
   if(finish!=="any") gs=gs.filter(g=>g.finish_label===finish);
-  const loc=document.getElementById("locsel").value;
-  if(loc!=="any") gs=gs.filter(g=>g.state===loc);
+  if(nyOnly) gs=gs.filter(g=>g.state==="NY");
   if(status==="live") gs=gs.filter(g=>g.status!=="SOLD"&&g.status!=="EXCLUDED");
   if(nut!=="any") gs=gs.filter(g=>{
     if(nut==="unknown") return g.nut==null;
@@ -360,13 +361,14 @@ function rebuildFinishOptions(){
   sel.value=names.includes(prev)?prev:"any";
 }
 document.getElementById("colorsel").addEventListener("change",rebuildFinishOptions);
-(function(){
-  const counts={};
-  DATA.guitars.forEach(g=>{if(g.state)counts[g.state]=(counts[g.state]||0)+1;});
-  document.getElementById("locsel").innerHTML='<option value="any">Location: any</option>'+
-    Object.keys(counts).sort().map(s=>`<option value="${s}">${s} (${counts[s]})</option>`).join("");
-})();
-["statussel","sortsel","nutsel","colorsel","finishsel","locsel"].forEach(id=>document.getElementById(id).addEventListener("change",render));
+let nyOnly=false;
+document.getElementById("nybtn").addEventListener("click",e=>{
+  nyOnly=!nyOnly;
+  e.currentTarget.classList.toggle("on",nyOnly);
+  e.currentTarget.setAttribute("aria-pressed",String(nyOnly));
+  render();
+});
+["statussel","sortsel","nutsel","colorsel","finishsel"].forEach(id=>document.getElementById(id).addEventListener("change",render));
 rebuildFinishOptions();
 document.getElementById("q").addEventListener("input",render);
 const m=DATA.meta, live=DATA.guitars.filter(g=>g.status!=="SOLD"&&g.status!=="EXCLUDED").length;
