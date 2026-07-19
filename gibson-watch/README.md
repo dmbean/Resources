@@ -19,3 +19,10 @@ Long-running sourcing agent for a Gibson Les Paul and an ES-335. Runs every 24 h
 4. Score new entries with `scripts/score.py`; do forum research (Reddit, The Gear Page, MyLesPaul) for each genuinely new listing and store a 5-bullet summary in the entry's `research` field.
 5. Regenerate `reports/master.csv` and write the dated report.
 6. Notify immediately if: any score > 95; price ≥15% under market; new Norlin ES-335; lightweight R0; Ebony Standard 60s under 8.8 lbs.
+7. Publish the master spreadsheet to Google Drive (Google Drive connector). The buyer's sheet is
+   "Gibson Watch — Master" (ID `1qkYXHpmZeGOpZyGS3-NUzSHwnjUDc7ab_CmWd3XtTr4`,
+   https://docs.google.com/spreadsheets/d/1qkYXHpmZeGOpZyGS3-NUzSHwnjUDc7ab_CmWd3XtTr4/edit).
+   The connector can create but not overwrite files: when the database changed, publish a fresh
+   sheet titled "Gibson Watch — Master (YYYY-MM-DD)" from reports/master.csv and mention it in the
+   run summary; skip if nothing changed. If the Drive connector is unavailable in the run, skip
+   and note it — GitHub's master.csv remains the canonical current version.
