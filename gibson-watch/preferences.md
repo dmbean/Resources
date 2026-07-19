@@ -9,7 +9,8 @@ Training data from the buyer's explicit choices. Update on every reject/favorite
 - Nut 1.695" preferred; 1st fret 0.79–0.82"; 12th fret 0.89–0.92"
 - Shoulders: minimal — SlimTaper, 1960, fast C. No baseball bats, no 10-pounders.
 - Finishes: Ebony, Unburst, Dirty Lemon, Bourbon Burst, Iced Tea
-- Models: Standard 60s, Standard 60s Plain Top, R0, Wildwood Spec, select Custom Shop, interesting Norlins
+- Models: Standard 60s, R0, Wildwood Spec, select Custom Shop, interesting Norlins
+  (~~Standard 60s Plain Top~~ — rejected 2026-07-19, see log)
 
 ### ES-335
 - Weight 7.4–8.0 lbs, ideal 7.5–7.8
@@ -25,3 +26,4 @@ _None yet — no rejections or favorites recorded. Log them below as they happen
 | Date | Guitar (id) | Signal | Inferred preference shift |
 |------|-------------|--------|---------------------------|
 | 2026-07-19 | g014 (1973 ES-335, UK) | Buyer requires continental-US availability | Hard constraint: only lower-48 listings qualify; international/AK/HI/PR excluded at sweep time |
+| 2026-07-19 | g041 (Willcutt Ebony Plain Top) | "Not a fan of the new LP Standard 60s Plain Top" — model rejected | Remove Standard 60s Plain Top from target models; exclude at sweep time. Figured-top Standard 60s remain in scope. Possible weak signal against plain/unfigured tops generally — watch for confirmation before generalizing. |
