@@ -24,3 +24,4 @@ _None yet — no rejections or favorites recorded. Log them below as they happen
 
 | Date | Guitar (id) | Signal | Inferred preference shift |
 |------|-------------|--------|---------------------------|
+| 2026-07-19 | g014 (1973 ES-335, UK) | Buyer requires continental-US availability | Hard constraint: only lower-48 listings qualify; international/AK/HI/PR excluded at sweep time |

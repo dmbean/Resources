@@ -195,7 +195,7 @@ function nutSpec(g){
   return `<div class="spec"><div class="v" title="${g.nut}&quot;">${fracIn(g.nut)}${tick(g.cat,"nut",g.nut)}</div><div class="k">Nut</div></div>`;
 }
 function chipStatus(s){
-  const m={ACTIVE:["active","Active"],"PRICE DROP":["pricedrop","Price drop"],"PRICE INCREASE":["priceup","Price up"],SOLD:["sold","Sold"]};
+  const m={ACTIVE:["active","Active"],"PRICE DROP":["pricedrop","Price drop"],"PRICE INCREASE":["priceup","Price up"],SOLD:["sold","Sold"],EXCLUDED:["sold","Excluded"]};
   const [cls,label]=m[s]||["active",esc(s||"")];
   return `<span class="chip ${cls}">${label}</span>`;
 }
@@ -205,7 +205,7 @@ function card(g){
   const stier = g.score>=88?"hi":(g.score>=75?"mid":"lo");
   const research = g.research ? `<details><summary>Community research</summary><ul>${g.research.map(b=>`<li>${esc(b)}</li>`).join("")}</ul></details>` : "";
   const notes = g.notes ? `<details><summary>Agent notes</summary><div style="margin-top:6px">${esc(g.notes)}</div></details>` : "";
-  return `<div class="card ${g.status==="SOLD"?"sold":""}">
+  return `<div class="card ${(g.status==="SOLD"||g.status==="EXCLUDED")?"sold":""}">
     <div class="toprow">
       <div class="scoreblock"><div class="scorenum ${stier}">${g.score==null?"—":g.score}</div><div class="scorelabel">score</div></div>
       <div class="titleblock">
@@ -242,7 +242,7 @@ function render(){
   const nut=document.getElementById("nutsel").value;
   let gs=DATA.guitars.slice();
   if(cat!=="all") gs=gs.filter(g=>g.cat===cat);
-  if(status==="live") gs=gs.filter(g=>g.status!=="SOLD");
+  if(status==="live") gs=gs.filter(g=>g.status!=="SOLD"&&g.status!=="EXCLUDED");
   if(nut!=="any") gs=gs.filter(g=>{
     if(nut==="unknown") return g.nut==null;
     if(g.nut==null) return false;
@@ -265,7 +265,7 @@ document.getElementById("catseg").addEventListener("click",e=>{
 });
 ["statussel","sortsel","nutsel"].forEach(id=>document.getElementById(id).addEventListener("change",render));
 document.getElementById("q").addEventListener("input",render);
-const m=DATA.meta, live=DATA.guitars.filter(g=>g.status!=="SOLD").length;
+const m=DATA.meta, live=DATA.guitars.filter(g=>g.status!=="SOLD"&&g.status!=="EXCLUDED").length;
 document.getElementById("substat").innerHTML=
   `<b>${live}</b> live listings · <b>${DATA.guitars.length}</b> tracked all-time · last sweep <b>${esc(m.last_run)}</b> · run #<b>${m.run_count}</b> — ● spec in target band, ○ outside`;
 render();

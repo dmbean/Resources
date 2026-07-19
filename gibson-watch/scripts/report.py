@@ -43,7 +43,7 @@ def main():
     with open(DB) as f:
         db = json.load(f)
     gs = db["guitars"]
-    active = [g for g in gs if g.get("status") not in ("SOLD",)]
+    active = [g for g in gs if g.get("status") not in ("SOLD", "EXCLUDED")]
     prev_best = dict(db["meta"].get("current_best") or {})
 
     out = ["# Gibson Watch — Daily Report — %s" % date, ""]
