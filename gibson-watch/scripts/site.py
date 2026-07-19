@@ -152,6 +152,13 @@ details li{margin-bottom:4px}
     <option value="weight">Sort: weight (low → high)</option>
     <option value="new">Sort: newest find</option>
   </select>
+  <select id="nutsel">
+    <option value="any">Nut: any</option>
+    <option value="narrow">Nut ≤ 1-19/32″ (1.60) — 335 target</option>
+    <option value="mid">Nut 1.60–1.69″</option>
+    <option value="wide">Nut ≥ 1-11/16″ (1.69) — LP target</option>
+    <option value="unknown">Nut unmeasured</option>
+  </select>
   <input type="search" id="q" placeholder="Search model, finish, dealer…">
   <span class="count" id="count"></span>
 </div>
@@ -173,6 +180,19 @@ function tick(cat,key,v){
 function spec(cat,key,label,v,unit){
   const shown = v==null ? "—" : (typeof v==="number"? v : esc(v));
   return `<div class="spec"><div class="v">${shown}${v!=null&&unit?unit:""}${typeof v==="number"?tick(cat,key,v):""}</div><div class="k">${label}</div></div>`;
+}
+function fracIn(v){
+  // nearest 32nd; prefer the familiar fraction form dealers use
+  const whole=Math.floor(v), n32=Math.round((v-whole)*32);
+  if(Math.abs((whole+n32/32)-v)>0.004) return v+"″";           // not close to a clean fraction
+  if(n32===0) return whole+"″";
+  if(n32===32) return (whole+1)+"″";
+  let n=n32,d=32; while(n%2===0){n/=2;d/=2;}
+  return `${whole} ${n}/${d}″`;
+}
+function nutSpec(g){
+  if(g.nut==null) return `<div class="spec"><div class="v">—</div><div class="k">Nut</div></div>`;
+  return `<div class="spec"><div class="v" title="${g.nut}&quot;">${fracIn(g.nut)}${tick(g.cat,"nut",g.nut)}</div><div class="k">Nut</div></div>`;
 }
 function chipStatus(s){
   const m={ACTIVE:["active","Active"],"PRICE DROP":["pricedrop","Price drop"],"PRICE INCREASE":["priceup","Price up"],SOLD:["sold","Sold"]};
@@ -196,7 +216,7 @@ function card(g){
     <div class="chips"><span class="chip ${cls[0]}">${cls[1]}</span>${chipStatus(g.status)}${isNew?'<span class="chip newtoday">New today</span>':""}</div>
     <div class="specs">
       ${spec(g.cat,"weight","Weight",g.weight," lb")}
-      ${spec(g.cat,"nut","Nut",g.nut,"″")}
+      ${nutSpec(g)}
       ${spec(g.cat,"f1","1st fret",g.f1,"″")}
       ${spec(g.cat,"f12","12th fret",g.f12,"″")}
     </div>
@@ -219,9 +239,17 @@ function render(){
   const status=document.getElementById("statussel").value;
   const sort=document.getElementById("sortsel").value;
   const q=document.getElementById("q").value.trim().toLowerCase();
+  const nut=document.getElementById("nutsel").value;
   let gs=DATA.guitars.slice();
   if(cat!=="all") gs=gs.filter(g=>g.cat===cat);
   if(status==="live") gs=gs.filter(g=>g.status!=="SOLD");
+  if(nut!=="any") gs=gs.filter(g=>{
+    if(nut==="unknown") return g.nut==null;
+    if(g.nut==null) return false;
+    if(nut==="narrow") return g.nut<=1.60;
+    if(nut==="mid")    return g.nut>1.60&&g.nut<1.6875;
+    return g.nut>=1.6875;               // wide
+  });
   if(q) gs=gs.filter(g=>[g.model,g.finish,g.dealer,g.loc,g.pickups,g.year,g.profile].join(" ").toLowerCase().includes(q));
   const key={score:g=>-(g.score??-1),price:g=>g.price??1e9,weight:g=>g.weight??1e9,new:g=>g.found?-Date.parse(g.found):0}[sort];
   gs.sort((a,b)=>key(a)<key(b)?-1:key(a)>key(b)?1:0);
@@ -235,7 +263,7 @@ document.getElementById("catseg").addEventListener("click",e=>{
   document.querySelectorAll("#catseg button").forEach(x=>x.classList.toggle("on",x===b));
   render();
 });
-["statussel","sortsel"].forEach(id=>document.getElementById(id).addEventListener("change",render));
+["statussel","sortsel","nutsel"].forEach(id=>document.getElementById(id).addEventListener("change",render));
 document.getElementById("q").addEventListener("input",render);
 const m=DATA.meta, live=DATA.guitars.filter(g=>g.status!=="SOLD").length;
 document.getElementById("substat").innerHTML=
