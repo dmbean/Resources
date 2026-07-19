@@ -878,6 +878,72 @@
       ]
     },
     {
+      "dealer": "Reverb \u2013 The Music Emporium",
+      "url": "https://reverb.com/item/98285616-gibson-es-335td-cherry-sunburst-1972",
+      "price_usd": 5000,
+      "condition": "Very Good",
+      "city_state": "Lexington, MA",
+      "year": 1972,
+      "model": "Gibson ES-335TD",
+      "finish": "Cherry Sunburst (heavily faded to iced-tea)",
+      "serial": "745730",
+      "weight_lbs": 7.875,
+      "nut_width_in": 1.5625,
+      "fret1_depth_in": 0.8,
+      "fret12_depth_in": 0.95,
+      "neck_profile": "Slim Taper C",
+      "shoulder_description": null,
+      "fingerboard_radius": "12\"",
+      "pickups": "Original Pat # T-Tops",
+      "case_included": "Original hardshell case",
+      "modifications": "None - all original throughout, original nut",
+      "measurements_source": "dealer measured",
+      "notes": "Reverb item 98285616. 7 lb 14 oz. Original medium jumbo frets low but playable. ABR-1 with trapeze. Strong all-original example in ideal weight/depth window.",
+      "category": "es_335",
+      "id": "g068",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "es-335 norlin",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 5000
+        }
+      ],
+      "research_cluster": "norlin-335-early",
+      "research": [
+        "Neck feel: 1972-75 necks are generally slim-to-medium with the Norlin headstock volute and 3-piece construction (mahogany transitioning to maple ~1975); profiles vary but rarely reach 50s chunkiness.",
+        "Pickups: T-Tops throughout \u2014 clear, tight, slightly brighter than PAFs, less midrange complexity but excellent clean and edge-of-breakup; many examples have had swaps over 50 years.",
+        "Known issues: classic Norlin gripes \u2014 weight creep on some, crooked neck sets, mediocre fretwork, sunken tops around the bridge on some examples, the volute, and hit-or-miss quality declining through the decade.",
+        "Market/value: the affordable entry into vintage 335s \u2014 early-70s examples trade far below dot-necks; 'great for the money if you play it first' consensus; clean, light, straight-necked examples appreciating modestly.",
+        "Verify before buying: neck set straightness, top sinking under the bridge, actual weight, volute-area crack/repair, T-Top originality (DCR ~7.5k), and confirm year via pot codes since Norlin serials are notoriously ambiguous."
+      ],
+      "score": 91.0,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 92.5,
+          "note": "weight 7.875 lbs"
+        },
+        "neck_35pct": {
+          "score": 90.0,
+          "note": "nut ok (100); 1st fret ok (100); 12th fret ok (70)"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: 'slim taper c'"
+        },
+        "condition_10pct": {
+          "score": 82.0,
+          "note": "very good"
+        },
+        "price_5pct": {
+          "score": 90.0,
+          "note": "at/under anchor"
+        }
+      }
+    },
+    {
       "dealer": "Reverb \u2013 Cliff's Guitar World",
       "url": "https://reverb.com/item/97541902-1997-gibson-historic-les-paul-1960-re-issue-r0",
       "price_usd": 7500,
@@ -1008,6 +1074,72 @@
         "Market/value: reasonably collectible one-year anniversary run with hand-selected specs; sells used around or slightly above standard R0 money; clean V2 examples resell more easily than V3 (very slim neck narrows the buyer pool).",
         "Verify before buying: which neck version it actually is (get caliper measurements \u2014 V2/V3 mislabeling is common on Reverb), COA/anniversary paperwork, weight, anniversary-correct knobs/plastics, and unmodified unpotted pickups."
       ]
+    },
+    {
+      "dealer": "Reverb \u2013 Guitar Maniacs",
+      "url": "https://reverb.com/item/99233772-1974-gibson-es-335tdc-cherry",
+      "price_usd": 5995,
+      "condition": "Very Good",
+      "city_state": "Tacoma, WA",
+      "year": 1974,
+      "model": "Gibson ES-335TDC",
+      "finish": "Cherry",
+      "serial": null,
+      "weight_lbs": 7.56,
+      "nut_width_in": 1.5625,
+      "fret1_depth_in": 0.8,
+      "fret12_depth_in": 0.97,
+      "neck_profile": "Medium slim-taper C",
+      "shoulder_description": null,
+      "fingerboard_radius": "12\"",
+      "pickups": "Original patent-sticker humbuckers",
+      "case_included": "Original hardshell case",
+      "modifications": "None known - all original per seller",
+      "measurements_source": "dealer measured",
+      "notes": "Reverb item 99233772. 7 lb 9 oz. ABR-1 with trapeze. Frets have wider flat crowns with light B-string grooving but good life left. Ideal 1st-fret depth (0.800).",
+      "category": "es_335",
+      "id": "g069",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "es-335 norlin",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 5995
+        }
+      ],
+      "research_cluster": "norlin-335-early",
+      "research": [
+        "Neck feel: 1972-75 necks are generally slim-to-medium with the Norlin headstock volute and 3-piece construction (mahogany transitioning to maple ~1975); profiles vary but rarely reach 50s chunkiness.",
+        "Pickups: T-Tops throughout \u2014 clear, tight, slightly brighter than PAFs, less midrange complexity but excellent clean and edge-of-breakup; many examples have had swaps over 50 years.",
+        "Known issues: classic Norlin gripes \u2014 weight creep on some, crooked neck sets, mediocre fretwork, sunken tops around the bridge on some examples, the volute, and hit-or-miss quality declining through the decade.",
+        "Market/value: the affordable entry into vintage 335s \u2014 early-70s examples trade far below dot-necks; 'great for the money if you play it first' consensus; clean, light, straight-necked examples appreciating modestly.",
+        "Verify before buying: neck set straightness, top sinking under the bridge, actual weight, volute-area crack/repair, T-Top originality (DCR ~7.5k), and confirm year via pot codes since Norlin serials are notoriously ambiguous."
+      ],
+      "score": 89.4,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 7.56 lbs"
+        },
+        "neck_35pct": {
+          "score": 83.3,
+          "note": "nut ok (100); 1st fret ok (100); 12th fret ok (50)"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: 'medium slim-taper c'"
+        },
+        "condition_10pct": {
+          "score": 82.0,
+          "note": "very good"
+        },
+        "price_5pct": {
+          "score": 60.2,
+          "note": "well above anchor"
+        }
+      }
     },
     {
       "dealer": "Dave's Guitar Shop",
@@ -1274,6 +1406,72 @@
       ]
     },
     {
+      "dealer": "Reverb \u2013 Imperial Vintage Guitars",
+      "url": "https://reverb.com/item/94378831-1972-gibson-es-335td-walnut-finish-w-ohsc",
+      "price_usd": 5995,
+      "condition": "Excellent",
+      "city_state": "Sherman Oaks, CA",
+      "year": 1972,
+      "model": "Gibson ES-335TD",
+      "finish": "Walnut",
+      "serial": null,
+      "weight_lbs": 7.56,
+      "nut_width_in": 1.5625,
+      "fret1_depth_in": 0.77,
+      "fret12_depth_in": 1.0,
+      "neck_profile": "Slim mahogany neck",
+      "shoulder_description": null,
+      "fingerboard_radius": null,
+      "pickups": "Original Pat No. T-Top humbuckers, original electronics",
+      "case_included": "Original hardshell case",
+      "modifications": "Reproduction tuners, custom half-brass nut, Gibson replacement harmonica bridge (original TOM included), small hairline fracture on back, engraved truss rod cover",
+      "measurements_source": "dealer measured",
+      "notes": "Reverb item 94378831. 7 lb 9 oz with ideal 1st-fret depth 0.77. Includes original 1975 bill of sale. Note the brass nut and back hairline when negotiating.",
+      "category": "es_335",
+      "id": "g076",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "es-335 norlin",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 5995
+        }
+      ],
+      "research_cluster": "norlin-335-early",
+      "research": [
+        "Neck feel: 1972-75 necks are generally slim-to-medium with the Norlin headstock volute and 3-piece construction (mahogany transitioning to maple ~1975); profiles vary but rarely reach 50s chunkiness.",
+        "Pickups: T-Tops throughout \u2014 clear, tight, slightly brighter than PAFs, less midrange complexity but excellent clean and edge-of-breakup; many examples have had swaps over 50 years.",
+        "Known issues: classic Norlin gripes \u2014 weight creep on some, crooked neck sets, mediocre fretwork, sunken tops around the bridge on some examples, the volute, and hit-or-miss quality declining through the decade.",
+        "Market/value: the affordable entry into vintage 335s \u2014 early-70s examples trade far below dot-necks; 'great for the money if you play it first' consensus; clean, light, straight-necked examples appreciating modestly.",
+        "Verify before buying: neck set straightness, top sinking under the bridge, actual weight, volute-area crack/repair, T-Top originality (DCR ~7.5k), and confirm year via pot codes since Norlin serials are notoriously ambiguous."
+      ],
+      "score": 86.9,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 7.56 lbs"
+        },
+        "neck_35pct": {
+          "score": 73.3,
+          "note": "nut ok (100); 1st fret ok (100); 12th fret ok (20)"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: 'slim mahogany neck'"
+        },
+        "condition_10pct": {
+          "score": 92.0,
+          "note": "excellent"
+        },
+        "price_5pct": {
+          "score": 60.2,
+          "note": "well above anchor"
+        }
+      }
+    },
+    {
       "dealer": "Reverb \u2013 In Bloom Guitars",
       "url": "https://reverb.com/item/98163808-1973-gibson-es-335-custom-colour-factory-black-w-bigsby-mod-t-tops-ohsc-rare",
       "price_usd": 6535.1,
@@ -1338,6 +1536,204 @@
         "Market/value: the affordable entry into vintage 335s \u2014 early-70s examples trade far below dot-necks; 'great for the money if you play it first' consensus; clean, light, straight-necked examples appreciating modestly.",
         "Verify before buying: neck set straightness, top sinking under the bridge, actual weight, volute-area crack/repair, T-Top originality (DCR ~7.5k), and confirm year via pot codes since Norlin serials are notoriously ambiguous."
       ]
+    },
+    {
+      "dealer": "Reverb \u2013 Gary's Gear Locker (private seller)",
+      "url": "https://reverb.com/item/94790595-gibson-es-335td-1971-cherry-all-original",
+      "price_usd": 5499,
+      "condition": "Excellent",
+      "city_state": "Brentwood, TN",
+      "year": 1971,
+      "model": "Gibson ES-335TD",
+      "finish": "Cherry",
+      "serial": null,
+      "weight_lbs": 7.56,
+      "nut_width_in": 1.5625,
+      "fret1_depth_in": null,
+      "fret12_depth_in": null,
+      "neck_profile": "Narrow-nut era neck with volute",
+      "shoulder_description": null,
+      "fingerboard_radius": null,
+      "pickups": "Original Pat # sticker humbuckers (neck 8.0k, bridge 7.58k)",
+      "case_included": "Period-correct hardshell case (possibly original)",
+      "modifications": "None - all original; one ding, micro-checking",
+      "measurements_source": "dealer measured",
+      "notes": "Reverb item 94790595. 7 lb 9 oz. Recent setup with 10s. Private collector downsizing; also listed locally, may move fast.",
+      "category": "es_335",
+      "id": "g070",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "es-335 norlin",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 5499
+        }
+      ],
+      "research_cluster": "norlin-335-early",
+      "research": [
+        "Neck feel: 1972-75 necks are generally slim-to-medium with the Norlin headstock volute and 3-piece construction (mahogany transitioning to maple ~1975); profiles vary but rarely reach 50s chunkiness.",
+        "Pickups: T-Tops throughout \u2014 clear, tight, slightly brighter than PAFs, less midrange complexity but excellent clean and edge-of-breakup; many examples have had swaps over 50 years.",
+        "Known issues: classic Norlin gripes \u2014 weight creep on some, crooked neck sets, mediocre fretwork, sunken tops around the bridge on some examples, the volute, and hit-or-miss quality declining through the decade.",
+        "Market/value: the affordable entry into vintage 335s \u2014 early-70s examples trade far below dot-necks; 'great for the money if you play it first' consensus; clean, light, straight-necked examples appreciating modestly.",
+        "Verify before buying: neck set straightness, top sinking under the bridge, actual weight, volute-area crack/repair, T-Top originality (DCR ~7.5k), and confirm year via pot codes since Norlin serials are notoriously ambiguous."
+      ],
+      "score": 84.1,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 7.56 lbs"
+        },
+        "neck_35pct": {
+          "score": 84.0,
+          "note": "nut ok (100); 1st fret unmeasured; 12th fret unmeasured"
+        },
+        "shoulders_20pct": {
+          "score": 60.0,
+          "note": "profile unclear: 'narrow-nut era neck with volute'"
+        },
+        "condition_10pct": {
+          "score": 92.0,
+          "note": "excellent"
+        },
+        "price_5pct": {
+          "score": 70.0,
+          "note": "slightly above anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Reverb \u2013 Mike & Mike's Guitar Bar",
+      "url": "https://reverb.com/item/97842585-1969-gibson-es-335-tdc-vintage-guitar-cherry-stoptail-conversion-w-pat-t-tops-case",
+      "price_usd": 8499.99,
+      "condition": "Excellent",
+      "city_state": "Seattle, WA",
+      "year": 1969,
+      "model": "Gibson ES-335TDC",
+      "finish": "Cherry",
+      "serial": null,
+      "weight_lbs": 7.875,
+      "nut_width_in": 1.5625,
+      "fret1_depth_in": 0.795,
+      "fret12_depth_in": 0.955,
+      "neck_profile": "Slender C, 3-piece mahogany, medium volute",
+      "shoulder_description": null,
+      "fingerboard_radius": null,
+      "pickups": "Original Pat # T-Top humbuckers (neck 7.55k, bridge 7.65k)",
+      "case_included": "Original black tolex hardshell case",
+      "modifications": "Stopbar tailpiece conversion (trapeze holes doweled), modern vintage-spec Kluson tuners, frets leveled/crowned",
+      "measurements_source": "dealer measured",
+      "notes": "Reverb item 97842585. 7 lb 14 oz. Ideal 1st-fret depth 0.795. Same guitar also live as duplicate Reverb listing 93473088 from the same shop.",
+      "category": "es_335",
+      "id": "g072",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "es-335 vintage",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 8499.99
+        }
+      ],
+      "research_cluster": "norlin-335-early",
+      "research": [
+        "Neck feel: 1972-75 necks are generally slim-to-medium with the Norlin headstock volute and 3-piece construction (mahogany transitioning to maple ~1975); profiles vary but rarely reach 50s chunkiness.",
+        "Pickups: T-Tops throughout \u2014 clear, tight, slightly brighter than PAFs, less midrange complexity but excellent clean and edge-of-breakup; many examples have had swaps over 50 years.",
+        "Known issues: classic Norlin gripes \u2014 weight creep on some, crooked neck sets, mediocre fretwork, sunken tops around the bridge on some examples, the volute, and hit-or-miss quality declining through the decade.",
+        "Market/value: the affordable entry into vintage 335s \u2014 early-70s examples trade far below dot-necks; 'great for the money if you play it first' consensus; clean, light, straight-necked examples appreciating modestly.",
+        "Verify before buying: neck set straightness, top sinking under the bridge, actual weight, volute-area crack/repair, T-Top originality (DCR ~7.5k), and confirm year via pot codes since Norlin serials are notoriously ambiguous."
+      ],
+      "score": 83.4,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 92.5,
+          "note": "weight 7.875 lbs"
+        },
+        "neck_35pct": {
+          "score": 88.3,
+          "note": "nut ok (100); 1st fret ok (100); 12th fret ok (65)"
+        },
+        "shoulders_20pct": {
+          "score": 60.0,
+          "note": "profile unclear: 'slender c, 3-piece mahogany, medium volute'"
+        },
+        "condition_10pct": {
+          "score": 92.0,
+          "note": "excellent"
+        },
+        "price_5pct": {
+          "score": 70.0,
+          "note": "slightly above anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Reverb \u2013 Thunder Road Guitars PDX",
+      "url": "https://reverb.com/item/95830562-1967-gibson-es-335-cherry-all-original-guitar-097033",
+      "price_usd": 10999,
+      "condition": "Excellent",
+      "city_state": "Portland, OR",
+      "year": 1967,
+      "model": "Gibson ES-335TD",
+      "finish": "Cherry",
+      "serial": "097033",
+      "weight_lbs": 7.69,
+      "nut_width_in": 1.5625,
+      "fret1_depth_in": 0.82,
+      "fret12_depth_in": 1.03,
+      "neck_profile": "Mahogany neck, thin 60s carve",
+      "shoulder_description": null,
+      "fingerboard_radius": "12\"",
+      "pickups": "2 Patent # decal humbuckers, CTS pots dated 1966",
+      "case_included": "Newer non-original hardshell case",
+      "modifications": "None - all original (trapeze, ABR-1 with nylon saddles)",
+      "measurements_source": "dealer measured",
+      "notes": "Reverb item 95830562. 7 lb 11 oz. Pre-volute one-piece-neck era, 1 9/16 synthetic nut, low wide frets in excellent condition. 1st fret 0.82 at top of ideal range.",
+      "category": "es_335",
+      "id": "g071",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "es-335 vintage",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 10999
+        }
+      ],
+      "research_cluster": "norlin-335-early",
+      "research": [
+        "Neck feel: 1972-75 necks are generally slim-to-medium with the Norlin headstock volute and 3-piece construction (mahogany transitioning to maple ~1975); profiles vary but rarely reach 50s chunkiness.",
+        "Pickups: T-Tops throughout \u2014 clear, tight, slightly brighter than PAFs, less midrange complexity but excellent clean and edge-of-breakup; many examples have had swaps over 50 years.",
+        "Known issues: classic Norlin gripes \u2014 weight creep on some, crooked neck sets, mediocre fretwork, sunken tops around the bridge on some examples, the volute, and hit-or-miss quality declining through the decade.",
+        "Market/value: the affordable entry into vintage 335s \u2014 early-70s examples trade far below dot-necks; 'great for the money if you play it first' consensus; clean, light, straight-necked examples appreciating modestly.",
+        "Verify before buying: neck set straightness, top sinking under the bridge, actual weight, volute-area crack/repair, T-Top originality (DCR ~7.5k), and confirm year via pot codes since Norlin serials are notoriously ambiguous."
+      ],
+      "score": 82.8,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 7.69 lbs"
+        },
+        "neck_35pct": {
+          "score": 66.7,
+          "note": "nut ok (100); 1st fret ok (100); 12th fret ok (0)"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: 'mahogany neck, thin 60s carve'"
+        },
+        "condition_10pct": {
+          "score": 92.0,
+          "note": "excellent"
+        },
+        "price_5pct": {
+          "score": 25.0,
+          "note": "well above anchor"
+        }
+      }
     },
     {
       "dealer": "Carter Vintage Guitars",
@@ -2322,6 +2718,72 @@
       ]
     },
     {
+      "dealer": "Reverb \u2013 Mike & Mike's Guitar Bar",
+      "url": "https://reverb.com/item/99332402-1978-gibson-es-335-vintage-semi-hollow-guitar-sunburst-w-tarbacks-coil-tap-case",
+      "price_usd": 4799.99,
+      "condition": "Excellent",
+      "city_state": "Seattle, WA",
+      "year": 1976,
+      "model": "Gibson ES-335TD",
+      "finish": "Sunburst",
+      "serial": "00-prefix (1976)",
+      "weight_lbs": 8.0,
+      "nut_width_in": 1.5625,
+      "fret1_depth_in": 0.835,
+      "fret12_depth_in": 1.015,
+      "neck_profile": "Medium C, 3-piece maple",
+      "shoulder_description": null,
+      "fingerboard_radius": null,
+      "pickups": "Original Tarback humbuckers with factory two-way global coil-tap switch",
+      "case_included": "Vintage hardshell case (not original)",
+      "modifications": "Bone nut upgrade (cut to 1 9/16), professional refret with medium jumbo wire; otherwise 100% original",
+      "measurements_source": "dealer measured",
+      "notes": "Reverb item 99332402. Title says 1978 but dealer serial dating says 1976. Weight exactly 8.0 lbs; 1st fret 0.835 slightly above ideal. Exceptionally clean finish.",
+      "category": "es_335",
+      "id": "g077",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "es-335 norlin",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 4799.99
+        }
+      ],
+      "research_cluster": "norlin-335-late",
+      "research": [
+        "Neck feel: 1976-80 335s move to 3-piece maple necks with volute \u2014 profiles range slim to fuller medium C late in the decade; maple neck plus heavier build gives a stiffer, brighter-feeling instrument; 1977+ adds a coil-tap mini switch.",
+        "Pickups: Bill Lawrence-designed 'tarback' (epoxy-potted, ceramic) humbuckers with unusually low DCR \u2014 fans call them fat, clear 'super humbuckers'; detractors find them sterile; originals now sought-after on the parts market.",
+        "Known issues: weight is the era's defining problem \u2014 many run 8.5-10 lbs; also the volute, thick finishes, occasional sunken tops, sloppy binding/fret finishing, and commonly-swapped harnesses.",
+        "Market/value: cheapest vintage 335 window along with the early 80s \u2014 treated as gigging vintage rather than collectible; original-tarback examples have a small cult following that supports value.",
+        "Verify before buying: weight on a scale, original tarbacks (check DCR), coil-tap switch function and un-butchered wiring, neck angle/top sinking, volute-area crack repairs, finish originality."
+      ],
+      "score": 76.0,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 80.0,
+          "note": "weight 8.0 lbs"
+        },
+        "neck_35pct": {
+          "score": 55.0,
+          "note": "nut ok (100); 1st fret ok (60); 12th fret ok (5)"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: 'medium c, 3-piece maple'"
+        },
+        "condition_10pct": {
+          "score": 92.0,
+          "note": "excellent"
+        },
+        "price_5pct": {
+          "score": 90.0,
+          "note": "at/under anchor"
+        }
+      }
+    },
+    {
       "dealer": "Chicago Music Exchange",
       "url": "https://chicagomusicexchange.com/products/gibson-es-335-black-1968-2520236",
       "price_usd": 20358,
@@ -2442,6 +2904,72 @@
         "price_5pct": {
           "score": 100.0,
           "note": "46% under anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Reverb \u2013 SS Vintage",
+      "url": "https://reverb.com/item/98427889-gibson-es-335-1979-factory-black-100-original",
+      "price_usd": 6950,
+      "condition": "Very Good",
+      "city_state": "Chicago, IL",
+      "year": 1979,
+      "model": "Gibson ES-335TD",
+      "finish": "Factory Black (Ebony)",
+      "serial": null,
+      "weight_lbs": 8.0,
+      "nut_width_in": 1.5625,
+      "fret1_depth_in": null,
+      "fret12_depth_in": null,
+      "neck_profile": "Comfortable medium profile",
+      "shoulder_description": null,
+      "fingerboard_radius": null,
+      "pickups": "Original Tarback humbuckers with factory coil-split toggle",
+      "case_included": "Original hardshell case plus original hang tags",
+      "modifications": "None - 100% original, no breaks/cracks/repairs",
+      "measurements_source": "dealer measured",
+      "notes": "Reverb item 98427889. Rare factory black late-70s example. Weight exactly 8.0 lbs (top of preferred range). Pro setup before shipping; free domestic shipping.",
+      "category": "es_335",
+      "id": "g074",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "es-335 norlin",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 6950
+        }
+      ],
+      "research_cluster": "norlin-335-late",
+      "research": [
+        "Neck feel: 1976-80 335s move to 3-piece maple necks with volute \u2014 profiles range slim to fuller medium C late in the decade; maple neck plus heavier build gives a stiffer, brighter-feeling instrument; 1977+ adds a coil-tap mini switch.",
+        "Pickups: Bill Lawrence-designed 'tarback' (epoxy-potted, ceramic) humbuckers with unusually low DCR \u2014 fans call them fat, clear 'super humbuckers'; detractors find them sterile; originals now sought-after on the parts market.",
+        "Known issues: weight is the era's defining problem \u2014 many run 8.5-10 lbs; also the volute, thick finishes, occasional sunken tops, sloppy binding/fret finishing, and commonly-swapped harnesses.",
+        "Market/value: cheapest vintage 335 window along with the early 80s \u2014 treated as gigging vintage rather than collectible; original-tarback examples have a small cult following that supports value.",
+        "Verify before buying: weight on a scale, original tarbacks (check DCR), coil-tap switch function and un-butchered wiring, neck angle/top sinking, volute-area crack repairs, finish originality."
+      ],
+      "score": 74.7,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 80.0,
+          "note": "weight 8.0 lbs"
+        },
+        "neck_35pct": {
+          "score": 84.0,
+          "note": "nut ok (100); 1st fret unmeasured; 12th fret unmeasured"
+        },
+        "shoulders_20pct": {
+          "score": 60.0,
+          "note": "profile unclear: 'comfortable medium profile'"
+        },
+        "condition_10pct": {
+          "score": 82.0,
+          "note": "very good"
+        },
+        "price_5pct": {
+          "score": 22.0,
+          "note": "well above anchor"
         }
       }
     },
@@ -2578,6 +3106,72 @@
       ]
     },
     {
+      "dealer": "Reverb \u2013 Rock N Roll Vintage & Synth City",
+      "url": "https://reverb.com/item/98179752-gibson-es-335-tdc-1969-cherry",
+      "price_usd": 8995,
+      "condition": "Very Good",
+      "city_state": "Chicago, IL",
+      "year": 1969,
+      "model": "Gibson ES-335TDC",
+      "finish": "Cherry",
+      "serial": null,
+      "weight_lbs": 7.55,
+      "nut_width_in": 1.57,
+      "fret1_depth_in": 0.811,
+      "fret12_depth_in": 1.01,
+      "neck_profile": null,
+      "shoulder_description": null,
+      "fingerboard_radius": null,
+      "pickups": "Original pickups (1969 patent-sticker era)",
+      "case_included": "Not stated in listing - confirm with dealer",
+      "modifications": "None stated; described as minty with impeccably clean finish",
+      "measurements_source": "dealer measured",
+      "notes": "Reverb item 98179752. Excellent weight (7.55) and ideal 1st-fret depth (0.811). Sparse description - verify pickup type and case before purchase.",
+      "category": "es_335",
+      "id": "g073",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "es-335 vintage",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 8995
+        }
+      ],
+      "research_cluster": "norlin-335-early",
+      "research": [
+        "Neck feel: 1972-75 necks are generally slim-to-medium with the Norlin headstock volute and 3-piece construction (mahogany transitioning to maple ~1975); profiles vary but rarely reach 50s chunkiness.",
+        "Pickups: T-Tops throughout \u2014 clear, tight, slightly brighter than PAFs, less midrange complexity but excellent clean and edge-of-breakup; many examples have had swaps over 50 years.",
+        "Known issues: classic Norlin gripes \u2014 weight creep on some, crooked neck sets, mediocre fretwork, sunken tops around the bridge on some examples, the volute, and hit-or-miss quality declining through the decade.",
+        "Market/value: the affordable entry into vintage 335s \u2014 early-70s examples trade far below dot-necks; 'great for the money if you play it first' consensus; clean, light, straight-necked examples appreciating modestly.",
+        "Verify before buying: neck set straightness, top sinking under the bridge, actual weight, volute-area crack/repair, T-Top originality (DCR ~7.5k), and confirm year via pot codes since Norlin serials are notoriously ambiguous."
+      ],
+      "score": 73.7,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 7.55 lbs"
+        },
+        "neck_35pct": {
+          "score": 68.7,
+          "note": "nut ok (96); 1st fret ok (100); 12th fret ok (10)"
+        },
+        "shoulders_20pct": {
+          "score": 40.0,
+          "note": "no shoulder/profile info"
+        },
+        "condition_10pct": {
+          "score": 82.0,
+          "note": "very good"
+        },
+        "price_5pct": {
+          "score": 70.0,
+          "note": "slightly above anchor"
+        }
+      }
+    },
+    {
       "dealer": "Chicago Music Exchange",
       "url": "https://chicagomusicexchange.com/products/gibson-custom-60-les-paul-standard-reissue-cherry-2613097",
       "price_usd": 4395,
@@ -2642,6 +3236,72 @@
         "Market/value: the 2019 'reformulated' Historic line is considered the best regular-production era since True Historic; R0s trade slightly below equivalent R9s and hold value well used at roughly 60-75% of street; dealer-spec examples carry a modest resale premium.",
         "Verify before buying: actual neck measurements (V2 vs V3 vs V1 \u2014 dealer listings are often wrong; ask for 1st/12th fret caliper numbers), weight, COA and case candy, serial format, no headstock repair under aging, and original unpotted Custombuckers."
       ]
+    },
+    {
+      "dealer": "Reverb \u2013 Imperial Vintage Guitars",
+      "url": "https://reverb.com/item/97804214-1976-gibson-es-335td-walnut-w-hsc",
+      "price_usd": 4495,
+      "condition": "Good",
+      "city_state": "San Diego, CA",
+      "year": 1976,
+      "model": "Gibson ES-335TD",
+      "finish": "Walnut",
+      "serial": null,
+      "weight_lbs": 7.81,
+      "nut_width_in": 1.5625,
+      "fret1_depth_in": 0.83,
+      "fret12_depth_in": 1.06,
+      "neck_profile": "C shape, 3-piece maple",
+      "shoulder_description": null,
+      "fingerboard_radius": null,
+      "pickups": "Original Tarback humbuckers",
+      "case_included": "Period-correct Gibson hardshell case",
+      "modifications": "Grovers previously installed (original tuners reinstalled), D-string tuner shaft slightly bent, finish touch-up near upper f-hole",
+      "measurements_source": "dealer measured",
+      "notes": "Reverb item 97804214. 7 lb 13 oz - best value of the group. 1st fret 0.83 just above ideal window. Nashville TOM with stop tailpiece.",
+      "category": "es_335",
+      "id": "g075",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "es-335 norlin",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 4495
+        }
+      ],
+      "research_cluster": "norlin-335-late",
+      "research": [
+        "Neck feel: 1976-80 335s move to 3-piece maple necks with volute \u2014 profiles range slim to fuller medium C late in the decade; maple neck plus heavier build gives a stiffer, brighter-feeling instrument; 1977+ adds a coil-tap mini switch.",
+        "Pickups: Bill Lawrence-designed 'tarback' (epoxy-potted, ceramic) humbuckers with unusually low DCR \u2014 fans call them fat, clear 'super humbuckers'; detractors find them sterile; originals now sought-after on the parts market.",
+        "Known issues: weight is the era's defining problem \u2014 many run 8.5-10 lbs; also the volute, thick finishes, occasional sunken tops, sloppy binding/fret finishing, and commonly-swapped harnesses.",
+        "Market/value: cheapest vintage 335 window along with the early 80s \u2014 treated as gigging vintage rather than collectible; original-tarback examples have a small cult following that supports value.",
+        "Verify before buying: weight on a scale, original tarbacks (check DCR), coil-tap switch function and un-butchered wiring, neck angle/top sinking, volute-area crack repairs, finish originality."
+      ],
+      "score": 72.6,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 99.0,
+          "note": "weight 7.81 lbs"
+        },
+        "neck_35pct": {
+          "score": 55.6,
+          "note": "nut ok (100); 1st fret ok (67); 12th fret ok (0)"
+        },
+        "shoulders_20pct": {
+          "score": 60.0,
+          "note": "profile unclear: 'c shape, 3-piece maple'"
+        },
+        "condition_10pct": {
+          "score": 70.0,
+          "note": "good"
+        },
+        "price_5pct": {
+          "score": 90.0,
+          "note": "at/under anchor"
+        }
+      }
     },
     {
       "dealer": "Reverb \u2013 Guitar Riot",
