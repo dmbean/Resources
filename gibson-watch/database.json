@@ -8,5 +8,3892 @@
       "es_335": null
     }
   },
-  "guitars": []
+  "guitars": [
+    {
+      "dealer": "Dave's Guitar Shop",
+      "url": "https://davesguitar.com/products/les-paul-standard-35",
+      "price_usd": 1850,
+      "condition": "Used - Very Good",
+      "city_state": "La Crosse, WI",
+      "year": 2012,
+      "model": "Gibson Les Paul Standard",
+      "finish": "Pelham Blue",
+      "serial": null,
+      "weight_lbs": 8.8,
+      "nut_width_in": 1.6875,
+      "fret1_depth_in": 0.81,
+      "fret12_depth_in": 0.89,
+      "neck_profile": "SlimTaper",
+      "shoulder_description": null,
+      "fingerboard_radius": "12\"",
+      "pickups": "Gibson Lead Pro (bridge) / Rhy Pro (neck), push-pull coil tap and phase",
+      "case_included": true,
+      "modifications": "None noted; a few dings on back of body",
+      "measurements_source": "dealer measured",
+      "notes": "Best pure spec match found: 8.8 lbs ideal, 0.81\"/0.89\" exactly in target windows, nitro finish, Gibson hardshell case. Nashville TOM, Grover locking tuners.",
+      "category": "les_paul",
+      "id": "g025",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "standard 60s",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 1850
+        }
+      ],
+      "score": 96.6,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 8.8 lbs"
+        },
+        "neck_35pct": {
+          "score": 98.3,
+          "note": "nut ok (95); 1st fret ok (100); 12th fret ok (100)"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: 'slimtaper'"
+        },
+        "condition_10pct": {
+          "score": 82.0,
+          "note": "used - very good"
+        },
+        "price_5pct": {
+          "score": 100.0,
+          "note": "34% under anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Chicago Music Exchange",
+      "url": "https://chicagomusicexchange.com/products/gibson-les-paul-traditional-pro-v-blueberry-2023-2612994",
+      "price_usd": 1795,
+      "condition": "Used - Very Good (minimal wear)",
+      "city_state": "Chicago, IL",
+      "year": 2023,
+      "model": "Gibson Les Paul Traditional Pro V",
+      "finish": "Blueberry Burst",
+      "serial": "207530141",
+      "weight_lbs": 8.81,
+      "nut_width_in": 1.6875,
+      "fret1_depth_in": 0.81,
+      "fret12_depth_in": 0.9,
+      "neck_profile": "C profile (asymmetrical slim taper)",
+      "shoulder_description": null,
+      "fingerboard_radius": "12\"",
+      "pickups": "Original pickups (7.5k neck / 8.4k bridge) with coil splits, phase flips, internal DIP switch",
+      "case_included": true,
+      "modifications": "None noted",
+      "measurements_source": "dealer measured",
+      "notes": "Not a Standard 60s but spec-wise a bullseye: 8 lb 13 oz (ideal band) with 0.81\"/0.90\" depths, at the lowest price of any LP on this list. Modern switching versatility may or may not appeal.",
+      "category": "les_paul",
+      "id": "g037",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "standard 60s",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 1795
+        }
+      ],
+      "score": 96.3,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 99.0,
+          "note": "weight 8.81 lbs"
+        },
+        "neck_35pct": {
+          "score": 98.3,
+          "note": "nut ok (95); 1st fret ok (100); 12th fret ok (100)"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: 'c profile (asymmetrical slim taper)'"
+        },
+        "condition_10pct": {
+          "score": 82.0,
+          "note": "used - very good (minimal wear)"
+        },
+        "price_5pct": {
+          "score": 100.0,
+          "note": "36% under anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Willcutt Guitars",
+      "url": "https://willcuttguitars.com/products/gibson-les-paul-standard-60s-plain-top-ebony-top-135-lps6p00ennh1-215560135",
+      "price_usd": 2599,
+      "condition": "New",
+      "city_state": "Lexington, KY",
+      "year": null,
+      "model": "Gibson Les Paul Standard 60s Plain Top",
+      "finish": "Ebony Top",
+      "serial": "215560135",
+      "weight_lbs": 8.8,
+      "nut_width_in": 1.694,
+      "fret1_depth_in": 0.8,
+      "fret12_depth_in": 0.93,
+      "neck_profile": "60s SlimTaper",
+      "shoulder_description": "SlimTaper; dealer-measured neck depth .80-.93 (12th slightly over .92 target)",
+      "fingerboard_radius": "12\"",
+      "pickups": "60s Burstbuckers (Alnico 5)",
+      "case_included": "Hardshell case included",
+      "modifications": null,
+      "measurements_source": "dealer measured",
+      "notes": "Target model + target Ebony finish + ideal 8.80 lbs at the lowest price in the set. Weight and neck depth dealer-measured; nut width factory spec. Verified in stock 2026-07-19.",
+      "category": "les_paul",
+      "id": "g041",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "plain top",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 2599
+        }
+      ],
+      "score": 94.6,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 8.8 lbs"
+        },
+        "neck_35pct": {
+          "score": 88.9,
+          "note": "nut ok (100); 1st fret ok (100); 12th fret ok (67)"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: '60s slimtaper slimtaper; dealer-measured neck depth .80-.93 '"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "new"
+        },
+        "price_5pct": {
+          "score": 90.0,
+          "note": "at/under anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Reverb \u2013 Mike & Mike's Guitar Bar",
+      "url": "https://reverb.com/item/96595265-1975-gibson-es-335-tdc-vintage-semi-hollow-guitar-cherry-figured-maple-w-t-tops-case",
+      "price_usd": 5199.99,
+      "condition": "Excellent (near-mint per seller)",
+      "city_state": "Seattle, WA",
+      "year": 1975,
+      "model": "Gibson ES-335 TDC",
+      "finish": "Cherry (figured/curly maple body)",
+      "serial": null,
+      "weight_lbs": 7.5,
+      "nut_width_in": 1.5625,
+      "fret1_depth_in": 0.805,
+      "fret12_depth_in": 0.95,
+      "neck_profile": "Slender C (3-piece maple neck)",
+      "shoulder_description": "Seller describes 'Slender C' \u2014 slim, fast shoulders",
+      "fingerboard_radius": null,
+      "pickups": "Original T-Top humbuckers (neck 8.4k, bridge 7.1k)",
+      "case_included": "Vintage non-original black tolex hardshell case",
+      "modifications": "Replacement vintage-style pickup covers and reflector knobs; otherwise original (ABR-1 + trapeze)",
+      "measurements_source": "dealer measured",
+      "notes": "Reverb item 96595265. Best overall spec match in the sweep: 7 lbs 8 oz, 1-9/16 in nut, .805 in 1st fret \u2014 squarely in the ideal window. Pro setup, small-block board, six-digit serial dates to '74/'75.",
+      "category": "es_335",
+      "id": "g011",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "es-335 norlin",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 5199.99
+        }
+      ],
+      "score": 93.8,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 7.5 lbs"
+        },
+        "neck_35pct": {
+          "score": 90.0,
+          "note": "nut ok (100); 1st fret ok (100); 12th fret ok (70)"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: 'slender c (3-piece maple neck) seller describes 'slender c' '"
+        },
+        "condition_10pct": {
+          "score": 98.0,
+          "note": "excellent (near-mint per seller)"
+        },
+        "price_5pct": {
+          "score": 70.0,
+          "note": "slightly above anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Reverb \u2013 Righteous Guitars",
+      "url": "https://reverb.com/item/75013356-gibson-les-paul-standard-1960-p-137-express-shipping-g-185-serial-r060012-plek-d",
+      "price_usd": 7200,
+      "condition": "Brand New",
+      "city_state": "Roswell, GA",
+      "year": null,
+      "model": "Custom Shop 1960 Les Paul Standard Reissue (Beauty of the Burst p.137 inspired)",
+      "finish": "Sunburst over monster chevron flame maple",
+      "serial": "R0 60012",
+      "weight_lbs": 8.86,
+      "nut_width_in": 1.6875,
+      "fret1_depth_in": 0.82,
+      "fret12_depth_in": 0.92,
+      "neck_profile": "Slimmer-side 1960 carve, rolled fingerboard edges",
+      "shoulder_description": "Dealer calls carve 'on the slimmer side' with rolled board edges for comfort",
+      "fingerboard_radius": "12\"",
+      "pickups": "Custombuckers",
+      "case_included": "Hardshell case",
+      "modifications": "None; PLEK'd by dealer",
+      "measurements_source": "dealer measured",
+      "notes": "Reverb item 75013356. 8 lbs 13.7 oz. Every measured number (.82/.92, 1.6875\" nut, 8.86 lbs) lands exactly on target spec limits. High-end dealer, PLEK'd, express shipping.",
+      "category": "les_paul",
+      "id": "g004",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "custom shop",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 7200
+        }
+      ],
+      "score": 93.5,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 94.0,
+          "note": "weight 8.86 lbs"
+        },
+        "neck_35pct": {
+          "score": 98.3,
+          "note": "nut ok (95); 1st fret ok (100); 12th fret ok (100)"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: 'slimmer-side 1960 carve, rolled fingerboard edges dealer cal'"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "brand new"
+        },
+        "price_5pct": {
+          "score": 38.2,
+          "note": "well above anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Wildwood Guitars",
+      "url": "https://wildwoodguitars.com/products/wildwood-spec-1960-les-paul-standard-gloss-72",
+      "price_usd": 7349,
+      "condition": "New",
+      "city_state": "Louisville, CO",
+      "year": null,
+      "model": "Gibson Custom Shop Wildwood Spec 1960 Les Paul Standard Reissue (Gloss)",
+      "finish": "Beauty of the Burst Cover Burst",
+      "serial": "05183",
+      "weight_lbs": 8.5,
+      "nut_width_in": 1.687,
+      "fret1_depth_in": 0.83,
+      "fret12_depth_in": 0.9,
+      "neck_profile": "1960 Wildwood Spec",
+      "shoulder_description": "1960-style slim-medium carve, .830-.900 taper close to target",
+      "fingerboard_radius": "12\"",
+      "pickups": "Wildwood Spec Custombuckers (unpotted)",
+      "case_included": "Brown/Pink Lifton reissue hardshell",
+      "modifications": null,
+      "measurements_source": "dealer measured",
+      "notes": "Weight in ideal 8.4-8.8 band; verified in stock (Add to Cart) 2026-07-19. 1st fret .830 slightly above .79-.82 target.",
+      "category": "les_paul",
+      "id": "g038",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "wildwood spec",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 7349
+        }
+      ],
+      "score": 92.9,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 8.5 lbs"
+        },
+        "neck_35pct": {
+          "score": 86.9,
+          "note": "nut ok (94); 1st fret ok (67); 12th fret ok (100)"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: '1960 wildwood spec 1960-style slim-medium carve, .830-.900 t'"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "new"
+        },
+        "price_5pct": {
+          "score": 70.0,
+          "note": "slightly above anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Empire Music",
+      "url": "https://empiremusic.com/products/gibson-custom-shop-1960-les-paul-standard-reissue-vos-washed-cherry-sunburst-05456",
+      "price_usd": 6699,
+      "condition": "New (VOS)",
+      "city_state": "Mt. Lebanon (Pittsburgh), PA",
+      "year": 2026,
+      "model": "Gibson Custom Shop 1960 Les Paul Standard Reissue VOS (R0)",
+      "finish": "Washed Cherry Sunburst, nitro VOS",
+      "serial": "05456",
+      "weight_lbs": 8.69,
+      "nut_width_in": 1.69,
+      "fret1_depth_in": null,
+      "fret12_depth_in": null,
+      "neck_profile": "60s SlimTaper",
+      "shoulder_description": "Fast slim '60 carve (last-year-Burst profile)",
+      "fingerboard_radius": "12\"",
+      "pickups": "Custombucker Alnico 3, paper-in-oil caps, CTS pots",
+      "case_included": "Brown/pink Lifton reissue case",
+      "modifications": "None",
+      "measurements_source": "dealer measured",
+      "notes": "Verified live and in stock 2026-07-19. Best boutique LP match: R0 target model, 8.69 lbs in ideal window, SlimTaper/1.69 nut. Per-fret depths not published - R0 factory spec ~.80-.82 at 1st fret.",
+      "category": "les_paul",
+      "id": "g065",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "r0",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 6699
+        }
+      ],
+      "score": 92.9,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 8.69 lbs"
+        },
+        "neck_35pct": {
+          "score": 84.0,
+          "note": "nut ok (100); 1st fret unmeasured; 12th fret unmeasured"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: '60s slimtaper fast slim '60 carve (last-year-burst profile)'"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "new (vos)"
+        },
+        "price_5pct": {
+          "score": 90.0,
+          "note": "at/under anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Reverb \u2013 Alex's Gear Emporium",
+      "url": "https://reverb.com/item/98912082-gibson-custom-shop-60th-anniversary-1960-r0-les-paul-standard-reissue-lemon-burst-vos-v2-neck",
+      "price_usd": 5399,
+      "condition": "Excellent",
+      "city_state": "Kernersville, NC",
+      "year": 2020,
+      "model": "Custom Shop 60th Anniversary 1960 Les Paul Standard Reissue (R0), V2 neck",
+      "finish": "Lemon Burst VOS",
+      "serial": null,
+      "weight_lbs": 8.31,
+      "nut_width_in": null,
+      "fret1_depth_in": 0.803,
+      "fret12_depth_in": 0.908,
+      "neck_profile": "1960 V2 carve (slim taper)",
+      "shoulder_description": "V2 slim carve \u2014 seller sold it precisely because it is thinner than his preference",
+      "fingerboard_radius": null,
+      "pickups": "Custombuckers (bridge 7.66K, neck 7K, all original)",
+      "case_included": "Original case, 60th Anniversary COA, badge, all case candy",
+      "modifications": "Knobs swapped to aged RS Guitarworks reflectors (originals included)",
+      "measurements_source": "dealer measured",
+      "notes": "Reverb item 98912082. 8 lbs 5 oz. One-owner, bought new 3/2021, mostly cased for 5 years, no fret wear. .803/.908 depths sit right in the target window; low end of weight range.",
+      "category": "les_paul",
+      "id": "g003",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "r0",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 5399
+        }
+      ],
+      "score": 92.7,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 91.0,
+          "note": "weight 8.31 lbs"
+        },
+        "neck_35pct": {
+          "score": 92.0,
+          "note": "nut unmeasured; 1st fret ok (100); 12th fret ok (100)"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: '1960 v2 carve (slim taper) v2 slim carve \u2014 seller sold it pr'"
+        },
+        "condition_10pct": {
+          "score": 92.0,
+          "note": "excellent"
+        },
+        "price_5pct": {
+          "score": 100.0,
+          "note": "21% under anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Chicago Music Exchange",
+      "url": "https://chicagomusicexchange.com/products/gibson-custom-60-les-paul-sunburst-2615495",
+      "price_usd": 4495,
+      "condition": "Used - Very Good",
+      "city_state": "Chicago, IL",
+      "year": null,
+      "model": "Gibson Custom Shop 1960 Les Paul Standard Reissue (R0)",
+      "finish": "Sunburst (light factory aging)",
+      "serial": "09558",
+      "weight_lbs": 8.75,
+      "nut_width_in": 1.6875,
+      "fret1_depth_in": 0.81,
+      "fret12_depth_in": 0.93,
+      "neck_profile": "C profile (1960 slim)",
+      "shoulder_description": null,
+      "fingerboard_radius": "12\"",
+      "pickups": "Original Custom Shop humbuckers, neck 8.0k / bridge 7.9k",
+      "case_included": true,
+      "modifications": "Strap buttons replaced",
+      "measurements_source": "dealer measured",
+      "notes": "Standout: R0 at 8 lb 12 oz (ideal band) with 0.81\"/0.93\" measured depths - first fret dead-on target. Build year not stated (serial 0-prefix = 1960 reissue).",
+      "category": "les_paul",
+      "id": "g032",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "r0",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 4495
+        }
+      ],
+      "score": 92.7,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 8.75 lbs"
+        },
+        "neck_35pct": {
+          "score": 87.2,
+          "note": "nut ok (95); 1st fret ok (100); 12th fret ok (67)"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: 'c profile (1960 slim)'"
+        },
+        "condition_10pct": {
+          "score": 82.0,
+          "note": "used - very good"
+        },
+        "price_5pct": {
+          "score": 100.0,
+          "note": "34% under anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Willcutt Guitars",
+      "url": "https://willcuttguitars.com/products/gibson-les-paul-standard-60s-figured-top-unburst-089-lps600ubnh1-209960089",
+      "price_usd": 2799,
+      "condition": "New",
+      "city_state": "Lexington, KY",
+      "year": null,
+      "model": "Gibson Les Paul Standard 60s Figured Top",
+      "finish": "Unburst",
+      "serial": "209960089",
+      "weight_lbs": 9.02,
+      "nut_width_in": 1.69,
+      "fret1_depth_in": 0.8,
+      "fret12_depth_in": 0.91,
+      "neck_profile": "60s SlimTaper",
+      "shoulder_description": "SlimTaper; dealer-measured .80-.91 squarely in target windows",
+      "fingerboard_radius": "12\"",
+      "pickups": "Burstbucker 61R / 61T",
+      "case_included": "Hardshell case included",
+      "modifications": null,
+      "measurements_source": "dealer measured",
+      "notes": "CLOSE match: 9.02 lbs is 0.02 over the 9.0 ceiling, but target Unburst finish and perfect neck depths. Verified in stock 2026-07-19.",
+      "category": "les_paul",
+      "id": "g044",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "standard 60s",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 2799
+        }
+      ],
+      "score": 92.1,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 78.7,
+          "note": "weight 9.02 lbs"
+        },
+        "neck_35pct": {
+          "score": 100.0,
+          "note": "nut ok (100); 1st fret ok (100); 12th fret ok (100)"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: '60s slimtaper slimtaper; dealer-measured .80-.91 squarely in'"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "new"
+        },
+        "price_5pct": {
+          "score": 90.0,
+          "note": "at/under anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Reverb \u2013 Mike & Mike's Guitar Bar",
+      "url": "https://reverb.com/item/93609303-2015-gibson-custom-shop-true-historic-1960-les-paul-standard-r0-vintage-cherry-sunburst-mint-w-case-tags-coa",
+      "price_usd": 7499.99,
+      "condition": "Mint",
+      "city_state": "Seattle, WA",
+      "year": 2015,
+      "model": "Custom Shop True Historic 1960 Les Paul Standard (R0)",
+      "finish": "Vintage Cherry Sunburst",
+      "serial": "0 5-prefix (1960-style, 2015 build), inked",
+      "weight_lbs": 8.44,
+      "nut_width_in": 1.6875,
+      "fret1_depth_in": 0.805,
+      "fret12_depth_in": 0.94,
+      "neck_profile": "1960 Slender C",
+      "shoulder_description": "Slender C \u2014 slim at the first fret, fills out toward 12th (.94 slightly above target ceiling)",
+      "fingerboard_radius": null,
+      "pickups": "CustomBucker PAF x2 (Alnico III), 500k pots, Bumblebee caps",
+      "case_included": "Original Lifton-style hardshell, COA, all hangtags",
+      "modifications": "None; all original, mint",
+      "measurements_source": "dealer measured",
+      "notes": "Reverb item 93609303. 8 lbs 7 oz. Peak-spec True Historic line (double-carved top, thin lacquer, chemically recreated plastics). Only flag: 12th-fret depth .940 is .02 over target.",
+      "category": "les_paul",
+      "id": "g005",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "r0",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 7499.99
+        }
+      ],
+      "score": 91.3,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 8.44 lbs"
+        },
+        "neck_35pct": {
+          "score": 82.8,
+          "note": "nut ok (95); 1st fret ok (100); 12th fret ok (53)"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: '1960 slender c slender c \u2014 slim at the first fret, fills out'"
+        },
+        "condition_10pct": {
+          "score": 98.0,
+          "note": "mint"
+        },
+        "price_5pct": {
+          "score": 70.0,
+          "note": "slightly above anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Willcutt Guitars",
+      "url": "https://willcuttguitars.com/products/gibson-custom-shop-1960-les-paul-standard-v2-neck-washed-cherry-sunburst-murphy-lab-light-aged-672",
+      "price_usd": 8199,
+      "condition": "New",
+      "city_state": "Lexington, KY",
+      "year": null,
+      "model": "Gibson Custom Shop 1960 Les Paul Standard Reissue V2 Neck, Murphy Lab Light Aged",
+      "finish": "Washed Cherry Sunburst",
+      "serial": "01672",
+      "weight_lbs": 8.82,
+      "nut_width_in": 1.69,
+      "fret1_depth_in": null,
+      "fret12_depth_in": null,
+      "neck_profile": "1960 V2 SlimTaper",
+      "shoulder_description": "Fast-playing slim '60 V2 carve per Gibson spec; individual depths not published",
+      "fingerboard_radius": "12\"",
+      "pickups": "Custombucker Alnico 3 (unpotted)",
+      "case_included": "Brown/Pink Lifton reissue hardshell",
+      "modifications": null,
+      "measurements_source": "dealer measured",
+      "notes": "Ideal weight 8.82 lbs, exact target model (R0/V2); finish outside target list. Sibling #01679 (8.83 lbs) also in stock at same price. Verified in stock 2026-07-19.",
+      "category": "les_paul",
+      "id": "g042",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "murphy lab",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 8199
+        }
+      ],
+      "score": 91.3,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 98.0,
+          "note": "weight 8.82 lbs"
+        },
+        "neck_35pct": {
+          "score": 84.0,
+          "note": "nut ok (100); 1st fret unmeasured; 12th fret unmeasured"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: '1960 v2 slimtaper fast-playing slim '60 v2 carve per gibson '"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "new"
+        },
+        "price_5pct": {
+          "score": 70.0,
+          "note": "slightly above anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Willcutt Guitars",
+      "url": "https://willcuttguitars.com/products/gibson-59-les-paul-standard-slow-iced-tea-fade-vos-nh-024-lpr59psl21172-943024",
+      "price_usd": 6699,
+      "condition": "New",
+      "city_state": "Lexington, KY",
+      "year": null,
+      "model": "Gibson Custom Shop 1959 Les Paul Standard Reissue VOS",
+      "finish": "Slow Iced Tea Fade",
+      "serial": "943024",
+      "weight_lbs": 8.67,
+      "nut_width_in": 1.69,
+      "fret1_depth_in": null,
+      "fret12_depth_in": null,
+      "neck_profile": "Authentic '59 Medium C-Shape",
+      "shoulder_description": "Fuller '59 shoulders, not SlimTaper - reported as close-match on weight/finish",
+      "fingerboard_radius": "12\"",
+      "pickups": "Custombucker Alnico 3 (unpotted)",
+      "case_included": "Custom Shop hardshell",
+      "modifications": null,
+      "measurements_source": "dealer measured",
+      "notes": "Ideal weight 8.67 lbs and target Iced Tea finish, but '59 medium-C neck rather than 1960 slim. Verified in stock 2026-07-19.",
+      "category": "les_paul",
+      "id": "g043",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "custom shop",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 6699
+        }
+      ],
+      "score": 91.2,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 8.67 lbs"
+        },
+        "neck_35pct": {
+          "score": 84.0,
+          "note": "nut ok (100); 1st fret unmeasured; 12th fret unmeasured"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: 'authentic '59 medium c-shape fuller '59 shoulders, not slimt'"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "new"
+        },
+        "price_5pct": {
+          "score": 56.4,
+          "note": "well above anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Reverb \u2013 Cliff's Guitar World",
+      "url": "https://reverb.com/item/97541902-1997-gibson-historic-les-paul-1960-re-issue-r0",
+      "price_usd": 7500,
+      "condition": "Excellent",
+      "city_state": "Bremerton, WA",
+      "year": 1997,
+      "model": "Gibson Historic 1960 Les Paul Reissue (R0)",
+      "finish": "Heritage Cherry Sunburst (nitro), AAAAA soft maple top",
+      "serial": null,
+      "weight_lbs": 8.5,
+      "nut_width_in": 1.6875,
+      "fret1_depth_in": 0.81,
+      "fret12_depth_in": 0.87,
+      "neck_profile": "1960 SlimTaper, shallow C",
+      "shoulder_description": "Shallow 'C' shape slim taper \u2014 thinnest 12th-fret depth in this group (.87)",
+      "fingerboard_radius": "12\"",
+      "pickups": "Gibson '57 Classic humbuckers",
+      "case_included": "Early Gibson Custom Shop black hardshell case",
+      "modifications": "None stated; all appears original",
+      "measurements_source": "dealer measured",
+      "notes": "Reverb item 97541902. 8 lbs 8 oz. Early Historic with long tenon, hide glue, non-weight-relieved body. Measurements (.81/.87, 1.6875\" nut) are an exact match to target spec. Priciest R0 here.",
+      "category": "les_paul",
+      "id": "g002",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "r0",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 7500
+        }
+      ],
+      "score": 90.7,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 8.5 lbs"
+        },
+        "neck_35pct": {
+          "score": 82.8,
+          "note": "nut ok (95); 1st fret ok (100); 12th fret ok (53)"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: '1960 slimtaper, shallow c shallow 'c' shape slim taper \u2014 thi'"
+        },
+        "condition_10pct": {
+          "score": 92.0,
+          "note": "excellent"
+        },
+        "price_5pct": {
+          "score": 70.0,
+          "note": "slightly above anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Wildwood Guitars",
+      "url": "https://wildwoodguitars.com/products/wwgb01237-2020-historic-60th-anniversary-1960-les-paul-standard-vos",
+      "price_usd": 5450,
+      "condition": "Used (pre-owned, tagged Used by dealer)",
+      "city_state": "Louisville, CO",
+      "year": 2020,
+      "model": "Gibson Custom Shop 60th Anniversary 1960 Les Paul Standard V2 Reissue VOS",
+      "finish": "Tomato Soup Burst",
+      "serial": "01237",
+      "weight_lbs": 8.98,
+      "nut_width_in": 1.687,
+      "fret1_depth_in": 0.79,
+      "fret12_depth_in": 0.92,
+      "neck_profile": "1960 V2 Medium C / SlimTaper",
+      "shoulder_description": "V2 slim carve; .790/.920 lands exactly in the 0.79-0.82 / 0.89-0.92 target windows",
+      "fingerboard_radius": "12\"",
+      "pickups": "2 Unpotted Alnico III Custombuckers",
+      "case_included": "Gibson Custom hardshell ('Candy' case)",
+      "modifications": null,
+      "measurements_source": "dealer measured",
+      "notes": "Best neck-spec match of the sweep; weight 8.98 at top of 8.3-9.0 range. Strong value at $5,450. Verified in stock 2026-07-19.",
+      "category": "les_paul",
+      "id": "g040",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "r0",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 5450
+        }
+      ],
+      "score": 89.9,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 82.0,
+          "note": "weight 8.98 lbs"
+        },
+        "neck_35pct": {
+          "score": 98.0,
+          "note": "nut ok (94); 1st fret ok (100); 12th fret ok (100)"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: '1960 v2 medium c / slimtaper v2 slim carve; .790/.920 lands '"
+        },
+        "condition_10pct": {
+          "score": 70.0,
+          "note": "used (pre-owned, tagged used by dealer)"
+        },
+        "price_5pct": {
+          "score": 100.0,
+          "note": "20% under anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Dave's Guitar Shop",
+      "url": "https://davesguitar.com/products/1960-les-paul-standard-reissue-washed-cherry-sunburst-3",
+      "price_usd": 6699,
+      "condition": "New",
+      "city_state": "La Crosse, WI",
+      "year": null,
+      "model": "Gibson Custom Shop 1960 Les Paul Standard Reissue (R0)",
+      "finish": "Washed Cherry Sunburst (VOS)",
+      "serial": null,
+      "weight_lbs": 8.6,
+      "nut_width_in": 1.69,
+      "fret1_depth_in": 0.83,
+      "fret12_depth_in": 0.94,
+      "neck_profile": "60s SlimTaper",
+      "shoulder_description": null,
+      "fingerboard_radius": "12\"",
+      "pickups": "Unpotted Custombucker Alnico III (neck & bridge)",
+      "case_included": true,
+      "modifications": null,
+      "measurements_source": "dealer measured",
+      "notes": "Priority candidate confirmed live and in stock (tagged 'just in'). Weight in ideal band; 1st fret 0.83\" is 0.01\" over the 0.79-0.82\" target. Hide glue, long tenon, no-wire ABR-1, Lifton case.",
+      "category": "les_paul",
+      "id": "g024",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "r0",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 6699
+        }
+      ],
+      "score": 89.2,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 8.6 lbs"
+        },
+        "neck_35pct": {
+          "score": 73.3,
+          "note": "nut ok (100); 1st fret ok (67); 12th fret ok (53)"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: '60s slimtaper'"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "new"
+        },
+        "price_5pct": {
+          "score": 90.0,
+          "note": "at/under anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Carter Vintage Guitars",
+      "url": "https://cartervintage.com/shop/gibson-custom-chicago-music-exchange-spec-60-les-paul-standard-2021-cherry-sunburst/2rfhR5XzFNPHKwyTVhGzy5qmEMn",
+      "price_usd": 4950,
+      "condition": "Used - very good; professionally repaired headstock crack",
+      "city_state": "Nashville, TN",
+      "year": 2021,
+      "model": "Gibson Custom Shop CME-Spec '60 Les Paul Standard",
+      "finish": "Cherry Sunburst",
+      "serial": null,
+      "weight_lbs": 8.4,
+      "nut_width_in": 1.682,
+      "fret1_depth_in": 0.843,
+      "fret12_depth_in": 0.907,
+      "neck_profile": "C (60-spec)",
+      "shoulder_description": "Slimmer 1960-spec carve with shallow 12th-fret taper (0.907)",
+      "fingerboard_radius": "12\"",
+      "pickups": "Original Gibson Custom humbuckers (7.2k / 7.1k)",
+      "case_included": "OHSC",
+      "modifications": "Headstock crack repair (professional)",
+      "measurements_source": "dealer measured",
+      "notes": "Live and available 2026-07-19. 8.4 lbs ideal band, lowest LP price in this group - discounted for repaired headstock crack; factor into resale. SKU GS9026-A.",
+      "category": "les_paul",
+      "id": "g055",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "custom shop",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 4950
+        }
+      ],
+      "score": 88.9,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 8.4 lbs"
+        },
+        "neck_35pct": {
+          "score": 77.8,
+          "note": "nut ok (84); 1st fret ok (49); 12th fret ok (100)"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: 'c (60-spec) slimmer 1960-spec carve with shallow 12th-fret t'"
+        },
+        "condition_10pct": {
+          "score": 82.0,
+          "note": "used - very good; professionally repaired headstock crack"
+        },
+        "price_5pct": {
+          "score": 90.0,
+          "note": "at/under anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Reverb \u2013 Vintage Voltage Guitars",
+      "url": "https://reverb.com/item/99179073-2007-gibson-custom-shop-r0-1960-les-paul-standard-reissue-faded-lemon-burst-flame-top-with-custombuckers",
+      "price_usd": 4159.59,
+      "condition": "Very Good",
+      "city_state": "Duluth, GA",
+      "year": 2007,
+      "model": "Custom Shop 1960 Les Paul Standard Reissue (R0)",
+      "finish": "Faded Lemon Burst (aged to honey-gold)",
+      "serial": null,
+      "weight_lbs": 8.63,
+      "nut_width_in": null,
+      "fret1_depth_in": 0.83,
+      "fret12_depth_in": 0.91,
+      "neck_profile": "1960 slim R0 profile",
+      "shoulder_description": "Dealer: 'not too thin, perfect slim profile R0 neck' \u2014 fast and comfortable",
+      "fingerboard_radius": "12\"",
+      "pickups": "2022 Gibson Custom Shop Custombuckers (originals not mentioned as included)",
+      "case_included": "Original 2007 Gibson Lifton Custom Shop hardshell case + original parts",
+      "modifications": "Custombucker pickups, Historic butyrate rings/knobs/pickguard, Faber ABR-1, Historic aluminum tailpiece, Luxe Bumblebee caps, Kluson Historic tuners, hand-aged nickel hardware",
+      "measurements_source": "dealer measured",
+      "notes": "Reverb item 99179073. 8 lbs 10 oz. Neck depths dead-center in target band (.83/.91). Heavily but tastefully upgraded toward current Historic spec; strong value at ~$4.2k. Professionally set up.",
+      "category": "les_paul",
+      "id": "g001",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "r0",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 4159.59
+        }
+      ],
+      "score": 88.6,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 8.63 lbs"
+        },
+        "neck_35pct": {
+          "score": 75.3,
+          "note": "nut unmeasured; 1st fret ok (67); 12th fret ok (100)"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: '1960 slim r0 profile dealer: 'not too thin, perfect slim pro'"
+        },
+        "condition_10pct": {
+          "score": 82.0,
+          "note": "very good"
+        },
+        "price_5pct": {
+          "score": 100.0,
+          "note": "39% under anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Wildwood Guitars",
+      "url": "https://wildwoodguitars.com/products/gibson-custom-shop-1960-les-paul-standard",
+      "price_usd": 7349,
+      "condition": "New",
+      "city_state": "Louisville, CO",
+      "year": null,
+      "model": "Gibson Custom Shop Wildwood Spec 1960 Les Paul Standard Reissue (VOS)",
+      "finish": "Slow Iced Tea Fade",
+      "serial": "05546",
+      "weight_lbs": 8.58,
+      "nut_width_in": 1.687,
+      "fret1_depth_in": 0.84,
+      "fret12_depth_in": 0.93,
+      "neck_profile": "1960 Wildwood Spec",
+      "shoulder_description": "1960-style carve, slightly fuller than target (.840/.930)",
+      "fingerboard_radius": "12\"",
+      "pickups": "Wildwood Spec Custombuckers (unpotted)",
+      "case_included": "Brown/Pink Lifton reissue hardshell",
+      "modifications": null,
+      "measurements_source": "dealer measured",
+      "notes": "Target finish family (Iced Tea) and ideal weight 8.58 lbs; verified in stock 2026-07-19.",
+      "category": "les_paul",
+      "id": "g039",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "wildwood spec",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 7349
+        }
+      ],
+      "score": 87.5,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 8.58 lbs"
+        },
+        "neck_35pct": {
+          "score": 71.3,
+          "note": "nut ok (94); 1st fret ok (53); 12th fret ok (67)"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: '1960 wildwood spec 1960-style carve, slightly fuller than ta'"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "new"
+        },
+        "price_5pct": {
+          "score": 70.0,
+          "note": "slightly above anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Reverb \u2013 In Bloom Guitars",
+      "url": "https://reverb.com/item/98163808-1973-gibson-es-335-custom-colour-factory-black-w-bigsby-mod-t-tops-ohsc-rare",
+      "price_usd": 6535.1,
+      "condition": "Excellent",
+      "city_state": "Leeds, United Kingdom",
+      "year": 1973,
+      "model": "Gibson ES-335 (custom colour)",
+      "finish": "Factory Black",
+      "serial": null,
+      "weight_lbs": 7.8,
+      "nut_width_in": 1.5625,
+      "fret1_depth_in": 0.83,
+      "fret12_depth_in": 0.978,
+      "neck_profile": "Substantial yet very playable (seller's words)",
+      "shoulder_description": "Fuller than slim-C ideal \u2014 .830 in at 1st fret",
+      "fingerboard_radius": null,
+      "pickups": "Original T-Top Patent No. humbuckers, untouched wiring harness",
+      "case_included": "Original hardshell case (original trapeze tailpiece included)",
+      "modifications": "Bigsby added (mod), professional refret",
+      "measurements_source": "dealer measured",
+      "notes": "Reverb item 98163808. Ideal 7.8 lbs and 1-9/16 nut with real T-Tops, but 1st-fret depth .830 slightly exceeds the 0.82 target; rare factory black. UK seller \u2014 factor import shipping/duty; price is USD conversion.",
+      "category": "es_335",
+      "id": "g014",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "es-335 norlin",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 6535.1
+        }
+      ],
+      "score": 84.5,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 7.8 lbs"
+        },
+        "neck_35pct": {
+          "score": 69.6,
+          "note": "nut ok (100); 1st fret ok (67); 12th fret ok (42)"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: 'substantial yet very playable (seller's words) fuller than s'"
+        },
+        "condition_10pct": {
+          "score": 92.0,
+          "note": "excellent"
+        },
+        "price_5pct": {
+          "score": 38.6,
+          "note": "well above anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Carter Vintage Guitars",
+      "url": "https://cartervintage.com/shop/gibson-custom-60-les-paul-standard-murphy-lab-heavy-aged-2025-iced-tea-burst/36IRXRf3Ct5FwiD2GGb3lC2ebQG",
+      "price_usd": 9199,
+      "condition": "New (Murphy Lab Heavy Aged)",
+      "city_state": "Nashville, TN",
+      "year": 2025,
+      "model": "Gibson Custom Shop 1960 Les Paul Standard Reissue Murphy Lab Heavy Aged",
+      "finish": "Iced Tea Burst",
+      "serial": null,
+      "weight_lbs": 8.6,
+      "nut_width_in": 1.69,
+      "fret1_depth_in": 0.85,
+      "fret12_depth_in": 0.95,
+      "neck_profile": "60s SlimTaper",
+      "shoulder_description": "Slim 1960-style carve, hide-glue long-tenon neck",
+      "fingerboard_radius": "12\"",
+      "pickups": "Unpotted Custombucker Alnico 3 (7.7k neck / 7.7k bridge), CTS 500K pots, paper-in-oil caps",
+      "case_included": "OHSC and COA",
+      "modifications": "None (new)",
+      "measurements_source": "dealer measured",
+      "notes": "PRIORITY CANDIDATE confirmed live and Add-to-Cart available 2026-07-19. Weight 8.6 lbs in ideal band. Neck depth .85-.95 range slightly thicker than 0.79-0.82 1st-fret target. SKU GS10640-A.",
+      "category": "les_paul",
+      "id": "g053",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "murphy lab",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 9199
+        }
+      ],
+      "score": 82.7,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 8.6 lbs"
+        },
+        "neck_35pct": {
+          "score": 60.0,
+          "note": "nut ok (100); 1st fret ok (40); 12th fret ok (40)"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: '60s slimtaper slim 1960-style carve, hide-glue long-tenon ne'"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "new (murphy lab heavy aged)"
+        },
+        "price_5pct": {
+          "score": 54.7,
+          "note": "well above anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Reverb \u2013 Imperial Vintage Guitars",
+      "url": "https://reverb.com/item/98820777-8-5-lbs-1989-gibson-les-paul-standard-2-piece-flame-top-cherry-sunburst-w-ohsc",
+      "price_usd": 4895,
+      "condition": "Excellent",
+      "city_state": "Burbank, CA (San Diego brick-and-mortar)",
+      "year": 1989,
+      "model": "Les Paul Standard ('Good Wood era'), rare 2-piece flame top",
+      "finish": "Cherry Sunburst",
+      "serial": null,
+      "weight_lbs": 8.5,
+      "nut_width_in": 1.68,
+      "fret1_depth_in": 0.82,
+      "fret12_depth_in": 0.96,
+      "neck_profile": "Late-80s Standard carve, slim at the nut",
+      "shoulder_description": "Slim first-position feel (.82) but substantial 12th-fret depth (.96)",
+      "fingerboard_radius": null,
+      "pickups": "Currently Sayoko Kuwabara custom-wound double-cream PAF set (A2 neck/A5 bridge, unpotted); original HB-R/HB-L included, dealer will reinstall on request",
+      "case_included": "Original Gibson 'chainsaw' case and paperwork",
+      "modifications": "Pickups, TonePros bridge/tailpiece (originals included), 2 newer CTS volume pots",
+      "measurements_source": "dealer measured",
+      "notes": "Reverb item 98820777. 8 lbs 8 oz on dealer's scale \u2014 'lightest 80s Gibson we've come across.' Not a target model per se but an interesting light vintage-adjacent Standard; 12th-fret depth over target. Reversible mods.",
+      "category": "les_paul",
+      "id": "g010",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "standard 60s",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 4895
+        }
+      ],
+      "score": 82.3,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 8.5 lbs"
+        },
+        "neck_35pct": {
+          "score": 68.9,
+          "note": "nut ok (80); 1st fret ok (100); 12th fret ok (27)"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: 'late-80s standard carve, slim at the nut slim first-position'"
+        },
+        "condition_10pct": {
+          "score": 92.0,
+          "note": "excellent"
+        },
+        "price_5pct": {
+          "score": 0.0,
+          "note": "well above anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Wildwood Guitars",
+      "url": "https://wildwoodguitars.com/products/gibson-wildwood-spec-1961-es-335-reissue-3",
+      "price_usd": 6999,
+      "condition": "New",
+      "city_state": "Louisville, CO",
+      "year": null,
+      "model": "Gibson Custom Shop Wildwood Spec 1961 ES-335 Reissue (Gloss)",
+      "finish": "Viking Red",
+      "serial": "140659",
+      "weight_lbs": 7.55,
+      "nut_width_in": 1.6875,
+      "fret1_depth_in": 0.81,
+      "fret12_depth_in": 0.92,
+      "neck_profile": "'61 slim C (Wildwood Spec)",
+      "shoulder_description": "Slim '61 carve, .810/.920 - right in target depth windows",
+      "fingerboard_radius": "12\"",
+      "pickups": "2 Wildwood Spec Custombuckers",
+      "case_included": "Gibson hardshell",
+      "modifications": null,
+      "measurements_source": "dealer measured",
+      "notes": "Ideal weight 7.55 lbs; solid maple center block, no weight relief. Nut 1 11/16\" (wider than 1.56-1.60 vintage-narrow target). Verified in stock (Add to Cart) 2026-07-19.",
+      "category": "es_335",
+      "id": "g045",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "es-335 61 reissue",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 6999
+        }
+      ],
+      "score": 82.3,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 7.55 lbs"
+        },
+        "neck_35pct": {
+          "score": 66.7,
+          "note": "nut ok (0); 1st fret ok (100); 12th fret ok (100)"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: ''61 slim c (wildwood spec) slim '61 carve, .810/.920 - right'"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "new"
+        },
+        "price_5pct": {
+          "score": 0.0,
+          "note": "well above anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Wildwood Guitars",
+      "url": "https://wildwoodguitars.com/products/wildwood-spec-1961-es-335-figured-gloss",
+      "price_usd": 7249,
+      "condition": "New",
+      "city_state": "Louisville, CO",
+      "year": null,
+      "model": "Gibson Custom Shop Wildwood Spec 1961 ES-335 Figured Reissue (Gloss)",
+      "finish": "Vintage Natural",
+      "serial": "140233",
+      "weight_lbs": 7.66,
+      "nut_width_in": 1.6875,
+      "fret1_depth_in": 0.82,
+      "fret12_depth_in": 0.92,
+      "neck_profile": "'61 slim C (Wildwood Spec)",
+      "shoulder_description": "Slim '61 carve, .820/.920 in target windows",
+      "fingerboard_radius": "12\"",
+      "pickups": "2 Wildwood Spec Custombuckers",
+      "case_included": "Gibson hardshell",
+      "modifications": null,
+      "measurements_source": "dealer measured",
+      "notes": "Ideal-band 7.66 lbs with figured maple top. Sibling figured #140450 (7.76 lbs, .830/.930, $7,299) also in stock. Verified 2026-07-19.",
+      "category": "es_335",
+      "id": "g047",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "es-335 61 reissue",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 7249
+        }
+      ],
+      "score": 82.3,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 7.66 lbs"
+        },
+        "neck_35pct": {
+          "score": 66.7,
+          "note": "nut ok (0); 1st fret ok (100); 12th fret ok (100)"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: ''61 slim c (wildwood spec) slim '61 carve, .820/.920 in targ'"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "new"
+        },
+        "price_5pct": {
+          "score": 0.0,
+          "note": "well above anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Rainbow Guitars",
+      "url": "https://www.rainbowguitars.com/guitar/gibson/memphis-figured-es-335-aquamarine-2018/gb12367719/us",
+      "price_usd": 3299,
+      "condition": "Pre-owned, Excellent",
+      "city_state": "Tucson, AZ",
+      "year": 2018,
+      "model": "Gibson Memphis Figured ES-335 (final year of Memphis factory)",
+      "finish": "Aquamarine VOS nitro, AAA flame maple top/back",
+      "serial": "12367719",
+      "weight_lbs": 7.94,
+      "nut_width_in": null,
+      "fret1_depth_in": 0.83,
+      "fret12_depth_in": 0.94,
+      "neck_profile": "Medium C, quarter-sawn mahogany, rolled binding",
+      "shoulder_description": "Comfortable medium C",
+      "fingerboard_radius": "12\"",
+      "pickups": "Gibson MHS (Memphis Historic Spec) humbuckers, underwound",
+      "case_included": "Original Gibson brown hardshell case, COA, paperwork, strap, cloth",
+      "modifications": "None noted (all original)",
+      "measurements_source": "dealer measured",
+      "notes": "Verified unsold via Rainbow product API 2026-07-19. Fits 'good Memphis' target: 7.94 lbs, MHS PAF-style pickups, measured depths (1st fret .83 a hair over window). Needs nut width confirmation (factory spec 1.6875).",
+      "category": "es_335",
+      "id": "g063",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "es-335 memphis",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 3299
+        }
+      ],
+      "score": 81.4,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 86.0,
+          "note": "weight 7.94 lbs"
+        },
+        "neck_35pct": {
+          "score": 65.3,
+          "note": "nut unmeasured; 1st fret ok (67); 12th fret ok (80)"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: 'medium c, quarter-sawn mahogany, rolled binding comfortable '"
+        },
+        "condition_10pct": {
+          "score": 92.0,
+          "note": "pre-owned, excellent"
+        },
+        "price_5pct": {
+          "score": 90.0,
+          "note": "at/under anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Reverb \u2013 Guitar Riot",
+      "url": "https://reverb.com/item/94883487-gibson-custom-shop-1960-les-paul-standard-reissue-vos-tangerine-burst-05278-2025",
+      "price_usd": 5399,
+      "condition": "Excellent",
+      "city_state": "Cleveland, OH",
+      "year": 2025,
+      "model": "Custom Shop 1960 Les Paul Standard Reissue VOS",
+      "finish": "Tangerine Burst",
+      "serial": "0 5278",
+      "weight_lbs": 8.25,
+      "nut_width_in": 1.687,
+      "fret1_depth_in": 0.83,
+      "fret12_depth_in": 0.94,
+      "neck_profile": "60s SlimTaper",
+      "shoulder_description": "SlimTaper with a bit more meat than spec at both stations (.83/.94)",
+      "fingerboard_radius": "12\"",
+      "pickups": "Custombuckers (stock)",
+      "case_included": "Yes (Custom Shop case)",
+      "modifications": "None stated",
+      "measurements_source": "dealer measured",
+      "notes": "Reverb item 94883487. NEAR-MISS on weight: 8 lbs 4 oz (8.25) is 0.05 under the 8.3 floor. Cheapest current-production 1960 Reissue in the group at $5,399 used-excellent.",
+      "category": "les_paul",
+      "id": "g008",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "1960 reissue",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 5399
+        }
+      ],
+      "score": 81.2,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 76.7,
+          "note": "weight 8.25 lbs"
+        },
+        "neck_35pct": {
+          "score": 71.3,
+          "note": "nut ok (94); 1st fret ok (67); 12th fret ok (53)"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: '60s slimtaper slimtaper with a bit more meat than spec at bo'"
+        },
+        "condition_10pct": {
+          "score": 92.0,
+          "note": "excellent"
+        },
+        "price_5pct": {
+          "score": 100.0,
+          "note": "21% under anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Carter Vintage Guitars",
+      "url": "https://cartervintage.com/shop/gibson-60-les-paul-standard-reissue-vos-2025-washed-cherry-sunburst/31bvJ1wYn0hUTJMrjtHyiUe1Qal",
+      "price_usd": 6699,
+      "condition": "New (VOS)",
+      "city_state": "Nashville, TN",
+      "year": 2025,
+      "model": "Gibson Custom Shop 1960 Les Paul Standard Reissue VOS",
+      "finish": "Washed Cherry Sunburst",
+      "serial": null,
+      "weight_lbs": 8.2,
+      "nut_width_in": 1.687,
+      "fret1_depth_in": 0.816,
+      "fret12_depth_in": 0.954,
+      "neck_profile": "60s SlimTaper",
+      "shoulder_description": "Fast-playing slim 1960 carve, 1-piece lightweight mahogany body with hide-glue fit",
+      "fingerboard_radius": "12\"",
+      "pickups": "Custombucker Alnico III unpotted (7.9k neck / 7.9k bridge)",
+      "case_included": "Brown/Pink Lifton Reissue 5-latch case",
+      "modifications": "None (new)",
+      "measurements_source": "dealer measured",
+      "notes": "Live and available 2026-07-19. 8.2 lbs is a 0.1 lb near-miss below the 8.3 floor; 1st-fret depth 0.816 sits right in the 0.79-0.82 target. SKU GS10051-A.",
+      "category": "les_paul",
+      "id": "g054",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "custom shop",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 6699
+        }
+      ],
+      "score": 80.5,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 73.3,
+          "note": "weight 8.2 lbs"
+        },
+        "neck_35pct": {
+          "score": 76.2,
+          "note": "nut ok (94); 1st fret ok (100); 12th fret ok (35)"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: '60s slimtaper fast-playing slim 1960 carve, 1-piece lightwei'"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "new (vos)"
+        },
+        "price_5pct": {
+          "score": 56.4,
+          "note": "well above anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Wildwood Guitars",
+      "url": "https://wildwoodguitars.com/products/wildwood-spec-1961-es-335-gloss-14",
+      "price_usd": 6999,
+      "condition": "New",
+      "city_state": "Louisville, CO",
+      "year": null,
+      "model": "Gibson Custom Shop Wildwood Spec 1961 ES-335 Reissue (Gloss)",
+      "finish": "Viking Red",
+      "serial": "140283",
+      "weight_lbs": 7.88,
+      "nut_width_in": 1.6875,
+      "fret1_depth_in": 0.81,
+      "fret12_depth_in": 0.92,
+      "neck_profile": "'61 slim C (Wildwood Spec)",
+      "shoulder_description": "Slim '61 carve, .810/.920 in target windows",
+      "fingerboard_radius": "12\"",
+      "pickups": "2 Wildwood Spec Custombuckers",
+      "case_included": "Gibson hardshell",
+      "modifications": null,
+      "measurements_source": "dealer measured",
+      "notes": "In-range 7.88 lbs; same spec as #140659 but heavier. Verified in stock 2026-07-19.",
+      "category": "es_335",
+      "id": "g046",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "es-335 61 reissue",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 6999
+        }
+      ],
+      "score": 79.9,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 92.0,
+          "note": "weight 7.88 lbs"
+        },
+        "neck_35pct": {
+          "score": 66.7,
+          "note": "nut ok (0); 1st fret ok (100); 12th fret ok (100)"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: ''61 slim c (wildwood spec) slim '61 carve, .810/.920 in targ'"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "new"
+        },
+        "price_5pct": {
+          "score": 0.0,
+          "note": "well above anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Reverb \u2013 Austin Vintage Guitars",
+      "url": "https://reverb.com/item/91942651-gibson-es-335-td-1970-s-sunburst",
+      "price_usd": 5299.0,
+      "condition": "Very Good",
+      "city_state": "Austin, TX",
+      "year": "1970s",
+      "model": "Gibson ES-335 TD",
+      "finish": "Sunburst",
+      "serial": null,
+      "weight_lbs": 7.5,
+      "nut_width_in": 1.5625,
+      "fret1_depth_in": null,
+      "fret12_depth_in": null,
+      "neck_profile": null,
+      "shoulder_description": null,
+      "fingerboard_radius": null,
+      "pickups": "Patent-sticker humbuckers",
+      "case_included": "Hardshell case",
+      "modifications": "None noted; 5th-string tuner slightly bent but functional; original frets",
+      "measurements_source": "dealer measured",
+      "notes": "Reverb item 91942651. 7 lbs 8 oz with 1-9/16 in nut \u2014 both on target. Exact year/serial not stated; ask seller to confirm year and neck depths before committing.",
+      "category": "es_335",
+      "id": "g015",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "es-335 norlin",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 5299.0
+        }
+      ],
+      "score": 79.1,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 7.5 lbs"
+        },
+        "neck_35pct": {
+          "score": 84.0,
+          "note": "nut ok (100); 1st fret unmeasured; 12th fret unmeasured"
+        },
+        "shoulders_20pct": {
+          "score": 40.0,
+          "note": "no shoulder/profile info"
+        },
+        "condition_10pct": {
+          "score": 82.0,
+          "note": "very good"
+        },
+        "price_5pct": {
+          "score": 70.0,
+          "note": "slightly above anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Reverb \u2013 Wildwood Guitars",
+      "url": "https://reverb.com/item/97840293-gibson-custom-shop-wildwood-spec-1960-les-paul-standard-ultra-light-aged",
+      "price_usd": 7899,
+      "condition": "Brand New",
+      "city_state": "Louisville, CO",
+      "year": null,
+      "model": "Custom Shop Murphy Lab Wildwood Spec 1960 Les Paul Standard, Ultra Light Aged",
+      "finish": "Vintage Cherry Sunburst (Murphy Lab ULA)",
+      "serial": null,
+      "weight_lbs": 8.17,
+      "nut_width_in": 1.687,
+      "fret1_depth_in": 0.83,
+      "fret12_depth_in": 0.94,
+      "neck_profile": "1960 SlimTaper C V2",
+      "shoulder_description": "Wildwood-spec V2 SlimTaper C, .830-.940",
+      "fingerboard_radius": "12\"",
+      "pickups": "2 Wildwood Spec Custombuckers",
+      "case_included": "Yes (Custom Shop case, standard for Wildwood Spec)",
+      "modifications": "None; new",
+      "measurements_source": "dealer measured",
+      "notes": "Reverb item 97840293. NEAR-MISS on weight: 8.17 lbs is 0.13 under the 8.3 floor. Explicit target model (Wildwood Spec 1960); hand-picked AAA top, hot hide glue construction.",
+      "category": "les_paul",
+      "id": "g009",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "wildwood spec",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 7899
+        }
+      ],
+      "score": 78.9,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 71.3,
+          "note": "weight 8.17 lbs"
+        },
+        "neck_35pct": {
+          "score": 71.3,
+          "note": "nut ok (94); 1st fret ok (67); 12th fret ok (53)"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: '1960 slimtaper c v2 wildwood-spec v2 slimtaper c, .830-.940'"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "brand new"
+        },
+        "price_5pct": {
+          "score": 70.0,
+          "note": "slightly above anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Reverb \u2013 Chicago Music Exchange",
+      "url": "https://reverb.com/item/99405084-gibson-es-335-cherry-1974",
+      "price_usd": 5900.0,
+      "condition": "Good",
+      "city_state": "Chicago, IL",
+      "year": 1974,
+      "model": "Gibson ES-335",
+      "finish": "Cherry (original finish)",
+      "serial": "122422",
+      "weight_lbs": 7.25,
+      "nut_width_in": 1.5625,
+      "fret1_depth_in": 0.76,
+      "fret12_depth_in": 0.97,
+      "neck_profile": "C profile",
+      "shoulder_description": "Slim C per CME tech measurements (.76 in 1st fret)",
+      "fingerboard_radius": "10 in (as measured by CME)",
+      "pickups": "Original patent-number-sticker humbuckers (neck 7.3k, bridge 7.5k); pots date to 1974",
+      "case_included": "Original hardshell case",
+      "modifications": "None noted; original hardware",
+      "measurements_source": "dealer measured",
+      "notes": "Reverb item 99405084. NEAR-MISS on weight: 7 lbs 4 oz (7.25) is 0.15 lb under the 7.4 floor \u2014 everything else (1-9/16 nut, .76 in 1st fret) is on target. Fully measured Norlin with original T-top-era patent pickups.",
+      "category": "es_335",
+      "id": "g012",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "es-335 norlin",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 5900.0
+        }
+      ],
+      "score": 78.8,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 68.0,
+          "note": "weight 7.25 lbs"
+        },
+        "neck_35pct": {
+          "score": 83.3,
+          "note": "nut ok (100); 1st fret ok (100); 12th fret ok (50)"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: 'c profile slim c per cme tech measurements (.76 in 1st fret)'"
+        },
+        "condition_10pct": {
+          "score": 70.0,
+          "note": "good"
+        },
+        "price_5pct": {
+          "score": 64.0,
+          "note": "well above anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Chicago Music Exchange",
+      "url": "https://chicagomusicexchange.com/products/gibson-prototype-es-335-string-through-mocha-brown-2565063",
+      "price_usd": 6495,
+      "condition": "Used - Excellent (minimal play wear)",
+      "city_state": "Chicago, IL",
+      "year": 2021,
+      "model": "Gibson ES-335 Prototype (string-through-body)",
+      "finish": "Mocha Brown",
+      "serial": "13467721",
+      "weight_lbs": 7.69,
+      "nut_width_in": 1.6875,
+      "fret1_depth_in": 0.8,
+      "fret12_depth_in": 0.95,
+      "neck_profile": "Medium C",
+      "shoulder_description": null,
+      "fingerboard_radius": "12\"",
+      "pickups": "Original stock pickups, 7.4k bridge / 8.0k (as listed)",
+      "case_included": true,
+      "modifications": "None (factory prototype string-through design)",
+      "measurements_source": "dealer measured",
+      "notes": "Ideal 7 lb 11 oz and 0.80\" first fret. One-off factory prototype - unusual string-through-body tailpiece; collector-interest piece.",
+      "category": "es_335",
+      "id": "g035",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "es-335 modern",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 6495
+        }
+      ],
+      "score": 78.0,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 7.69 lbs"
+        },
+        "neck_35pct": {
+          "score": 56.7,
+          "note": "nut ok (0); 1st fret ok (100); 12th fret ok (70)"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: 'medium c'"
+        },
+        "condition_10pct": {
+          "score": 92.0,
+          "note": "used - excellent (minimal play wear)"
+        },
+        "price_5pct": {
+          "score": 0.0,
+          "note": "well above anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Empire Music",
+      "url": "https://empiremusic.com/products/gibson-custom-shop-1959-les-paul-standard-murphy-lab-ultra-light-aged-sunrise-teaburst-61132",
+      "price_usd": 7199,
+      "condition": "New (Murphy Lab Ultra Light Aged)",
+      "city_state": "Mt. Lebanon (Pittsburgh), PA",
+      "year": 2026,
+      "model": "Gibson Custom Shop 1959 Les Paul Standard Reissue Murphy Lab ULA (R9)",
+      "finish": "Sunrise Teaburst, Murphy Lab aged nitro",
+      "serial": "961132",
+      "weight_lbs": 8.63,
+      "nut_width_in": 1.69,
+      "fret1_depth_in": null,
+      "fret12_depth_in": null,
+      "neck_profile": "'50s Rounded Medium C",
+      "shoulder_description": "Rounded medium C - fuller than the SlimTaper target",
+      "fingerboard_radius": "12\"",
+      "pickups": "Custombucker Alnico 3, paper-in-oil caps",
+      "case_included": "Case + COA (Custom Shop accessories)",
+      "modifications": "None",
+      "measurements_source": "dealer measured",
+      "notes": "Verified live and in stock 2026-07-19. Ideal 8.63 lbs and near-Iced-Tea burst, but '59 rounded medium C misses slim-neck target. Sister #96051 (Factory Burst, same price) is 8.19 lbs.",
+      "category": "les_paul",
+      "id": "g066",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "murphy lab",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 7199
+        }
+      ],
+      "score": 77.9,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 8.63 lbs"
+        },
+        "neck_35pct": {
+          "score": 84.0,
+          "note": "nut ok (100); 1st fret unmeasured; 12th fret unmeasured"
+        },
+        "shoulders_20pct": {
+          "score": 20.0,
+          "note": "fat/50s-style profile: ''50s rounded medium c rounded medium c - fuller than the sli'"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "new (murphy lab ultra light aged)"
+        },
+        "price_5pct": {
+          "score": 90.0,
+          "note": "at/under anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Reverb \u2013 Guitar Showcase",
+      "url": "https://reverb.com/item/81522271-gibson-custom-shop-1960-les-paul-re-issue-60th-anniversary-001583-2020-tomato-soup-burst",
+      "price_usd": 6999,
+      "condition": "Brand New",
+      "city_state": "San Jose, CA",
+      "year": 2020,
+      "model": "Custom Shop 60th Anniversary 1960 Les Paul Reissue VOS, V2 neck",
+      "finish": "Tomato Soup Burst (flame top)",
+      "serial": "001583",
+      "weight_lbs": 8.94,
+      "nut_width_in": null,
+      "fret1_depth_in": 0.81,
+      "fret12_depth_in": 0.96,
+      "neck_profile": "1960 V2 carve",
+      "shoulder_description": "V2: .81 at 1st, .87 at 5th, .96 at 12th \u2014 slim in first position, gains shoulder up high",
+      "fingerboard_radius": null,
+      "pickups": "Stock 60th Anniversary Custombuckers",
+      "case_included": "Special reissue hard case, case candy, 60th Anniversary COA, original box",
+      "modifications": "None; unsold new-old-stock",
+      "measurements_source": "dealer measured",
+      "notes": "Reverb item 81522271. 8 lbs 15 oz (Gibson-stated weight) \u2014 top of target range; 12th-fret depth .96 exceeds the .92 ceiling. Discontinued anniversary edition.",
+      "category": "les_paul",
+      "id": "g007",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "r0",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 6999
+        }
+      ],
+      "score": 77.7,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 86.0,
+          "note": "weight 8.94 lbs"
+        },
+        "neck_35pct": {
+          "score": 55.3,
+          "note": "nut unmeasured; 1st fret ok (100); 12th fret ok (27)"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: '1960 v2 carve v2: .81 at 1st, .87 at 5th, .96 at 12th \u2014 slim'"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "brand new"
+        },
+        "price_5pct": {
+          "score": 70.0,
+          "note": "slightly above anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Reverb \u2013 Coast Sonic",
+      "url": "https://reverb.com/item/98249327-1979-gibson-es-335-semi-hollow-guitar-w-case",
+      "price_usd": 3799.0,
+      "condition": "Very Good",
+      "city_state": "Carlsbad, CA",
+      "year": 1979,
+      "model": "Gibson ES-335",
+      "finish": "Cherry, faded to mellow orange",
+      "serial": null,
+      "weight_lbs": 7.63,
+      "nut_width_in": 1.6875,
+      "fret1_depth_in": 0.754,
+      "fret12_depth_in": 0.96,
+      "neck_profile": "C",
+      "shoulder_description": "Slim depth (.754 in 1st fret) but wide 1-11/16 nut",
+      "fingerboard_radius": "12 in",
+      "pickups": "Original 'tar-back' humbuckers (neck 6.73k, bridge 7.62k)",
+      "case_included": "Original hard case",
+      "modifications": "Converted from trapeze to tune-o-matic bridge + stop tailpiece",
+      "measurements_source": "dealer measured",
+      "notes": "Reverb item 98249327. Weight 7 lbs 10 oz is ideal and it's the cheapest vintage entry, but NEAR-MISS on nut (1-11/16 vs 1.56-1.60 target) and 1st fret is .754 (just under 0.76). Tech-inspected and set up.",
+      "category": "es_335",
+      "id": "g017",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "es-335 norlin",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 3799.0
+        }
+      ],
+      "score": 77.6,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 7.63 lbs"
+        },
+        "neck_35pct": {
+          "score": 44.0,
+          "note": "nut ok (0); 1st fret ok (72); 12th fret ok (60)"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: 'c slim depth (.754 in 1st fret) but wide 1-11/16 nut'"
+        },
+        "condition_10pct": {
+          "score": 82.0,
+          "note": "very good"
+        },
+        "price_5pct": {
+          "score": 100.0,
+          "note": "24% under anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Chicago Music Exchange",
+      "url": "https://chicagomusicexchange.com/products/gibson-es-335-black-1968-2520236",
+      "price_usd": 20358,
+      "condition": "Used - Good (vintage, mostly original finish with small touch-ups)",
+      "city_state": "Chicago, IL",
+      "year": 1968,
+      "model": "Gibson ES-335 (factory Varitone example)",
+      "finish": "Black",
+      "serial": "952039",
+      "weight_lbs": 7.5,
+      "nut_width_in": 1.5625,
+      "fret1_depth_in": 0.82,
+      "fret12_depth_in": 0.99,
+      "neck_profile": "C profile",
+      "shoulder_description": null,
+      "fingerboard_radius": "12\"",
+      "pickups": "Patent-number-sticker humbuckers, neck 7.6k / bridge 8.1k",
+      "case_included": true,
+      "modifications": "Converted to mono; original Varitone/inductor removed (included in case), non-functional replacement Varitone installed; small finish touch-ups on top",
+      "measurements_source": "dealer measured",
+      "notes": "Ideal 7.5 lbs and 0.82\" first fret; pre-1972 but close to target era. Rare factory-Varitone black example; priced accordingly.",
+      "category": "es_335",
+      "id": "g031",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "es-335 vintage",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 20358
+        }
+      ],
+      "score": 75.8,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 7.5 lbs"
+        },
+        "neck_35pct": {
+          "score": 76.7,
+          "note": "nut ok (100); 1st fret ok (100); 12th fret ok (30)"
+        },
+        "shoulders_20pct": {
+          "score": 60.0,
+          "note": "profile unclear: 'c profile'"
+        },
+        "condition_10pct": {
+          "score": 70.0,
+          "note": "used - good (vintage, mostly original finish with small touch-ups)"
+        },
+        "price_5pct": {
+          "score": 0.0,
+          "note": "well above anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Dave's Guitar Shop",
+      "url": "https://davesguitar.com/products/les-paul-deluxe-81",
+      "price_usd": 2995,
+      "condition": "Used - Very Good (vintage)",
+      "city_state": "La Crosse, WI",
+      "year": 1978,
+      "model": "Gibson Les Paul Deluxe (Norlin)",
+      "finish": "Wine Red",
+      "serial": null,
+      "weight_lbs": 9.2,
+      "nut_width_in": 1.6875,
+      "fret1_depth_in": 0.8,
+      "fret12_depth_in": 0.98,
+      "neck_profile": "SlimTaper, 3-piece maple neck with small volute",
+      "shoulder_description": null,
+      "fingerboard_radius": "12\"",
+      "pickups": "Stock Gibson mini-humbuckers",
+      "case_included": true,
+      "modifications": "Newer Grover Rotomatic tuners installed",
+      "measurements_source": "dealer measured",
+      "notes": "NEAR-MISS on weight: 9.2 lbs is 0.2 over the 9.0 max. Interesting Norlin with 0.80\" first fret; original low-profile frets; belt-buckle/play wear noted.",
+      "category": "les_paul",
+      "id": "g026",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "norlin lp",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 2995
+        }
+      ],
+      "score": 75.0,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 66.7,
+          "note": "weight 9.2 lbs"
+        },
+        "neck_35pct": {
+          "score": 65.0,
+          "note": "nut ok (95); 1st fret ok (100); 12th fret ok (0)"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: 'slimtaper, 3-piece maple neck with small volute'"
+        },
+        "condition_10pct": {
+          "score": 82.0,
+          "note": "used - very good (vintage)"
+        },
+        "price_5pct": {
+          "score": 100.0,
+          "note": "46% under anchor"
+        }
+      }
+    },
+    {
+      "dealer": "The Music Zoo",
+      "url": "https://www.themusiczoo.com/products/gibson-custom-shop-1961-es-335-reissue-made-2-measure-antique-natural-and-maple-fretboard-2026",
+      "price_usd": 5999.0,
+      "condition": "Used - barely played (back in on trade)",
+      "city_state": "Farmingdale, NY",
+      "year": 2026,
+      "model": "Gibson Custom Shop 1961 ES-335 Reissue Made 2 Measure",
+      "finish": "Antique Natural with maple fretboard",
+      "serial": "160457",
+      "weight_lbs": 7.56,
+      "nut_width_in": 1.69,
+      "fret1_depth_in": 0.83,
+      "fret12_depth_in": 0.93,
+      "neck_profile": "Authentic '61 Thin D shape, long tenon",
+      "shoulder_description": "Thin D \u2014 matches slim/fast-D preference",
+      "fingerboard_radius": "12 in",
+      "pickups": "Custombuckers",
+      "case_included": "Original hardshell case + COA",
+      "modifications": "None (M2M factory one-off: natural finish + maple board)",
+      "measurements_source": "dealer measured",
+      "notes": "Verified live/in stock via Shopify availability JSON. 7 lbs 9 oz thin-D '61 RI; 1st fret .830 is a hair over the 0.82 ceiling. Music Zoo's other ES-335s were sold out; Emerald City's two live ES-335s state no weight (excluded); emeraldcityguitars.com 1988 ES-335 page is 404 (sold).",
+      "category": "es_335",
+      "id": "g023",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "es-335 61 reissue",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 5999.0
+        }
+      ],
+      "score": 74.3,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 7.56 lbs"
+        },
+        "neck_35pct": {
+          "score": 52.2,
+          "note": "nut ok (0); 1st fret ok (67); 12th fret ok (90)"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: 'authentic '61 thin d shape, long tenon thin d \u2014 matches slim'"
+        },
+        "condition_10pct": {
+          "score": 70.0,
+          "note": "used - barely played (back in on trade)"
+        },
+        "price_5pct": {
+          "score": 0.0,
+          "note": "well above anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Chicago Music Exchange",
+      "url": "https://chicagomusicexchange.com/products/gibson-es-335-dot-figured-cherry-2004-2540943",
+      "price_usd": 2750,
+      "condition": "Used - Good (light wear, mild hardware patina)",
+      "city_state": "Chicago, IL",
+      "year": 2004,
+      "model": "Gibson ES-335 Dot Figured (Memphis)",
+      "finish": "Cherry",
+      "serial": "00574707",
+      "weight_lbs": 8.19,
+      "nut_width_in": 1.6875,
+      "fret1_depth_in": 0.8,
+      "fret12_depth_in": 0.89,
+      "neck_profile": "D profile (slim)",
+      "shoulder_description": null,
+      "fingerboard_radius": "12\"",
+      "pickups": "Original Gibson pickups, 7.8k neck / 7.8k bridge",
+      "case_included": null,
+      "modifications": "None noted",
+      "measurements_source": "dealer measured",
+      "notes": "NEAR-MISS on weight: 8 lb 3 oz (8.19) is 0.19 over the 8.0 ceiling, but the slim-D 0.80\"/0.89\" depths are exactly on target and it's the value pick of the ES group.",
+      "category": "es_335",
+      "id": "g036",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "es-335 memphis",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 2750
+        }
+      ],
+      "score": 73.8,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 64.8,
+          "note": "weight 8.19 lbs"
+        },
+        "neck_35pct": {
+          "score": 66.7,
+          "note": "nut ok (0); 1st fret ok (100); 12th fret ok (100)"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: 'd profile (slim)'"
+        },
+        "condition_10pct": {
+          "score": 70.0,
+          "note": "used - good (light wear, mild hardware patina)"
+        },
+        "price_5pct": {
+          "score": 100.0,
+          "note": "21% under anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Chicago Music Exchange",
+      "url": "https://chicagomusicexchange.com/products/gibson-custom-60-les-paul-standard-reissue-cherry-2613097",
+      "price_usd": 4395,
+      "condition": "Used - Good",
+      "city_state": "Chicago, IL",
+      "year": 2019,
+      "model": "Gibson Custom Shop 1960 Les Paul Standard Reissue (R0)",
+      "finish": "Cherry Sunburst",
+      "serial": "09215",
+      "weight_lbs": 8.31,
+      "nut_width_in": 1.6875,
+      "fret1_depth_in": 0.85,
+      "fret12_depth_in": 0.94,
+      "neck_profile": "C shape",
+      "shoulder_description": null,
+      "fingerboard_radius": "12\"",
+      "pickups": "Original neck/bridge pickups, 7.90k / 7.88k",
+      "case_included": true,
+      "modifications": "Re-wired: non-original volume pots and capacitors (original bumblebees included in case); knobs and switch tip replaced",
+      "measurements_source": "dealer measured",
+      "notes": "NEAR-MISS on neck: 0.85\" first fret vs 0.79-0.82\" target; weight 8 lb 5 oz at low end of range. COA included.",
+      "category": "les_paul",
+      "id": "g033",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "r0",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 4395
+        }
+      ],
+      "score": 73.3,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 91.0,
+          "note": "weight 8.31 lbs"
+        },
+        "neck_35pct": {
+          "score": 62.8,
+          "note": "nut ok (95); 1st fret ok (40); 12th fret ok (53)"
+        },
+        "shoulders_20pct": {
+          "score": 60.0,
+          "note": "profile unclear: 'c shape'"
+        },
+        "condition_10pct": {
+          "score": 70.0,
+          "note": "used - good"
+        },
+        "price_5pct": {
+          "score": 100.0,
+          "note": "35% under anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Reverb \u2013 Guitar Riot",
+      "url": "https://reverb.com/item/78711753-gibson-custom-shop-1960-les-paul-standard-reissue-vos-tangerine-burst-03487",
+      "price_usd": 6699,
+      "condition": "Brand New",
+      "city_state": "Cleveland, OH",
+      "year": 2023,
+      "model": "Custom Shop 1960 Les Paul Standard Reissue VOS",
+      "finish": "Tangerine Burst",
+      "serial": "0 3487",
+      "weight_lbs": 8.75,
+      "nut_width_in": 1.687,
+      "fret1_depth_in": 0.82,
+      "fret12_depth_in": 0.98,
+      "neck_profile": "60s SlimTaper",
+      "shoulder_description": "Factory 60s SlimTaper, but this example measures fat at the 12th (.98)",
+      "fingerboard_radius": "12\"",
+      "pickups": "Custombuckers (stock 1960 Reissue spec)",
+      "case_included": "Yes (Custom Shop reissue case)",
+      "modifications": "None; NOS warehouse find, 2023 model year",
+      "measurements_source": "dealer measured",
+      "notes": "Reverb item 78711753. 8 lbs 12 oz \u2014 ideal weight, and 1st fret .82 is on target, but dealer-measured 12th-fret depth of .98 is well over the .89-.92 window; verify before buying.",
+      "category": "les_paul",
+      "id": "g006",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "custom shop",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 6699
+        }
+      ],
+      "score": 69.5,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 8.75 lbs"
+        },
+        "neck_35pct": {
+          "score": 64.7,
+          "note": "nut ok (94); 1st fret ok (100); 12th fret ok (0)"
+        },
+        "shoulders_20pct": {
+          "score": 20.0,
+          "note": "fat/50s-style profile: '60s slimtaper factory 60s slimtaper, but this example measur'"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "brand new"
+        },
+        "price_5pct": {
+          "score": 56.4,
+          "note": "well above anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Reverb \u2013 Jimmy Wallace Guitars",
+      "url": "https://reverb.com/item/42945403-gibson-es-335-1979-walnut",
+      "price_usd": 5345.0,
+      "condition": "Very Good",
+      "city_state": "Garland, TX",
+      "year": 1979,
+      "model": "Gibson ES-335",
+      "finish": "Walnut",
+      "serial": "70119025",
+      "weight_lbs": 7.44,
+      "nut_width_in": 1.6875,
+      "fret1_depth_in": 0.795,
+      "fret12_depth_in": 0.975,
+      "neck_profile": null,
+      "shoulder_description": "1st-fret depth .795 sits in ideal 0.76-0.82 band",
+      "fingerboard_radius": null,
+      "pickups": "Stock late-70s Gibson humbuckers (not specified by seller)",
+      "case_included": "Original case",
+      "modifications": "None noted; small finish blemish on back of neck",
+      "measurements_source": "dealer measured",
+      "notes": "Reverb item 42945403. 7 lbs 7 oz with ideal fret-1 depth; NEAR-MISS on nut (1-11/16). Long-running listing (older item ID) \u2014 API shows live, but confirm availability with the shop before acting.",
+      "category": "es_335",
+      "id": "g018",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "es-335 norlin",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 5345.0
+        }
+      ],
+      "score": 68.8,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 94.0,
+          "note": "weight 7.44 lbs"
+        },
+        "neck_35pct": {
+          "score": 48.3,
+          "note": "nut ok (0); 1st fret ok (100); 12th fret ok (45)"
+        },
+        "shoulders_20pct": {
+          "score": 60.0,
+          "note": "profile unclear: '1st-fret depth .795 sits in ideal 0.76-0.82 band'"
+        },
+        "condition_10pct": {
+          "score": 82.0,
+          "note": "very good"
+        },
+        "price_5pct": {
+          "score": 70.0,
+          "note": "slightly above anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Wildwood Guitars",
+      "url": "https://wildwoodguitars.com/products/es-335-satin-dot-30",
+      "price_usd": 2999,
+      "condition": "New",
+      "city_state": "Louisville, CO",
+      "year": 2022,
+      "model": "Gibson ES-335 Satin Dot (USA)",
+      "finish": "Satin Cherry",
+      "serial": "224830006",
+      "weight_lbs": 7.51,
+      "nut_width_in": 1.695,
+      "fret1_depth_in": 0.85,
+      "fret12_depth_in": 0.96,
+      "neck_profile": "Rounded C",
+      "shoulder_description": "Medium rounded C, .850/.960 - fuller than target windows",
+      "fingerboard_radius": "12\"",
+      "pickups": "2 Calibrated T-Type humbuckers",
+      "case_included": "Gibson hardshell",
+      "modifications": null,
+      "measurements_source": "dealer measured",
+      "notes": "Ideal weight 7.51 lbs, budget option; T-Type pickups nod to the T-Top preference. Sibling Satin Vintage Burst #225150012 (7.54 lbs, .850/.940, $2,999) also in stock. Verified 2026-07-19.",
+      "category": "es_335",
+      "id": "g049",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "es-335 modern",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 2999
+        }
+      ],
+      "score": 68.2,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 7.51 lbs"
+        },
+        "neck_35pct": {
+          "score": 33.3,
+          "note": "nut ok (0); 1st fret ok (40); 12th fret ok (60)"
+        },
+        "shoulders_20pct": {
+          "score": 60.0,
+          "note": "profile unclear: 'rounded c medium rounded c, .850/.960 - fuller than target w'"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "new"
+        },
+        "price_5pct": {
+          "score": 90.0,
+          "note": "at/under anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Reverb \u2013 Garrett Park Guitars",
+      "url": "https://reverb.com/item/92077232-1970-gibson-es-335-make-an-offer",
+      "price_usd": 6800.0,
+      "condition": "Excellent",
+      "city_state": "Annapolis, MD",
+      "year": 1970,
+      "model": "Gibson ES-335 (orange label)",
+      "finish": "Sunburst",
+      "serial": "952094",
+      "weight_lbs": 7.63,
+      "nut_width_in": 1.625,
+      "fret1_depth_in": null,
+      "fret12_depth_in": null,
+      "neck_profile": "Very comfortable D shape (per seller)",
+      "shoulder_description": "D profile \u2014 matches slim/fast-D preference",
+      "fingerboard_radius": null,
+      "pickups": "Original patent-era humbuckers (all original electronics)",
+      "case_included": "Original hardshell case plus original hangtag",
+      "modifications": "None \u2014 all original",
+      "measurements_source": "dealer measured",
+      "notes": "Reverb item 92077232. 7 lbs 10 oz, all-original 'Larry Carlton-style' 1970. Nut 1-5/8 (1.625) is a hair over the 1.60 ceiling. Consignment, offers encouraged \u2014 likely negotiable below ask.",
+      "category": "es_335",
+      "id": "g016",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "es-335 norlin",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 6800.0
+        }
+      ],
+      "score": 68.0,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 7.63 lbs"
+        },
+        "neck_35pct": {
+          "score": 24.0,
+          "note": "nut ok (40); 1st fret unmeasured; 12th fret unmeasured"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: 'very comfortable d shape (per seller) d profile \u2014 matches sl'"
+        },
+        "condition_10pct": {
+          "score": 92.0,
+          "note": "excellent"
+        },
+        "price_5pct": {
+          "score": 28.0,
+          "note": "well above anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Reverb \u2013 Mahar's Vintage Guitars",
+      "url": "https://reverb.com/item/99230111-gibson-wildwood-memphis-es-335-63-reissue-2015-flamey-blonde",
+      "price_usd": 5199.95,
+      "condition": "Excellent",
+      "city_state": "Chico, CA",
+      "year": 2015,
+      "model": "Gibson Memphis ES-335 '63 Reissue (Wildwood exclusive)",
+      "finish": "'Redneck Blonde' with flame maple",
+      "serial": null,
+      "weight_lbs": 7.69,
+      "nut_width_in": 1.6875,
+      "fret1_depth_in": 0.835,
+      "fret12_depth_in": null,
+      "neck_profile": "Soft C '63",
+      "shoulder_description": "Softer '63 C \u2014 slimmer than a '59 but .835 1st fret is above 0.82 ceiling",
+      "fingerboard_radius": "12 in",
+      "pickups": "Sunbear Alnico III neck (7.26k) / Alnico IV bridge (8.34k); original Memphis pickups included in case",
+      "case_included": "Original case, paperwork, and COA",
+      "modifications": "Pickups swapped to Sunbears (reversible; originals included)",
+      "measurements_source": "dealer measured",
+      "notes": "Reverb item 99230111. Top Memphis candidate: 7 lbs 11 oz, sought-after Wildwood '63 blonde. Near-miss on nut (1-11/16) and 1st-fret depth (.835).",
+      "category": "es_335",
+      "id": "g022",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "es-335 memphis",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 5199.95
+        }
+      ],
+      "score": 66.0,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 7.69 lbs"
+        },
+        "neck_35pct": {
+          "score": 22.0,
+          "note": "nut ok (0); 1st fret ok (60); 12th fret unmeasured"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: 'soft c '63 softer '63 c \u2014 slimmer than a '59 but .835 1st fr'"
+        },
+        "condition_10pct": {
+          "score": 92.0,
+          "note": "excellent"
+        },
+        "price_5pct": {
+          "score": 2.9,
+          "note": "well above anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Reverb \u2013 Nutmeg Vintage Guitars LLC",
+      "url": "https://reverb.com/item/99166257-gibson-es-335td-1972-ice-tea-sunburst-7-8-lbs",
+      "price_usd": 4089.35,
+      "condition": "Excellent",
+      "city_state": "South Windsor, CT",
+      "year": 1972,
+      "model": "Gibson ES-335TD",
+      "finish": "Ice Tea Sunburst",
+      "serial": null,
+      "weight_lbs": 7.8,
+      "nut_width_in": null,
+      "fret1_depth_in": null,
+      "fret12_depth_in": null,
+      "neck_profile": null,
+      "shoulder_description": null,
+      "fingerboard_radius": null,
+      "pickups": "Original embossed-cover Gibson humbuckers (1972 pat.-number/T-top era)",
+      "case_included": "Original hardshell case",
+      "modifications": "None noted; only flaw is a headstock-top scuff",
+      "measurements_source": "dealer measured",
+      "notes": "Reverb item 99166257. Genuinely vintage Norlin at ideal 7.8 lbs and the lowest vintage price in the sweep \u2014 included under the 1970s exception; needs nut width confirmation (1972s are typically ~1-9/16 in).",
+      "category": "es_335",
+      "id": "g013",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "es-335 norlin",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 4089.35
+        }
+      ],
+      "score": 64.5,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 7.8 lbs"
+        },
+        "neck_35pct": {
+          "score": 35.0,
+          "note": "no neck measurements (capped)"
+        },
+        "shoulders_20pct": {
+          "score": 40.0,
+          "note": "no shoulder/profile info"
+        },
+        "condition_10pct": {
+          "score": 92.0,
+          "note": "excellent"
+        },
+        "price_5pct": {
+          "score": 100.0,
+          "note": "18% under anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Carter Vintage Guitars",
+      "url": "https://cartervintage.com/shop/gibson-es-335-1972-sunburst/38GPSn7I4GialjOzgpDyA5HFaX2",
+      "price_usd": 6250,
+      "condition": "Used - vintage, player-grade with recent refret; factory 2nd stamp",
+      "city_state": "Nashville, TN",
+      "year": 1972,
+      "model": "Gibson ES-335 (Norlin)",
+      "finish": "Sunburst",
+      "serial": null,
+      "weight_lbs": 8.0,
+      "nut_width_in": 1.59,
+      "fret1_depth_in": 0.862,
+      "fret12_depth_in": 0.97,
+      "neck_profile": "C",
+      "shoulder_description": "Early-70s narrow-nut C carve, fuller depth front-to-back",
+      "fingerboard_radius": "12\"",
+      "pickups": "Original patent-sticker T-Tops (7.5k / 7.5k)",
+      "case_included": "Period-correct hard shell case",
+      "modifications": "Recent refret, new nut, replacement Kluson tuners, previous owner's name/SSN etched into pickguard",
+      "measurements_source": "dealer measured",
+      "notes": "Live and available 2026-07-19. Squarely in 1972-80 target window with original T-Tops; nut 1.590 hits the 1.56-1.60 target. 8.0 lbs at top of range. Factory 2nd stamp. SKU GE3602-A.",
+      "category": "es_335",
+      "id": "g056",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "es-335 norlin",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 6250
+        }
+      ],
+      "score": 62.6,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 80.0,
+          "note": "weight 8.0 lbs"
+        },
+        "neck_35pct": {
+          "score": 53.1,
+          "note": "nut ok (85); 1st fret ok (24); 12th fret ok (50)"
+        },
+        "shoulders_20pct": {
+          "score": 60.0,
+          "note": "profile unclear: 'c early-70s narrow-nut c carve, fuller depth front-to-back'"
+        },
+        "condition_10pct": {
+          "score": 55.0,
+          "note": "used - vintage, player-grade with recent refret; factory 2nd stamp"
+        },
+        "price_5pct": {
+          "score": 50.0,
+          "note": "well above anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Wildwood Guitars",
+      "url": "https://wildwoodguitars.com/products/wwcongb111834-2022-custom-shop-1964-wildwood-spec-es-335",
+      "price_usd": 5299,
+      "condition": "Used (pre-owned, tagged Used by dealer)",
+      "city_state": "Louisville, CO",
+      "year": 2022,
+      "model": "Gibson Custom Shop Wildwood Spec 1964 ES-335 Reissue",
+      "finish": "Viking Red (gloss nitrocellulose)",
+      "serial": "111834",
+      "weight_lbs": 7.76,
+      "nut_width_in": 1.689,
+      "fret1_depth_in": 0.89,
+      "fret12_depth_in": 0.97,
+      "neck_profile": "'64 Medium C (Wildwood Spec)",
+      "shoulder_description": "Fuller '64 rounded C, .890/.970 - above target depth windows",
+      "fingerboard_radius": "12\"",
+      "pickups": "2 Wildwood Spec Custombuckers",
+      "case_included": "Gibson Custom hardshell ('Candy' case)",
+      "modifications": null,
+      "measurements_source": "dealer measured",
+      "notes": "Ideal weight 7.76 lbs at the lowest Custom Shop 335 price in the set; neck is chunky '64, not slim. Verified in stock 2026-07-19.",
+      "category": "es_335",
+      "id": "g048",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "es-335 modern",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 5299
+        }
+      ],
+      "score": 61.8,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 7.76 lbs"
+        },
+        "neck_35pct": {
+          "score": 16.7,
+          "note": "nut ok (0); 1st fret ok (0); 12th fret ok (50)"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: ''64 medium c (wildwood spec) fuller '64 rounded c, .890/.970'"
+        },
+        "condition_10pct": {
+          "score": 70.0,
+          "note": "used (pre-owned, tagged used by dealer)"
+        },
+        "price_5pct": {
+          "score": 0.0,
+          "note": "well above anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Reverb \u2013 Kelley's Guitars",
+      "url": "https://reverb.com/item/93155790-2025-gibson-custom-1961-es-335-reissue-sixties-cherry-7-lb-10-oz",
+      "price_usd": 4999.0,
+      "condition": "Mint (like new)",
+      "city_state": "Grants Pass, OR",
+      "year": 2025,
+      "model": "Gibson Custom Shop 1961 ES-335 Reissue VOS",
+      "finish": "Sixties Cherry",
+      "serial": null,
+      "weight_lbs": 7.63,
+      "nut_width_in": 1.687,
+      "fret1_depth_in": null,
+      "fret12_depth_in": null,
+      "neck_profile": "SlimTaper 60s C (factory spec, scanned from originals)",
+      "shoulder_description": "Slim-taper C \u2014 the fast '61 carve",
+      "fingerboard_radius": "12 in (factory spec)",
+      "pickups": "Custombucker Alnico III, unpotted (factory spec)",
+      "case_included": "Custom Shop hardshell case + COA",
+      "modifications": "None",
+      "measurements_source": "factory spec",
+      "notes": "Reverb item 93155790. Cheapest 61 RI found at $4,999 (vs $5,999 street) at an ideal 7 lb 10 oz. Note all current CS 61 RIs run a 1.687 in nut \u2014 wider than the 1.56-1.60 target but with slim shoulders.",
+      "category": "es_335",
+      "id": "g019",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "es-335 61 reissue",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 4999.0
+        }
+      ],
+      "score": 61.5,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 7.63 lbs"
+        },
+        "neck_35pct": {
+          "score": 0.0,
+          "note": "nut ok (0); 1st fret unmeasured; 12th fret unmeasured"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: 'slimtaper 60s c (factory spec, scanned from originals) slim-'"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "mint (like new)"
+        },
+        "price_5pct": {
+          "score": 50.0,
+          "note": "well above anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Reverb \u2013 WildCat Guitars",
+      "url": "https://reverb.com/item/92138418-gibson-custom-shop-1961-es-335-reissue-vos-sixties-cherry-131130",
+      "price_usd": 5999.0,
+      "condition": "Brand New",
+      "city_state": "Escondido, CA",
+      "year": 2024,
+      "model": "Gibson Custom Shop 1961 ES-335 Reissue VOS",
+      "finish": "Sixties Cherry",
+      "serial": "131130",
+      "weight_lbs": 7.71,
+      "nut_width_in": 1.687,
+      "fret1_depth_in": null,
+      "fret12_depth_in": null,
+      "neck_profile": "SlimTaper 60s C",
+      "shoulder_description": "Slim-taper C, scanned from original '61s",
+      "fingerboard_radius": "12 in",
+      "pickups": "Custombucker Alnico III (unpotted)",
+      "case_included": "Gibson Custom Shop black/yellow hardshell case",
+      "modifications": "None",
+      "measurements_source": "dealer measured",
+      "notes": "Reverb item 92138418. Serial-specific 7.71 lbs \u2014 dead center of ideal 7.5-7.8 window. New with warranty.",
+      "category": "es_335",
+      "id": "g020",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "es-335 61 reissue",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 5999.0
+        }
+      ],
+      "score": 59.0,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 7.71 lbs"
+        },
+        "neck_35pct": {
+          "score": 0.0,
+          "note": "nut ok (0); 1st fret unmeasured; 12th fret unmeasured"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: 'slimtaper 60s c slim-taper c, scanned from original '61s'"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "brand new"
+        },
+        "price_5pct": {
+          "score": 0.0,
+          "note": "well above anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Reverb \u2013 Chicago Music Exchange",
+      "url": "https://reverb.com/item/98162551-gibson-custom-shop-1961-es-335-reissue-60s-cherry-murphy-lab-ultra-light-aged-serial-160433",
+      "price_usd": 6499.0,
+      "condition": "Brand New",
+      "city_state": "Chicago, IL",
+      "year": 2026,
+      "model": "Gibson Custom Shop 1961 ES-335 Reissue Murphy Lab Ultra Light Aged",
+      "finish": "Sixties Cherry (ML Ultra Light Aged)",
+      "serial": "160433",
+      "weight_lbs": 7.63,
+      "nut_width_in": 1.687,
+      "fret1_depth_in": null,
+      "fret12_depth_in": null,
+      "neck_profile": "SlimTaper 60s C",
+      "shoulder_description": "Slim-taper C, long tenon, hide-glue fit",
+      "fingerboard_radius": "12 in (factory spec)",
+      "pickups": "Custombucker Alnico III (unpotted)",
+      "case_included": "Hardshell case",
+      "modifications": "None (factory Murphy Lab aging)",
+      "measurements_source": "dealer measured",
+      "notes": "Reverb item 98162551. Murphy Lab ULA at 7 lbs 10 oz with thin ML lacquer \u2014 ideal weight and broken-in neck feel.",
+      "category": "es_335",
+      "id": "g021",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "es-335 61 reissue",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 6499.0
+        }
+      ],
+      "score": 59.0,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 7.63 lbs"
+        },
+        "neck_35pct": {
+          "score": 0.0,
+          "note": "nut ok (0); 1st fret unmeasured; 12th fret unmeasured"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: 'slimtaper 60s c slim-taper c, long tenon, hide-glue fit'"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "brand new"
+        },
+        "price_5pct": {
+          "score": 0.0,
+          "note": "well above anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Dave's Guitar Shop",
+      "url": "https://davesguitar.com/products/1961-es-335-reissue-sixties-cherry-2",
+      "price_usd": 5999,
+      "condition": "New",
+      "city_state": "Madison, WI",
+      "year": null,
+      "model": "Gibson Custom Shop 1961 ES-335 Reissue",
+      "finish": "Sixties Cherry (VOS)",
+      "serial": null,
+      "weight_lbs": 7.6,
+      "nut_width_in": 1.69,
+      "fret1_depth_in": null,
+      "fret12_depth_in": null,
+      "neck_profile": "60s SlimTaper C (scanned from originals)",
+      "shoulder_description": null,
+      "fingerboard_radius": "12\"",
+      "pickups": "Unpotted Custombucker Alnico III (neck & bridge)",
+      "case_included": true,
+      "modifications": null,
+      "measurements_source": "dealer measured",
+      "notes": "Target model ('61 Reissue), ideal 7.6 lbs. Hide glue, long tenon, no-wire ABR-1, Kluson double-ring tuners. Second identical unit (also 7.6 lbs) at La Crosse: /products/1961-es-335-reissue-sixties-cherry.",
+      "category": "es_335",
+      "id": "g027",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "es-335 61 reissue",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 5999
+        }
+      ],
+      "score": 59.0,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 7.6 lbs"
+        },
+        "neck_35pct": {
+          "score": 0.0,
+          "note": "nut ok (0); 1st fret unmeasured; 12th fret unmeasured"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: '60s slimtaper c (scanned from originals)'"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "new"
+        },
+        "price_5pct": {
+          "score": 0.0,
+          "note": "well above anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Dave's Guitar Shop",
+      "url": "https://davesguitar.com/products/1961-es-335-reissue-vintage-burst-7",
+      "price_usd": 5999,
+      "condition": "New",
+      "city_state": "La Crosse, WI",
+      "year": null,
+      "model": "Gibson Custom Shop 1961 ES-335 Reissue",
+      "finish": "Vintage Burst (VOS)",
+      "serial": null,
+      "weight_lbs": 7.6,
+      "nut_width_in": 1.69,
+      "fret1_depth_in": null,
+      "fret12_depth_in": null,
+      "neck_profile": "60s SlimTaper C (scanned from originals)",
+      "shoulder_description": null,
+      "fingerboard_radius": "12\"",
+      "pickups": "Unpotted Custombucker Alnico III (neck & bridge)",
+      "case_included": true,
+      "modifications": null,
+      "measurements_source": "dealer measured",
+      "notes": "Target model ('61 Reissue) at ideal 7.6 lbs. Sibling units: 7.8 lbs at Marshfield (/products/1961-es-335-reissue-vintage-burst-5), 7.9 lbs at Milwaukee (/products/1961-es-335-reissue-vintage-burst-3).",
+      "category": "es_335",
+      "id": "g028",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "es-335 61 reissue",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 5999
+        }
+      ],
+      "score": 59.0,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 7.6 lbs"
+        },
+        "neck_35pct": {
+          "score": 0.0,
+          "note": "nut ok (0); 1st fret unmeasured; 12th fret unmeasured"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: '60s slimtaper c (scanned from originals)'"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "new"
+        },
+        "price_5pct": {
+          "score": 0.0,
+          "note": "well above anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Dave's Guitar Shop",
+      "url": "https://davesguitar.com/products/1964-es-335-reissue-sixties-cherry-3",
+      "price_usd": 5999,
+      "condition": "New",
+      "city_state": "La Crosse, WI",
+      "year": null,
+      "model": "Gibson Custom Shop 1964 ES-335 Reissue",
+      "finish": "Sixties Cherry (VOS)",
+      "serial": null,
+      "weight_lbs": 7.6,
+      "nut_width_in": 1.69,
+      "fret1_depth_in": null,
+      "fret12_depth_in": null,
+      "neck_profile": "Slim taper 60s C (scanned from originals)",
+      "shoulder_description": null,
+      "fingerboard_radius": "12\"",
+      "pickups": "Unpotted Custombucker Alnico III (neck & bridge)",
+      "case_included": true,
+      "modifications": null,
+      "measurements_source": "dealer measured",
+      "notes": "Ideal 7.6 lbs; small block inlays, nylon-saddle no-wire ABR-1, hide glue/long tenon.",
+      "category": "es_335",
+      "id": "g029",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "es-335 modern",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 5999
+        }
+      ],
+      "score": 59.0,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 7.6 lbs"
+        },
+        "neck_35pct": {
+          "score": 0.0,
+          "note": "nut ok (0); 1st fret unmeasured; 12th fret unmeasured"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: 'slim taper 60s c (scanned from originals)'"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "new"
+        },
+        "price_5pct": {
+          "score": 0.0,
+          "note": "well above anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Carter Vintage Guitars",
+      "url": "https://cartervintage.com/shop/gibson-custom-shop-1959-es-335-2023-natural/3A8OylqSwkjF3gsUl115ryO8dOy",
+      "price_usd": 4850,
+      "condition": "Used - very clean, minor wear only",
+      "city_state": "Nashville, TN",
+      "year": 2023,
+      "model": "Gibson Custom Shop 1959 ES-335 Reissue",
+      "finish": "Natural",
+      "serial": null,
+      "weight_lbs": 8.0,
+      "nut_width_in": 1.688,
+      "fret1_depth_in": 0.894,
+      "fret12_depth_in": 0.953,
+      "neck_profile": "C (Medium C '59 spec)",
+      "shoulder_description": "Hand-filling but not oversized per dealer description",
+      "fingerboard_radius": "12\"",
+      "pickups": "Burstbuckers (7.8k / 7.8k), appears unmodified",
+      "case_included": "OHSC and COA",
+      "modifications": "None",
+      "measurements_source": "dealer measured",
+      "notes": "Live and available 2026-07-19. Cheapest verified Custom Shop 335; 8.0 lbs at top of target range. Nut 1.688 and 1st-fret 0.894 wider/deeper than targets. SKU GE3650-A.",
+      "category": "es_335",
+      "id": "g057",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "es-335 modern",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 4850
+        }
+      ],
+      "score": 59.0,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 80.0,
+          "note": "weight 8.0 lbs"
+        },
+        "neck_35pct": {
+          "score": 22.3,
+          "note": "nut ok (0); 1st fret ok (0); 12th fret ok (67)"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: 'c (medium c '59 spec) hand-filling but not oversized per dea'"
+        },
+        "condition_10pct": {
+          "score": 70.0,
+          "note": "used - very clean, minor wear only"
+        },
+        "price_5pct": {
+          "score": 22.9,
+          "note": "well above anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Rainbow Guitars",
+      "url": "https://www.rainbowguitars.com/guitar/gibson-custom-shop/1959-es-335-reissue-murphy-lab-ultra-light-aged-vintage-natural/59es335ulvnnh1092/gb",
+      "price_usd": 5199,
+      "condition": "Mint, still in case (Murphy Lab factory-aged)",
+      "city_state": "Tucson, AZ",
+      "year": 2023,
+      "model": "Gibson Custom Shop 1959 ES-335 Reissue Murphy Lab Ultra Light Aged",
+      "finish": "Vintage Natural, aged nitro",
+      "serial": "A930092",
+      "weight_lbs": 7.81,
+      "nut_width_in": 1.69,
+      "fret1_depth_in": null,
+      "fret12_depth_in": null,
+      "neck_profile": "Authentic '59 Medium C (scanned from originals)",
+      "shoulder_description": "Medium C - fuller-shouldered than the slim D/C target",
+      "fingerboard_radius": "12\"",
+      "pickups": "Custombucker Alnico III, unpotted",
+      "case_included": "Gibson hardshell case, COA, all paperwork",
+      "modifications": "None",
+      "measurements_source": "dealer measured",
+      "notes": "Verified unsold via Rainbow product API (WebSold=false), on sale from $6,499 MSRP. 7.81 lbs with target Custombuckers; flagged: '59 medium C profile, not slim D/C.",
+      "category": "es_335",
+      "id": "g062",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "es-335 modern",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 5199
+        }
+      ],
+      "score": 58.6,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 99.0,
+          "note": "weight 7.81 lbs"
+        },
+        "neck_35pct": {
+          "score": 0.0,
+          "note": "nut ok (0); 1st fret unmeasured; 12th fret unmeasured"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: 'authentic '59 medium c (scanned from originals) medium c - f'"
+        },
+        "condition_10pct": {
+          "score": 98.0,
+          "note": "mint, still in case (murphy lab factory-aged)"
+        },
+        "price_5pct": {
+          "score": 2.9,
+          "note": "well above anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Rudy's Music",
+      "url": "https://rudysmusic.com/products/gibson-1972-es-335td-walnut-727445",
+      "price_usd": 6795,
+      "condition": "Excellent vintage (one single-layer laminate crack by controls, professionally assessed)",
+      "city_state": "New York, NY (SoHo)",
+      "year": 1972,
+      "model": "Gibson ES-335TD (Norlin)",
+      "finish": "Walnut",
+      "serial": "727445",
+      "weight_lbs": 7.9,
+      "nut_width_in": null,
+      "fret1_depth_in": null,
+      "fret12_depth_in": null,
+      "neck_profile": null,
+      "shoulder_description": null,
+      "fingerboard_radius": null,
+      "pickups": "Original patent-sticker T-Tops",
+      "case_included": "Original hardshell case",
+      "modifications": "Refret, replaced nut, replaced tuners, one pickup-ring screw replaced",
+      "measurements_source": "dealer measured",
+      "notes": "Verified live and in stock 2026-07-19 via Shopify availability JSON. 1972-80 Norlin, T-Tops, 7.9 lbs. Dealer calls it one of the best-playing vintage 335s in the shop. Needs nut width confirmation (nut replaced; no neck measurements published).",
+      "category": "es_335",
+      "id": "g060",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "es-335 norlin",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 6795
+        }
+      ],
+      "score": 57.9,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 90.0,
+          "note": "weight 7.9 lbs"
+        },
+        "neck_35pct": {
+          "score": 35.0,
+          "note": "no neck measurements (capped)"
+        },
+        "shoulders_20pct": {
+          "score": 40.0,
+          "note": "no shoulder/profile info"
+        },
+        "condition_10pct": {
+          "score": 92.0,
+          "note": "excellent vintage (one single-layer laminate crack by controls, professionally assessed)"
+        },
+        "price_5pct": {
+          "score": 28.2,
+          "note": "well above anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Chicago Music Exchange",
+      "url": "https://chicagomusicexchange.com/products/gibson-custom-murphy-lab-64-es-335-ultra-light-aged-2622702",
+      "price_usd": 4695,
+      "condition": "Used - Excellent (factory relic, minimal wear beyond)",
+      "city_state": "Chicago, IL",
+      "year": 2021,
+      "model": "Gibson Custom Shop Murphy Lab 1964 ES-335 Ultra Light Aged",
+      "finish": "Sixties Cherry",
+      "serial": "140313",
+      "weight_lbs": 7.81,
+      "nut_width_in": 1.6875,
+      "fret1_depth_in": 0.89,
+      "fret12_depth_in": 0.98,
+      "neck_profile": "C profile",
+      "shoulder_description": null,
+      "fingerboard_radius": "12\"",
+      "pickups": "Original Custombuckers, neck 7.8k / bridge 8.0k",
+      "case_included": true,
+      "modifications": "None; all-original",
+      "measurements_source": "dealer measured",
+      "notes": "Weight 7 lb 13 oz is ideal, but this individual '64 measures chunky: 0.89\" first fret, well over the 0.76-0.82\" target. Included as a weight-ideal Custom Shop option; try before buying if neck depth is critical. COA included.",
+      "category": "es_335",
+      "id": "g034",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "es-335 modern",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 4695
+        }
+      ],
+      "score": 57.2,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 99.0,
+          "note": "weight 7.81 lbs"
+        },
+        "neck_35pct": {
+          "score": 13.3,
+          "note": "nut ok (0); 1st fret ok (0); 12th fret ok (40)"
+        },
+        "shoulders_20pct": {
+          "score": 60.0,
+          "note": "profile unclear: 'c profile'"
+        },
+        "condition_10pct": {
+          "score": 92.0,
+          "note": "used - excellent (factory relic, minimal wear beyond)"
+        },
+        "price_5pct": {
+          "score": 31.7,
+          "note": "well above anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Willcutt Guitars",
+      "url": "https://willcuttguitars.com/products/gibson-64-es-335-reissue-pelham-blue-vos-410-64es335psl18605-130410",
+      "price_usd": 6699,
+      "condition": "New",
+      "city_state": "Lexington, KY",
+      "year": null,
+      "model": "Gibson Custom Shop 1964 ES-335 Reissue VOS, Willcutt Exclusive",
+      "finish": "Pelham Blue",
+      "serial": "130410",
+      "weight_lbs": 7.86,
+      "nut_width_in": 1.687,
+      "fret1_depth_in": null,
+      "fret12_depth_in": null,
+      "neck_profile": "Authentic '64 Medium C-Shape",
+      "shoulder_description": "Medium-C '64 shoulders, fuller than slim target",
+      "fingerboard_radius": "12\"",
+      "pickups": "2 Custombucker Alnico III (unpotted)",
+      "case_included": "Black/Yellow Custom Shop hardshell",
+      "modifications": null,
+      "measurements_source": "dealer measured",
+      "notes": "In-range 7.86 lbs; no weight relief, hide-glue board. Verified in stock 2026-07-19.",
+      "category": "es_335",
+      "id": "g051",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "es-335 modern",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 6699
+        }
+      ],
+      "score": 57.2,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 94.0,
+          "note": "weight 7.86 lbs"
+        },
+        "neck_35pct": {
+          "score": 0.0,
+          "note": "nut ok (0); 1st fret unmeasured; 12th fret unmeasured"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: 'authentic '64 medium c-shape medium-c '64 shoulders, fuller '"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "new"
+        },
+        "price_5pct": {
+          "score": 0.0,
+          "note": "well above anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Empire Music",
+      "url": "https://empiremusic.com/products/used-gibson-custom-shop-dealer-select-1961-es-335-2026-silver-ebony-60054-with-original-hard-case",
+      "price_usd": 4999,
+      "condition": "Used - Excellent (very light play wear)",
+      "city_state": "Mt. Lebanon (Pittsburgh), PA",
+      "year": 2026,
+      "model": "Gibson Custom Shop Dealer Select 1961 ES-335 Reissue",
+      "finish": "Silver Ebony with black headstock stinger, gloss nitro",
+      "serial": "160054",
+      "weight_lbs": 7.94,
+      "nut_width_in": 1.68,
+      "fret1_depth_in": null,
+      "fret12_depth_in": null,
+      "neck_profile": "Authentic '61 Thin D",
+      "shoulder_description": "Thin D - low-shouldered early-60s carve",
+      "fingerboard_radius": "12\"",
+      "pickups": "Gibson '57 Classic (neck and bridge)",
+      "case_included": "Original hardshell case",
+      "modifications": "None noted",
+      "measurements_source": "dealer measured",
+      "notes": "Verified live and in stock 2026-07-19. Direct hit on '61 Reissue target: thin D neck, 7.94 lbs. Nut 1.68 period-correct for '61 RI though above stated 1.56-1.60 window. First-fret depth not published.",
+      "category": "es_335",
+      "id": "g061",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "es-335 61 reissue",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 4999
+        }
+      ],
+      "score": 56.5,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 86.0,
+          "note": "weight 7.94 lbs"
+        },
+        "neck_35pct": {
+          "score": 0.0,
+          "note": "nut ok (0); 1st fret unmeasured; 12th fret unmeasured"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: 'authentic '61 thin d thin d - low-shouldered early-60s carve'"
+        },
+        "condition_10pct": {
+          "score": 92.0,
+          "note": "used - excellent (very light play wear)"
+        },
+        "price_5pct": {
+          "score": 50.0,
+          "note": "well above anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Dave's Guitar Shop",
+      "url": "https://davesguitar.com/products/1964-es-335-reissue-sixties-cherry-5",
+      "price_usd": 5999,
+      "condition": "New",
+      "city_state": "Madison, WI",
+      "year": null,
+      "model": "Gibson Custom Shop 1964 ES-335 Reissue",
+      "finish": "Sixties Cherry (VOS)",
+      "serial": null,
+      "weight_lbs": 7.4,
+      "nut_width_in": 1.69,
+      "fret1_depth_in": null,
+      "fret12_depth_in": null,
+      "neck_profile": "Slim taper 60s C (scanned from originals)",
+      "shoulder_description": null,
+      "fingerboard_radius": "12\"",
+      "pickups": "Unpotted Custombucker Alnico III (neck & bridge)",
+      "case_included": true,
+      "modifications": null,
+      "measurements_source": "dealer measured",
+      "notes": "Lightest new ES found at 7.4 lbs (bottom of target range).",
+      "category": "es_335",
+      "id": "g030",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "es-335 modern",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 5999
+        }
+      ],
+      "score": 56.0,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 90.0,
+          "note": "weight 7.4 lbs"
+        },
+        "neck_35pct": {
+          "score": 0.0,
+          "note": "nut ok (0); 1st fret unmeasured; 12th fret unmeasured"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: 'slim taper 60s c (scanned from originals)'"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "new"
+        },
+        "price_5pct": {
+          "score": 0.0,
+          "note": "well above anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Willcutt Guitars",
+      "url": "https://willcuttguitars.com/products/gibson-es-335-50s-ebony-284-es35500ebnh1-235050284",
+      "price_usd": 3499,
+      "condition": "New",
+      "city_state": "Lexington, KY",
+      "year": 2023,
+      "model": "Gibson ES-335 '50s (USA)",
+      "finish": "Ebony",
+      "serial": "235050284",
+      "weight_lbs": 7.95,
+      "nut_width_in": null,
+      "fret1_depth_in": 0.86,
+      "fret12_depth_in": 0.97,
+      "neck_profile": "Rounded '50s C",
+      "shoulder_description": "Dealer-measured .86-.97 - chunky '50s shoulders, above target windows",
+      "fingerboard_radius": "12\"",
+      "pickups": "Custombucker Alnico 3",
+      "case_included": "Hardshell case included",
+      "modifications": null,
+      "measurements_source": "dealer measured",
+      "notes": "Target Ebony finish, in-range 7.95 lbs, Custombuckers at a USA-line price; neck is fat. Verified in stock 2026-07-19.",
+      "category": "es_335",
+      "id": "g052",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "es-335 modern",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 3499
+        }
+      ],
+      "score": 54.6,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 85.0,
+          "note": "weight 7.95 lbs"
+        },
+        "neck_35pct": {
+          "score": 30.3,
+          "note": "nut unmeasured; 1st fret ok (27); 12th fret ok (50)"
+        },
+        "shoulders_20pct": {
+          "score": 20.0,
+          "note": "fat/50s-style profile: 'rounded '50s c dealer-measured .86-.97 - chunky '50s shoulde'"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "new"
+        },
+        "price_5pct": {
+          "score": 90.0,
+          "note": "at/under anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Carter Vintage Guitars",
+      "url": "https://cartervintage.com/shop/gibson-murphy-lab-heavy-aged-59-es-335-2026-candy-apple-red-burst/3GH5tjvoI2iLELfnNX9rmt4yMsE",
+      "price_usd": 9799,
+      "condition": "New (Murphy Lab Heavy Aged)",
+      "city_state": "Nashville, TN",
+      "year": 2026,
+      "model": "Gibson Custom Shop Murphy Lab Heavy Aged '59 ES-335 Reissue",
+      "finish": "Candy Apple Red Burst",
+      "serial": null,
+      "weight_lbs": 7.2,
+      "nut_width_in": 1.682,
+      "fret1_depth_in": 0.897,
+      "fret12_depth_in": 0.98,
+      "neck_profile": "Medium C",
+      "shoulder_description": "'59-spec medium C",
+      "fingerboard_radius": "12\"",
+      "pickups": "Custombuckers (7.8k / 7.8k)",
+      "case_included": "OHSC and COA",
+      "modifications": "None (new)",
+      "measurements_source": "dealer measured",
+      "notes": "Live and available 2026-07-19. 7.2 lbs is a 0.2 lb near-miss below the 7.4 floor (very light for a 335). Medium C fuller than slim-C target. SKU GE3894-A. Sweep notes: Gruhn 1978 LP sold; Elderly 1974 ES-335TD sold; Cream City Iced Tea out of stock, Bourbon Burst has no unit weight; Cream City '61 ES-335 RI Sixties Cherry (7 lb 11.9 oz, 0.82 1st fret) fully in-spec but not in stock.",
+      "category": "es_335",
+      "id": "g059",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "es-335 61 reissue",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 9799
+        }
+      ],
+      "score": 52.9,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 64.0,
+          "note": "weight 7.2 lbs"
+        },
+        "neck_35pct": {
+          "score": 13.3,
+          "note": "nut ok (0); 1st fret ok (0); 12th fret ok (40)"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: 'medium c '59-spec medium c'"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "new (murphy lab heavy aged)"
+        },
+        "price_5pct": {
+          "score": 0.0,
+          "note": "well above anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Carter Vintage Guitars",
+      "url": "https://cartervintage.com/shop/gibson-murphy-lab-light-aged-64-es-335-2026-inverness-green/3GHCu1V95GdWLp2aOi1tlUoL0sZ",
+      "price_usd": 8999,
+      "condition": "New (Murphy Lab Light Aged)",
+      "city_state": "Nashville, TN",
+      "year": 2026,
+      "model": "Gibson Custom Shop Murphy Lab Light Aged '64 ES-335 Reissue",
+      "finish": "Inverness Green (double-stinger neck)",
+      "serial": null,
+      "weight_lbs": 7.4,
+      "nut_width_in": 1.677,
+      "fret1_depth_in": 0.916,
+      "fret12_depth_in": 0.989,
+      "neck_profile": "'64 C",
+      "shoulder_description": "Comfortable '64 carve, 'a good amount of meat without being over the top' per dealer",
+      "fingerboard_radius": "12\"",
+      "pickups": "Custombuckers (7.9k neck / 7.8k bridge)",
+      "case_included": "OHSC",
+      "modifications": "None (new)",
+      "measurements_source": "dealer measured",
+      "notes": "Live and available 2026-07-19. 7.4 lbs hits target floor. Neck depth 0.916 at 1st fret fuller than slim target - rounder '64 profile. Rare finish. SKU GE3895-A.",
+      "category": "es_335",
+      "id": "g058",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "es-335 modern",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 8999
+        }
+      ],
+      "score": 52.6,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 90.0,
+          "note": "weight 7.4 lbs"
+        },
+        "neck_35pct": {
+          "score": 10.3,
+          "note": "nut ok (0); 1st fret ok (0); 12th fret ok (31)"
+        },
+        "shoulders_20pct": {
+          "score": 60.0,
+          "note": "profile unclear: ''64 c comfortable '64 carve, 'a good amount of meat without '"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "new (murphy lab light aged)"
+        },
+        "price_5pct": {
+          "score": 0.0,
+          "note": "well above anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Southside Guitars",
+      "url": "https://southsideguitars.com/products/1969-Gibson-Les-Paul-Standard-Goldtop-p828031704",
+      "price_usd": 21950,
+      "condition": "Very good vintage - honest play wear, checking, no breaks/repairs",
+      "city_state": "Brooklyn, NY",
+      "year": 1969,
+      "model": "Gibson Les Paul Standard Goldtop (1-piece body, 3-piece neck, no volute, '68-dated pots, 2nd stamp)",
+      "finish": "Goldtop",
+      "serial": null,
+      "weight_lbs": 9.06,
+      "nut_width_in": null,
+      "fret1_depth_in": null,
+      "fret12_depth_in": null,
+      "neck_profile": null,
+      "shoulder_description": null,
+      "fingerboard_radius": null,
+      "pickups": "Original P-90s",
+      "case_included": "Original case",
+      "modifications": "Caps changed to bumble-bees, non-original jack plate; otherwise original",
+      "measurements_source": "dealer measured",
+      "notes": "Verified live, qty 1, 2026-07-19. Pre-1985 vintage so weight-only qualifies; 9.06 lbs slightly above band. P-90s and big price - interesting-vintage wildcard, not a core spec match. Sweep status notes: TME WW-spec R0 and Rudy's 2016 Memphis '58 RI now 404; TR Crandall 2021 LP 60s (9.64 lbs), 1974 ES-335 (7.4 lbs), 1979 ES-335 Pro (8.8 lbs) all SOLD; Southside 1973 ES-335 Black delisted; 1978 ES-335 no weight; all four Rainbow LP 60s Unburst WebSold; TME publishes no weights; GC Used / Music Go Round had no listings with exact weights.",
+      "category": "les_paul",
+      "id": "g067",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "norlin lp",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 21950
+        }
+      ],
+      "score": 51.2,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 76.0,
+          "note": "weight 9.06 lbs"
+        },
+        "neck_35pct": {
+          "score": 35.0,
+          "note": "no neck measurements (capped)"
+        },
+        "shoulders_20pct": {
+          "score": 40.0,
+          "note": "no shoulder/profile info"
+        },
+        "condition_10pct": {
+          "score": 82.0,
+          "note": "very good vintage - honest play wear, checking, no breaks/repairs"
+        },
+        "price_5pct": {
+          "score": 0.0,
+          "note": "well above anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Rainbow Guitars",
+      "url": "https://www.rainbowguitars.com/guitar/gibson/es-335-50s-vintage-natural-new-for-2026/es35500nnnh1/gb",
+      "price_usd": 3499,
+      "condition": "New",
+      "city_state": "Tucson, AZ",
+      "year": 2026,
+      "model": "Gibson USA ES-335 '50s",
+      "finish": "Vintage Natural, gloss nitro",
+      "serial": "201460148",
+      "weight_lbs": 7.81,
+      "nut_width_in": 1.695,
+      "fret1_depth_in": null,
+      "fret12_depth_in": null,
+      "neck_profile": "Rounded C ('50s style)",
+      "shoulder_description": "Substantial rounded C - fuller than the slim target",
+      "fingerboard_radius": "12\"",
+      "pickups": "Custombucker Alnico 3",
+      "case_included": "Gibson hardshell case",
+      "modifications": "None",
+      "measurements_source": "dealer measured",
+      "notes": "Verified unsold via Rainbow product API 2026-07-19. Value option: 7.81 lbs with Custombuckers at $3,499, but '50s rounded C and 1.695 nut miss the slim/narrow ES targets.",
+      "category": "es_335",
+      "id": "g064",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "es-335 modern",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 3499
+        }
+      ],
+      "score": 48.2,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 99.0,
+          "note": "weight 7.81 lbs"
+        },
+        "neck_35pct": {
+          "score": 0.0,
+          "note": "nut ok (0); 1st fret unmeasured; 12th fret unmeasured"
+        },
+        "shoulders_20pct": {
+          "score": 20.0,
+          "note": "fat/50s-style profile: 'rounded c ('50s style) substantial rounded c - fuller than t'"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "new"
+        },
+        "price_5pct": {
+          "score": 90.0,
+          "note": "at/under anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Willcutt Guitars",
+      "url": "https://willcuttguitars.com/products/gibson-58-es-335-reissue-tobacco-burst-murphy-lab-heavy-aged-nh-200-58es335psl21802-a840200",
+      "price_usd": 7999,
+      "condition": "New",
+      "city_state": "Lexington, KY",
+      "year": null,
+      "model": "Gibson Custom Shop 1958 ES-335 Reissue, Murphy Lab Heavy Aged (130th Anniversary limited, 1 of 130)",
+      "finish": "Tobacco Burst",
+      "serial": "A840200",
+      "weight_lbs": 7.75,
+      "nut_width_in": 1.687,
+      "fret1_depth_in": null,
+      "fret12_depth_in": null,
+      "neck_profile": "'58 Unbound Fat C-Shape",
+      "shoulder_description": "Big '58 rounded shoulders - well outside slim target; reported for ideal weight",
+      "fingerboard_radius": "12\"",
+      "pickups": "Custombuckers (unpotted)",
+      "case_included": "Brown Lifton hardshell with pink lining + COA",
+      "modifications": null,
+      "measurements_source": "dealer measured",
+      "notes": "Ideal weight 7.75 lbs, unbound fingerboard '58 spec. Neck is fat, not slim. Verified in stock 2026-07-19.",
+      "category": "es_335",
+      "id": "g050",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "es-335 modern",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 7999
+        }
+      ],
+      "score": 44.0,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 7.75 lbs"
+        },
+        "neck_35pct": {
+          "score": 0.0,
+          "note": "nut ok (0); 1st fret unmeasured; 12th fret unmeasured"
+        },
+        "shoulders_20pct": {
+          "score": 20.0,
+          "note": "fat/50s-style profile: ''58 unbound fat c-shape big '58 rounded shoulders - well out'"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "new"
+        },
+        "price_5pct": {
+          "score": 0.0,
+          "note": "well above anchor"
+        }
+      }
+    }
+  ]
 }
