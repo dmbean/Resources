@@ -9,3 +9,7 @@ Empire Music, Music Zoo, Rainbow Guitars, CME Used, Guitar Center Used, Music Go
 ## Discovered during runs
 
 _Add dealers found via forums/listings here; they get searched on every subsequent run._
+
+- Mike & Mike's Guitar Bar (mmguitarbar.com) — Seattle; strong vintage 335 stock with shop-measured
+  specs; cross-lists on Reverb, so dedupe against Reverb items by specs (their serials are unpublished).
+  Discovered 2026-07-20.

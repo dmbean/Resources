@@ -1,7 +1,7 @@
 {
   "meta": {
     "created": "2026-07-19",
-    "last_run": "2026-07-19",
+    "last_run": "2026-07-20",
     "run_count": 1,
     "current_best": {
       "les_paul": {
@@ -238,7 +238,7 @@
       "case_included": "Vintage non-original black tolex hardshell case",
       "modifications": "Replacement vintage-style pickup covers and reflector knobs; otherwise original (ABR-1 + trapeze)",
       "measurements_source": "dealer measured",
-      "notes": "Reverb item 96595265. Best overall spec match in the sweep: 7 lbs 8 oz, 1-9/16 in nut, .805 in 1st fret \u2014 squarely in the ideal window. Pro setup, small-block board, six-digit serial dates to '74/'75.",
+      "notes": "Reverb item 96595265. Best overall spec match in the sweep: 7 lbs 8 oz, 1-9/16 in nut, .805 in 1st fret \u2014 squarely in the ideal window. Pro setup, small-block board, six-digit serial dates to '74/'75. | Also listed on dealer site (mmguitarbar.com) - same guitar, tracked under Reverb URL.",
       "category": "es_335",
       "id": "g011",
       "status": "ACTIVE",
@@ -281,6 +281,9 @@
         "Known issues: classic Norlin gripes \u2014 weight creep on some, crooked neck sets, mediocre fretwork, sunken tops around the bridge on some examples, the volute, and hit-or-miss quality declining through the decade.",
         "Market/value: the affordable entry into vintage 335s \u2014 early-70s examples trade far below dot-necks; 'great for the money if you play it first' consensus; clean, light, straight-necked examples appreciating modestly.",
         "Verify before buying: neck set straightness, top sinking under the bridge, actual weight, volute-area crack/repair, T-Top originality (DCR ~7.5k), and confirm year via pot codes since Norlin serials are notoriously ambiguous."
+      ],
+      "alt_urls": [
+        "https://mmguitarbar.com/products/1975-gibson-es-335-tdc-vintage-semi-hollow-guitar-cherry-figured-maple-w-t-tops-case-1"
       ]
     },
     {
@@ -1624,7 +1627,7 @@
       "case_included": "Original black tolex hardshell case",
       "modifications": "Stopbar tailpiece conversion (trapeze holes doweled), modern vintage-spec Kluson tuners, frets leveled/crowned",
       "measurements_source": "dealer measured",
-      "notes": "Reverb item 97842585. 7 lb 14 oz. Ideal 1st-fret depth 0.795. Same guitar also live as duplicate Reverb listing 93473088 from the same shop.",
+      "notes": "Reverb item 97842585. 7 lb 14 oz. Ideal 1st-fret depth 0.795. Same guitar also live as duplicate Reverb listing 93473088 from the same shop. | Also listed on dealer site (mmguitarbar.com) - same guitar, tracked under Reverb URL.",
       "category": "es_335",
       "id": "g072",
       "status": "ACTIVE",
@@ -1667,7 +1670,10 @@
           "score": 70.0,
           "note": "slightly above anchor"
         }
-      }
+      },
+      "alt_urls": [
+        "https://mmguitarbar.com/products/1969-gibson-es-335-tdc-vintage-guitar-cherry-stoptail-conversion-w-pat-t-tops-case-1"
+      ]
     },
     {
       "dealer": "Reverb \u2013 Thunder Road Guitars PDX",
@@ -2738,7 +2744,7 @@
       "case_included": "Vintage hardshell case (not original)",
       "modifications": "Bone nut upgrade (cut to 1 9/16), professional refret with medium jumbo wire; otherwise 100% original",
       "measurements_source": "dealer measured",
-      "notes": "Reverb item 99332402. Title says 1978 but dealer serial dating says 1976. Weight exactly 8.0 lbs; 1st fret 0.835 slightly above ideal. Exceptionally clean finish.",
+      "notes": "Reverb item 99332402. Title says 1978 but dealer serial dating says 1976. Weight exactly 8.0 lbs; 1st fret 0.835 slightly above ideal. Exceptionally clean finish. | Also listed on dealer site (mmguitarbar.com) - same guitar, tracked under Reverb URL.",
       "category": "es_335",
       "id": "g077",
       "status": "ACTIVE",
@@ -2781,7 +2787,10 @@
           "score": 90.0,
           "note": "at/under anchor"
         }
-      }
+      },
+      "alt_urls": [
+        "https://mmguitarbar.com/products/1978-gibson-es-335-vintage-semi-hollow-guitar-sunburst-w-tarbacks-coil-tap-case"
+      ]
     },
     {
       "dealer": "Chicago Music Exchange",
@@ -5051,6 +5060,41 @@
         "Known issues: relatively few \u2014 Murphy Lab lacquer fragility/checking, weight variance (7.5-9 lbs), scattered nut/setup complaints; thin lacquer damages easily in shipping; hollow wings + unpotted pickups mean feedback management is part of ownership.",
         "Market/value: current top-of-market for new 335s; Murphy Lab premium softens on resale (used ML often 25-30% off list) while VOS holds value best; has largely replaced clean vintage 335s in the 'best modern alternative' conversation.",
         "Verify before buying: neck measurements (confirm the skinny '61 carve suits you vs the fatter '59 RI), weight, aging level and hidden damage within Murphy Lab wear, COA/case, center block rattles (tap test), original Custombuckers."
+      ]
+    },
+    {
+      "dealer": "Reverb \u2013 Lovies Guitars",
+      "url": "https://reverb.com/item/99414319",
+      "price_usd": 2895,
+      "condition": "Excellent - 'exceptionally clean', all original",
+      "city_state": "Thousand Oaks, CA",
+      "year": 2025,
+      "model": "Gibson ES-335 (Block inlay, Gibson USA)",
+      "finish": "Sunburst Gloss",
+      "serial": "215550086",
+      "weight_lbs": 7.6,
+      "nut_width_in": 1.6875,
+      "fret1_depth_in": 0.78,
+      "fret12_depth_in": 0.92,
+      "neck_profile": "Rounded C (this example measures slim: .780 first fret)",
+      "shoulder_description": "Slim end of Gibson USA Rounded C - .780/.920 taper, genuinely fast for a modern 335",
+      "fingerboard_radius": null,
+      "pickups": "Calibrated T-Type humbuckers",
+      "case_included": "Original Gibson hardshell case",
+      "modifications": "None - all original",
+      "measurements_source": "dealer measured",
+      "notes": "Reverb item 99414319, published 2026-07-16. Best modern-era value find: 7.6 lbs ideal band, first-fret .78 inside target - rare for a current USA 335 at $2,895. Nut standard 1-11/16.",
+      "category": "es_335",
+      "id": "g078",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-20",
+      "last_confirmed_active": "2026-07-20",
+      "market_bucket": "es-335 modern",
+      "price_history": [
+        {
+          "date": "2026-07-20",
+          "price_usd": 2895
+        }
       ]
     }
   ]
