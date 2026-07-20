@@ -1079,6 +1079,72 @@
       ]
     },
     {
+      "dealer": "Reverb \u2013 Wildwood Guitars",
+      "url": "https://reverb.com/item/92670044-gibson-custom-shop-wildwood-spec-1960-les-paul-standard-gloss",
+      "price_usd": 7349,
+      "condition": "Brand New",
+      "city_state": "Louisville, CO",
+      "year": 2025,
+      "model": "Gibson Custom Shop Wildwood Spec 1960 Les Paul Standard (Gloss)",
+      "finish": "Bourbon Burst",
+      "serial": "Wildwood SKU 05463",
+      "weight_lbs": 8.41,
+      "nut_width_in": 1.687,
+      "fret1_depth_in": 0.82,
+      "fret12_depth_in": 0.95,
+      "neck_profile": "1960 Slim Taper C (V2)",
+      "shoulder_description": "Slim-but-not-thin 1960 SlimTaper C carve",
+      "fingerboard_radius": "12\"",
+      "pickups": "Wildwood Spec Custombuckers (unpotted)",
+      "case_included": "Brown/pink Lifton reissue case with Wildwood Spec badge + COA",
+      "modifications": "None (new, factory original)",
+      "measurements_source": "dealer measured",
+      "notes": "Reverb item 92670044, live/in stock. Ideal-band weight 8.41 with 1st fret .820 right at target; preferred Bourbon Burst finish. Hot hide glue, no weight relief, no-wire ABR-1 brass saddles, CTS pots, PIO caps. Distinct from tracked SKUs 05183/05546.",
+      "category": "les_paul",
+      "id": "g079",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-20",
+      "last_confirmed_active": "2026-07-20",
+      "market_bucket": "wildwood spec",
+      "price_history": [
+        {
+          "date": "2026-07-20",
+          "price_usd": 7349
+        }
+      ],
+      "research_cluster": "cs-r0-modern",
+      "research": [
+        "Neck feel: modern core R0s ship with the '1960 V2' medium-slim carve (~.82\" at the 1st fret, ~.95\" at the 12th) \u2014 forum consensus calls it 'a '59 neck on a diet'; Wildwood-spec R0s also typically measure around .82\" first fret, and only the V3/slim-taper variants get truly skinny (~.80\"/.89\").",
+        "Pickups: unpotted Custombuckers (Alnico III), widely praised on MLP/TGP as the best PAF-style pickup Gibson ships \u2014 airy, open, clear lows and classic midrange honk; Wildwood Spec versions are regarded as tonally equivalent, with differences mainly cosmetic.",
+        "Known issues: general 2019+ Historic complaints \u2014 occasional nut slot/fret-end sloppiness, inconsistent VOS/Murphy Lab finish work, weight variance (roughly 8.3-9.5 lbs, no weight relief), some checking-prone Murphy Lab lacquer; unpotted Custombuckers can squeal at high gain.",
+        "Market/value: the 2019 'reformulated' Historic line is considered the best regular-production era since True Historic; R0s trade slightly below equivalent R9s and hold value well used at roughly 60-75% of street; dealer-spec examples carry a modest resale premium.",
+        "Verify before buying: actual neck measurements (V2 vs V3 vs V1 \u2014 dealer listings are often wrong; ask for 1st/12th fret caliper numbers), weight, COA and case candy, serial format, no headstock repair under aging, and original unpotted Custombuckers."
+      ],
+      "score": 89.8,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 8.41 lbs"
+        },
+        "neck_35pct": {
+          "score": 78.0,
+          "note": "nut ok (94); 1st fret ok (100); 12th fret ok (40)"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: '1960 slim taper c (v2) slim-but-not-thin 1960 slimtaper c ca'"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "brand new"
+        },
+        "price_5pct": {
+          "score": 70.0,
+          "note": "slightly above anchor"
+        }
+      }
+    },
+    {
       "dealer": "Reverb \u2013 Guitar Maniacs",
       "url": "https://reverb.com/item/99233772-1974-gibson-es-335tdc-cherry",
       "price_usd": 5995,
@@ -1475,6 +1541,64 @@
       }
     },
     {
+      "dealer": "Reverb \u2013 Lovies Guitars",
+      "url": "https://reverb.com/item/99414319",
+      "price_usd": 2895,
+      "condition": "Excellent - 'exceptionally clean', all original",
+      "city_state": "Thousand Oaks, CA",
+      "year": 2025,
+      "model": "Gibson ES-335 (Block inlay, Gibson USA)",
+      "finish": "Sunburst Gloss",
+      "serial": "215550086",
+      "weight_lbs": 7.6,
+      "nut_width_in": 1.6875,
+      "fret1_depth_in": 0.78,
+      "fret12_depth_in": 0.92,
+      "neck_profile": "Rounded C (this example measures slim: .780 first fret)",
+      "shoulder_description": "Slim end of Gibson USA Rounded C - .780/.920 taper, genuinely fast for a modern 335",
+      "fingerboard_radius": null,
+      "pickups": "Calibrated T-Type humbuckers",
+      "case_included": "Original Gibson hardshell case",
+      "modifications": "None - all original",
+      "measurements_source": "dealer measured",
+      "notes": "Reverb item 99414319, published 2026-07-16. Best modern-era value find: 7.6 lbs ideal band, first-fret .78 inside target - rare for a current USA 335 at $2,895. Nut standard 1-11/16.",
+      "category": "es_335",
+      "id": "g078",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-20",
+      "last_confirmed_active": "2026-07-20",
+      "market_bucket": "es-335 modern",
+      "price_history": [
+        {
+          "date": "2026-07-20",
+          "price_usd": 2895
+        }
+      ],
+      "score": 86.5,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 7.6 lbs"
+        },
+        "neck_35pct": {
+          "score": 66.7,
+          "note": "nut ok (0); 1st fret ok (100); 12th fret ok (100)"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: 'rounded c (this example measures slim: .780 first fret) slim'"
+        },
+        "condition_10pct": {
+          "score": 92.0,
+          "note": "excellent - 'exceptionally clean', all original"
+        },
+        "price_5pct": {
+          "score": 100.0,
+          "note": "17% under anchor"
+        }
+      }
+    },
+    {
       "dealer": "Reverb \u2013 In Bloom Guitars",
       "url": "https://reverb.com/item/98163808-1973-gibson-es-335-custom-colour-factory-black-w-bigsby-mod-t-tops-ohsc-rare",
       "price_usd": 6535.1,
@@ -1539,6 +1663,72 @@
         "Market/value: the affordable entry into vintage 335s \u2014 early-70s examples trade far below dot-necks; 'great for the money if you play it first' consensus; clean, light, straight-necked examples appreciating modestly.",
         "Verify before buying: neck set straightness, top sinking under the bridge, actual weight, volute-area crack/repair, T-Top originality (DCR ~7.5k), and confirm year via pot codes since Norlin serials are notoriously ambiguous."
       ]
+    },
+    {
+      "dealer": "Reverb \u2013 Wildwood Guitars",
+      "url": "https://reverb.com/item/92356486-gibson-custom-shop-wildwood-spec-1960-les-paul-standard-gloss",
+      "price_usd": 7349,
+      "condition": "Brand New",
+      "city_state": "Louisville, CO",
+      "year": 2025,
+      "model": "Gibson Custom Shop Wildwood Spec 1960 Les Paul Standard (Gloss)",
+      "finish": "Slow Iced Tea Fade",
+      "serial": "Wildwood SKU 05302",
+      "weight_lbs": 8.72,
+      "nut_width_in": 1.687,
+      "fret1_depth_in": 0.83,
+      "fret12_depth_in": 0.96,
+      "neck_profile": "1960 Slim Taper V2",
+      "shoulder_description": "1960 SlimTaper V2 carve, marginally fuller than target at .830 1st fret",
+      "fingerboard_radius": "12\"",
+      "pickups": "Wildwood Spec Custombuckers (unpotted)",
+      "case_included": "Brown/pink Lifton reissue case with Wildwood Spec badge + COA",
+      "modifications": "None (new, factory original)",
+      "measurements_source": "dealer measured",
+      "notes": "Reverb item 92356486, live/in stock. 8.72 ideal band, preferred Iced Tea family finish; 1st fret .830 a hair over target. Also on wildwoodguitars.com as gibson-custom-shop-wildwood-spec-1960-les-paul-standard-4. Distinct SKU 05302.",
+      "category": "les_paul",
+      "id": "g080",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-20",
+      "last_confirmed_active": "2026-07-20",
+      "market_bucket": "wildwood spec",
+      "price_history": [
+        {
+          "date": "2026-07-20",
+          "price_usd": 7349
+        }
+      ],
+      "research_cluster": "cs-r0-modern",
+      "research": [
+        "Neck feel: modern core R0s ship with the '1960 V2' medium-slim carve (~.82\" at the 1st fret, ~.95\" at the 12th) \u2014 forum consensus calls it 'a '59 neck on a diet'; Wildwood-spec R0s also typically measure around .82\" first fret, and only the V3/slim-taper variants get truly skinny (~.80\"/.89\").",
+        "Pickups: unpotted Custombuckers (Alnico III), widely praised on MLP/TGP as the best PAF-style pickup Gibson ships \u2014 airy, open, clear lows and classic midrange honk; Wildwood Spec versions are regarded as tonally equivalent, with differences mainly cosmetic.",
+        "Known issues: general 2019+ Historic complaints \u2014 occasional nut slot/fret-end sloppiness, inconsistent VOS/Murphy Lab finish work, weight variance (roughly 8.3-9.5 lbs, no weight relief), some checking-prone Murphy Lab lacquer; unpotted Custombuckers can squeal at high gain.",
+        "Market/value: the 2019 'reformulated' Historic line is considered the best regular-production era since True Historic; R0s trade slightly below equivalent R9s and hold value well used at roughly 60-75% of street; dealer-spec examples carry a modest resale premium.",
+        "Verify before buying: actual neck measurements (V2 vs V3 vs V1 \u2014 dealer listings are often wrong; ask for 1st/12th fret caliper numbers), weight, COA and case candy, serial format, no headstock repair under aging, and original unpotted Custombuckers."
+      ],
+      "score": 84.4,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 8.72 lbs"
+        },
+        "neck_35pct": {
+          "score": 62.4,
+          "note": "nut ok (94); 1st fret ok (67); 12th fret ok (27)"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: '1960 slim taper v2 1960 slimtaper v2 carve, marginally fulle'"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "brand new"
+        },
+        "price_5pct": {
+          "score": 70.0,
+          "note": "slightly above anchor"
+        }
+      }
     },
     {
       "dealer": "Reverb \u2013 Gary's Gear Locker (private seller)",
@@ -5060,41 +5250,6 @@
         "Known issues: relatively few \u2014 Murphy Lab lacquer fragility/checking, weight variance (7.5-9 lbs), scattered nut/setup complaints; thin lacquer damages easily in shipping; hollow wings + unpotted pickups mean feedback management is part of ownership.",
         "Market/value: current top-of-market for new 335s; Murphy Lab premium softens on resale (used ML often 25-30% off list) while VOS holds value best; has largely replaced clean vintage 335s in the 'best modern alternative' conversation.",
         "Verify before buying: neck measurements (confirm the skinny '61 carve suits you vs the fatter '59 RI), weight, aging level and hidden damage within Murphy Lab wear, COA/case, center block rattles (tap test), original Custombuckers."
-      ]
-    },
-    {
-      "dealer": "Reverb \u2013 Lovies Guitars",
-      "url": "https://reverb.com/item/99414319",
-      "price_usd": 2895,
-      "condition": "Excellent - 'exceptionally clean', all original",
-      "city_state": "Thousand Oaks, CA",
-      "year": 2025,
-      "model": "Gibson ES-335 (Block inlay, Gibson USA)",
-      "finish": "Sunburst Gloss",
-      "serial": "215550086",
-      "weight_lbs": 7.6,
-      "nut_width_in": 1.6875,
-      "fret1_depth_in": 0.78,
-      "fret12_depth_in": 0.92,
-      "neck_profile": "Rounded C (this example measures slim: .780 first fret)",
-      "shoulder_description": "Slim end of Gibson USA Rounded C - .780/.920 taper, genuinely fast for a modern 335",
-      "fingerboard_radius": null,
-      "pickups": "Calibrated T-Type humbuckers",
-      "case_included": "Original Gibson hardshell case",
-      "modifications": "None - all original",
-      "measurements_source": "dealer measured",
-      "notes": "Reverb item 99414319, published 2026-07-16. Best modern-era value find: 7.6 lbs ideal band, first-fret .78 inside target - rare for a current USA 335 at $2,895. Nut standard 1-11/16.",
-      "category": "es_335",
-      "id": "g078",
-      "status": "ACTIVE",
-      "date_discovered": "2026-07-20",
-      "last_confirmed_active": "2026-07-20",
-      "market_bucket": "es-335 modern",
-      "price_history": [
-        {
-          "date": "2026-07-20",
-          "price_usd": 2895
-        }
       ]
     }
   ]
