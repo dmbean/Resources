@@ -97,6 +97,7 @@ def main():
             "notes": g.get("notes"), "research": g.get("research"),
             "breakdown": g.get("score_breakdown"),
             "thumb": thumb_uri(g["id"]),
+            "offer": g.get("offer_intel"),
         })
     payload = json.dumps({"meta": meta, "bands": BANDS, "guitars": guitars},
                          ensure_ascii=False).replace("</", "<\\/")
@@ -175,6 +176,9 @@ input[type=search]{flex:1;min-width:110px}
 .chip.priceup{background:var(--cherry-soft);color:var(--cherry)}
 .chip.sold{background:var(--chip-sold);color:var(--bg)}
 .chip.newtoday{background:var(--ink);color:var(--bg)}
+.chip.offers{background:var(--amber);color:var(--bg)}
+.offerline{font-size:12px;border:1px dashed var(--amber);border-radius:6px;padding:6px 9px;color:var(--ink)}
+.offerline b{color:var(--amber)}
 .specs{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:8px 0}
 .spec{text-align:center}
 .spec .v{font-variant-numeric:tabular-nums;font-weight:600;font-size:14px}
@@ -279,6 +283,14 @@ function card(g){
   const cls = g.cat==="les_paul" ? ["lp","Les Paul"] : ["es","ES-335"];
   const isNew = g.found === DATA.meta.last_run;
   const stier = g.score>=88?"hi":(g.score>=75?"mid":"lo");
+  const oi = g.offer || {};
+  let offerline = "";
+  if (oi.offers_enabled && oi.suggested_offer_usd) {
+    const bits = [];
+    if (oi.days_listed != null) bits.push(`listed ${oi.days_listed}d`);
+    if (oi.over_market_pct != null && oi.over_market_pct >= 5) bits.push(`~${oi.over_market_pct}% over market`);
+    offerline = `<div class="offerline">Open to offers${bits.length? " · "+bits.join(" · "):""} → try <b>${money(oi.suggested_offer_usd)}</b> (−${oi.discount_pct}%)<br><span style="opacity:.75">${esc(oi.rationale||"")}</span></div>`;
+  }
   const research = g.research ? `<details><summary>Community research</summary><ul>${g.research.map(b=>`<li>${esc(b)}</li>`).join("")}</ul></details>` : "";
   const notes = g.notes ? `<details><summary>Agent notes</summary><div style="margin-top:6px">${esc(g.notes)}</div></details>` : "";
   const photo = g.thumb
@@ -293,7 +305,7 @@ function card(g){
         <div class="gsub">${esc(g.finish||"")}</div>
       </div>
     </div>
-    <div class="chips"><span class="chip ${cls[0]}">${cls[1]}</span>${chipStatus(g.status)}${isNew?'<span class="chip newtoday">New today</span>':""}</div>
+    <div class="chips"><span class="chip ${cls[0]}">${cls[1]}</span>${chipStatus(g.status)}${isNew?'<span class="chip newtoday">New today</span>':""}${oi.offers_enabled?'<span class="chip offers">Offers</span>':""}</div>
     <div class="specs">
       ${spec(g.cat,"weight","Weight",g.weight," lb")}
       ${nutSpec(g)}
@@ -307,7 +319,7 @@ function card(g){
       ${g.serial?"Serial: "+esc(g.serial)+" · ":""}${g.meas?esc(g.meas):""}
       ${g.mods&&g.mods!=="None"?"<br>Mods: "+esc(g.mods):""}
     </div>
-    ${research}${notes}
+    ${offerline}${research}${notes}
     <div class="bottomrow">
       <span class="price">${money(g.price)}</span>
       <a class="listing" href="${esc(g.url)}" target="_blank" rel="noopener">View listing ↗</a>
