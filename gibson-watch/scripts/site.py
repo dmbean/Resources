@@ -214,6 +214,10 @@ details li{margin-bottom:4px}
   <div class="substat" id="substat"></div>
 </header>
 <div class="controls">
+  <button id="drawerbtn" class="toggle" type="button" aria-expanded="false" title="More filters">
+    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" style="vertical-align:-2px"><path d="M3 5h18M7 12h10M10 19h4"/></svg>
+    Filters<span id="drawerdot" hidden> ●</span>
+  </button>
   <div class="seg" id="catseg">
     <button data-cat="all" class="on">All</button>
     <button data-cat="les_paul">Les Paul</button>
@@ -227,10 +231,6 @@ details li{margin-bottom:4px}
   </select>
   <button id="offbtn" class="toggle" type="button" aria-pressed="false">Offers</button>
   <button id="nybtn" class="toggle" type="button" aria-pressed="false">NY only</button>
-  <button id="drawerbtn" class="toggle" type="button" aria-expanded="false" title="More filters">
-    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" style="vertical-align:-2px"><path d="M3 5h18M7 12h10M10 19h4"/></svg>
-    Filters<span id="drawerdot" hidden> ●</span>
-  </button>
   <select id="nutsel">
     <option value="any">Nut: any</option>
     <option value="narrow">Nut ≤ 1.60″</option>
