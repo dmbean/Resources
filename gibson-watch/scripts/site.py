@@ -150,6 +150,15 @@ select,input[type=search]{background:var(--bg-raise);color:var(--ink);border:1px
 input[type=search]{flex:1;min-width:110px}
 .toggle{border:1px solid var(--line);background:var(--bg-raise);color:var(--ink-soft);border-radius:6px;padding:5px 10px;font:600 11px/1 system-ui;letter-spacing:.04em;text-transform:uppercase;cursor:pointer}
 .toggle.on{background:var(--amber);border-color:var(--amber);color:var(--bg)}
+#drawerdot{color:var(--amber)}
+#drawerbtn.on #drawerdot{color:inherit}
+#scrim{position:fixed;inset:0;background:rgba(0,0,0,.35);z-index:19}
+#drawer{position:fixed;top:0;right:0;height:100%;width:min(300px,85vw);background:var(--bg-raise);border-left:1px solid var(--line);z-index:20;padding:18px;display:flex;flex-direction:column;gap:14px;transform:translateX(100%);transition:transform .22s ease;box-shadow:-8px 0 24px rgba(0,0,0,.12)}
+#drawer.open{transform:translateX(0)}
+@media (prefers-reduced-motion: reduce){#drawer{transition:none}}
+#drawer label{display:flex;flex-direction:column;gap:5px;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-soft);font-weight:600}
+#drawer select{max-width:none;width:100%;font-size:13px;padding:7px 8px}
+.drawerhead{display:flex;align-items:center;justify-content:space-between;font-family:Charter,Georgia,serif;font-size:17px;border-bottom:2px solid var(--ink);padding-bottom:8px}
 .count{font-size:12px;color:var(--ink-soft);margin-left:auto;font-variant-numeric:tabular-nums}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:14px;margin-top:16px}
 .card{background:var(--bg-raise);border:1px solid var(--line);border-radius:8px;padding:0 0 14px;display:flex;flex-direction:column;gap:10px;overflow:hidden}
@@ -210,28 +219,18 @@ details li{margin-bottom:4px}
     <button data-cat="les_paul">Les Paul</button>
     <button data-cat="es_335">ES-335</button>
   </div>
-  <select id="statussel">
-    <option value="live">Live listings</option>
-    <option value="all">Include sold</option>
-  </select>
   <select id="sortsel">
     <option value="score">Sort: score</option>
     <option value="price">Sort: price (low → high)</option>
     <option value="weight">Sort: weight (low → high)</option>
     <option value="new">Sort: newest find</option>
   </select>
-  <select id="colorsel">
-    <option value="any">Color: any</option>
-    <option value="sunburst">Sunburst / burst</option>
-    <option value="black">Black / Ebony</option>
-    <option value="cherry">Cherry</option>
-    <option value="natural">Natural / Blonde</option>
-    <option value="walnut">Walnut / Brown</option>
-    <option value="gold">Goldtop</option>
-    <option value="other">Other colors</option>
-  </select>
-  <select id="finishsel"><option value="any">Finish: any</option></select>
+  <button id="offbtn" class="toggle" type="button" aria-pressed="false">Offers</button>
   <button id="nybtn" class="toggle" type="button" aria-pressed="false">NY only</button>
+  <button id="drawerbtn" class="toggle" type="button" aria-expanded="false" title="More filters">
+    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" style="vertical-align:-2px"><path d="M3 5h18M7 12h10M10 19h4"/></svg>
+    Filters<span id="drawerdot" hidden> ●</span>
+  </button>
   <select id="nutsel">
     <option value="any">Nut: any</option>
     <option value="narrow">Nut ≤ 1.60″</option>
@@ -245,6 +244,29 @@ details li{margin-bottom:4px}
 <div class="grid" id="grid"></div>
 <div class="empty" id="empty" hidden>No guitars match.</div>
 </div>
+<div id="scrim" hidden></div>
+<aside id="drawer" aria-label="More filters">
+  <div class="drawerhead"><span>Filters</span><button id="drawerclose" class="toggle" type="button">Close</button></div>
+  <label>Listings
+  <select id="statussel">
+    <option value="live">Live listings</option>
+    <option value="all">Include sold</option>
+  </select></label>
+  <label>Color family
+  <select id="colorsel">
+    <option value="any">Any</option>
+    <option value="sunburst">Sunburst / burst</option>
+    <option value="black">Black / Ebony</option>
+    <option value="cherry">Cherry</option>
+    <option value="natural">Natural / Blonde</option>
+    <option value="walnut">Walnut / Brown</option>
+    <option value="gold">Goldtop</option>
+    <option value="other">Other colors</option>
+  </select></label>
+  <label>Finish
+  <select id="finishsel"><option value="any">Any</option></select></label>
+  <button id="drawerreset" class="toggle" type="button">Reset these</button>
+</aside>
 <script>
 const DATA = __DATA__;
 const bands = DATA.bands;
@@ -339,6 +361,11 @@ function render(){
   const finish=document.getElementById("finishsel").value;
   if(finish!=="any") gs=gs.filter(g=>g.finish_label===finish);
   if(nyOnly) gs=gs.filter(g=>g.state==="NY");
+  if(offersOnly) gs=gs.filter(g=>g.offer&&g.offer.offers_enabled);
+  const drawerActive = document.getElementById("statussel").value!=="live"
+    || document.getElementById("colorsel").value!=="any"
+    || document.getElementById("finishsel").value!=="any";
+  document.getElementById("drawerdot").hidden = !drawerActive;
   if(status==="live") gs=gs.filter(g=>g.status!=="SOLD"&&g.status!=="EXCLUDED");
   if(nut!=="any") gs=gs.filter(g=>{
     if(nut==="unknown") return g.nut==null;
@@ -373,11 +400,34 @@ function rebuildFinishOptions(){
   sel.value=names.includes(prev)?prev:"any";
 }
 document.getElementById("colorsel").addEventListener("change",rebuildFinishOptions);
-let nyOnly=false;
+let nyOnly=false,offersOnly=false;
 document.getElementById("nybtn").addEventListener("click",e=>{
   nyOnly=!nyOnly;
   e.currentTarget.classList.toggle("on",nyOnly);
   e.currentTarget.setAttribute("aria-pressed",String(nyOnly));
+  render();
+});
+document.getElementById("offbtn").addEventListener("click",e=>{
+  offersOnly=!offersOnly;
+  e.currentTarget.classList.toggle("on",offersOnly);
+  e.currentTarget.setAttribute("aria-pressed",String(offersOnly));
+  render();
+});
+const drawer=document.getElementById("drawer"),scrim=document.getElementById("scrim");
+function setDrawer(open){
+  drawer.classList.toggle("open",open);
+  scrim.hidden=!open;
+  document.getElementById("drawerbtn").setAttribute("aria-expanded",String(open));
+}
+document.getElementById("drawerbtn").addEventListener("click",()=>setDrawer(!drawer.classList.contains("open")));
+document.getElementById("drawerclose").addEventListener("click",()=>setDrawer(false));
+scrim.addEventListener("click",()=>setDrawer(false));
+document.addEventListener("keydown",e=>{if(e.key==="Escape")setDrawer(false);});
+document.getElementById("drawerreset").addEventListener("click",()=>{
+  document.getElementById("statussel").value="live";
+  document.getElementById("colorsel").value="any";
+  rebuildFinishOptions();
+  document.getElementById("finishsel").value="any";
   render();
 });
 ["statussel","sortsel","nutsel","colorsel","finishsel"].forEach(id=>document.getElementById(id).addEventListener("change",render));
