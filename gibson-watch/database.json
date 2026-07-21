@@ -1748,6 +1748,81 @@
       }
     },
     {
+      "dealer": "Reverb \u2013 Imperial Vintage Guitars",
+      "url": "https://reverb.com/item/98820777-8-5-lbs-1989-gibson-les-paul-standard-2-piece-flame-top-cherry-sunburst-w-ohsc",
+      "price_usd": 4895,
+      "condition": "Excellent",
+      "city_state": "Burbank, CA (San Diego brick-and-mortar)",
+      "year": 1989,
+      "model": "Les Paul Standard ('Good Wood era'), rare 2-piece flame top",
+      "finish": "Cherry Sunburst",
+      "serial": null,
+      "weight_lbs": 8.5,
+      "nut_width_in": 1.68,
+      "fret1_depth_in": 0.82,
+      "fret12_depth_in": 0.96,
+      "neck_profile": "Late-80s Standard carve, slim at the nut",
+      "shoulder_description": "Slim first-position feel (.82) but substantial 12th-fret depth (.96)",
+      "fingerboard_radius": null,
+      "pickups": "Currently Sayoko Kuwabara custom-wound double-cream PAF set (A2 neck/A5 bridge, unpotted); original HB-R/HB-L included, dealer will reinstall on request",
+      "case_included": "Original Gibson 'chainsaw' case and paperwork",
+      "modifications": "Pickups, TonePros bridge/tailpiece (originals included), 2 newer CTS volume pots",
+      "measurements_source": "dealer measured",
+      "notes": "Reverb item 98820777. 8 lbs 8 oz on dealer's scale \u2014 'lightest 80s Gibson we've come across.' Not a target model per se but an interesting light vintage-adjacent Standard; 12th-fret depth over target. Reversible mods.",
+      "category": "les_paul",
+      "id": "g010",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-20",
+      "market_bucket": "lp goodwood 80s",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 4895
+        }
+      ],
+      "score": 85.3,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 8.5 lbs"
+        },
+        "neck_35pct": {
+          "score": 68.9,
+          "note": "nut ok (80); 1st fret ok (100); 12th fret ok (27)"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: 'late-80s standard carve, slim at the nut slim first-position'"
+        },
+        "condition_10pct": {
+          "score": 92.0,
+          "note": "excellent"
+        },
+        "price_5pct": {
+          "score": 60.0,
+          "note": "no market anchor"
+        }
+      },
+      "research_cluster": "lp-goodwood-80s",
+      "research": [
+        "Neck feel: 1989-92 Standards wear the era's slim-to-medium '60s-style taper \u2014 comfortable modern-slim necks with small-to-medium frets; profiles vary by year and unit, so measurement beats reputation.",
+        "Pickups: most carry the 490R/498T set introduced ~1990 \u2014 punchy and aggressive, rated good-not-great; many owners swap the 498T for something more PAF-like.",
+        "Known issues: the 'good wood era' label is contested \u2014 consensus is tightened QC rather than magic timber; practical issues: many examples 9.5-10.5+ lbs, thick-feeling finish on certain years, aging binding/plastics, three-decade wear items.",
+        "Market/value: solidly respected used buys trading well below new Standard street price \u2014 value sleepers with excellent burst work for the period; the mythology inflates some asking prices, so pay for the individual guitar, not the slogan.",
+        "Verify before buying: weight on a scale, serial decode to confirm year and Standard vs Classic/Studio identity, fret life and truss rod range, originality of pickups/pots/tuners, headstock repair under blacklight, binding/lacquer cracks at the neck joint."
+      ],
+      "offer_intel": {
+        "as_of": "2026-07-20",
+        "anchor_usd": null,
+        "offers_enabled": true,
+        "days_listed": 24,
+        "suggested_offer_usd": 4400,
+        "discount_pct": 10,
+        "rationale": "8% base; condition/mods"
+      }
+    },
+    {
       "dealer": "Reverb \u2013 In Bloom Guitars",
       "url": "https://reverb.com/item/98163808-1973-gibson-es-335-custom-colour-factory-black-w-bigsby-mod-t-tops-ohsc-rare",
       "price_usd": 6535.1,
@@ -2170,81 +2245,6 @@
         "as_of": "2026-07-20",
         "anchor_usd": 7850,
         "over_market_pct": 17
-      }
-    },
-    {
-      "dealer": "Reverb \u2013 Imperial Vintage Guitars",
-      "url": "https://reverb.com/item/98820777-8-5-lbs-1989-gibson-les-paul-standard-2-piece-flame-top-cherry-sunburst-w-ohsc",
-      "price_usd": 4895,
-      "condition": "Excellent",
-      "city_state": "Burbank, CA (San Diego brick-and-mortar)",
-      "year": 1989,
-      "model": "Les Paul Standard ('Good Wood era'), rare 2-piece flame top",
-      "finish": "Cherry Sunburst",
-      "serial": null,
-      "weight_lbs": 8.5,
-      "nut_width_in": 1.68,
-      "fret1_depth_in": 0.82,
-      "fret12_depth_in": 0.96,
-      "neck_profile": "Late-80s Standard carve, slim at the nut",
-      "shoulder_description": "Slim first-position feel (.82) but substantial 12th-fret depth (.96)",
-      "fingerboard_radius": null,
-      "pickups": "Currently Sayoko Kuwabara custom-wound double-cream PAF set (A2 neck/A5 bridge, unpotted); original HB-R/HB-L included, dealer will reinstall on request",
-      "case_included": "Original Gibson 'chainsaw' case and paperwork",
-      "modifications": "Pickups, TonePros bridge/tailpiece (originals included), 2 newer CTS volume pots",
-      "measurements_source": "dealer measured",
-      "notes": "Reverb item 98820777. 8 lbs 8 oz on dealer's scale \u2014 'lightest 80s Gibson we've come across.' Not a target model per se but an interesting light vintage-adjacent Standard; 12th-fret depth over target. Reversible mods.",
-      "category": "les_paul",
-      "id": "g010",
-      "status": "ACTIVE",
-      "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-07-20",
-      "market_bucket": "lp goodwood 80s",
-      "price_history": [
-        {
-          "date": "2026-07-19",
-          "price_usd": 4895
-        }
-      ],
-      "score": 82.3,
-      "score_breakdown": {
-        "weight_30pct": {
-          "score": 100.0,
-          "note": "weight 8.5 lbs"
-        },
-        "neck_35pct": {
-          "score": 68.9,
-          "note": "nut ok (80); 1st fret ok (100); 12th fret ok (27)"
-        },
-        "shoulders_20pct": {
-          "score": 95.0,
-          "note": "slim/fast profile: 'late-80s standard carve, slim at the nut slim first-position'"
-        },
-        "condition_10pct": {
-          "score": 92.0,
-          "note": "excellent"
-        },
-        "price_5pct": {
-          "score": 0.0,
-          "note": "well above anchor"
-        }
-      },
-      "research_cluster": "lp-goodwood-80s",
-      "research": [
-        "Neck feel: 1989-92 Standards wear the era's slim-to-medium '60s-style taper \u2014 comfortable modern-slim necks with small-to-medium frets; profiles vary by year and unit, so measurement beats reputation.",
-        "Pickups: most carry the 490R/498T set introduced ~1990 \u2014 punchy and aggressive, rated good-not-great; many owners swap the 498T for something more PAF-like.",
-        "Known issues: the 'good wood era' label is contested \u2014 consensus is tightened QC rather than magic timber; practical issues: many examples 9.5-10.5+ lbs, thick-feeling finish on certain years, aging binding/plastics, three-decade wear items.",
-        "Market/value: solidly respected used buys trading well below new Standard street price \u2014 value sleepers with excellent burst work for the period; the mythology inflates some asking prices, so pay for the individual guitar, not the slogan.",
-        "Verify before buying: weight on a scale, serial decode to confirm year and Standard vs Classic/Studio identity, fret life and truss rod range, originality of pickups/pots/tuners, headstock repair under blacklight, binding/lacquer cracks at the neck joint."
-      ],
-      "offer_intel": {
-        "as_of": "2026-07-20",
-        "anchor_usd": null,
-        "offers_enabled": true,
-        "days_listed": 24,
-        "suggested_offer_usd": 4400,
-        "discount_pct": 10,
-        "rationale": "8% base; condition/mods"
       }
     },
     {
@@ -3326,6 +3326,64 @@
       ]
     },
     {
+      "dealer": "Reverb \u2013 The Music Zoo",
+      "url": "https://reverb.com/item/94282042-yamaha-sa2200-brown-burst",
+      "price_usd": 3099.99,
+      "condition": "Brand New",
+      "city_state": "Farmingdale, NY (Long Island showroom)",
+      "year": 2025,
+      "model": "Yamaha SA-2200 semi-hollow (MIJ)",
+      "finish": "Brown Burst",
+      "serial": null,
+      "weight_lbs": 8.19,
+      "nut_width_in": null,
+      "fret1_depth_in": 0.83,
+      "fret12_depth_in": 0.89,
+      "neck_profile": "Yamaha soft-D / medium C",
+      "shoulder_description": "Soft D per Yamaha factory spec",
+      "fingerboard_radius": "13.75\"",
+      "pickups": "Yamaha Alnico V humbuckers w/ push-push coil splits",
+      "case_included": "Hardshell case",
+      "modifications": "None (new)",
+      "measurements_source": "dealer measured",
+      "notes": "Reverb item 94282042, live. NEAR-MISS: 8.19 lbs just over ES ceiling; .830 1st fret a hair over. Lighter/slimmer of Music Zoo's two units - compare side-by-side in Farmingdale.",
+      "category": "es_335",
+      "id": "g086",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-20",
+      "last_confirmed_active": "2026-07-20",
+      "market_bucket": "mij 335",
+      "price_history": [
+        {
+          "date": "2026-07-20",
+          "price_usd": 3099.99
+        }
+      ],
+      "score": 75.7,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 64.8,
+          "note": "weight 8.19 lbs"
+        },
+        "neck_35pct": {
+          "score": 75.3,
+          "note": "nut unmeasured; 1st fret ok (67); 12th fret ok (100)"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: 'yamaha soft-d / medium c soft d per yamaha factory spec'"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "brand new"
+        },
+        "price_5pct": {
+          "score": 18.2,
+          "note": "well above anchor"
+        }
+      }
+    },
+    {
       "dealer": "Dave's Guitar Shop",
       "url": "https://davesguitar.com/products/les-paul-deluxe-81",
       "price_usd": 2995,
@@ -3825,6 +3883,64 @@
       }
     },
     {
+      "dealer": "Reverb \u2013 Alan's Guitar Room (private seller)",
+      "url": "https://reverb.com/item/89834666-tokai-es-220-2022-cherry",
+      "price_usd": 2000,
+      "condition": "Mint (like new)",
+      "city_state": "Califon, NJ (~1h15m from Manhattan)",
+      "year": 2022,
+      "model": "Tokai ES-220 SR 335-style (top-tier MIJ ES series)",
+      "finish": "See-through Cherry Red",
+      "serial": null,
+      "weight_lbs": 7.84,
+      "nut_width_in": 1.614,
+      "fret1_depth_in": null,
+      "fret12_depth_in": null,
+      "neck_profile": "Not stated (seller sold because 41mm nut felt narrow to him)",
+      "shoulder_description": null,
+      "fingerboard_radius": null,
+      "pickups": "Tokai vintage PAF-style humbuckers",
+      "case_included": "Original Tokai plush-lined hardshell case",
+      "modifications": "None - babied, factory fresh",
+      "measurements_source": "dealer measured",
+      "notes": "Reverb item 89834666, live, $2,000 OBO, local pickup welcome. BEST MIJ ES-STYLE MATCH: 7.84 lbs in target, 1.614 nut in range. Top MIJ tier, long tenon, Gotoh hardware, bone nut. Western NJ - edge of range but seller invites in-person pickup.",
+      "category": "es_335",
+      "id": "g085",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-20",
+      "last_confirmed_active": "2026-07-20",
+      "market_bucket": "mij 335",
+      "price_history": [
+        {
+          "date": "2026-07-20",
+          "price_usd": 2000
+        }
+      ],
+      "score": 69.9,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 96.0,
+          "note": "weight 7.84 lbs"
+        },
+        "neck_35pct": {
+          "score": 41.6,
+          "note": "nut ok (58); 1st fret unmeasured; 12th fret unmeasured"
+        },
+        "shoulders_20pct": {
+          "score": 60.0,
+          "note": "profile unclear: 'not stated (seller sold because 41mm nut felt narrow to him)'"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "mint (like new)"
+        },
+        "price_5pct": {
+          "score": 90.0,
+          "note": "at/under anchor"
+        }
+      }
+    },
+    {
       "dealer": "Reverb \u2013 Guitar Riot",
       "url": "https://reverb.com/item/78711753-gibson-custom-shop-1960-les-paul-standard-reissue-vos-tangerine-burst-03487",
       "price_usd": 6699,
@@ -3895,6 +4011,64 @@
         "over_market_pct": 10,
         "offers_enabled": false,
         "days_listed": 899
+      }
+    },
+    {
+      "dealer": "Reverb \u2013 Tone House Studios",
+      "url": "https://reverb.com/item/99189671-2012-fgn-jlc-5r-les-paul-custom-mij-black-w-gigbag-fujigen-japan",
+      "price_usd": 1199.99,
+      "condition": "Excellent",
+      "city_state": "West Babylon, NY (Long Island)",
+      "year": 2012,
+      "model": "FGN/Fujigen JLC-5R Les Paul Custom style (J-Standard, MIJ)",
+      "finish": "Black",
+      "serial": "E121940",
+      "weight_lbs": 8.13,
+      "nut_width_in": 1.71,
+      "fret1_depth_in": 0.839,
+      "fret12_depth_in": 1.0,
+      "neck_profile": "Slimmer C (0.839 first fret)",
+      "shoulder_description": "Depth numbers suggest medium-slim carve",
+      "fingerboard_radius": null,
+      "pickups": "Stock FGN humbuckers",
+      "case_included": "Gigbag + original model card",
+      "modifications": "None; factory Circle Fretting System; basswood body (not mahogany)",
+      "measurements_source": "dealer measured",
+      "notes": "Reverb item 99189671, live. Best slim-neck MIJ LP find: .839 1st fret just over target, 8.13 lbs slightly under window, nut 1.71 slightly wide. Fujigen-built. Basswood body - lighter/different tone. Long Island - try in person.",
+      "category": "les_paul",
+      "id": "g083",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-20",
+      "last_confirmed_active": "2026-07-20",
+      "market_bucket": "mij lp",
+      "price_history": [
+        {
+          "date": "2026-07-20",
+          "price_usd": 1199.99
+        }
+      ],
+      "score": 69.5,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 68.7,
+          "note": "weight 8.13 lbs"
+        },
+        "neck_35pct": {
+          "score": 44.9,
+          "note": "nut ok (80); 1st fret ok (55); 12th fret ok (0)"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: 'slimmer c (0.839 first fret) depth numbers suggest medium-sl'"
+        },
+        "condition_10pct": {
+          "score": 92.0,
+          "note": "excellent"
+        },
+        "price_5pct": {
+          "score": 100.0,
+          "note": "40% under anchor"
+        }
       }
     },
     {
@@ -4180,6 +4354,64 @@
         "over_market_pct": 49,
         "offers_enabled": false,
         "days_listed": 4
+      }
+    },
+    {
+      "dealer": "Reverb \u2013 The Music Zoo",
+      "url": "https://reverb.com/item/94282043-yamaha-sa2200-semi-hollow-violin-sunburst",
+      "price_usd": 3099.99,
+      "condition": "Brand New",
+      "city_state": "Farmingdale, NY (Long Island showroom)",
+      "year": 2025,
+      "model": "Yamaha SA-2200 semi-hollow (MIJ)",
+      "finish": "Violin Sunburst",
+      "serial": null,
+      "weight_lbs": 8.44,
+      "nut_width_in": null,
+      "fret1_depth_in": 0.85,
+      "fret12_depth_in": 0.91,
+      "neck_profile": "Yamaha soft-D / medium C",
+      "shoulder_description": "Soft D per Yamaha factory spec",
+      "fingerboard_radius": "13.75\"",
+      "pickups": "Yamaha Alnico V humbuckers w/ push-push coil splits",
+      "case_included": "Hardshell case",
+      "modifications": "None (new)",
+      "measurements_source": "dealer measured",
+      "notes": "Reverb item 94282043 (older dup listing 5356151 also live), live. NEAR-MISS: 8.44 lbs ~0.4 over ES ceiling, .850 over target - heavier sibling of the Brown Burst.",
+      "category": "es_335",
+      "id": "g087",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-20",
+      "last_confirmed_active": "2026-07-20",
+      "market_bucket": "mij 335",
+      "price_history": [
+        {
+          "date": "2026-07-20",
+          "price_usd": 3099.99
+        }
+      ],
+      "score": 65.0,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 44.8,
+          "note": "weight 8.44 lbs"
+        },
+        "neck_35pct": {
+          "score": 62.0,
+          "note": "nut unmeasured; 1st fret ok (40); 12th fret ok (100)"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: 'yamaha soft-d / medium c soft d per yamaha factory spec'"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "brand new"
+        },
+        "price_5pct": {
+          "score": 18.2,
+          "note": "well above anchor"
+        }
       }
     },
     {
@@ -5585,6 +5817,64 @@
       }
     },
     {
+      "dealer": "Reverb \u2013 Tone House Studios",
+      "url": "https://reverb.com/item/97915190-2025-tokai-love-rock-ls-101f-mij-honey-burst-les-paul-with-gigbag",
+      "price_usd": 1499.99,
+      "condition": "Mint",
+      "city_state": "West Babylon, NY (Long Island)",
+      "year": 2025,
+      "model": "Tokai Love Rock LS-101F (MIJ Vintage series)",
+      "finish": "Honey Burst",
+      "serial": "2551168",
+      "weight_lbs": 9.19,
+      "nut_width_in": 1.69,
+      "fret1_depth_in": 0.935,
+      "fret12_depth_in": 1.04,
+      "neck_profile": "Substantial vintage '50s-style round",
+      "shoulder_description": "Fat 50s carve, not slim taper",
+      "fingerboard_radius": null,
+      "pickups": "Stock Tokai PAF-style humbuckers",
+      "case_included": "Original Tokai gigbag",
+      "modifications": "None",
+      "measurements_source": "dealer measured",
+      "notes": "Reverb item 97915190, live. NEAR-MISS: 9.19 lbs over 9.0 ceiling and .935 1st fret is a fat 50s neck. Country of Origin: Japan stated. Long Island - try in person.",
+      "category": "les_paul",
+      "id": "g082",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-20",
+      "last_confirmed_active": "2026-07-20",
+      "market_bucket": "mij lp",
+      "price_history": [
+        {
+          "date": "2026-07-20",
+          "price_usd": 1499.99
+        }
+      ],
+      "score": 50.7,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 67.3,
+          "note": "weight 9.19 lbs"
+        },
+        "neck_35pct": {
+          "score": 33.3,
+          "note": "nut ok (100); 1st fret ok (0); 12th fret ok (0)"
+        },
+        "shoulders_20pct": {
+          "score": 20.0,
+          "note": "fat/50s-style profile: 'substantial vintage '50s-style round fat 50s carve, not slim'"
+        },
+        "condition_10pct": {
+          "score": 98.0,
+          "note": "mint"
+        },
+        "price_5pct": {
+          "score": 100.0,
+          "note": "25% under anchor"
+        }
+      }
+    },
+    {
       "dealer": "Rainbow Guitars",
       "url": "https://www.rainbowguitars.com/guitar/gibson/es-335-50s-vintage-natural-new-for-2026/es35500nnnh1/gb",
       "price_usd": 3499,
@@ -5645,6 +5935,64 @@
         "as_of": "2026-07-20",
         "anchor_usd": 4400,
         "over_market_pct": -20
+      }
+    },
+    {
+      "dealer": "Reverb \u2013 Tone House Studios",
+      "url": "https://reverb.com/item/99190914-2012-edwards-e-lp-112ce-les-paul-custom-black-mij-w-gigbag-duncan-pickups",
+      "price_usd": 1699.99,
+      "condition": "Very Good",
+      "city_state": "West Babylon, NY (Long Island)",
+      "year": 2012,
+      "model": "Edwards (ESP) E-LP-112CE Les Paul Custom style (MIJ)",
+      "finish": "Black",
+      "serial": "ED1217361",
+      "weight_lbs": 8.0,
+      "nut_width_in": 1.74,
+      "fret1_depth_in": 0.941,
+      "fret12_depth_in": 1.01,
+      "neck_profile": "Fuller carve (0.941 first fret)",
+      "shoulder_description": null,
+      "fingerboard_radius": null,
+      "pickups": "Seymour Duncan SH-1N '59 (neck) / SH-4 JB (bridge), factory-fitted",
+      "case_included": "Gigbag",
+      "modifications": "Minor cosmetic wear + stickers; factory-stock Duncans",
+      "measurements_source": "dealer measured",
+      "notes": "Reverb item 99190914, live. NEAR-MISS on multiple specs: 8.0 lbs under LP floor, nut 1.74 wide, .941 fat; dealer lists 25 in scale (verify - normally 24.75). Black Beauty look with premium Duncans. Long Island - try in person.",
+      "category": "les_paul",
+      "id": "g084",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-20",
+      "last_confirmed_active": "2026-07-20",
+      "market_bucket": "mij lp",
+      "price_history": [
+        {
+          "date": "2026-07-20",
+          "price_usd": 1699.99
+        }
+      ],
+      "score": 46.9,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 60.0,
+          "note": "weight 8.0 lbs"
+        },
+        "neck_35pct": {
+          "score": 10.7,
+          "note": "nut ok (32); 1st fret ok (0); 12th fret ok (0)"
+        },
+        "shoulders_20pct": {
+          "score": 60.0,
+          "note": "profile unclear: 'fuller carve (0.941 first fret)'"
+        },
+        "condition_10pct": {
+          "score": 82.0,
+          "note": "very good"
+        },
+        "price_5pct": {
+          "score": 100.0,
+          "note": "15% under anchor"
+        }
       }
     },
     {
@@ -5716,6 +6064,180 @@
         "as_of": "2026-07-20",
         "anchor_usd": 4400,
         "over_market_pct": 82
+      }
+    },
+    {
+      "dealer": "Rivington Guitars",
+      "url": "https://rivingtonguitars.com/products/1978-greco-eg-450-les-paul-sunburst-flame-top-w-bigsby",
+      "price_usd": 1195,
+      "condition": "Used - very clean, all original",
+      "city_state": "New York, NY (East Village)",
+      "year": 1978,
+      "model": "Greco EG-450 Les Paul style (Fujigen MIJ)",
+      "finish": "Sunburst flame top",
+      "serial": null,
+      "weight_lbs": null,
+      "nut_width_in": null,
+      "fret1_depth_in": null,
+      "fret12_depth_in": null,
+      "neck_profile": null,
+      "shoulder_description": null,
+      "fingerboard_radius": null,
+      "pickups": "Original Greco humbuckers",
+      "case_included": "Hard case (non-original)",
+      "modifications": "None stated - all original, factory Bigsby",
+      "measurements_source": "unstated",
+      "notes": "Verified available 2026-07-20. NO WEIGHT PUBLISHED - NYC-local (73 E 4th St), weigh/measure in person. Lawsuit-era Fujigen build; EG-450 is mid-tier - confirm set-neck vs bolt-neck with shop.",
+      "category": "les_paul",
+      "id": "g081",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-20",
+      "last_confirmed_active": "2026-07-20",
+      "market_bucket": "mij lp",
+      "price_history": [
+        {
+          "date": "2026-07-20",
+          "price_usd": 1195
+        }
+      ],
+      "score": 32.2,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 0.0,
+          "note": "weight None lbs"
+        },
+        "neck_35pct": {
+          "score": 35.0,
+          "note": "no neck measurements (capped)"
+        },
+        "shoulders_20pct": {
+          "score": 40.0,
+          "note": "no shoulder/profile info"
+        },
+        "condition_10pct": {
+          "score": 70.0,
+          "note": "used - very clean, all original"
+        },
+        "price_5pct": {
+          "score": 100.0,
+          "note": "40% under anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Reverb \u2013 Attila's Gear Garage (private seller)",
+      "url": "https://reverb.com/item/97450223-edwards-lp-2007-flamed-honey",
+      "price_usd": 800,
+      "condition": "Very Good",
+      "city_state": "Brooklyn, NY",
+      "year": 2007,
+      "model": "Edwards (ESP) E-LP Les Paul style, tier unconfirmed (likely E-LP-92/98)",
+      "finish": "Flamed honey burst",
+      "serial": null,
+      "weight_lbs": null,
+      "nut_width_in": null,
+      "fret1_depth_in": null,
+      "fret12_depth_in": null,
+      "neck_profile": "'50s neck (seller-stated)",
+      "shoulder_description": null,
+      "fingerboard_radius": null,
+      "pickups": "Not stated (2007 E-LP flame tops typically factory Duncan-loaded)",
+      "case_included": null,
+      "modifications": "Missing truss rod cover; one small scratch",
+      "measurements_source": "unstated",
+      "notes": "Reverb item 97450223, live. Budget in-borough MIJ option. NO WEIGHT/SPECS PUBLISHED - arrange Brooklyn local meet to weigh, measure, and verify exact tier + MIJ serial before buying.",
+      "category": "les_paul",
+      "id": "g089",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-20",
+      "last_confirmed_active": "2026-07-20",
+      "market_bucket": "mij lp",
+      "price_history": [
+        {
+          "date": "2026-07-20",
+          "price_usd": 800
+        }
+      ],
+      "score": 29.5,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 0.0,
+          "note": "weight None lbs"
+        },
+        "neck_35pct": {
+          "score": 35.0,
+          "note": "no neck measurements (capped)"
+        },
+        "shoulders_20pct": {
+          "score": 20.0,
+          "note": "fat/50s-style profile: ''50s neck (seller-stated)'"
+        },
+        "condition_10pct": {
+          "score": 82.0,
+          "note": "very good"
+        },
+        "price_5pct": {
+          "score": 100.0,
+          "note": "60% under anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Reverb \u2013 Pro Audio Star",
+      "url": "https://reverb.com/item/71925846-used-ibanez-jsm100vt-john-scofield-signature-w-case-vintage-sunburst",
+      "price_usd": 3099.99,
+      "condition": "Used - Mint",
+      "city_state": "Brooklyn, NY",
+      "year": null,
+      "model": "Ibanez JSM100VT John Scofield Signature semi-hollow (Fujigen Prestige MIJ)",
+      "finish": "Vintage Sunburst",
+      "serial": null,
+      "weight_lbs": null,
+      "nut_width_in": 1.653,
+      "fret1_depth_in": null,
+      "fret12_depth_in": null,
+      "neck_profile": "JSM set-in mahogany neck, compound-radius board",
+      "shoulder_description": null,
+      "fingerboard_radius": "Compound",
+      "pickups": "Ibanez Super 58 (x2)",
+      "case_included": "Hardshell case",
+      "modifications": "None stated",
+      "measurements_source": "factory spec",
+      "notes": "Reverb item 71925846, live; a new unit also live at $3,499.99 (item 46668629). NO WEIGHT PUBLISHED - Brooklyn-based shop; call ahead to confirm walk-in tryout and weigh in person. Fujigen Prestige build, Gotoh 510.",
+      "category": "es_335",
+      "id": "g088",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-20",
+      "last_confirmed_active": "2026-07-20",
+      "market_bucket": "mij 335",
+      "price_history": [
+        {
+          "date": "2026-07-20",
+          "price_usd": 3099.99
+        }
+      ],
+      "score": 22.7,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 0.0,
+          "note": "weight None lbs"
+        },
+        "neck_35pct": {
+          "score": 0.0,
+          "note": "nut ok (0); 1st fret unmeasured; 12th fret unmeasured"
+        },
+        "shoulders_20pct": {
+          "score": 60.0,
+          "note": "profile unclear: 'jsm set-in mahogany neck, compound-radius board'"
+        },
+        "condition_10pct": {
+          "score": 98.0,
+          "note": "used - mint"
+        },
+        "price_5pct": {
+          "score": 18.2,
+          "note": "well above anchor"
+        }
       }
     }
   ]
