@@ -2613,6 +2613,77 @@
       }
     },
     {
+      "dealer": "Rudy's Music",
+      "url": "https://rudysmusic.com/products/gibson-1972-es-335td-walnut-727445",
+      "price_usd": 6795,
+      "condition": "Excellent vintage (one single-layer laminate crack by controls, professionally assessed)",
+      "city_state": "New York, NY (SoHo)",
+      "year": 1972,
+      "model": "Gibson ES-335TD (Norlin)",
+      "finish": "Walnut",
+      "serial": "727445",
+      "weight_lbs": 7.9,
+      "nut_width_in": 1.5625,
+      "fret1_depth_in": 0.747,
+      "fret12_depth_in": null,
+      "neck_profile": "C - .747 at 1st, .912 at 9th (12th not measured)",
+      "shoulder_description": "Very thin early-70s C; slimmest 1st-fret depth in the database",
+      "fingerboard_radius": null,
+      "pickups": "Original patent-sticker T-Tops",
+      "case_included": "Original hardshell case",
+      "modifications": "Refret, replaced nut, replaced tuners, one pickup-ring screw replaced",
+      "measurements_source": "dealer measured",
+      "notes": "Verified live and in stock 2026-07-19 via Shopify availability JSON. 1972-80 Norlin, T-Tops, 7.9 lbs. Dealer calls it one of the best-playing vintage 335s in the shop. Needs nut width confirmation (nut replaced; no neck measurements published). | 2026-07-21: Rudy's written spec sheet (5/14/26, tech J.W.): nut REPLACED at 1 9/16; refret; tuners replaced; PICKGUARD MISSING; one ring screw hole plugged/redrilled; pots CTS 500k wk10-19/1972; pickups 7.74k/7.61k; 7.9 lbs confirmed. Sheet does NOT mention the laminate crack by controls from the listing - reconcile with shop.",
+      "category": "es_335",
+      "id": "g060",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-21",
+      "market_bucket": "es-335 norlin",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 6795
+        }
+      ],
+      "score": 82.3,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 90.0,
+          "note": "weight 7.9 lbs"
+        },
+        "neck_35pct": {
+          "score": 73.3,
+          "note": "nut ok (100); 1st fret ok (63); 12th fret unmeasured"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: 'c - .747 at 1st, .912 at 9th (12th not measured) very thin e'"
+        },
+        "condition_10pct": {
+          "score": 92.0,
+          "note": "excellent vintage (one single-layer laminate crack by controls, professionally assessed)"
+        },
+        "price_5pct": {
+          "score": 28.2,
+          "note": "well above anchor"
+        }
+      },
+      "research_cluster": "norlin-335-early",
+      "research": [
+        "Neck feel: 1972-75 necks are generally slim-to-medium with the Norlin headstock volute and 3-piece construction (mahogany transitioning to maple ~1975); profiles vary but rarely reach 50s chunkiness.",
+        "Pickups: T-Tops throughout \u2014 clear, tight, slightly brighter than PAFs, less midrange complexity but excellent clean and edge-of-breakup; many examples have had swaps over 50 years.",
+        "Known issues: classic Norlin gripes \u2014 weight creep on some, crooked neck sets, mediocre fretwork, sunken tops around the bridge on some examples, the volute, and hit-or-miss quality declining through the decade.",
+        "Market/value: the affordable entry into vintage 335s \u2014 early-70s examples trade far below dot-necks; 'great for the money if you play it first' consensus; clean, light, straight-necked examples appreciating modestly.",
+        "Verify before buying: neck set straightness, top sinking under the bridge, actual weight, volute-area crack/repair, T-Top originality (DCR ~7.5k), and confirm year via pot codes since Norlin serials are notoriously ambiguous."
+      ],
+      "offer_intel": {
+        "as_of": "2026-07-21",
+        "anchor_usd": 5250,
+        "over_market_pct": 29
+      }
+    },
+    {
       "dealer": "Rainbow Guitars",
       "url": "https://www.rainbowguitars.com/guitar/gibson/memphis-figured-es-335-aquamarine-2018/gb12367719/us",
       "price_usd": 3299,
@@ -5975,77 +6046,6 @@
           "score": 60.0,
           "note": "well above anchor"
         }
-      }
-    },
-    {
-      "dealer": "Rudy's Music",
-      "url": "https://rudysmusic.com/products/gibson-1972-es-335td-walnut-727445",
-      "price_usd": 6795,
-      "condition": "Excellent vintage (one single-layer laminate crack by controls, professionally assessed)",
-      "city_state": "New York, NY (SoHo)",
-      "year": 1972,
-      "model": "Gibson ES-335TD (Norlin)",
-      "finish": "Walnut",
-      "serial": "727445",
-      "weight_lbs": 7.9,
-      "nut_width_in": null,
-      "fret1_depth_in": null,
-      "fret12_depth_in": null,
-      "neck_profile": null,
-      "shoulder_description": null,
-      "fingerboard_radius": null,
-      "pickups": "Original patent-sticker T-Tops",
-      "case_included": "Original hardshell case",
-      "modifications": "Refret, replaced nut, replaced tuners, one pickup-ring screw replaced",
-      "measurements_source": "dealer measured",
-      "notes": "Verified live and in stock 2026-07-19 via Shopify availability JSON. 1972-80 Norlin, T-Tops, 7.9 lbs. Dealer calls it one of the best-playing vintage 335s in the shop. Needs nut width confirmation (nut replaced; no neck measurements published).",
-      "category": "es_335",
-      "id": "g060",
-      "status": "ACTIVE",
-      "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-07-21",
-      "market_bucket": "es-335 norlin",
-      "price_history": [
-        {
-          "date": "2026-07-19",
-          "price_usd": 6795
-        }
-      ],
-      "score": 57.9,
-      "score_breakdown": {
-        "weight_30pct": {
-          "score": 90.0,
-          "note": "weight 7.9 lbs"
-        },
-        "neck_35pct": {
-          "score": 35.0,
-          "note": "no neck measurements (capped)"
-        },
-        "shoulders_20pct": {
-          "score": 40.0,
-          "note": "no shoulder/profile info"
-        },
-        "condition_10pct": {
-          "score": 92.0,
-          "note": "excellent vintage (one single-layer laminate crack by controls, professionally assessed)"
-        },
-        "price_5pct": {
-          "score": 28.2,
-          "note": "well above anchor"
-        }
-      },
-      "research_cluster": "norlin-335-early",
-      "research": [
-        "Neck feel: 1972-75 necks are generally slim-to-medium with the Norlin headstock volute and 3-piece construction (mahogany transitioning to maple ~1975); profiles vary but rarely reach 50s chunkiness.",
-        "Pickups: T-Tops throughout \u2014 clear, tight, slightly brighter than PAFs, less midrange complexity but excellent clean and edge-of-breakup; many examples have had swaps over 50 years.",
-        "Known issues: classic Norlin gripes \u2014 weight creep on some, crooked neck sets, mediocre fretwork, sunken tops around the bridge on some examples, the volute, and hit-or-miss quality declining through the decade.",
-        "Market/value: the affordable entry into vintage 335s \u2014 early-70s examples trade far below dot-necks; 'great for the money if you play it first' consensus; clean, light, straight-necked examples appreciating modestly.",
-        "Verify before buying: neck set straightness, top sinking under the bridge, actual weight, volute-area crack/repair, T-Top originality (DCR ~7.5k), and confirm year via pot codes since Norlin serials are notoriously ambiguous."
-      ],
-      "offer_intel": {
-        "as_of": "2026-07-21",
-        "anchor_usd": 5250,
-        "over_market_pct": 29
       }
     },
     {
