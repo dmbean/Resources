@@ -94,9 +94,13 @@ def shoulder_component(g):
     text = " ".join(filter(None, [g.get("neck_profile"), g.get("shoulder_description")])).lower()
     if not text:
         return 40.0, "no shoulder/profile info"
-    if any(w in text for w in FAT_WORDS):
+    fat = any(w in text for w in FAT_WORDS)
+    slim = any(w in text for w in SLIM_WORDS)
+    if fat and slim:
+        return 60.0, "mixed slim/fat signals: '%s'" % text[:60]
+    if fat:
         return 20.0, "fat/50s-style profile: '%s'" % text[:60]
-    if any(w in text for w in SLIM_WORDS):
+    if slim:
         return 95.0, "slim/fast profile: '%s'" % text[:60]
     return 60.0, "profile unclear: '%s'" % text[:60]
 
