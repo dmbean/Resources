@@ -37,6 +37,23 @@ US_STATES = {
 }
 
 
+NYC_MARKERS = ("new york, ny", "manhattan", "brooklyn", "queens", "astoria",
+               "long island city", "ridgewood, ny", "soho", "east village",
+               "west village", "harlem", "williamsburg", "greenpoint", "bushwick")
+
+
+def is_nyc(city_state):
+    """Manhattan, Brooklyn, or Queens — not Long Island, Westchester, or NJ.
+    Parentheticals often carry distance notes ('~1h from Manhattan'), but also
+    real neighborhoods ('New York, NY (SoHo)') — so match the base location
+    first, and let a parenthetical count only when the base names New York."""
+    c = (city_state or "").lower()
+    base = c.split("(")[0]
+    if any(m in base for m in NYC_MARKERS):
+        return True
+    return "new york" in base and any(m in c for m in NYC_MARKERS)
+
+
 def us_state(city_state):
     """Last valid two-letter state code in the free-text location."""
     import re
@@ -87,6 +104,7 @@ def main():
             "color": color_family(g.get("finish")),
             "finish_label": finish_label(g.get("finish")),
             "state": us_state(g.get("city_state")),
+            "nyc": is_nyc(g.get("city_state")),
             "serial": g.get("serial"), "weight": g.get("weight_lbs"),
             "nut": g.get("nut_width_in"), "f1": g.get("fret1_depth_in"),
             "f12": g.get("fret12_depth_in"), "profile": g.get("neck_profile"),
@@ -230,7 +248,7 @@ details li{margin-bottom:4px}
     <option value="new">Sort: newest find</option>
   </select>
   <button id="offbtn" class="toggle" type="button" aria-pressed="false">Offers</button>
-  <button id="nybtn" class="toggle" type="button" aria-pressed="false">NY only</button>
+  <button id="nybtn" class="toggle" type="button" aria-pressed="false" title="Manhattan, Brooklyn, or Queens">NYC only</button>
   <select id="nutsel">
     <option value="any">Nut: any</option>
     <option value="narrow">Nut ≤ 1.60″</option>
@@ -363,7 +381,7 @@ function render(){
   if(color!=="any") gs=gs.filter(g=>g.color===color);
   const finish=document.getElementById("finishsel").value;
   if(finish!=="any") gs=gs.filter(g=>g.finish_label===finish);
-  if(nyOnly) gs=gs.filter(g=>g.state==="NY");
+  if(nyOnly) gs=gs.filter(g=>g.nyc);
   if(offersOnly) gs=gs.filter(g=>g.offer&&g.offer.offers_enabled);
   const drawerActive = document.getElementById("statussel").value!=="live"
     || document.getElementById("colorsel").value!=="any"
