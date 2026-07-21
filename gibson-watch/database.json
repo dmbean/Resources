@@ -754,7 +754,7 @@
       "case_included": "Original Lifton-style hardshell, COA, all hangtags",
       "modifications": "None; all original, mint",
       "measurements_source": "dealer measured",
-      "notes": "Reverb item 93609303. 8 lbs 7 oz. Peak-spec True Historic line (double-carved top, thin lacquer, chemically recreated plastics). Only flag: 12th-fret depth .940 is .02 over target.",
+      "notes": "Reverb item 93609303. 8 lbs 7 oz. Peak-spec True Historic line (double-carved top, thin lacquer, chemically recreated plastics). Only flag: 12th-fret depth .940 is .02 over target. | Same guitar also live as M&M duplicate Reverb listing 97842598 (2026-07-21).",
       "category": "les_paul",
       "id": "g005",
       "status": "ACTIVE",
@@ -804,7 +804,10 @@
         "over_market_pct": 17,
         "offers_enabled": false,
         "days_listed": 215
-      }
+      },
+      "alt_urls": [
+        "https://reverb.com/item/97842598-2015-gibson-custom-shop-true-historic-1960-les-paul-standard-r0-vintage-cherry-sunburst-mint-w-case-tags-coa"
+      ]
     },
     {
       "dealer": "Willcutt Guitars",
