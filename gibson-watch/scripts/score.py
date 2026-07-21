@@ -28,6 +28,8 @@ MARKET_ANCHORS = {
     "es-335 memphis": 3500,
     "es-335 norlin": 5000,
     "es-335 vintage": 8000,
+    "mij lp": 2000,
+    "mij 335": 2200,
 }
 
 

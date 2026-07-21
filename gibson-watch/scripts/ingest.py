@@ -23,8 +23,14 @@ LP_BUCKETS = [
 ]
 
 
+MIJ_BRANDS = ("tokai", "greco", "burny", "edwards", "navigator", "momose",
+              "yamaha", "ibanez", "seventy seven", "fgn", "fujigen")
+
+
 def market_bucket(g):
     m = (str(g.get("model") or "") + " " + str(g.get("notes") or "")).lower()
+    if any(b in m for b in MIJ_BRANDS):
+        return "mij 335" if g["category"] == "es_335" else "mij lp"
     year = g.get("year")
     try:
         year = int(str(year)[:4])
@@ -50,7 +56,9 @@ def market_bucket(g):
 
 def categorize(g):
     m = (str(g.get("model") or "")).lower()
-    if "335" in m:
+    semi_markers = ("335", "sa-2200", "sa2200", "sa-", "jsm", "as-200", "semi-hollow",
+                    "semi hollow", "dot")
+    if any(k in m for k in semi_markers):
         return "es_335"
     return "les_paul"
 

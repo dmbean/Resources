@@ -31,6 +31,13 @@ Long-running sourcing agent for a Gibson Les Paul and an ES-335. Runs every 24 h
    $10k; existing entries above the cap are EXCLUDED (re-include if a price drop brings one under).
    **Model exclusions from buyer signals**: Les Paul Standard 60s Plain Top (rejected 2026-07-19)
    — do not ingest; existing entries are EXCLUDED. Figured-top Standard 60s remain in scope.
+   **Standing MIJ/NYC hunt (added 2026-07-20)**: Japanese-made LP-style (Tokai LS/Love Rock,
+   Greco EG, Burny RLG, Edwards E-LP, Navigator, Momose) and 335-style (Yamaha SA-2200,
+   Greco SA, Tokai ES, Ibanez JSM/AS) are in scope ONLY when the listing is in the NYC area
+   (five boroughs + close NJ/CT/Long Island — buyer wants to play before buying). Same weight,
+   measurement, and price rules. Epiphone still excluded. NYC shops to sweep: TR Crandall,
+   Southside, Rudy's, Rivington Guitars, Retrofret (Brooklyn), 30th Street Guitars,
+   Main Drag Music (Brooklyn), Ludlow Guitars, plus Reverb listings with NYC-area shops.
    **Standing narrow-nut hunt**: every sweep must include dedicated queries for 1-9/16" nut ES-335s — the buyer's ideal nut, found only on 1965–1981 vintage examples (modern reissues are all 1-11/16"). Reverb API queries: "es-335 1 9/16", "es-335 narrow nut", "es-335 1.56", plus year-specific searches 1968–1980; also sweep dealers that publish nut widths (Carter, CME used, Gruhn).
 3. Dedupe against database by serial number, URL, and dealer inventory ID.
 4. Score new entries with `scripts/score.py`; do forum research (Reddit, The Gear Page, MyLesPaul) for each genuinely new listing and store a 5-bullet summary in the entry's `research` field.

@@ -13,3 +13,7 @@ _Add dealers found via forums/listings here; they get searched on every subseque
 - Mike & Mike's Guitar Bar (mmguitarbar.com) — Seattle; strong vintage 335 stock with shop-measured
   specs; cross-lists on Reverb, so dedupe against Reverb items by specs (their serials are unpublished).
   Discovered 2026-07-20.
+- NYC MIJ hunting grounds (added 2026-07-20 for the Japanese-options scope expansion):
+  Rivington Guitars (rivingtonguitars.com, East Village), Retrofret (retrofret.com, Brooklyn),
+  30th Street Guitars (30thstreetguitars.com), Main Drag Music (maindragmusic.com, Brooklyn),
+  Ludlow Guitars (ludlowguitars.com). Sweep for MIJ LP/335-style per README rules.
