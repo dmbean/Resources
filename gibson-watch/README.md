@@ -41,6 +41,9 @@ Long-running sourcing agent for a Gibson Les Paul and an ES-335. Runs every 24 h
    **Standing narrow-nut hunt**: every sweep must include dedicated queries for 1-9/16" nut ES-335s — the buyer's ideal nut, found only on 1965–1981 vintage examples (modern reissues are all 1-11/16"). Reverb API queries: "es-335 1 9/16", "es-335 narrow nut", "es-335 1.56", plus year-specific searches 1968–1980; also sweep dealers that publish nut widths (Carter, CME used, Gruhn).
 3. Dedupe against database by serial number, URL, and dealer inventory ID.
 4. Score new entries with `scripts/score.py`; do forum research (Reddit, The Gear Page, MyLesPaul) for each genuinely new listing and store a 5-bullet summary in the entry's `research` field.
+   Terminology: "NEW TODAY" = newly *discovered* by the watch (sweeps are query samples, not full
+   crawls, so older listings surface as coverage grows). True market age comes from offer intel's
+   `days_listed` and is shown on the board ("on market Nd" + a "Fresh listing" chip when ≤7 days).
 5. Regenerate `reports/master.csv` and write the dated report.
 6. Notify immediately if: any score > 95; price ≥15% under market; new Norlin ES-335; lightweight R0; Ebony Standard 60s under 8.8 lbs.
 6b. Offer intelligence: `python3 scripts/offers.py --date YYYY-MM-DD` — refreshes, for every

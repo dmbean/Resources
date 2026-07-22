@@ -203,6 +203,7 @@ input[type=search]{flex:1;min-width:110px}
 .chip.priceup{background:var(--cherry-soft);color:var(--cherry)}
 .chip.sold{background:var(--chip-sold);color:var(--bg)}
 .chip.newtoday{background:var(--ink);color:var(--bg)}
+.chip.fresh{background:var(--good);color:var(--bg)}
 .chip.offers{background:var(--amber);color:var(--bg)}
 .offerline{font-size:12px;border:1px dashed var(--amber);border-radius:6px;padding:6px 9px;color:var(--ink)}
 .offerline b{color:var(--amber)}
@@ -348,7 +349,7 @@ function card(g){
         <div class="gsub">${esc(g.finish||"")}</div>
       </div>
     </div>
-    <div class="chips"><span class="chip ${cls[0]}">${cls[1]}</span>${chipStatus(g.status)}${isNew?'<span class="chip newtoday">New today</span>':""}${oi.offers_enabled?'<span class="chip offers">Offers</span>':""}</div>
+    <div class="chips"><span class="chip ${cls[0]}">${cls[1]}</span>${chipStatus(g.status)}${isNew?'<span class="chip newtoday" title="first found by the watch on this run — not necessarily newly listed">New find</span>':""}${oi.days_listed!=null&&oi.days_listed<=7?'<span class="chip fresh" title="listed on Reverb within the last week">Fresh listing</span>':""}${oi.offers_enabled?'<span class="chip offers">Offers</span>':""}</div>
     <div class="specs">
       ${spec(g.cat,"weight","Weight",g.weight," lb")}
       ${nutSpec(g)}
@@ -356,7 +357,7 @@ function card(g){
       ${spec(g.cat,"f12","12th fret",g.f12,"″")}
     </div>
     <div class="meta">
-      <b>${esc(g.dealer||"")}</b>${g.loc?" · "+esc(g.loc):""}<br>
+      <b>${esc(g.dealer||"")}</b>${g.loc?" · "+esc(g.loc):""}${oi.days_listed!=null?` · on market ${oi.days_listed}d`:""}<br>
       ${g.profile?"Neck: "+esc(g.profile)+"<br>":""}
       ${g.pickups?"Pickups: "+esc(g.pickups)+"<br>":""}
       ${g.serial?"Serial: "+esc(g.serial)+" · ":""}${g.meas?esc(g.meas):""}
