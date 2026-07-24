@@ -251,6 +251,7 @@ details li{margin-bottom:4px}
     <option value="weight">Sort: weight (low → high)</option>
     <option value="new">Sort: newest find</option>
   </select>
+  <button id="hotbtn" class="toggle" type="button" aria-pressed="false" title="Fresh listings matching proven fast-seller patterns">Goes fast</button>
   <button id="offbtn" class="toggle" type="button" aria-pressed="false">Offers</button>
   <button id="nybtn" class="toggle" type="button" aria-pressed="false" title="Manhattan, Brooklyn, or Queens">NYC only</button>
   <select id="nutsel">
@@ -404,6 +405,7 @@ function render(){
   if(finish!=="any") gs=gs.filter(g=>g.finish_label===finish);
   if(nyOnly) gs=gs.filter(g=>g.nyc);
   if(offersOnly) gs=gs.filter(g=>g.offer&&g.offer.offers_enabled);
+  if(hotOnly) gs=gs.filter(g=>hotReason(g));
   const drawerActive = document.getElementById("statussel").value!=="live"
     || document.getElementById("colorsel").value!=="any"
     || document.getElementById("finishsel").value!=="any";
@@ -442,7 +444,13 @@ function rebuildFinishOptions(){
   sel.value=names.includes(prev)?prev:"any";
 }
 document.getElementById("colorsel").addEventListener("change",rebuildFinishOptions);
-let nyOnly=false,offersOnly=false;
+let nyOnly=false,offersOnly=false,hotOnly=false;
+document.getElementById("hotbtn").addEventListener("click",e=>{
+  hotOnly=!hotOnly;
+  e.currentTarget.classList.toggle("on",hotOnly);
+  e.currentTarget.setAttribute("aria-pressed",String(hotOnly));
+  render();
+});
 document.getElementById("nybtn").addEventListener("click",e=>{
   nyOnly=!nyOnly;
   e.currentTarget.classList.toggle("on",nyOnly);
