@@ -17,3 +17,5 @@ _Add dealers found via forums/listings here; they get searched on every subseque
   Rivington Guitars (rivingtonguitars.com, East Village), Retrofret (retrofret.com, Brooklyn),
   30th Street Guitars (30thstreetguitars.com), Main Drag Music (maindragmusic.com, Brooklyn),
   Ludlow Guitars (ludlowguitars.com). Sweep for MIJ LP/335-style per README rules.
+- CAUTION (2026-07-24): ludlowguitars.com redirects to an unrelated Indonesian site (possible
+  domain hijack). Do not fetch the domain; check Ludlow Guitars' Reverb shop instead until resolved.
