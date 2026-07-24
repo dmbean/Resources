@@ -75,6 +75,9 @@ input[type=search]{flex:1;min-width:110px}
 .chip.sold{background:var(--chip-sold);color:var(--bg)}
 .chip.newtoday{background:var(--ink);color:var(--bg)}
 .chip.fresh{background:var(--good);color:var(--bg)}
+.chip.hot{background:var(--cherry);color:var(--bg)}
+.card.hot{border-color:var(--cherry)}
+.card.hot .photo{border-bottom:2px solid var(--cherry)}
 .chip.offers{background:var(--amber);color:var(--bg)}
 .offerline{font-size:12px;border:1px dashed var(--amber);border-radius:6px;padding:6px 9px;color:var(--ink)}
 .offerline b{color:var(--amber)}
@@ -194,8 +197,25 @@ function chipStatus(s){
   const [cls,label]=m[s]||["active",esc(s||"")];
   return `<span class="chip ${cls}">${label}</span>`;
 }
+function hotReason(g){
+  // "Goes fast" = the patterns that emptied within days this week — kept strict so the
+  // badge stays rare: must be fresh (≤21d on market, or ≤7d since we found it when the
+  // market age is unknown), then under-market with real specs, narrow-nut vintage, or
+  // top-spec-under-anchor.
+  if(g.status==="SOLD"||g.status==="EXCLUDED") return null;
+  const oi=g.offer||{}, om=oi.over_market_pct, dl=oi.days_listed;
+  const foundAge=(Date.parse(DATA.meta.last_run)-Date.parse(g.found))/864e5;
+  const fresh = dl!=null ? dl<=21 : foundAge<=7;
+  if(!fresh) return null;
+  const y=parseInt(g.year), narrowVintage = g.nut!=null && g.nut<=1.605 && y>=1965 && y<=1981;
+  if(om!=null && om<=-20 && g.score>=75) return "priced well under market with strong specs";
+  if(narrowVintage) return "narrow-nut vintage — these have sold within days";
+  if(g.score>=90 && om!=null && om<0) return "top spec, priced under anchor";
+  return null;
+}
 function card(g){
   const cls = g.cat==="les_paul" ? ["lp","Les Paul"] : ["es","ES-335"];
+  const hot = hotReason(g);
   const isNew = g.found === DATA.meta.last_run;
   const stier = g.score>=88?"hi":(g.score>=75?"mid":"lo");
   const oi = g.offer || {};
@@ -211,7 +231,7 @@ function card(g){
   const photo = g.thumb
     ? `<a class="photo" href="${esc(g.url)}" target="_blank" rel="noopener"><img src="${g.thumb}" alt="${esc(g.model||"")}" loading="lazy"></a>`
     : `<div class="photo none">No photo</div>`;
-  return `<div class="card ${(g.status==="SOLD"||g.status==="EXCLUDED")?"sold":""}">
+  return `<div class="card ${(g.status==="SOLD"||g.status==="EXCLUDED")?"sold":""} ${hot?"hot":""}">
     ${photo}
     <div class="toprow">
       <div class="scoreblock"><div class="scorenum ${stier}">${g.score==null?"—":g.score}</div><div class="scorelabel">score</div></div>
@@ -220,7 +240,7 @@ function card(g){
         <div class="gsub">${esc(g.finish||"")}</div>
       </div>
     </div>
-    <div class="chips"><span class="chip ${cls[0]}">${cls[1]}</span>${chipStatus(g.status)}${isNew?'<span class="chip newtoday" title="first found by the watch on this run — not necessarily newly listed">New find</span>':""}${oi.days_listed!=null&&oi.days_listed<=7?'<span class="chip fresh" title="listed on Reverb within the last week">Fresh listing</span>':""}${oi.offers_enabled?'<span class="chip offers">Offers</span>':""}</div>
+    <div class="chips"><span class="chip ${cls[0]}">${cls[1]}</span>${chipStatus(g.status)}${isNew?'<span class="chip newtoday" title="first found by the watch on this run — not necessarily newly listed">New find</span>':""}${oi.days_listed!=null&&oi.days_listed<=7?'<span class="chip fresh" title="listed on Reverb within the last week">Fresh listing</span>':""}${oi.offers_enabled?'<span class="chip offers">Offers</span>':""}${hot?`<span class="chip hot" title="${esc(hot)}">Goes fast</span>`:""}</div>
     <div class="specs">
       ${spec(g.cat,"weight","Weight",g.weight," lb")}
       ${nutSpec(g)}
