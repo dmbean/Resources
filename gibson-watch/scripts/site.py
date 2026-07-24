@@ -160,6 +160,14 @@ header{padding:28px 0 18px;border-bottom:2px solid var(--ink);margin-bottom:14px
 h1{font-family:Charter,Cambria,Georgia,serif;font-size:clamp(26px,4vw,36px);margin:2px 0 6px;text-wrap:balance}
 .substat{color:var(--ink-soft);font-size:13px}
 .substat b{color:var(--ink);font-variant-numeric:tabular-nums}
+.spotlight{border:1px solid var(--cherry);border-radius:8px;background:var(--bg-raise);padding:12px 14px;margin:14px 0 4px}
+.spotlight .sp-head{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--cherry);font-weight:700;margin-bottom:8px}
+.sp-row{display:flex;gap:10px;overflow-x:auto;padding-bottom:4px}
+.sp-card{display:flex;gap:9px;align-items:center;min-width:250px;max-width:300px;border:1px solid var(--line);border-radius:6px;padding:7px 9px;text-decoration:none;color:var(--ink);background:var(--bg)}
+.sp-card img{width:46px;height:46px;object-fit:cover;border-radius:4px;flex-shrink:0}
+.sp-card .sp-score{font:700 17px/1 Charter,Georgia,serif;color:var(--amber);flex-shrink:0}
+.sp-card .sp-name{font-size:12px;line-height:1.3;font-weight:600}
+.sp-card .sp-sub{font-size:11px;color:var(--ink-soft)}
 .controls{display:flex;flex-wrap:wrap;gap:6px;align-items:center;padding:8px 0 14px;position:sticky;top:0;background:var(--bg);z-index:5;border-bottom:1px solid var(--line)}
 .seg{display:flex;border:1px solid var(--line);border-radius:6px;overflow:hidden}
 .seg button{border:0;background:var(--bg-raise);color:var(--ink-soft);padding:5px 9px;font:600 11px/1 system-ui;letter-spacing:.04em;text-transform:uppercase;cursor:pointer}
@@ -235,6 +243,10 @@ details li{margin-bottom:4px}
   <h1>Gibson Watch — Les Paul &amp; ES-335 Board</h1>
   <div class="substat" id="substat"></div>
 </header>
+<div class="spotlight" id="spotlight" hidden>
+  <div class="sp-head">NYC spotlight — play these before they're gone</div>
+  <div class="sp-row" id="sprow"></div>
+</div>
 <div class="controls">
   <button id="drawerbtn" class="toggle" type="button" aria-expanded="false" title="More filters">
     <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" style="vertical-align:-2px"><path d="M3 5h18M7 12h10M10 19h4"/></svg>
@@ -483,6 +495,27 @@ document.getElementById("drawerreset").addEventListener("click",()=>{
 ["statussel","sortsel","nutsel","colorsel","finishsel"].forEach(id=>document.getElementById(id).addEventListener("change",render));
 rebuildFinishOptions();
 document.getElementById("q").addEventListener("input",render);
+(function(){
+  const vintageFresh = g=>{
+    const y=parseInt(g.year);
+    const age=(Date.parse(DATA.meta.last_run)-Date.parse(g.found))/864e5;
+    return y>=1965&&y<=1981&&age<=14;
+  };
+  const picks = DATA.guitars
+    .filter(g=>g.status!=="SOLD"&&g.status!=="EXCLUDED"&&g.nyc&&(hotReason(g)||g.score>=75||vintageFresh(g)))
+    .sort((a,b)=>(b.score||0)-(a.score||0)).slice(0,4);
+  if(!picks.length) return;
+  document.getElementById("spotlight").hidden=false;
+  document.getElementById("sprow").innerHTML = picks.map(g=>{
+    const why = hotReason(g) || (g.weight==null?"unverified — weigh in person":null);
+    return `<a class="sp-card" href="${esc(g.url)}" target="_blank" rel="noopener">
+      ${g.thumb?`<img src="${g.thumb}" alt="">`:""}
+      <span class="sp-score">${g.score==null?"—":g.score}</span>
+      <span><span class="sp-name">${g.year?esc(g.year)+" ":""}${esc(g.model||"")}</span><br>
+      <span class="sp-sub">${money(g.price)} · ${esc((g.loc||"").split("(")[0].trim())}${why?" · "+esc(why):""}</span></span>
+    </a>`;
+  }).join("");
+})();
 const m=DATA.meta, live=DATA.guitars.filter(g=>g.status!=="SOLD"&&g.status!=="EXCLUDED").length;
 document.getElementById("substat").innerHTML=
   `<b>${live}</b> live listings · <b>${DATA.guitars.length}</b> tracked all-time · last sweep <b>${esc(m.last_run)}</b> · run #<b>${m.run_count}</b> — ● spec in target band, ○ outside`;
