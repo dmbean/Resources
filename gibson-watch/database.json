@@ -45,7 +45,7 @@
       "id": "g025",
       "status": "ACTIVE",
       "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-07-24",
+      "last_confirmed_active": "2026-07-25",
       "market_bucket": "standard 60s",
       "price_history": [
         {
@@ -116,7 +116,7 @@
       "id": "g037",
       "status": "ACTIVE",
       "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-07-24",
+      "last_confirmed_active": "2026-07-25",
       "market_bucket": "standard 60s",
       "price_history": [
         {
@@ -475,7 +475,7 @@
       "id": "g038",
       "status": "ACTIVE",
       "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-07-24",
+      "last_confirmed_active": "2026-07-25",
       "market_bucket": "wildwood spec",
       "price_history": [
         {
@@ -546,7 +546,7 @@
       "id": "g065",
       "status": "ACTIVE",
       "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-07-24",
+      "last_confirmed_active": "2026-07-25",
       "market_bucket": "r0",
       "price_history": [
         {
@@ -690,7 +690,7 @@
       "id": "g032",
       "status": "ACTIVE",
       "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-07-24",
+      "last_confirmed_active": "2026-07-25",
       "market_bucket": "r0",
       "price_history": [
         {
@@ -761,7 +761,7 @@
       "id": "g044",
       "status": "ACTIVE",
       "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-07-24",
+      "last_confirmed_active": "2026-07-25",
       "market_bucket": "standard 60s",
       "price_history": [
         {
@@ -908,7 +908,7 @@
       "id": "g042",
       "status": "ACTIVE",
       "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-07-24",
+      "last_confirmed_active": "2026-07-25",
       "market_bucket": "murphy lab",
       "price_history": [
         {
@@ -979,7 +979,7 @@
       "id": "g043",
       "status": "ACTIVE",
       "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-07-24",
+      "last_confirmed_active": "2026-07-25",
       "market_bucket": "custom shop",
       "price_history": [
         {
@@ -1199,7 +1199,7 @@
       "id": "g040",
       "status": "ACTIVE",
       "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-07-24",
+      "last_confirmed_active": "2026-07-25",
       "market_bucket": "r0",
       "price_history": [
         {
@@ -1419,7 +1419,7 @@
       "id": "g024",
       "status": "ACTIVE",
       "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-07-24",
+      "last_confirmed_active": "2026-07-25",
       "market_bucket": "r0",
       "price_history": [
         {
@@ -1490,7 +1490,7 @@
       "id": "g055",
       "status": "ACTIVE",
       "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-07-24",
+      "last_confirmed_active": "2026-07-25",
       "market_bucket": "custom shop",
       "price_history": [
         {
@@ -1710,7 +1710,7 @@
       "id": "g039",
       "status": "ACTIVE",
       "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-07-24",
+      "last_confirmed_active": "2026-07-25",
       "market_bucket": "wildwood spec",
       "price_history": [
         {
@@ -1922,7 +1922,7 @@
       "id": "g066",
       "status": "ACTIVE",
       "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-07-24",
+      "last_confirmed_active": "2026-07-25",
       "market_bucket": "murphy lab",
       "price_history": [
         {
@@ -2283,7 +2283,7 @@
       "id": "g102",
       "status": "ACTIVE",
       "date_discovered": "2026-07-22",
-      "last_confirmed_active": "2026-07-24",
+      "last_confirmed_active": "2026-07-25",
       "market_bucket": "custom shop",
       "price_history": [
         {
@@ -2427,7 +2427,7 @@
       "id": "g103",
       "status": "ACTIVE",
       "date_discovered": "2026-07-22",
-      "last_confirmed_active": "2026-07-24",
+      "last_confirmed_active": "2026-07-25",
       "market_bucket": "murphy lab",
       "price_history": [
         {
@@ -2713,7 +2713,7 @@
       "id": "g053",
       "status": "ACTIVE",
       "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-07-24",
+      "last_confirmed_active": "2026-07-25",
       "market_bucket": "murphy lab",
       "price_history": [
         {
@@ -2784,7 +2784,7 @@
       "id": "g045",
       "status": "ACTIVE",
       "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-07-24",
+      "last_confirmed_active": "2026-07-25",
       "market_bucket": "es-335 61 reissue",
       "price_history": [
         {
@@ -2855,7 +2855,7 @@
       "id": "g047",
       "status": "ACTIVE",
       "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-07-24",
+      "last_confirmed_active": "2026-07-25",
       "market_bucket": "es-335 61 reissue",
       "price_history": [
         {
@@ -2926,7 +2926,7 @@
       "id": "g060",
       "status": "ACTIVE",
       "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-07-24",
+      "last_confirmed_active": "2026-07-25",
       "market_bucket": "es-335 norlin",
       "price_history": [
         {
@@ -2997,7 +2997,7 @@
       "id": "g063",
       "status": "ACTIVE",
       "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-07-24",
+      "last_confirmed_active": "2026-07-25",
       "market_bucket": "es-335 memphis",
       "price_history": [
         {
@@ -3220,7 +3220,7 @@
       "id": "g054",
       "status": "ACTIVE",
       "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-07-24",
+      "last_confirmed_active": "2026-07-25",
       "market_bucket": "custom shop",
       "price_history": [
         {
@@ -3368,7 +3368,7 @@
       "id": "g046",
       "status": "ACTIVE",
       "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-07-24",
+      "last_confirmed_active": "2026-07-25",
       "market_bucket": "es-335 61 reissue",
       "price_history": [
         {
@@ -3737,7 +3737,7 @@
       "id": "g035",
       "status": "ACTIVE",
       "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-07-24",
+      "last_confirmed_active": "2026-07-25",
       "market_bucket": "es-335 modern",
       "price_history": [
         {
@@ -4305,7 +4305,7 @@
       "id": "g026",
       "status": "ACTIVE",
       "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-07-24",
+      "last_confirmed_active": "2026-07-25",
       "market_bucket": "norlin lp",
       "price_history": [
         {
@@ -4669,7 +4669,7 @@
       "id": "g023",
       "status": "ACTIVE",
       "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-07-24",
+      "last_confirmed_active": "2026-07-25",
       "market_bucket": "es-335 61 reissue",
       "price_history": [
         {
@@ -5466,7 +5466,7 @@
       "id": "g049",
       "status": "ACTIVE",
       "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-07-24",
+      "last_confirmed_active": "2026-07-25",
       "market_bucket": "es-335 modern",
       "price_history": [
         {
@@ -6041,7 +6041,7 @@
       "id": "g056",
       "status": "ACTIVE",
       "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-07-24",
+      "last_confirmed_active": "2026-07-25",
       "market_bucket": "es-335 norlin",
       "price_history": [
         {
@@ -6324,10 +6324,10 @@
       "case_included": "Gibson Custom hardshell ('Candy' case)",
       "modifications": null,
       "measurements_source": "dealer measured",
-      "notes": "Ideal weight 7.76 lbs at the lowest Custom Shop 335 price in the set; neck is chunky '64, not slim. Verified in stock 2026-07-19.",
+      "notes": "Ideal weight 7.76 lbs at the lowest Custom Shop 335 price in the set; neck is chunky '64, not slim. Verified in stock 2026-07-19. | Marked SOLD 2026-07-25.",
       "category": "es_335",
       "id": "g048",
-      "status": "ACTIVE",
+      "status": "SOLD",
       "date_discovered": "2026-07-19",
       "last_confirmed_active": "2026-07-24",
       "market_bucket": "es-335 modern",
@@ -6684,7 +6684,7 @@
       "id": "g027",
       "status": "ACTIVE",
       "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-07-24",
+      "last_confirmed_active": "2026-07-25",
       "market_bucket": "es-335 61 reissue",
       "price_history": [
         {
@@ -6755,7 +6755,7 @@
       "id": "g028",
       "status": "ACTIVE",
       "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-07-24",
+      "last_confirmed_active": "2026-07-25",
       "market_bucket": "es-335 61 reissue",
       "price_history": [
         {
@@ -6826,7 +6826,7 @@
       "id": "g029",
       "status": "ACTIVE",
       "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-07-24",
+      "last_confirmed_active": "2026-07-25",
       "market_bucket": "es-335 modern",
       "price_history": [
         {
@@ -6897,7 +6897,7 @@
       "id": "g057",
       "status": "ACTIVE",
       "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-07-24",
+      "last_confirmed_active": "2026-07-25",
       "market_bucket": "es-335 modern",
       "price_history": [
         {
@@ -7041,7 +7041,7 @@
       "id": "g062",
       "status": "ACTIVE",
       "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-07-24",
+      "last_confirmed_active": "2026-07-25",
       "market_bucket": "es-335 modern",
       "price_history": [
         {
@@ -7254,7 +7254,7 @@
       "id": "g051",
       "status": "ACTIVE",
       "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-07-24",
+      "last_confirmed_active": "2026-07-25",
       "market_bucket": "es-335 modern",
       "price_history": [
         {
@@ -7325,7 +7325,7 @@
       "id": "g061",
       "status": "ACTIVE",
       "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-07-24",
+      "last_confirmed_active": "2026-07-25",
       "market_bucket": "es-335 61 reissue",
       "price_history": [
         {
@@ -7396,7 +7396,7 @@
       "id": "g064",
       "status": "ACTIVE",
       "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-07-24",
+      "last_confirmed_active": "2026-07-25",
       "market_bucket": "es-335 modern",
       "price_history": [
         {
@@ -7459,7 +7459,7 @@
       "id": "g030",
       "status": "ACTIVE",
       "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-07-24",
+      "last_confirmed_active": "2026-07-25",
       "market_bucket": "es-335 modern",
       "price_history": [
         {
@@ -7530,7 +7530,7 @@
       "id": "g052",
       "status": "ACTIVE",
       "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-07-24",
+      "last_confirmed_active": "2026-07-25",
       "market_bucket": "es-335 modern",
       "price_history": [
         {
@@ -7593,7 +7593,7 @@
       "id": "g059",
       "status": "ACTIVE",
       "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-07-24",
+      "last_confirmed_active": "2026-07-25",
       "market_bucket": "es-335 61 reissue",
       "price_history": [
         {
@@ -7735,7 +7735,7 @@
       "id": "g050",
       "status": "ACTIVE",
       "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-07-24",
+      "last_confirmed_active": "2026-07-25",
       "market_bucket": "es-335 modern",
       "price_history": [
         {
@@ -8157,7 +8157,7 @@
       "id": "g108",
       "status": "ACTIVE",
       "date_discovered": "2026-07-22",
-      "last_confirmed_active": "2026-07-24",
+      "last_confirmed_active": "2026-07-25",
       "market_bucket": "mij lp",
       "price_history": [
         {
@@ -8532,7 +8532,7 @@
       "id": "g081",
       "status": "ACTIVE",
       "date_discovered": "2026-07-20",
-      "last_confirmed_active": "2026-07-24",
+      "last_confirmed_active": "2026-07-25",
       "market_bucket": "mij lp",
       "price_history": [
         {
