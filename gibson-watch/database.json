@@ -1,7 +1,7 @@
 {
   "meta": {
     "created": "2026-07-19",
-    "last_run": "2026-07-25",
+    "last_run": "2026-07-26",
     "run_count": 1,
     "current_best": {
       "les_paul": {
@@ -85,9 +85,9 @@
         "Verify before buying: exact weight (ask for a scale photo \u2014 listings routinely guess low), neck measurements and fret ends, nut slots, top figure vs stock photos, and confirm Standard '60s vs a weight-relieved 'Classic' being misrepresented."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
-        "anchor_usd": 2400,
-        "over_market_pct": -23
+        "as_of": "2026-07-26",
+        "anchor_usd": 2525,
+        "over_market_pct": -27
       }
     },
     {
@@ -156,9 +156,9 @@
         "Verify before buying: exact weight (ask for a scale photo \u2014 listings routinely guess low), neck measurements and fret ends, nut slots, top figure vs stock photos, and confirm Standard '60s vs a weight-relieved 'Classic' being misrepresented."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
-        "anchor_usd": 2400,
-        "over_market_pct": -25
+        "as_of": "2026-07-26",
+        "anchor_usd": 2525,
+        "over_market_pct": -29
       }
     },
     {
@@ -296,11 +296,11 @@
         "https://mmguitarbar.com/products/1975-gibson-es-335-tdc-vintage-semi-hollow-guitar-cherry-figured-maple-w-t-tops-case-1"
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 5161,
         "over_market_pct": 1,
         "offers_enabled": false,
-        "days_listed": 85
+        "days_listed": 86
       }
     },
     {
@@ -369,11 +369,11 @@
         "Verify before buying: actual neck measurements (V2 vs V3 vs V1 \u2014 dealer listings are often wrong; ask for 1st/12th fret caliper numbers), weight, COA and case candy, serial format, no headstock repair under aging, and original unpotted Custombuckers."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 6100,
         "over_market_pct": 18,
         "offers_enabled": false,
-        "days_listed": 981
+        "days_listed": 982
       }
     },
     {
@@ -419,11 +419,11 @@
         "Verify before buying: exact weight (ask for a scale photo \u2014 listings routinely guess low), neck measurements and fret ends, nut slots, top figure vs stock photos, and confirm Standard '60s vs a weight-relieved 'Classic' being misrepresented."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
-        "anchor_usd": 2400,
-        "over_market_pct": -10,
+        "as_of": "2026-07-26",
+        "anchor_usd": 2525,
+        "over_market_pct": -15,
         "offers_enabled": false,
-        "days_listed": 2
+        "days_listed": 3
       },
       "score": 93.2,
       "score_breakdown": {
@@ -515,7 +515,7 @@
         "Verify before buying: actual neck measurements (V2 vs V3 vs V1 \u2014 dealer listings are often wrong; ask for 1st/12th fret caliper numbers), weight, COA and case candy, serial format, no headstock repair under aging, and original unpotted Custombuckers."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 7174,
         "over_market_pct": 2
       }
@@ -586,9 +586,82 @@
         "Verify before buying: actual neck measurements (V2 vs V3 vs V1 \u2014 dealer listings are often wrong; ask for 1st/12th fret caliper numbers), weight, COA and case candy, serial format, no headstock repair under aging, and original unpotted Custombuckers."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 6398,
         "over_market_pct": 5
+      }
+    },
+    {
+      "dealer": "Reverb \u2013 Edmond Music",
+      "url": "https://reverb.com/item/99732142-gibson-les-paul-standard-60s-cherry-sunburst",
+      "price_usd": 2799.99,
+      "condition": "Brand New",
+      "city_state": "Edmond, OK",
+      "year": 2026,
+      "model": "Gibson Les Paul Standard 60s (figured AA top)",
+      "finish": "Cherry Sunburst",
+      "serial": null,
+      "weight_lbs": 8.6,
+      "nut_width_in": 1.695,
+      "fret1_depth_in": null,
+      "fret12_depth_in": null,
+      "neck_profile": "SlimTaper",
+      "shoulder_description": "Factory 60s SlimTaper, fast/slim shoulders",
+      "fingerboard_radius": "12\"",
+      "pickups": "Burstbucker 61R/61T (Alnico V)",
+      "case_included": true,
+      "modifications": "None (new stock)",
+      "measurements_source": "dealer measured",
+      "notes": "Reverb item 99732142, published 2026-07-25, authorized dealer. 8.6 lbs dead-center ideal. Cherry Sunburst not on preferred finish list; otherwise textbook figured Standard 60s at MAP-ish money. Ask for fret depths.",
+      "category": "les_paul",
+      "id": "g128",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-26",
+      "last_confirmed_active": "2026-07-26",
+      "market_bucket": "standard 60s",
+      "price_history": [
+        {
+          "date": "2026-07-26",
+          "price_usd": 2799.99
+        }
+      ],
+      "research_cluster": "standard-60s",
+      "research": [
+        "Neck feel: USA Standard '60s uses Gibson's modern SlimTaper \u2014 typically ~.80-.83\" at the 1st fret \u2014 but forums document real unit-to-unit variance from genuinely skinny to almost medium-C; fretwork and nut quality also vary.",
+        "Pickups: Burstbucker 61R/61T (Alnico V, slightly hot vintage-voiced) \u2014 brighter and more aggressive than Custombuckers; some find the 61T harsh into bright amps; 2019+ wiring is hand-wired with orange-drop caps, no PCB.",
+        "Known issues: weight is the big one \u2014 non-weight-relieved and commonly 9-10+ lbs (sub-9 lb examples get snapped up); also inconsistent nut slotting, occasional fret-end sprout, finish flaws under the burst.",
+        "Market/value: the mainstream benchmark Les Paul \u2014 liquid used market but steep initial depreciation (used commonly 25-35% under street); Plain Tops resell a bit lower than figured bursts; excellent players when you pick a good one.",
+        "Verify before buying: exact weight (ask for a scale photo \u2014 listings routinely guess low), neck measurements and fret ends, nut slots, top figure vs stock photos, and confirm Standard '60s vs a weight-relieved 'Classic' being misrepresented."
+      ],
+      "offer_intel": {
+        "as_of": "2026-07-26",
+        "anchor_usd": 2525,
+        "over_market_pct": 11,
+        "offers_enabled": false,
+        "days_listed": 1
+      },
+      "score": 92.9,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 8.6 lbs"
+        },
+        "neck_35pct": {
+          "score": 84.0,
+          "note": "nut ok (100); 1st fret unmeasured; 12th fret unmeasured"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: 'slimtaper factory 60s slimtaper, fast/slim shoulders'"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "brand new"
+        },
+        "price_5pct": {
+          "score": 90.0,
+          "note": "at/under anchor"
+        }
       }
     },
     {
@@ -657,11 +730,11 @@
         "Verify before buying: which neck version it actually is (get caliper measurements \u2014 V2/V3 mislabeling is common on Reverb), COA/anniversary paperwork, weight, anniversary-correct knobs/plastics, and unmodified unpotted pickups."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 6398,
         "over_market_pct": -16,
         "offers_enabled": false,
-        "days_listed": 26
+        "days_listed": 28
       }
     },
     {
@@ -730,10 +803,90 @@
         "Verify before buying: actual neck measurements (V2 vs V3 vs V1 \u2014 dealer listings are often wrong; ask for 1st/12th fret caliper numbers), weight, COA and case candy, serial format, no headstock repair under aging, and original unpotted Custombuckers."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 6398,
         "over_market_pct": -30
       }
+    },
+    {
+      "dealer": "Reverb \u2013 Mike & Mike's Guitar Bar",
+      "url": "https://reverb.com/item/93609303-2015-gibson-custom-shop-true-historic-1960-les-paul-standard-r0-vintage-cherry-sunburst-mint-w-case-tags-coa",
+      "price_usd": 6499.99,
+      "condition": "Mint",
+      "city_state": "Seattle, WA",
+      "year": 2015,
+      "model": "Custom Shop True Historic 1960 Les Paul Standard (R0)",
+      "finish": "Vintage Cherry Sunburst",
+      "serial": "0 5-prefix (1960-style, 2015 build), inked",
+      "weight_lbs": 8.44,
+      "nut_width_in": 1.6875,
+      "fret1_depth_in": 0.805,
+      "fret12_depth_in": 0.94,
+      "neck_profile": "1960 Slender C",
+      "shoulder_description": "Slender C \u2014 slim at the first fret, fills out toward 12th (.94 slightly above target ceiling)",
+      "fingerboard_radius": null,
+      "pickups": "CustomBucker PAF x2 (Alnico III), 500k pots, Bumblebee caps",
+      "case_included": "Original Lifton-style hardshell, COA, all hangtags",
+      "modifications": "None; all original, mint",
+      "measurements_source": "dealer measured",
+      "notes": "Reverb item 93609303. 8 lbs 7 oz. Peak-spec True Historic line (double-carved top, thin lacquer, chemically recreated plastics). Only flag: 12th-fret depth .940 is .02 over target. | Same guitar also live as M&M duplicate Reverb listing 97842598 (2026-07-21).",
+      "category": "les_paul",
+      "id": "g005",
+      "status": "PRICE DROP",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-26",
+      "market_bucket": "r0",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 7499.99
+        },
+        {
+          "date": "2026-07-26",
+          "price_usd": 6499.99
+        }
+      ],
+      "score": 92.3,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 8.44 lbs"
+        },
+        "neck_35pct": {
+          "score": 82.8,
+          "note": "nut ok (95); 1st fret ok (100); 12th fret ok (53)"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: '1960 slender c slender c \u2014 slim at the first fret, fills out'"
+        },
+        "condition_10pct": {
+          "score": 98.0,
+          "note": "mint"
+        },
+        "price_5pct": {
+          "score": 90.0,
+          "note": "at/under anchor"
+        }
+      },
+      "research_cluster": "true-historic",
+      "research": [
+        "Neck feel: 2015-16 True Historic R0s use the re-scanned 'True Historic' 1960 carve \u2014 slim but shouldered, roughly .82-.85\" at the 1st fret, with more accurate contours than 2013-14 models; described as the most vintage-accurate slim neck of its era.",
+        "Pickups: True Historic-spec unpotted Custombuckers \u2014 sweet, open and dynamic; tonally the same league as current Custombuckers.",
+        "Known issues: MLP consensus is 2015 batches were excellent but wood/top selection slipped in 2016; double-carved tops and thin-skin lacquer check easily; correct-material TH plastics shrink and crack like the originals; 'costs 30% more for 10% better' complaints dominate period threads.",
+        "Market/value: strong collector reputation as a short-lived top-of-line run \u2014 THs resell above standard 2013-16 Historics; R0 versions are rarer than R9s and considered sleepers; beware ordinary Historics passed off as THs at TH prices.",
+        "Verify before buying: authentic TH identity (period-correct vintage-style serial starting 0 xxxx, TH-specific COA and case), finish checking/repairs under the thin lacquer, original TH plastics, and pot/solder originality."
+      ],
+      "offer_intel": {
+        "as_of": "2026-07-26",
+        "anchor_usd": 6398,
+        "over_market_pct": 2,
+        "offers_enabled": false,
+        "days_listed": 221
+      },
+      "alt_urls": [
+        "https://reverb.com/item/97842598-2015-gibson-custom-shop-true-historic-1960-les-paul-standard-r0-vintage-cherry-sunburst-mint-w-case-tags-coa"
+      ]
     },
     {
       "dealer": "Willcutt Guitars",
@@ -801,90 +954,10 @@
         "Verify before buying: exact weight (ask for a scale photo \u2014 listings routinely guess low), neck measurements and fret ends, nut slots, top figure vs stock photos, and confirm Standard '60s vs a weight-relieved 'Classic' being misrepresented."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
-        "anchor_usd": 2400,
-        "over_market_pct": 17
+        "as_of": "2026-07-26",
+        "anchor_usd": 2525,
+        "over_market_pct": 11
       }
-    },
-    {
-      "dealer": "Reverb \u2013 Mike & Mike's Guitar Bar",
-      "url": "https://reverb.com/item/93609303-2015-gibson-custom-shop-true-historic-1960-les-paul-standard-r0-vintage-cherry-sunburst-mint-w-case-tags-coa",
-      "price_usd": 6499.99,
-      "condition": "Mint",
-      "city_state": "Seattle, WA",
-      "year": 2015,
-      "model": "Custom Shop True Historic 1960 Les Paul Standard (R0)",
-      "finish": "Vintage Cherry Sunburst",
-      "serial": "0 5-prefix (1960-style, 2015 build), inked",
-      "weight_lbs": 8.44,
-      "nut_width_in": 1.6875,
-      "fret1_depth_in": 0.805,
-      "fret12_depth_in": 0.94,
-      "neck_profile": "1960 Slender C",
-      "shoulder_description": "Slender C \u2014 slim at the first fret, fills out toward 12th (.94 slightly above target ceiling)",
-      "fingerboard_radius": null,
-      "pickups": "CustomBucker PAF x2 (Alnico III), 500k pots, Bumblebee caps",
-      "case_included": "Original Lifton-style hardshell, COA, all hangtags",
-      "modifications": "None; all original, mint",
-      "measurements_source": "dealer measured",
-      "notes": "Reverb item 93609303. 8 lbs 7 oz. Peak-spec True Historic line (double-carved top, thin lacquer, chemically recreated plastics). Only flag: 12th-fret depth .940 is .02 over target. | Same guitar also live as M&M duplicate Reverb listing 97842598 (2026-07-21).",
-      "category": "les_paul",
-      "id": "g005",
-      "status": "PRICE DROP",
-      "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-07-26",
-      "market_bucket": "r0",
-      "price_history": [
-        {
-          "date": "2026-07-19",
-          "price_usd": 7499.99
-        },
-        {
-          "date": "2026-07-26",
-          "price_usd": 6499.99
-        }
-      ],
-      "score": 91.3,
-      "score_breakdown": {
-        "weight_30pct": {
-          "score": 100.0,
-          "note": "weight 8.44 lbs"
-        },
-        "neck_35pct": {
-          "score": 82.8,
-          "note": "nut ok (95); 1st fret ok (100); 12th fret ok (53)"
-        },
-        "shoulders_20pct": {
-          "score": 95.0,
-          "note": "slim/fast profile: '1960 slender c slender c \u2014 slim at the first fret, fills out'"
-        },
-        "condition_10pct": {
-          "score": 98.0,
-          "note": "mint"
-        },
-        "price_5pct": {
-          "score": 70.0,
-          "note": "slightly above anchor"
-        }
-      },
-      "research_cluster": "true-historic",
-      "research": [
-        "Neck feel: 2015-16 True Historic R0s use the re-scanned 'True Historic' 1960 carve \u2014 slim but shouldered, roughly .82-.85\" at the 1st fret, with more accurate contours than 2013-14 models; described as the most vintage-accurate slim neck of its era.",
-        "Pickups: True Historic-spec unpotted Custombuckers \u2014 sweet, open and dynamic; tonally the same league as current Custombuckers.",
-        "Known issues: MLP consensus is 2015 batches were excellent but wood/top selection slipped in 2016; double-carved tops and thin-skin lacquer check easily; correct-material TH plastics shrink and crack like the originals; 'costs 30% more for 10% better' complaints dominate period threads.",
-        "Market/value: strong collector reputation as a short-lived top-of-line run \u2014 THs resell above standard 2013-16 Historics; R0 versions are rarer than R9s and considered sleepers; beware ordinary Historics passed off as THs at TH prices.",
-        "Verify before buying: authentic TH identity (period-correct vintage-style serial starting 0 xxxx, TH-specific COA and case), finish checking/repairs under the thin lacquer, original TH plastics, and pot/solder originality."
-      ],
-      "offer_intel": {
-        "as_of": "2026-07-25",
-        "anchor_usd": 6398,
-        "over_market_pct": 17,
-        "offers_enabled": false,
-        "days_listed": 220
-      },
-      "alt_urls": [
-        "https://reverb.com/item/97842598-2015-gibson-custom-shop-true-historic-1960-les-paul-standard-r0-vintage-cherry-sunburst-mint-w-case-tags-coa"
-      ]
     },
     {
       "dealer": "Willcutt Guitars",
@@ -952,9 +1025,9 @@
         "Verify before buying: actual neck measurements (V2 vs V3 vs V1 \u2014 dealer listings are often wrong; ask for 1st/12th fret caliper numbers), weight, COA and case candy, serial format, no headstock repair under aging, and original unpotted Custombuckers."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
-        "anchor_usd": 7600,
-        "over_market_pct": 8
+        "as_of": "2026-07-26",
+        "anchor_usd": 7375,
+        "over_market_pct": 11
       }
     },
     {
@@ -1023,7 +1096,7 @@
         "Verify before buying: actual neck measurements (V2 vs V3 vs V1 \u2014 dealer listings are often wrong; ask for 1st/12th fret caliper numbers), weight, COA and case candy, serial format, no headstock repair under aging, and original unpotted Custombuckers."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 6100,
         "over_market_pct": 10
       }
@@ -1094,11 +1167,11 @@
         }
       },
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 5161,
         "over_market_pct": -3,
         "offers_enabled": false,
-        "days_listed": 39
+        "days_listed": 40
       }
     },
     {
@@ -1167,11 +1240,11 @@
         "Verify before buying: serial decoding to confirm genuine Historic vs Classic/Standard passed off as an R0, fingerboard wood documentation on 2001-2003 claims, truss rod function, refret/repair history, originality of pickups and pots, and weight."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 6398,
         "over_market_pct": 17,
         "offers_enabled": true,
-        "days_listed": 60,
+        "days_listed": 61,
         "suggested_offer_usd": 6600,
         "discount_pct": 12,
         "rationale": "8% base; 17% over market anchor ($6397)"
@@ -1243,7 +1316,7 @@
         "Verify before buying: which neck version it actually is (get caliper measurements \u2014 V2/V3 mislabeling is common on Reverb), COA/anniversary paperwork, weight, anniversary-correct knobs/plastics, and unmodified unpotted pickups."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 6398,
         "over_market_pct": -15
       }
@@ -1314,11 +1387,84 @@
         }
       },
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 7174,
         "over_market_pct": 2,
         "offers_enabled": false,
-        "days_listed": 281
+        "days_listed": 282
+      }
+    },
+    {
+      "dealer": "Reverb \u2013 EGA Guitars",
+      "url": "https://reverb.com/item/99677051-gibson-limited-edition-les-paul-standard-60s-triburst",
+      "price_usd": 2349.99,
+      "condition": "Used - Excellent",
+      "city_state": "St Paul, TX",
+      "year": 2023,
+      "model": "Gibson Les Paul Standard 60s Limited Edition (figured AA top)",
+      "finish": "Triburst",
+      "serial": null,
+      "weight_lbs": 8.9,
+      "nut_width_in": 1.69,
+      "fret1_depth_in": null,
+      "fret12_depth_in": null,
+      "neck_profile": "SlimTaper",
+      "shoulder_description": "Factory 60s SlimTaper, fast/slim shoulders",
+      "fingerboard_radius": "12\"",
+      "pickups": "Custom BurstBucker set, handwired with Orange Drop caps",
+      "case_included": true,
+      "modifications": "None noted; fresh setup by shop",
+      "measurements_source": "dealer measured",
+      "notes": "Reverb item 99677051, published/bumped 2026-07-25. 8.9 lbs top of range, OHSC. Triburst off preferred list - flagged because price is well under Standard 60s market. 7-day returns.",
+      "category": "les_paul",
+      "id": "g129",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-26",
+      "last_confirmed_active": "2026-07-26",
+      "market_bucket": "standard 60s",
+      "price_history": [
+        {
+          "date": "2026-07-26",
+          "price_usd": 2349.99
+        }
+      ],
+      "research_cluster": "standard-60s",
+      "research": [
+        "Neck feel: USA Standard '60s uses Gibson's modern SlimTaper \u2014 typically ~.80-.83\" at the 1st fret \u2014 but forums document real unit-to-unit variance from genuinely skinny to almost medium-C; fretwork and nut quality also vary.",
+        "Pickups: Burstbucker 61R/61T (Alnico V, slightly hot vintage-voiced) \u2014 brighter and more aggressive than Custombuckers; some find the 61T harsh into bright amps; 2019+ wiring is hand-wired with orange-drop caps, no PCB.",
+        "Known issues: weight is the big one \u2014 non-weight-relieved and commonly 9-10+ lbs (sub-9 lb examples get snapped up); also inconsistent nut slotting, occasional fret-end sprout, finish flaws under the burst.",
+        "Market/value: the mainstream benchmark Les Paul \u2014 liquid used market but steep initial depreciation (used commonly 25-35% under street); Plain Tops resell a bit lower than figured bursts; excellent players when you pick a good one.",
+        "Verify before buying: exact weight (ask for a scale photo \u2014 listings routinely guess low), neck measurements and fret ends, nut slots, top figure vs stock photos, and confirm Standard '60s vs a weight-relieved 'Classic' being misrepresented."
+      ],
+      "offer_intel": {
+        "as_of": "2026-07-26",
+        "anchor_usd": 2525,
+        "over_market_pct": -7,
+        "offers_enabled": false,
+        "days_listed": 1
+      },
+      "score": 89.6,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 90.0,
+          "note": "weight 8.9 lbs"
+        },
+        "neck_35pct": {
+          "score": 84.0,
+          "note": "nut ok (100); 1st fret unmeasured; 12th fret unmeasured"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: 'slimtaper factory 60s slimtaper, fast/slim shoulders'"
+        },
+        "condition_10pct": {
+          "score": 92.0,
+          "note": "used - excellent"
+        },
+        "price_5pct": {
+          "score": 100.0,
+          "note": "16% under anchor"
+        }
       }
     },
     {
@@ -1387,11 +1533,11 @@
         }
       },
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 5161,
         "over_market_pct": 16,
         "offers_enabled": true,
-        "days_listed": 16,
+        "days_listed": 17,
         "suggested_offer_usd": 5150,
         "discount_pct": 14,
         "rationale": "8% base; 16% over market anchor ($5161); condition/mods"
@@ -1463,7 +1609,7 @@
         "Verify before buying: actual neck measurements (V2 vs V3 vs V1 \u2014 dealer listings are often wrong; ask for 1st/12th fret caliper numbers), weight, COA and case candy, serial format, no headstock repair under aging, and original unpotted Custombuckers."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 6398,
         "over_market_pct": 5
       }
@@ -1534,7 +1680,7 @@
         "Verify before buying: actual neck measurements (V2 vs V3 vs V1 \u2014 dealer listings are often wrong; ask for 1st/12th fret caliper numbers), weight, COA and case candy, serial format, no headstock repair under aging, and original unpotted Custombuckers."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 6100,
         "over_market_pct": -19
       }
@@ -1658,11 +1804,11 @@
         "Verify before buying: actual neck measurements (V2 vs V3 vs V1 \u2014 dealer listings are often wrong; ask for 1st/12th fret caliper numbers), weight, COA and case candy, serial format, no headstock repair under aging, and original unpotted Custombuckers."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 6398,
         "over_market_pct": 5,
         "offers_enabled": false,
-        "days_listed": 88
+        "days_listed": 89
       },
       "score": 88.1,
       "score_breakdown": {
@@ -1754,7 +1900,7 @@
         "Verify before buying: actual neck measurements (V2 vs V3 vs V1 \u2014 dealer listings are often wrong; ask for 1st/12th fret caliper numbers), weight, COA and case candy, serial format, no headstock repair under aging, and original unpotted Custombuckers."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 7174,
         "over_market_pct": 2
       }
@@ -1825,14 +1971,14 @@
         }
       },
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 5161,
         "over_market_pct": 16,
         "offers_enabled": true,
-        "days_listed": 170,
+        "days_listed": 171,
         "suggested_offer_usd": 4900,
         "discount_pct": 18,
-        "rationale": "8% base; listed 170d; 16% over market anchor ($5161); condition/mods"
+        "rationale": "8% base; listed 171d; 16% over market anchor ($5161); condition/mods"
       }
     },
     {
@@ -1893,11 +2039,11 @@
         }
       },
       "offer_intel": {
-        "as_of": "2026-07-25",
-        "anchor_usd": 4262,
-        "over_market_pct": -32,
+        "as_of": "2026-07-26",
+        "anchor_usd": 4175,
+        "over_market_pct": -31,
         "offers_enabled": false,
-        "days_listed": 9
+        "days_listed": 10
       }
     },
     {
@@ -1966,9 +2112,9 @@
         "Verify before buying: actual neck measurements (V2 vs V3 vs V1 \u2014 dealer listings are often wrong; ask for 1st/12th fret caliper numbers), weight, COA and case candy, serial format, no headstock repair under aging, and original unpotted Custombuckers."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
-        "anchor_usd": 7600,
-        "over_market_pct": -5
+        "as_of": "2026-07-26",
+        "anchor_usd": 7375,
+        "over_market_pct": -2
       }
     },
     {
@@ -2037,10 +2183,10 @@
         "Verify before buying: weight on a scale, serial decode to confirm year and Standard vs Classic/Studio identity, fret life and truss rod range, originality of pickups/pots/tuners, headstock repair under blacklight, binding/lacquer cracks at the neck joint."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": null,
         "offers_enabled": true,
-        "days_listed": 29,
+        "days_listed": 30,
         "suggested_offer_usd": 4400,
         "discount_pct": 10,
         "rationale": "8% base; condition/mods"
@@ -2155,14 +2301,14 @@
         "Verify before buying: actual neck measurements (V2 vs V3 vs V1 \u2014 dealer listings are often wrong; ask for 1st/12th fret caliper numbers), weight, COA and case candy, serial format, no headstock repair under aging, and original unpotted Custombuckers."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 7174,
         "over_market_pct": -33,
         "offers_enabled": true,
-        "days_listed": 141,
+        "days_listed": 142,
         "suggested_offer_usd": 4200,
         "discount_pct": 12,
-        "rationale": "8% base; listed 141d"
+        "rationale": "8% base; listed 142d"
       },
       "score": 84.5,
       "score_breakdown": {
@@ -2254,11 +2400,11 @@
         }
       },
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 7174,
         "over_market_pct": 2,
         "offers_enabled": false,
-        "days_listed": 304
+        "days_listed": 305
       }
     },
     {
@@ -2304,7 +2450,7 @@
         "Verify before buying: actual neck measurements (V2 vs V3 vs V1 \u2014 dealer listings are often wrong; ask for 1st/12th fret caliper numbers), weight, COA and case candy, serial format, no headstock repair under aging, and original unpotted Custombuckers."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 6100,
         "over_market_pct": 10
       },
@@ -2398,7 +2544,7 @@
         }
       },
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 5161,
         "over_market_pct": 7,
         "offers_enabled": false,
@@ -2448,9 +2594,9 @@
         "Verify before buying: actual neck measurements (V2 vs V3 vs V1 \u2014 dealer listings are often wrong; ask for 1st/12th fret caliper numbers), weight, COA and case candy, serial format, no headstock repair under aging, and original unpotted Custombuckers."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
-        "anchor_usd": 7600,
-        "over_market_pct": 21
+        "as_of": "2026-07-26",
+        "anchor_usd": 7375,
+        "over_market_pct": 25
       },
       "score": 83.5,
       "score_breakdown": {
@@ -2545,7 +2691,7 @@
         "https://reverb.com/item/97842585-1969-gibson-es-335-tdc-vintage-guitar-cherry-stoptail-conversion-w-pat-t-tops-case (Reverb listing ended 2026-07-25; guitar still live on dealer site)"
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 8000,
         "over_market_pct": 6
       }
@@ -2593,11 +2739,11 @@
         "Verify before buying: actual neck measurements (V2 vs V3 vs V1 \u2014 dealer listings are often wrong; ask for 1st/12th fret caliper numbers), weight, COA and case candy, serial format, no headstock repair under aging, and original unpotted Custombuckers."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 6100,
         "over_market_pct": 10,
         "offers_enabled": false,
-        "days_listed": 8
+        "days_listed": 9
       },
       "score": 83.0,
       "score_breakdown": {
@@ -2755,9 +2901,9 @@
         "Verify before buying: actual neck measurements (V2 vs V3 vs V1 \u2014 dealer listings are often wrong; ask for 1st/12th fret caliper numbers), weight, COA and case candy, serial format, no headstock repair under aging, and original unpotted Custombuckers."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
-        "anchor_usd": 7600,
-        "over_market_pct": 21
+        "as_of": "2026-07-26",
+        "anchor_usd": 7375,
+        "over_market_pct": 25
       }
     },
     {
@@ -2826,7 +2972,7 @@
         "Verify before buying: neck measurements (confirm the skinny '61 carve suits you vs the fatter '59 RI), weight, aging level and hidden damage within Murphy Lab wear, COA/case, center block rattles (tap test), original Custombuckers."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 5000,
         "over_market_pct": 40
       }
@@ -2897,7 +3043,7 @@
         "Verify before buying: neck measurements (confirm the skinny '61 carve suits you vs the fatter '59 RI), weight, aging level and hidden damage within Murphy Lab wear, COA/case, center block rattles (tap test), original Custombuckers."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 5000,
         "over_market_pct": 45
       }
@@ -2968,7 +3114,7 @@
         "Verify before buying: neck set straightness, top sinking under the bridge, actual weight, volute-area crack/repair, T-Top originality (DCR ~7.5k), and confirm year via pot codes since Norlin serials are notoriously ambiguous."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 5161,
         "over_market_pct": 32
       }
@@ -3039,7 +3185,7 @@
         "Verify before buying: nut cut and string spacing (the era's signature flaw), setup feel or a return window, glue squeeze-out, which sub-model it actually is (big value differences), original MHS pickups, weight (7.5-9 lbs spread)."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 3500,
         "over_market_pct": -6
       }
@@ -3110,14 +3256,14 @@
         "Verify before buying: actual neck measurements (V2 vs V3 vs V1 \u2014 dealer listings are often wrong; ask for 1st/12th fret caliper numbers), weight, COA and case candy, serial format, no headstock repair under aging, and original unpotted Custombuckers."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 6800,
         "over_market_pct": -21,
         "offers_enabled": true,
-        "days_listed": 141,
+        "days_listed": 142,
         "suggested_offer_usd": 4750,
         "discount_pct": 12,
-        "rationale": "8% base; listed 141d"
+        "rationale": "8% base; listed 142d"
       }
     },
     {
@@ -3163,14 +3309,14 @@
         "Verify before buying: neck measurements (confirm the skinny '61 carve suits you vs the fatter '59 RI), weight, aging level and hidden damage within Murphy Lab wear, COA/case, center block rattles (tap test), original Custombuckers."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 5000,
         "over_market_pct": 36,
         "offers_enabled": true,
-        "days_listed": 191,
+        "days_listed": 192,
         "suggested_offer_usd": 5600,
         "discount_pct": 18,
-        "rationale": "8% base; listed 191d; 36% over market anchor ($4999)"
+        "rationale": "8% base; listed 192d; 36% over market anchor ($4999)"
       },
       "score": 80.9,
       "score_breakdown": {
@@ -3262,7 +3408,7 @@
         "Verify before buying: actual neck measurements (V2 vs V3 vs V1 \u2014 dealer listings are often wrong; ask for 1st/12th fret caliper numbers), weight, COA and case candy, serial format, no headstock repair under aging, and original unpotted Custombuckers."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 6100,
         "over_market_pct": 10
       }
@@ -3314,11 +3460,11 @@
         "Verify before buying: which neck version it actually is (get caliper measurements \u2014 V2/V3 mislabeling is common on Reverb), COA/anniversary paperwork, weight, anniversary-correct knobs/plastics, and unmodified unpotted pickups."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 6398,
         "over_market_pct": -25,
         "offers_enabled": false,
-        "days_listed": 5
+        "days_listed": 6
       },
       "score": 80.2,
       "score_breakdown": {
@@ -3379,11 +3525,11 @@
         }
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 1599,
         "over_market_pct": -50,
         "offers_enabled": false,
-        "days_listed": 51
+        "days_listed": 52
       },
       "score": 80.0,
       "score_breakdown": {
@@ -3475,7 +3621,7 @@
         "Verify before buying: neck measurements (confirm the skinny '61 carve suits you vs the fatter '59 RI), weight, aging level and hidden damage within Murphy Lab wear, COA/case, center block rattles (tap test), original Custombuckers."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 5000,
         "over_market_pct": 40
       }
@@ -3523,11 +3669,11 @@
         "Verify before buying: neck set straightness, top sinking under the bridge, actual weight, volute-area crack/repair, T-Top originality (DCR ~7.5k), and confirm year via pot codes since Norlin serials are notoriously ambiguous."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 5161,
         "over_market_pct": 7,
         "offers_enabled": true,
-        "days_listed": 36,
+        "days_listed": 37,
         "suggested_offer_usd": 4950,
         "discount_pct": 10,
         "rationale": "8% base; condition/mods"
@@ -3622,11 +3768,11 @@
         "Verify before buying: neck set straightness, top sinking under the bridge, actual weight, volute-area crack/repair, T-Top originality (DCR ~7.5k), and confirm year via pot codes since Norlin serials are notoriously ambiguous."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 5161,
         "over_market_pct": 3,
         "offers_enabled": false,
-        "days_listed": 5
+        "days_listed": 6
       }
     },
     {
@@ -3695,11 +3841,11 @@
         "Verify before buying: actual neck measurements (V2 vs V3 vs V1 \u2014 dealer listings are often wrong; ask for 1st/12th fret caliper numbers), weight, COA and case candy, serial format, no headstock repair under aging, and original unpotted Custombuckers."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 7174,
         "over_market_pct": 10,
         "offers_enabled": false,
-        "days_listed": 52
+        "days_listed": 53
       }
     },
     {
@@ -3836,9 +3982,9 @@
         }
       },
       "offer_intel": {
-        "as_of": "2026-07-25",
-        "anchor_usd": 4262,
-        "over_market_pct": 52
+        "as_of": "2026-07-26",
+        "anchor_usd": 4175,
+        "over_market_pct": 56
       }
     },
     {
@@ -3907,14 +4053,14 @@
         "Verify before buying: which neck version it actually is (get caliper measurements \u2014 V2/V3 mislabeling is common on Reverb), COA/anniversary paperwork, weight, anniversary-correct knobs/plastics, and unmodified unpotted pickups."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 6398,
         "over_market_pct": 9,
         "offers_enabled": true,
-        "days_listed": 834,
+        "days_listed": 835,
         "suggested_offer_usd": 6000,
         "discount_pct": 14,
-        "rationale": "8% base; listed 834d"
+        "rationale": "8% base; listed 835d"
       }
     },
     {
@@ -3983,11 +4129,11 @@
         "Verify before buying: weight on a scale, original tarbacks (check DCR), coil-tap switch function and un-butchered wiring, neck angle/top sinking, volute-area crack repairs, finish originality."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 5161,
         "over_market_pct": -26,
         "offers_enabled": false,
-        "days_listed": 40
+        "days_listed": 41
       }
     },
     {
@@ -4056,11 +4202,11 @@
         "Verify before buying: actual neck measurements (V2 vs V3 vs V1 \u2014 dealer listings are often wrong; ask for 1st/12th fret caliper numbers), weight, COA and case candy, serial format, no headstock repair under aging, and original unpotted Custombuckers."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 6100,
         "over_market_pct": 10,
         "offers_enabled": false,
-        "days_listed": 904
+        "days_listed": 905
       }
     },
     {
@@ -4132,11 +4278,11 @@
         "https://mmguitarbar.com/products/1978-gibson-es-335-vintage-semi-hollow-guitar-sunburst-w-tarbacks-coil-tap-case"
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 5161,
         "over_market_pct": -7,
         "offers_enabled": false,
-        "days_listed": 13
+        "days_listed": 14
       }
     },
     {
@@ -4263,11 +4409,11 @@
         }
       },
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 2375,
         "over_market_pct": 31,
         "offers_enabled": false,
-        "days_listed": 149
+        "days_listed": 150
       }
     },
     {
@@ -4313,11 +4459,11 @@
         "Verify before buying: actual neck measurements (V2 vs V3 vs V1 \u2014 dealer listings are often wrong; ask for 1st/12th fret caliper numbers), weight, COA and case candy, serial format, no headstock repair under aging, and original unpotted Custombuckers."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 6100,
         "over_market_pct": -10,
         "offers_enabled": true,
-        "days_listed": 6,
+        "days_listed": 7,
         "suggested_offer_usd": 5050,
         "discount_pct": 8,
         "rationale": "8% base"
@@ -4404,7 +4550,7 @@
         }
       },
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 5500,
         "over_market_pct": -46
       }
@@ -4452,11 +4598,11 @@
         "Verify before buying: actual neck measurements (V2 vs V3 vs V1 \u2014 dealer listings are often wrong; ask for 1st/12th fret caliper numbers), weight, COA and case candy, serial format, no headstock repair under aging, and original unpotted Custombuckers."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 7174,
         "over_market_pct": -9,
         "offers_enabled": true,
-        "days_listed": 3,
+        "days_listed": 4,
         "suggested_offer_usd": 6000,
         "discount_pct": 8,
         "rationale": "8% base"
@@ -4528,11 +4674,11 @@
         "Verify before buying: actual neck measurements (V2 vs V3 vs V1 \u2014 dealer listings are often wrong; ask for 1st/12th fret caliper numbers), weight, COA and case candy, serial format, no headstock repair under aging, and original unpotted Custombuckers."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 6398,
         "over_market_pct": -6,
         "offers_enabled": true,
-        "days_listed": 6,
+        "days_listed": 7,
         "suggested_offer_usd": 5500,
         "discount_pct": 8,
         "rationale": "8% base"
@@ -4627,11 +4773,11 @@
         }
       },
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 5161,
         "over_market_pct": 35,
         "offers_enabled": true,
-        "days_listed": 36,
+        "days_listed": 37,
         "suggested_offer_usd": 6000,
         "discount_pct": 14,
         "rationale": "8% base; 35% over market anchor ($5161); condition/mods"
@@ -4680,11 +4826,11 @@
         "Verify before buying: actual neck measurements (V2 vs V3 vs V1 \u2014 dealer listings are often wrong; ask for 1st/12th fret caliper numbers), weight, COA and case candy, serial format, no headstock repair under aging, and original unpotted Custombuckers."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 6398,
         "over_market_pct": -30,
         "offers_enabled": false,
-        "days_listed": 9
+        "days_listed": 10
       },
       "score": 74.5,
       "score_breakdown": {
@@ -4707,6 +4853,82 @@
         "price_5pct": {
           "score": 100.0,
           "note": "34% under anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Reverb \u2013 private seller (Jacksonville)",
+      "url": "https://reverb.com/item/99736889-gibson-les-paul-60-s-classic-2007",
+      "price_usd": 1800.0,
+      "condition": "Used - Very Good",
+      "city_state": "Jacksonville, FL",
+      "year": 2007,
+      "model": "Gibson Les Paul Classic 1960 Reissue",
+      "finish": "Ebony",
+      "serial": null,
+      "weight_lbs": 8.4,
+      "nut_width_in": null,
+      "fret1_depth_in": null,
+      "fret12_depth_in": null,
+      "neck_profile": "1960 slim-taper (factory Classic carve; not individually measured)",
+      "shoulder_description": "Classic 1960 = Gibson's thinnest production 60s carve; expected fast/slim, unverified",
+      "fingerboard_radius": "12\"",
+      "pickups": "Stock Classic-era 496R/500T ceramic (unconfirmed - verify with seller)",
+      "case_included": true,
+      "modifications": "None stated; OHSC included",
+      "measurements_source": "dealer measured",
+      "notes": "Reverb item 99736889, published 2026-07-25. Closest match to the Ebony-slim-neck brief this sweep: Ebony, 8.4 lbs ideal, 1960-slim platform, $1,800 with offers enabled. CONDITIONAL: request nut width + fret depths (post-1985 rule), confirm pickups and finish condition.",
+      "category": "les_paul",
+      "id": "g131",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-26",
+      "last_confirmed_active": "2026-07-26",
+      "market_bucket": "1960 reissue",
+      "price_history": [
+        {
+          "date": "2026-07-26",
+          "price_usd": 1800.0
+        }
+      ],
+      "research_cluster": "cs-r0-modern",
+      "research": [
+        "Neck feel: modern core R0s ship with the '1960 V2' medium-slim carve (~.82\" at the 1st fret, ~.95\" at the 12th) \u2014 forum consensus calls it 'a '59 neck on a diet'; Wildwood-spec R0s also typically measure around .82\" first fret, and only the V3/slim-taper variants get truly skinny (~.80\"/.89\").",
+        "Pickups: unpotted Custombuckers (Alnico III), widely praised on MLP/TGP as the best PAF-style pickup Gibson ships \u2014 airy, open, clear lows and classic midrange honk; Wildwood Spec versions are regarded as tonally equivalent, with differences mainly cosmetic.",
+        "Known issues: general 2019+ Historic complaints \u2014 occasional nut slot/fret-end sloppiness, inconsistent VOS/Murphy Lab finish work, weight variance (roughly 8.3-9.5 lbs, no weight relief), some checking-prone Murphy Lab lacquer; unpotted Custombuckers can squeal at high gain.",
+        "Market/value: the 2019 'reformulated' Historic line is considered the best regular-production era since True Historic; R0s trade slightly below equivalent R9s and hold value well used at roughly 60-75% of street; dealer-spec examples carry a modest resale premium.",
+        "Verify before buying: actual neck measurements (V2 vs V3 vs V1 \u2014 dealer listings are often wrong; ask for 1st/12th fret caliper numbers), weight, COA and case candy, serial format, no headstock repair under aging, and original unpotted Custombuckers."
+      ],
+      "offer_intel": {
+        "as_of": "2026-07-26",
+        "anchor_usd": 6800,
+        "over_market_pct": -74,
+        "offers_enabled": true,
+        "days_listed": 1,
+        "suggested_offer_usd": 1600,
+        "discount_pct": 10,
+        "rationale": "8% base; condition/mods"
+      },
+      "score": 74.5,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 8.4 lbs"
+        },
+        "neck_35pct": {
+          "score": 35.0,
+          "note": "no neck measurements (capped)"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: '1960 slim-taper (factory classic carve; not individually mea'"
+        },
+        "condition_10pct": {
+          "score": 82.0,
+          "note": "used - very good"
+        },
+        "price_5pct": {
+          "score": 100.0,
+          "note": "74% under anchor"
         }
       }
     },
@@ -4776,9 +4998,85 @@
         "Verify before buying: neck measurements (confirm the skinny '61 carve suits you vs the fatter '59 RI), weight, aging level and hidden damage within Murphy Lab wear, COA/case, center block rattles (tap test), original Custombuckers."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 5000,
         "over_market_pct": 20
+      }
+    },
+    {
+      "dealer": "Reverb \u2013 private seller (Laguna Niguel)",
+      "url": "https://reverb.com/item/99681446-2025-gibson-custom-shop-murphy-lab-59-les-paul-standard-reissue-heavy-aged-greeny-vibes",
+      "price_usd": 7250.0,
+      "condition": "Used - Excellent (near mint, studio only)",
+      "city_state": "Laguna Niguel, CA",
+      "year": 2025,
+      "model": "Gibson Custom Shop Murphy Lab 1959 Les Paul Standard Reissue, Heavy Aged",
+      "finish": "Dirty Lemon ('Greeny' look)",
+      "serial": null,
+      "weight_lbs": 8.74,
+      "nut_width_in": 1.687,
+      "fret1_depth_in": 0.91,
+      "fret12_depth_in": 0.98,
+      "neck_profile": "Authentic '59 Medium C",
+      "shoulder_description": "Full '59 medium C - thicker shoulders than target window",
+      "fingerboard_radius": "12\"",
+      "pickups": "Custombucker Alnico III, unpotted",
+      "case_included": true,
+      "modifications": "None; aged Lifton OHSC + COA + paperwork",
+      "measurements_source": "dealer measured",
+      "notes": "Reverb item 99681446, published 2026-07-23. Rare Dirty Lemon ML Heavy Aged - preferred finish + ideal 8.74 lbs, ~$1.5-2k under typical ML HA ask. CAUTION: .91/.98 neck depths well above target - real '59 carve. Offers enabled.",
+      "category": "les_paul",
+      "id": "g130",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-26",
+      "last_confirmed_active": "2026-07-26",
+      "market_bucket": "murphy lab",
+      "price_history": [
+        {
+          "date": "2026-07-26",
+          "price_usd": 7250.0
+        }
+      ],
+      "research_cluster": "cs-r0-modern",
+      "research": [
+        "Neck feel: modern core R0s ship with the '1960 V2' medium-slim carve (~.82\" at the 1st fret, ~.95\" at the 12th) \u2014 forum consensus calls it 'a '59 neck on a diet'; Wildwood-spec R0s also typically measure around .82\" first fret, and only the V3/slim-taper variants get truly skinny (~.80\"/.89\").",
+        "Pickups: unpotted Custombuckers (Alnico III), widely praised on MLP/TGP as the best PAF-style pickup Gibson ships \u2014 airy, open, clear lows and classic midrange honk; Wildwood Spec versions are regarded as tonally equivalent, with differences mainly cosmetic.",
+        "Known issues: general 2019+ Historic complaints \u2014 occasional nut slot/fret-end sloppiness, inconsistent VOS/Murphy Lab finish work, weight variance (roughly 8.3-9.5 lbs, no weight relief), some checking-prone Murphy Lab lacquer; unpotted Custombuckers can squeal at high gain.",
+        "Market/value: the 2019 'reformulated' Historic line is considered the best regular-production era since True Historic; R0s trade slightly below equivalent R9s and hold value well used at roughly 60-75% of street; dealer-spec examples carry a modest resale premium.",
+        "Verify before buying: actual neck measurements (V2 vs V3 vs V1 \u2014 dealer listings are often wrong; ask for 1st/12th fret caliper numbers), weight, COA and case candy, serial format, no headstock repair under aging, and original unpotted Custombuckers."
+      ],
+      "offer_intel": {
+        "as_of": "2026-07-26",
+        "anchor_usd": 7375,
+        "over_market_pct": -2,
+        "offers_enabled": true,
+        "days_listed": 3,
+        "suggested_offer_usd": 6650,
+        "discount_pct": 8,
+        "rationale": "8% base"
+      },
+      "score": 74.3,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 8.74 lbs"
+        },
+        "neck_35pct": {
+          "score": 31.3,
+          "note": "nut ok (94); 1st fret ok (0); 12th fret ok (0)"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: 'authentic '59 medium c full '59 medium c - thicker shoulders'"
+        },
+        "condition_10pct": {
+          "score": 98.0,
+          "note": "used - excellent (near mint, studio only)"
+        },
+        "price_5pct": {
+          "score": 90.0,
+          "note": "at/under anchor"
+        }
       }
     },
     {
@@ -4824,11 +5122,11 @@
         "Verify before buying: actual neck measurements (V2 vs V3 vs V1 \u2014 dealer listings are often wrong; ask for 1st/12th fret caliper numbers), weight, COA and case candy, serial format, no headstock repair under aging, and original unpotted Custombuckers."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 6398,
         "over_market_pct": -11,
         "offers_enabled": true,
-        "days_listed": 5,
+        "days_listed": 6,
         "suggested_offer_usd": 5150,
         "discount_pct": 10,
         "rationale": "8% base; condition/mods"
@@ -4900,11 +5198,11 @@
         "Verify before buying: actual neck measurements (V2 vs V3 vs V1 \u2014 dealer listings are often wrong; ask for 1st/12th fret caliper numbers), weight, COA and case candy, serial format, no headstock repair under aging, and original unpotted Custombuckers."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
-        "anchor_usd": 7600,
-        "over_market_pct": -18,
+        "as_of": "2026-07-26",
+        "anchor_usd": 7375,
+        "over_market_pct": -16,
         "offers_enabled": true,
-        "days_listed": 1,
+        "days_listed": 2,
         "suggested_offer_usd": 5700,
         "discount_pct": 8,
         "rationale": "8% base"
@@ -5065,11 +5363,11 @@
         }
       },
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 8000,
         "over_market_pct": 12,
         "offers_enabled": true,
-        "days_listed": 23,
+        "days_listed": 24,
         "suggested_offer_usd": 7750,
         "discount_pct": 14,
         "rationale": "8% base; 12% over market anchor ($8000); condition/mods"
@@ -5212,11 +5510,11 @@
         }
       },
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 5161,
         "over_market_pct": -13,
         "offers_enabled": true,
-        "days_listed": 53,
+        "days_listed": 54,
         "suggested_offer_usd": 4050,
         "discount_pct": 10,
         "rationale": "8% base; condition/mods"
@@ -5257,14 +5555,14 @@
         }
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 1599,
         "over_market_pct": -25,
         "offers_enabled": true,
-        "days_listed": 109,
+        "days_listed": 110,
         "suggested_offer_usd": 1050,
         "discount_pct": 14,
-        "rationale": "8% base; listed 109d; condition/mods"
+        "rationale": "8% base; listed 110d; condition/mods"
       },
       "score": 70.3,
       "score_breakdown": {
@@ -5348,14 +5646,14 @@
         }
       },
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 2375,
         "over_market_pct": -16,
         "offers_enabled": true,
-        "days_listed": 442,
+        "days_listed": 443,
         "suggested_offer_usd": 1700,
         "discount_pct": 14,
-        "rationale": "8% base; listed 442d"
+        "rationale": "8% base; listed 443d"
       }
     },
     {
@@ -5424,11 +5722,11 @@
         "Verify before buying: exact weight (ask for a scale photo \u2014 listings routinely guess low), neck measurements and fret ends, nut slots, top figure vs stock photos, and confirm Standard '60s vs a weight-relieved 'Classic' being misrepresented."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 1599,
         "over_market_pct": -25,
         "offers_enabled": false,
-        "days_listed": 18
+        "days_listed": 19
       }
     },
     {
@@ -5497,14 +5795,14 @@
         "Verify before buying: weight on a scale, original tarbacks (check DCR), coil-tap switch function and un-butchered wiring, neck angle/top sinking, volute-area crack repairs, finish originality."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 5161,
         "over_market_pct": 4,
         "offers_enabled": true,
-        "days_listed": 1808,
+        "days_listed": 1809,
         "suggested_offer_usd": 4500,
         "discount_pct": 16,
-        "rationale": "8% base; listed 1808d; condition/mods"
+        "rationale": "8% base; listed 1809d; condition/mods"
       }
     },
     {
@@ -5550,11 +5848,11 @@
         "Verify before buying: actual neck measurements (V2 vs V3 vs V1 \u2014 dealer listings are often wrong; ask for 1st/12th fret caliper numbers), weight, COA and case candy, serial format, no headstock repair under aging, and original unpotted Custombuckers."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 7174,
         "over_market_pct": -23,
         "offers_enabled": true,
-        "days_listed": 8,
+        "days_listed": 9,
         "suggested_offer_usd": 5050,
         "discount_pct": 8,
         "rationale": "8% base"
@@ -5641,9 +5939,9 @@
         }
       },
       "offer_intel": {
-        "as_of": "2026-07-25",
-        "anchor_usd": 4262,
-        "over_market_pct": -30
+        "as_of": "2026-07-26",
+        "anchor_usd": 4175,
+        "over_market_pct": -28
       }
     },
     {
@@ -5712,7 +6010,7 @@
         "Verify before buying: neck set straightness, top sinking under the bridge, actual weight, volute-area crack/repair, T-Top originality (DCR ~7.5k), and confirm year via pot codes since Norlin serials are notoriously ambiguous."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 5161,
         "over_market_pct": 32,
         "offers_enabled": false,
@@ -5762,14 +6060,14 @@
         "Verify before buying: weight on a scale, original tarbacks (check DCR), coil-tap switch function and un-butchered wiring, neck angle/top sinking, volute-area crack repairs, finish originality."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 5161,
         "over_market_pct": -30,
         "offers_enabled": true,
-        "days_listed": 278,
+        "days_listed": 279,
         "suggested_offer_usd": 3000,
         "discount_pct": 16,
-        "rationale": "8% base; listed 278d; condition/mods"
+        "rationale": "8% base; listed 279d; condition/mods"
       },
       "score": 67.5,
       "score_breakdown": {
@@ -5838,11 +6136,11 @@
         "Verify before buying: actual neck measurements (V2 vs V3 vs V1 \u2014 dealer listings are often wrong; ask for 1st/12th fret caliper numbers), weight, COA and case candy, serial format, no headstock repair under aging, and original unpotted Custombuckers."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
-        "anchor_usd": 7600,
-        "over_market_pct": -8,
+        "as_of": "2026-07-26",
+        "anchor_usd": 7375,
+        "over_market_pct": -5,
         "offers_enabled": true,
-        "days_listed": 15,
+        "days_listed": 16,
         "suggested_offer_usd": 6450,
         "discount_pct": 8,
         "rationale": "8% base"
@@ -5987,14 +6285,14 @@
         "Verify before buying: neck set straightness, top sinking under the bridge, actual weight, volute-area crack/repair, T-Top originality (DCR ~7.5k), and confirm year via pot codes since Norlin serials are notoriously ambiguous."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 5161,
         "over_market_pct": 7,
         "offers_enabled": true,
-        "days_listed": 658,
+        "days_listed": 659,
         "suggested_offer_usd": 4750,
         "discount_pct": 14,
-        "rationale": "8% base; listed 658d"
+        "rationale": "8% base; listed 659d"
       },
       "score": 65.5,
       "score_breakdown": {
@@ -6078,11 +6376,11 @@
         }
       },
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 2375,
         "over_market_pct": 31,
         "offers_enabled": false,
-        "days_listed": 149
+        "days_listed": 150
       }
     },
     {
@@ -6151,11 +6449,11 @@
         "Verify before buying: neck set straightness, top sinking under the bridge, actual weight, volute-area crack/repair, T-Top originality (DCR ~7.5k), and confirm year via pot codes since Norlin serials are notoriously ambiguous."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 5161,
         "over_market_pct": -21,
         "offers_enabled": false,
-        "days_listed": 19
+        "days_listed": 20
       }
     },
     {
@@ -6201,11 +6499,11 @@
         "Verify before buying: neck measurements (confirm the skinny '61 carve suits you vs the fatter '59 RI), weight, aging level and hidden damage within Murphy Lab wear, COA/case, center block rattles (tap test), original Custombuckers."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 5000,
         "over_market_pct": -16,
         "offers_enabled": false,
-        "days_listed": 4
+        "days_listed": 5
       },
       "score": 63.0,
       "score_breakdown": {
@@ -6297,7 +6595,7 @@
         "Verify before buying: neck set straightness, top sinking under the bridge, actual weight, volute-area crack/repair, T-Top originality (DCR ~7.5k), and confirm year via pot codes since Norlin serials are notoriously ambiguous."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 5161,
         "over_market_pct": 21
       }
@@ -6413,11 +6711,11 @@
         }
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
-        "anchor_usd": 4262,
-        "over_market_pct": -30,
+        "as_of": "2026-07-26",
+        "anchor_usd": 4175,
+        "over_market_pct": -28,
         "offers_enabled": false,
-        "days_listed": 7
+        "days_listed": 8
       },
       "score": 62.1,
       "score_breakdown": {
@@ -6656,11 +6954,11 @@
         "Verify before buying: neck measurements (confirm the skinny '61 carve suits you vs the fatter '59 RI), weight, aging level and hidden damage within Murphy Lab wear, COA/case, center block rattles (tap test), original Custombuckers."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 5000,
         "over_market_pct": 0,
         "offers_enabled": false,
-        "days_listed": 251
+        "days_listed": 252
       }
     },
     {
@@ -6698,11 +6996,11 @@
         }
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 1599,
         "over_market_pct": 0,
         "offers_enabled": false,
-        "days_listed": 50
+        "days_listed": 51
       },
       "score": 61.5,
       "score_breakdown": {
@@ -6771,11 +7069,11 @@
         "Verify before buying: actual neck measurements (V2 vs V3 vs V1 \u2014 dealer listings are often wrong; ask for 1st/12th fret caliper numbers), weight, COA and case candy, serial format, no headstock repair under aging, and original unpotted Custombuckers."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 6100,
         "over_market_pct": -18,
         "offers_enabled": false,
-        "days_listed": 4
+        "days_listed": 5
       },
       "score": 60.5,
       "score_breakdown": {
@@ -6798,6 +7096,77 @@
         "price_5pct": {
           "score": 90.0,
           "note": "at/under anchor"
+        }
+      }
+    },
+    {
+      "dealer": "Mike & Mike's Guitar Bar",
+      "url": "https://mmguitarbar.com/products/2020-gibson-custom-shop-historic-1964-gibson-es-335-vos-vintage-burst-w-case-tags-coa",
+      "price_usd": 4599.99,
+      "condition": "Excellent - 100% original, perfect working order",
+      "city_state": "Seattle, WA",
+      "year": 2020,
+      "model": "Gibson Custom Shop Historic 1964 ES-335TD Reissue (VOS)",
+      "finish": "Vintage Burst (VOS nitro)",
+      "serial": "10-prefix (2020); full serial unpublished",
+      "weight_lbs": 7.63,
+      "nut_width_in": 1.6875,
+      "fret1_depth_in": 0.89,
+      "fret12_depth_in": 0.965,
+      "neck_profile": "Authentic '64 Medium C - dealer describes as chunky",
+      "shoulder_description": "Full-shouldered medium C; NOT the slim target",
+      "fingerboard_radius": null,
+      "pickups": "Custombucker PAF x2, unpotted Alnico III",
+      "case_included": "Gibson USA brown hardshell (non-original) + serialized COA + hangtags",
+      "modifications": "None - 100% original; light clear-coat scratches near bass f-hole",
+      "measurements_source": "dealer measured",
+      "notes": "Published 2026-07-22 on dealer site; cross-listed as Reverb item 99650095 (tracked via dealer site). Under market: identical-spec '64 RI VOS is $5,999 at Dave's; the ML '64 comp sold at $4,695. 7.63 lbs dead-ideal. FLAG: chunky '64 neck (.890 1st fret) - confirm neck tolerance before moving.",
+      "category": "es_335",
+      "id": "g132",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-26",
+      "last_confirmed_active": "2026-07-26",
+      "market_bucket": "es-335 modern",
+      "price_history": [
+        {
+          "date": "2026-07-26",
+          "price_usd": 4599.99
+        }
+      ],
+      "research_cluster": "cs-61-reissue-335",
+      "research": [
+        "Neck feel: the 1961 reissue's 'Skinny C' SlimTaper was scanned from originals \u2014 thin (~.80\" range at the 1st fret) with vintage 1-11/16\" nut; owners say convincingly close to a real early-60s slim neck, noticeably slimmer than the '59 reissue carve.",
+        "Pickups: unpotted Custombuckers \u2014 airy PAF clarity, piano-like lows, classic 335 honk; regarded as a genuine upgrade over Memphis-era MHS/BB sets; unpotted caveat: microphonic squeal at very high gain.",
+        "Known issues: relatively few \u2014 Murphy Lab lacquer fragility/checking, weight variance (7.5-9 lbs), scattered nut/setup complaints; thin lacquer damages easily in shipping; hollow wings + unpotted pickups mean feedback management is part of ownership.",
+        "Market/value: current top-of-market for new 335s; Murphy Lab premium softens on resale (used ML often 25-30% off list) while VOS holds value best; has largely replaced clean vintage 335s in the 'best modern alternative' conversation.",
+        "Verify before buying: neck measurements (confirm the skinny '61 carve suits you vs the fatter '59 RI), weight, aging level and hidden damage within Murphy Lab wear, COA/case, center block rattles (tap test), original Custombuckers."
+      ],
+      "offer_intel": {
+        "as_of": "2026-07-26",
+        "anchor_usd": 4175,
+        "over_market_pct": 10
+      },
+      "score": 59.5,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 7.63 lbs"
+        },
+        "neck_35pct": {
+          "score": 18.3,
+          "note": "nut ok (0); 1st fret ok (0); 12th fret ok (55)"
+        },
+        "shoulders_20pct": {
+          "score": 60.0,
+          "note": "mixed slim/fat signals: 'authentic '64 medium c - dealer describes as chunky full-sho'"
+        },
+        "condition_10pct": {
+          "score": 92.0,
+          "note": "excellent - 100% original, perfect working order"
+        },
+        "price_5pct": {
+          "score": 37.1,
+          "note": "well above anchor"
         }
       }
     },
@@ -6867,7 +7236,7 @@
         "Verify before buying: neck measurements (confirm the skinny '61 carve suits you vs the fatter '59 RI), weight, aging level and hidden damage within Murphy Lab wear, COA/case, center block rattles (tap test), original Custombuckers."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 5000,
         "over_market_pct": 20,
         "offers_enabled": false,
@@ -7013,7 +7382,7 @@
         "Verify before buying: neck measurements (confirm the skinny '61 carve suits you vs the fatter '59 RI), weight, aging level and hidden damage within Murphy Lab wear, COA/case, center block rattles (tap test), original Custombuckers."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 5000,
         "over_market_pct": 20
       }
@@ -7084,7 +7453,7 @@
         "Verify before buying: neck measurements (confirm the skinny '61 carve suits you vs the fatter '59 RI), weight, aging level and hidden damage within Murphy Lab wear, COA/case, center block rattles (tap test), original Custombuckers."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 5000,
         "over_market_pct": 20
       }
@@ -7155,9 +7524,9 @@
         "Verify before buying: neck measurements (confirm the skinny '61 carve suits you vs the fatter '59 RI), weight, aging level and hidden damage within Murphy Lab wear, COA/case, center block rattles (tap test), original Custombuckers."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
-        "anchor_usd": 4262,
-        "over_market_pct": 41
+        "as_of": "2026-07-26",
+        "anchor_usd": 4175,
+        "over_market_pct": 44
       }
     },
     {
@@ -7226,9 +7595,9 @@
         "Verify before buying: neck measurements (confirm the skinny '61 carve suits you vs the fatter '59 RI), weight, aging level and hidden damage within Murphy Lab wear, COA/case, center block rattles (tap test), original Custombuckers."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
-        "anchor_usd": 4262,
-        "over_market_pct": 14
+        "as_of": "2026-07-26",
+        "anchor_usd": 4175,
+        "over_market_pct": 16
       }
     },
     {
@@ -7297,11 +7666,11 @@
         "Verify before buying: exact weight (ask for a scale photo \u2014 listings routinely guess low), neck measurements and fret ends, nut slots, top figure vs stock photos, and confirm Standard '60s vs a weight-relieved 'Classic' being misrepresented."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 1599,
         "over_market_pct": -6,
         "offers_enabled": false,
-        "days_listed": 50
+        "days_listed": 51
       }
     },
     {
@@ -7370,9 +7739,9 @@
         "Verify before buying: neck measurements (confirm the skinny '61 carve suits you vs the fatter '59 RI), weight, aging level and hidden damage within Murphy Lab wear, COA/case, center block rattles (tap test), original Custombuckers."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
-        "anchor_usd": 4262,
-        "over_market_pct": 22
+        "as_of": "2026-07-26",
+        "anchor_usd": 4175,
+        "over_market_pct": 25
       }
     },
     {
@@ -7418,14 +7787,14 @@
         "Verify before buying: neck set straightness, top sinking under the bridge, actual weight, volute-area crack/repair, T-Top originality (DCR ~7.5k), and confirm year via pot codes since Norlin serials are notoriously ambiguous."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 5161,
         "over_market_pct": 16,
         "offers_enabled": true,
-        "days_listed": 199,
+        "days_listed": 200,
         "suggested_offer_usd": 4900,
         "discount_pct": 18,
-        "rationale": "8% base; listed 199d; 16% over market anchor ($5161); condition/mods"
+        "rationale": "8% base; listed 200d; 16% over market anchor ($5161); condition/mods"
       },
       "score": 58.4,
       "score_breakdown": {
@@ -7583,9 +7952,9 @@
         "Verify before buying: neck measurements (confirm the skinny '61 carve suits you vs the fatter '59 RI), weight, aging level and hidden damage within Murphy Lab wear, COA/case, center block rattles (tap test), original Custombuckers."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
-        "anchor_usd": 4262,
-        "over_market_pct": 57
+        "as_of": "2026-07-26",
+        "anchor_usd": 4175,
+        "over_market_pct": 60
       }
     },
     {
@@ -7654,7 +8023,7 @@
         "Verify before buying: neck measurements (confirm the skinny '61 carve suits you vs the fatter '59 RI), weight, aging level and hidden damage within Murphy Lab wear, COA/case, center block rattles (tap test), original Custombuckers."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 5000,
         "over_market_pct": 0
       }
@@ -7717,9 +8086,9 @@
         }
       },
       "offer_intel": {
-        "as_of": "2026-07-25",
-        "anchor_usd": 4262,
-        "over_market_pct": -18
+        "as_of": "2026-07-26",
+        "anchor_usd": 4175,
+        "over_market_pct": -16
       }
     },
     {
@@ -7788,9 +8157,9 @@
         "Verify before buying: neck measurements (confirm the skinny '61 carve suits you vs the fatter '59 RI), weight, aging level and hidden damage within Murphy Lab wear, COA/case, center block rattles (tap test), original Custombuckers."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
-        "anchor_usd": 4262,
-        "over_market_pct": 41
+        "as_of": "2026-07-26",
+        "anchor_usd": 4175,
+        "over_market_pct": 44
       }
     },
     {
@@ -7851,9 +8220,9 @@
         }
       },
       "offer_intel": {
-        "as_of": "2026-07-25",
-        "anchor_usd": 4262,
-        "over_market_pct": -18
+        "as_of": "2026-07-26",
+        "anchor_usd": 4175,
+        "over_market_pct": -16
       }
     },
     {
@@ -7891,14 +8260,14 @@
         }
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 2375,
         "over_market_pct": -45,
         "offers_enabled": true,
-        "days_listed": 198,
+        "days_listed": 199,
         "suggested_offer_usd": 1100,
         "discount_pct": 16,
-        "rationale": "8% base; listed 198d; condition/mods"
+        "rationale": "8% base; listed 199d; condition/mods"
       },
       "score": 54.0,
       "score_breakdown": {
@@ -7967,7 +8336,7 @@
         "Verify before buying: actual neck measurements (V2 vs V3 vs V1 \u2014 dealer listings are often wrong; ask for 1st/12th fret caliper numbers), weight, COA and case candy, serial format, no headstock repair under aging, and original unpotted Custombuckers."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 6100,
         "over_market_pct": -10
       },
@@ -8061,7 +8430,7 @@
         "Verify before buying: neck measurements (confirm the skinny '61 carve suits you vs the fatter '59 RI), weight, aging level and hidden damage within Murphy Lab wear, COA/case, center block rattles (tap test), original Custombuckers."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 5000,
         "over_market_pct": 96
       }
@@ -8203,9 +8572,9 @@
         "Verify before buying: neck measurements (confirm the skinny '61 carve suits you vs the fatter '59 RI), weight, aging level and hidden damage within Murphy Lab wear, COA/case, center block rattles (tap test), original Custombuckers."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
-        "anchor_usd": 4262,
-        "over_market_pct": 88
+        "as_of": "2026-07-26",
+        "anchor_usd": 4175,
+        "over_market_pct": 92
       }
     },
     {
@@ -8251,11 +8620,11 @@
         "Verify before buying: weight on a scale, serial decode to confirm year and Standard vs Classic/Studio identity, fret life and truss rod range, originality of pickups/pots/tuners, headstock repair under blacklight, binding/lacquer cracks at the neck joint."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 1599,
         "over_market_pct": -30,
         "offers_enabled": true,
-        "days_listed": 3,
+        "days_listed": 4,
         "suggested_offer_usd": 1000,
         "discount_pct": 10,
         "rationale": "8% base; condition/mods"
@@ -8408,11 +8777,11 @@
         "Verify before buying: exact weight (ask for a scale photo \u2014 listings routinely guess low), neck measurements and fret ends, nut slots, top figure vs stock photos, and confirm Standard '60s vs a weight-relieved 'Classic' being misrepresented."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 1599,
         "over_market_pct": 6,
         "offers_enabled": false,
-        "days_listed": 18
+        "days_listed": 19
       }
     },
     {
@@ -8458,11 +8827,11 @@
         "Verify before buying: neck set straightness, top sinking under the bridge, actual weight, volute-area crack/repair, T-Top originality (DCR ~7.5k), and confirm year via pot codes since Norlin serials are notoriously ambiguous."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 5161,
         "over_market_pct": -10,
         "offers_enabled": true,
-        "days_listed": 5,
+        "days_listed": 6,
         "suggested_offer_usd": 4200,
         "discount_pct": 10,
         "rationale": "8% base; condition/mods"
@@ -8526,11 +8895,11 @@
         }
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 2375,
         "over_market_pct": -75,
         "offers_enabled": true,
-        "days_listed": 36,
+        "days_listed": 37,
         "suggested_offer_usd": 550,
         "discount_pct": 8,
         "rationale": "8% base"
@@ -8602,7 +8971,7 @@
         "Verify before buying: weight on a scale, serial decode to confirm year and Standard vs Classic/Studio identity, fret life and truss rod range, originality of pickups/pots/tuners, headstock repair under blacklight, binding/lacquer cracks at the neck joint."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 1599,
         "over_market_pct": -6
       },
@@ -8673,11 +9042,11 @@
         "Verify before buying: exact weight (ask for a scale photo \u2014 listings routinely guess low), neck measurements and fret ends, nut slots, top figure vs stock photos, and confirm Standard '60s vs a weight-relieved 'Classic' being misrepresented."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 1599,
         "over_market_pct": -19,
         "offers_enabled": true,
-        "days_listed": 13,
+        "days_listed": 14,
         "suggested_offer_usd": 1150,
         "discount_pct": 10,
         "rationale": "8% base; condition/mods"
@@ -8749,14 +9118,14 @@
         "Verify before buying: weight on a scale, serial decode to confirm year and Standard vs Classic/Studio identity, fret life and truss rod range, originality of pickups/pots/tuners, headstock repair under blacklight, binding/lacquer cracks at the neck joint."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 1599,
         "over_market_pct": -41,
         "offers_enabled": true,
-        "days_listed": 162,
+        "days_listed": 163,
         "suggested_offer_usd": 800,
         "discount_pct": 14,
-        "rationale": "8% base; listed 162d; condition/mods"
+        "rationale": "8% base; listed 163d; condition/mods"
       },
       "score": 33.5,
       "score_breakdown": {
@@ -8825,11 +9194,11 @@
         "Verify before buying: neck set straightness, top sinking under the bridge, actual weight, volute-area crack/repair, T-Top originality (DCR ~7.5k), and confirm year via pot codes since Norlin serials are notoriously ambiguous."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 5161,
         "over_market_pct": -18,
         "offers_enabled": true,
-        "days_listed": 7,
+        "days_listed": 8,
         "suggested_offer_usd": 3800,
         "discount_pct": 10,
         "rationale": "8% base; condition/mods"
@@ -8901,11 +9270,11 @@
         "Verify before buying: weight on a scale, original tarbacks (check DCR), coil-tap switch function and un-butchered wiring, neck angle/top sinking, volute-area crack repairs, finish originality."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 5161,
         "over_market_pct": -6,
         "offers_enabled": true,
-        "days_listed": 5,
+        "days_listed": 6,
         "suggested_offer_usd": 4350,
         "discount_pct": 10,
         "rationale": "8% base; condition/mods"
@@ -8992,7 +9361,7 @@
         }
       },
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 1599,
         "over_market_pct": -25
       }
@@ -9063,11 +9432,11 @@
         "Verify before buying: exact weight (ask for a scale photo \u2014 listings routinely guess low), neck measurements and fret ends, nut slots, top figure vs stock photos, and confirm Standard '60s vs a weight-relieved 'Classic' being misrepresented."
       ],
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 1599,
         "over_market_pct": -50,
         "offers_enabled": true,
-        "days_listed": 63,
+        "days_listed": 64,
         "suggested_offer_usd": 700,
         "discount_pct": 10,
         "rationale": "8% base; condition/mods"
@@ -9131,14 +9500,14 @@
         }
       },
       "offer_intel": {
-        "as_of": "2026-07-25",
+        "as_of": "2026-07-26",
         "anchor_usd": 2375,
         "over_market_pct": 31,
         "offers_enabled": true,
-        "days_listed": 1089,
+        "days_listed": 1090,
         "suggested_offer_usd": 2550,
         "discount_pct": 18,
-        "rationale": "8% base; listed 1089d; 31% over market anchor ($2374)"
+        "rationale": "8% base; listed 1090d; 31% over market anchor ($2374)"
       }
     }
   ]
