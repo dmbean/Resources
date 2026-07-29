@@ -24,8 +24,8 @@ def thumb_uri(gid):
 
 # Spec target bands used for the in-target tick marks, per category.
 BANDS = {
-    "les_paul": {"weight": (8.3, 9.0), "nut": (1.68, 1.71), "f1": (0.79, 0.82), "f12": (0.89, 0.92)},
-    "es_335": {"weight": (7.4, 8.0), "nut": (1.56, 1.60), "f1": (0.76, 0.82), "f12": (0.86, 0.94)},
+    "les_paul": {"weight": (8.0, 9.0), "nut": (1.68, 1.71), "f1": (0.79, 0.82), "f12": (0.89, 0.92)},
+    "es_335": {"weight": (7.2, 8.0), "nut": (1.56, 1.60), "f1": (0.76, 0.82), "f12": (0.86, 0.94)},
 }
 
 

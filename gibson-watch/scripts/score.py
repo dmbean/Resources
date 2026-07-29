@@ -52,10 +52,11 @@ def band_score(value, lo, hi, ideal_lo=None, ideal_hi=None, falloff=1.0):
 
 
 def weight_component(g):
+    # Buyer signal 2026-07-29: soft floors — light guitars are fine, heavy ones are not.
     if g["category"] == "les_paul":
-        s = band_score(g.get("weight_lbs"), 8.3, 9.0, 8.4, 8.8, falloff=1.2)
+        s = band_score(g.get("weight_lbs"), 8.0, 9.0, 8.3, 8.8, falloff=1.2)
     else:
-        s = band_score(g.get("weight_lbs"), 7.4, 8.0, 7.5, 7.8, falloff=1.0)
+        s = band_score(g.get("weight_lbs"), 7.2, 8.0, 7.4, 7.8, falloff=1.0)
     return (s if s is not None else 0.0, "weight %s lbs" % g.get("weight_lbs"))
 
 
@@ -86,14 +87,17 @@ def neck_component(g):
 
 
 SLIM_WORDS = ("slimtaper", "slim taper", "slim", "1960", "60s", "fast c", "fast d",
-              "medium c", "medium-slim", "thin")
+              "medium c", "medium-slim", "thin", "skinny")
 FAT_WORDS = ("baseball", "chunky", "50s", "fat", "huge", "boat", "clubby")
+V3_WORDS = ("v3", "skinny c")   # buyer signal 2026-07-29: V3 / late-1960 Skinny C preferred
 
 
 def shoulder_component(g):
     text = " ".join(filter(None, [g.get("neck_profile"), g.get("shoulder_description")])).lower()
     if not text:
         return 40.0, "no shoulder/profile info"
+    if g["category"] == "les_paul" and any(w in text for w in V3_WORDS):
+        return 100.0, "V3/Skinny C — buyer-preferred carve: '%s'" % text[:60]
     fat = any(w in text for w in FAT_WORDS)
     slim = any(w in text for w in SLIM_WORDS)
     if fat and slim:
