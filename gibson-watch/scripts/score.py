@@ -115,12 +115,24 @@ COND_MAP = [
 ]
 
 
+def is_plekd(g):
+    """Stated PLEK work anywhere in the listing text (buyer signal 2026-07-29)."""
+    text = " ".join(str(g.get(k) or "") for k in ("condition", "modifications", "notes")).lower()
+    return "plek" in text
+
+
 def condition_component(g):
     c = (g.get("condition") or "").lower()
+    score = 70.0
     for key, s in COND_MAP:
         if key in c:
-            return float(s), c
-    return 70.0, c or "condition unstated"
+            score = float(s)
+            break
+    note = c or "condition unstated"
+    if is_plekd(g):
+        score = min(100.0, score + 10.0)
+        note += " (+PLEK'd)"
+    return score, note
 
 
 def price_component(g):
