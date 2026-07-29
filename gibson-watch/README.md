@@ -23,6 +23,10 @@ Long-running sourcing agent for a Gibson Les Paul and an ES-335. Runs every 24 h
   `gibson-watch/site/index.html` — same path keeps the buyer's pinned URL. If the Artifact tool
   is ever unavailable in a run, say so in the run summary instead of skipping silently.
 
+- **Run summaries must include direct listing links** for every guitar mentioned (buyer
+  request 2026-07-29) — never make the buyer hunt for a URL on the board. Pull the `url`
+  field from database.json for each id referenced.
+
 ## Run procedure (each 24h cycle)
 
 1. Re-confirm every ACTIVE listing's URL. Missing/sold → mark `SOLD` (keep in database). Price changed → mark `PRICE DROP`/`PRICE INCREASE` and append to `price_history`.
