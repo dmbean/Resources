@@ -5,10 +5,10 @@
     "run_count": 1,
     "current_best": {
       "les_paul": {
-        "id": "g025",
-        "score": 96.6,
-        "model": "Gibson Les Paul Standard",
-        "url": "https://davesguitar.com/products/les-paul-standard-35"
+        "id": "g037",
+        "score": 96.4,
+        "model": "Gibson Les Paul Traditional Pro V",
+        "url": "https://chicagomusicexchange.com/products/gibson-les-paul-traditional-pro-v-blueberry-2023-2612994"
       },
       "es_335": {
         "id": "g011",
@@ -40,10 +40,10 @@
       "case_included": true,
       "modifications": "None noted; a few dings on back of body",
       "measurements_source": "dealer measured",
-      "notes": "Best pure spec match found: 8.8 lbs ideal, 0.81\"/0.89\" exactly in target windows, nitro finish, Gibson hardshell case. Nashville TOM, Grover locking tuners.",
+      "notes": "Best pure spec match found: 8.8 lbs ideal, 0.81\"/0.89\" exactly in target windows, nitro finish, Gibson hardshell case. Nashville TOM, Grover locking tuners. | EXCLUDED 2026-07-29: buyer rejected Pelham Blue / Wine Red LP finishes.",
       "category": "les_paul",
       "id": "g025",
-      "status": "ACTIVE",
+      "status": "EXCLUDED",
       "date_discovered": "2026-07-19",
       "last_confirmed_active": "2026-07-29",
       "market_bucket": "standard 60s",
@@ -4886,10 +4886,10 @@
       "case_included": true,
       "modifications": "Newer Grover Rotomatic tuners installed",
       "measurements_source": "dealer measured",
-      "notes": "NEAR-MISS on weight: 9.2 lbs is 0.2 over the 9.0 max. Interesting Norlin with 0.80\" first fret; original low-profile frets; belt-buckle/play wear noted.",
+      "notes": "NEAR-MISS on weight: 9.2 lbs is 0.2 over the 9.0 max. Interesting Norlin with 0.80\" first fret; original low-profile frets; belt-buckle/play wear noted. | EXCLUDED 2026-07-29: buyer rejected Pelham Blue / Wine Red LP finishes.",
       "category": "les_paul",
       "id": "g026",
-      "status": "ACTIVE",
+      "status": "EXCLUDED",
       "date_discovered": "2026-07-19",
       "last_confirmed_active": "2026-07-29",
       "market_bucket": "norlin lp",
