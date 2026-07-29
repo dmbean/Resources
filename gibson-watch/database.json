@@ -5,10 +5,10 @@
     "run_count": 1,
     "current_best": {
       "les_paul": {
-        "id": "g037",
-        "score": 96.4,
-        "model": "Gibson Les Paul Traditional Pro V",
-        "url": "https://chicagomusicexchange.com/products/gibson-les-paul-traditional-pro-v-blueberry-2023-2612994"
+        "id": "g003",
+        "score": 95.4,
+        "model": "Custom Shop 60th Anniversary 1960 Les Paul Standard Reissue (R0), V2 neck",
+        "url": "https://reverb.com/item/98912082-gibson-custom-shop-60th-anniversary-1960-r0-les-paul-standard-reissue-lemon-burst-vos-v2-neck"
       },
       "es_335": {
         "id": "g011",
@@ -111,10 +111,10 @@
       "case_included": true,
       "modifications": "None noted",
       "measurements_source": "dealer measured",
-      "notes": "Not a Standard 60s but spec-wise a bullseye: 8 lb 13 oz (ideal band) with 0.81\"/0.90\" depths, at the lowest price of any LP on this list. Modern switching versatility may or may not appeal.",
+      "notes": "Not a Standard 60s but spec-wise a bullseye: 8 lb 13 oz (ideal band) with 0.81\"/0.90\" depths, at the lowest price of any LP on this list. Modern switching versatility may or may not appeal. | EXCLUDED 2026-07-29: buyer rejected blue-family LP finishes (generalized from Pelham Blue + Blueberry Burst).",
       "category": "les_paul",
       "id": "g037",
-      "status": "ACTIVE",
+      "status": "EXCLUDED",
       "date_discovered": "2026-07-19",
       "last_confirmed_active": "2026-07-29",
       "market_bucket": "standard 60s",

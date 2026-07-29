@@ -33,7 +33,7 @@ Long-running sourcing agent for a Gibson Les Paul and an ES-335. Runs every 24 h
 2. Sweep all dealers in `dealers.md` for new listings (individual product pages only — never category/search pages). **Continental-US availability is required**: exclude listings located outside the lower 48 (international, Alaska, Hawaii, PR). Existing entries found to violate this get status `EXCLUDED` (kept in the database, hidden from live views).
    **Price cap from buyer signal (2026-07-19): $10,000** — do not ingest listings priced above
    $10k; existing entries above the cap are EXCLUDED (re-include if a price drop brings one under).
-   **Finish exclusions for LPs (buyer signal 2026-07-29)**: Pelham Blue and Wine Red — do not ingest Les Pauls in these finishes (ES-335s unaffected).
+   **Finish exclusions for LPs (buyer signal 2026-07-29, generalized same day)**: Wine Red and ALL blue-family finishes (Pelham Blue, Blueberry Burst, Ocean Blue, Cobalt, etc.) — do not ingest Les Pauls in these finishes. Buyer's LP palette is warm/dark: Ebony, Unburst, Dirty Lemon, Bourbon Burst, Iced Tea, classic bursts. ES-335s unaffected.
    **Model exclusions from buyer signals**: Les Paul Standard 60s Plain Top (rejected 2026-07-19)
    — do not ingest; existing entries are EXCLUDED. Figured-top Standard 60s remain in scope.
    **Standing MIJ/NYC hunt (added 2026-07-20)**: Japanese-made LP-style (Tokai LS/Love Rock,
