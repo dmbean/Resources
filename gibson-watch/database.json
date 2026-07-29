@@ -253,7 +253,7 @@
       "id": "g011",
       "status": "ACTIVE",
       "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "es-335 norlin",
       "price_history": [
         {
@@ -329,7 +329,7 @@
       "id": "g004",
       "status": "ACTIVE",
       "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "custom shop",
       "price_history": [
         {
@@ -402,7 +402,7 @@
       "id": "g120",
       "status": "ACTIVE",
       "date_discovered": "2026-07-24",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "standard 60s",
       "price_history": [
         {
@@ -617,7 +617,7 @@
       "id": "g128",
       "status": "ACTIVE",
       "date_discovered": "2026-07-26",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "standard 60s",
       "price_history": [
         {
@@ -690,7 +690,7 @@
       "id": "g003",
       "status": "ACTIVE",
       "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "r0",
       "price_history": [
         {
@@ -834,7 +834,7 @@
       "id": "g005",
       "status": "ACTIVE",
       "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "r0",
       "price_history": [
         {
@@ -1127,7 +1127,7 @@
       "id": "g068",
       "status": "ACTIVE",
       "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "es-335 norlin",
       "price_history": [
         {
@@ -1200,7 +1200,7 @@
       "id": "g002",
       "status": "ACTIVE",
       "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "r0",
       "price_history": [
         {
@@ -1347,7 +1347,7 @@
       "id": "g079",
       "status": "ACTIVE",
       "date_discovered": "2026-07-20",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "wildwood spec",
       "price_history": [
         {
@@ -1420,7 +1420,7 @@
       "id": "g129",
       "status": "ACTIVE",
       "date_discovered": "2026-07-26",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "standard 60s",
       "price_history": [
         {
@@ -1493,7 +1493,7 @@
       "id": "g069",
       "status": "ACTIVE",
       "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "es-335 norlin",
       "price_history": [
         {
@@ -1787,7 +1787,7 @@
       "id": "g092",
       "status": "ACTIVE",
       "date_discovered": "2026-07-21",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "r0",
       "price_history": [
         {
@@ -1931,7 +1931,7 @@
       "id": "g076",
       "status": "ACTIVE",
       "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "es-335 norlin",
       "price_history": [
         {
@@ -2007,7 +2007,7 @@
       "id": "g078",
       "status": "ACTIVE",
       "date_discovered": "2026-07-20",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "es-335 modern",
       "price_history": [
         {
@@ -2143,7 +2143,7 @@
       "id": "g010",
       "status": "ACTIVE",
       "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "lp goodwood 80s",
       "price_history": [
         {
@@ -2284,7 +2284,7 @@
       "id": "g094",
       "status": "ACTIVE",
       "date_discovered": "2026-07-21",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "wildwood spec",
       "price_history": [
         {
@@ -2360,7 +2360,7 @@
       "id": "g080",
       "status": "ACTIVE",
       "date_discovered": "2026-07-20",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "wildwood spec",
       "price_history": [
         {
@@ -2504,7 +2504,7 @@
       "id": "g070",
       "status": "ACTIVE",
       "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "es-335 norlin",
       "price_history": [
         {
@@ -2722,7 +2722,7 @@
       "id": "g115",
       "status": "ACTIVE",
       "date_discovered": "2026-07-23",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "custom shop",
       "price_history": [
         {
@@ -3216,7 +3216,7 @@
       "id": "g008",
       "status": "ACTIVE",
       "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "1960 reissue",
       "price_history": [
         {
@@ -3292,7 +3292,7 @@
       "id": "g106",
       "status": "ACTIVE",
       "date_discovered": "2026-07-22",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "es-335 61 reissue",
       "price_history": [
         {
@@ -3437,9 +3437,9 @@
       "notes": "Reverb ID 99582938. Published 2026-07-20 (newest find). 1st fret 0.79 hits target; 12th 0.87 slightly under window (slim throughout). Strong value at $4,895.",
       "category": "les_paul",
       "id": "g090",
-      "status": "PRICE INCREASE",
+      "status": "ACTIVE",
       "date_discovered": "2026-07-21",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "r0",
       "price_history": [
         {
@@ -3520,7 +3520,7 @@
       "id": "g127",
       "status": "ACTIVE",
       "date_discovered": "2026-07-25",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "mij lp",
       "price_history": [
         {
@@ -3656,7 +3656,7 @@
       "id": "g095",
       "status": "ACTIVE",
       "date_discovered": "2026-07-21",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "es-335 norlin",
       "price_history": [
         {
@@ -3732,7 +3732,7 @@
       "id": "g015",
       "status": "ACTIVE",
       "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "es-335 norlin",
       "price_history": [
         {
@@ -3805,7 +3805,7 @@
       "id": "g009",
       "status": "ACTIVE",
       "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "wildwood spec",
       "price_history": [
         {
@@ -4017,7 +4017,7 @@
       "id": "g007",
       "status": "ACTIVE",
       "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "r0",
       "price_history": [
         {
@@ -4093,7 +4093,7 @@
       "id": "g017",
       "status": "ACTIVE",
       "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "es-335 norlin",
       "price_history": [
         {
@@ -4166,7 +4166,7 @@
       "id": "g006",
       "status": "ACTIVE",
       "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "custom shop",
       "price_history": [
         {
@@ -4239,7 +4239,7 @@
       "id": "g077",
       "status": "ACTIVE",
       "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "es-335 norlin",
       "price_history": [
         {
@@ -4381,7 +4381,7 @@
       "id": "g086",
       "status": "ACTIVE",
       "date_discovered": "2026-07-20",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "mij 335",
       "price_history": [
         {
@@ -4446,7 +4446,7 @@
       "id": "g114",
       "status": "ACTIVE",
       "date_discovered": "2026-07-23",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "custom shop",
       "price_history": [
         {
@@ -4583,9 +4583,9 @@
       "notes": "Reverb item 99643245, published 2026-07-22. Exact target model at 8.8 lbs ideal weight, ~$1,500 under Wildwood new price. Ask for 1st/12th depths.",
       "category": "les_paul",
       "id": "g112",
-      "status": "PRICE DROP",
+      "status": "ACTIVE",
       "date_discovered": "2026-07-23",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "wildwood spec",
       "price_history": [
         {
@@ -4665,7 +4665,7 @@
       "id": "g113",
       "status": "ACTIVE",
       "date_discovered": "2026-07-23",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "r0",
       "price_history": [
         {
@@ -4741,7 +4741,7 @@
       "id": "g074",
       "status": "ACTIVE",
       "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "es-335 norlin",
       "price_history": [
         {
@@ -4817,7 +4817,7 @@
       "id": "g101",
       "status": "ACTIVE",
       "date_discovered": "2026-07-22",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "r0",
       "price_history": [
         {
@@ -4890,7 +4890,7 @@
       "id": "g131",
       "status": "ACTIVE",
       "date_discovered": "2026-07-26",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "1960 reissue",
       "price_history": [
         {
@@ -5027,10 +5027,10 @@
       "case_included": true,
       "modifications": "None; aged Lifton OHSC + COA + paperwork",
       "measurements_source": "dealer measured",
-      "notes": "Reverb item 99681446, published 2026-07-23. Rare Dirty Lemon ML Heavy Aged - preferred finish + ideal 8.74 lbs, ~$1.5-2k under typical ML HA ask. CAUTION: .91/.98 neck depths well above target - real '59 carve. Offers enabled.",
+      "notes": "Reverb item 99681446, published 2026-07-23. Rare Dirty Lemon ML Heavy Aged - preferred finish + ideal 8.74 lbs, ~$1.5-2k under typical ML HA ask. CAUTION: .91/.98 neck depths well above target - real '59 carve. Offers enabled. | Marked SOLD 2026-07-29.",
       "category": "les_paul",
       "id": "g130",
-      "status": "ACTIVE",
+      "status": "SOLD",
       "date_discovered": "2026-07-26",
       "last_confirmed_active": "2026-07-28",
       "market_bucket": "murphy lab",
@@ -5112,7 +5112,7 @@
       "id": "g100",
       "status": "ACTIVE",
       "date_discovered": "2026-07-22",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "r0",
       "price_history": [
         {
@@ -5330,7 +5330,7 @@
       "id": "g073",
       "status": "ACTIVE",
       "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "es-335 vintage",
       "price_history": [
         {
@@ -5477,7 +5477,7 @@
       "id": "g075",
       "status": "ACTIVE",
       "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "es-335 norlin",
       "price_history": [
         {
@@ -5551,9 +5551,9 @@
       "notes": "Reverb item 99761626, published 2026-07-26, offers enabled. Target R0 in ideal band; 2003 Brazilian-board run is collectible. Request nut/fret depths; verify Brazilian run via serial/COA.",
       "category": "les_paul",
       "id": "g133",
-      "status": "PRICE INCREASE",
+      "status": "ACTIVE",
       "date_discovered": "2026-07-27",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "r0",
       "price_history": [
         {
@@ -5701,7 +5701,7 @@
       "id": "g085",
       "status": "ACTIVE",
       "date_discovered": "2026-07-20",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "mij 335",
       "price_history": [
         {
@@ -5769,7 +5769,7 @@
       "id": "g083",
       "status": "ACTIVE",
       "date_discovered": "2026-07-20",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "mij lp",
       "price_history": [
         {
@@ -5842,7 +5842,7 @@
       "id": "g018",
       "status": "ACTIVE",
       "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "es-335 norlin",
       "price_history": [
         {
@@ -5918,7 +5918,7 @@
       "id": "g091",
       "status": "ACTIVE",
       "date_discovered": "2026-07-21",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "wildwood spec",
       "price_history": [
         {
@@ -6057,7 +6057,7 @@
       "id": "g016",
       "status": "ACTIVE",
       "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "es-335 norlin",
       "price_history": [
         {
@@ -6130,7 +6130,7 @@
       "id": "g136",
       "status": "ACTIVE",
       "date_discovered": "2026-07-28",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "murphy lab",
       "price_history": [
         {
@@ -6206,7 +6206,7 @@
       "id": "g104",
       "status": "ACTIVE",
       "date_discovered": "2026-07-22",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "es-335 norlin",
       "price_history": [
         {
@@ -6282,7 +6282,7 @@
       "id": "g093",
       "status": "ACTIVE",
       "date_discovered": "2026-07-21",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "murphy lab",
       "price_history": [
         {
@@ -6431,7 +6431,7 @@
       "id": "g105",
       "status": "ACTIVE",
       "date_discovered": "2026-07-22",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "es-335 norlin",
       "price_history": [
         {
@@ -6507,7 +6507,7 @@
       "id": "g087",
       "status": "ACTIVE",
       "date_discovered": "2026-07-20",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "mij 335",
       "price_history": [
         {
@@ -6572,7 +6572,7 @@
       "id": "g013",
       "status": "ACTIVE",
       "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "es-335 norlin",
       "price_history": [
         {
@@ -6645,7 +6645,7 @@
       "id": "g125",
       "status": "ACTIVE",
       "date_discovered": "2026-07-25",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "es-335 61 reissue",
       "price_history": [
         {
@@ -6865,7 +6865,7 @@
       "id": "g097",
       "status": "ACTIVE",
       "date_discovered": "2026-07-21",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "es-335 modern",
       "price_history": [
         {
@@ -7077,7 +7077,7 @@
       "id": "g134",
       "status": "ACTIVE",
       "date_discovered": "2026-07-27",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "es-335 61 reissue",
       "price_history": [
         {
@@ -7148,7 +7148,7 @@
       "id": "g019",
       "status": "ACTIVE",
       "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "es-335 61 reissue",
       "price_history": [
         {
@@ -7221,7 +7221,7 @@
       "id": "g109",
       "status": "ACTIVE",
       "date_discovered": "2026-07-22",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "mij lp",
       "price_history": [
         {
@@ -7286,7 +7286,7 @@
       "id": "g124",
       "status": "ACTIVE",
       "date_discovered": "2026-07-25",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "custom shop",
       "price_history": [
         {
@@ -7430,7 +7430,7 @@
       "id": "g020",
       "status": "ACTIVE",
       "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "es-335 61 reissue",
       "price_history": [
         {
@@ -7860,7 +7860,7 @@
       "id": "g082",
       "status": "ACTIVE",
       "date_discovered": "2026-07-20",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "mij lp",
       "price_history": [
         {
@@ -7980,7 +7980,7 @@
     },
     {
       "dealer": "Reverb \u2013 Killer Vintage Specialty Guitars",
-      "url": "https://reverb.com/item/93877021-gibson-es-335td-1974-cherry",
+      "url": "https://reverb.com/item/87255551-gibson-es-335td-1974-cherry",
       "price_usd": 5999.0,
       "condition": "Very Good (all original, light checking, minimal fret wear)",
       "city_state": "Dallas, TX",
@@ -7999,12 +7999,12 @@
       "case_included": "Non-original good-quality aftermarket hardshell case",
       "modifications": "None - all original",
       "measurements_source": "dealer measured",
-      "notes": "Reverb item 93877021 (dealer dup: older item 87255551). Weight 7.31 ~0.09 under floor; nut 1.602 at top of band. Provenance: Scott Thurston (Tom Petty & the Heartbreakers) collection.",
+      "notes": "Reverb item 93877021 (dealer dup: older item 87255551). Weight 7.31 ~0.09 under floor; nut 1.602 at top of band. Provenance: Scott Thurston (Tom Petty & the Heartbreakers) collection. | 2026-07-29: newer Reverb listing ended; tracking via dealer dup listing 87255551 (live, same price).",
       "category": "es_335",
       "id": "g096",
       "status": "ACTIVE",
       "date_discovered": "2026-07-21",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "es-335 norlin",
       "price_history": [
         {
@@ -8461,8 +8461,8 @@
     },
     {
       "dealer": "Reverb \u2013 Vintage Emporium",
-      "url": "https://reverb.com/item/93913314-esp-navigator-custom-semi-hollow-electric-guitar-w-hard-case",
-      "price_usd": 1295,
+      "url": "https://reverb.com/item/89690825-esp-navigator-custom-semi-hollow-electric-guitar-w-hard-case",
+      "price_usd": 1999.99,
       "condition": "Good (4/5; professionally repaired headstock crack)",
       "city_state": "Plainview, NY (Long Island)",
       "year": null,
@@ -8480,17 +8480,21 @@
       "case_included": "Hardshell case",
       "modifications": "Headstock crack professionally repaired",
       "measurements_source": "dealer measured",
-      "notes": "Reverb item 93913314. 7.5 lbs + 1.66 nut both in ES window. CAVEATS: 25-in scale stated (longer than 335's 24.75 - confirm body style in person), repaired headstock, and same shop has an apparent duplicate older listing at $1,999 - confirm which is current. LI-local: play/weigh/inspect in person. Offers enabled.",
+      "notes": "Reverb item 93913314. 7.5 lbs + 1.66 nut both in ES window. CAVEATS: 25-in scale stated (longer than 335's 24.75 - confirm body style in person), repaired headstock, and same shop has an apparent duplicate older listing at $1,999 - confirm which is current. LI-local: play/weigh/inspect in person. Offers enabled. | 2026-07-29: $1,295 listing ended; only the $1,999.99 dup remains - effective price increase.",
       "category": "es_335",
       "id": "g126",
-      "status": "ACTIVE",
+      "status": "PRICE INCREASE",
       "date_discovered": "2026-07-25",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "mij 335",
       "price_history": [
         {
           "date": "2026-07-25",
           "price_usd": 1295
+        },
+        {
+          "date": "2026-07-29",
+          "price_usd": 1999.99
         }
       ],
       "offer_intel": {
@@ -8837,7 +8841,7 @@
       "id": "g119",
       "status": "ACTIVE",
       "date_discovered": "2026-07-23",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "mij lp",
       "price_history": [
         {
@@ -8971,7 +8975,7 @@
       "id": "g084",
       "status": "ACTIVE",
       "date_discovered": "2026-07-20",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "mij lp",
       "price_history": [
         {
@@ -9044,7 +9048,7 @@
       "id": "g121",
       "status": "ACTIVE",
       "date_discovered": "2026-07-24",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "es-335 norlin",
       "price_history": [
         {
@@ -9120,7 +9124,7 @@
       "id": "g111",
       "status": "ACTIVE",
       "date_discovered": "2026-07-22",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "mij 335",
       "price_history": [
         {
@@ -9259,7 +9263,7 @@
       "id": "g110",
       "status": "ACTIVE",
       "date_discovered": "2026-07-22",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "mij lp",
       "price_history": [
         {
@@ -9335,7 +9339,7 @@
       "id": "g135",
       "status": "ACTIVE",
       "date_discovered": "2026-07-27",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "mij lp",
       "price_history": [
         {
@@ -9411,7 +9415,7 @@
       "id": "g098",
       "status": "ACTIVE",
       "date_discovered": "2026-07-21",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "mij lp",
       "price_history": [
         {
@@ -9487,7 +9491,7 @@
       "id": "g116",
       "status": "ACTIVE",
       "date_discovered": "2026-07-23",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "es-335 norlin",
       "price_history": [
         {
@@ -9563,7 +9567,7 @@
       "id": "g117",
       "status": "ACTIVE",
       "date_discovered": "2026-07-23",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "es-335 norlin",
       "price_history": [
         {
@@ -9702,7 +9706,7 @@
       "id": "g089",
       "status": "ACTIVE",
       "date_discovered": "2026-07-20",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "mij lp",
       "price_history": [
         {
@@ -9778,7 +9782,7 @@
       "id": "g088",
       "status": "ACTIVE",
       "date_discovered": "2026-07-20",
-      "last_confirmed_active": "2026-07-28",
+      "last_confirmed_active": "2026-07-29",
       "market_bucket": "mij 335",
       "price_history": [
         {
