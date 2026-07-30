@@ -3149,7 +3149,7 @@
     },
     {
       "dealer": "Mike & Mike's Guitar Bar",
-      "url": "https://mmguitarbar.com/products/1969-gibson-es-335-tdc-vintage-guitar-cherry-stoptail-conversion-w-pat-t-tops-case-1",
+      "url": "https://reverb.com/item/93473088-1969-gibson-es-335-tdc-vintage-guitar-cherry-stoptail-conversion-w-pat-t-tops-case",
       "price_usd": 8499.99,
       "condition": "Excellent",
       "city_state": "Seattle, WA",
@@ -3213,7 +3213,8 @@
         }
       },
       "alt_urls": [
-        "https://reverb.com/item/97842585-1969-gibson-es-335-tdc-vintage-guitar-cherry-stoptail-conversion-w-pat-t-tops-case (Reverb listing ended 2026-07-25; guitar still live on dealer site)"
+        "https://mmguitarbar.com/products/1969-gibson-es-335-tdc-vintage-guitar-cherry-stoptail-conversion-w-pat-t-tops-case-1 (dealer site)",
+        "https://reverb.com/item/97842585 (earlier Reverb listing, ended 2026-07-25; relisted 2026-07-29 as 93473088)"
       ],
       "offer_intel": {
         "as_of": "2026-07-29",
