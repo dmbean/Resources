@@ -162,6 +162,12 @@ header{padding:28px 0 18px;border-bottom:2px solid var(--ink);margin-bottom:14px
 h1{font-family:Charter,Cambria,Georgia,serif;font-size:clamp(26px,4vw,36px);margin:2px 0 6px;text-wrap:balance}
 .substat{color:var(--ink-soft);font-size:13px}
 .substat b{color:var(--ink);font-variant-numeric:tabular-nums}
+.headrow{display:flex;align-items:flex-start;justify-content:space-between;gap:14px;flex-wrap:wrap}
+.refreshbtn{display:flex;flex-direction:column;align-items:center;gap:2px;text-decoration:none;
+  border:1.5px solid var(--amber);color:var(--amber);border-radius:8px;padding:8px 14px;
+  font:700 14px/1.2 system-ui;white-space:nowrap;margin-top:6px}
+.refreshbtn:hover{background:var(--amber-soft)}
+.refreshsub{font:400 10px/1 system-ui;color:var(--ink-soft);letter-spacing:.02em}
 .spotlight{border:1px solid var(--cherry);border-radius:8px;background:var(--bg-raise);padding:12px 14px;margin:14px 0 4px}
 .spotlight .sp-head{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--cherry);font-weight:700;margin-bottom:8px}
 .sp-row{display:flex;gap:10px;overflow-x:auto;padding-bottom:4px}
@@ -241,9 +247,17 @@ details li{margin-bottom:4px}
 </style>
 <div class="wrap">
 <header>
-  <div class="eyebrow">Sourcing agent · daily sweep</div>
-  <h1>Gibson Watch — Les Paul &amp; ES-335 Board</h1>
-  <div class="substat" id="substat"></div>
+  <div class="headrow">
+    <div>
+      <div class="eyebrow">Sourcing agent · on-demand sweep</div>
+      <h1>Gibson Watch — Les Paul &amp; ES-335 Board</h1>
+      <div class="substat" id="substat"></div>
+    </div>
+    <a class="refreshbtn" href="https://claude.ai/code/session_01H6KeEioAEc1w7GRX2baxAn"
+       title="Opens the watch agent chat — send 'run' there and the board refreshes when the sweep finishes (a few minutes)">
+      ↻ Refresh<span class="refreshsub">opens agent — send “run”</span>
+    </a>
+  </div>
 </header>
 <div class="spotlight" id="spotlight" hidden>
   <div class="sp-head">NYC spotlight — play these before they're gone</div>

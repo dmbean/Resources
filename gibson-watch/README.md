@@ -19,6 +19,10 @@ Long-running sourcing agent for a Gibson Les Paul and an ES-335. Runs every 24 h
   `https://api.reverb.com/api/listings/<id>` (and `?query=` for search) with headers
   `Accept: application/hal+json` and `Accept-Version: 3.0`; only `state: "live"` counts.
 - **Fresh container?** Run `pip install pillow` before `scripts/images.py`.
+- **On-demand runs (2026-08-01)**: the daily Routine is PAUSED at the buyer's request. The board
+  header has a "↻ Refresh" button that deep-links into this agent session; any buyer message like
+  "run" triggers a full cycle. (A page-side button cannot fire the agent directly — the artifact
+  runtime has no channel back into the session — so the button opens the chat instead.)
 - The board must be republished with the **Artifact tool from this session** using file path
   `gibson-watch/site/index.html` — same path keeps the buyer's pinned URL. If the Artifact tool
   is ever unavailable in a run, say so in the run summary instead of skipping silently.
