@@ -19,6 +19,11 @@ Long-running sourcing agent for a Gibson Les Paul and an ES-335. Runs every 24 h
   `https://api.reverb.com/api/listings/<id>` (and `?query=` for search) with headers
   `Accept: application/hal+json` and `Accept-Version: 3.0`; only `state: "live"` counts.
 - **Fresh container?** Run `pip install pillow` before `scripts/images.py`.
+- **Always date a run from the system clock** (`date -u +%F`) — never infer today's date from
+  the previous run or from conversation context. On 2026-08-09 a run was mis-stamped 2026-08-05,
+  so the board's "last sweep" line read as stale to the buyer even though the data was fresh.
+- **Pipeline order matters**: update `meta.last_run`/`run_count` BEFORE running `scripts/site.py`,
+  otherwise the board embeds a stale run number (site.py snapshots meta at generation time).
 - **On-demand runs (2026-08-01)**: the daily Routine is PAUSED at the buyer's request. The board
   header has a "↻ Refresh" button that deep-links into this agent session; any buyer message like
   "run" triggers a full cycle. (A page-side button cannot fire the agent directly — the artifact
