@@ -19,3 +19,12 @@ _Add dealers found via forums/listings here; they get searched on every subseque
   Ludlow Guitars (ludlowguitars.com). Sweep for MIJ LP/335-style per README rules.
 - CAUTION (2026-07-24): ludlowguitars.com redirects to an unrelated Indonesian site (possible
   domain hijack). Do not fetch the domain; check Ludlow Guitars' Reverb shop instead until resolved.
+- Sweetwater (sweetwater.com) — **BLOCKED, never swept** (checked 2026-08-09). Publishes an exact
+  weight for every individual serial, so it is the single best structural fit for the exact-weight
+  rule — but the site sits behind PerimeterX bot detection: every route (search, product detail,
+  sitemap, robots.txt, homepage, media subdomain) returns a px-captcha 403 regardless of headers.
+  Headless Chromium/Playwright is installed here but cannot reach ANY site through this
+  environment's proxy (control fetch of reverb.com also returns ERR_CONNECTION_RESET), so the
+  browser workaround is unavailable too. Do NOT record Sweetwater as swept. Re-test occasionally;
+  reaching it needs a browser-capable or residential-proxy fetch path.
+

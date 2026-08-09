@@ -51,13 +51,34 @@ def band_score(value, lo, hi, ideal_lo=None, ideal_hi=None, falloff=1.0):
     return max(0.0, 80.0 - 80.0 * edge / falloff)
 
 
+NYC_MARKERS = ("new york", "brooklyn", "queens", "manhattan", "bronx",
+               "long island city", "astoria", "ridgewood, ny")
+NYC_SHOP_URLS = ("rivingtonguitars", "rudysmusic", "retrofret", "trcrandall",
+                 "southsideguitars", "maindragmusic", "30thstreetguitars")
+
+
+def is_nyc(g):
+    """NYC-area listing the buyer could play before buying (weigh-in-person allowance)."""
+    if any(s in (g.get("url") or "").lower() for s in NYC_SHOP_URLS):
+        return True
+    loc = str(g.get("city_state") or "").lower().split("(")[0]
+    return any(m in loc for m in NYC_MARKERS)
+
+
 def weight_component(g):
     # Buyer signal 2026-07-29: soft floors — light guitars are fine, heavy ones are not.
     if g["category"] == "les_paul":
         s = band_score(g.get("weight_lbs"), 8.0, 9.0, 8.3, 8.8, falloff=1.2)
     else:
         s = band_score(g.get("weight_lbs"), 7.2, 8.0, 7.4, 7.8, falloff=1.0)
-    return (s if s is not None else 0.0, "weight %s lbs" % g.get("weight_lbs"))
+    if s is None:
+        # Buyer signal 2026-08-09: a NYC listing with no published weight is one the buyer
+        # can put on a scale in person, so an unknown weight is neutral here, not a zero.
+        # Scoring it 0 capped every playable NYC guitar near 70 (avg 33.5 vs 64.7 board-wide).
+        if is_nyc(g):
+            return 65.0, "weight unpublished — NYC, weigh in person (neutral)"
+        return 0.0, "no exact weight stated"
+    return s, "weight %s lbs" % g.get("weight_lbs")
 
 
 def neck_component(g):

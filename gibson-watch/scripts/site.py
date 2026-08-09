@@ -104,7 +104,8 @@ def main():
             "color": color_family(g.get("finish")),
             "finish_label": finish_label(g.get("finish")),
             "state": us_state(g.get("city_state")),
-            "nyc": is_nyc(g.get("city_state")),
+            "nyc": is_nyc(g.get("city_state")) or any(s in (g.get("url") or "").lower() for s in
+                       ("rivingtonguitars","rudysmusic","retrofret","trcrandall","southsideguitars","maindragmusic")),
             "serial": g.get("serial"), "weight": g.get("weight_lbs"),
             "nut": g.get("nut_width_in"), "f1": g.get("fret1_depth_in"),
             "f12": g.get("fret12_depth_in"), "profile": g.get("neck_profile"),
@@ -401,7 +402,9 @@ function card(g){
     </div>
     <div class="chips"><span class="chip ${cls[0]}">${cls[1]}</span>${chipStatus(g.status)}${isNew?'<span class="chip newtoday" title="first found by the watch on this run — not necessarily newly listed">New find</span>':""}${oi.days_listed!=null&&oi.days_listed<=7?'<span class="chip fresh" title="listed on Reverb within the last week">Fresh listing</span>':""}${oi.offers_enabled?'<span class="chip offers">Offers</span>':""}${g.plek?'<span class="chip active" title="listing states PLEK fret work">PLEK’d</span>':""}${hot?`<span class="chip hot" title="${esc(hot)}">Goes fast</span>`:""}</div>
     <div class="specs">
-      ${spec(g.cat,"weight","Weight",g.weight," lb")}
+      ${g.weight==null&&g.nyc
+          ? `<div class="spec"><div class="v" style="font-size:11.5px;color:var(--cherry)" title="No published weight. Scored neutral because you can weigh it in person.">weigh in&nbsp;person</div><div class="k">Weight</div></div>`
+          : spec(g.cat,"weight","Weight",g.weight," lb")}
       ${nutSpec(g)}
       ${spec(g.cat,"f1","1st fret",g.f1,"″")}
       ${spec(g.cat,"f12","12th fret",g.f12,"″")}
