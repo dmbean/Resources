@@ -54,6 +54,25 @@ def market_bucket(g):
     return "es-335 modern"
 
 
+# Sweep agents name these fields inconsistently; map to the canonical schema.
+FIELD_ALIASES = {
+    "dealer_shop": "dealer", "shop": "dealer", "shop_name": "dealer", "seller": "dealer",
+    "location": "city_state", "loc": "city_state", "published": "published_at",
+    "weight": "weight_lbs", "price": "price_usd", "nut_width": "nut_width_in",
+}
+
+
+def normalize_fields(g):
+    for alias, canon in FIELD_ALIASES.items():
+        if alias in g and not g.get(canon):
+            g[canon] = g.pop(alias)
+    if g.get("dealer") and "reverb.com" in (g.get("url") or "") \
+            and not str(g["dealer"]).startswith("Reverb"):
+        g["dealer"] = "Reverb – " + str(g["dealer"])
+    g.setdefault("dealer", "unknown")
+    return g
+
+
 def categorize(g):
     m = (str(g.get("model") or "")).lower()
     semi_markers = ("335", "sa-2200", "sa2200", "sa-", "jsm", "as-200", "semi-hollow",
@@ -109,6 +128,7 @@ def main():
         with open(path) as f:
             batch = json.load(f)
         for raw in batch:
+            normalize_fields(raw)
             raw["category"] = categorize(raw)
             match = None
             ks = keys_of(raw)
