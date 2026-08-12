@@ -370,7 +370,7 @@
         "anchor_usd": 5500,
         "over_market_pct": 31,
         "offers_enabled": false,
-        "days_listed": 992
+        "days_listed": 996
       }
     },
     {
@@ -500,7 +500,7 @@
         "anchor_usd": 4207,
         "over_market_pct": -51,
         "offers_enabled": false,
-        "days_listed": 13
+        "days_listed": 17
       },
       "score": 93.2,
       "score_breakdown": {
@@ -715,7 +715,7 @@
         "anchor_usd": 4207,
         "over_market_pct": -33,
         "offers_enabled": false,
-        "days_listed": 11
+        "days_listed": 15
       },
       "score": 92.9,
       "score_breakdown": {
@@ -787,7 +787,7 @@
         "anchor_usd": 6898,
         "over_market_pct": -3,
         "offers_enabled": false,
-        "days_listed": 4
+        "days_listed": 8
       },
       "score": 92.9,
       "score_breakdown": {
@@ -958,7 +958,7 @@
         "anchor_usd": 6898,
         "over_market_pct": -6,
         "offers_enabled": false,
-        "days_listed": 7
+        "days_listed": 11
       },
       "alt_urls": [
         "https://reverb.com/item/97842598-2015-gibson-custom-shop-true-historic-1960-les-paul-standard-r0-vintage-cherry-sunburst-mint-w-case-tags-coa"
@@ -1223,7 +1223,7 @@
         "anchor_usd": 4207,
         "over_market_pct": -43,
         "offers_enabled": false,
-        "days_listed": 0
+        "days_listed": 4
       },
       "score": 91.3,
       "score_breakdown": {
@@ -1369,7 +1369,7 @@
         "anchor_usd": 7500,
         "over_market_pct": 23,
         "offers_enabled": false,
-        "days_listed": 390
+        "days_listed": 394
       },
       "score": 91.1,
       "score_breakdown": {
@@ -1444,7 +1444,7 @@
         "anchor_usd": 7500,
         "over_market_pct": 23,
         "offers_enabled": false,
-        "days_listed": 495
+        "days_listed": 499
       },
       "score": 91.1,
       "score_breakdown": {
@@ -1519,7 +1519,7 @@
         "anchor_usd": 7500,
         "over_market_pct": 23,
         "offers_enabled": false,
-        "days_listed": 499
+        "days_listed": 503
       },
       "score": 91.1,
       "score_breakdown": {
@@ -1612,10 +1612,10 @@
       },
       "offer_intel": {
         "as_of": "2026-08-09",
-        "anchor_usd": 5075,
-        "over_market_pct": -1,
+        "anchor_usd": 5172,
+        "over_market_pct": -3,
         "offers_enabled": false,
-        "days_listed": 50
+        "days_listed": 54
       }
     },
     {
@@ -1665,7 +1665,7 @@
         "anchor_usd": 6898,
         "over_market_pct": -3,
         "offers_enabled": false,
-        "days_listed": 99
+        "days_listed": 103
       },
       "score": 90.8,
       "score_breakdown": {
@@ -1761,7 +1761,7 @@
         "anchor_usd": 6898,
         "over_market_pct": 9,
         "offers_enabled": true,
-        "days_listed": 71,
+        "days_listed": 75,
         "suggested_offer_usd": 6900,
         "discount_pct": 8,
         "rationale": "8% base"
@@ -1814,7 +1814,7 @@
         "anchor_usd": 4207,
         "over_market_pct": -44,
         "offers_enabled": false,
-        "days_listed": 11
+        "days_listed": 15
       },
       "score": 90.6,
       "score_breakdown": {
@@ -1910,7 +1910,7 @@
         "anchor_usd": 7174,
         "over_market_pct": 2,
         "offers_enabled": false,
-        "days_listed": 292
+        "days_listed": 296
       }
     },
     {
@@ -2052,13 +2052,13 @@
       },
       "offer_intel": {
         "as_of": "2026-08-09",
-        "anchor_usd": 5075,
-        "over_market_pct": 18,
+        "anchor_usd": 5172,
+        "over_market_pct": 16,
         "offers_enabled": true,
-        "days_listed": 27,
+        "days_listed": 31,
         "suggested_offer_usd": 5150,
         "discount_pct": 14,
-        "rationale": "8% base; 18% over market anchor ($5074); condition/mods"
+        "rationale": "8% base; 16% over market anchor ($5172); condition/mods"
       }
     },
     {
@@ -2178,7 +2178,7 @@
         "anchor_usd": 7174,
         "over_market_pct": 2,
         "offers_enabled": false,
-        "days_listed": -2
+        "days_listed": 2
       },
       "score": 89.2,
       "score_breakdown": {
@@ -2250,7 +2250,7 @@
         "anchor_usd": 4207,
         "over_market_pct": -29,
         "offers_enabled": true,
-        "days_listed": -1,
+        "days_listed": 3,
         "suggested_offer_usd": 2700,
         "discount_pct": 10,
         "rationale": "8% base; condition/mods"
@@ -2475,7 +2475,7 @@
         "anchor_usd": 7500,
         "over_market_pct": 23,
         "offers_enabled": false,
-        "days_listed": 513
+        "days_listed": 517
       },
       "score": 88.4,
       "score_breakdown": {
@@ -2550,7 +2550,7 @@
         "anchor_usd": 7500,
         "over_market_pct": 23,
         "offers_enabled": false,
-        "days_listed": 524
+        "days_listed": 528
       },
       "score": 88.4,
       "score_breakdown": {
@@ -2631,7 +2631,7 @@
         "anchor_usd": 6898,
         "over_market_pct": -28,
         "offers_enabled": true,
-        "days_listed": 9,
+        "days_listed": 13,
         "suggested_offer_usd": 4450,
         "discount_pct": 10,
         "rationale": "8% base; condition/mods"
@@ -2776,7 +2776,7 @@
         "anchor_usd": 7174,
         "over_market_pct": 9,
         "offers_enabled": true,
-        "days_listed": 2,
+        "days_listed": 6,
         "suggested_offer_usd": 7200,
         "discount_pct": 8,
         "rationale": "8% base"
@@ -2951,10 +2951,10 @@
         "anchor_usd": 6400,
         "over_market_pct": -16,
         "offers_enabled": true,
-        "days_listed": 152,
+        "days_listed": 156,
         "suggested_offer_usd": 4750,
         "discount_pct": 12,
-        "rationale": "8% base; listed 152d"
+        "rationale": "8% base; listed 156d"
       }
     },
     {
@@ -3099,13 +3099,13 @@
       },
       "offer_intel": {
         "as_of": "2026-08-09",
-        "anchor_usd": 5075,
-        "over_market_pct": 18,
+        "anchor_usd": 5172,
+        "over_market_pct": 16,
         "offers_enabled": true,
-        "days_listed": 7,
+        "days_listed": 11,
         "suggested_offer_usd": 5150,
         "discount_pct": 14,
-        "rationale": "8% base; 18% over market anchor ($5074); condition/mods"
+        "rationale": "8% base; 16% over market anchor ($5172); condition/mods"
       }
     },
     {
@@ -3167,10 +3167,10 @@
       },
       "offer_intel": {
         "as_of": "2026-08-09",
-        "anchor_usd": 4225,
-        "over_market_pct": -31,
+        "anchor_usd": 4112,
+        "over_market_pct": -30,
         "offers_enabled": false,
-        "days_listed": 20
+        "days_listed": 24
       }
     },
     {
@@ -3293,7 +3293,7 @@
         "anchor_usd": 6898,
         "over_market_pct": -10,
         "offers_enabled": false,
-        "days_listed": 514
+        "days_listed": 518
       },
       "score": 85.7,
       "score_breakdown": {
@@ -3363,10 +3363,10 @@
       ],
       "offer_intel": {
         "as_of": "2026-08-09",
-        "anchor_usd": 5075,
-        "over_market_pct": 8,
+        "anchor_usd": 5172,
+        "over_market_pct": 6,
         "offers_enabled": true,
-        "days_listed": 47,
+        "days_listed": 51,
         "suggested_offer_usd": 4950,
         "discount_pct": 10,
         "rationale": "8% base; condition/mods"
@@ -3540,7 +3540,7 @@
         "anchor_usd": 7174,
         "over_market_pct": 10,
         "offers_enabled": false,
-        "days_listed": 63
+        "days_listed": 67
       }
     },
     {
@@ -3679,7 +3679,7 @@
         "anchor_usd": 7174,
         "over_market_pct": 2,
         "offers_enabled": false,
-        "days_listed": 315
+        "days_listed": 319
       }
     },
     {
@@ -3729,7 +3729,7 @@
         "anchor_usd": 5500,
         "over_market_pct": 22,
         "offers_enabled": false,
-        "days_listed": 7
+        "days_listed": 11
       },
       "score": 84.4,
       "score_breakdown": {
@@ -3873,7 +3873,7 @@
         "anchor_usd": 5500,
         "over_market_pct": 22,
         "offers_enabled": false,
-        "days_listed": 19
+        "days_listed": 23
       },
       "score": 84.2,
       "score_breakdown": {
@@ -3966,10 +3966,10 @@
       },
       "offer_intel": {
         "as_of": "2026-08-09",
-        "anchor_usd": 5075,
-        "over_market_pct": 8,
+        "anchor_usd": 5172,
+        "over_market_pct": 6,
         "offers_enabled": false,
-        "days_listed": 155
+        "days_listed": 159
       }
     },
     {
@@ -4242,7 +4242,7 @@
         "anchor_usd": 5000,
         "over_market_pct": -4,
         "offers_enabled": false,
-        "days_listed": 175
+        "days_listed": 179
       },
       "score": 83.5,
       "score_breakdown": {
@@ -4339,10 +4339,10 @@
       ],
       "offer_intel": {
         "as_of": "2026-08-09",
-        "anchor_usd": 8250,
+        "anchor_usd": 8225,
         "over_market_pct": 3,
         "offers_enabled": false,
-        "days_listed": 7
+        "days_listed": 11
       }
     },
     {
@@ -4447,10 +4447,10 @@
       ],
       "offer_intel": {
         "as_of": "2026-08-09",
-        "anchor_usd": 4225,
-        "over_market_pct": null,
+        "anchor_usd": 5172,
+        "over_market_pct": 16,
         "offers_enabled": false,
-        "days_listed": 7
+        "days_listed": 11
       },
       "score": 82.5,
       "score_breakdown": {
@@ -4730,7 +4730,7 @@
         "anchor_usd": 1600,
         "over_market_pct": -50,
         "offers_enabled": false,
-        "days_listed": 62
+        "days_listed": 66
       },
       "score": 82.0,
       "score_breakdown": {
@@ -4808,10 +4808,10 @@
       ],
       "offer_intel": {
         "as_of": "2026-08-09",
-        "anchor_usd": 5075,
-        "over_market_pct": -2,
+        "anchor_usd": 5172,
+        "over_market_pct": -4,
         "offers_enabled": true,
-        "days_listed": 7,
+        "days_listed": 11,
         "suggested_offer_usd": 4450,
         "discount_pct": 10,
         "rationale": "8% base; condition/mods"
@@ -4907,8 +4907,8 @@
       ],
       "offer_intel": {
         "as_of": "2026-08-09",
-        "anchor_usd": 3450,
-        "over_market_pct": -4
+        "anchor_usd": 3475,
+        "over_market_pct": -5
       }
     },
     {
@@ -4954,10 +4954,10 @@
       ],
       "offer_intel": {
         "as_of": "2026-08-09",
-        "anchor_usd": 3450,
-        "over_market_pct": -4,
+        "anchor_usd": 3475,
+        "over_market_pct": -5,
         "offers_enabled": false,
-        "days_listed": 22
+        "days_listed": 26
       },
       "score": 81.4,
       "score_breakdown": {
@@ -5030,10 +5030,10 @@
         "anchor_usd": 5000,
         "over_market_pct": 36,
         "offers_enabled": true,
-        "days_listed": 202,
+        "days_listed": 206,
         "suggested_offer_usd": 5600,
         "discount_pct": 18,
-        "rationale": "8% base; listed 202d; 36% over market anchor ($4999)"
+        "rationale": "8% base; listed 206d; 36% over market anchor ($4999)"
       },
       "score": 80.9,
       "score_breakdown": {
@@ -5107,10 +5107,10 @@
         "anchor_usd": 5000,
         "over_market_pct": 50,
         "offers_enabled": true,
-        "days_listed": 127,
+        "days_listed": 131,
         "suggested_offer_usd": 6300,
         "discount_pct": 16,
-        "rationale": "8% base; listed 127d; 50% over market anchor ($4999)"
+        "rationale": "8% base; listed 131d; 50% over market anchor ($4999)"
       },
       "score": 80.8,
       "score_breakdown": {
@@ -5182,7 +5182,7 @@
         "anchor_usd": 7500,
         "over_market_pct": 13,
         "offers_enabled": false,
-        "days_listed": 6
+        "days_listed": 10
       },
       "score": 80.8,
       "score_breakdown": {
@@ -5408,7 +5408,7 @@
         "anchor_usd": 5000,
         "over_market_pct": -8,
         "offers_enabled": true,
-        "days_listed": 61,
+        "days_listed": 65,
         "suggested_offer_usd": 4150,
         "discount_pct": 10,
         "rationale": "8% base; condition/mods"
@@ -5504,10 +5504,10 @@
       ],
       "offer_intel": {
         "as_of": "2026-08-09",
-        "anchor_usd": 5075,
-        "over_market_pct": 4,
+        "anchor_usd": 5172,
+        "over_market_pct": 2,
         "offers_enabled": false,
-        "days_listed": 16
+        "days_listed": 20
       }
     },
     {
@@ -5580,10 +5580,10 @@
         "anchor_usd": 6898,
         "over_market_pct": 1,
         "offers_enabled": true,
-        "days_listed": 845,
+        "days_listed": 849,
         "suggested_offer_usd": 6000,
         "discount_pct": 14,
-        "rationale": "8% base; listed 845d"
+        "rationale": "8% base; listed 849d"
       }
     },
     {
@@ -5645,8 +5645,8 @@
       },
       "offer_intel": {
         "as_of": "2026-08-09",
-        "anchor_usd": 4225,
-        "over_market_pct": 54
+        "anchor_usd": 4112,
+        "over_market_pct": 58
       }
     },
     {
@@ -5695,7 +5695,7 @@
         "anchor_usd": 7500,
         "over_market_pct": -7,
         "offers_enabled": false,
-        "days_listed": 1
+        "days_listed": 5
       },
       "score": 77.9,
       "score_breakdown": {
@@ -5788,10 +5788,10 @@
       ],
       "offer_intel": {
         "as_of": "2026-08-09",
-        "anchor_usd": 5075,
-        "over_market_pct": -25,
+        "anchor_usd": 5172,
+        "over_market_pct": -27,
         "offers_enabled": false,
-        "days_listed": 51
+        "days_listed": 55
       }
     },
     {
@@ -5864,7 +5864,7 @@
         "anchor_usd": 5500,
         "over_market_pct": 22,
         "offers_enabled": false,
-        "days_listed": 915
+        "days_listed": 919
       }
     },
     {
@@ -5915,7 +5915,7 @@
         "anchor_usd": 5000,
         "over_market_pct": 8,
         "offers_enabled": false,
-        "days_listed": 492
+        "days_listed": 496
       },
       "score": 76.9,
       "score_breakdown": {
@@ -5986,7 +5986,7 @@
         "anchor_usd": 5500,
         "over_market_pct": -9,
         "offers_enabled": true,
-        "days_listed": 4,
+        "days_listed": 8,
         "suggested_offer_usd": 4600,
         "discount_pct": 8,
         "rationale": "8% base"
@@ -6063,7 +6063,7 @@
         "anchor_usd": 5000,
         "over_market_pct": 20,
         "offers_enabled": true,
-        "days_listed": 30,
+        "days_listed": 34,
         "suggested_offer_usd": 5150,
         "discount_pct": 14,
         "rationale": "8% base; 20% over market anchor ($4999); condition/mods"
@@ -6140,7 +6140,7 @@
         "anchor_usd": 5000,
         "over_market_pct": 54,
         "offers_enabled": false,
-        "days_listed": 685
+        "days_listed": 689
       },
       "score": 76.1,
       "score_breakdown": {
@@ -6236,10 +6236,10 @@
       ],
       "offer_intel": {
         "as_of": "2026-08-09",
-        "anchor_usd": 5075,
-        "over_market_pct": -5,
+        "anchor_usd": 5172,
+        "over_market_pct": -7,
         "offers_enabled": false,
-        "days_listed": 24
+        "days_listed": 28
       }
     },
     {
@@ -6356,10 +6356,10 @@
       ],
       "offer_intel": {
         "as_of": "2026-08-09",
-        "anchor_usd": 3450,
-        "over_market_pct": 10,
+        "anchor_usd": 3475,
+        "over_market_pct": 9,
         "offers_enabled": false,
-        "days_listed": 15
+        "days_listed": 19
       },
       "score": 75.9,
       "score_breakdown": {
@@ -6495,10 +6495,10 @@
       ],
       "offer_intel": {
         "as_of": "2026-08-09",
-        "anchor_usd": 5075,
-        "over_market_pct": -27,
+        "anchor_usd": 5172,
+        "over_market_pct": -28,
         "offers_enabled": false,
-        "days_listed": 8
+        "days_listed": 12
       },
       "score": 75.8,
       "score_breakdown": {
@@ -6586,7 +6586,7 @@
         "anchor_usd": 2350,
         "over_market_pct": 32,
         "offers_enabled": false,
-        "days_listed": 160
+        "days_listed": 164
       },
       "research_cluster": "mij-335",
       "research": [
@@ -6641,13 +6641,13 @@
       ],
       "offer_intel": {
         "as_of": "2026-08-09",
-        "anchor_usd": 5075,
-        "over_market_pct": 25,
+        "anchor_usd": 5172,
+        "over_market_pct": 22,
         "offers_enabled": true,
-        "days_listed": -2,
+        "days_listed": 2,
         "suggested_offer_usd": 5450,
         "discount_pct": 14,
-        "rationale": "8% base; 25% over market anchor ($5074); condition/mods"
+        "rationale": "8% base; 22% over market anchor ($5172); condition/mods"
       },
       "score": 75.7,
       "score_breakdown": {
@@ -6967,7 +6967,7 @@
         "anchor_usd": 1600,
         "over_market_pct": -25,
         "offers_enabled": false,
-        "days_listed": 29
+        "days_listed": 33
       }
     },
     {
@@ -7025,7 +7025,7 @@
         "anchor_usd": 7174,
         "over_market_pct": -21,
         "offers_enabled": true,
-        "days_listed": 14,
+        "days_listed": 18,
         "suggested_offer_usd": 5250,
         "discount_pct": 8,
         "rationale": "8% base"
@@ -7102,7 +7102,7 @@
         "anchor_usd": 5000,
         "over_market_pct": 8,
         "offers_enabled": false,
-        "days_listed": 497
+        "days_listed": 501
       },
       "score": 75.5,
       "score_breakdown": {
@@ -7179,7 +7179,7 @@
         "anchor_usd": 6898,
         "over_market_pct": -20,
         "offers_enabled": true,
-        "days_listed": 17,
+        "days_listed": 21,
         "suggested_offer_usd": 5050,
         "discount_pct": 8,
         "rationale": "8% base"
@@ -7254,7 +7254,7 @@
         "anchor_usd": 6898,
         "over_market_pct": -28,
         "offers_enabled": true,
-        "days_listed": -4,
+        "days_listed": 0,
         "suggested_offer_usd": 4600,
         "discount_pct": 8,
         "rationale": "8% base"
@@ -7329,7 +7329,7 @@
         "anchor_usd": 4207,
         "over_market_pct": -53,
         "offers_enabled": true,
-        "days_listed": -3,
+        "days_listed": 1,
         "suggested_offer_usd": 1800,
         "discount_pct": 8,
         "rationale": "8% base"
@@ -7400,10 +7400,10 @@
       ],
       "offer_intel": {
         "as_of": "2026-08-09",
-        "anchor_usd": 8250,
+        "anchor_usd": 8225,
         "over_market_pct": -10,
         "offers_enabled": true,
-        "days_listed": 3,
+        "days_listed": 7,
         "suggested_offer_usd": 6800,
         "discount_pct": 8,
         "rationale": "8% base"
@@ -7549,7 +7549,7 @@
         "anchor_usd": 6898,
         "over_market_pct": -4,
         "offers_enabled": true,
-        "days_listed": -1,
+        "days_listed": 3,
         "suggested_offer_usd": 6050,
         "discount_pct": 8,
         "rationale": "8% base"
@@ -7627,10 +7627,10 @@
         "anchor_usd": 6898,
         "over_market_pct": 1,
         "offers_enabled": true,
-        "days_listed": 874,
+        "days_listed": 878,
         "suggested_offer_usd": 5900,
         "discount_pct": 16,
-        "rationale": "8% base; listed 874d; condition/mods"
+        "rationale": "8% base; listed 878d; condition/mods"
       },
       "score": 74.8,
       "score_breakdown": {
@@ -7723,13 +7723,13 @@
       },
       "offer_intel": {
         "as_of": "2026-08-09",
-        "anchor_usd": 5075,
-        "over_market_pct": 37,
+        "anchor_usd": 5172,
+        "over_market_pct": 34,
         "offers_enabled": true,
-        "days_listed": 47,
+        "days_listed": 51,
         "suggested_offer_usd": 6000,
         "discount_pct": 14,
-        "rationale": "8% base; 37% over market anchor ($5074); condition/mods"
+        "rationale": "8% base; 34% over market anchor ($5172); condition/mods"
       }
     },
     {
@@ -7774,13 +7774,13 @@
       ],
       "offer_intel": {
         "as_of": "2026-08-09",
-        "anchor_usd": 3450,
-        "over_market_pct": 27,
+        "anchor_usd": 3475,
+        "over_market_pct": 26,
         "offers_enabled": true,
-        "days_listed": 6,
+        "days_listed": 10,
         "suggested_offer_usd": 3850,
         "discount_pct": 12,
-        "rationale": "8% base; 27% over market anchor ($3449)"
+        "rationale": "8% base; 26% over market anchor ($3474)"
       },
       "score": 74.6,
       "score_breakdown": {
@@ -7857,7 +7857,7 @@
         "anchor_usd": 6898,
         "over_market_pct": -36,
         "offers_enabled": false,
-        "days_listed": 20
+        "days_listed": 24
       },
       "score": 74.5,
       "score_breakdown": {
@@ -7930,7 +7930,7 @@
         "anchor_usd": 6400,
         "over_market_pct": -72,
         "offers_enabled": true,
-        "days_listed": 11,
+        "days_listed": 15,
         "suggested_offer_usd": 1600,
         "discount_pct": 10,
         "rationale": "8% base; condition/mods"
@@ -8012,7 +8012,7 @@
         "anchor_usd": 5500,
         "over_market_pct": -20,
         "offers_enabled": false,
-        "days_listed": 7
+        "days_listed": 11
       },
       "score": 74.4,
       "score_breakdown": {
@@ -8236,7 +8236,7 @@
         "anchor_usd": 6898,
         "over_market_pct": -17,
         "offers_enabled": true,
-        "days_listed": 16,
+        "days_listed": 20,
         "suggested_offer_usd": 5150,
         "discount_pct": 10,
         "rationale": "8% base; condition/mods"
@@ -8309,10 +8309,10 @@
       ],
       "offer_intel": {
         "as_of": "2026-08-09",
-        "anchor_usd": 3450,
-        "over_market_pct": -13,
+        "anchor_usd": 3475,
+        "over_market_pct": -14,
         "offers_enabled": true,
-        "days_listed": -4,
+        "days_listed": 0,
         "suggested_offer_usd": 2700,
         "discount_pct": 10,
         "rationale": "8% base; condition/mods"
@@ -8391,10 +8391,10 @@
         "anchor_usd": 7500,
         "over_market_pct": 13,
         "offers_enabled": true,
-        "days_listed": 132,
+        "days_listed": 136,
         "suggested_offer_usd": 7150,
         "discount_pct": 16,
-        "rationale": "8% base; listed 132d; 13% over market anchor ($7499)"
+        "rationale": "8% base; listed 136d; 13% over market anchor ($7499)"
       },
       "score": 74.0,
       "score_breakdown": {
@@ -8535,10 +8535,10 @@
         "anchor_usd": 6400,
         "over_market_pct": 9,
         "offers_enabled": true,
-        "days_listed": 875,
+        "days_listed": 879,
         "suggested_offer_usd": 5900,
         "discount_pct": 16,
-        "rationale": "8% base; listed 875d; condition/mods"
+        "rationale": "8% base; listed 879d; condition/mods"
       },
       "score": 73.8,
       "score_breakdown": {
@@ -8612,7 +8612,7 @@
         "anchor_usd": 5000,
         "over_market_pct": 10,
         "offers_enabled": false,
-        "days_listed": 323
+        "days_listed": 327
       },
       "score": 73.8,
       "score_breakdown": {
@@ -8705,10 +8705,10 @@
       },
       "offer_intel": {
         "as_of": "2026-08-09",
-        "anchor_usd": 8250,
+        "anchor_usd": 8225,
         "over_market_pct": 9,
         "offers_enabled": true,
-        "days_listed": 34,
+        "days_listed": 38,
         "suggested_offer_usd": 8100,
         "discount_pct": 10,
         "rationale": "8% base; condition/mods"
@@ -8760,7 +8760,7 @@
         "anchor_usd": 4207,
         "over_market_pct": -41,
         "offers_enabled": true,
-        "days_listed": 0,
+        "days_listed": 4,
         "suggested_offer_usd": 2250,
         "discount_pct": 10,
         "rationale": "8% base; condition/mods"
@@ -8838,7 +8838,7 @@
         "anchor_usd": 7500,
         "over_market_pct": 29,
         "offers_enabled": false,
-        "days_listed": 187
+        "days_listed": 191
       },
       "score": 72.8,
       "score_breakdown": {
@@ -8931,10 +8931,10 @@
       },
       "offer_intel": {
         "as_of": "2026-08-09",
-        "anchor_usd": 5075,
-        "over_market_pct": -11,
+        "anchor_usd": 5172,
+        "over_market_pct": -13,
         "offers_enabled": true,
-        "days_listed": 64,
+        "days_listed": 68,
         "suggested_offer_usd": 4050,
         "discount_pct": 10,
         "rationale": "8% base; condition/mods"
@@ -9135,7 +9135,7 @@
         "anchor_usd": 5000,
         "over_market_pct": 20,
         "offers_enabled": false,
-        "days_listed": 241
+        "days_listed": 245
       },
       "score": 71.3,
       "score_breakdown": {
@@ -9212,7 +9212,7 @@
         "anchor_usd": 6898,
         "over_market_pct": 45,
         "offers_enabled": true,
-        "days_listed": 10,
+        "days_listed": 14,
         "suggested_offer_usd": 8800,
         "discount_pct": 12,
         "rationale": "8% base; 45% over market anchor ($6897)"
@@ -9289,7 +9289,7 @@
         "anchor_usd": 5000,
         "over_market_pct": 80,
         "offers_enabled": false,
-        "days_listed": 14
+        "days_listed": 18
       },
       "score": 71.2,
       "score_breakdown": {
@@ -9360,7 +9360,7 @@
         "anchor_usd": 5500,
         "over_market_pct": -33,
         "offers_enabled": true,
-        "days_listed": 2,
+        "days_listed": 6,
         "suggested_offer_usd": 3350,
         "discount_pct": 10,
         "rationale": "8% base; condition/mods"
@@ -9437,10 +9437,10 @@
         "anchor_usd": 5000,
         "over_market_pct": -11,
         "offers_enabled": true,
-        "days_listed": 97,
+        "days_listed": 101,
         "suggested_offer_usd": 3900,
         "discount_pct": 12,
-        "rationale": "8% base; listed 97d"
+        "rationale": "8% base; listed 101d"
       },
       "score": 70.9,
       "score_breakdown": {
@@ -9533,13 +9533,13 @@
       ],
       "offer_intel": {
         "as_of": "2026-08-09",
-        "anchor_usd": 5075,
-        "over_market_pct": 5,
+        "anchor_usd": 5172,
+        "over_market_pct": 3,
         "offers_enabled": true,
-        "days_listed": 1819,
+        "days_listed": 1823,
         "suggested_offer_usd": 4500,
         "discount_pct": 16,
-        "rationale": "8% base; listed 1819d; condition/mods"
+        "rationale": "8% base; listed 1823d; condition/mods"
       }
     },
     {
@@ -9588,7 +9588,7 @@
         "anchor_usd": 5500,
         "over_market_pct": 5,
         "offers_enabled": true,
-        "days_listed": -1,
+        "days_listed": 3,
         "suggested_offer_usd": 5350,
         "discount_pct": 8,
         "rationale": "8% base"
@@ -9614,6 +9614,78 @@
         "price_5pct": {
           "score": 70.0,
           "note": "slightly above anchor"
+        }
+      }
+    },
+    {
+      "url": "https://reverb.com/item/99083676-gibson-es-340-1968-100-original-crazy-clean-367",
+      "dealer": "Reverb \u2013 TheGuitarBuyer",
+      "price_usd": 5800,
+      "year": 1968,
+      "model": "ES-340",
+      "finish": "Natural",
+      "weight_lbs": 8.0,
+      "nut_width_in": 1.58,
+      "fret1_depth_in": 0.83,
+      "fret12_depth_in": 0.96,
+      "neck_profile": null,
+      "condition": "Very Good",
+      "serial": null,
+      "city_state": "Dayton, OH",
+      "pickups": "Not stated - late-'60s ES-340 shipped with patent-number humbuckers; confirm with dealer",
+      "case_included": true,
+      "modifications": "None - stated 100% original with original blend circuit intact",
+      "published_at": "2026-07-03T17:56:50+03:00",
+      "offers_enabled": false,
+      "note": "The only vintage example in the sweep with a published exact weight at or under the ceiling, and it lands exactly on 8.0 lbs - zero headroom. Nut measures 1.58in, the closest of any find to the buyer's ideal 1-9/16in (1.5625). NOTE ON CIRCUIT: the ES-340 has NO Varitone - it uses a master volume plus a pickup blender/phase circuit and is MONO; this one still has that original blend circuit intact (many are converted to 335 wiring). Stop bar, no Bigsby/Maestro/TP-6. Dealer dates it 1968; ES-340 production is generally 1969-1973, so verify the serial and year. Serial not published - ask. $99 US_CON shipping, offers disabled.",
+      "category": "es_335",
+      "id": "g353",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-09",
+      "last_confirmed_active": "2026-08-09",
+      "market_bucket": "es-335 vintage",
+      "price_history": [
+        {
+          "date": "2026-08-09",
+          "price_usd": 5800
+        }
+      ],
+      "research_cluster": "norlin-335-early",
+      "research": [
+        "Neck feel: 1972-75 necks are generally slim-to-medium with the Norlin headstock volute and 3-piece construction (mahogany transitioning to maple ~1975); profiles vary but rarely reach 50s chunkiness.",
+        "Pickups: T-Tops throughout \u2014 clear, tight, slightly brighter than PAFs, less midrange complexity but excellent clean and edge-of-breakup; many examples have had swaps over 50 years.",
+        "Known issues: classic Norlin gripes \u2014 weight creep on some, crooked neck sets, mediocre fretwork, sunken tops around the bridge on some examples, the volute, and hit-or-miss quality declining through the decade.",
+        "Market/value: the affordable entry into vintage 335s \u2014 early-70s examples trade far below dot-necks; 'great for the money if you play it first' consensus; clean, light, straight-necked examples appreciating modestly.",
+        "Verify before buying: neck set straightness, top sinking under the bridge, actual weight, volute-area crack/repair, T-Top originality (DCR ~7.5k), and confirm year via pot codes since Norlin serials are notoriously ambiguous."
+      ],
+      "offer_intel": {
+        "as_of": "2026-08-09",
+        "anchor_usd": 8225,
+        "over_market_pct": -29,
+        "offers_enabled": false,
+        "days_listed": 37
+      },
+      "score": 70.6,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 80.0,
+          "note": "weight 8.0 lbs"
+        },
+        "neck_35pct": {
+          "score": 72.4,
+          "note": "nut ok (91); 1st fret ok (67); 12th fret ok (60)"
+        },
+        "shoulders_20pct": {
+          "score": 40.0,
+          "note": "no shoulder/profile info"
+        },
+        "condition_10pct": {
+          "score": 82.0,
+          "note": "very good"
+        },
+        "price_5pct": {
+          "score": 100.0,
+          "note": "28% under anchor"
         }
       }
     },
@@ -9665,7 +9737,7 @@
         "anchor_usd": 5000,
         "over_market_pct": 20,
         "offers_enabled": false,
-        "days_listed": 389
+        "days_listed": 393
       },
       "score": 70.5,
       "score_breakdown": {
@@ -9737,7 +9809,7 @@
         "anchor_usd": 7500,
         "over_market_pct": 17,
         "offers_enabled": false,
-        "days_listed": 4
+        "days_listed": 8
       },
       "score": 70.1,
       "score_breakdown": {
@@ -9825,10 +9897,10 @@
         "anchor_usd": 2350,
         "over_market_pct": -15,
         "offers_enabled": true,
-        "days_listed": 453,
+        "days_listed": 457,
         "suggested_offer_usd": 1700,
         "discount_pct": 14,
-        "rationale": "8% base; listed 453d"
+        "rationale": "8% base; listed 457d"
       },
       "research_cluster": "mij-335",
       "research": [
@@ -10031,7 +10103,7 @@
         "anchor_usd": 7500,
         "over_market_pct": 9,
         "offers_enabled": true,
-        "days_listed": 1,
+        "days_listed": 5,
         "suggested_offer_usd": 7550,
         "discount_pct": 8,
         "rationale": "8% base"
@@ -10115,7 +10187,7 @@
         "anchor_usd": 7174,
         "over_market_pct": -31,
         "offers_enabled": true,
-        "days_listed": 19,
+        "days_listed": 23,
         "suggested_offer_usd": 4550,
         "discount_pct": 8,
         "rationale": "8% base"
@@ -10274,10 +10346,10 @@
       ],
       "offer_intel": {
         "as_of": "2026-08-09",
-        "anchor_usd": 5075,
-        "over_market_pct": 34,
+        "anchor_usd": 5172,
+        "over_market_pct": 31,
         "offers_enabled": false,
-        "days_listed": 0
+        "days_listed": 4
       }
     },
     {
@@ -10334,11 +10406,8 @@
         "as_of": "2026-08-09",
         "anchor_usd": 7500,
         "over_market_pct": -11,
-        "offers_enabled": true,
-        "days_listed": 10,
-        "suggested_offer_usd": 6150,
-        "discount_pct": 8,
-        "rationale": "8% base"
+        "offers_enabled": false,
+        "days_listed": 14
       },
       "score": 68.0,
       "score_breakdown": {
@@ -10413,10 +10482,10 @@
         "anchor_usd": 6898,
         "over_market_pct": 1,
         "offers_enabled": true,
-        "days_listed": 162,
+        "days_listed": 166,
         "suggested_offer_usd": 6000,
         "discount_pct": 14,
-        "rationale": "8% base; listed 162d; condition/mods"
+        "rationale": "8% base; listed 166d; condition/mods"
       },
       "score": 67.8,
       "score_breakdown": {
@@ -10491,10 +10560,10 @@
         "anchor_usd": 6898,
         "over_market_pct": 1,
         "offers_enabled": true,
-        "days_listed": 162,
+        "days_listed": 166,
         "suggested_offer_usd": 6000,
         "discount_pct": 14,
-        "rationale": "8% base; listed 162d; condition/mods"
+        "rationale": "8% base; listed 166d; condition/mods"
       },
       "score": 67.8,
       "score_breakdown": {
@@ -10569,10 +10638,10 @@
         "anchor_usd": 6898,
         "over_market_pct": 1,
         "offers_enabled": true,
-        "days_listed": 868,
+        "days_listed": 872,
         "suggested_offer_usd": 5900,
         "discount_pct": 16,
-        "rationale": "8% base; listed 868d; condition/mods"
+        "rationale": "8% base; listed 872d; condition/mods"
       },
       "score": 67.8,
       "score_breakdown": {
@@ -10647,10 +10716,10 @@
         "anchor_usd": 6898,
         "over_market_pct": 1,
         "offers_enabled": true,
-        "days_listed": 885,
+        "days_listed": 889,
         "suggested_offer_usd": 5900,
         "discount_pct": 16,
-        "rationale": "8% base; listed 885d; condition/mods"
+        "rationale": "8% base; listed 889d; condition/mods"
       },
       "score": 67.8,
       "score_breakdown": {
@@ -10725,10 +10794,10 @@
         "anchor_usd": 6898,
         "over_market_pct": 1,
         "offers_enabled": true,
-        "days_listed": 885,
+        "days_listed": 889,
         "suggested_offer_usd": 5900,
         "discount_pct": 16,
-        "rationale": "8% base; listed 885d; condition/mods"
+        "rationale": "8% base; listed 889d; condition/mods"
       },
       "score": 67.8,
       "score_breakdown": {
@@ -10803,10 +10872,10 @@
         "anchor_usd": 6898,
         "over_market_pct": 1,
         "offers_enabled": true,
-        "days_listed": 885,
+        "days_listed": 889,
         "suggested_offer_usd": 5900,
         "discount_pct": 16,
-        "rationale": "8% base; listed 885d; condition/mods"
+        "rationale": "8% base; listed 889d; condition/mods"
       },
       "score": 67.8,
       "score_breakdown": {
@@ -10881,10 +10950,10 @@
         "anchor_usd": 6898,
         "over_market_pct": 1,
         "offers_enabled": true,
-        "days_listed": 885,
+        "days_listed": 889,
         "suggested_offer_usd": 5900,
         "discount_pct": 16,
-        "rationale": "8% base; listed 885d; condition/mods"
+        "rationale": "8% base; listed 889d; condition/mods"
       },
       "score": 67.8,
       "score_breakdown": {
@@ -10959,10 +11028,10 @@
         "anchor_usd": 6898,
         "over_market_pct": 1,
         "offers_enabled": true,
-        "days_listed": 885,
+        "days_listed": 889,
         "suggested_offer_usd": 5900,
         "discount_pct": 16,
-        "rationale": "8% base; listed 885d; condition/mods"
+        "rationale": "8% base; listed 889d; condition/mods"
       },
       "score": 67.8,
       "score_breakdown": {
@@ -11037,10 +11106,10 @@
         "anchor_usd": 6898,
         "over_market_pct": 1,
         "offers_enabled": true,
-        "days_listed": 885,
+        "days_listed": 889,
         "suggested_offer_usd": 5900,
         "discount_pct": 16,
-        "rationale": "8% base; listed 885d; condition/mods"
+        "rationale": "8% base; listed 889d; condition/mods"
       },
       "score": 67.8,
       "score_breakdown": {
@@ -11115,10 +11184,10 @@
         "anchor_usd": 6898,
         "over_market_pct": 1,
         "offers_enabled": true,
-        "days_listed": 895,
+        "days_listed": 899,
         "suggested_offer_usd": 5900,
         "discount_pct": 16,
-        "rationale": "8% base; listed 895d; condition/mods"
+        "rationale": "8% base; listed 899d; condition/mods"
       },
       "score": 67.8,
       "score_breakdown": {
@@ -11141,6 +11210,73 @@
         "price_5pct": {
           "score": 70.0,
           "note": "slightly above anchor"
+        }
+      }
+    },
+    {
+      "url": "https://reverb.com/item/99874297-gibson-marcus-king-es-345-2025-sixties-cherry",
+      "dealer": "Reverb \u2013 MUDGE'S MUSIC (at Carter Vintage)",
+      "price_usd": 3400,
+      "year": 2025,
+      "model": "ES-345 (Marcus King signature, '62-inspired)",
+      "finish": "Sixties Cherry",
+      "weight_lbs": 8.0,
+      "nut_width_in": 1.691,
+      "fret1_depth_in": 0.833,
+      "fret12_depth_in": 0.934,
+      "neck_profile": "Rounded",
+      "condition": "Very Good (described as like new)",
+      "serial": null,
+      "city_state": "Nashville, TN",
+      "pickups": "Gibson Custombuckers (PAF-style alnico) - bridge 7.9k / neck 7.9k",
+      "case_included": true,
+      "modifications": "None stated",
+      "published_at": "2026-07-29T16:01:43-05:00",
+      "offers_enabled": true,
+      "note": "Exactly at the 8.0 lb hard ceiling - no headroom. Marcus King ES-345 is factory MONO wired with NO Varitone circuit. Weight-adding hardware: fixed Vibrola tailpiece plus gold hardware and Grover Rotomatics (heavier than Klusons); that is a chunk of the 8.0 lbs. Nut 1.691in, not the ideal 1-9/16in. Offers enabled, $125 US_CON shipping.",
+      "category": "es_335",
+      "id": "g349",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-09",
+      "last_confirmed_active": "2026-08-09",
+      "market_bucket": "es-335 modern",
+      "price_history": [
+        {
+          "date": "2026-08-09",
+          "price_usd": 3400
+        }
+      ],
+      "offer_intel": {
+        "as_of": "2026-08-09",
+        "anchor_usd": 4112,
+        "over_market_pct": -17,
+        "offers_enabled": true,
+        "days_listed": 11,
+        "suggested_offer_usd": 3150,
+        "discount_pct": 8,
+        "rationale": "8% base"
+      },
+      "score": 67.8,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 80.0,
+          "note": "weight 8.0 lbs"
+        },
+        "neck_35pct": {
+          "score": 49.6,
+          "note": "nut ok (0); 1st fret ok (63); 12th fret ok (86)"
+        },
+        "shoulders_20pct": {
+          "score": 60.0,
+          "note": "profile unclear: 'rounded'"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "very good (described as like new)"
+        },
+        "price_5pct": {
+          "score": 90.0,
+          "note": "at/under anchor"
         }
       }
     },
@@ -11188,13 +11324,13 @@
       ],
       "offer_intel": {
         "as_of": "2026-08-09",
-        "anchor_usd": 5075,
-        "over_market_pct": -29,
+        "anchor_usd": 5172,
+        "over_market_pct": -30,
         "offers_enabled": true,
-        "days_listed": 289,
+        "days_listed": 293,
         "suggested_offer_usd": 3000,
         "discount_pct": 16,
-        "rationale": "8% base; listed 289d; condition/mods"
+        "rationale": "8% base; listed 293d; condition/mods"
       },
       "score": 67.5,
       "score_breakdown": {
@@ -11259,7 +11395,7 @@
         "anchor_usd": 1600,
         "over_market_pct": 0,
         "offers_enabled": false,
-        "days_listed": 61
+        "days_listed": 65
       },
       "score": 67.5,
       "score_breakdown": {
@@ -11337,13 +11473,13 @@
       ],
       "offer_intel": {
         "as_of": "2026-08-09",
-        "anchor_usd": 5075,
-        "over_market_pct": 58,
+        "anchor_usd": 5172,
+        "over_market_pct": 55,
         "offers_enabled": true,
-        "days_listed": 8,
+        "days_listed": 12,
         "suggested_offer_usd": 7050,
         "discount_pct": 12,
-        "rationale": "8% base; 58% over market anchor ($5074)"
+        "rationale": "8% base; 55% over market anchor ($5172)"
       },
       "score": 67.0,
       "score_breakdown": {
@@ -11413,13 +11549,13 @@
       ],
       "offer_intel": {
         "as_of": "2026-08-09",
-        "anchor_usd": 5075,
-        "over_market_pct": 8,
+        "anchor_usd": 5172,
+        "over_market_pct": 6,
         "offers_enabled": true,
-        "days_listed": 669,
+        "days_listed": 673,
         "suggested_offer_usd": 4750,
         "discount_pct": 14,
-        "rationale": "8% base; listed 669d"
+        "rationale": "8% base; listed 673d"
       },
       "score": 67.0,
       "score_breakdown": {
@@ -11567,10 +11703,10 @@
         "anchor_usd": 6898,
         "over_market_pct": 1,
         "offers_enabled": true,
-        "days_listed": 162,
+        "days_listed": 166,
         "suggested_offer_usd": 6000,
         "discount_pct": 14,
-        "rationale": "8% base; listed 162d; condition/mods"
+        "rationale": "8% base; listed 166d; condition/mods"
       },
       "score": 66.8,
       "score_breakdown": {
@@ -11643,7 +11779,7 @@
         "anchor_usd": 7500,
         "over_market_pct": -7,
         "offers_enabled": true,
-        "days_listed": 26,
+        "days_listed": 30,
         "suggested_offer_usd": 6450,
         "discount_pct": 8,
         "rationale": "8% base"
@@ -11721,10 +11857,10 @@
         "anchor_usd": 6898,
         "over_market_pct": 1,
         "offers_enabled": true,
-        "days_listed": 860,
+        "days_listed": 864,
         "suggested_offer_usd": 5900,
         "discount_pct": 16,
-        "rationale": "8% base; listed 860d; condition/mods"
+        "rationale": "8% base; listed 864d; condition/mods"
       },
       "score": 66.7,
       "score_breakdown": {
@@ -11797,10 +11933,10 @@
         "anchor_usd": 5500,
         "over_market_pct": 7,
         "offers_enabled": true,
-        "days_listed": 1011,
+        "days_listed": 1015,
         "suggested_offer_usd": 5050,
         "discount_pct": 14,
-        "rationale": "8% base; listed 1011d"
+        "rationale": "8% base; listed 1015d"
       },
       "score": 66.6,
       "score_breakdown": {
@@ -11948,10 +12084,10 @@
         "anchor_usd": 5500,
         "over_market_pct": 27,
         "offers_enabled": true,
-        "days_listed": 904,
+        "days_listed": 908,
         "suggested_offer_usd": 5750,
         "discount_pct": 18,
-        "rationale": "8% base; listed 904d; 27% over market anchor ($5500); condition/mods"
+        "rationale": "8% base; listed 908d; 27% over market anchor ($5500); condition/mods"
       },
       "score": 66.5,
       "score_breakdown": {
@@ -12021,10 +12157,10 @@
       ],
       "offer_intel": {
         "as_of": "2026-08-09",
-        "anchor_usd": 3450,
+        "anchor_usd": 3475,
         "over_market_pct": -19,
         "offers_enabled": true,
-        "days_listed": -2,
+        "days_listed": 2,
         "suggested_offer_usd": 2600,
         "discount_pct": 8,
         "rationale": "8% base"
@@ -12099,10 +12235,10 @@
       ],
       "offer_intel": {
         "as_of": "2026-08-09",
-        "anchor_usd": 5075,
-        "over_market_pct": -29,
+        "anchor_usd": 5172,
+        "over_market_pct": -30,
         "offers_enabled": false,
-        "days_listed": 6
+        "days_listed": 10
       },
       "score": 66.2,
       "score_breakdown": {
@@ -12250,10 +12386,10 @@
         "anchor_usd": 6898,
         "over_market_pct": 1,
         "offers_enabled": true,
-        "days_listed": 864,
+        "days_listed": 868,
         "suggested_offer_usd": 5900,
         "discount_pct": 16,
-        "rationale": "8% base; listed 864d; condition/mods"
+        "rationale": "8% base; listed 868d; condition/mods"
       },
       "score": 65.5,
       "score_breakdown": {
@@ -12323,13 +12459,13 @@
       ],
       "offer_intel": {
         "as_of": "2026-08-09",
-        "anchor_usd": 5075,
-        "over_market_pct": 23,
+        "anchor_usd": 5172,
+        "over_market_pct": 21,
         "offers_enabled": true,
-        "days_listed": -1,
+        "days_listed": 3,
         "suggested_offer_usd": 5400,
         "discount_pct": 14,
-        "rationale": "8% base; 23% over market anchor ($5074); condition/mods"
+        "rationale": "8% base; 21% over market anchor ($5172); condition/mods"
       },
       "score": 65.3,
       "score_breakdown": {
@@ -12418,7 +12554,7 @@
         "anchor_usd": 2350,
         "over_market_pct": 32,
         "offers_enabled": false,
-        "days_listed": 160
+        "days_listed": 164
       },
       "research_cluster": "mij-335",
       "research": [
@@ -12478,10 +12614,10 @@
         "anchor_usd": 6898,
         "over_market_pct": 1,
         "offers_enabled": true,
-        "days_listed": 162,
+        "days_listed": 166,
         "suggested_offer_usd": 6000,
         "discount_pct": 14,
-        "rationale": "8% base; listed 162d; condition/mods"
+        "rationale": "8% base; listed 166d; condition/mods"
       },
       "score": 64.8,
       "score_breakdown": {
@@ -12556,7 +12692,7 @@
         "anchor_usd": 6898,
         "over_market_pct": 1,
         "offers_enabled": false,
-        "days_listed": 876
+        "days_listed": 880
       },
       "score": 64.8,
       "score_breakdown": {
@@ -12628,7 +12764,7 @@
         "anchor_usd": 7500,
         "over_market_pct": 3,
         "offers_enabled": true,
-        "days_listed": 1,
+        "days_listed": 5,
         "suggested_offer_usd": 7100,
         "discount_pct": 8,
         "rationale": "8% base"
@@ -12650,6 +12786,70 @@
         "condition_10pct": {
           "score": 98.0,
           "note": "mint"
+        },
+        "price_5pct": {
+          "score": 70.0,
+          "note": "slightly above anchor"
+        }
+      }
+    },
+    {
+      "url": "https://reverb.com/item/84918650-gibson-es-345-semi-hollow-electric-guitar-vintage-burst",
+      "dealer": "Reverb \u2013 Alto Music",
+      "price_usd": 3799,
+      "year": null,
+      "model": "ES-345 (current production)",
+      "finish": "Vintage Burst",
+      "weight_lbs": 7.9,
+      "nut_width_in": null,
+      "fret1_depth_in": null,
+      "fret12_depth_in": null,
+      "neck_profile": "Rounded C (factory spec, not measured in listing)",
+      "condition": "Brand New",
+      "serial": null,
+      "city_state": "Middletown, NY",
+      "pickups": "Gibson Calibrated T-Type humbuckers (PAF-style alnico)",
+      "case_included": true,
+      "modifications": "None - new instrument",
+      "published_at": "2024-10-01T13:24:56-05:00",
+      "offers_enabled": false,
+      "note": "Dealer states an actual per-guitar weight of 7.9 lbs on top of Gibson boilerplate copy, so it reads as a real scale figure rather than a spec sheet. Modern ES-345: NO Varitone, MONO wiring, aluminum ABR-1 + stop bar, no Bigsby/Maestro/TP-6. No nut width or serial published - ask. Middletown NY is upstate, NOT a NYC weigh-in-person shop, but it is a drivable day trip. Free US_CON shipping, offers disabled. Listing is old (Oct 2024) - confirm it is still the same physical guitar.",
+      "category": "es_335",
+      "id": "g350",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-09",
+      "last_confirmed_active": "2026-08-09",
+      "market_bucket": "es-335 modern",
+      "price_history": [
+        {
+          "date": "2026-08-09",
+          "price_usd": 3799
+        }
+      ],
+      "offer_intel": {
+        "as_of": "2026-08-09",
+        "anchor_usd": 4112,
+        "over_market_pct": -8,
+        "offers_enabled": false,
+        "days_listed": 677
+      },
+      "score": 64.7,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 90.0,
+          "note": "weight 7.9 lbs"
+        },
+        "neck_35pct": {
+          "score": 35.0,
+          "note": "no neck measurements (capped)"
+        },
+        "shoulders_20pct": {
+          "score": 60.0,
+          "note": "profile unclear: 'rounded c (factory spec, not measured in listing)'"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "brand new"
         },
         "price_5pct": {
           "score": 70.0,
@@ -12705,7 +12905,7 @@
         "anchor_usd": 5000,
         "over_market_pct": 8,
         "offers_enabled": false,
-        "days_listed": 497
+        "days_listed": 501
       },
       "score": 64.6,
       "score_breakdown": {
@@ -12925,7 +13125,7 @@
         "anchor_usd": 4207,
         "over_market_pct": -50,
         "offers_enabled": false,
-        "days_listed": 29
+        "days_listed": 33
       },
       "score": 64.5,
       "score_breakdown": {
@@ -13000,7 +13200,7 @@
         "anchor_usd": 7500,
         "over_market_pct": -13,
         "offers_enabled": true,
-        "days_listed": 38,
+        "days_listed": 42,
         "suggested_offer_usd": 6000,
         "discount_pct": 8,
         "rationale": "8% base"
@@ -13078,7 +13278,7 @@
         "anchor_usd": 7174,
         "over_market_pct": -32,
         "offers_enabled": false,
-        "days_listed": 42
+        "days_listed": 46
       },
       "score": 64.5,
       "score_breakdown": {
@@ -13229,7 +13429,7 @@
         "anchor_usd": 4207,
         "over_market_pct": -44,
         "offers_enabled": true,
-        "days_listed": 5,
+        "days_listed": 9,
         "suggested_offer_usd": 2150,
         "discount_pct": 8,
         "rationale": "8% base"
@@ -13307,10 +13507,10 @@
         "anchor_usd": 7174,
         "over_market_pct": -16,
         "offers_enabled": true,
-        "days_listed": 293,
+        "days_listed": 297,
         "suggested_offer_usd": 5150,
         "discount_pct": 14,
-        "rationale": "8% base; listed 293d"
+        "rationale": "8% base; listed 297d"
       },
       "score": 64.2,
       "score_breakdown": {
@@ -13383,7 +13583,7 @@
         "anchor_usd": 6400,
         "over_market_pct": -6,
         "offers_enabled": true,
-        "days_listed": 26,
+        "days_listed": 30,
         "suggested_offer_usd": 5500,
         "discount_pct": 8,
         "rationale": "8% base"
@@ -13459,7 +13659,7 @@
         "anchor_usd": 5500,
         "over_market_pct": -1,
         "offers_enabled": true,
-        "days_listed": 68,
+        "days_listed": 72,
         "suggested_offer_usd": 5000,
         "discount_pct": 8,
         "rationale": "8% base"
@@ -13537,7 +13737,7 @@
         "anchor_usd": 6898,
         "over_market_pct": -13,
         "offers_enabled": true,
-        "days_listed": 48,
+        "days_listed": 52,
         "suggested_offer_usd": 5500,
         "discount_pct": 8,
         "rationale": "8% base"
@@ -13612,7 +13812,7 @@
         "anchor_usd": 7500,
         "over_market_pct": -13,
         "offers_enabled": false,
-        "days_listed": 6
+        "days_listed": 10
       },
       "score": 64.0,
       "score_breakdown": {
@@ -13682,13 +13882,13 @@
       ],
       "offer_intel": {
         "as_of": "2026-08-09",
-        "anchor_usd": 5075,
-        "over_market_pct": 18,
+        "anchor_usd": 5172,
+        "over_market_pct": 16,
         "offers_enabled": true,
-        "days_listed": 7,
+        "days_listed": 11,
         "suggested_offer_usd": 5150,
         "discount_pct": 14,
-        "rationale": "8% base; 18% over market anchor ($5074); condition/mods"
+        "rationale": "8% base; 16% over market anchor ($5172); condition/mods"
       },
       "score": 63.8,
       "score_breakdown": {
@@ -13763,10 +13963,10 @@
         "anchor_usd": 6400,
         "over_market_pct": 9,
         "offers_enabled": true,
-        "days_listed": 877,
+        "days_listed": 881,
         "suggested_offer_usd": 5900,
         "discount_pct": 16,
-        "rationale": "8% base; listed 877d; condition/mods"
+        "rationale": "8% base; listed 881d; condition/mods"
       },
       "score": 63.8,
       "score_breakdown": {
@@ -13841,10 +14041,10 @@
         "anchor_usd": 6898,
         "over_market_pct": 1,
         "offers_enabled": true,
-        "days_listed": 891,
+        "days_listed": 895,
         "suggested_offer_usd": 5900,
         "discount_pct": 16,
-        "rationale": "8% base; listed 891d; condition/mods"
+        "rationale": "8% base; listed 895d; condition/mods"
       },
       "score": 63.8,
       "score_breakdown": {
@@ -13919,10 +14119,10 @@
         "anchor_usd": 6898,
         "over_market_pct": 1,
         "offers_enabled": true,
-        "days_listed": 900,
+        "days_listed": 904,
         "suggested_offer_usd": 5900,
         "discount_pct": 16,
-        "rationale": "8% base; listed 900d; condition/mods"
+        "rationale": "8% base; listed 904d; condition/mods"
       },
       "score": 63.7,
       "score_breakdown": {
@@ -13992,8 +14192,8 @@
       ],
       "offer_intel": {
         "as_of": "2026-08-09",
-        "anchor_usd": 3450,
-        "over_market_pct": -13
+        "anchor_usd": 3475,
+        "over_market_pct": -14
       },
       "score": 63.6,
       "score_breakdown": {
@@ -14066,7 +14266,7 @@
         "anchor_usd": 5500,
         "over_market_pct": -40,
         "offers_enabled": false,
-        "days_listed": 59
+        "days_listed": 63
       },
       "score": 63.5,
       "score_breakdown": {
@@ -14139,7 +14339,7 @@
         "anchor_usd": 7500,
         "over_market_pct": -37,
         "offers_enabled": true,
-        "days_listed": 20,
+        "days_listed": 25,
         "suggested_offer_usd": 4300,
         "discount_pct": 10,
         "rationale": "8% base; condition/mods"
@@ -14215,7 +14415,7 @@
         "anchor_usd": 5500,
         "over_market_pct": -24,
         "offers_enabled": true,
-        "days_listed": -1,
+        "days_listed": 3,
         "suggested_offer_usd": 3800,
         "discount_pct": 10,
         "rationale": "8% base; condition/mods"
@@ -14293,7 +14493,7 @@
         "anchor_usd": 5500,
         "over_market_pct": -25,
         "offers_enabled": false,
-        "days_listed": 10
+        "days_listed": 14
       },
       "score": 63.5,
       "score_breakdown": {
@@ -14368,10 +14568,10 @@
         "anchor_usd": 6898,
         "over_market_pct": 16,
         "offers_enabled": true,
-        "days_listed": 868,
+        "days_listed": 872,
         "suggested_offer_usd": 6550,
         "discount_pct": 18,
-        "rationale": "8% base; listed 868d; 16% over market anchor ($6897); condition/mods"
+        "rationale": "8% base; listed 872d; 16% over market anchor ($6897); condition/mods"
       },
       "score": 63.5,
       "score_breakdown": {
@@ -14446,10 +14646,10 @@
         "anchor_usd": 6400,
         "over_market_pct": 9,
         "offers_enabled": true,
-        "days_listed": 877,
+        "days_listed": 880,
         "suggested_offer_usd": 5900,
         "discount_pct": 16,
-        "rationale": "8% base; listed 877d; condition/mods"
+        "rationale": "8% base; listed 880d; condition/mods"
       },
       "score": 63.5,
       "score_breakdown": {
@@ -14596,10 +14796,10 @@
       ],
       "offer_intel": {
         "as_of": "2026-08-09",
-        "anchor_usd": 5075,
-        "over_market_pct": -8,
+        "anchor_usd": 5172,
+        "over_market_pct": -10,
         "offers_enabled": true,
-        "days_listed": 16,
+        "days_listed": 20,
         "suggested_offer_usd": 4200,
         "discount_pct": 10,
         "rationale": "8% base; condition/mods"
@@ -14677,7 +14877,7 @@
         "anchor_usd": 7500,
         "over_market_pct": -3,
         "offers_enabled": false,
-        "days_listed": 737
+        "days_listed": 741
       },
       "score": 63.3,
       "score_breakdown": {
@@ -14749,7 +14949,7 @@
         "anchor_usd": 7500,
         "over_market_pct": -20,
         "offers_enabled": true,
-        "days_listed": 5,
+        "days_listed": 9,
         "suggested_offer_usd": 5500,
         "discount_pct": 8,
         "rationale": "8% base"
@@ -14817,7 +15017,7 @@
         "anchor_usd": 5575,
         "over_market_pct": 20,
         "offers_enabled": false,
-        "days_listed": 113
+        "days_listed": 117
       },
       "score": 63.1,
       "score_breakdown": {
@@ -14890,7 +15090,7 @@
         "anchor_usd": 5575,
         "over_market_pct": 20,
         "offers_enabled": false,
-        "days_listed": 113
+        "days_listed": 117
       },
       "score": 63.1,
       "score_breakdown": {
@@ -14963,7 +15163,7 @@
         "anchor_usd": 5000,
         "over_market_pct": -16,
         "offers_enabled": false,
-        "days_listed": 15
+        "days_listed": 19
       },
       "score": 63.0,
       "score_breakdown": {
@@ -15036,7 +15236,7 @@
         "anchor_usd": 5500,
         "over_market_pct": -5,
         "offers_enabled": true,
-        "days_listed": 48,
+        "days_listed": 52,
         "suggested_offer_usd": 4700,
         "discount_pct": 10,
         "rationale": "8% base; condition/mods"
@@ -15110,13 +15310,13 @@
       ],
       "offer_intel": {
         "as_of": "2026-08-09",
-        "anchor_usd": 3450,
+        "anchor_usd": 3475,
         "over_market_pct": 4,
         "offers_enabled": true,
-        "days_listed": 229,
+        "days_listed": 233,
         "suggested_offer_usd": 3100,
         "discount_pct": 14,
-        "rationale": "8% base; listed 229d"
+        "rationale": "8% base; listed 233d"
       },
       "score": 63.0,
       "score_breakdown": {
@@ -15195,7 +15395,7 @@
         "anchor_usd": 7500,
         "over_market_pct": -20,
         "offers_enabled": true,
-        "days_listed": 19,
+        "days_listed": 23,
         "suggested_offer_usd": 5500,
         "discount_pct": 8,
         "rationale": "8% base"
@@ -15271,10 +15471,10 @@
         "anchor_usd": 5500,
         "over_market_pct": 0,
         "offers_enabled": true,
-        "days_listed": 458,
+        "days_listed": 462,
         "suggested_offer_usd": 4600,
         "discount_pct": 16,
-        "rationale": "8% base; listed 458d; condition/mods"
+        "rationale": "8% base; listed 462d; condition/mods"
       },
       "score": 62.8,
       "score_breakdown": {
@@ -15349,10 +15549,10 @@
         "anchor_usd": 6898,
         "over_market_pct": 1,
         "offers_enabled": true,
-        "days_listed": 852,
+        "days_listed": 856,
         "suggested_offer_usd": 5900,
         "discount_pct": 16,
-        "rationale": "8% base; listed 852d; condition/mods"
+        "rationale": "8% base; listed 856d; condition/mods"
       },
       "score": 62.8,
       "score_breakdown": {
@@ -15445,8 +15645,8 @@
       ],
       "offer_intel": {
         "as_of": "2026-08-09",
-        "anchor_usd": 5075,
-        "over_market_pct": 23
+        "anchor_usd": 5172,
+        "over_market_pct": 21
       }
     },
     {
@@ -15502,7 +15702,7 @@
         "anchor_usd": 6898,
         "over_market_pct": -25,
         "offers_enabled": false,
-        "days_listed": 971
+        "days_listed": 974
       },
       "score": 62.5,
       "score_breakdown": {
@@ -15575,7 +15775,7 @@
         "anchor_usd": 5575,
         "over_market_pct": -12,
         "offers_enabled": true,
-        "days_listed": 6,
+        "days_listed": 10,
         "suggested_offer_usd": 4500,
         "discount_pct": 8,
         "rationale": "8% base"
@@ -15651,10 +15851,10 @@
         "anchor_usd": 5500,
         "over_market_pct": -2,
         "offers_enabled": true,
-        "days_listed": 933,
+        "days_listed": 937,
         "suggested_offer_usd": 4650,
         "discount_pct": 14,
-        "rationale": "8% base; listed 933d"
+        "rationale": "8% base; listed 937d"
       },
       "score": 62.4,
       "score_breakdown": {
@@ -15729,10 +15929,10 @@
         "anchor_usd": 6898,
         "over_market_pct": 1,
         "offers_enabled": true,
-        "days_listed": 869,
+        "days_listed": 873,
         "suggested_offer_usd": 5900,
         "discount_pct": 16,
-        "rationale": "8% base; listed 869d; condition/mods"
+        "rationale": "8% base; listed 873d; condition/mods"
       },
       "score": 62.4,
       "score_breakdown": {
@@ -15802,10 +16002,10 @@
       ],
       "offer_intel": {
         "as_of": "2026-08-09",
-        "anchor_usd": 3450,
+        "anchor_usd": 3475,
         "over_market_pct": -22,
         "offers_enabled": false,
-        "days_listed": -3
+        "days_listed": 1
       },
       "score": 62.3,
       "score_breakdown": {
@@ -15955,10 +16155,10 @@
         "anchor_usd": 6400,
         "over_market_pct": -41,
         "offers_enabled": true,
-        "days_listed": 440,
+        "days_listed": 444,
         "suggested_offer_usd": 3200,
         "discount_pct": 16,
-        "rationale": "8% base; listed 440d; condition/mods"
+        "rationale": "8% base; listed 444d; condition/mods"
       },
       "score": 62.2,
       "score_breakdown": {
@@ -16023,7 +16223,7 @@
         "anchor_usd": 5575,
         "over_market_pct": 29,
         "offers_enabled": false,
-        "days_listed": 113
+        "days_listed": 117
       },
       "score": 62.2,
       "score_breakdown": {
@@ -16085,10 +16285,10 @@
       ],
       "offer_intel": {
         "as_of": "2026-08-09",
-        "anchor_usd": 4225,
-        "over_market_pct": -29,
+        "anchor_usd": 4112,
+        "over_market_pct": -27,
         "offers_enabled": false,
-        "days_listed": 18
+        "days_listed": 22
       },
       "score": 62.1,
       "score_breakdown": {
@@ -16230,10 +16430,10 @@
       ],
       "offer_intel": {
         "as_of": "2026-08-09",
-        "anchor_usd": 3450,
-        "over_market_pct": -4,
+        "anchor_usd": 3475,
+        "over_market_pct": -5,
         "offers_enabled": false,
-        "days_listed": 8
+        "days_listed": 12
       },
       "score": 62.1,
       "score_breakdown": {
@@ -16302,9 +16502,7 @@
       ],
       "offer_intel": {
         "as_of": "2026-08-09",
-        "anchor_usd": null,
-        "offers_enabled": false,
-        "days_listed": 728
+        "anchor_usd": null
       },
       "score": 62.0,
       "score_breakdown": {
@@ -16377,7 +16575,7 @@
         "anchor_usd": 5500,
         "over_market_pct": 25,
         "offers_enabled": true,
-        "days_listed": 38,
+        "days_listed": 42,
         "suggested_offer_usd": 6050,
         "discount_pct": 12,
         "rationale": "8% base; 25% over market anchor ($5500)"
@@ -16402,6 +16600,81 @@
         },
         "price_5pct": {
           "score": 49.1,
+          "note": "well above anchor"
+        }
+      }
+    },
+    {
+      "url": "https://reverb.com/item/92253310-2018-gibson-memphis-es-355-graphite",
+      "dealer": "Reverb \u2013 Austin Vintage Guitars",
+      "price_usd": 4399,
+      "year": 2018,
+      "model": "ES-355 (Gibson Memphis, limited edition)",
+      "finish": "Graphite (metallic)",
+      "weight_lbs": 7.5,
+      "nut_width_in": null,
+      "fret1_depth_in": null,
+      "fret12_depth_in": null,
+      "neck_profile": null,
+      "condition": "Excellent",
+      "serial": null,
+      "city_state": "Austin, TX",
+      "pickups": "Not stated in listing - 2018 Memphis ES-355 shipped with MHS (PAF-style alnico) humbuckers; confirm with dealer",
+      "case_included": true,
+      "modifications": "None - stated all original",
+      "published_at": "2026-07-20T15:41:35-05:00",
+      "offers_enabled": true,
+      "note": "LIGHTEST exact-weight find in the entire sweep at 7 lbs 8 oz - right at the bottom of the buyer's ideal 7.5-7.8 band. Varitone/stereo status NOT stated; 2018 Gibson Memphis ES-355 was built mono with no Varitone and a stop bar, but this must be confirmed with the dealer given the buyer's explicit requirement. No Bigsby/Maestro/TP-6 mentioned. Comes with original HSC and COA. Nut width and serial not published - ask. $165 US_CON shipping, offers enabled.",
+      "category": "es_335",
+      "id": "g352",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-09",
+      "last_confirmed_active": "2026-08-09",
+      "market_bucket": "es-335 memphis",
+      "price_history": [
+        {
+          "date": "2026-08-09",
+          "price_usd": 4399
+        }
+      ],
+      "research_cluster": "memphis-335",
+      "research": [
+        "Neck feel: Memphis-era necks trend slim \u2014 2014 dots ~.80-.88\" with decent shoulder; 2015-18 add rolled fingerboard binding that owners love; profile varies by sub-model ('58/'63 reissues carry year-appropriate carves).",
+        "Pickups: MHS (Memphis Historic Spec) humbuckers \u2014 Alnico III vintage voicing; largely positive ('very vintage, mellow, smooth'), minority complaint: darker/softer than Burstbuckers into dark amps.",
+        "Known issues: QC inconsistency is the era's theme \u2014 mis-cut nuts and string-spacing errors, deep nut slots with high bridges, hide-glue squeeze-out visible through f-holes, occasional finish flaws; good examples rival Nashville CS output.",
+        "Market/value: strong used-value reputation since the Memphis plant closed (2019) \u2014 '58/'59/'63 reissues and Figured models have appreciated modestly and are the recommended sweet spot for vintage-voiced 335s under Custom Shop money.",
+        "Verify before buying: nut cut and string spacing (the era's signature flaw), setup feel or a return window, glue squeeze-out, which sub-model it actually is (big value differences), original MHS pickups, weight (7.5-9 lbs spread)."
+      ],
+      "offer_intel": {
+        "as_of": "2026-08-09",
+        "anchor_usd": 3475,
+        "over_market_pct": 27,
+        "offers_enabled": true,
+        "days_listed": 20,
+        "suggested_offer_usd": 3850,
+        "discount_pct": 12,
+        "rationale": "8% base; 27% over market anchor ($3474)"
+      },
+      "score": 61.9,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 7.5 lbs"
+        },
+        "neck_35pct": {
+          "score": 35.0,
+          "note": "no neck measurements (capped)"
+        },
+        "shoulders_20pct": {
+          "score": 40.0,
+          "note": "no shoulder/profile info"
+        },
+        "condition_10pct": {
+          "score": 92.0,
+          "note": "excellent"
+        },
+        "price_5pct": {
+          "score": 48.6,
           "note": "well above anchor"
         }
       }
@@ -16603,7 +16876,7 @@
         "anchor_usd": 5000,
         "over_market_pct": -18,
         "offers_enabled": true,
-        "days_listed": 10,
+        "days_listed": 14,
         "suggested_offer_usd": 3750,
         "discount_pct": 8,
         "rationale": "8% base"
@@ -16702,7 +16975,7 @@
         "anchor_usd": 5000,
         "over_market_pct": 0,
         "offers_enabled": false,
-        "days_listed": 262
+        "days_listed": 266
       }
     },
     {
@@ -16752,10 +17025,10 @@
         "anchor_usd": 5500,
         "over_market_pct": -33,
         "offers_enabled": true,
-        "days_listed": 309,
+        "days_listed": 313,
         "suggested_offer_usd": 3100,
         "discount_pct": 16,
-        "rationale": "8% base; listed 309d; condition/mods"
+        "rationale": "8% base; listed 313d; condition/mods"
       },
       "score": 61.5,
       "score_breakdown": {
@@ -16778,6 +17051,70 @@
         "price_5pct": {
           "score": 100.0,
           "note": "33% under anchor"
+        }
+      }
+    },
+    {
+      "url": "https://reverb.com/item/98748443-2023-gibson-es-345-semi-hollow-electric-guitar-gloss-sunburst-ohsc",
+      "dealer": "Reverb \u2013 Lovies Guitars",
+      "price_usd": 2995,
+      "year": 2023,
+      "model": "ES-345",
+      "finish": "Gloss Sunburst",
+      "weight_lbs": 7.8,
+      "nut_width_in": 1.6875,
+      "fret1_depth_in": 0.855,
+      "fret12_depth_in": 0.97,
+      "neck_profile": null,
+      "condition": "Excellent (dealer 9.6/10)",
+      "serial": "206530190",
+      "city_state": "Thousand Oaks, CA",
+      "pickups": "Gibson Calibrated T-Type humbuckers (PAF-style alnico, modern) - neck & bridge",
+      "case_included": true,
+      "modifications": "None stated; all original",
+      "published_at": "2026-06-25T16:16:13-07:00",
+      "offers_enabled": false,
+      "note": "Best weight-to-price in the sweep and dead in the buyer's ideal 7.5-7.8 lb band. Modern (2019-onward) Gibson USA ES-345: NO Varitone circuit and wired MONO with 2 vol / 2 tone / 3-way - the Varitone/stereo question does not apply. Stop bar tailpiece, no Bigsby/Maestro/TP-6, so no weight-adding hardware. Nut is 1-11/16in, NOT the buyer's ideal 1-9/16in. Free US_CON shipping. Offers disabled.",
+      "category": "es_335",
+      "id": "g348",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-09",
+      "last_confirmed_active": "2026-08-09",
+      "market_bucket": "es-335 modern",
+      "price_history": [
+        {
+          "date": "2026-08-09",
+          "price_usd": 2995
+        }
+      ],
+      "offer_intel": {
+        "as_of": "2026-08-09",
+        "anchor_usd": 4112,
+        "over_market_pct": -27,
+        "offers_enabled": false,
+        "days_listed": 45
+      },
+      "score": 61.4,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 7.8 lbs"
+        },
+        "neck_35pct": {
+          "score": 27.8,
+          "note": "nut ok (0); 1st fret ok (33); 12th fret ok (50)"
+        },
+        "shoulders_20pct": {
+          "score": 40.0,
+          "note": "no shoulder/profile info"
+        },
+        "condition_10pct": {
+          "score": 92.0,
+          "note": "excellent (dealer 9.6/10)"
+        },
+        "price_5pct": {
+          "score": 90.0,
+          "note": "at/under anchor"
         }
       }
     },
@@ -16820,7 +17157,7 @@
         "anchor_usd": 5575,
         "over_market_pct": 20,
         "offers_enabled": false,
-        "days_listed": 113
+        "days_listed": 117
       },
       "score": 61.1,
       "score_breakdown": {
@@ -16891,10 +17228,10 @@
       ],
       "offer_intel": {
         "as_of": "2026-08-09",
-        "anchor_usd": 3450,
-        "over_market_pct": -1,
+        "anchor_usd": 3475,
+        "over_market_pct": -2,
         "offers_enabled": true,
-        "days_listed": 42,
+        "days_listed": 46,
         "suggested_offer_usd": 3150,
         "discount_pct": 8,
         "rationale": "8% base"
@@ -16968,13 +17305,13 @@
       ],
       "offer_intel": {
         "as_of": "2026-08-09",
-        "anchor_usd": 3450,
-        "over_market_pct": 28,
+        "anchor_usd": 3475,
+        "over_market_pct": 27,
         "offers_enabled": true,
-        "days_listed": 43,
+        "days_listed": 47,
         "suggested_offer_usd": 3800,
         "discount_pct": 14,
-        "rationale": "8% base; 28% over market anchor ($3449); condition/mods"
+        "rationale": "8% base; 27% over market anchor ($3474); condition/mods"
       },
       "score": 60.9,
       "score_breakdown": {
@@ -17039,7 +17376,7 @@
         "anchor_usd": 5575,
         "over_market_pct": 24,
         "offers_enabled": false,
-        "days_listed": 113
+        "days_listed": 117
       },
       "score": 60.7,
       "score_breakdown": {
@@ -17114,7 +17451,7 @@
         "anchor_usd": 7500,
         "over_market_pct": -31,
         "offers_enabled": true,
-        "days_listed": 2,
+        "days_listed": 6,
         "suggested_offer_usd": 4750,
         "discount_pct": 8,
         "rationale": "8% base"
@@ -17189,10 +17526,10 @@
       ],
       "offer_intel": {
         "as_of": "2026-08-09",
-        "anchor_usd": 4225,
-        "over_market_pct": -1,
+        "anchor_usd": 4112,
+        "over_market_pct": 2,
         "offers_enabled": false,
-        "days_listed": 2
+        "days_listed": 6
       },
       "score": 60.5,
       "score_breakdown": {
@@ -17257,7 +17594,7 @@
         "anchor_usd": 5575,
         "over_market_pct": 47,
         "offers_enabled": false,
-        "days_listed": 113
+        "days_listed": 117
       },
       "score": 60.3,
       "score_breakdown": {
@@ -17322,7 +17659,7 @@
         "anchor_usd": 5575,
         "over_market_pct": 47,
         "offers_enabled": false,
-        "days_listed": 113
+        "days_listed": 117
       },
       "score": 60.3,
       "score_breakdown": {
@@ -17391,10 +17728,10 @@
       ],
       "offer_intel": {
         "as_of": "2026-08-09",
-        "anchor_usd": 3450,
-        "over_market_pct": 7,
+        "anchor_usd": 3475,
+        "over_market_pct": 6,
         "offers_enabled": true,
-        "days_listed": 16,
+        "days_listed": 20,
         "suggested_offer_usd": 3400,
         "discount_pct": 8,
         "rationale": "8% base"
@@ -17474,7 +17811,7 @@
         "anchor_usd": 4207,
         "over_market_pct": 38,
         "offers_enabled": false,
-        "days_listed": 8
+        "days_listed": 12
       },
       "score": 60.0,
       "score_breakdown": {
@@ -17549,7 +17886,7 @@
         "anchor_usd": 6400,
         "over_market_pct": -6,
         "offers_enabled": false,
-        "days_listed": 329
+        "days_listed": 333
       },
       "score": 60.0,
       "score_breakdown": {
@@ -17688,13 +18025,13 @@
       ],
       "offer_intel": {
         "as_of": "2026-08-09",
-        "anchor_usd": 4225,
-        "over_market_pct": 17,
+        "anchor_usd": 4112,
+        "over_market_pct": 20,
         "offers_enabled": true,
-        "days_listed": 4,
+        "days_listed": 8,
         "suggested_offer_usd": 4350,
         "discount_pct": 12,
-        "rationale": "8% base; 17% over market anchor ($4225)"
+        "rationale": "8% base; 20% over market anchor ($4112)"
       },
       "score": 59.7,
       "score_breakdown": {
@@ -17764,8 +18101,8 @@
       ],
       "offer_intel": {
         "as_of": "2026-08-09",
-        "anchor_usd": 4225,
-        "over_market_pct": 9
+        "anchor_usd": 4112,
+        "over_market_pct": 12
       },
       "score": 59.5,
       "score_breakdown": {
@@ -17838,10 +18175,10 @@
         "anchor_usd": 4207,
         "over_market_pct": 102,
         "offers_enabled": true,
-        "days_listed": 138,
+        "days_listed": 142,
         "suggested_offer_usd": 7150,
         "discount_pct": 16,
-        "rationale": "8% base; listed 138d; 102% over market anchor ($4207)"
+        "rationale": "8% base; listed 142d; 102% over market anchor ($4207)"
       },
       "score": 59.5,
       "score_breakdown": {
@@ -17991,10 +18328,10 @@
         "anchor_usd": 4207,
         "over_market_pct": 57,
         "offers_enabled": true,
-        "days_listed": 245,
+        "days_listed": 249,
         "suggested_offer_usd": 5400,
         "discount_pct": 18,
-        "rationale": "8% base; listed 245d; 57% over market anchor ($4207)"
+        "rationale": "8% base; listed 249d; 57% over market anchor ($4207)"
       },
       "score": 59.5,
       "score_breakdown": {
@@ -18067,7 +18404,7 @@
         "anchor_usd": 4207,
         "over_market_pct": 31,
         "offers_enabled": true,
-        "days_listed": 6,
+        "days_listed": 10,
         "suggested_offer_usd": 4850,
         "discount_pct": 12,
         "rationale": "8% base; 31% over market anchor ($4207)"
@@ -18143,7 +18480,7 @@
         "anchor_usd": 4207,
         "over_market_pct": -76,
         "offers_enabled": false,
-        "days_listed": 34
+        "days_listed": 38
       },
       "score": 59.5,
       "score_breakdown": {
@@ -18297,7 +18634,7 @@
         "anchor_usd": 4207,
         "over_market_pct": 2,
         "offers_enabled": true,
-        "days_listed": 54,
+        "days_listed": 59,
         "suggested_offer_usd": 3950,
         "discount_pct": 8,
         "rationale": "8% base"
@@ -18372,7 +18709,7 @@
         "anchor_usd": 7500,
         "over_market_pct": -20,
         "offers_enabled": false,
-        "days_listed": 6
+        "days_listed": 10
       },
       "score": 59.3,
       "score_breakdown": {
@@ -18445,10 +18782,10 @@
         "anchor_usd": 4207,
         "over_market_pct": 133,
         "offers_enabled": true,
-        "days_listed": 206,
+        "days_listed": 210,
         "suggested_offer_usd": 8050,
         "discount_pct": 18,
-        "rationale": "8% base; listed 206d; 133% over market anchor ($4207)"
+        "rationale": "8% base; listed 210d; 133% over market anchor ($4207)"
       },
       "score": 59.2,
       "score_breakdown": {
@@ -18523,7 +18860,7 @@
         "anchor_usd": 4207,
         "over_market_pct": 59,
         "offers_enabled": false,
-        "days_listed": 497
+        "days_listed": 502
       },
       "score": 59.1,
       "score_breakdown": {
@@ -18598,7 +18935,7 @@
         "anchor_usd": 4207,
         "over_market_pct": 59,
         "offers_enabled": false,
-        "days_listed": 608
+        "days_listed": 611
       },
       "score": 59.1,
       "score_breakdown": {
@@ -18694,7 +19031,7 @@
         "anchor_usd": 5000,
         "over_market_pct": 20,
         "offers_enabled": false,
-        "days_listed": 329
+        "days_listed": 333
       }
     },
     {
@@ -19050,8 +19387,8 @@
       ],
       "offer_intel": {
         "as_of": "2026-08-09",
-        "anchor_usd": 4225,
-        "over_market_pct": 15
+        "anchor_usd": 4112,
+        "over_market_pct": 18
       }
     },
     {
@@ -19121,8 +19458,8 @@
       ],
       "offer_intel": {
         "as_of": "2026-08-09",
-        "anchor_usd": 4225,
-        "over_market_pct": 42
+        "anchor_usd": 4112,
+        "over_market_pct": 46
       }
     },
     {
@@ -19173,7 +19510,7 @@
         "anchor_usd": 5000,
         "over_market_pct": 20,
         "offers_enabled": false,
-        "days_listed": 166
+        "days_listed": 170
       },
       "score": 59.0,
       "score_breakdown": {
@@ -19247,7 +19584,7 @@
         "anchor_usd": 5000,
         "over_market_pct": 20,
         "offers_enabled": false,
-        "days_listed": 251
+        "days_listed": 256
       },
       "score": 59.0,
       "score_breakdown": {
@@ -19321,7 +19658,7 @@
         "anchor_usd": 5000,
         "over_market_pct": 20,
         "offers_enabled": false,
-        "days_listed": 274
+        "days_listed": 278
       },
       "score": 59.0,
       "score_breakdown": {
@@ -19395,7 +19732,7 @@
         "anchor_usd": 5000,
         "over_market_pct": 20,
         "offers_enabled": false,
-        "days_listed": 307
+        "days_listed": 311
       },
       "score": 59.0,
       "score_breakdown": {
@@ -19469,7 +19806,7 @@
         "anchor_usd": 5000,
         "over_market_pct": 20,
         "offers_enabled": false,
-        "days_listed": 1083
+        "days_listed": 1087
       },
       "score": 59.0,
       "score_breakdown": {
@@ -19539,13 +19876,13 @@
       ],
       "offer_intel": {
         "as_of": "2026-08-09",
-        "anchor_usd": 4225,
-        "over_market_pct": 18,
+        "anchor_usd": 4112,
+        "over_market_pct": 22,
         "offers_enabled": true,
-        "days_listed": 1,
+        "days_listed": 5,
         "suggested_offer_usd": 4400,
         "discount_pct": 12,
-        "rationale": "8% base; 18% over market anchor ($4225)"
+        "rationale": "8% base; 22% over market anchor ($4112)"
       },
       "score": 58.9,
       "score_breakdown": {
@@ -19642,7 +19979,7 @@
         "anchor_usd": 1600,
         "over_market_pct": -6,
         "offers_enabled": false,
-        "days_listed": 61
+        "days_listed": 65
       }
     },
     {
@@ -19712,8 +20049,8 @@
       ],
       "offer_intel": {
         "as_of": "2026-08-09",
-        "anchor_usd": 4225,
-        "over_market_pct": 23
+        "anchor_usd": 4112,
+        "over_market_pct": 26
       }
     },
     {
@@ -19765,7 +20102,7 @@
         "anchor_usd": 7174,
         "over_market_pct": 36,
         "offers_enabled": true,
-        "days_listed": 7,
+        "days_listed": 11,
         "suggested_offer_usd": 8400,
         "discount_pct": 14,
         "rationale": "8% base; 36% over market anchor ($7174); condition/mods"
@@ -19916,7 +20253,7 @@
         "anchor_usd": 4207,
         "over_market_pct": 14,
         "offers_enabled": true,
-        "days_listed": -1,
+        "days_listed": 3,
         "suggested_offer_usd": 4200,
         "discount_pct": 12,
         "rationale": "8% base; 14% over market anchor ($4207)"
@@ -19992,7 +20329,7 @@
         "anchor_usd": 2350,
         "over_market_pct": -79,
         "offers_enabled": true,
-        "days_listed": 47,
+        "days_listed": 51,
         "suggested_offer_usd": 450,
         "discount_pct": 8,
         "rationale": "8% base"
@@ -20147,7 +20484,7 @@
         "anchor_usd": 4207,
         "over_market_pct": 90,
         "offers_enabled": true,
-        "days_listed": 29,
+        "days_listed": 33,
         "suggested_offer_usd": 7050,
         "discount_pct": 12,
         "rationale": "8% base; 90% over market anchor ($4207)"
@@ -20309,8 +20646,8 @@
       ],
       "offer_intel": {
         "as_of": "2026-08-09",
-        "anchor_usd": 4225,
-        "over_market_pct": 59
+        "anchor_usd": 4112,
+        "over_market_pct": 63
       }
     },
     {
@@ -20431,7 +20768,7 @@
         "anchor_usd": 4207,
         "over_market_pct": 66,
         "offers_enabled": true,
-        "days_listed": 6,
+        "days_listed": 10,
         "suggested_offer_usd": 6000,
         "discount_pct": 14,
         "rationale": "8% base; 66% over market anchor ($4207); condition/mods"
@@ -20651,7 +20988,7 @@
         "anchor_usd": 4207,
         "over_market_pct": 59,
         "offers_enabled": false,
-        "days_listed": 506
+        "days_listed": 510
       },
       "score": 56.5,
       "score_breakdown": {
@@ -20736,8 +21073,8 @@
       },
       "offer_intel": {
         "as_of": "2026-08-09",
-        "anchor_usd": 4225,
-        "over_market_pct": -17
+        "anchor_usd": 4112,
+        "over_market_pct": -15
       }
     },
     {
@@ -20938,7 +21275,7 @@
         "anchor_usd": 7174,
         "over_market_pct": -2,
         "offers_enabled": true,
-        "days_listed": -1,
+        "days_listed": 3,
         "suggested_offer_usd": 6450,
         "discount_pct": 8,
         "rationale": "8% base"
@@ -21016,7 +21353,7 @@
         "anchor_usd": 4207,
         "over_market_pct": 39,
         "offers_enabled": false,
-        "days_listed": 307
+        "days_listed": 311
       },
       "score": 55.1,
       "score_breakdown": {
@@ -21091,7 +21428,7 @@
         "anchor_usd": 4207,
         "over_market_pct": 59,
         "offers_enabled": false,
-        "days_listed": 359
+        "days_listed": 363
       },
       "score": 55.1,
       "score_breakdown": {
@@ -21166,7 +21503,7 @@
         "anchor_usd": 4207,
         "over_market_pct": 59,
         "offers_enabled": false,
-        "days_listed": 419
+        "days_listed": 423
       },
       "score": 55.1,
       "score_breakdown": {
@@ -21241,7 +21578,7 @@
         "anchor_usd": 4207,
         "over_market_pct": 59,
         "offers_enabled": false,
-        "days_listed": 427
+        "days_listed": 431
       },
       "score": 55.1,
       "score_breakdown": {
@@ -21316,7 +21653,7 @@
         "anchor_usd": 4207,
         "over_market_pct": 39,
         "offers_enabled": false,
-        "days_listed": 476
+        "days_listed": 480
       },
       "score": 55.1,
       "score_breakdown": {
@@ -21391,7 +21728,7 @@
         "anchor_usd": 4207,
         "over_market_pct": 39,
         "offers_enabled": false,
-        "days_listed": 495
+        "days_listed": 499
       },
       "score": 55.1,
       "score_breakdown": {
@@ -21466,7 +21803,7 @@
         "anchor_usd": 4207,
         "over_market_pct": 59,
         "offers_enabled": false,
-        "days_listed": 411
+        "days_listed": 415
       },
       "score": 54.9,
       "score_breakdown": {
@@ -21551,8 +21888,78 @@
       },
       "offer_intel": {
         "as_of": "2026-08-09",
-        "anchor_usd": 4225,
-        "over_market_pct": -17
+        "anchor_usd": 4112,
+        "over_market_pct": -15
+      }
+    },
+    {
+      "url": "https://rudysmusic.com/products/59-es-345-varitone-bigsby-ebony-heavy-aged-gh",
+      "dealer": "Rudy's Music",
+      "price_usd": 8999,
+      "year": 2026,
+      "model": "ES-345 (Gibson Custom Limited Edition '59 Reissue, Murphy Lab Heavy Aged)",
+      "finish": "Ebony, Heavy Aged nitrocellulose",
+      "weight_lbs": null,
+      "nut_width_in": null,
+      "fret1_depth_in": null,
+      "fret12_depth_in": null,
+      "neck_profile": "Authentic 1959",
+      "condition": "New / in stock",
+      "serial": null,
+      "city_state": "New York, NY (Manhattan)",
+      "pickups": "Custombucker Alnico 3 (PAF-style) - PREFERRED type, nickel covers",
+      "case_included": true,
+      "modifications": "None - new instrument",
+      "published_at": "2026-07-31T12:54:11-04:00",
+      "offers_enabled": false,
+      "note": "Weigh in person - Manhattan dealer, exception applies. VARITONE: present and, per Gibson's own spec, it is a MONO Varitone circuit (2 vol, 2 tone with Varitone) - not stereo. WEIGHT RISK IS REAL: Bigsby vibrato plus gold hardware; comparable Reverb listings of this exact Limited Edition '59 ES-345 Bigsby run weigh 8 lbs 4.9 oz to 8 lbs 10.4 oz, i.e. all above the 8.0 ceiling. Ask Rudy's to scale it before making the trip. Rudy's publishes no weight or nut width; the 11340g Shopify variant figure is a default shipping weight, not the guitar. Modern Custom Shop nut is 1-11/16in, not the ideal 1-9/16in. Lifton reissue HSC included.",
+      "category": "es_335",
+      "id": "g360",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-09",
+      "last_confirmed_active": "2026-08-09",
+      "market_bucket": "es-335 modern",
+      "price_history": [
+        {
+          "date": "2026-08-09",
+          "price_usd": 8999
+        }
+      ],
+      "research_cluster": "cs-61-reissue-335",
+      "research": [
+        "Neck feel: the 1961 reissue's 'Skinny C' SlimTaper was scanned from originals \u2014 thin (~.80\" range at the 1st fret) with vintage 1-11/16\" nut; owners say convincingly close to a real early-60s slim neck, noticeably slimmer than the '59 reissue carve.",
+        "Pickups: unpotted Custombuckers \u2014 airy PAF clarity, piano-like lows, classic 335 honk; regarded as a genuine upgrade over Memphis-era MHS/BB sets; unpotted caveat: microphonic squeal at very high gain.",
+        "Known issues: relatively few \u2014 Murphy Lab lacquer fragility/checking, weight variance (7.5-9 lbs), scattered nut/setup complaints; thin lacquer damages easily in shipping; hollow wings + unpotted pickups mean feedback management is part of ownership.",
+        "Market/value: current top-of-market for new 335s; Murphy Lab premium softens on resale (used ML often 25-30% off list) while VOS holds value best; has largely replaced clean vintage 335s in the 'best modern alternative' conversation.",
+        "Verify before buying: neck measurements (confirm the skinny '61 carve suits you vs the fatter '59 RI), weight, aging level and hidden damage within Murphy Lab wear, COA/case, center block rattles (tap test), original Custombuckers."
+      ],
+      "offer_intel": {
+        "as_of": "2026-08-09",
+        "anchor_usd": 4112,
+        "over_market_pct": 119
+      },
+      "score": 53.8,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 65.0,
+          "note": "weight unpublished \u2014 NYC, weigh in person (neutral)"
+        },
+        "neck_35pct": {
+          "score": 35.0,
+          "note": "no neck measurements (capped)"
+        },
+        "shoulders_20pct": {
+          "score": 60.0,
+          "note": "profile unclear: 'authentic 1959'"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "new / in stock"
+        },
+        "price_5pct": {
+          "score": 0.0,
+          "note": "well above anchor"
+        }
       }
     },
     {
@@ -21604,7 +22011,7 @@
         "anchor_usd": 4207,
         "over_market_pct": 43,
         "offers_enabled": false,
-        "days_listed": 422
+        "days_listed": 426
       },
       "score": 53.7,
       "score_breakdown": {
@@ -21679,7 +22086,7 @@
         "anchor_usd": 4207,
         "over_market_pct": 31,
         "offers_enabled": false,
-        "days_listed": 446
+        "days_listed": 450
       },
       "score": 53.7,
       "score_breakdown": {
@@ -21748,7 +22155,7 @@
         "anchor_usd": 2350,
         "over_market_pct": -15,
         "offers_enabled": true,
-        "days_listed": 7,
+        "days_listed": 11,
         "suggested_offer_usd": 1800,
         "discount_pct": 10,
         "rationale": "8% base; condition/mods"
@@ -21774,6 +22181,70 @@
         "price_5pct": {
           "score": 90.0,
           "note": "at/under anchor"
+        }
+      }
+    },
+    {
+      "url": "https://reverb.com/item/90930545-gibson-marcus-king-es-345-2025-sixties-cherry",
+      "dealer": "Reverb \u2013 Corner Music",
+      "price_usd": 3999,
+      "year": 2025,
+      "model": "ES-345 (Marcus King signature)",
+      "finish": "Sixties Cherry",
+      "weight_lbs": 7.875,
+      "nut_width_in": 1.694,
+      "fret1_depth_in": null,
+      "fret12_depth_in": null,
+      "neck_profile": "Rounded C, Mahogany",
+      "condition": "Brand New",
+      "serial": null,
+      "city_state": "Nashville, TN",
+      "pickups": "Gibson Custombuckers (PAF-style alnico) - neck & bridge",
+      "case_included": true,
+      "modifications": "None - new instrument",
+      "published_at": "2025-06-17T10:46:00-05:00",
+      "offers_enabled": false,
+      "note": "7 lbs 14 oz = 7.875, just inside the ceiling and near the ideal band. Factory MONO wiring, NO Varitone circuit. Weight-adding hardware present: fixed Vibrola tailpiece with Marcus King anchor stud, gold hardware, Grover Rotomatics. Nut 1.694in Graph Tech - not the ideal 1-9/16in. Free US_CON shipping, offers disabled. Same model as the Mudge's example but $599 more and 2 oz lighter.",
+      "category": "es_335",
+      "id": "g351",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-09",
+      "last_confirmed_active": "2026-08-09",
+      "market_bucket": "es-335 modern",
+      "price_history": [
+        {
+          "date": "2026-08-09",
+          "price_usd": 3999
+        }
+      ],
+      "offer_intel": {
+        "as_of": "2026-08-09",
+        "anchor_usd": 4112,
+        "over_market_pct": -3,
+        "offers_enabled": false,
+        "days_listed": 418
+      },
+      "score": 53.2,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 92.5,
+          "note": "weight 7.875 lbs"
+        },
+        "neck_35pct": {
+          "score": 0.0,
+          "note": "nut ok (0); 1st fret unmeasured; 12th fret unmeasured"
+        },
+        "shoulders_20pct": {
+          "score": 60.0,
+          "note": "profile unclear: 'rounded c, mahogany'"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "brand new"
+        },
+        "price_5pct": {
+          "score": 70.0,
+          "note": "slightly above anchor"
         }
       }
     },
@@ -21821,10 +22292,10 @@
       ],
       "offer_intel": {
         "as_of": "2026-08-09",
-        "anchor_usd": 5075,
-        "over_market_pct": -16,
+        "anchor_usd": 5172,
+        "over_market_pct": -18,
         "offers_enabled": true,
-        "days_listed": 18,
+        "days_listed": 22,
         "suggested_offer_usd": 3800,
         "discount_pct": 10,
         "rationale": "8% base; condition/mods"
@@ -21923,7 +22394,7 @@
         "anchor_usd": 1600,
         "over_market_pct": 6,
         "offers_enabled": false,
-        "days_listed": 29
+        "days_listed": 33
       }
     },
     {
@@ -21972,7 +22443,7 @@
         "anchor_usd": 7500,
         "over_market_pct": -27,
         "offers_enabled": true,
-        "days_listed": -1,
+        "days_listed": 3,
         "suggested_offer_usd": 5050,
         "discount_pct": 8,
         "rationale": "8% base"
@@ -22045,10 +22516,10 @@
       ],
       "offer_intel": {
         "as_of": "2026-08-09",
-        "anchor_usd": 5075,
-        "over_market_pct": -4,
+        "anchor_usd": 5172,
+        "over_market_pct": -6,
         "offers_enabled": true,
-        "days_listed": 16,
+        "days_listed": 20,
         "suggested_offer_usd": 4350,
         "discount_pct": 10,
         "rationale": "8% base; condition/mods"
@@ -22074,6 +22545,81 @@
         "price_5pct": {
           "score": 90.0,
           "note": "at/under anchor"
+        }
+      }
+    },
+    {
+      "url": "https://reverb.com/item/98594838-gibson-es-345-1968-sunburst",
+      "dealer": "Reverb \u2013 Southside Guitars",
+      "price_usd": 8450,
+      "year": 1968,
+      "model": "ES-345TD",
+      "finish": "Sunburst",
+      "weight_lbs": null,
+      "nut_width_in": null,
+      "fret1_depth_in": null,
+      "fret12_depth_in": null,
+      "neck_profile": null,
+      "condition": "Excellent",
+      "serial": null,
+      "city_state": "Brooklyn, NY",
+      "pickups": "Not stated - a 1968 ES-345 would carry patent-number humbuckers, the PREFERRED type; confirm",
+      "case_included": true,
+      "modifications": "All original except the toggle switch. Small dings, dents, finish checking, small finish blemish on top by neck pickup. No breaks or repairs.",
+      "published_at": "2026-06-23T09:23:07-06:00",
+      "offers_enabled": true,
+      "note": "Weigh in person - Brooklyn dealer, exception applies. 1968 sits at the start of the 1965-1981 ideal-nut window - measure it. VARITONE/STEREO: not stated; a 1968 ES-345 was factory stereo with Varitone and this one is called all-original except the switch, which implies both are intact and it is still stereo - confirm. Original case. Dealer explicitly invites a call for an in-hand description. Offers enabled, $100 US_CON shipping.",
+      "category": "es_335",
+      "id": "g359",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-09",
+      "last_confirmed_active": "2026-08-09",
+      "market_bucket": "es-335 vintage",
+      "price_history": [
+        {
+          "date": "2026-08-09",
+          "price_usd": 8450
+        }
+      ],
+      "research_cluster": "norlin-335-early",
+      "research": [
+        "Neck feel: 1972-75 necks are generally slim-to-medium with the Norlin headstock volute and 3-piece construction (mahogany transitioning to maple ~1975); profiles vary but rarely reach 50s chunkiness.",
+        "Pickups: T-Tops throughout \u2014 clear, tight, slightly brighter than PAFs, less midrange complexity but excellent clean and edge-of-breakup; many examples have had swaps over 50 years.",
+        "Known issues: classic Norlin gripes \u2014 weight creep on some, crooked neck sets, mediocre fretwork, sunken tops around the bridge on some examples, the volute, and hit-or-miss quality declining through the decade.",
+        "Market/value: the affordable entry into vintage 335s \u2014 early-70s examples trade far below dot-necks; 'great for the money if you play it first' consensus; clean, light, straight-necked examples appreciating modestly.",
+        "Verify before buying: neck set straightness, top sinking under the bridge, actual weight, volute-area crack/repair, T-Top originality (DCR ~7.5k), and confirm year via pot codes since Norlin serials are notoriously ambiguous."
+      ],
+      "offer_intel": {
+        "as_of": "2026-08-09",
+        "anchor_usd": 8225,
+        "over_market_pct": 3,
+        "offers_enabled": true,
+        "days_listed": 47,
+        "suggested_offer_usd": 7600,
+        "discount_pct": 10,
+        "rationale": "8% base; condition/mods"
+      },
+      "score": 52.5,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 65.0,
+          "note": "weight unpublished \u2014 NYC, weigh in person (neutral)"
+        },
+        "neck_35pct": {
+          "score": 35.0,
+          "note": "no neck measurements (capped)"
+        },
+        "shoulders_20pct": {
+          "score": 40.0,
+          "note": "no shoulder/profile info"
+        },
+        "condition_10pct": {
+          "score": 92.0,
+          "note": "excellent"
+        },
+        "price_5pct": {
+          "score": 70.0,
+          "note": "slightly above anchor"
         }
       }
     },
@@ -22144,8 +22690,8 @@
       ],
       "offer_intel": {
         "as_of": "2026-08-09",
-        "anchor_usd": 4225,
-        "over_market_pct": 89
+        "anchor_usd": 4112,
+        "over_market_pct": 95
       }
     },
     {
@@ -22196,7 +22742,7 @@
         "anchor_usd": 5000,
         "over_market_pct": 14,
         "offers_enabled": false,
-        "days_listed": 6
+        "days_listed": 10
       },
       "score": 52.0,
       "score_breakdown": {
@@ -22273,7 +22819,7 @@
         "anchor_usd": 1600,
         "over_market_pct": -33,
         "offers_enabled": true,
-        "days_listed": 14,
+        "days_listed": 18,
         "suggested_offer_usd": 950,
         "discount_pct": 10,
         "rationale": "8% base; condition/mods"
@@ -22351,7 +22897,7 @@
         "anchor_usd": 6400,
         "over_market_pct": 22,
         "offers_enabled": true,
-        "days_listed": 77,
+        "days_listed": 81,
         "suggested_offer_usd": 6900,
         "discount_pct": 12,
         "rationale": "8% base; 22% over market anchor ($6399)"
@@ -22442,7 +22988,7 @@
         "anchor_usd": 1600,
         "over_market_pct": -25,
         "offers_enabled": true,
-        "days_listed": 16,
+        "days_listed": 20,
         "suggested_offer_usd": 1100,
         "discount_pct": 10,
         "rationale": "8% base; condition/mods"
@@ -22716,8 +23262,8 @@
       ],
       "offer_intel": {
         "as_of": "2026-08-09",
-        "anchor_usd": 5075,
-        "over_market_pct": -16
+        "anchor_usd": 5172,
+        "over_market_pct": -18
       },
       "score": 51.8,
       "score_breakdown": {
@@ -22736,6 +23282,81 @@
         "condition_10pct": {
           "score": 70.0,
           "note": "condition unstated"
+        },
+        "price_5pct": {
+          "score": 100.0,
+          "note": "15% under anchor"
+        }
+      }
+    },
+    {
+      "url": "https://reverb.com/item/99708762-gibson-es-345-1973-walnut",
+      "dealer": "Reverb \u2013 Southside Guitars",
+      "price_usd": 4250,
+      "year": 1973,
+      "model": "ES-345",
+      "finish": "Walnut",
+      "weight_lbs": null,
+      "nut_width_in": null,
+      "fret1_depth_in": null,
+      "fret12_depth_in": null,
+      "neck_profile": null,
+      "condition": "Good",
+      "serial": null,
+      "city_state": "Brooklyn, NY",
+      "pickups": "Original patent-sticker (patent-number) humbuckers - PREFERRED type",
+      "case_included": true,
+      "modifications": "Converted from trapeze tailpiece to stop bar; bridge and tuners replaced; refretted. Original finish, no breaks or repairs.",
+      "published_at": "2026-07-24T16:35:39-04:00",
+      "offers_enabled": true,
+      "note": "Weigh in person - Brooklyn dealer, exception applies. Cheapest vintage ES-345 in the sweep and 1973 is inside the 1965-1981 ideal-nut window - measure the nut. VARITONE/STEREO: listing does NOT say whether the Varitone is intact or whether it is still stereo or converted to mono; a 1973 ES-345 left the factory stereo with Varitone. Must ask before travelling. Trapeze-to-stoptail conversion actually REMOVES weight vs. original. Non-original hard case. Offers enabled, $100 US_CON shipping.",
+      "category": "es_335",
+      "id": "g356",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-09",
+      "last_confirmed_active": "2026-08-09",
+      "market_bucket": "es-335 norlin",
+      "price_history": [
+        {
+          "date": "2026-08-09",
+          "price_usd": 4250
+        }
+      ],
+      "research_cluster": "norlin-335-early",
+      "research": [
+        "Neck feel: 1972-75 necks are generally slim-to-medium with the Norlin headstock volute and 3-piece construction (mahogany transitioning to maple ~1975); profiles vary but rarely reach 50s chunkiness.",
+        "Pickups: T-Tops throughout \u2014 clear, tight, slightly brighter than PAFs, less midrange complexity but excellent clean and edge-of-breakup; many examples have had swaps over 50 years.",
+        "Known issues: classic Norlin gripes \u2014 weight creep on some, crooked neck sets, mediocre fretwork, sunken tops around the bridge on some examples, the volute, and hit-or-miss quality declining through the decade.",
+        "Market/value: the affordable entry into vintage 335s \u2014 early-70s examples trade far below dot-necks; 'great for the money if you play it first' consensus; clean, light, straight-necked examples appreciating modestly.",
+        "Verify before buying: neck set straightness, top sinking under the bridge, actual weight, volute-area crack/repair, T-Top originality (DCR ~7.5k), and confirm year via pot codes since Norlin serials are notoriously ambiguous."
+      ],
+      "offer_intel": {
+        "as_of": "2026-08-09",
+        "anchor_usd": 5172,
+        "over_market_pct": -18,
+        "offers_enabled": true,
+        "days_listed": 16,
+        "suggested_offer_usd": 3800,
+        "discount_pct": 10,
+        "rationale": "8% base; condition/mods"
+      },
+      "score": 51.8,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 65.0,
+          "note": "weight unpublished \u2014 NYC, weigh in person (neutral)"
+        },
+        "neck_35pct": {
+          "score": 35.0,
+          "note": "no neck measurements (capped)"
+        },
+        "shoulders_20pct": {
+          "score": 40.0,
+          "note": "no shoulder/profile info"
+        },
+        "condition_10pct": {
+          "score": 70.0,
+          "note": "good"
         },
         "price_5pct": {
           "score": 100.0,
@@ -22921,10 +23542,10 @@
       ],
       "offer_intel": {
         "as_of": "2026-08-09",
-        "anchor_usd": 4225,
-        "over_market_pct": 35,
+        "anchor_usd": 4112,
+        "over_market_pct": 39,
         "offers_enabled": false,
-        "days_listed": 7
+        "days_listed": 11
       },
       "score": 51.2,
       "score_breakdown": {
@@ -23562,8 +24183,8 @@
       ],
       "offer_intel": {
         "as_of": "2026-08-09",
-        "anchor_usd": 5075,
-        "over_market_pct": -7
+        "anchor_usd": 5172,
+        "over_market_pct": -9
       },
       "score": 51.2,
       "score_breakdown": {
@@ -23633,7 +24254,7 @@
       ],
       "offer_intel": {
         "as_of": "2026-08-09",
-        "anchor_usd": 3450,
+        "anchor_usd": 3475,
         "over_market_pct": 1
       },
       "score": 51.2,
@@ -23704,8 +24325,8 @@
       ],
       "offer_intel": {
         "as_of": "2026-08-09",
-        "anchor_usd": 5075,
-        "over_market_pct": -4
+        "anchor_usd": 5172,
+        "over_market_pct": -6
       },
       "score": 51.2,
       "score_breakdown": {
@@ -23728,6 +24349,81 @@
         "price_5pct": {
           "score": 90.0,
           "note": "at/under anchor"
+        }
+      }
+    },
+    {
+      "url": "https://reverb.com/item/94316740-gibson-es-340-1970-blond-natural",
+      "dealer": "Reverb \u2013 Southside Guitars",
+      "price_usd": 5850,
+      "year": 1970,
+      "model": "ES-340",
+      "finish": "Blond Maple / Natural",
+      "weight_lbs": null,
+      "nut_width_in": null,
+      "fret1_depth_in": null,
+      "fret12_depth_in": null,
+      "neck_profile": null,
+      "condition": "Very Good",
+      "serial": null,
+      "city_state": "Brooklyn, NY",
+      "pickups": "Original patent-number (patent sticker) humbuckers - PREFERRED type",
+      "case_included": true,
+      "modifications": "Wiring converted from factory ES-340 blend circuit to standard ES-335 spec; pots replaced during conversion. Refretted. Original finish, no structural damage.",
+      "published_at": "2026-07-20T15:36:47-05:00",
+      "offers_enabled": true,
+      "note": "Weigh in person - Brooklyn dealer, exception applies. 1970 is squarely in the 1965-1981 ideal-nut window; bring calipers for nut width and fret depths. CIRCUIT: ES-340 has no Varitone; the factory blend/phase circuit here has been converted to normal ES-335 wiring (mono) - arguably a plus for this buyer. Stop bar, no Bigsby/Maestro/TP-6, so nothing weight-adding. Non-original hard case. Offers enabled, $100 US_CON shipping.",
+      "category": "es_335",
+      "id": "g355",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-09",
+      "last_confirmed_active": "2026-08-09",
+      "market_bucket": "es-335 norlin",
+      "price_history": [
+        {
+          "date": "2026-08-09",
+          "price_usd": 5850
+        }
+      ],
+      "research_cluster": "norlin-335-early",
+      "research": [
+        "Neck feel: 1972-75 necks are generally slim-to-medium with the Norlin headstock volute and 3-piece construction (mahogany transitioning to maple ~1975); profiles vary but rarely reach 50s chunkiness.",
+        "Pickups: T-Tops throughout \u2014 clear, tight, slightly brighter than PAFs, less midrange complexity but excellent clean and edge-of-breakup; many examples have had swaps over 50 years.",
+        "Known issues: classic Norlin gripes \u2014 weight creep on some, crooked neck sets, mediocre fretwork, sunken tops around the bridge on some examples, the volute, and hit-or-miss quality declining through the decade.",
+        "Market/value: the affordable entry into vintage 335s \u2014 early-70s examples trade far below dot-necks; 'great for the money if you play it first' consensus; clean, light, straight-necked examples appreciating modestly.",
+        "Verify before buying: neck set straightness, top sinking under the bridge, actual weight, volute-area crack/repair, T-Top originality (DCR ~7.5k), and confirm year via pot codes since Norlin serials are notoriously ambiguous."
+      ],
+      "offer_intel": {
+        "as_of": "2026-08-09",
+        "anchor_usd": 5172,
+        "over_market_pct": 13,
+        "offers_enabled": true,
+        "days_listed": 20,
+        "suggested_offer_usd": 5050,
+        "discount_pct": 14,
+        "rationale": "8% base; 13% over market anchor ($5172); condition/mods"
+      },
+      "score": 51.2,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 65.0,
+          "note": "weight unpublished \u2014 NYC, weigh in person (neutral)"
+        },
+        "neck_35pct": {
+          "score": 35.0,
+          "note": "no neck measurements (capped)"
+        },
+        "shoulders_20pct": {
+          "score": 40.0,
+          "note": "no shoulder/profile info"
+        },
+        "condition_10pct": {
+          "score": 82.0,
+          "note": "very good"
+        },
+        "price_5pct": {
+          "score": 66.0,
+          "note": "well above anchor"
         }
       }
     },
@@ -23778,7 +24474,7 @@
         "anchor_usd": 5500,
         "over_market_pct": 9,
         "offers_enabled": true,
-        "days_listed": 58,
+        "days_listed": 62,
         "suggested_offer_usd": 5500,
         "discount_pct": 8,
         "rationale": "8% base"
@@ -23856,7 +24552,7 @@
         "anchor_usd": 4207,
         "over_market_pct": 36,
         "offers_enabled": true,
-        "days_listed": 69,
+        "days_listed": 73,
         "suggested_offer_usd": 5050,
         "discount_pct": 12,
         "rationale": "8% base; 36% over market anchor ($4207)"
@@ -23929,8 +24625,8 @@
       ],
       "offer_intel": {
         "as_of": "2026-08-09",
-        "anchor_usd": 3450,
-        "over_market_pct": 7
+        "anchor_usd": 3475,
+        "over_market_pct": 6
       },
       "score": 50.2,
       "score_breakdown": {
@@ -23953,6 +24649,76 @@
         "price_5pct": {
           "score": 70.0,
           "note": "slightly above anchor"
+        }
+      }
+    },
+    {
+      "url": "https://rudysmusic.com/products/gibson-1980-es-347td-cherry-sunburst",
+      "dealer": "Rudy's Music",
+      "price_usd": 5795,
+      "year": 1980,
+      "model": "ES-347TD",
+      "finish": "Cherry Sunburst",
+      "weight_lbs": null,
+      "nut_width_in": null,
+      "fret1_depth_in": null,
+      "fret12_depth_in": null,
+      "neck_profile": null,
+      "condition": "Used / vintage, stated 100% original",
+      "serial": "82180024",
+      "city_state": "New York, NY (Manhattan)",
+      "pickups": "Gibson Dirty Fingers - HOT CERAMIC, approx 15k, NOT PAF-style",
+      "case_included": true,
+      "modifications": "None stated - 100% original; dealer includes a vintage spec sheet detailing repairs/changes",
+      "published_at": "2026-03-25T13:46:19-04:00",
+      "offers_enabled": false,
+      "note": "PICKUP WARNING: this is explicitly a Dirty Fingers guitar - super hot ~15k ceramic humbuckers, the opposite of the T-Top/patent-number/PAF-style voicing the buyer wants. A pickup swap would be needed. No Varitone on the ES-347 (it has a coil-split switch instead) and it is mono. WEIGHT-ADDING HARDWARE: the ES-347TD normally carries a TP-6 fine-tuner tailpiece and a brass nut, both heavy - not confirmed on this page, so check at the weigh-in. No weight or nut width published; Manhattan location means weigh in person. 1980 is inside the 1965-1981 nut-width window. Shopify variant weight of 11340g is a default shipping figure, not the guitar.",
+      "category": "es_335",
+      "id": "g354",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-09",
+      "last_confirmed_active": "2026-08-09",
+      "market_bucket": "es-335 norlin",
+      "price_history": [
+        {
+          "date": "2026-08-09",
+          "price_usd": 5795
+        }
+      ],
+      "research_cluster": "norlin-335-late",
+      "research": [
+        "Neck feel: 1976-80 335s move to 3-piece maple necks with volute \u2014 profiles range slim to fuller medium C late in the decade; maple neck plus heavier build gives a stiffer, brighter-feeling instrument; 1977+ adds a coil-tap mini switch.",
+        "Pickups: Bill Lawrence-designed 'tarback' (epoxy-potted, ceramic) humbuckers with unusually low DCR \u2014 fans call them fat, clear 'super humbuckers'; detractors find them sterile; originals now sought-after on the parts market.",
+        "Known issues: weight is the era's defining problem \u2014 many run 8.5-10 lbs; also the volute, thick finishes, occasional sunken tops, sloppy binding/fret finishing, and commonly-swapped harnesses.",
+        "Market/value: cheapest vintage 335 window along with the early 80s \u2014 treated as gigging vintage rather than collectible; original-tarback examples have a small cult following that supports value.",
+        "Verify before buying: weight on a scale, original tarbacks (check DCR), coil-tap switch function and un-butchered wiring, neck angle/top sinking, volute-area crack repairs, finish originality."
+      ],
+      "offer_intel": {
+        "as_of": "2026-08-09",
+        "anchor_usd": 5172,
+        "over_market_pct": 12
+      },
+      "score": 50.2,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 65.0,
+          "note": "weight unpublished \u2014 NYC, weigh in person (neutral)"
+        },
+        "neck_35pct": {
+          "score": 35.0,
+          "note": "no neck measurements (capped)"
+        },
+        "shoulders_20pct": {
+          "score": 40.0,
+          "note": "no shoulder/profile info"
+        },
+        "condition_10pct": {
+          "score": 70.0,
+          "note": "used / vintage, stated 100% original"
+        },
+        "price_5pct": {
+          "score": 68.2,
+          "note": "well above anchor"
         }
       }
     },
@@ -24005,7 +24771,7 @@
         "anchor_usd": 4207,
         "over_market_pct": 59,
         "offers_enabled": false,
-        "days_listed": 428
+        "days_listed": 432
       },
       "score": 50.1,
       "score_breakdown": {
@@ -24174,6 +24940,81 @@
       }
     },
     {
+      "url": "https://reverb.com/item/97878082-gibson-es-355-1978-wine-red",
+      "dealer": "Reverb \u2013 Southside Guitars",
+      "price_usd": 7250,
+      "year": 1978,
+      "model": "ES-355",
+      "finish": "Wine Red",
+      "weight_lbs": null,
+      "nut_width_in": null,
+      "fret1_depth_in": null,
+      "fret12_depth_in": null,
+      "neck_profile": null,
+      "condition": "Excellent",
+      "serial": null,
+      "city_state": "Brooklyn, NY",
+      "pickups": "Original pickups (type not stated) - a 1978 ES-355 would carry T-Tops, the PREFERRED type; confirm",
+      "case_included": true,
+      "modifications": "Converted from stereo to MONO; pots replaced during conversion. Otherwise all original, very light play wear, no breaks or repairs.",
+      "published_at": "2026-06-04T17:46:09+01:00",
+      "offers_enabled": true,
+      "note": "Weigh in person - Brooklyn dealer, exception applies. VARITONE/STEREO exactly as the buyer wants documented: Varitone is still hooked up and the guitar has been converted from stereo to mono. 1978 is inside the 1965-1981 ideal-nut window. WEIGHT RISK: late-'70s ES-355s are heavy and often carried a Maestro/Bigsby and/or TP-6; the listing does not say what tailpiece is fitted - clarify before the trip, since these routinely land 9-10 lbs. Original case. Offers enabled, $100 US_CON shipping.",
+      "category": "es_335",
+      "id": "g358",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-09",
+      "last_confirmed_active": "2026-08-09",
+      "market_bucket": "es-335 norlin",
+      "price_history": [
+        {
+          "date": "2026-08-09",
+          "price_usd": 7250
+        }
+      ],
+      "research_cluster": "norlin-335-late",
+      "research": [
+        "Neck feel: 1976-80 335s move to 3-piece maple necks with volute \u2014 profiles range slim to fuller medium C late in the decade; maple neck plus heavier build gives a stiffer, brighter-feeling instrument; 1977+ adds a coil-tap mini switch.",
+        "Pickups: Bill Lawrence-designed 'tarback' (epoxy-potted, ceramic) humbuckers with unusually low DCR \u2014 fans call them fat, clear 'super humbuckers'; detractors find them sterile; originals now sought-after on the parts market.",
+        "Known issues: weight is the era's defining problem \u2014 many run 8.5-10 lbs; also the volute, thick finishes, occasional sunken tops, sloppy binding/fret finishing, and commonly-swapped harnesses.",
+        "Market/value: cheapest vintage 335 window along with the early 80s \u2014 treated as gigging vintage rather than collectible; original-tarback examples have a small cult following that supports value.",
+        "Verify before buying: weight on a scale, original tarbacks (check DCR), coil-tap switch function and un-butchered wiring, neck angle/top sinking, volute-area crack repairs, finish originality."
+      ],
+      "offer_intel": {
+        "as_of": "2026-08-09",
+        "anchor_usd": 5172,
+        "over_market_pct": 40,
+        "offers_enabled": true,
+        "days_listed": 66,
+        "suggested_offer_usd": 6250,
+        "discount_pct": 14,
+        "rationale": "8% base; 40% over market anchor ($5172); condition/mods"
+      },
+      "score": 49.5,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 65.0,
+          "note": "weight unpublished \u2014 NYC, weigh in person (neutral)"
+        },
+        "neck_35pct": {
+          "score": 35.0,
+          "note": "no neck measurements (capped)"
+        },
+        "shoulders_20pct": {
+          "score": 40.0,
+          "note": "no shoulder/profile info"
+        },
+        "condition_10pct": {
+          "score": 92.0,
+          "note": "excellent"
+        },
+        "price_5pct": {
+          "score": 10.0,
+          "note": "well above anchor"
+        }
+      }
+    },
+    {
       "url": "https://reverb.com/item/99988896-2024-gibson-custom-shop-es-335-58-reissue-faded-tobacco-burst-murphy-lab-heavy-aged-a840047",
       "dealer": "Thunder Road Guitars PDX",
       "price_usd": 5439,
@@ -24320,6 +25161,82 @@
         "discount_pct": 10,
         "rationale": "8% base; condition/mods"
       }
+    },
+    {
+      "url": "https://reverb.com/item/96874970-2016-gibson-custom-shop-es-345-1964-reissue-frost-blue-w-original-case-and-certificate",
+      "dealer": "Reverb \u2013 Rivington Guitars",
+      "price_usd": 5495,
+      "year": 2016,
+      "model": "ES-345 (Gibson Custom Shop '64 reissue)",
+      "finish": "Frost Blue",
+      "weight_lbs": null,
+      "nut_width_in": null,
+      "fret1_depth_in": null,
+      "fret12_depth_in": null,
+      "neck_profile": null,
+      "condition": "Very Good",
+      "serial": null,
+      "city_state": "New York, NY (Manhattan)",
+      "pickups": "Original Gibson humbuckers, type not specified (2016 Custom/Memphis '64 ES-345 shipped with MHS PAF-style alnico) - confirm",
+      "case_included": true,
+      "modifications": "None - stated completely original; includes original certificate and paperwork",
+      "published_at": "2026-07-20T15:37:08-05:00",
+      "offers_enabled": true,
+      "note": "Weigh in person - Manhattan dealer, exception applies. VARITONE: explicitly stated present and working. Stereo vs mono not stated - the '64 ES-345 reissue was offered both ways, so confirm. Stop bar, no Bigsby/Maestro/TP-6. Modern Custom Shop nut is 1-11/16in, not the ideal 1-9/16in. Rare Frost Blue. Offers enabled, $150 US_CON shipping.",
+      "category": "es_335",
+      "id": "g357",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-09",
+      "last_confirmed_active": "2026-08-09",
+      "market_bucket": "es-335 modern",
+      "price_history": [
+        {
+          "date": "2026-08-09",
+          "price_usd": 5495
+        }
+      ],
+      "research_cluster": "memphis-335",
+      "research": [
+        "Neck feel: Memphis-era necks trend slim \u2014 2014 dots ~.80-.88\" with decent shoulder; 2015-18 add rolled fingerboard binding that owners love; profile varies by sub-model ('58/'63 reissues carry year-appropriate carves).",
+        "Pickups: MHS (Memphis Historic Spec) humbuckers \u2014 Alnico III vintage voicing; largely positive ('very vintage, mellow, smooth'), minority complaint: darker/softer than Burstbuckers into dark amps.",
+        "Known issues: QC inconsistency is the era's theme \u2014 mis-cut nuts and string-spacing errors, deep nut slots with high bridges, hide-glue squeeze-out visible through f-holes, occasional finish flaws; good examples rival Nashville CS output.",
+        "Market/value: strong used-value reputation since the Memphis plant closed (2019) \u2014 '58/'59/'63 reissues and Figured models have appreciated modestly and are the recommended sweet spot for vintage-voiced 335s under Custom Shop money.",
+        "Verify before buying: nut cut and string spacing (the era's signature flaw), setup feel or a return window, glue squeeze-out, which sub-model it actually is (big value differences), original MHS pickups, weight (7.5-9 lbs spread)."
+      ],
+      "offer_intel": {
+        "as_of": "2026-08-09",
+        "anchor_usd": 4112,
+        "over_market_pct": 34,
+        "offers_enabled": true,
+        "days_listed": 20,
+        "suggested_offer_usd": 4750,
+        "discount_pct": 14,
+        "rationale": "8% base; 34% over market anchor ($4112); condition/mods"
+      },
+      "score": 48.0,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 65.0,
+          "note": "weight unpublished \u2014 NYC, weigh in person (neutral)"
+        },
+        "neck_35pct": {
+          "score": 35.0,
+          "note": "no neck measurements (capped)"
+        },
+        "shoulders_20pct": {
+          "score": 40.0,
+          "note": "no shoulder/profile info"
+        },
+        "condition_10pct": {
+          "score": 82.0,
+          "note": "very good"
+        },
+        "price_5pct": {
+          "score": 0.0,
+          "note": "well above anchor"
+        }
+      },
+      "notes": "FINISH FLAG: Frost Blue. The blue-family exclusion is LP-only, so this is not auto-excluded \u2014 but confirm the buyer wants a blue ES before travelling to see it."
     },
     {
       "reverb_id": "90763384",
@@ -24605,7 +25522,7 @@
         "anchor_usd": 2350,
         "over_market_pct": 28,
         "offers_enabled": false,
-        "days_listed": 1100
+        "days_listed": 1103
       },
       "research_cluster": "mij-335",
       "research": [
@@ -24658,10 +25575,10 @@
       ],
       "offer_intel": {
         "as_of": "2026-08-09",
-        "anchor_usd": 4225,
-        "over_market_pct": 40,
+        "anchor_usd": 4112,
+        "over_market_pct": 43,
         "offers_enabled": false,
-        "days_listed": 4
+        "days_listed": 8
       },
       "score": 37.8,
       "score_breakdown": {
@@ -24732,7 +25649,7 @@
         "anchor_usd": 5500,
         "over_market_pct": 27,
         "offers_enabled": true,
-        "days_listed": 2,
+        "days_listed": 6,
         "suggested_offer_usd": 6150,
         "discount_pct": 12,
         "rationale": "8% base; 27% over market anchor ($5500)"
@@ -24797,10 +25714,10 @@
       ],
       "offer_intel": {
         "as_of": "2026-08-09",
-        "anchor_usd": 4225,
+        "anchor_usd": 4112,
         "over_market_pct": -81,
         "offers_enabled": false,
-        "days_listed": 726
+        "days_listed": 730
       },
       "score": 35.2,
       "score_breakdown": {
@@ -24870,10 +25787,10 @@
       ],
       "offer_intel": {
         "as_of": "2026-08-09",
-        "anchor_usd": 4225,
-        "over_market_pct": -84,
+        "anchor_usd": 4112,
+        "over_market_pct": -83,
         "offers_enabled": false,
-        "days_listed": 677
+        "days_listed": 681
       },
       "score": 35.0,
       "score_breakdown": {
@@ -25106,10 +26023,10 @@
         "anchor_usd": 1600,
         "over_market_pct": -41,
         "offers_enabled": true,
-        "days_listed": 173,
+        "days_listed": 177,
         "suggested_offer_usd": 800,
         "discount_pct": 14,
-        "rationale": "8% base; listed 173d; condition/mods"
+        "rationale": "8% base; listed 177d; condition/mods"
       },
       "score": 33.5,
       "score_breakdown": {
@@ -25178,10 +26095,10 @@
         "anchor_usd": 5575,
         "over_market_pct": -78,
         "offers_enabled": true,
-        "days_listed": 103,
+        "days_listed": 107,
         "suggested_offer_usd": 1050,
         "discount_pct": 14,
-        "rationale": "8% base; listed 103d; condition/mods"
+        "rationale": "8% base; listed 107d; condition/mods"
       },
       "score": 33.5,
       "score_breakdown": {
@@ -25262,10 +26179,10 @@
         "anchor_usd": 5000,
         "over_market_pct": -24,
         "offers_enabled": true,
-        "days_listed": 292,
+        "days_listed": 296,
         "suggested_offer_usd": 3200,
         "discount_pct": 16,
-        "rationale": "8% base; listed 292d; condition/mods"
+        "rationale": "8% base; listed 296d; condition/mods"
       },
       "score": 33.0,
       "score_breakdown": {
@@ -25338,7 +26255,7 @@
         "anchor_usd": 4207,
         "over_market_pct": -42,
         "offers_enabled": true,
-        "days_listed": 69,
+        "days_listed": 73,
         "suggested_offer_usd": 2200,
         "discount_pct": 10,
         "rationale": "8% base; condition/mods"
@@ -25406,10 +26323,10 @@
         "anchor_usd": 5575,
         "over_market_pct": -4,
         "offers_enabled": true,
-        "days_listed": 148,
+        "days_listed": 152,
         "suggested_offer_usd": 4600,
         "discount_pct": 14,
-        "rationale": "8% base; listed 148d; condition/mods"
+        "rationale": "8% base; listed 152d; condition/mods"
       },
       "score": 31.8,
       "score_breakdown": {
@@ -25563,7 +26480,7 @@
         "anchor_usd": 5000,
         "over_market_pct": 16,
         "offers_enabled": true,
-        "days_listed": 51,
+        "days_listed": 55,
         "suggested_offer_usd": 5100,
         "discount_pct": 12,
         "rationale": "8% base; 16% over market anchor ($4999)"
@@ -25631,10 +26548,10 @@
         "anchor_usd": 5575,
         "over_market_pct": 70,
         "offers_enabled": true,
-        "days_listed": 177,
+        "days_listed": 181,
         "suggested_offer_usd": 7800,
         "discount_pct": 18,
-        "rationale": "8% base; listed 177d; 70% over market anchor ($5575); condition/mods"
+        "rationale": "8% base; listed 181d; 70% over market anchor ($5575); condition/mods"
       },
       "score": 27.2,
       "score_breakdown": {
@@ -25715,10 +26632,10 @@
         "anchor_usd": 4207,
         "over_market_pct": 6,
         "offers_enabled": true,
-        "days_listed": 414,
+        "days_listed": 418,
         "suggested_offer_usd": 3750,
         "discount_pct": 16,
-        "rationale": "8% base; listed 414d; condition/mods"
+        "rationale": "8% base; listed 418d; condition/mods"
       },
       "score": 27.2,
       "score_breakdown": {
