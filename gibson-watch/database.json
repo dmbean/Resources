@@ -2,13 +2,13 @@
   "meta": {
     "created": "2026-07-19",
     "last_run": "2026-08-09",
-    "run_count": 6,
+    "run_count": 7,
     "current_best": {
       "les_paul": {
-        "id": "g004",
-        "score": 94.1,
-        "model": "Custom Shop 1960 Les Paul Standard Reissue (Beauty of the Burst p.137 inspired)",
-        "url": "https://reverb.com/item/75013356-gibson-les-paul-standard-1960-p-137-express-shipping-g-185-serial-r060012-plek-d"
+        "id": "g424",
+        "score": 95.6,
+        "model": "Gibson Custom Shop Willcutt Exclusive 1954 Les Paul Standard V3 Neck M2M",
+        "url": "https://reverb.com/item/93514688-gibson-custom-shop-willcutt-exclusive-1954-les-paul-standard-v3-neck-goldtop-vos-lightweight-634"
       },
       "es_335": {
         "id": "g068",
