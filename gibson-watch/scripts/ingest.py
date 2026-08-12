@@ -75,7 +75,8 @@ def normalize_fields(g):
 
 def categorize(g):
     m = (str(g.get("model") or "")).lower()
-    semi_markers = ("335", "sa-2200", "sa2200", "sa-", "jsm", "as-200", "semi-hollow",
+    semi_markers = ("335", "345", "355", "347", "340", "339", "336", "356",
+                    "sa-2200", "sa2200", "sa-", "jsm", "as-200", "semi-hollow",
                     "semi hollow", "dot")
     if any(k in m for k in semi_markers):
         return "es_335"
