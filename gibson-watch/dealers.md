@@ -17,6 +17,15 @@ _Add dealers found via forums/listings here; they get searched on every subseque
   Rivington Guitars (rivingtonguitars.com, East Village), Retrofret (retrofret.com, Brooklyn),
   30th Street Guitars (30thstreetguitars.com), Main Drag Music (maindragmusic.com, Brooklyn),
   Ludlow Guitars (ludlowguitars.com). Sweep for MIJ LP/335-style per README rules.
+- Tone Wolf (Brooklyn, NY — Reverb shop) — DISCOVERED 2026-08-09 during the full NYC sweep.
+  ~500 listings; publishes exact weights AND 1st/12th-fret depths, which is rare and makes them
+  high-value for this buyer's spec rules. Held 6 qualifying Les Pauls on discovery. Sweep every run
+  with the NYC group.
+- Ludlow Guitars — CORRECTION 2026-08-09: their Reverb shop (slug `ludlowguitars`, id 20485) now
+  lists a Kirkland WA address and carries only 11 parts/amp listings. Treat as no longer an NYC
+  source until that changes.
+- Main Drag / 30th Street — 30th Street's Shopify is pedals-only and their guitars go to Reverb;
+  neither had in-scope guitars on 2026-08-09. Keep sweeping, but expect thin results.
 - CAUTION (2026-07-24): ludlowguitars.com redirects to an unrelated Indonesian site (possible
   domain hijack). Do not fetch the domain; check Ludlow Guitars' Reverb shop instead until resolved.
 - Sweetwater (sweetwater.com) — **BLOCKED, never swept** (checked 2026-08-09). Publishes an exact

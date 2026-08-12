@@ -15,12 +15,28 @@ OUT = os.path.join(HERE, "site", "index.html")
 THUMBS = os.path.join(HERE, "site", "thumbs")
 
 
+# The page embeds every thumbnail as base64, and the Artifact ceiling is 16MB.
+# Past ~400 listings the cached 360px thumbs blow through it, so re-encode smaller
+# at build time (cache stays full-size for future re-encodes at other sizes).
+CARD_PX, CARD_Q = 232, 46
+
+
 def thumb_uri(gid):
     path = os.path.join(THUMBS, "%s.jpg" % gid)
     if not os.path.exists(path):
         return None
-    with open(path, "rb") as f:
-        return "data:image/jpeg;base64," + base64.b64encode(f.read()).decode("ascii")
+    try:
+        from PIL import Image
+        import io
+        im = Image.open(path)
+        im.thumbnail((CARD_PX, CARD_PX * 2))
+        buf = io.BytesIO()
+        im.convert("RGB").save(buf, "JPEG", quality=CARD_Q, optimize=True)
+        data = buf.getvalue()
+    except Exception:
+        with open(path, "rb") as f:
+            data = f.read()
+    return "data:image/jpeg;base64," + base64.b64encode(data).decode("ascii")
 
 # Spec target bands used for the in-target tick marks, per category.
 BANDS = {
