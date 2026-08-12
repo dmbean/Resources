@@ -65,12 +65,28 @@ def is_nyc(g):
     return any(m in loc for m in NYC_MARKERS)
 
 
+VIBRATO_WORDS = ("bigsby", "maestro", "vibrola", "vibrato", "trapeze vibrato",
+                 "whammy", "tremolo arm", "sideways")
+
+
+def has_vibrato(g):
+    """Factory/period vibrato tailpiece (buyer signal 2026-08-09: likes vibratos and
+    accepts the weight they add — a Bigsby or Maestro runs roughly half a pound)."""
+    text = " ".join(str(g.get(k) or "") for k in
+                    ("model", "notes", "modifications", "hardware", "condition")).lower()
+    return any(w in text for w in VIBRATO_WORDS)
+
+
 def weight_component(g):
     # Buyer signal 2026-07-29: soft floors — light guitars are fine, heavy ones are not.
+    # Buyer signal 2026-08-09: a vibrato's weight is accepted, so the ceiling gets a
+    # +0.5 lb allowance when one is fitted; lighter is still preferred, so the ideal
+    # band does NOT move — a vibrato guitar simply isn't punished for the hardware.
+    vib = 0.5 if has_vibrato(g) else 0.0
     if g["category"] == "les_paul":
-        s = band_score(g.get("weight_lbs"), 8.0, 9.0, 8.3, 8.8, falloff=1.2)
+        s = band_score(g.get("weight_lbs"), 8.0, 9.0 + vib, 8.3, 8.8, falloff=1.2)
     else:
-        s = band_score(g.get("weight_lbs"), 7.2, 8.0, 7.4, 7.8, falloff=1.0)
+        s = band_score(g.get("weight_lbs"), 7.2, 8.0 + vib, 7.4, 7.8, falloff=1.0)
     if s is None:
         # Buyer signal 2026-08-09: a NYC listing with no published weight is one the buyer
         # can put on a scale in person, so an unknown weight is neutral here, not a zero.
@@ -78,7 +94,10 @@ def weight_component(g):
         if is_nyc(g):
             return 65.0, "weight unpublished — NYC, weigh in person (neutral)"
         return 0.0, "no exact weight stated"
-    return s, "weight %s lbs" % g.get("weight_lbs")
+    note = "weight %s lbs" % g.get("weight_lbs")
+    if vib:
+        note += " (vibrato allowance +0.5)"
+    return s, note
 
 
 def neck_component(g):

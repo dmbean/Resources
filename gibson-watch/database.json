@@ -3174,6 +3174,82 @@
       }
     },
     {
+      "dealer": "Reverb \u2013 Diablo Guitars",
+      "url": "https://reverb.com/item/98428382-gibson-es-335td-sunburst-1974-w-ohsc",
+      "price_usd": 5499.99,
+      "condition": "Good (player-grade: finish checking, wear-through on neck/headstock, dings)",
+      "city_state": "Renton, WA",
+      "year": 1974,
+      "model": "Gibson ES-335TD",
+      "finish": "Sunburst",
+      "serial": "182568",
+      "weight_lbs": 7.375,
+      "nut_width_in": 1.572,
+      "fret1_depth_in": 0.771,
+      "fret12_depth_in": 0.986,
+      "neck_profile": "Slim Taper",
+      "shoulder_description": "Slim taper per dealer spec sheet; 1st-fret .771 squarely in target slim range",
+      "fingerboard_radius": "12\"",
+      "pickups": "Original Gibson Patent Number humbuckers (T-Top era), neck 7.89k / bridge 7.37k; CTS pots dated 1973",
+      "case_included": "Original purple-interior hardshell case (replaced handle)",
+      "modifications": "Refret (22 medium jumbo), new bone nut, converted from vibrato to Faber ABR-1 + stop tail, aftermarket strap buttons",
+      "measurements_source": "dealer measured",
+      "notes": "Reverb item 98428382. TOP NARROW-NUT HIT: nut 1.572 and 1st fret .771 both in ideal band. Weight 7.375 is 0.025 under the floor (borderline light). Fresh refret = no fret-life worries. Player-grade cosmetics priced in.",
+      "category": "es_335",
+      "id": "g095",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-21",
+      "last_confirmed_active": "2026-08-09",
+      "market_bucket": "es-335 norlin",
+      "price_history": [
+        {
+          "date": "2026-07-21",
+          "price_usd": 5499.99
+        }
+      ],
+      "research_cluster": "norlin-335-early",
+      "research": [
+        "Neck feel: 1972-75 necks are generally slim-to-medium with the Norlin headstock volute and 3-piece construction (mahogany transitioning to maple ~1975); profiles vary but rarely reach 50s chunkiness.",
+        "Pickups: T-Tops throughout \u2014 clear, tight, slightly brighter than PAFs, less midrange complexity but excellent clean and edge-of-breakup; many examples have had swaps over 50 years.",
+        "Known issues: classic Norlin gripes \u2014 weight creep on some, crooked neck sets, mediocre fretwork, sunken tops around the bridge on some examples, the volute, and hit-or-miss quality declining through the decade.",
+        "Market/value: the affordable entry into vintage 335s \u2014 early-70s examples trade far below dot-necks; 'great for the money if you play it first' consensus; clean, light, straight-necked examples appreciating modestly.",
+        "Verify before buying: neck set straightness, top sinking under the bridge, actual weight, volute-area crack/repair, T-Top originality (DCR ~7.5k), and confirm year via pot codes since Norlin serials are notoriously ambiguous."
+      ],
+      "offer_intel": {
+        "as_of": "2026-08-09",
+        "anchor_usd": 5172,
+        "over_market_pct": 6,
+        "offers_enabled": true,
+        "days_listed": 51,
+        "suggested_offer_usd": 4950,
+        "discount_pct": 10,
+        "rationale": "8% base; condition/mods"
+      },
+      "score": 86.0,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 99.3,
+          "note": "weight 7.375 lbs (vibrato allowance +0.5)"
+        },
+        "neck_35pct": {
+          "score": 76.3,
+          "note": "nut ok (95); 1st fret ok (100); 12th fret ok (34)"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: 'slim taper slim taper per dealer spec sheet; 1st-fret .771 s'"
+        },
+        "condition_10pct": {
+          "score": 70.0,
+          "note": "good (player-grade: finish checking, wear-through on neck/headstock, dings)"
+        },
+        "price_5pct": {
+          "score": 70.0,
+          "note": "slightly above anchor"
+        }
+      }
+    },
+    {
       "dealer": "Empire Music",
       "url": "https://empiremusic.com/products/gibson-custom-shop-1959-les-paul-standard-murphy-lab-ultra-light-aged-sunrise-teaburst-61132",
       "price_usd": 7199,
@@ -3316,82 +3392,6 @@
         "price_5pct": {
           "score": 90.0,
           "note": "at/under anchor"
-        }
-      }
-    },
-    {
-      "dealer": "Reverb \u2013 Diablo Guitars",
-      "url": "https://reverb.com/item/98428382-gibson-es-335td-sunburst-1974-w-ohsc",
-      "price_usd": 5499.99,
-      "condition": "Good (player-grade: finish checking, wear-through on neck/headstock, dings)",
-      "city_state": "Renton, WA",
-      "year": 1974,
-      "model": "Gibson ES-335TD",
-      "finish": "Sunburst",
-      "serial": "182568",
-      "weight_lbs": 7.375,
-      "nut_width_in": 1.572,
-      "fret1_depth_in": 0.771,
-      "fret12_depth_in": 0.986,
-      "neck_profile": "Slim Taper",
-      "shoulder_description": "Slim taper per dealer spec sheet; 1st-fret .771 squarely in target slim range",
-      "fingerboard_radius": "12\"",
-      "pickups": "Original Gibson Patent Number humbuckers (T-Top era), neck 7.89k / bridge 7.37k; CTS pots dated 1973",
-      "case_included": "Original purple-interior hardshell case (replaced handle)",
-      "modifications": "Refret (22 medium jumbo), new bone nut, converted from vibrato to Faber ABR-1 + stop tail, aftermarket strap buttons",
-      "measurements_source": "dealer measured",
-      "notes": "Reverb item 98428382. TOP NARROW-NUT HIT: nut 1.572 and 1st fret .771 both in ideal band. Weight 7.375 is 0.025 under the floor (borderline light). Fresh refret = no fret-life worries. Player-grade cosmetics priced in.",
-      "category": "es_335",
-      "id": "g095",
-      "status": "ACTIVE",
-      "date_discovered": "2026-07-21",
-      "last_confirmed_active": "2026-08-09",
-      "market_bucket": "es-335 norlin",
-      "price_history": [
-        {
-          "date": "2026-07-21",
-          "price_usd": 5499.99
-        }
-      ],
-      "research_cluster": "norlin-335-early",
-      "research": [
-        "Neck feel: 1972-75 necks are generally slim-to-medium with the Norlin headstock volute and 3-piece construction (mahogany transitioning to maple ~1975); profiles vary but rarely reach 50s chunkiness.",
-        "Pickups: T-Tops throughout \u2014 clear, tight, slightly brighter than PAFs, less midrange complexity but excellent clean and edge-of-breakup; many examples have had swaps over 50 years.",
-        "Known issues: classic Norlin gripes \u2014 weight creep on some, crooked neck sets, mediocre fretwork, sunken tops around the bridge on some examples, the volute, and hit-or-miss quality declining through the decade.",
-        "Market/value: the affordable entry into vintage 335s \u2014 early-70s examples trade far below dot-necks; 'great for the money if you play it first' consensus; clean, light, straight-necked examples appreciating modestly.",
-        "Verify before buying: neck set straightness, top sinking under the bridge, actual weight, volute-area crack/repair, T-Top originality (DCR ~7.5k), and confirm year via pot codes since Norlin serials are notoriously ambiguous."
-      ],
-      "offer_intel": {
-        "as_of": "2026-08-09",
-        "anchor_usd": 5172,
-        "over_market_pct": 6,
-        "offers_enabled": true,
-        "days_listed": 51,
-        "suggested_offer_usd": 4950,
-        "discount_pct": 10,
-        "rationale": "8% base; condition/mods"
-      },
-      "score": 85.5,
-      "score_breakdown": {
-        "weight_30pct": {
-          "score": 97.5,
-          "note": "weight 7.375 lbs"
-        },
-        "neck_35pct": {
-          "score": 76.3,
-          "note": "nut ok (95); 1st fret ok (100); 12th fret ok (34)"
-        },
-        "shoulders_20pct": {
-          "score": 95.0,
-          "note": "slim/fast profile: 'slim taper slim taper per dealer spec sheet; 1st-fret .771 s'"
-        },
-        "condition_10pct": {
-          "score": 70.0,
-          "note": "good (player-grade: finish checking, wear-through on neck/headstock, dings)"
-        },
-        "price_5pct": {
-          "score": 70.0,
-          "note": "slightly above anchor"
         }
       }
     },
@@ -3581,7 +3581,7 @@
       "score_breakdown": {
         "weight_30pct": {
           "score": 100.0,
-          "note": "weight 7.8 lbs"
+          "note": "weight 7.8 lbs (vibrato allowance +0.5)"
         },
         "neck_35pct": {
           "score": 69.6,
@@ -4408,6 +4408,83 @@
         "price_5pct": {
           "score": 25.0,
           "note": "well above anchor"
+        }
+      }
+    },
+    {
+      "reverb_id": "97924994",
+      "url": "https://reverb.com/item/97924994-2022-gibson-custom-61-es-335tdc-dot-reissue-cherry-w-ohsc",
+      "dealer": "Imperial Vintage Guitars",
+      "price_usd": 4595.0,
+      "year": 2022,
+      "model": "Custom Shop '61 ES-335TDC Dot Reissue",
+      "finish": null,
+      "weight_lbs": 7.25,
+      "weight_as_stated": "7lbs 4oz",
+      "nut_width_in": 1.65,
+      "fret1_depth_in": 0.76,
+      "fret12_depth_in": 0.9,
+      "neck_profile": "'61 slim (per measurements)",
+      "condition": "Very Good",
+      "serial": null,
+      "city_state": "Burbank, CA",
+      "pickups": "Gibson humbuckers (Custombuckers stock on '61 RI)",
+      "case_included": "Original hardshell case + COA",
+      "modifications": "Updated stop-tailpiece and studs; two felt marks from removed Bigsby",
+      "published_at": "2026-06-05T19:05:00-04:00",
+      "offers_enabled": true,
+      "note": "7 lbs 4 oz \u2014 near the soft floor; slimmest '61 RI here and cheapest at $4,595, light playwear and minor tailpiece swap.",
+      "category": "es_335",
+      "id": "g278",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-30",
+      "last_confirmed_active": "2026-08-09",
+      "market_bucket": "es-335 61 reissue",
+      "price_history": [
+        {
+          "date": "2026-07-30",
+          "price_usd": 4595.0
+        }
+      ],
+      "research_cluster": "cs-61-reissue-335",
+      "research": [
+        "Neck feel: the 1961 reissue's 'Skinny C' SlimTaper was scanned from originals \u2014 thin (~.80\" range at the 1st fret) with vintage 1-11/16\" nut; owners say convincingly close to a real early-60s slim neck, noticeably slimmer than the '59 reissue carve.",
+        "Pickups: unpotted Custombuckers \u2014 airy PAF clarity, piano-like lows, classic 335 honk; regarded as a genuine upgrade over Memphis-era MHS/BB sets; unpotted caveat: microphonic squeal at very high gain.",
+        "Known issues: relatively few \u2014 Murphy Lab lacquer fragility/checking, weight variance (7.5-9 lbs), scattered nut/setup complaints; thin lacquer damages easily in shipping; hollow wings + unpotted pickups mean feedback management is part of ownership.",
+        "Market/value: current top-of-market for new 335s; Murphy Lab premium softens on resale (used ML often 25-30% off list) while VOS holds value best; has largely replaced clean vintage 335s in the 'best modern alternative' conversation.",
+        "Verify before buying: neck measurements (confirm the skinny '61 carve suits you vs the fatter '59 RI), weight, aging level and hidden damage within Murphy Lab wear, COA/case, center block rattles (tap test), original Custombuckers."
+      ],
+      "offer_intel": {
+        "as_of": "2026-08-09",
+        "anchor_usd": 5000,
+        "over_market_pct": -8,
+        "offers_enabled": true,
+        "days_listed": 65,
+        "suggested_offer_usd": 4150,
+        "discount_pct": 10,
+        "rationale": "8% base; condition/mods"
+      },
+      "score": 82.7,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 95.7,
+          "note": "weight 7.25 lbs (vibrato allowance +0.5)"
+        },
+        "neck_35pct": {
+          "score": 66.7,
+          "note": "nut ok (0); 1st fret ok (100); 12th fret ok (100)"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: ''61 slim (per measurements)'"
+        },
+        "condition_10pct": {
+          "score": 82.0,
+          "note": "very good"
+        },
+        "price_5pct": {
+          "score": 70.0,
+          "note": "slightly above anchor"
         }
       }
     },
@@ -5358,83 +5435,6 @@
         "as_of": "2026-08-09",
         "anchor_usd": 5000,
         "over_market_pct": 40
-      }
-    },
-    {
-      "reverb_id": "97924994",
-      "url": "https://reverb.com/item/97924994-2022-gibson-custom-61-es-335tdc-dot-reissue-cherry-w-ohsc",
-      "dealer": "Imperial Vintage Guitars",
-      "price_usd": 4595.0,
-      "year": 2022,
-      "model": "Custom Shop '61 ES-335TDC Dot Reissue",
-      "finish": null,
-      "weight_lbs": 7.25,
-      "weight_as_stated": "7lbs 4oz",
-      "nut_width_in": 1.65,
-      "fret1_depth_in": 0.76,
-      "fret12_depth_in": 0.9,
-      "neck_profile": "'61 slim (per measurements)",
-      "condition": "Very Good",
-      "serial": null,
-      "city_state": "Burbank, CA",
-      "pickups": "Gibson humbuckers (Custombuckers stock on '61 RI)",
-      "case_included": "Original hardshell case + COA",
-      "modifications": "Updated stop-tailpiece and studs; two felt marks from removed Bigsby",
-      "published_at": "2026-06-05T19:05:00-04:00",
-      "offers_enabled": true,
-      "note": "7 lbs 4 oz \u2014 near the soft floor; slimmest '61 RI here and cheapest at $4,595, light playwear and minor tailpiece swap.",
-      "category": "es_335",
-      "id": "g278",
-      "status": "ACTIVE",
-      "date_discovered": "2026-07-30",
-      "last_confirmed_active": "2026-08-09",
-      "market_bucket": "es-335 61 reissue",
-      "price_history": [
-        {
-          "date": "2026-07-30",
-          "price_usd": 4595.0
-        }
-      ],
-      "research_cluster": "cs-61-reissue-335",
-      "research": [
-        "Neck feel: the 1961 reissue's 'Skinny C' SlimTaper was scanned from originals \u2014 thin (~.80\" range at the 1st fret) with vintage 1-11/16\" nut; owners say convincingly close to a real early-60s slim neck, noticeably slimmer than the '59 reissue carve.",
-        "Pickups: unpotted Custombuckers \u2014 airy PAF clarity, piano-like lows, classic 335 honk; regarded as a genuine upgrade over Memphis-era MHS/BB sets; unpotted caveat: microphonic squeal at very high gain.",
-        "Known issues: relatively few \u2014 Murphy Lab lacquer fragility/checking, weight variance (7.5-9 lbs), scattered nut/setup complaints; thin lacquer damages easily in shipping; hollow wings + unpotted pickups mean feedback management is part of ownership.",
-        "Market/value: current top-of-market for new 335s; Murphy Lab premium softens on resale (used ML often 25-30% off list) while VOS holds value best; has largely replaced clean vintage 335s in the 'best modern alternative' conversation.",
-        "Verify before buying: neck measurements (confirm the skinny '61 carve suits you vs the fatter '59 RI), weight, aging level and hidden damage within Murphy Lab wear, COA/case, center block rattles (tap test), original Custombuckers."
-      ],
-      "offer_intel": {
-        "as_of": "2026-08-09",
-        "anchor_usd": 5000,
-        "over_market_pct": -8,
-        "offers_enabled": true,
-        "days_listed": 65,
-        "suggested_offer_usd": 4150,
-        "discount_pct": 10,
-        "rationale": "8% base; condition/mods"
-      },
-      "score": 79.5,
-      "score_breakdown": {
-        "weight_30pct": {
-          "score": 85.0,
-          "note": "weight 7.25 lbs"
-        },
-        "neck_35pct": {
-          "score": 66.7,
-          "note": "nut ok (0); 1st fret ok (100); 12th fret ok (100)"
-        },
-        "shoulders_20pct": {
-          "score": 95.0,
-          "note": "slim/fast profile: ''61 slim (per measurements)'"
-        },
-        "condition_10pct": {
-          "score": 82.0,
-          "note": "very good"
-        },
-        "price_5pct": {
-          "score": 70.0,
-          "note": "slightly above anchor"
-        }
       }
     },
     {
@@ -8941,6 +8941,82 @@
       }
     },
     {
+      "dealer": "Reverb \u2013 Milwaukee Vintage",
+      "url": "https://reverb.com/item/99793899-all-original-1970-1971-gibson-es-335-cherry-with-ohsc-rare-factory-lyre-vibrola-orange-label",
+      "price_usd": 7995,
+      "condition": "Excellent (light scuffs on back; frets near-unworn)",
+      "city_state": "Milwaukee, WI",
+      "year": 1970,
+      "model": "Gibson ES-335TD with rare factory Maestro Lyre Vibrola",
+      "finish": "Cherry",
+      "serial": "633734",
+      "weight_lbs": 8.08,
+      "nut_width_in": 1.593,
+      "fret1_depth_in": null,
+      "fret12_depth_in": null,
+      "neck_profile": "Narrow-nut early-70s (profile not stated)",
+      "shoulder_description": null,
+      "fingerboard_radius": null,
+      "pickups": "Original humbuckers, all original electronics",
+      "case_included": "Original hardshell case (very good)",
+      "modifications": "None - 100% original; 14-day return policy",
+      "measurements_source": "dealer measured",
+      "notes": "Reverb 99793899, published 2026-07-28. NARROW-NUT HIT: measured 1.593. Flags: 8.08 lbs is 0.08 over ceiling; 1970/71 just before target window; no fret depths (ask). In-shop demo in Milwaukee. Year could be 1971.",
+      "category": "es_335",
+      "id": "g139",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-29",
+      "last_confirmed_active": "2026-08-09",
+      "market_bucket": "es-335 norlin",
+      "price_history": [
+        {
+          "date": "2026-07-29",
+          "price_usd": 7995
+        }
+      ],
+      "research_cluster": "norlin-335-early",
+      "research": [
+        "Neck feel: 1972-75 necks are generally slim-to-medium with the Norlin headstock volute and 3-piece construction (mahogany transitioning to maple ~1975); profiles vary but rarely reach 50s chunkiness.",
+        "Pickups: T-Tops throughout \u2014 clear, tight, slightly brighter than PAFs, less midrange complexity but excellent clean and edge-of-breakup; many examples have had swaps over 50 years.",
+        "Known issues: classic Norlin gripes \u2014 weight creep on some, crooked neck sets, mediocre fretwork, sunken tops around the bridge on some examples, the volute, and hit-or-miss quality declining through the decade.",
+        "Market/value: the affordable entry into vintage 335s \u2014 early-70s examples trade far below dot-necks; 'great for the money if you play it first' consensus; clean, light, straight-necked examples appreciating modestly.",
+        "Verify before buying: neck set straightness, top sinking under the bridge, actual weight, volute-area crack/repair, T-Top originality (DCR ~7.5k), and confirm year via pot codes since Norlin serials are notoriously ambiguous."
+      ],
+      "offer_intel": {
+        "as_of": "2026-08-09",
+        "anchor_usd": 5172,
+        "over_market_pct": 55,
+        "offers_enabled": true,
+        "days_listed": 12,
+        "suggested_offer_usd": 7050,
+        "discount_pct": 12,
+        "rationale": "8% base; 55% over market anchor ($5172)"
+      },
+      "score": 72.5,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 92.0,
+          "note": "weight 8.08 lbs (vibrato allowance +0.5)"
+        },
+        "neck_35pct": {
+          "score": 67.7,
+          "note": "nut ok (84); 1st fret unmeasured; 12th fret unmeasured"
+        },
+        "shoulders_20pct": {
+          "score": 60.0,
+          "note": "profile unclear: 'narrow-nut early-70s (profile not stated)'"
+        },
+        "condition_10pct": {
+          "score": 92.0,
+          "note": "excellent (light scuffs on back; frets near-unworn)"
+        },
+        "price_5pct": {
+          "score": 0.0,
+          "note": "well above anchor"
+        }
+      }
+    },
+    {
       "url": "https://retrofret.com/products/gibson-les-paul-deluxe-solid-body-electric-guitar-1973-12579",
       "dealer": "Retrofret",
       "price_usd": 5650.0,
@@ -11430,82 +11506,6 @@
       ]
     },
     {
-      "dealer": "Reverb \u2013 Milwaukee Vintage",
-      "url": "https://reverb.com/item/99793899-all-original-1970-1971-gibson-es-335-cherry-with-ohsc-rare-factory-lyre-vibrola-orange-label",
-      "price_usd": 7995,
-      "condition": "Excellent (light scuffs on back; frets near-unworn)",
-      "city_state": "Milwaukee, WI",
-      "year": 1970,
-      "model": "Gibson ES-335TD with rare factory Maestro Lyre Vibrola",
-      "finish": "Cherry",
-      "serial": "633734",
-      "weight_lbs": 8.08,
-      "nut_width_in": 1.593,
-      "fret1_depth_in": null,
-      "fret12_depth_in": null,
-      "neck_profile": "Narrow-nut early-70s (profile not stated)",
-      "shoulder_description": null,
-      "fingerboard_radius": null,
-      "pickups": "Original humbuckers, all original electronics",
-      "case_included": "Original hardshell case (very good)",
-      "modifications": "None - 100% original; 14-day return policy",
-      "measurements_source": "dealer measured",
-      "notes": "Reverb 99793899, published 2026-07-28. NARROW-NUT HIT: measured 1.593. Flags: 8.08 lbs is 0.08 over ceiling; 1970/71 just before target window; no fret depths (ask). In-shop demo in Milwaukee. Year could be 1971.",
-      "category": "es_335",
-      "id": "g139",
-      "status": "ACTIVE",
-      "date_discovered": "2026-07-29",
-      "last_confirmed_active": "2026-08-09",
-      "market_bucket": "es-335 norlin",
-      "price_history": [
-        {
-          "date": "2026-07-29",
-          "price_usd": 7995
-        }
-      ],
-      "research_cluster": "norlin-335-early",
-      "research": [
-        "Neck feel: 1972-75 necks are generally slim-to-medium with the Norlin headstock volute and 3-piece construction (mahogany transitioning to maple ~1975); profiles vary but rarely reach 50s chunkiness.",
-        "Pickups: T-Tops throughout \u2014 clear, tight, slightly brighter than PAFs, less midrange complexity but excellent clean and edge-of-breakup; many examples have had swaps over 50 years.",
-        "Known issues: classic Norlin gripes \u2014 weight creep on some, crooked neck sets, mediocre fretwork, sunken tops around the bridge on some examples, the volute, and hit-or-miss quality declining through the decade.",
-        "Market/value: the affordable entry into vintage 335s \u2014 early-70s examples trade far below dot-necks; 'great for the money if you play it first' consensus; clean, light, straight-necked examples appreciating modestly.",
-        "Verify before buying: neck set straightness, top sinking under the bridge, actual weight, volute-area crack/repair, T-Top originality (DCR ~7.5k), and confirm year via pot codes since Norlin serials are notoriously ambiguous."
-      ],
-      "offer_intel": {
-        "as_of": "2026-08-09",
-        "anchor_usd": 5172,
-        "over_market_pct": 55,
-        "offers_enabled": true,
-        "days_listed": 12,
-        "suggested_offer_usd": 7050,
-        "discount_pct": 12,
-        "rationale": "8% base; 55% over market anchor ($5172)"
-      },
-      "score": 67.0,
-      "score_breakdown": {
-        "weight_30pct": {
-          "score": 73.6,
-          "note": "weight 8.08 lbs"
-        },
-        "neck_35pct": {
-          "score": 67.7,
-          "note": "nut ok (84); 1st fret unmeasured; 12th fret unmeasured"
-        },
-        "shoulders_20pct": {
-          "score": 60.0,
-          "note": "profile unclear: 'narrow-nut early-70s (profile not stated)'"
-        },
-        "condition_10pct": {
-          "score": 92.0,
-          "note": "excellent (light scuffs on back; frets near-unworn)"
-        },
-        "price_5pct": {
-          "score": 0.0,
-          "note": "well above anchor"
-        }
-      }
-    },
-    {
       "dealer": "Reverb \u2013 Nationwide Guitars",
       "url": "https://reverb.com/item/85044474-1973-gibson-es-335-walnut-collector-clean-condition-with-original-case-patent-sticker-pickups",
       "price_usd": 5499,
@@ -12338,6 +12338,81 @@
       }
     },
     {
+      "url": "https://reverb.com/item/100108026-2026-gibson-custom-murphy-lab-dealer-select-1956-les-paul-standard-bigsby-light-aged-ebony-w-ohsc",
+      "dealer": "Imperial Vintage Guitars",
+      "price_usd": 7699.0,
+      "year": 2026,
+      "model": "Gibson Custom Murphy Lab Dealer Select 1956 Les Paul Standard w/ Bigsby, Light Aged",
+      "finish": "Ebony",
+      "weight_lbs": 8.88,
+      "nut_width_in": 1.6875,
+      "fret1_depth_in": 0.94,
+      "fret12_depth_in": 1.13,
+      "neck_profile": "1956",
+      "condition": "Mint",
+      "serial": null,
+      "city_state": "Burbank, CA",
+      "pickups": "Soapbar P-90 (neck) + Custombucker (bridge)",
+      "case_included": "Original hardshell case + COA + hang tags",
+      "modifications": "none (new, factory Bigsby)",
+      "published_at": "2026-08-04T17:20:27-05:00",
+      "offers_enabled": true,
+      "note": "Meets the letter of the criteria - Custom Shop/Murphy Lab, exact 8 lbs 14 oz = 8.88, dark Ebony, CONUS, under cap - but OFF-PROFILE for this buyer: P-90/Custombucker mixed set, Bigsby, and a very deep 1.13\" 12th-fret neck (the fattest of anything qualifying). Listed for completeness, low priority.",
+      "category": "les_paul",
+      "id": "g335",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-09",
+      "last_confirmed_active": "2026-08-09",
+      "market_bucket": "murphy lab",
+      "price_history": [
+        {
+          "date": "2026-08-09",
+          "price_usd": 7699.0
+        }
+      ],
+      "research_cluster": "standard-60s",
+      "research": [
+        "Neck feel: USA Standard '60s uses Gibson's modern SlimTaper \u2014 typically ~.80-.83\" at the 1st fret \u2014 but forums document real unit-to-unit variance from genuinely skinny to almost medium-C; fretwork and nut quality also vary.",
+        "Pickups: Burstbucker 61R/61T (Alnico V, slightly hot vintage-voiced) \u2014 brighter and more aggressive than Custombuckers; some find the 61T harsh into bright amps; 2019+ wiring is hand-wired with orange-drop caps, no PCB.",
+        "Known issues: weight is the big one \u2014 non-weight-relieved and commonly 9-10+ lbs (sub-9 lb examples get snapped up); also inconsistent nut slotting, occasional fret-end sprout, finish flaws under the burst.",
+        "Market/value: the mainstream benchmark Les Paul \u2014 liquid used market but steep initial depreciation (used commonly 25-35% under street); Plain Tops resell a bit lower than figured bursts; excellent players when you pick a good one.",
+        "Verify before buying: exact weight (ask for a scale photo \u2014 listings routinely guess low), neck measurements and fret ends, nut slots, top figure vs stock photos, and confirm Standard '60s vs a weight-relieved 'Classic' being misrepresented."
+      ],
+      "offer_intel": {
+        "as_of": "2026-08-09",
+        "anchor_usd": 7500,
+        "over_market_pct": 3,
+        "offers_enabled": true,
+        "days_listed": 5,
+        "suggested_offer_usd": 7100,
+        "discount_pct": 8,
+        "rationale": "8% base"
+      },
+      "score": 65.7,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 97.7,
+          "note": "weight 8.88 lbs (vibrato allowance +0.5)"
+        },
+        "neck_35pct": {
+          "score": 31.7,
+          "note": "nut ok (95); 1st fret ok (0); 12th fret ok (0)"
+        },
+        "shoulders_20pct": {
+          "score": 60.0,
+          "note": "profile unclear: '1956'"
+        },
+        "condition_10pct": {
+          "score": 98.0,
+          "note": "mint"
+        },
+        "price_5pct": {
+          "score": 70.0,
+          "note": "slightly above anchor"
+        }
+      }
+    },
+    {
       "reverb_id": "80918240",
       "url": "https://reverb.com/item/80918240-gibson-custom-shop-60th-anniversary-60-les-paul-standard-reissue-v2-001667-2020-tomato-soup-burst",
       "dealer": "Guitar Showcase",
@@ -12711,81 +12786,6 @@
         "condition_10pct": {
           "score": 100.0,
           "note": "brand new"
-        },
-        "price_5pct": {
-          "score": 70.0,
-          "note": "slightly above anchor"
-        }
-      }
-    },
-    {
-      "url": "https://reverb.com/item/100108026-2026-gibson-custom-murphy-lab-dealer-select-1956-les-paul-standard-bigsby-light-aged-ebony-w-ohsc",
-      "dealer": "Imperial Vintage Guitars",
-      "price_usd": 7699.0,
-      "year": 2026,
-      "model": "Gibson Custom Murphy Lab Dealer Select 1956 Les Paul Standard w/ Bigsby, Light Aged",
-      "finish": "Ebony",
-      "weight_lbs": 8.88,
-      "nut_width_in": 1.6875,
-      "fret1_depth_in": 0.94,
-      "fret12_depth_in": 1.13,
-      "neck_profile": "1956",
-      "condition": "Mint",
-      "serial": null,
-      "city_state": "Burbank, CA",
-      "pickups": "Soapbar P-90 (neck) + Custombucker (bridge)",
-      "case_included": "Original hardshell case + COA + hang tags",
-      "modifications": "none (new, factory Bigsby)",
-      "published_at": "2026-08-04T17:20:27-05:00",
-      "offers_enabled": true,
-      "note": "Meets the letter of the criteria - Custom Shop/Murphy Lab, exact 8 lbs 14 oz = 8.88, dark Ebony, CONUS, under cap - but OFF-PROFILE for this buyer: P-90/Custombucker mixed set, Bigsby, and a very deep 1.13\" 12th-fret neck (the fattest of anything qualifying). Listed for completeness, low priority.",
-      "category": "les_paul",
-      "id": "g335",
-      "status": "ACTIVE",
-      "date_discovered": "2026-08-09",
-      "last_confirmed_active": "2026-08-09",
-      "market_bucket": "murphy lab",
-      "price_history": [
-        {
-          "date": "2026-08-09",
-          "price_usd": 7699.0
-        }
-      ],
-      "research_cluster": "standard-60s",
-      "research": [
-        "Neck feel: USA Standard '60s uses Gibson's modern SlimTaper \u2014 typically ~.80-.83\" at the 1st fret \u2014 but forums document real unit-to-unit variance from genuinely skinny to almost medium-C; fretwork and nut quality also vary.",
-        "Pickups: Burstbucker 61R/61T (Alnico V, slightly hot vintage-voiced) \u2014 brighter and more aggressive than Custombuckers; some find the 61T harsh into bright amps; 2019+ wiring is hand-wired with orange-drop caps, no PCB.",
-        "Known issues: weight is the big one \u2014 non-weight-relieved and commonly 9-10+ lbs (sub-9 lb examples get snapped up); also inconsistent nut slotting, occasional fret-end sprout, finish flaws under the burst.",
-        "Market/value: the mainstream benchmark Les Paul \u2014 liquid used market but steep initial depreciation (used commonly 25-35% under street); Plain Tops resell a bit lower than figured bursts; excellent players when you pick a good one.",
-        "Verify before buying: exact weight (ask for a scale photo \u2014 listings routinely guess low), neck measurements and fret ends, nut slots, top figure vs stock photos, and confirm Standard '60s vs a weight-relieved 'Classic' being misrepresented."
-      ],
-      "offer_intel": {
-        "as_of": "2026-08-09",
-        "anchor_usd": 7500,
-        "over_market_pct": 3,
-        "offers_enabled": true,
-        "days_listed": 5,
-        "suggested_offer_usd": 7100,
-        "discount_pct": 8,
-        "rationale": "8% base"
-      },
-      "score": 64.8,
-      "score_breakdown": {
-        "weight_30pct": {
-          "score": 94.7,
-          "note": "weight 8.88 lbs"
-        },
-        "neck_35pct": {
-          "score": 31.7,
-          "note": "nut ok (95); 1st fret ok (0); 12th fret ok (0)"
-        },
-        "shoulders_20pct": {
-          "score": 60.0,
-          "note": "profile unclear: '1956'"
-        },
-        "condition_10pct": {
-          "score": 98.0,
-          "note": "mint"
         },
         "price_5pct": {
           "score": 70.0,

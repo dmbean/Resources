@@ -60,8 +60,11 @@ Long-running sourcing agent for a Gibson Les Paul and an ES-335. Runs every 24 h
    **V3 neck priority (buyer signal 2026-07-29)**: Les Pauls with the V3 / late-1960 "Skinny C"
    carve (≈.80" 1st / .89" 12th — 60th Anniversary V3, some M2M/Wildwood Spec V3 orders) rank
    highest on neck feel; add "V3", "skinny C", and "60th anniversary v3" to LP sweep queries.
-   Weight floors are SOFT as of 2026-07-29 (LP 8.0, ES 7.2) — do not reject light guitars;
-   ceilings (9.0 / 8.0) remain hard targets.
+   Weight floors are SOFT as of 2026-07-29 (LP 8.0, ES 7.2) — do not reject light guitars.
+   **Vibrato allowance (buyer signal 2026-08-09)**: ceilings are LP 9.0 / ES 8.0, but rise to
+   LP 9.5 / ES 8.5 when a vibrato (Bigsby, Maestro, Vibrola, sideways) is fitted — the buyer
+   likes vibratos and accepts their weight. Ideal bands unchanged, so lighter still ranks higher.
+   Every sweep must record the vibrato type when present, or the allowance cannot be applied.
    **ES-family note (2026-08-09)**: sweeps cover ES-345/355/347/340 on the same rules as the 335. Always record Varitone (intact/bypassed/removed), stereo-vs-mono wiring, and weight-adding hardware (Bigsby/Maestro/TP-6/gold). ES-347s ship Dirty Fingers (hot ceramic, not PAF-style) — flag that explicitly.
    **Standing narrow-nut hunt**: every sweep must include dedicated queries for 1-9/16" nut ES-335s — the buyer's ideal nut, found only on 1965–1981 vintage examples (modern reissues are all 1-11/16"). Reverb API queries: "es-335 1 9/16", "es-335 narrow nut", "es-335 1.56", plus year-specific searches 1968–1980; also sweep dealers that publish nut widths (Carter, CME used, Gruhn).
 3. Dedupe against database by serial number, URL, and dealer inventory ID.
