@@ -19,6 +19,12 @@ Long-running sourcing agent for a Gibson Les Paul and an ES-335. Runs every 24 h
   `https://api.reverb.com/api/listings/<id>` (and `?query=` for search) with headers
   `Accept: application/hal+json` and `Accept-Version: 3.0`; only `state: "live"` counts.
 - **Fresh container?** Run `pip install pillow` before `scripts/images.py`.
+- **Reverb rate-limiting is real.** After the very large sweeps of 2026-08-09 (~20k listings in a
+  day), api.reverb.com returned a 403 anti-bot wall to this environment for hours — every endpoint,
+  every header variation. Dealer sites were unaffected. Keep per-run Reverb volume moderate, pace
+  at >=1.5s between calls, and NEVER run two Reverb-fetching agents concurrently.
+- **Give each sweep agent its OWN scratch directory.** On 2026-08-13 two agents wrote to the same
+  path and one picked up the other's script, doubling load against an already-blocked endpoint.
 - **Always date a run from the system clock** (`date -u +%F`) — never infer today's date from
   the previous run or from conversation context. On 2026-08-09 a run was mis-stamped 2026-08-05,
   so the board's "last sweep" line read as stale to the buyer even though the data was fresh.

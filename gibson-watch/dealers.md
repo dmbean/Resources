@@ -17,17 +17,18 @@ _Add dealers found via forums/listings here; they get searched on every subseque
   Rivington Guitars (rivingtonguitars.com, East Village), Retrofret (retrofret.com, Brooklyn),
   30th Street Guitars (30thstreetguitars.com), Main Drag Music (maindragmusic.com, Brooklyn),
   Ludlow Guitars (ludlowguitars.com). Sweep for MIJ LP/335-style per README rules.
-- Tone Wolf (Brooklyn, NY — Reverb shop) — DISCOVERED 2026-08-09 during the full NYC sweep.
-  ~500 listings; publishes exact weights AND 1st/12th-fret depths, which is rare and makes them
-  high-value for this buyer's spec rules. Held 6 qualifying Les Pauls on discovery. Sweep every run
-  with the NYC group.
+- Tone Wolf (Brooklyn, NY) — added to the roster 2026-08-09. Publishes exact weights AND 1st/12th-fret
+  depths, which is rare. CORRECTION 2026-08-13: their inventory was NOT previously being missed —
+  ~503 of their listings already appear in earlier Reverb sweep caches. Adding them to the roster
+  gains a direct Shopify source (tonewolf.com, ~489 in stock), not new inventory.
 - Ludlow Guitars — CORRECTION 2026-08-09: their Reverb shop (slug `ludlowguitars`, id 20485) now
   lists a Kirkland WA address and carries only 11 parts/amp listings. Treat as no longer an NYC
   source until that changes.
 - Main Drag / 30th Street — 30th Street's Shopify is pedals-only and their guitars go to Reverb;
   neither had in-scope guitars on 2026-08-09. Keep sweeping, but expect thin results.
-- CAUTION (2026-07-24): ludlowguitars.com redirects to an unrelated Indonesian site (possible
-  domain hijack). Do not fetch the domain; check Ludlow Guitars' Reverb shop instead until resolved.
+- Ludlow Guitars — DROPPED 2026-08-13. The domain now redirects to a parked site
+  (kaksetosurabaya.com), and their Reverb shop moved to a Kirkland WA address with only ~11
+  parts/amp listings. No longer an NYC source; stop sweeping unless it comes back.
 - Sweetwater (sweetwater.com) — **BLOCKED, never swept** (checked 2026-08-09). Publishes an exact
   weight for every individual serial, so it is the single best structural fit for the exact-weight
   rule — but the site sits behind PerimeterX bot detection: every route (search, product detail,
