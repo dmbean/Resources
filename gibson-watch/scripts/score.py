@@ -10,6 +10,9 @@ Run from the gibson-watch/ directory: python3 scripts/score.py
 import csv
 import json
 import os
+import re
+
+_re_bridge = re.compile(r"bridge(?:\s+pickup)?\s*[:\-]\s*([^|;\n]{0,60})")
 
 HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DB = os.path.join(HERE, "database.json")
@@ -84,9 +87,12 @@ def weight_component(g):
     # Buyer signal 2026-08-09: a vibrato's weight is accepted, so the ceiling gets a
     # +0.5 lb allowance when one is fitted; lighter is still preferred, so the ideal
     # band does NOT move — a vibrato guitar simply isn't punished for the hardware.
-    vib = 0.5 if has_vibrato(g) else 0.0
+    # Buyer signal 2026-08-13: vibratos are wanted on SEMI-HOLLOWS ONLY, not on a Les Paul.
+    # So the +0.5 lb allowance applies to the ES family alone; a Bigsby-equipped LP is
+    # excluded outright at sweep/ingest time rather than given extra weight headroom.
+    vib = 0.5 if (has_vibrato(g) and g["category"] != "les_paul") else 0.0
     if g["category"] == "les_paul":
-        s = band_score(g.get("weight_lbs"), 8.0, 9.0 + vib, 8.3, 8.8, falloff=1.2)
+        s = band_score(g.get("weight_lbs"), 8.0, 9.0, 8.3, 8.8, falloff=1.2)
     else:
         s = band_score(g.get("weight_lbs"), 7.2, 8.0 + vib, 7.4, 7.8, falloff=1.0)
     if s is None:
@@ -187,9 +193,10 @@ def is_mini_hb_lp(g):
     return any(w in txt for w in MINI_WORDS)
 
 
-def is_p90_lp(g):
-    """P-90 Les Paul (buyer signal 2026-08-09: spec is humbucker LPs only).
-    '54/'56 Standard reissues (R4/R6) ship P-90s; LP Customs of those years do not."""
+def has_p90(g):
+    """P-90s on a Les Paul. NOT an exclusion — buyer signal 2026-08-13 reversed that:
+    he wants a P-90 in the NECK position. '54/'56 Standard reissues (R4/R6) are dual-P-90;
+    LP Customs of those years are not."""
     import re as _re
     if g.get("category") != "les_paul":
         return False
@@ -200,6 +207,47 @@ def is_p90_lp(g):
     if "les paul custom" in m or "black beauty" in m:
         return False
     return bool(_re.search(r"(1954|'54|\br4\b|1956|'56|\br6\b)", m))
+
+
+HB_WORDS = ("humbucker", "custombucker", "burstbucker", "paf", "t-top", "throbak",
+            "57 classic", "'57 classic", "s bucker", "\"s\" bucker", "cloudbucker",
+            "490", "498", "mhs", "alnico ii", "alnico iii", "alnico 3")
+
+
+def bridge_is_p90(g):
+    """True when the BRIDGE pickup is a P-90/soapbar. Buyer signal 2026-08-13: a P-90 in
+    the NECK is wanted, but a humbucker in the BRIDGE is a hard requirement.
+
+    Judge only on stated pickups — never on the model year. Willcutt sells 1954 Goldtops
+    built with Custombuckers ("instead of the traditional P-90s") alongside '56 Goldtops
+    with Soapbar P-90s, so year predicts nothing. An unstated pickup set returns False
+    here and is flagged separately rather than guessed at."""
+    if g.get("category") != "les_paul":
+        return False
+    txt = " ".join(str(g.get(k) or "") for k in ("pickups", "model", "notes")).lower()
+    m = _re_bridge.search(txt)
+    if m:                                  # explicit "bridge pickup: X"
+        return any(w in m.group(1) for w in P90_WORDS)
+    has_p90_word = any(w in txt for w in P90_WORDS)
+    has_hb_word = any(w in txt for w in HB_WORDS)
+    return has_p90_word and not has_hb_word     # P-90s named, no humbucker anywhere
+
+
+def p90_neck(g):
+    """A P-90 specifically in the NECK position — the configuration the buyer asked for
+    (2026-08-13). Catches a stated neck P-90 and the common P-90-neck/humbucker-bridge
+    pairing, as well as dual-P-90 guitars (which have one in the neck by definition)."""
+    if not has_p90(g):
+        return False
+    txt = " ".join(str(g.get(k) or "") for k in ("pickups", "model", "notes")).lower()
+    for w in P90_WORDS:
+        i = txt.find(w)
+        while i != -1:
+            window = txt[max(0, i - 40):i + 40]
+            if "neck" in window:
+                return True
+            i = txt.find(w, i + 1)
+    return True   # dual-P-90 guitar: a P-90 is in the neck by construction
 
 
 SLIM_WORDS = ("slimtaper", "slim taper", "slim", "1960", "60s", "fast c", "fast d",
@@ -289,6 +337,9 @@ def condition_component(g):
             score = float(s)
             break
     note = c or "condition unstated"
+    if p90_neck(g):
+        score = min(100.0, score + 6.0)
+        note += " (+P-90 in neck — buyer-requested)"
     if is_plekd(g):
         score = min(100.0, score + 10.0)
         note += " (+PLEK'd)"

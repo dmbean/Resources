@@ -59,12 +59,15 @@ Long-running sourcing agent for a Gibson Les Paul and an ES-335. Runs every 24 h
    humbuckers is acceptable, so read the listing before rejecting or ingesting one. Do not
    judge from the model name: "Historic Makeovers Deluxe Package" is an upgrade tier, not a
    Les Paul Deluxe. Always record the pickups.
-   **P-90 exclusion (buyer signal 2026-08-09)**: Les Pauls with P-90/soapbar pickups are OUT —
-   the buyer's LP spec is humbucker-equipped (Standard 60s, R0, PAF-style). This means '54 and
-   '56 Standard reissues (R4/R6) and Goldtops of those years do NOT qualify, however good the
-   weight or neck. '57+ reissues (R7/R8/R9/R0) are humbucker guitars and remain in scope.
-   Check the PICKUPS before scoring a Goldtop — this rule was missed once and put six P-90
-   guitars at the top of the board.
+   **Pickup rules for Les Pauls (revised 2026-08-13, supersedes the blanket P-90 ban)**:
+   a HUMBUCKER IN THE BRIDGE is a hard requirement. A P-90 in the NECK is welcome — the buyer
+   said he would very much like one — so a P-90-neck/humbucker-bridge guitar qualifies and
+   scores a small bonus. Dual-P-90 guitars do NOT qualify (their bridge is a P-90).
+   Mini-humbuckers are OUT (LP Deluxes), unless converted to full-size humbuckers.
+   **Judge on the STATED pickups, never on the model year.** Willcutt sells 1954 Goldtops
+   built with Custombuckers "instead of the traditional P-90s" alongside '56 Goldtops with
+   Soapbar P-90s — a year-based rule got this wrong in both directions and wrongly excluded
+   54 guitars. Every sweep MUST record the pickups, ideally per position.
    **Model exclusions from buyer signals**: Les Paul Standard 60s Plain Top (rejected 2026-07-19)
    — do not ingest; existing entries are EXCLUDED. Figured-top Standard 60s remain in scope.
    **Standing MIJ/NYC hunt (added 2026-07-20)**: Japanese-made LP-style (Tokai LS/Love Rock,
