@@ -54,6 +54,11 @@ Long-running sourcing agent for a Gibson Les Paul and an ES-335. Runs every 24 h
    **Price cap from buyer signal (2026-07-19): $10,000** — do not ingest listings priced above
    $10k; existing entries above the cap are EXCLUDED (re-include if a price drop brings one under).
    **Finish exclusions for LPs (buyer signal 2026-07-29, generalized same day)**: Wine Red and ALL blue-family finishes (Pelham Blue, Blueberry Burst, Ocean Blue, Cobalt, etc.) — do not ingest Les Pauls in these finishes. Buyer's LP palette is warm/dark: Ebony, Unburst, Dirty Lemon, Bourbon Burst, Iced Tea, classic bursts. ES-335s unaffected.
+   **Mini-humbucker exclusion (buyer signal 2026-08-13)**: no mini-humbucker Les Pauls.
+   That means LP Deluxes (1969-84) are OUT by default — but a Deluxe CONVERTED to full-size
+   humbuckers is acceptable, so read the listing before rejecting or ingesting one. Do not
+   judge from the model name: "Historic Makeovers Deluxe Package" is an upgrade tier, not a
+   Les Paul Deluxe. Always record the pickups.
    **P-90 exclusion (buyer signal 2026-08-09)**: Les Pauls with P-90/soapbar pickups are OUT —
    the buyer's LP spec is humbucker-equipped (Standard 60s, R0, PAF-style). This means '54 and
    '56 Standard reissues (R4/R6) and Goldtops of those years do NOT qualify, however good the

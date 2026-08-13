@@ -168,6 +168,23 @@ def neck_component(g):
 
 
 P90_WORDS = ("p-90", "p90", "soapbar", "soap bar", "dog ear", "dogear")
+MINI_WORDS = ("mini humbucker", "mini-humbucker", "minibucker", "mini hum", "mini bucker")
+
+
+def is_mini_hb_lp(g):
+    """Mini-humbucker Les Paul (buyer signal 2026-08-13: full-size humbuckers only).
+    LP Deluxes shipped minis — but a Deluxe CONVERTED to full-size humbuckers is fine,
+    so check for a conversion before excluding, and never judge on the model name alone.
+    Note 'Historic Makeovers Deluxe Package' is an upgrade tier, not an LP Deluxe."""
+    if g.get("category") != "les_paul":
+        return False
+    txt = " ".join(str(g.get(k) or "") for k in
+                   ("pickups", "model", "notes", "modifications")).lower()
+    converted = any(w in txt for w in ("replacing the original mini", "replaced the mini",
+                                       "converted", "full-size humbucker", "full size humbucker"))
+    if converted:
+        return False
+    return any(w in txt for w in MINI_WORDS)
 
 
 def is_p90_lp(g):
