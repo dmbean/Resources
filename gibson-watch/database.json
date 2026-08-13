@@ -1,14 +1,14 @@
 {
   "meta": {
     "created": "2026-07-19",
-    "last_run": "2026-08-09",
-    "run_count": 7,
+    "last_run": "2026-08-13",
+    "run_count": 8,
     "current_best": {
       "les_paul": {
-        "id": "g424",
+        "id": "g437",
         "score": 95.6,
-        "model": "Gibson Custom Shop Willcutt Exclusive 1954 Les Paul Standard V3 Neck M2M",
-        "url": "https://reverb.com/item/93514688-gibson-custom-shop-willcutt-exclusive-1954-les-paul-standard-v3-neck-goldtop-vos-lightweight-634"
+        "model": "Gibson Custom Shop Willcutt Exclusive 1957 Les Paul Standard Reissue V3 Neck",
+        "url": "https://reverb.com/item/97537945-gibson-custom-shop-willcutt-exclusive-1957-les-paul-standard-reissue-v3-neck-goldtop-537"
       },
       "es_335": {
         "id": "g068",
@@ -16,7 +16,8 @@
         "model": "Gibson ES-335TD",
         "url": "https://reverb.com/item/98285616-gibson-es-335td-cherry-sunburst-1972"
       }
-    }
+    },
+    "reverb_verified": "2026-08-09"
   },
   "guitars": [
     {
@@ -5713,6 +5714,69 @@
       ]
     },
     {
+      "url": "https://cartervintage.com/shop/gibson-slash-victoria-les-paul-2008-gold-top/2ptkv2uTna0FWfvKE8kCwxafxZj",
+      "dealer": "Carter Vintage Guitars",
+      "price_usd": 6000,
+      "year": 2008,
+      "model": "Gibson Slash \"Victoria\" Les Paul",
+      "finish": "Gold Top",
+      "weight_lbs": 8.2,
+      "nut_width_in": 1.69,
+      "fret1_depth_in": 0.82,
+      "fret12_depth_in": 0.9,
+      "neck_profile": "C",
+      "condition": null,
+      "serial": null,
+      "city_state": "Nashville, TN",
+      "pickups": "HH",
+      "case_included": true,
+      "modifications": "None",
+      "note": "Carter Vintage: NOT in known-urls.json, and meets all stated criteria. RECENCY UNKNOWN - Carter's sitemap lastmod is a global regeneration stamp and its listing pagination is client-side, so per-item 'added' dates could not be established; this may be standing inventory rather than a new arrival since 2026-08-09. Dealer SKU GS8832-A; serial not published on the listing page. Title: Gibson Slash \"Victoria\" Les Paul 2008, Gold Top",
+      "category": "les_paul",
+      "id": "g810",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-13",
+      "last_confirmed_active": "2026-08-13",
+      "market_bucket": "standard 60s",
+      "price_history": [
+        {
+          "date": "2026-08-13",
+          "price_usd": 6000
+        }
+      ],
+      "research_cluster": "standard-60s",
+      "research": [
+        "Neck feel: USA Standard '60s uses Gibson's modern SlimTaper \u2014 typically ~.80-.83\" at the 1st fret \u2014 but forums document real unit-to-unit variance from genuinely skinny to almost medium-C; fretwork and nut quality also vary.",
+        "Pickups: Burstbucker 61R/61T (Alnico V, slightly hot vintage-voiced) \u2014 brighter and more aggressive than Custombuckers; some find the 61T harsh into bright amps; 2019+ wiring is hand-wired with orange-drop caps, no PCB.",
+        "Known issues: weight is the big one \u2014 non-weight-relieved and commonly 9-10+ lbs (sub-9 lb examples get snapped up); also inconsistent nut slotting, occasional fret-end sprout, finish flaws under the burst.",
+        "Market/value: the mainstream benchmark Les Paul \u2014 liquid used market but steep initial depreciation (used commonly 25-35% under street); Plain Tops resell a bit lower than figured bursts; excellent players when you pick a good one.",
+        "Verify before buying: exact weight (ask for a scale photo \u2014 listings routinely guess low), neck measurements and fret ends, nut slots, top figure vs stock photos, and confirm Standard '60s vs a weight-relieved 'Classic' being misrepresented."
+      ],
+      "score": 82.0,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 93.3,
+          "note": "weight 8.2 lbs"
+        },
+        "neck_35pct": {
+          "score": 100.0,
+          "note": "nut ok (100); 1st fret ok (100); 12th fret ok (100)"
+        },
+        "shoulders_20pct": {
+          "score": 60.0,
+          "note": "profile unclear: 'c'"
+        },
+        "condition_10pct": {
+          "score": 70.0,
+          "note": "condition unstated"
+        },
+        "price_5pct": {
+          "score": 0.0,
+          "note": "well above anchor"
+        }
+      }
+    },
+    {
       "dealer": "Reverb \u2013 Retrofret Vintage Guitars",
       "url": "https://reverb.com/item/94784768-gibson-es-335td-semi-hollow-body-electric-guitar-1972-ser-745798-original-black-hard-shell-case",
       "price_usd": 4950,
@@ -6641,7 +6705,7 @@
       "id": "g480",
       "status": "ACTIVE",
       "date_discovered": "2026-08-09",
-      "last_confirmed_active": "2026-08-09",
+      "last_confirmed_active": "2026-08-13",
       "market_bucket": "es-335 61 reissue",
       "price_history": [
         {
@@ -6786,7 +6850,7 @@
       "id": "g564",
       "status": "ACTIVE",
       "date_discovered": "2026-08-09",
-      "last_confirmed_active": "2026-08-09",
+      "last_confirmed_active": "2026-08-13",
       "market_bucket": "standard 60s",
       "price_history": [
         {
@@ -7056,7 +7120,7 @@
       "id": "g569",
       "status": "ACTIVE",
       "date_discovered": "2026-08-09",
-      "last_confirmed_active": "2026-08-09",
+      "last_confirmed_active": "2026-08-13",
       "market_bucket": "murphy lab",
       "price_history": [
         {
@@ -8344,9 +8408,9 @@
       "tier": 1,
       "category": "les_paul",
       "id": "g659",
-      "status": "DUPLICATE",
+      "status": "ACTIVE",
       "date_discovered": "2026-08-09",
-      "last_confirmed_active": "2026-08-09",
+      "last_confirmed_active": "2026-08-13",
       "market_bucket": "standard 60s",
       "price_history": [
         {
@@ -10134,7 +10198,7 @@
       "id": "g693",
       "status": "ACTIVE",
       "date_discovered": "2026-08-09",
-      "last_confirmed_active": "2026-08-09",
+      "last_confirmed_active": "2026-08-13",
       "market_bucket": "es-335 norlin",
       "price_history": [
         {
@@ -13404,7 +13468,7 @@
       "id": "g718",
       "status": "ACTIVE",
       "date_discovered": "2026-08-09",
-      "last_confirmed_active": "2026-08-09",
+      "last_confirmed_active": "2026-08-13",
       "market_bucket": "murphy lab",
       "price_history": [
         {
@@ -13549,7 +13613,7 @@
       "id": "g568",
       "status": "ACTIVE",
       "date_discovered": "2026-08-09",
-      "last_confirmed_active": "2026-08-09",
+      "last_confirmed_active": "2026-08-13",
       "market_bucket": "murphy lab",
       "price_history": [
         {
@@ -14207,7 +14271,7 @@
       "id": "g802",
       "status": "ACTIVE",
       "date_discovered": "2026-08-09",
-      "last_confirmed_active": "2026-08-09",
+      "last_confirmed_active": "2026-08-13",
       "market_bucket": "murphy lab",
       "price_history": [
         {
@@ -14278,7 +14342,7 @@
       "id": "g566",
       "status": "ACTIVE",
       "date_discovered": "2026-08-09",
-      "last_confirmed_active": "2026-08-09",
+      "last_confirmed_active": "2026-08-13",
       "market_bucket": "custom shop",
       "price_history": [
         {
@@ -14433,7 +14497,7 @@
       "id": "g795",
       "status": "ACTIVE",
       "date_discovered": "2026-08-09",
-      "last_confirmed_active": "2026-08-09",
+      "last_confirmed_active": "2026-08-13",
       "market_bucket": "standard 60s",
       "price_history": [
         {
@@ -14651,7 +14715,7 @@
       "id": "g481",
       "status": "ACTIVE",
       "date_discovered": "2026-08-09",
-      "last_confirmed_active": "2026-08-09",
+      "last_confirmed_active": "2026-08-13",
       "market_bucket": "es-335 memphis",
       "price_history": [
         {
@@ -14785,7 +14849,7 @@
       "id": "g563",
       "status": "ACTIVE",
       "date_discovered": "2026-08-09",
-      "last_confirmed_active": "2026-08-09",
+      "last_confirmed_active": "2026-08-13",
       "market_bucket": "standard 60s",
       "price_history": [
         {
@@ -16324,7 +16388,7 @@
       "id": "g719",
       "status": "ACTIVE",
       "date_discovered": "2026-08-09",
-      "last_confirmed_active": "2026-08-09",
+      "last_confirmed_active": "2026-08-13",
       "market_bucket": "custom shop",
       "price_history": [
         {
@@ -17305,7 +17369,7 @@
       "id": "g694",
       "status": "ACTIVE",
       "date_discovered": "2026-08-09",
-      "last_confirmed_active": "2026-08-09",
+      "last_confirmed_active": "2026-08-13",
       "market_bucket": "es-335 modern",
       "price_history": [
         {
@@ -17825,7 +17889,7 @@
       "id": "g663",
       "status": "ACTIVE",
       "date_discovered": "2026-08-09",
-      "last_confirmed_active": "2026-08-09",
+      "last_confirmed_active": "2026-08-13",
       "market_bucket": "es-335 vintage",
       "price_history": [
         {
@@ -17969,7 +18033,7 @@
       "id": "g619",
       "status": "ACTIVE",
       "date_discovered": "2026-08-09",
-      "last_confirmed_active": "2026-08-09",
+      "last_confirmed_active": "2026-08-13",
       "market_bucket": "custom shop",
       "price_history": [
         {
@@ -20924,7 +20988,7 @@
       "id": "g661",
       "status": "ACTIVE",
       "date_discovered": "2026-08-09",
-      "last_confirmed_active": "2026-08-09",
+      "last_confirmed_active": "2026-08-13",
       "market_bucket": "murphy lab",
       "price_history": [
         {
@@ -21818,9 +21882,9 @@
       "tier": 1,
       "category": "es_335",
       "id": "g478",
-      "status": "DUPLICATE",
+      "status": "ACTIVE",
       "date_discovered": "2026-08-09",
-      "last_confirmed_active": "2026-08-09",
+      "last_confirmed_active": "2026-08-13",
       "market_bucket": "es-335 modern",
       "price_history": [
         {
@@ -22322,7 +22386,7 @@
       "id": "g656",
       "status": "ACTIVE",
       "date_discovered": "2026-08-09",
-      "last_confirmed_active": "2026-08-09",
+      "last_confirmed_active": "2026-08-13",
       "market_bucket": "murphy lab",
       "price_history": [
         {
@@ -23057,7 +23121,7 @@
       "id": "g657",
       "status": "ACTIVE",
       "date_discovered": "2026-08-09",
-      "last_confirmed_active": "2026-08-09",
+      "last_confirmed_active": "2026-08-13",
       "market_bucket": "custom shop",
       "price_history": [
         {
@@ -23171,6 +23235,69 @@
         "as_of": "2026-08-09",
         "anchor_usd": 4750,
         "over_market_pct": -41
+      }
+    },
+    {
+      "url": "https://cartervintage.com/shop/gibson-custom-shop-58-les-paul-reissue-vos-2013-sunburst/2lCoKj8zqmdcPS8uPvRPzntD9pU",
+      "dealer": "Carter Vintage Guitars",
+      "price_usd": 5200,
+      "year": 2013,
+      "model": "Gibson Custom Shop '58 Les Paul Reissue VOS",
+      "finish": "Sunburst",
+      "weight_lbs": 8.6,
+      "nut_width_in": 1.68,
+      "fret1_depth_in": 0.9,
+      "fret12_depth_in": 0.99,
+      "neck_profile": "C",
+      "condition": null,
+      "serial": null,
+      "city_state": "Nashville, TN",
+      "pickups": "Original",
+      "case_included": true,
+      "modifications": "N/A",
+      "note": "Carter Vintage: NOT in known-urls.json, and meets all stated criteria. RECENCY UNKNOWN - Carter's sitemap lastmod is a global regeneration stamp and its listing pagination is client-side, so per-item 'added' dates could not be established; this may be standing inventory rather than a new arrival since 2026-08-09. Dealer SKU GS8319-A; serial not published on the listing page. Title: Gibson Custom Shop '58 Les Paul Reissue VOS 2013, Sunburst",
+      "category": "les_paul",
+      "id": "g812",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-13",
+      "last_confirmed_active": "2026-08-13",
+      "market_bucket": "custom shop",
+      "price_history": [
+        {
+          "date": "2026-08-13",
+          "price_usd": 5200
+        }
+      ],
+      "research_cluster": "cs-r0-modern",
+      "research": [
+        "Neck feel: modern core R0s ship with the '1960 V2' medium-slim carve (~.82\" at the 1st fret, ~.95\" at the 12th) \u2014 forum consensus calls it 'a '59 neck on a diet'; Wildwood-spec R0s also typically measure around .82\" first fret, and only the V3/slim-taper variants get truly skinny (~.80\"/.89\").",
+        "Pickups: unpotted Custombuckers (Alnico III), widely praised on MLP/TGP as the best PAF-style pickup Gibson ships \u2014 airy, open, clear lows and classic midrange honk; Wildwood Spec versions are regarded as tonally equivalent, with differences mainly cosmetic.",
+        "Known issues: general 2019+ Historic complaints \u2014 occasional nut slot/fret-end sloppiness, inconsistent VOS/Murphy Lab finish work, weight variance (roughly 8.3-9.5 lbs, no weight relief), some checking-prone Murphy Lab lacquer; unpotted Custombuckers can squeal at high gain.",
+        "Market/value: the 2019 'reformulated' Historic line is considered the best regular-production era since True Historic; R0s trade slightly below equivalent R9s and hold value well used at roughly 60-75% of street; dealer-spec examples carry a modest resale premium.",
+        "Verify before buying: actual neck measurements (V2 vs V3 vs V1 \u2014 dealer listings are often wrong; ask for 1st/12th fret caliper numbers), weight, COA and case candy, serial format, no headstock repair under aging, and original unpotted Custombuckers."
+      ],
+      "score": 62.8,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 8.6 lbs"
+        },
+        "neck_35pct": {
+          "score": 26.7,
+          "note": "nut ok (80); 1st fret ok (0); 12th fret ok (0)"
+        },
+        "shoulders_20pct": {
+          "score": 60.0,
+          "note": "profile unclear: 'c'"
+        },
+        "condition_10pct": {
+          "score": 70.0,
+          "note": "condition unstated"
+        },
+        "price_5pct": {
+          "score": 90.0,
+          "note": "at/under anchor"
+        }
       }
     },
     {
@@ -24275,6 +24402,69 @@
       }
     },
     {
+      "url": "https://www.creamcitymusic.com/used-gibson-custom-1959-les-paul-standard-reissue-m2m-lemon-burst-gloss-2026/",
+      "dealer": "Cream City Music",
+      "price_usd": 5999,
+      "year": 2026,
+      "model": "Gibson Custom 1959 Les Paul Standard Reissue M2M, Gloss",
+      "finish": "Lemon Burst",
+      "weight_lbs": 7.94,
+      "nut_width_in": 1.6875,
+      "fret1_depth_in": 0.87,
+      "fret12_depth_in": 0.95,
+      "neck_profile": "M2M one-piece mahogany",
+      "condition": "Used - essentially new",
+      "serial": null,
+      "city_state": "Brookfield, WI",
+      "pickups": "Gibson humbuckers, 3-way toggle; pickup covers not factory-installed but included",
+      "case_included": true,
+      "modifications": "Pickup covers and pickguard uninstalled (both included)",
+      "note": "7 lbs 15 oz = 7.94, marginally under the 8.0 soft floor. Cream City 'newest' page 2. Serial not published.",
+      "category": "les_paul",
+      "id": "g805",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-13",
+      "last_confirmed_active": "2026-08-13",
+      "market_bucket": "standard 60s",
+      "price_history": [
+        {
+          "date": "2026-08-13",
+          "price_usd": 5999
+        }
+      ],
+      "research_cluster": "cs-r0-modern",
+      "research": [
+        "Neck feel: modern core R0s ship with the '1960 V2' medium-slim carve (~.82\" at the 1st fret, ~.95\" at the 12th) \u2014 forum consensus calls it 'a '59 neck on a diet'; Wildwood-spec R0s also typically measure around .82\" first fret, and only the V3/slim-taper variants get truly skinny (~.80\"/.89\").",
+        "Pickups: unpotted Custombuckers (Alnico III), widely praised on MLP/TGP as the best PAF-style pickup Gibson ships \u2014 airy, open, clear lows and classic midrange honk; Wildwood Spec versions are regarded as tonally equivalent, with differences mainly cosmetic.",
+        "Known issues: general 2019+ Historic complaints \u2014 occasional nut slot/fret-end sloppiness, inconsistent VOS/Murphy Lab finish work, weight variance (roughly 8.3-9.5 lbs, no weight relief), some checking-prone Murphy Lab lacquer; unpotted Custombuckers can squeal at high gain.",
+        "Market/value: the 2019 'reformulated' Historic line is considered the best regular-production era since True Historic; R0s trade slightly below equivalent R9s and hold value well used at roughly 60-75% of street; dealer-spec examples carry a modest resale premium.",
+        "Verify before buying: actual neck measurements (V2 vs V3 vs V1 \u2014 dealer listings are often wrong; ask for 1st/12th fret caliper numbers), weight, COA and case candy, serial format, no headstock repair under aging, and original unpotted Custombuckers."
+      ],
+      "score": 62.1,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 76.0,
+          "note": "weight 7.94 lbs"
+        },
+        "neck_35pct": {
+          "score": 49.4,
+          "note": "nut ok (95); 1st fret ok (13); 12th fret ok (40)"
+        },
+        "shoulders_20pct": {
+          "score": 60.0,
+          "note": "profile unclear: 'm2m one-piece mahogany'"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "used - essentially new"
+        },
+        "price_5pct": {
+          "score": 0.0,
+          "note": "well above anchor"
+        }
+      }
+    },
+    {
       "url": "https://reverb.com/item/84093879-gibson-custom-shop-1959-es-335-reissue-vos-vintage-natural-7-70-lbs",
       "dealer": "Wild West Guitars",
       "price_usd": 5999,
@@ -25313,7 +25503,7 @@
       "id": "g562",
       "status": "ACTIVE",
       "date_discovered": "2026-08-09",
-      "last_confirmed_active": "2026-08-09",
+      "last_confirmed_active": "2026-08-13",
       "market_bucket": "standard 60s",
       "price_history": [
         {
@@ -25384,7 +25574,7 @@
       "id": "g654",
       "status": "ACTIVE",
       "date_discovered": "2026-08-09",
-      "last_confirmed_active": "2026-08-09",
+      "last_confirmed_active": "2026-08-13",
       "market_bucket": "standard 60s",
       "price_history": [
         {
@@ -25869,7 +26059,7 @@
       "id": "g499",
       "status": "ACTIVE",
       "date_discovered": "2026-08-09",
-      "last_confirmed_active": "2026-08-09",
+      "last_confirmed_active": "2026-08-13",
       "market_bucket": "custom shop",
       "price_history": [
         {
@@ -27912,7 +28102,7 @@
       "id": "g525",
       "status": "ACTIVE",
       "date_discovered": "2026-08-09",
-      "last_confirmed_active": "2026-08-09",
+      "last_confirmed_active": "2026-08-13",
       "market_bucket": "standard 60s",
       "price_history": [
         {
@@ -34598,7 +34788,7 @@
       "id": "g766",
       "status": "ACTIVE",
       "date_discovered": "2026-08-09",
-      "last_confirmed_active": "2026-08-09",
+      "last_confirmed_active": "2026-08-13",
       "market_bucket": "norlin lp",
       "price_history": [
         {
@@ -34992,6 +35182,73 @@
         "as_of": "2026-08-09",
         "anchor_usd": 3848,
         "over_market_pct": 4
+      }
+    },
+    {
+      "url": "https://cartervintage.com/shop/gibson-custom-shop-50th-anniversary-1959-les-paul-standard-2009-cherry-sunburst/33WDnNq4ZCbdFoqRVg4N2kSsA6L",
+      "dealer": "Carter Vintage Guitars",
+      "price_usd": 5950.0,
+      "year": 2009,
+      "model": "Gibson Custom Shop 50th Anniversary 1959 Les Paul Standard",
+      "finish": "Cherry Sunburst",
+      "weight_lbs": 9.0,
+      "nut_width_in": 1.704,
+      "fret1_depth_in": 0.936,
+      "fret12_depth_in": 1.018,
+      "neck_profile": "50's C",
+      "condition": null,
+      "serial": null,
+      "city_state": "Nashville, TN",
+      "pickups": "Original",
+      "case_included": true,
+      "modifications": "None",
+      "note": "Carter Vintage: NOT in known-urls.json, and meets all stated criteria. RECENCY UNKNOWN - Carter's sitemap lastmod is a global regeneration stamp and its listing pagination is client-side, so per-item 'added' dates could not be established; this may be standing inventory rather than a new arrival since 2026-08-09. Dealer SKU GS10368-A; serial not published on the listing page. Title: Gibson Custom Shop 50th Anniversary 1959 Les Paul Standard 2009, Cherry Sunburst",
+      "category": "les_paul",
+      "id": "g813",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-13",
+      "last_confirmed_active": "2026-08-13",
+      "market_bucket": "custom shop",
+      "price_history": [
+        {
+          "date": "2026-08-13",
+          "price_usd": null
+        },
+        {
+          "date": "2026-08-13",
+          "price_usd": 5950.0
+        }
+      ],
+      "research_cluster": "cs-r0-modern",
+      "research": [
+        "Neck feel: modern core R0s ship with the '1960 V2' medium-slim carve (~.82\" at the 1st fret, ~.95\" at the 12th) \u2014 forum consensus calls it 'a '59 neck on a diet'; Wildwood-spec R0s also typically measure around .82\" first fret, and only the V3/slim-taper variants get truly skinny (~.80\"/.89\").",
+        "Pickups: unpotted Custombuckers (Alnico III), widely praised on MLP/TGP as the best PAF-style pickup Gibson ships \u2014 airy, open, clear lows and classic midrange honk; Wildwood Spec versions are regarded as tonally equivalent, with differences mainly cosmetic.",
+        "Known issues: general 2019+ Historic complaints \u2014 occasional nut slot/fret-end sloppiness, inconsistent VOS/Murphy Lab finish work, weight variance (roughly 8.3-9.5 lbs, no weight relief), some checking-prone Murphy Lab lacquer; unpotted Custombuckers can squeal at high gain.",
+        "Market/value: the 2019 'reformulated' Historic line is considered the best regular-production era since True Historic; R0s trade slightly below equivalent R9s and hold value well used at roughly 60-75% of street; dealer-spec examples carry a modest resale premium.",
+        "Verify before buying: actual neck measurements (V2 vs V3 vs V1 \u2014 dealer listings are often wrong; ask for 1st/12th fret caliper numbers), weight, COA and case candy, serial format, no headstock repair under aging, and original unpotted Custombuckers."
+      ],
+      "score": 59.2,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 86.7,
+          "note": "weight 9.0 lbs"
+        },
+        "neck_35pct": {
+          "score": 30.7,
+          "note": "nut ok (92); 1st fret ok (0); 12th fret ok (0)"
+        },
+        "shoulders_20pct": {
+          "score": 60.0,
+          "note": "profile unclear: '50's c'"
+        },
+        "condition_10pct": {
+          "score": 70.0,
+          "note": "condition unstated"
+        },
+        "price_5pct": {
+          "score": 70.0,
+          "note": "slightly above anchor"
+        }
       }
     },
     {
@@ -36187,6 +36444,69 @@
       ]
     },
     {
+      "url": "https://cartervintage.com/shop/gibson-57-les-paul-murphy-lab-ultra-heavy-aged-2024-goldtop-aged/3DDnf1lZlarta2AUP2JUiECLREG",
+      "dealer": "Carter Vintage Guitars",
+      "price_usd": 8500,
+      "year": 2024,
+      "model": "Gibson '57 Les Paul Murphy Lab Ultra Heavy Aged",
+      "finish": "Goldtop Aged",
+      "weight_lbs": 8.2,
+      "nut_width_in": 1.675,
+      "fret1_depth_in": 0.929,
+      "fret12_depth_in": 1.03,
+      "neck_profile": "C",
+      "condition": null,
+      "serial": null,
+      "city_state": "Nashville, TN",
+      "pickups": "Custombuckers",
+      "case_included": true,
+      "modifications": "Ultra Heavy Aged",
+      "note": "Carter Vintage: NOT in known-urls.json, and meets all stated criteria. RECENCY UNKNOWN - Carter's sitemap lastmod is a global regeneration stamp and its listing pagination is client-side, so per-item 'added' dates could not be established; this may be standing inventory rather than a new arrival since 2026-08-09. Dealer SKU GS11423-A; serial not published on the listing page. Title: Gibson '57 Les Paul Murphy Lab Ultra Heavy Aged 2024, Goldtop Aged",
+      "category": "les_paul",
+      "id": "g808",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-13",
+      "last_confirmed_active": "2026-08-13",
+      "market_bucket": "murphy lab",
+      "price_history": [
+        {
+          "date": "2026-08-13",
+          "price_usd": 8500
+        }
+      ],
+      "research_cluster": "standard-60s",
+      "research": [
+        "Neck feel: USA Standard '60s uses Gibson's modern SlimTaper \u2014 typically ~.80-.83\" at the 1st fret \u2014 but forums document real unit-to-unit variance from genuinely skinny to almost medium-C; fretwork and nut quality also vary.",
+        "Pickups: Burstbucker 61R/61T (Alnico V, slightly hot vintage-voiced) \u2014 brighter and more aggressive than Custombuckers; some find the 61T harsh into bright amps; 2019+ wiring is hand-wired with orange-drop caps, no PCB.",
+        "Known issues: weight is the big one \u2014 non-weight-relieved and commonly 9-10+ lbs (sub-9 lb examples get snapped up); also inconsistent nut slotting, occasional fret-end sprout, finish flaws under the burst.",
+        "Market/value: the mainstream benchmark Les Paul \u2014 liquid used market but steep initial depreciation (used commonly 25-35% under street); Plain Tops resell a bit lower than figured bursts; excellent players when you pick a good one.",
+        "Verify before buying: exact weight (ask for a scale photo \u2014 listings routinely guess low), neck measurements and fret ends, nut slots, top figure vs stock photos, and confirm Standard '60s vs a weight-relieved 'Classic' being misrepresented."
+      ],
+      "score": 58.9,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 93.3,
+          "note": "weight 8.2 lbs"
+        },
+        "neck_35pct": {
+          "score": 24.0,
+          "note": "nut ok (72); 1st fret ok (0); 12th fret ok (0)"
+        },
+        "shoulders_20pct": {
+          "score": 60.0,
+          "note": "profile unclear: 'c'"
+        },
+        "condition_10pct": {
+          "score": 70.0,
+          "note": "condition unstated"
+        },
+        "price_5pct": {
+          "score": 70.0,
+          "note": "slightly above anchor"
+        }
+      }
+    },
+    {
       "url": "https://chicagomusicexchange.com/products/gibson-original-es-335-vintage-burst-serial-207760339-1371776",
       "dealer": "chicagomusicexchange",
       "price_usd": 3499.0,
@@ -37284,6 +37604,69 @@
       }
     },
     {
+      "url": "https://chicagomusicexchange.com/products/gibson-custom-68-les-paul-custom-cme-spec-ebony-2652527",
+      "dealer": "Chicago Music Exchange",
+      "price_usd": 5395,
+      "year": 2026,
+      "model": "Gibson Custom '68 Les Paul Custom 'CME Spec'",
+      "finish": "Ebony",
+      "weight_lbs": 7.875,
+      "nut_width_in": 1.6875,
+      "fret1_depth_in": 0.9,
+      "fret12_depth_in": 0.99,
+      "neck_profile": "medium C",
+      "condition": "Used - minimal play wear",
+      "serial": "601438",
+      "city_state": "Chicago, IL",
+      "pickups": "Original stock humbuckers, neck 7.2k / bridge 7.2k ohms",
+      "case_included": true,
+      "modifications": "None stated",
+      "note": "NEW since 2026-08-09 (published 2026-08-11). 7lbs 14oz - just under the 8.0 soft floor; ebony board. Custom Shop, humbuckers.",
+      "category": "les_paul",
+      "id": "g804",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-13",
+      "last_confirmed_active": "2026-08-13",
+      "market_bucket": "standard 60s",
+      "price_history": [
+        {
+          "date": "2026-08-13",
+          "price_usd": 5395
+        }
+      ],
+      "research_cluster": "standard-60s",
+      "research": [
+        "Neck feel: USA Standard '60s uses Gibson's modern SlimTaper \u2014 typically ~.80-.83\" at the 1st fret \u2014 but forums document real unit-to-unit variance from genuinely skinny to almost medium-C; fretwork and nut quality also vary.",
+        "Pickups: Burstbucker 61R/61T (Alnico V, slightly hot vintage-voiced) \u2014 brighter and more aggressive than Custombuckers; some find the 61T harsh into bright amps; 2019+ wiring is hand-wired with orange-drop caps, no PCB.",
+        "Known issues: weight is the big one \u2014 non-weight-relieved and commonly 9-10+ lbs (sub-9 lb examples get snapped up); also inconsistent nut slotting, occasional fret-end sprout, finish flaws under the burst.",
+        "Market/value: the mainstream benchmark Les Paul \u2014 liquid used market but steep initial depreciation (used commonly 25-35% under street); Plain Tops resell a bit lower than figured bursts; excellent players when you pick a good one.",
+        "Verify before buying: exact weight (ask for a scale photo \u2014 listings routinely guess low), neck measurements and fret ends, nut slots, top figure vs stock photos, and confirm Standard '60s vs a weight-relieved 'Classic' being misrepresented."
+      ],
+      "score": 58.6,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 71.7,
+          "note": "weight 7.875 lbs"
+        },
+        "neck_35pct": {
+          "score": 31.7,
+          "note": "nut ok (95); 1st fret ok (0); 12th fret ok (0)"
+        },
+        "shoulders_20pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: 'medium c'"
+        },
+        "condition_10pct": {
+          "score": 70.0,
+          "note": "used - minimal play wear"
+        },
+        "price_5pct": {
+          "score": 0.0,
+          "note": "well above anchor"
+        }
+      }
+    },
+    {
       "reverb_id": "95596300",
       "url": "https://reverb.com/item/95596300-2019-gibson-60th-anniversary-tom-murphy-painted-1959-les-paul-wildwood-spec-r9-59",
       "dealer": "Kansas City Vintage Guitars",
@@ -37463,7 +37846,7 @@
       "id": "g553",
       "status": "ACTIVE",
       "date_discovered": "2026-08-09",
-      "last_confirmed_active": "2026-08-09",
+      "last_confirmed_active": "2026-08-13",
       "market_bucket": "standard 60s",
       "price_history": [
         {
@@ -38403,9 +38786,9 @@
       "tier": 1,
       "category": "es_335",
       "id": "g468",
-      "status": "DUPLICATE",
+      "status": "ACTIVE",
       "date_discovered": "2026-08-09",
-      "last_confirmed_active": "2026-08-09",
+      "last_confirmed_active": "2026-08-13",
       "market_bucket": "es-335 modern",
       "price_history": [
         {
@@ -38446,7 +38829,7 @@
     {
       "url": "https://cartervintage.com/shop/gibson-custom-shop-joe-perry-signature-boneyard-les-paul-2000s-green-tiger/2t3BoUeBQpO497qyqfwPhkpjsBI",
       "dealer": "cartervintage",
-      "price_usd": 8950.0,
+      "price_usd": 8650,
       "year": 2000,
       "model": "Custom Shop Joe Perry Signature Boneyard Les Paul",
       "finish": "Green Tiger",
@@ -38467,14 +38850,18 @@
       "tier": 1,
       "category": "les_paul",
       "id": "g500",
-      "status": "ACTIVE",
+      "status": "PRICE DROP",
       "date_discovered": "2026-08-09",
-      "last_confirmed_active": "2026-08-09",
+      "last_confirmed_active": "2026-08-13",
       "market_bucket": "custom shop",
       "price_history": [
         {
           "date": "2026-08-09",
           "price_usd": 8950.0
+        },
+        {
+          "date": "2026-08-13",
+          "price_usd": 8650
         }
       ],
       "research_cluster": "r0-early-historic",
@@ -39033,7 +39420,7 @@
       "id": "g800",
       "status": "ACTIVE",
       "date_discovered": "2026-08-09",
-      "last_confirmed_active": "2026-08-09",
+      "last_confirmed_active": "2026-08-13",
       "market_bucket": "norlin lp",
       "price_history": [
         {
@@ -40022,7 +40409,7 @@
       "id": "g489",
       "status": "ACTIVE",
       "date_discovered": "2026-08-09",
-      "last_confirmed_active": "2026-08-09",
+      "last_confirmed_active": "2026-08-13",
       "market_bucket": "standard 60s",
       "price_history": [
         {
@@ -40093,7 +40480,7 @@
       "id": "g502",
       "status": "ACTIVE",
       "date_discovered": "2026-08-09",
-      "last_confirmed_active": "2026-08-09",
+      "last_confirmed_active": "2026-08-13",
       "market_bucket": "standard 60s",
       "price_history": [
         {
@@ -40662,7 +41049,7 @@
       "id": "g586",
       "status": "ACTIVE",
       "date_discovered": "2026-08-09",
-      "last_confirmed_active": "2026-08-09",
+      "last_confirmed_active": "2026-08-13",
       "market_bucket": "standard 60s",
       "price_history": [
         {
@@ -41344,6 +41731,137 @@
       }
     },
     {
+      "url": "https://cartervintage.com/shop/gibson-58-les-paul-standard-reissue-vos-2025-iced-tea-burst/31btezxzndkwvAsFmFrQ9SaXfxb",
+      "dealer": "Carter Vintage Guitars",
+      "price_usd": 4750,
+      "year": 2025,
+      "model": "Gibson '58 Les Paul Standard Reissue VOS",
+      "finish": "Iced Tea Burst",
+      "weight_lbs": 8.6,
+      "nut_width_in": 1.672,
+      "fret1_depth_in": 0.941,
+      "fret12_depth_in": 1.043,
+      "neck_profile": "50s Rounded Medium C",
+      "condition": null,
+      "serial": null,
+      "city_state": "Nashville, TN",
+      "pickups": "Custombucker Alnico III (Unpotted)",
+      "case_included": true,
+      "modifications": null,
+      "note": "Carter Vintage: NOT in known-urls.json, and meets all stated criteria. RECENCY UNKNOWN - Carter's sitemap lastmod is a global regeneration stamp and its listing pagination is client-side, so per-item 'added' dates could not be established; this may be standing inventory rather than a new arrival since 2026-08-09. Dealer SKU GS10046-A; serial not published on the listing page. Title: Gibson '58 Les Paul Standard Reissue VOS 2025, Iced Tea Burst",
+      "category": "les_paul",
+      "id": "g811",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-13",
+      "last_confirmed_active": "2026-08-13",
+      "market_bucket": "standard 60s",
+      "price_history": [
+        {
+          "date": "2026-08-13",
+          "price_usd": 4750
+        }
+      ],
+      "research_cluster": "standard-60s",
+      "research": [
+        "Neck feel: USA Standard '60s uses Gibson's modern SlimTaper \u2014 typically ~.80-.83\" at the 1st fret \u2014 but forums document real unit-to-unit variance from genuinely skinny to almost medium-C; fretwork and nut quality also vary.",
+        "Pickups: Burstbucker 61R/61T (Alnico V, slightly hot vintage-voiced) \u2014 brighter and more aggressive than Custombuckers; some find the 61T harsh into bright amps; 2019+ wiring is hand-wired with orange-drop caps, no PCB.",
+        "Known issues: weight is the big one \u2014 non-weight-relieved and commonly 9-10+ lbs (sub-9 lb examples get snapped up); also inconsistent nut slotting, occasional fret-end sprout, finish flaws under the burst.",
+        "Market/value: the mainstream benchmark Les Paul \u2014 liquid used market but steep initial depreciation (used commonly 25-35% under street); Plain Tops resell a bit lower than figured bursts; excellent players when you pick a good one.",
+        "Verify before buying: exact weight (ask for a scale photo \u2014 listings routinely guess low), neck measurements and fret ends, nut slots, top figure vs stock photos, and confirm Standard '60s vs a weight-relieved 'Classic' being misrepresented."
+      ],
+      "score": 56.8,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 8.6 lbs"
+        },
+        "neck_35pct": {
+          "score": 22.4,
+          "note": "nut ok (67); 1st fret ok (0); 12th fret ok (0)"
+        },
+        "shoulders_20pct": {
+          "score": 60.0,
+          "note": "mixed slim/fat signals: '50s rounded medium c'"
+        },
+        "condition_10pct": {
+          "score": 70.0,
+          "note": "condition unstated"
+        },
+        "price_5pct": {
+          "score": 0.0,
+          "note": "well above anchor"
+        }
+      }
+    },
+    {
+      "url": "https://cartervintage.com/shop/gibson-custom-shop-59-les-paul-standard-limited-edition-2023-southern-fade/3AaIMTdLbASTmbOQRClHOqq9vYM",
+      "dealer": "Carter Vintage Guitars",
+      "price_usd": 18000.0,
+      "year": 2023,
+      "model": "Gibson Custom Shop '59 Les Paul Standard Limited Edition",
+      "finish": "Southern Fade",
+      "weight_lbs": 8.2,
+      "nut_width_in": 1.67,
+      "fret1_depth_in": 0.898,
+      "fret12_depth_in": 1.009,
+      "neck_profile": "C",
+      "condition": "Very clean condition, almost no sign of wear. And an excellent finish relic job.",
+      "serial": null,
+      "city_state": "Nashville, TN",
+      "pickups": "Custombuckers, original solder joints",
+      "case_included": true,
+      "modifications": "None",
+      "note": "Carter Vintage: NOT in known-urls.json, and meets all stated criteria. RECENCY UNKNOWN - Carter's sitemap lastmod is a global regeneration stamp and its listing pagination is client-side, so per-item 'added' dates could not be established; this may be standing inventory rather than a new arrival since 2026-08-09. Dealer SKU GS11068-A; serial not published on the listing page. Title: Gibson Custom Shop '59 Les Paul Standard Limited Edition 2023, Southern Fade",
+      "category": "les_paul",
+      "id": "g809",
+      "status": "EXCLUDED",
+      "date_discovered": "2026-08-13",
+      "last_confirmed_active": "2026-08-13",
+      "market_bucket": "custom shop",
+      "price_history": [
+        {
+          "date": "2026-08-13",
+          "price_usd": null
+        },
+        {
+          "date": "2026-08-13",
+          "price_usd": 18000.0
+        }
+      ],
+      "research_cluster": "cs-r0-modern",
+      "research": [
+        "Neck feel: modern core R0s ship with the '1960 V2' medium-slim carve (~.82\" at the 1st fret, ~.95\" at the 12th) \u2014 forum consensus calls it 'a '59 neck on a diet'; Wildwood-spec R0s also typically measure around .82\" first fret, and only the V3/slim-taper variants get truly skinny (~.80\"/.89\").",
+        "Pickups: unpotted Custombuckers (Alnico III), widely praised on MLP/TGP as the best PAF-style pickup Gibson ships \u2014 airy, open, clear lows and classic midrange honk; Wildwood Spec versions are regarded as tonally equivalent, with differences mainly cosmetic.",
+        "Known issues: general 2019+ Historic complaints \u2014 occasional nut slot/fret-end sloppiness, inconsistent VOS/Murphy Lab finish work, weight variance (roughly 8.3-9.5 lbs, no weight relief), some checking-prone Murphy Lab lacquer; unpotted Custombuckers can squeal at high gain.",
+        "Market/value: the 2019 'reformulated' Historic line is considered the best regular-production era since True Historic; R0s trade slightly below equivalent R9s and hold value well used at roughly 60-75% of street; dealer-spec examples carry a modest resale premium.",
+        "Verify before buying: actual neck measurements (V2 vs V3 vs V1 \u2014 dealer listings are often wrong; ask for 1st/12th fret caliper numbers), weight, COA and case candy, serial format, no headstock repair under aging, and original unpotted Custombuckers."
+      ],
+      "score": 56.7,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 93.3,
+          "note": "weight 8.2 lbs"
+        },
+        "neck_35pct": {
+          "score": 21.3,
+          "note": "nut ok (64); 1st fret ok (0); 12th fret ok (0)"
+        },
+        "shoulders_20pct": {
+          "score": 60.0,
+          "note": "profile unclear: 'c'"
+        },
+        "condition_10pct": {
+          "score": 92.0,
+          "note": "very clean condition, almost no sign of wear. and an excellent finish relic job."
+        },
+        "price_5pct": {
+          "score": 0.0,
+          "note": "well above anchor"
+        }
+      },
+      "notes": "EXCLUDED: over the $10,000 cap."
+    },
+    {
       "url": "https://chicagomusicexchange.com/products/gibson-custom-shop-1954-les-paul-standard-koa-natural-1731717",
       "dealer": "chicagomusicexchange",
       "price_usd": 7399.0,
@@ -41948,7 +42466,7 @@
       "id": "g561",
       "status": "ACTIVE",
       "date_discovered": "2026-08-09",
-      "last_confirmed_active": "2026-08-09",
+      "last_confirmed_active": "2026-08-13",
       "market_bucket": "standard 60s",
       "price_history": [
         {
@@ -44827,6 +45345,73 @@
       "notes": "EXCLUDED 2026-08-09: P-90-equipped Les Paul. Buyer's spec is humbucker LPs (Standard 60s, R0, PAF-style); '54/'56 Standard reissues ship P-90s."
     },
     {
+      "url": "https://cartervintage.com/shop/gibson-custom-shop-64-es-335-2024-cherry/3CdUOxtEnHMqUwIeMs3QZTSYkzz",
+      "dealer": "Carter Vintage Guitars",
+      "price_usd": 4900.0,
+      "year": 2024,
+      "model": "Gibson Custom Shop '64 ES-335",
+      "finish": "Cherry",
+      "weight_lbs": 7.4,
+      "nut_width_in": 1.687,
+      "fret1_depth_in": 0.92,
+      "fret12_depth_in": 0.977,
+      "neck_profile": "C",
+      "condition": null,
+      "serial": null,
+      "city_state": "Nashville, TN",
+      "pickups": "Original",
+      "case_included": true,
+      "modifications": "Added strap locks",
+      "note": "Carter Vintage: NOT in known-urls.json, and meets all stated criteria. RECENCY UNKNOWN - Carter's sitemap lastmod is a global regeneration stamp and its listing pagination is client-side, so per-item 'added' dates could not be established; this may be standing inventory rather than a new arrival since 2026-08-09. Dealer SKU GE3766-A; serial not published on the listing page. Title: Gibson Custom Shop '64 ES-335 2024, Cherry",
+      "category": "es_335",
+      "id": "g806",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-13",
+      "last_confirmed_active": "2026-08-13",
+      "market_bucket": "es-335 modern",
+      "price_history": [
+        {
+          "date": "2026-08-13",
+          "price_usd": null
+        },
+        {
+          "date": "2026-08-13",
+          "price_usd": 4900.0
+        }
+      ],
+      "research_cluster": "cs-61-reissue-335",
+      "research": [
+        "Neck feel: the 1961 reissue's 'Skinny C' SlimTaper was scanned from originals \u2014 thin (~.80\" range at the 1st fret) with vintage 1-11/16\" nut; owners say convincingly close to a real early-60s slim neck, noticeably slimmer than the '59 reissue carve.",
+        "Pickups: unpotted Custombuckers \u2014 airy PAF clarity, piano-like lows, classic 335 honk; regarded as a genuine upgrade over Memphis-era MHS/BB sets; unpotted caveat: microphonic squeal at very high gain.",
+        "Known issues: relatively few \u2014 Murphy Lab lacquer fragility/checking, weight variance (7.5-9 lbs), scattered nut/setup complaints; thin lacquer damages easily in shipping; hollow wings + unpotted pickups mean feedback management is part of ownership.",
+        "Market/value: current top-of-market for new 335s; Murphy Lab premium softens on resale (used ML often 25-30% off list) while VOS holds value best; has largely replaced clean vintage 335s in the 'best modern alternative' conversation.",
+        "Verify before buying: neck measurements (confirm the skinny '61 carve suits you vs the fatter '59 RI), weight, aging level and hidden damage within Murphy Lab wear, COA/case, center block rattles (tap test), original Custombuckers."
+      ],
+      "score": 55.0,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 7.4 lbs"
+        },
+        "neck_35pct": {
+          "score": 14.3,
+          "note": "nut ok (0); 1st fret ok (0); 12th fret ok (43)"
+        },
+        "shoulders_20pct": {
+          "score": 60.0,
+          "note": "profile unclear: 'c'"
+        },
+        "condition_10pct": {
+          "score": 70.0,
+          "note": "condition unstated"
+        },
+        "price_5pct": {
+          "score": 20.0,
+          "note": "well above anchor"
+        }
+      }
+    },
+    {
       "url": "https://empiremusic.com/products/gibson-custom-shop-1959-les-paul-standard-murphy-lab-ultra-light-aged-factory-burst-96051",
       "dealer": "empiremusic",
       "price_usd": 7199.0,
@@ -45078,7 +45663,7 @@
       "id": "g660",
       "status": "ACTIVE",
       "date_discovered": "2026-08-09",
-      "last_confirmed_active": "2026-08-09",
+      "last_confirmed_active": "2026-08-13",
       "market_bucket": "murphy lab",
       "price_history": [
         {
@@ -45636,7 +46221,7 @@
       "id": "g567",
       "status": "ACTIVE",
       "date_discovered": "2026-08-09",
-      "last_confirmed_active": "2026-08-09",
+      "last_confirmed_active": "2026-08-13",
       "market_bucket": "murphy lab",
       "price_history": [
         {
@@ -45707,7 +46292,7 @@
       "id": "g782",
       "status": "ACTIVE",
       "date_discovered": "2026-08-09",
-      "last_confirmed_active": "2026-08-09",
+      "last_confirmed_active": "2026-08-13",
       "market_bucket": "standard 60s",
       "price_history": [
         {
@@ -45778,7 +46363,7 @@
       "id": "g799",
       "status": "ACTIVE",
       "date_discovered": "2026-08-09",
-      "last_confirmed_active": "2026-08-09",
+      "last_confirmed_active": "2026-08-13",
       "market_bucket": "standard 60s",
       "price_history": [
         {
@@ -46402,7 +46987,7 @@
       "id": "g798",
       "status": "ACTIVE",
       "date_discovered": "2026-08-09",
-      "last_confirmed_active": "2026-08-09",
+      "last_confirmed_active": "2026-08-13",
       "market_bucket": "custom shop",
       "price_history": [
         {
@@ -47032,6 +47617,69 @@
       "notes": "DUPLICATE 2026-08-13: same guitar as g245 (same dealer, weight and price; cross-listed on Reverb and the dealer site). Kept for history, hidden from live views."
     },
     {
+      "url": "https://cartervintage.com/shop/gibson-custom-shop-58-les-paul-standard-aged-2019-trans-red/3FEfoqBmVIIe31nZBzWwW3dhOMb",
+      "dealer": "Carter Vintage Guitars",
+      "price_usd": 5000,
+      "year": 2019,
+      "model": "Gibson Custom Shop '58 Les Paul Standard Aged",
+      "finish": "Trans Red",
+      "weight_lbs": 7.8,
+      "nut_width_in": 1.683,
+      "fret1_depth_in": 0.908,
+      "fret12_depth_in": 1.036,
+      "neck_profile": "C",
+      "condition": "Aged relic",
+      "serial": null,
+      "city_state": "Nashville, TN",
+      "pickups": "Custombuckers",
+      "case_included": true,
+      "modifications": "None",
+      "note": "Carter Vintage: NOT in known-urls.json, and meets all stated criteria. RECENCY UNKNOWN - Carter's sitemap lastmod is a global regeneration stamp and its listing pagination is client-side, so per-item 'added' dates could not be established; this may be standing inventory rather than a new arrival since 2026-08-09. Dealer SKU GS11646-A; serial not published on the listing page. Title: Gibson Custom Shop '58 Les Paul Standard Aged 2019, Trans Red",
+      "category": "les_paul",
+      "id": "g807",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-13",
+      "last_confirmed_active": "2026-08-13",
+      "market_bucket": "custom shop",
+      "price_history": [
+        {
+          "date": "2026-08-13",
+          "price_usd": 5000
+        }
+      ],
+      "research_cluster": "cs-r0-modern",
+      "research": [
+        "Neck feel: modern core R0s ship with the '1960 V2' medium-slim carve (~.82\" at the 1st fret, ~.95\" at the 12th) \u2014 forum consensus calls it 'a '59 neck on a diet'; Wildwood-spec R0s also typically measure around .82\" first fret, and only the V3/slim-taper variants get truly skinny (~.80\"/.89\").",
+        "Pickups: unpotted Custombuckers (Alnico III), widely praised on MLP/TGP as the best PAF-style pickup Gibson ships \u2014 airy, open, clear lows and classic midrange honk; Wildwood Spec versions are regarded as tonally equivalent, with differences mainly cosmetic.",
+        "Known issues: general 2019+ Historic complaints \u2014 occasional nut slot/fret-end sloppiness, inconsistent VOS/Murphy Lab finish work, weight variance (roughly 8.3-9.5 lbs, no weight relief), some checking-prone Murphy Lab lacquer; unpotted Custombuckers can squeal at high gain.",
+        "Market/value: the 2019 'reformulated' Historic line is considered the best regular-production era since True Historic; R0s trade slightly below equivalent R9s and hold value well used at roughly 60-75% of street; dealer-spec examples carry a modest resale premium.",
+        "Verify before buying: actual neck measurements (V2 vs V3 vs V1 \u2014 dealer listings are often wrong; ask for 1st/12th fret caliper numbers), weight, COA and case candy, serial format, no headstock repair under aging, and original unpotted Custombuckers."
+      ],
+      "score": 53.5,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 66.7,
+          "note": "weight 7.8 lbs"
+        },
+        "neck_35pct": {
+          "score": 28.7,
+          "note": "nut ok (86); 1st fret ok (0); 12th fret ok (0)"
+        },
+        "shoulders_20pct": {
+          "score": 60.0,
+          "note": "profile unclear: 'c'"
+        },
+        "condition_10pct": {
+          "score": 70.0,
+          "note": "aged relic"
+        },
+        "price_5pct": {
+          "score": 90.0,
+          "note": "at/under anchor"
+        }
+      }
+    },
+    {
       "url": "https://cartervintage.com/shop/gibson-custom-58-les-paul-standard-carmelita-neck-vos-2024-orange-lemon-fade/39X4hI9zvAWfzJFUP5yK1RyZhRJ",
       "dealer": "cartervintage",
       "price_usd": 6199.0,
@@ -47057,7 +47705,7 @@
       "id": "g655",
       "status": "ACTIVE",
       "date_discovered": "2026-08-09",
-      "last_confirmed_active": "2026-08-09",
+      "last_confirmed_active": "2026-08-13",
       "market_bucket": "standard 60s",
       "price_history": [
         {
@@ -50457,7 +51105,7 @@
       "id": "g797",
       "status": "ACTIVE",
       "date_discovered": "2026-08-09",
-      "last_confirmed_active": "2026-08-09",
+      "last_confirmed_active": "2026-08-13",
       "market_bucket": "custom shop",
       "price_history": [
         {
@@ -53654,7 +54302,7 @@
       "id": "g692",
       "status": "ACTIVE",
       "date_discovered": "2026-08-09",
-      "last_confirmed_active": "2026-08-09",
+      "last_confirmed_active": "2026-08-13",
       "market_bucket": "es-335 modern",
       "price_history": [
         {
@@ -53877,7 +54525,7 @@
       "id": "g479",
       "status": "ACTIVE",
       "date_discovered": "2026-08-09",
-      "last_confirmed_active": "2026-08-09",
+      "last_confirmed_active": "2026-08-13",
       "market_bucket": "es-335 modern",
       "price_history": [
         {
@@ -54733,9 +55381,9 @@
       "tier": 1,
       "category": "les_paul",
       "id": "g615",
-      "status": "DUPLICATE",
+      "status": "ACTIVE",
       "date_discovered": "2026-08-09",
-      "last_confirmed_active": "2026-08-09",
+      "last_confirmed_active": "2026-08-13",
       "market_bucket": "standard 60s",
       "price_history": [
         {
@@ -57116,7 +57764,7 @@
       "id": "g689",
       "status": "ACTIVE",
       "date_discovered": "2026-08-09",
-      "last_confirmed_active": "2026-08-09",
+      "last_confirmed_active": "2026-08-13",
       "market_bucket": "es-335 modern",
       "price_history": [
         {

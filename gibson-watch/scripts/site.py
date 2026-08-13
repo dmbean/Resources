@@ -561,7 +561,7 @@ document.getElementById("q").addEventListener("input",render);
 })();
 const m=DATA.meta, live=DATA.guitars.filter(g=>g.status!=="SOLD"&&g.status!=="EXCLUDED").length;
 document.getElementById("substat").innerHTML=
-  `<b>${live}</b> live listings · <b>${DATA.guitars.length}</b> tracked all-time · last sweep <b>${esc(m.last_run)}</b> · run #<b>${m.run_count}</b> — ● spec in target band, ○ outside`;
+  `<b>${live}</b> live listings · <b>${DATA.guitars.length}</b> tracked all-time · last sweep <b>${esc(m.last_run)}</b> · run #<b>${m.run_count}</b> — ● spec in target band, ○ outside` + (m.reverb_verified && m.reverb_verified !== m.last_run   ? `<br><span style="color:var(--cherry)">⚠ Reverb listings last re-verified <b>${esc(m.reverb_verified)}</b> — their prices and sold/live status may be out of date (Reverb was rate-limiting this sweep).</span>` : "");
 render();
 </script>
 """
