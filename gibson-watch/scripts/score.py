@@ -100,13 +100,44 @@ def weight_component(g):
     return s, note
 
 
+# Gibson Custom's named carves, with their published 1st/12th depths. Many listings
+# name the carve but publish no numbers, so the name IS the measurement.
+# V3 (Skinny C) -> V2 -> V1 (a.k.a. "Carmelita") runs slim to medium; the buyer's stated
+# ideal is V3, and on 2026-08-13 he confirmed a V1/Carmelita neck also appeals.
+NAMED_CARVES = {
+    "v3": (0.800, 0.890), "skinny c": (0.800, 0.890),
+    "v2": (0.830, 0.940),
+    "v1": (0.860, 0.975), "carmelita": (0.860, 0.975),
+    "1960 slimtaper": (0.840, 0.960), "60s slim taper": (0.840, 0.960),
+    "authentic '59": (0.900, 1.000), "'58 profile": (0.920, 1.010),
+}
+
+
+def carve_depths(g):
+    """(f1, f12) implied by a named carve, or (None, None)."""
+    text = " ".join(str(g.get(k) or "") for k in
+                    ("neck_profile", "shoulder_description", "model", "notes")).lower()
+    for name, dims in NAMED_CARVES.items():
+        if name in text:
+            return dims
+    return (None, None)
+
+
 def neck_component(g):
     """Nut width, fret depths, and whether measurements exist at all."""
     parts, notes = [], []
+    imputed = False
     if g["category"] == "les_paul":
         nut = band_score(g.get("nut_width_in"), 1.68, 1.71, 1.69, 1.70, falloff=0.05)
-        f1 = band_score(g.get("fret1_depth_in"), 0.79, 0.82, 0.79, 0.82, falloff=0.06)
-        f12 = band_score(g.get("fret12_depth_in"), 0.89, 0.92, 0.89, 0.92, falloff=0.06)
+        # Acceptable band runs V3 (.800/.890) through V1/Carmelita (.860/.975); the IDEAL
+        # stays the buyer's stated V3 window, so a V3 still outranks a Carmelita.
+        d1, d12 = g.get("fret1_depth_in"), g.get("fret12_depth_in")
+        if d1 is None and d12 is None:
+            cd1, cd12 = carve_depths(g)
+            if cd1 is not None:
+                d1, d12, imputed = cd1, cd12, True
+        f1 = band_score(d1, 0.79, 0.88, 0.79, 0.82, falloff=0.06)
+        f12 = band_score(d12, 0.89, 1.00, 0.89, 0.92, falloff=0.06)
     else:
         nut = band_score(g.get("nut_width_in"), 1.56, 1.60, 1.5625, 1.5625, falloff=0.05)
         f1 = band_score(g.get("fret1_depth_in"), 0.76, 0.82, 0.76, 0.82, falloff=0.06)
@@ -123,6 +154,8 @@ def neck_component(g):
     score = sum(parts) / len(parts)
     # penalty for missing measurements: -8 per missing datum
     score -= 8.0 * (3 - len(parts))
+    if imputed:
+        notes.append("depths inferred from the named carve, not measured — confirm with dealer")
     return max(score, 0.0), "; ".join(notes)
 
 
@@ -150,10 +183,26 @@ FAT_WORDS = ("baseball", "chunky", "50s", "fat", "huge", "boat", "clubby")
 V3_WORDS = ("v3", "skinny c")   # buyer signal 2026-07-29: V3 / late-1960 Skinny C preferred
 
 
+NEGATORS = (" vs ", " vs. ", "instead of", "rather than", "not a ", "not the ",
+            "unlike", "no longer", "as opposed to")
+
+
+def _strip_negated(text):
+    """Drop the clause after a negator so 'Carmelita (vs stock baseball bat)' isn't
+    read as a baseball-bat neck. Caught 2026-08-13 on g318."""
+    for neg in NEGATORS:
+        if neg in text:
+            text = text.split(neg)[0]
+    return text
+
+
 def shoulder_component(g):
     text = " ".join(filter(None, [g.get("neck_profile"), g.get("shoulder_description")])).lower()
     if not text:
         return 40.0, "no shoulder/profile info"
+    text = _strip_negated(text)
+    if any(w in text for w in ("carmelita", "v1")) and g["category"] == "les_paul":
+        return 88.0, "V1/Carmelita carve — buyer-confirmed acceptable: '%s'" % text[:60]
     if g["category"] == "les_paul" and any(w in text for w in V3_WORDS):
         return 100.0, "V3/Skinny C — buyer-preferred carve: '%s'" % text[:60]
     fat = any(w in text for w in FAT_WORDS)

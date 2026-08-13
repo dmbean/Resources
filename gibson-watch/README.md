@@ -69,6 +69,11 @@ Long-running sourcing agent for a Gibson Les Paul and an ES-335. Runs every 24 h
    measurement, and price rules. Epiphone still excluded. NYC shops to sweep: TR Crandall,
    Southside, Rudy's, Rivington Guitars, Retrofret (Brooklyn), 30th Street Guitars,
    Main Drag Music (Brooklyn), Ludlow Guitars, plus Reverb listings with NYC-area shops.
+   **Named carves (buyer signal 2026-08-13)**: Gibson Custom's carves run V3/"Skinny C"
+   (.800"/.890") -> V2 (.830/.940) -> V1, a.k.a. "Carmelita" (.860/.975). The buyer's ideal is
+   V3; V1/Carmelita is CONFIRMED acceptable. Sweeps must record the carve NAME even when no
+   depths are published — the scorer infers depths from the name (and flags them as inferred).
+   Search dealer text for: carmelita, V1/V2/V3 neck, skinny C, CME Spec, PSL, M2M, Dealer Select.
    **V3 neck priority (buyer signal 2026-07-29)**: Les Pauls with the V3 / late-1960 "Skinny C"
    carve (≈.80" 1st / .89" 12th — 60th Anniversary V3, some M2M/Wildwood Spec V3 orders) rank
    highest on neck feel; add "V3", "skinny C", and "60th anniversary v3" to LP sweep queries.

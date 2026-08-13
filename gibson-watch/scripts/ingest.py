@@ -42,6 +42,11 @@ def market_bucket(g):
         for key, bucket in LP_BUCKETS:
             if key in m:
                 return bucket
+        # Thin dealer-sweep titles like "Les Paul (1959 spec)" were defaulting to the
+        # Standard 60s anchor ($2,800) and scoring a $7k Custom Shop guitar 0 on price.
+        if any(k in m for k in ("1959 spec", "1958 spec", "1957 spec", "1960 spec",
+                                "r9", "r8", "r7", "cme spec", "reissue")):
+            return "custom shop"
         return "standard 60s"
     if year and 1970 <= year <= 1984:
         return "es-335 norlin"
