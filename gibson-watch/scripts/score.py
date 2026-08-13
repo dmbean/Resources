@@ -2,7 +2,9 @@
 """Deterministic scorer for the Gibson Watch database.
 
 Rescores every guitar in database.json in place and regenerates reports/master.csv.
-Weights: weight 30%, neck measurements 35%, shoulder profile 20%, condition 10%, price 5%.
+Weights: weight 30%, shoulder profile 30%, neck measurements 25%, condition 10%, price 5%.
+(Shoulders raised from 20% and depths cut from 35% on 2026-08-13: the buyer said slim
+shoulders are a big part of what he is after, and shape decides feel more than depth does.)
 Run from the gibson-watch/ directory: python3 scripts/score.py
 """
 import csv
@@ -129,15 +131,17 @@ def neck_component(g):
     imputed = False
     if g["category"] == "les_paul":
         nut = band_score(g.get("nut_width_in"), 1.68, 1.71, 1.69, 1.70, falloff=0.05)
-        # Acceptable band runs V3 (.800/.890) through V1/Carmelita (.860/.975); the IDEAL
-        # stays the buyer's stated V3 window, so a V3 still outranks a Carmelita.
+        # Depth targets are the buyer's stated ones (2026-07-19, reaffirmed 2026-08-13:
+        # he did NOT ask for deeper necks). The falloff is gentler than the original 0.06
+        # so a neck .04" outside target degrades smoothly instead of falling off a cliff
+        # from 100 to 27 — a scoring-quality fix, not a change of target.
         d1, d12 = g.get("fret1_depth_in"), g.get("fret12_depth_in")
         if d1 is None and d12 is None:
             cd1, cd12 = carve_depths(g)
             if cd1 is not None:
                 d1, d12, imputed = cd1, cd12, True
-        f1 = band_score(d1, 0.79, 0.88, 0.79, 0.82, falloff=0.06)
-        f12 = band_score(d12, 0.89, 1.00, 0.89, 0.92, falloff=0.06)
+        f1 = band_score(d1, 0.79, 0.82, 0.79, 0.82, falloff=0.12)
+        f12 = band_score(d12, 0.89, 0.92, 0.89, 0.92, falloff=0.14)
     else:
         nut = band_score(g.get("nut_width_in"), 1.56, 1.60, 1.5625, 1.5625, falloff=0.05)
         f1 = band_score(g.get("fret1_depth_in"), 0.76, 0.82, 0.76, 0.82, falloff=0.06)
@@ -156,6 +160,10 @@ def neck_component(g):
     score -= 8.0 * (3 - len(parts))
     if imputed:
         notes.append("depths inferred from the named carve, not measured — confirm with dealer")
+    if slim_shouldered(g) and score < 75.0:
+        # Depth alone under-rates a fast-feeling neck; the shoulders carry the feel.
+        notes.append("floored at 75 — documented slim shoulders (feel beats raw depth)")
+        score = 75.0
     return max(score, 0.0), "; ".join(notes)
 
 
@@ -183,6 +191,30 @@ FAT_WORDS = ("baseball", "chunky", "50s", "fat", "huge", "boat", "clubby")
 V3_WORDS = ("v3", "skinny c")   # buyer signal 2026-07-29: V3 / late-1960 Skinny C preferred
 
 
+# Carves documented as SLIM-SHOULDERED / fast-feeling. Buyer signal 2026-08-13: what he
+# values is how a neck feels, and a slim-shouldered carve feels fast even at moderate depth
+# (the Carmelita measures ~.860" yet is described as fast because of its shoulders). So a
+# documented slim-shouldered carve must not be dragged down by depth figures alone.
+SLIM_SHOULDER_CARVES = ("carmelita", "v1 neck", "v2 neck", "v3 neck", "skinny c",
+                        "slimtaper", "slim taper", "1960 slim", "60s slim", "fast c",
+                        "fast d", "asymmetric")
+
+
+def slim_shouldered(g):
+    text = " ".join(str(g.get(k) or "") for k in
+                    ("neck_profile", "shoulder_description", "model", "notes")).lower()
+    return any(w in _strip_negated(text) for w in SLIM_SHOULDER_CARVES)
+
+
+# Named carves that replicate a specific, documented guitar. The buyer's interest is in
+# necks described this way — the shape is on record and vouched for — rather than in any
+# one carve's depth figures.
+DOCUMENTED_CARVES = ("carmelita", "v1 neck", "v2 neck", "v3 neck", "skinny c",
+                     "collector's choice", "collectors choice", "cc#", "cc #",
+                     "true historic", "cme spec", "wildwood spec", "psl", "m2m",
+                     "made to measure", "dealer select", "botb", "beauty of the burst")
+
+
 NEGATORS = (" vs ", " vs. ", "instead of", "rather than", "not a ", "not the ",
             "unlike", "no longer", "as opposed to")
 
@@ -201,8 +233,12 @@ def shoulder_component(g):
     if not text:
         return 40.0, "no shoulder/profile info"
     text = _strip_negated(text)
-    if any(w in text for w in ("carmelita", "v1")) and g["category"] == "les_paul":
-        return 88.0, "V1/Carmelita carve — buyer-confirmed acceptable: '%s'" % text[:60]
+    if g["category"] == "les_paul" and any(w in text for w in DOCUMENTED_CARVES):
+        # Buyer signal 2026-08-13: he values necks characterised beyond raw depth numbers —
+        # named carves replicating a specific, well-regarded guitar, where the shoulders and
+        # taper are documented rather than guessed. That is exactly what this component
+        # measures, so a documented carve scores high here even when depths are unstated.
+        return 90.0, "documented/replicated carve (shape known, not just depths): '%s'" % text[:60]
     if g["category"] == "les_paul" and any(w in text for w in V3_WORDS):
         return 100.0, "V3/Skinny C — buyer-preferred carve: '%s'" % text[:60]
     fat = any(w in text for w in FAT_WORDS)
@@ -280,14 +316,17 @@ def score(g):
     s, sn = shoulder_component(g)
     c, cn = condition_component(g)
     p, pn = price_component(g)
-    total = 0.30 * w + 0.35 * n + 0.20 * s + 0.10 * c + 0.05 * p
+    # Buyer signal 2026-08-13: "slim shoulders are a big part of what I'm after".
+    # Rebalanced from the original 35/20 depth-vs-shoulders split: shoulder profile now
+    # carries nearly as much as raw depth measurements, because that is what decides feel.
+    total = 0.30 * w + 0.25 * n + 0.30 * s + 0.10 * c + 0.05 * p
     pen, pen_note = family_penalty(g)
     total = max(0.0, total - pen)
     g["score"] = round(total, 1)
     g["score_breakdown"] = {
         "weight_30pct": {"score": round(w, 1), "note": wn},
-        "neck_35pct": {"score": round(n, 1), "note": nn},
-        "shoulders_20pct": {"score": round(s, 1), "note": sn},
+        "neck_25pct": {"score": round(n, 1), "note": nn},
+        "shoulders_30pct": {"score": round(s, 1), "note": sn},
         "condition_10pct": {"score": round(c, 1), "note": cn},
         "price_5pct": {"score": round(p, 1), "note": pn},
     }

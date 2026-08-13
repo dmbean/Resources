@@ -7,7 +7,7 @@ Long-running sourcing agent for a Gibson Les Paul and an ES-335. Runs every 24 h
 - `database.json` — historical database of every guitar ever found. Never delete entries; mark status instead (`ACTIVE`, `SOLD`, `PRICE DROP`, `PRICE INCREASE`). Each entry keeps full specs, score breakdown, price history, and discovery/confirmation dates.
 - `preferences.md` — learned buyer preferences. Updated whenever the buyer rejects or favorites a guitar. Treat as training data for scoring adjustments.
 - `dealers.md` — dealer roster, including dealers discovered during runs (searched on every subsequent run).
-- `scripts/score.py` — deterministic scorer (weight 30%, neck 35%, shoulders 20%, condition 10%, price 5%). Run: `python3 scripts/score.py` from `gibson-watch/` to rescore `database.json` in place.
+- `scripts/score.py` — deterministic scorer (weight 30%, **shoulders 30%**, neck depths 25%, condition 10%, price 5%; shoulders raised from 20% and depths cut from 35% on 2026-08-13 — the buyer said slim shoulders are a big part of what he is after, and a documented slim-shouldered carve floors the neck component at 75 so a fast-feeling neck is not dragged down by a few thousandths of depth). Run: `python3 scripts/score.py` from `gibson-watch/` to rescore `database.json` in place.
 - `reports/master.csv` — master spreadsheet regenerated each run from the database.
 - `reports/YYYY-MM-DD-report.md` — daily run report: full ranking, NEW TODAY, BETTER THAN CURRENT BEST, WATCHLIST (top 10 per category).
 

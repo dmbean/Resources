@@ -34,7 +34,7 @@ def breakdown(g):
     return ("  - weight 30%: {w[score]} ({w[note]}); neck 35%: {n[score]} ({n[note]}); "
             "shoulders 20%: {s[score]} ({s[note]}); condition 10%: {c[score]} ({c[note]}); "
             "price 5%: {p[score]} ({p[note]})").format(
-        w=b["weight_30pct"], n=b["neck_35pct"], s=b["shoulders_20pct"],
+        w=b["weight_30pct"], n=b["neck_25pct"], s=b["shoulders_30pct"],
         c=b["condition_10pct"], p=b["price_5pct"])
 
 
