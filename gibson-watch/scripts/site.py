@@ -369,7 +369,7 @@ function nutSpec(g){
   return `<div class="spec"><div class="v" title="${g.nut}&quot;">${fracIn(g.nut)}${tick(g.cat,"nut",g.nut)}</div><div class="k">Nut</div></div>`;
 }
 function chipStatus(s){
-  const m={ACTIVE:["active","Active"],"PRICE DROP":["pricedrop","Price drop"],"PRICE INCREASE":["priceup","Price up"],SOLD:["sold","Sold"],EXCLUDED:["sold","Excluded"]};
+  const m={ACTIVE:["active","Active"],"PRICE DROP":["pricedrop","Price drop"],"PRICE INCREASE":["priceup","Price up"],SOLD:["sold","Sold"],EXCLUDED:["sold","Excluded"],DUPLICATE:["sold","Duplicate"]};
   const [cls,label]=m[s]||["active",esc(s||"")];
   return `<span class="chip ${cls}">${label}</span>`;
 }
@@ -378,7 +378,7 @@ function hotReason(g){
   // badge stays rare: must be fresh (≤21d on market, or ≤7d since we found it when the
   // market age is unknown), then under-market with real specs, narrow-nut vintage, or
   // top-spec-under-anchor.
-  if(g.status==="SOLD"||g.status==="EXCLUDED") return null;
+  if(g.status==="SOLD"||g.status==="EXCLUDED"||g.status==="DUPLICATE") return null;
   const oi=g.offer||{}, om=oi.over_market_pct, dl=oi.days_listed;
   const foundAge=(Date.parse(DATA.meta.last_run)-Date.parse(g.found))/864e5;
   const fresh = dl!=null ? dl<=21 : foundAge<=7;
@@ -407,7 +407,7 @@ function card(g){
   const photo = g.thumb
     ? `<a class="photo" href="${esc(g.url)}" target="_blank" rel="noopener"><img src="${g.thumb}" alt="${esc(g.model||"")}" loading="lazy"></a>`
     : `<div class="photo none">No photo</div>`;
-  return `<div class="card ${(g.status==="SOLD"||g.status==="EXCLUDED")?"sold":""} ${hot?"hot":""}">
+  return `<div class="card ${(g.status==="SOLD"||g.status==="EXCLUDED"||g.status==="DUPLICATE")?"sold":""} ${hot?"hot":""}">
     ${photo}
     <div class="toprow">
       <div class="scoreblock"><div class="scorenum ${stier}">${g.score==null?"—":g.score}</div><div class="scorelabel">score</div></div>
@@ -459,7 +459,7 @@ function render(){
     || document.getElementById("colorsel").value!=="any"
     || document.getElementById("finishsel").value!=="any";
   document.getElementById("drawerdot").hidden = !drawerActive;
-  if(status==="live") gs=gs.filter(g=>g.status!=="SOLD"&&g.status!=="EXCLUDED");
+  if(status==="live") gs=gs.filter(g=>g.status!=="SOLD"&&g.status!=="EXCLUDED"&&g.status!=="DUPLICATE");
   if(nut!=="any") gs=gs.filter(g=>{
     if(nut==="unknown") return g.nut==null;
     if(g.nut==null) return false;
@@ -545,7 +545,7 @@ document.getElementById("q").addEventListener("input",render);
     return y>=1965&&y<=1981&&age<=14;
   };
   const picks = DATA.guitars
-    .filter(g=>g.status!=="SOLD"&&g.status!=="EXCLUDED"&&g.nyc&&(hotReason(g)||g.score>=75||vintageFresh(g)))
+    .filter(g=>g.status!=="SOLD"&&g.status!=="EXCLUDED"&&g.status!=="DUPLICATE"&&g.nyc&&(hotReason(g)||g.score>=75||vintageFresh(g)))
     .sort((a,b)=>(b.score||0)-(a.score||0)).slice(0,4);
   if(!picks.length) return;
   document.getElementById("spotlight").hidden=false;

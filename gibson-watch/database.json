@@ -1457,7 +1457,7 @@
       "note": "New-stock R0 at a top dealer, stated 8.6 lbs, warm Tangerine Burst, hide glue/long tenon, ABR-1 no-wire + aluminum tailpiece. 60s slim taper (not V-numbered; likely current V2-ish carve - worth asking Dave's for 1st/12th fret depths).",
       "category": "les_paul",
       "id": "g326",
-      "status": "ACTIVE",
+      "status": "DUPLICATE",
       "date_discovered": "2026-08-04",
       "last_confirmed_active": "2026-08-09",
       "market_bucket": "r0",
@@ -1504,7 +1504,8 @@
           "score": 90.0,
           "note": "at/under anchor"
         }
-      }
+      },
+      "notes": "DUPLICATE 2026-08-13: same guitar as g024 (same dealer, weight and price; cross-listed on Reverb and the dealer site). Kept for history, hidden from live views."
     },
     {
       "dealer": "Chicago Music Exchange",
@@ -1654,7 +1655,8 @@
         "days_listed": 11
       },
       "alt_urls": [
-        "https://reverb.com/item/97842598-2015-gibson-custom-shop-true-historic-1960-les-paul-standard-r0-vintage-cherry-sunburst-mint-w-case-tags-coa"
+        "https://reverb.com/item/97842598-2015-gibson-custom-shop-true-historic-1960-les-paul-standard-r0-vintage-cherry-sunburst-mint-w-case-tags-coa",
+        "https://mmguitarbar.com/products/2015-gibson-custom-shop-true-historic-1960-les-paul-standard-r0-vintage-cherry-sunburst-mint-w-case-tags-coa-1 (duplicate listing)"
       ]
     },
     {
@@ -2894,7 +2896,14 @@
         "as_of": "2026-08-09",
         "anchor_usd": 6874,
         "over_market_pct": -3
-      }
+      },
+      "alt_urls": [
+        "https://reverb.com/item/99983109-gibson-custom-shop-1960-les-paul-standard-reissue-tangerine-burst (duplicate listing)",
+        "https://davesguitar.com/products/1960-les-paul-standard-reissue-tangerine-burst-2 (duplicate listing)",
+        "https://davesguitar.com/products/made-to-measure-1959-les-paul-standard-reissue-vintage-lemon-burst-5 (duplicate listing)",
+        "https://davesguitar.com/products/made-to-measure-1959-les-paul-standard-reissue-dirty-lemon-burst-15 (duplicate listing)",
+        "https://davesguitar.com/products/made-to-measure-1959-les-paul-standard-reissue-dirty-lemon-burst-14 (duplicate listing)"
+      ]
     },
     {
       "url": "https://reverb.com/item/100238805-gibson-custom-shop-wildwood-spec-1960-les-paul-standard-gloss",
@@ -2966,7 +2975,10 @@
           "score": 70.0,
           "note": "slightly above anchor"
         }
-      }
+      },
+      "alt_urls": [
+        "https://wildwoodguitars.com/products/06209-m2m-1960-les-paul-standard-reissue-v2 (duplicate listing)"
+      ]
     },
     {
       "url": "https://reverb.com/item/94339212-gibson-mod-collection-les-paul-standard-60s-flame-maple-top-dark-ruby-2024-w-ohsc",
@@ -4384,7 +4396,10 @@
         "over_market_pct": 9,
         "offers_enabled": false,
         "days_listed": 67
-      }
+      },
+      "alt_urls": [
+        "https://wildwoodguitars.com/products/06105-wildwood-spec-1960-les-paul-standard-ultra-light-aged-vcs (duplicate listing)"
+      ]
     },
     {
       "dealer": "Reverb \u2013 In Bloom Guitars",
@@ -4523,7 +4538,10 @@
         "over_market_pct": 1,
         "offers_enabled": false,
         "days_listed": 319
-      }
+      },
+      "alt_urls": [
+        "https://wildwoodguitars.com/products/gibson-custom-shop-wildwood-spec-1960-les-paul-standard-4 (duplicate listing)"
+      ]
     },
     {
       "reverb_id": "99870650",
@@ -4596,7 +4614,16 @@
           "score": 56.4,
           "note": "well above anchor"
         }
-      }
+      },
+      "alt_urls": [
+        "https://davesguitar.com/products/made-to-measure-1959-les-paul-standard-reissue-believer-burst-3 (duplicate listing)",
+        "https://davesguitar.com/products/made-to-measure-1959-les-paul-standard-reissue-believer-burst-6 (duplicate listing)",
+        "https://davesguitar.com/products/made-to-measure-1959-les-paul-standard-reissue-believer-burst (duplicate listing)",
+        "https://davesguitar.com/products/made-to-measure-1959-les-paul-standard-reissue-vintage-lemon-burst-4 (duplicate listing)",
+        "https://davesguitar.com/products/1960-les-paul-standard-reissue-tangerine-burst (duplicate listing)",
+        "https://davesguitar.com/products/made-to-measure-1959-les-paul-standard-reissue-dirty-lemon-burst-9 (duplicate listing)",
+        "https://davesguitar.com/products/made-to-measure-1959-les-paul-standard-reissue-dirty-lemon-burst-12 (duplicate listing)"
+      ]
     },
     {
       "dealer": "Empire Music",
@@ -5178,7 +5205,8 @@
       },
       "alt_urls": [
         "https://mmguitarbar.com/products/1969-gibson-es-335-tdc-vintage-guitar-cherry-stoptail-conversion-w-pat-t-tops-case-1 (dealer site)",
-        "https://reverb.com/item/97842585 (earlier Reverb listing, ended 2026-07-25; relisted 2026-07-29 as 93473088)"
+        "https://reverb.com/item/97842585 (earlier Reverb listing, ended 2026-07-25; relisted 2026-07-29 as 93473088)",
+        "https://mmguitarbar.com/products/1969-gibson-es-335-tdc-vintage-guitar-cherry-stoptail-conversion-w-pat-t-tops-case-1 (duplicate listing)"
       ],
       "offer_intel": {
         "as_of": "2026-08-09",
@@ -6582,7 +6610,10 @@
         "over_market_pct": 19,
         "offers_enabled": false,
         "days_listed": 1035
-      }
+      },
+      "alt_urls": [
+        "https://wildwoodguitars.com/products/wildwood-spec-1960-les-paul-standard-light-aged-22 (duplicate listing)"
+      ]
     },
     {
       "url": "https://cartervintage.com/shop/gibson-custom-shop-wildwood-spec-61-es-335-vos-2024-cherry/3C2lTWC4iBzj7KvgmsFxCpZXavp",
@@ -7731,7 +7762,7 @@
       "tier": 2,
       "category": "les_paul",
       "id": "g742",
-      "status": "ACTIVE",
+      "status": "DUPLICATE",
       "date_discovered": "2026-08-09",
       "last_confirmed_active": "2026-08-09",
       "market_bucket": "standard 60s",
@@ -7776,7 +7807,8 @@
         "as_of": "2026-08-09",
         "anchor_usd": 4750,
         "over_market_pct": 55
-      }
+      },
+      "notes": "DUPLICATE 2026-08-13: same guitar as g330 (same dealer, weight and price; cross-listed on Reverb and the dealer site). Kept for history, hidden from live views."
     },
     {
       "reverb_id": "88275166",
@@ -8235,7 +8267,7 @@
       "note": "7 lbs 9 oz \u2014 dead center of the 7.5-7.8 ideal. One-off M2M with maple board; barely used, offers enabled.",
       "category": "es_335",
       "id": "g275",
-      "status": "ACTIVE",
+      "status": "DUPLICATE",
       "date_discovered": "2026-07-30",
       "last_confirmed_active": "2026-08-09",
       "market_bucket": "es-335 61 reissue",
@@ -8285,7 +8317,8 @@
           "score": 0.0,
           "note": "well above anchor"
         }
-      }
+      },
+      "notes": "DUPLICATE 2026-08-13: same guitar as g023 (same dealer, weight and price; cross-listed on Reverb and the dealer site). Kept for history, hidden from live views."
     },
     {
       "url": "https://cartervintage.com/shop/gibson-les-paul-standard-1987-ebony/3EH4lG9jj6RKemvA4H91Chr2eQN",
@@ -8311,7 +8344,7 @@
       "tier": 1,
       "category": "les_paul",
       "id": "g659",
-      "status": "ACTIVE",
+      "status": "DUPLICATE",
       "date_discovered": "2026-08-09",
       "last_confirmed_active": "2026-08-09",
       "market_bucket": "standard 60s",
@@ -8356,7 +8389,8 @@
         "as_of": "2026-08-09",
         "anchor_usd": 4750,
         "over_market_pct": -11
-      }
+      },
+      "notes": "DUPLICATE 2026-08-13: same guitar as g658 (same dealer, weight and price; cross-listed on Reverb and the dealer site). Kept for history, hidden from live views."
     },
     {
       "url": "https://chicagomusicexchange.com/products/gibson-custom-m2m-59-les-paul-standard-reissue-natural-2626003",
@@ -8948,7 +8982,10 @@
         "over_market_pct": 17,
         "offers_enabled": false,
         "days_listed": 1382
-      }
+      },
+      "alt_urls": [
+        "https://wildwoodguitars.com/products/wildwood-spec-1959-les-paul-standard-light-aged-11 (duplicate listing)"
+      ]
     },
     {
       "dealer": "Chicago Music Exchange",
@@ -9382,7 +9419,10 @@
         "over_market_pct": 3,
         "offers_enabled": false,
         "days_listed": 160
-      }
+      },
+      "alt_urls": [
+        "https://wildwoodguitars.com/products/96040-wildwood-spec-1960-les-paul-standard-gloss (duplicate listing)"
+      ]
     },
     {
       "url": "https://trcrandall.com/products/2012-gibson-custom-shop-1959-reissue-les-paul-standard",
@@ -11173,7 +11213,10 @@
         "as_of": "2026-08-09",
         "anchor_usd": 5000,
         "over_market_pct": 20
-      }
+      },
+      "alt_urls": [
+        "https://reverb.com/item/99163733-gibson-custom-shop-1961-es-335-reissue-made-2-measure-antique-natural-and-maple-fretboard-2026 (duplicate listing)"
+      ]
     },
     {
       "dealer": "Reverb \u2013 private seller (Laguna Niguel)",
@@ -12583,7 +12626,10 @@
         "over_market_pct": 3,
         "offers_enabled": false,
         "days_listed": 178
-      }
+      },
+      "alt_urls": [
+        "https://wildwoodguitars.com/products/gibson-custom-shop-wildwood-spec-1959-les-paul-standard-96026 (duplicate listing)"
+      ]
     },
     {
       "dealer": "Reverb \u2013 Division Street Guitars",
@@ -12733,7 +12779,10 @@
         "suggested_offer_usd": 3200,
         "discount_pct": 16,
         "rationale": "8% base; listed 444d; condition/mods"
-      }
+      },
+      "alt_urls": [
+        "https://reverb.com/item/90197132-gibson-custom-shop-1960-les-paul-reissue-gloss-2014-bourbon-burst (duplicate listing)"
+      ]
     },
     {
       "url": "https://wildwoodguitars.com/products/gibson-es-335-satin-225150012",
@@ -14084,7 +14133,7 @@
       "tier": 1,
       "category": "les_paul",
       "id": "g623",
-      "status": "ACTIVE",
+      "status": "DUPLICATE",
       "date_discovered": "2026-08-09",
       "last_confirmed_active": "2026-08-09",
       "market_bucket": "standard 60s",
@@ -14129,7 +14178,8 @@
         "as_of": "2026-08-09",
         "anchor_usd": 4750,
         "over_market_pct": 55
-      }
+      },
+      "notes": "DUPLICATE 2026-08-13: same guitar as g080 (same dealer, weight and price; cross-listed on Reverb and the dealer site). Kept for history, hidden from live views."
     },
     {
       "url": "https://cartervintage.com/shop/gibson-murphy-lab-59-les-paul-standard-heavy-aged-2026-molten-amber-sunburst/3HVeeJGJNSosxkwYi8igJysYEKx",
@@ -16242,7 +16292,11 @@
         "over_market_pct": 3,
         "offers_enabled": false,
         "days_listed": -2
-      }
+      },
+      "alt_urls": [
+        "https://wildwoodguitars.com/products/wildwood-spec-1959-les-paul-standard-gloss-94 (duplicate listing)",
+        "https://wildwoodguitars.com/products/961307-ww-spec-59-les-paul-standard-vos (duplicate listing)"
+      ]
     },
     {
       "url": "https://cartervintage.com/shop/gibson-custom-shop-58-les-paul-standard-v2-neck-murphy-lab-light-aged-2026-kindred-burst/39UkUeTRYLP8juuHKJO6blX5irW",
@@ -17620,7 +17674,7 @@
       "note": "TOP NORLIN REPLACEMENT (T-TOPS). Pub 8/6, 3 days old, first time seen. Original patent-sticker T-Tops - the exact pickup the buyer wanted - plus a 1.590\" nut (effectively the 1-9/16\" narrow nut, measured). Exact stated weight 8.0 lbs = ceiling, misses the 7.5-7.8 ideal band. Sits at Carter Vintage in Nashville under the Mudge's Music consignment banner. $125 flat US_CON shipping, offers enabled. Demerits: refret, replacement tuners, factory 2nd stamp, and an etched pickguard (pickguard is a cheap swap).",
       "category": "es_335",
       "id": "g342",
-      "status": "ACTIVE",
+      "status": "DUPLICATE",
       "date_discovered": "2026-08-09",
       "last_confirmed_active": "2026-08-09",
       "market_bucket": "es-335 norlin",
@@ -17671,7 +17725,8 @@
           "note": "well above anchor"
         }
       },
-      "dealer": "Reverb \u2013 MUDGE'S MUSIC (at Carter Vintage)"
+      "dealer": "Reverb \u2013 MUDGE'S MUSIC (at Carter Vintage)",
+      "notes": "DUPLICATE 2026-08-13: same guitar as g056 (same dealer, weight and price; cross-listed on Reverb and the dealer site). Kept for history, hidden from live views."
     },
     {
       "url": "https://www.creamcitymusic.com/gibson-custom-1961-es-335-reissue-vos-sixties-cherry/",
@@ -18173,7 +18228,12 @@
         "as_of": "2026-08-09",
         "anchor_usd": 3848,
         "over_market_pct": -9
-      }
+      },
+      "alt_urls": [
+        "https://davesguitar.com/products/es-335-custom-color-watermelon-1 (duplicate listing)",
+        "https://davesguitar.com/products/es-335-vintage-burst-6 (duplicate listing)",
+        "https://davesguitar.com/products/es-335-custom-color-watermelon (duplicate listing)"
+      ]
     },
     {
       "url": "https://davesguitar.com/products/es-335-custom-color-watermelon-1",
@@ -18199,7 +18259,7 @@
       "tier": 1,
       "category": "es_335",
       "id": "g460",
-      "status": "ACTIVE",
+      "status": "DUPLICATE",
       "date_discovered": "2026-08-09",
       "last_confirmed_active": "2026-08-09",
       "market_bucket": "es-335 modern",
@@ -18236,7 +18296,8 @@
         "as_of": "2026-08-09",
         "anchor_usd": 3848,
         "over_market_pct": -9
-      }
+      },
+      "notes": "DUPLICATE 2026-08-13: same guitar as g458 (same dealer, weight and price; cross-listed on Reverb and the dealer site). Kept for history, hidden from live views."
     },
     {
       "url": "https://davesguitar.com/products/es-335-vintage-burst-6",
@@ -18262,7 +18323,7 @@
       "tier": 1,
       "category": "es_335",
       "id": "g461",
-      "status": "ACTIVE",
+      "status": "DUPLICATE",
       "date_discovered": "2026-08-09",
       "last_confirmed_active": "2026-08-09",
       "market_bucket": "es-335 modern",
@@ -18299,7 +18360,8 @@
         "as_of": "2026-08-09",
         "anchor_usd": 3848,
         "over_market_pct": -9
-      }
+      },
+      "notes": "DUPLICATE 2026-08-13: same guitar as g458 (same dealer, weight and price; cross-listed on Reverb and the dealer site). Kept for history, hidden from live views."
     },
     {
       "url": "https://davesguitar.com/products/es-335-custom-color-watermelon",
@@ -18325,7 +18387,7 @@
       "tier": 1,
       "category": "es_335",
       "id": "g462",
-      "status": "ACTIVE",
+      "status": "DUPLICATE",
       "date_discovered": "2026-08-09",
       "last_confirmed_active": "2026-08-09",
       "market_bucket": "es-335 modern",
@@ -18362,7 +18424,8 @@
         "as_of": "2026-08-09",
         "anchor_usd": 3848,
         "over_market_pct": -9
-      }
+      },
+      "notes": "DUPLICATE 2026-08-13: same guitar as g458 (same dealer, weight and price; cross-listed on Reverb and the dealer site). Kept for history, hidden from live views."
     },
     {
       "url": "https://willcuttguitars.com/products/gibson-es-335-watermelon-164-es3500wmnh1-227840164",
@@ -19442,7 +19505,10 @@
         "as_of": "2026-08-09",
         "anchor_usd": 3848,
         "over_market_pct": -35
-      }
+      },
+      "alt_urls": [
+        "https://davesguitar.com/products/es-335-sixties-cherry-22 (duplicate listing)"
+      ]
     },
     {
       "url": "https://chicagomusicexchange.com/products/gibson-original-es-335-watermelon-serial-207660267-2059223",
@@ -21752,7 +21818,7 @@
       "tier": 1,
       "category": "es_335",
       "id": "g478",
-      "status": "ACTIVE",
+      "status": "DUPLICATE",
       "date_discovered": "2026-08-09",
       "last_confirmed_active": "2026-08-09",
       "market_bucket": "es-335 modern",
@@ -21789,7 +21855,8 @@
         "as_of": "2026-08-09",
         "anchor_usd": 3848,
         "over_market_pct": -35
-      }
+      },
+      "notes": "DUPLICATE 2026-08-13: same guitar as g473 (same dealer, weight and price; cross-listed on Reverb and the dealer site). Kept for history, hidden from live views."
     },
     {
       "reverb_id": "83948236",
@@ -22006,7 +22073,10 @@
         "as_of": "2026-08-09",
         "anchor_usd": 4750,
         "over_market_pct": -41
-      }
+      },
+      "alt_urls": [
+        "https://chicagomusicexchange.com/products/gibson-original-les-paul-standard-60s-iced-tea-serial-1439806 (duplicate listing)"
+      ]
     },
     {
       "url": "https://chicagomusicexchange.com/products/gibson-original-les-paul-standard-60s-iced-tea-serial-1439806",
@@ -22032,7 +22102,7 @@
       "tier": 2,
       "category": "les_paul",
       "id": "g754",
-      "status": "ACTIVE",
+      "status": "DUPLICATE",
       "date_discovered": "2026-08-09",
       "last_confirmed_active": "2026-08-09",
       "market_bucket": "standard 60s",
@@ -22077,7 +22147,8 @@
         "as_of": "2026-08-09",
         "anchor_usd": 4750,
         "over_market_pct": -41
-      }
+      },
+      "notes": "DUPLICATE 2026-08-13: same guitar as g753 (same dealer, weight and price; cross-listed on Reverb and the dealer site). Kept for history, hidden from live views."
     },
     {
       "id": "g304",
@@ -23316,7 +23387,10 @@
         "as_of": "2026-08-09",
         "anchor_usd": 5211,
         "over_market_pct": 20
-      }
+      },
+      "alt_urls": [
+        "https://reverb.com/item/94326317-gibson-es-335-1972-sunburst (duplicate listing)"
+      ]
     },
     {
       "url": "https://guitarchimp.com/products/2010-gibson-custom-shop-les-paul-custom-figured-top-trans-red-ohsc-coa-ebony",
@@ -23872,7 +23946,7 @@
       "reverb_id": "90197132",
       "category": "les_paul",
       "id": "g177",
-      "status": "ACTIVE",
+      "status": "DUPLICATE",
       "date_discovered": "2026-07-30",
       "last_confirmed_active": "2026-08-09",
       "market_bucket": "1960 reissue",
@@ -23922,7 +23996,8 @@
           "score": 100.0,
           "note": "44% under anchor"
         }
-      }
+      },
+      "notes": "DUPLICATE 2026-08-13: same guitar as g389 (same dealer, weight and price; cross-listed on Reverb and the dealer site). Kept for history, hidden from live views."
     },
     {
       "url": "https://reverb.com/item/96023515-gibson-custom-1959-les-paul-standard-reissue-ultra-light-aged-factory-burst",
@@ -25567,7 +25642,7 @@
       "tier": 2,
       "category": "les_paul",
       "id": "g712",
-      "status": "ACTIVE",
+      "status": "DUPLICATE",
       "date_discovered": "2026-08-09",
       "last_confirmed_active": "2026-08-09",
       "market_bucket": "standard 60s",
@@ -25612,7 +25687,8 @@
         "as_of": "2026-08-09",
         "anchor_usd": 4750,
         "over_market_pct": 66
-      }
+      },
+      "notes": "DUPLICATE 2026-08-13: same guitar as g009 (same dealer, weight and price; cross-listed on Reverb and the dealer site). Kept for history, hidden from live views."
     },
     {
       "url": "https://reverb.com/item/100066819-gibson-1957-les-paul-historic-light-murphy-aged-2025-black",
@@ -26067,7 +26143,7 @@
       "tier": 1,
       "category": "es_335",
       "id": "g457",
-      "status": "ACTIVE",
+      "status": "DUPLICATE",
       "date_discovered": "2026-08-09",
       "last_confirmed_active": "2026-08-09",
       "market_bucket": "es-335 61 reissue",
@@ -26112,7 +26188,8 @@
         "as_of": "2026-08-09",
         "anchor_usd": 5000,
         "over_market_pct": 20
-      }
+      },
+      "notes": "DUPLICATE 2026-08-13: same guitar as g027 (same dealer, weight and price; cross-listed on Reverb and the dealer site). Kept for history, hidden from live views."
     },
     {
       "url": "https://davesguitar.com/products/1961-es-335-reissue-vintage-burst-5",
@@ -26138,7 +26215,7 @@
       "tier": 1,
       "category": "es_335",
       "id": "g474",
-      "status": "ACTIVE",
+      "status": "DUPLICATE",
       "date_discovered": "2026-08-09",
       "last_confirmed_active": "2026-08-09",
       "market_bucket": "es-335 61 reissue",
@@ -26183,7 +26260,8 @@
         "as_of": "2026-08-09",
         "anchor_usd": 5000,
         "over_market_pct": 20
-      }
+      },
+      "notes": "DUPLICATE 2026-08-13: same guitar as g296 (same dealer, weight and price; cross-listed on Reverb and the dealer site). Kept for history, hidden from live views."
     },
     {
       "url": "https://davesguitar.com/products/1964-es-335-reissue-sixties-cherry-4",
@@ -26246,7 +26324,10 @@
         "as_of": "2026-08-09",
         "anchor_usd": 3848,
         "over_market_pct": 56
-      }
+      },
+      "alt_urls": [
+        "https://davesguitar.com/products/1959-es-335-reissue-vintage-burst-11 (duplicate listing)"
+      ]
     },
     {
       "url": "https://davesguitar.com/products/1959-es-335-reissue-vintage-burst-11",
@@ -26272,7 +26353,7 @@
       "tier": 1,
       "category": "es_335",
       "id": "g466",
-      "status": "ACTIVE",
+      "status": "DUPLICATE",
       "date_discovered": "2026-08-09",
       "last_confirmed_active": "2026-08-09",
       "market_bucket": "es-335 modern",
@@ -26309,7 +26390,8 @@
         "as_of": "2026-08-09",
         "anchor_usd": 3848,
         "over_market_pct": 56
-      }
+      },
+      "notes": "DUPLICATE 2026-08-13: same guitar as g465 (same dealer, weight and price; cross-listed on Reverb and the dealer site). Kept for history, hidden from live views."
     },
     {
       "url": "https://davesguitar.com/products/1964-es-335-reissue-vintage-burst-2",
@@ -26335,7 +26417,7 @@
       "tier": 1,
       "category": "es_335",
       "id": "g475",
-      "status": "ACTIVE",
+      "status": "DUPLICATE",
       "date_discovered": "2026-08-09",
       "last_confirmed_active": "2026-08-09",
       "market_bucket": "es-335 modern",
@@ -26372,7 +26454,8 @@
         "as_of": "2026-08-09",
         "anchor_usd": 3848,
         "over_market_pct": 56
-      }
+      },
+      "notes": "DUPLICATE 2026-08-13: same guitar as g296 (same dealer, weight and price; cross-listed on Reverb and the dealer site). Kept for history, hidden from live views."
     },
     {
       "url": "https://willcuttguitars.com/products/gibson-1958-les-paul-standard-reissue-vos-bourbon-burst-378-lpr58vobbnh1-86378",
@@ -26682,7 +26765,7 @@
       "tier": 1,
       "category": "les_paul",
       "id": "g492",
-      "status": "ACTIVE",
+      "status": "DUPLICATE",
       "date_discovered": "2026-08-09",
       "last_confirmed_active": "2026-08-09",
       "market_bucket": "standard 60s",
@@ -26727,7 +26810,8 @@
         "as_of": "2026-08-09",
         "anchor_usd": 4750,
         "over_market_pct": 41
-      }
+      },
+      "notes": "DUPLICATE 2026-08-13: same guitar as g300 (same dealer, weight and price; cross-listed on Reverb and the dealer site). Kept for history, hidden from live views."
     },
     {
       "url": "https://davesguitar.com/products/made-to-measure-1959-les-paul-standard-reissue-believer-burst-6",
@@ -26753,7 +26837,7 @@
       "tier": 1,
       "category": "les_paul",
       "id": "g493",
-      "status": "ACTIVE",
+      "status": "DUPLICATE",
       "date_discovered": "2026-08-09",
       "last_confirmed_active": "2026-08-09",
       "market_bucket": "standard 60s",
@@ -26798,7 +26882,8 @@
         "as_of": "2026-08-09",
         "anchor_usd": 4750,
         "over_market_pct": 41
-      }
+      },
+      "notes": "DUPLICATE 2026-08-13: same guitar as g300 (same dealer, weight and price; cross-listed on Reverb and the dealer site). Kept for history, hidden from live views."
     },
     {
       "url": "https://davesguitar.com/products/made-to-measure-1959-les-paul-standard-reissue-believer-burst",
@@ -26824,7 +26909,7 @@
       "tier": 1,
       "category": "les_paul",
       "id": "g494",
-      "status": "ACTIVE",
+      "status": "DUPLICATE",
       "date_discovered": "2026-08-09",
       "last_confirmed_active": "2026-08-09",
       "market_bucket": "standard 60s",
@@ -26869,7 +26954,8 @@
         "as_of": "2026-08-09",
         "anchor_usd": 4750,
         "over_market_pct": 41
-      }
+      },
+      "notes": "DUPLICATE 2026-08-13: same guitar as g300 (same dealer, weight and price; cross-listed on Reverb and the dealer site). Kept for history, hidden from live views."
     },
     {
       "url": "https://davesguitar.com/products/made-to-measure-1959-les-paul-standard-reissue-vintage-lemon-burst-4",
@@ -26895,7 +26981,7 @@
       "tier": 1,
       "category": "les_paul",
       "id": "g495",
-      "status": "ACTIVE",
+      "status": "DUPLICATE",
       "date_discovered": "2026-08-09",
       "last_confirmed_active": "2026-08-09",
       "market_bucket": "standard 60s",
@@ -26940,7 +27026,8 @@
         "as_of": "2026-08-09",
         "anchor_usd": 4750,
         "over_market_pct": 41
-      }
+      },
+      "notes": "DUPLICATE 2026-08-13: same guitar as g300 (same dealer, weight and price; cross-listed on Reverb and the dealer site). Kept for history, hidden from live views."
     },
     {
       "url": "https://davesguitar.com/products/1960-les-paul-standard-reissue-tangerine-burst",
@@ -26966,7 +27053,7 @@
       "tier": 1,
       "category": "les_paul",
       "id": "g496",
-      "status": "ACTIVE",
+      "status": "DUPLICATE",
       "date_discovered": "2026-08-09",
       "last_confirmed_active": "2026-08-09",
       "market_bucket": "standard 60s",
@@ -27011,7 +27098,8 @@
         "as_of": "2026-08-09",
         "anchor_usd": 4750,
         "over_market_pct": 41
-      }
+      },
+      "notes": "DUPLICATE 2026-08-13: same guitar as g300 (same dealer, weight and price; cross-listed on Reverb and the dealer site). Kept for history, hidden from live views."
     },
     {
       "url": "https://davesguitar.com/products/made-to-measure-1959-les-paul-standard-reissue-dirty-lemon-burst-9",
@@ -27037,7 +27125,7 @@
       "tier": 1,
       "category": "les_paul",
       "id": "g497",
-      "status": "ACTIVE",
+      "status": "DUPLICATE",
       "date_discovered": "2026-08-09",
       "last_confirmed_active": "2026-08-09",
       "market_bucket": "standard 60s",
@@ -27082,7 +27170,8 @@
         "as_of": "2026-08-09",
         "anchor_usd": 4750,
         "over_market_pct": 41
-      }
+      },
+      "notes": "DUPLICATE 2026-08-13: same guitar as g300 (same dealer, weight and price; cross-listed on Reverb and the dealer site). Kept for history, hidden from live views."
     },
     {
       "url": "https://davesguitar.com/products/made-to-measure-1959-les-paul-standard-reissue-dirty-lemon-burst-12",
@@ -27108,7 +27197,7 @@
       "tier": 1,
       "category": "les_paul",
       "id": "g498",
-      "status": "ACTIVE",
+      "status": "DUPLICATE",
       "date_discovered": "2026-08-09",
       "last_confirmed_active": "2026-08-09",
       "market_bucket": "standard 60s",
@@ -27153,7 +27242,8 @@
         "as_of": "2026-08-09",
         "anchor_usd": 4750,
         "over_market_pct": 41
-      }
+      },
+      "notes": "DUPLICATE 2026-08-13: same guitar as g300 (same dealer, weight and price; cross-listed on Reverb and the dealer site). Kept for history, hidden from live views."
     },
     {
       "url": "https://willcuttguitars.com/products/gibson-59-les-paul-standard-sunrise-tea-burst-vos-nh-176-lpr59psl21166-953176",
@@ -27936,7 +28026,10 @@
         "as_of": "2026-08-09",
         "anchor_usd": 4750,
         "over_market_pct": 12
-      }
+      },
+      "alt_urls": [
+        "https://davesguitar.com/products/1958-les-paul-standard-reissue-washed-cherry-sunburst (duplicate listing)"
+      ]
     },
     {
       "url": "https://themusiczoo.com/products/gibson-custom-shop-1958-les-paul-reissue-washed-cherry-sunburst-vos-4",
@@ -28033,7 +28126,7 @@
       "tier": 1,
       "category": "les_paul",
       "id": "g533",
-      "status": "ACTIVE",
+      "status": "DUPLICATE",
       "date_discovered": "2026-08-09",
       "last_confirmed_active": "2026-08-09",
       "market_bucket": "standard 60s",
@@ -28078,7 +28171,8 @@
         "as_of": "2026-08-09",
         "anchor_usd": 4750,
         "over_market_pct": 12
-      }
+      },
+      "notes": "DUPLICATE 2026-08-13: same guitar as g528 (same dealer, weight and price; cross-listed on Reverb and the dealer site). Kept for history, hidden from live views."
     },
     {
       "url": "https://themusiczoo.com/products/gibson-custom-shop-1957-les-paul-standard-made-2-measure-double-gold-murphy-lab-heavy-aged",
@@ -28745,7 +28839,7 @@
       "tier": 1,
       "category": "les_paul",
       "id": "g552",
-      "status": "ACTIVE",
+      "status": "DUPLICATE",
       "date_discovered": "2026-08-09",
       "last_confirmed_active": "2026-08-09",
       "market_bucket": "standard 60s",
@@ -28790,7 +28884,8 @@
         "as_of": "2026-08-09",
         "anchor_usd": 4750,
         "over_market_pct": 41
-      }
+      },
+      "notes": "DUPLICATE 2026-08-13: same guitar as g024 (same dealer, weight and price; cross-listed on Reverb and the dealer site). Kept for history, hidden from live views."
     },
     {
       "url": "https://davesguitar.com/products/made-to-measure-1959-les-paul-standard-reissue-vintage-lemon-burst-5",
@@ -28816,7 +28911,7 @@
       "tier": 1,
       "category": "les_paul",
       "id": "g554",
-      "status": "ACTIVE",
+      "status": "DUPLICATE",
       "date_discovered": "2026-08-09",
       "last_confirmed_active": "2026-08-09",
       "market_bucket": "standard 60s",
@@ -28861,7 +28956,8 @@
         "as_of": "2026-08-09",
         "anchor_usd": 4750,
         "over_market_pct": 41
-      }
+      },
+      "notes": "DUPLICATE 2026-08-13: same guitar as g024 (same dealer, weight and price; cross-listed on Reverb and the dealer site). Kept for history, hidden from live views."
     },
     {
       "url": "https://davesguitar.com/products/1958-les-paul-standard-reissue-iced-tea-burst-2",
@@ -28932,7 +29028,11 @@
         "as_of": "2026-08-09",
         "anchor_usd": 4750,
         "over_market_pct": 12
-      }
+      },
+      "alt_urls": [
+        "https://davesguitar.com/products/1958-les-paul-standard-reissue-bourbon-burst-19 (duplicate listing)",
+        "https://davesguitar.com/products/1958-les-paul-standard-reissue-washed-cherry-sunburst-5 (duplicate listing)"
+      ]
     },
     {
       "url": "https://davesguitar.com/products/1958-les-paul-standard-reissue-bourbon-burst-19",
@@ -28958,7 +29058,7 @@
       "tier": 1,
       "category": "les_paul",
       "id": "g556",
-      "status": "ACTIVE",
+      "status": "DUPLICATE",
       "date_discovered": "2026-08-09",
       "last_confirmed_active": "2026-08-09",
       "market_bucket": "standard 60s",
@@ -29003,7 +29103,8 @@
         "as_of": "2026-08-09",
         "anchor_usd": 4750,
         "over_market_pct": 12
-      }
+      },
+      "notes": "DUPLICATE 2026-08-13: same guitar as g555 (same dealer, weight and price; cross-listed on Reverb and the dealer site). Kept for history, hidden from live views."
     },
     {
       "url": "https://davesguitar.com/products/1958-les-paul-standard-reissue-washed-cherry-sunburst-5",
@@ -29029,7 +29130,7 @@
       "tier": 1,
       "category": "les_paul",
       "id": "g557",
-      "status": "ACTIVE",
+      "status": "DUPLICATE",
       "date_discovered": "2026-08-09",
       "last_confirmed_active": "2026-08-09",
       "market_bucket": "standard 60s",
@@ -29074,7 +29175,8 @@
         "as_of": "2026-08-09",
         "anchor_usd": 4750,
         "over_market_pct": 12
-      }
+      },
+      "notes": "DUPLICATE 2026-08-13: same guitar as g555 (same dealer, weight and price; cross-listed on Reverb and the dealer site). Kept for history, hidden from live views."
     },
     {
       "url": "https://davesguitar.com/products/1956-les-paul-goldtop-reissue-vos-3",
@@ -29172,7 +29274,7 @@
       "tier": 1,
       "category": "les_paul",
       "id": "g559",
-      "status": "ACTIVE",
+      "status": "DUPLICATE",
       "date_discovered": "2026-08-09",
       "last_confirmed_active": "2026-08-09",
       "market_bucket": "standard 60s",
@@ -29217,7 +29319,8 @@
         "as_of": "2026-08-09",
         "anchor_usd": 4750,
         "over_market_pct": 41
-      }
+      },
+      "notes": "DUPLICATE 2026-08-13: same guitar as g024 (same dealer, weight and price; cross-listed on Reverb and the dealer site). Kept for history, hidden from live views."
     },
     {
       "url": "https://davesguitar.com/products/made-to-measure-1959-les-paul-standard-reissue-dirty-lemon-burst-14",
@@ -29243,7 +29346,7 @@
       "tier": 1,
       "category": "les_paul",
       "id": "g560",
-      "status": "ACTIVE",
+      "status": "DUPLICATE",
       "date_discovered": "2026-08-09",
       "last_confirmed_active": "2026-08-09",
       "market_bucket": "standard 60s",
@@ -29288,7 +29391,8 @@
         "as_of": "2026-08-09",
         "anchor_usd": 4750,
         "over_market_pct": 41
-      }
+      },
+      "notes": "DUPLICATE 2026-08-13: same guitar as g024 (same dealer, weight and price; cross-listed on Reverb and the dealer site). Kept for history, hidden from live views."
     },
     {
       "url": "https://willcuttguitars.com/products/gibson-59-les-paul-standard-lemon-murphy-lab-light-aged-nh-708-lpr59psl21188-942708",
@@ -29714,7 +29818,10 @@
         "as_of": "2026-08-09",
         "anchor_usd": 4750,
         "over_market_pct": 47
-      }
+      },
+      "alt_urls": [
+        "https://chicagomusicexchange.com/products/gibson-custom-shop-1959-les-paul-standard-cme-spec-2296206 (duplicate listing)"
+      ]
     },
     {
       "url": "https://chicagomusicexchange.com/products/gibson-custom-shop-1959-les-paul-standard-cme-spec-2296206",
@@ -29740,7 +29847,7 @@
       "tier": 1,
       "category": "les_paul",
       "id": "g580",
-      "status": "ACTIVE",
+      "status": "DUPLICATE",
       "date_discovered": "2026-08-09",
       "last_confirmed_active": "2026-08-09",
       "market_bucket": "standard 60s",
@@ -29785,7 +29892,8 @@
         "as_of": "2026-08-09",
         "anchor_usd": 4750,
         "over_market_pct": 47
-      }
+      },
+      "notes": "DUPLICATE 2026-08-13: same guitar as g579 (same dealer, weight and price; cross-listed on Reverb and the dealer site). Kept for history, hidden from live views."
     },
     {
       "url": "https://chicagomusicexchange.com/products/gibson-custom-shop-1959-les-paul-standard-cme-spec-2380691",
@@ -29927,7 +30035,10 @@
         "as_of": "2026-08-09",
         "anchor_usd": 4750,
         "over_market_pct": 52
-      }
+      },
+      "alt_urls": [
+        "https://themusiczoo.com/products/gibson-custom-shop-1959-les-paul-standard-reissue-ultra-light-aged-factory-burst (duplicate listing)"
+      ]
     },
     {
       "url": "https://themusiczoo.com/products/gibson-custom-shop-1959-les-paul-standard-reissue-ultra-light-aged-factory-burst",
@@ -29953,7 +30064,7 @@
       "tier": 1,
       "category": "les_paul",
       "id": "g585",
-      "status": "ACTIVE",
+      "status": "DUPLICATE",
       "date_discovered": "2026-08-09",
       "last_confirmed_active": "2026-08-09",
       "market_bucket": "standard 60s",
@@ -29998,7 +30109,8 @@
         "as_of": "2026-08-09",
         "anchor_usd": 4750,
         "over_market_pct": 52
-      }
+      },
+      "notes": "DUPLICATE 2026-08-13: same guitar as g582 (same dealer, weight and price; cross-listed on Reverb and the dealer site). Kept for history, hidden from live views."
     },
     {
       "url": "https://themusiczoo.com/products/1956-les-paul-goldtop-reissue-vos",
@@ -30167,7 +30279,7 @@
       "tier": 1,
       "category": "les_paul",
       "id": "g590",
-      "status": "ACTIVE",
+      "status": "DUPLICATE",
       "date_discovered": "2026-08-09",
       "last_confirmed_active": "2026-08-09",
       "market_bucket": "standard 60s",
@@ -30212,7 +30324,8 @@
         "as_of": "2026-08-09",
         "anchor_usd": 4750,
         "over_market_pct": 41
-      }
+      },
+      "notes": "DUPLICATE 2026-08-13: same guitar as g583 (same dealer, weight and price; cross-listed on Reverb and the dealer site). Kept for history, hidden from live views."
     },
     {
       "url": "https://willcuttguitars.com/products/gibson-59-les-paul-standard-green-lemon-fade-murphy-lab-light-aged-nh-629-lpr59psl20915-933629",
@@ -30425,7 +30538,10 @@
         "as_of": "2026-08-09",
         "anchor_usd": 4750,
         "over_market_pct": 45
-      }
+      },
+      "alt_urls": [
+        "https://willcuttguitars.com/products/gibson-m2m-1959-les-paul-standard-reissue-slow-iced-tea-fade-123-lpr59psl000000818-960123 (duplicate listing)"
+      ]
     },
     {
       "url": "https://willcuttguitars.com/products/gibson-m2m-1959-les-paul-standard-reissue-slow-iced-tea-fade-123-lpr59psl000000818-960123",
@@ -30451,7 +30567,7 @@
       "tier": 1,
       "category": "les_paul",
       "id": "g601",
-      "status": "ACTIVE",
+      "status": "DUPLICATE",
       "date_discovered": "2026-08-09",
       "last_confirmed_active": "2026-08-09",
       "market_bucket": "standard 60s",
@@ -30496,7 +30612,8 @@
         "as_of": "2026-08-09",
         "anchor_usd": 4750,
         "over_market_pct": 45
-      }
+      },
+      "notes": "DUPLICATE 2026-08-13: same guitar as g600 (same dealer, weight and price; cross-listed on Reverb and the dealer site). Kept for history, hidden from live views."
     },
     {
       "url": "https://willcuttguitars.com/products/gibson-59-les-paul-standard-sunrise-tea-burst-murphy-lab-light-aged-nh-883-lpr59psl21168-942883",
@@ -30638,7 +30755,10 @@
         "as_of": "2026-08-09",
         "anchor_usd": 4750,
         "over_market_pct": 47
-      }
+      },
+      "alt_urls": [
+        "https://chicagomusicexchange.com/products/gibson-custom-shop-1959-les-paul-standard-cme-spec-2296199 (duplicate listing)"
+      ]
     },
     {
       "url": "https://chicagomusicexchange.com/products/gibson-custom-shop-1954-les-paul-antique-cardinal-red-2411819",
@@ -30736,7 +30856,7 @@
       "tier": 1,
       "category": "les_paul",
       "id": "g605",
-      "status": "ACTIVE",
+      "status": "DUPLICATE",
       "date_discovered": "2026-08-09",
       "last_confirmed_active": "2026-08-09",
       "market_bucket": "standard 60s",
@@ -30781,7 +30901,8 @@
         "as_of": "2026-08-09",
         "anchor_usd": 4750,
         "over_market_pct": 47
-      }
+      },
+      "notes": "DUPLICATE 2026-08-13: same guitar as g603 (same dealer, weight and price; cross-listed on Reverb and the dealer site). Kept for history, hidden from live views."
     },
     {
       "url": "https://themusiczoo.com/products/gibson-custom-shop-limited-edition-1957-les-paul-gold-sparkle-with-tv-jones-powertrons",
@@ -32131,7 +32252,11 @@
         "as_of": "2026-08-09",
         "anchor_usd": 4750,
         "over_market_pct": 12
-      }
+      },
+      "alt_urls": [
+        "https://davesguitar.com/products/1958-les-paul-standard-reissue-iced-tea-burst (duplicate listing)",
+        "https://davesguitar.com/products/1958-les-paul-standard-reissue-iced-tea-burst-1 (duplicate listing)"
+      ]
     },
     {
       "url": "https://davesguitar.com/products/made-to-measure-1959-les-paul-standard-reissue-iced-tea",
@@ -32228,7 +32353,7 @@
       "tier": 1,
       "category": "les_paul",
       "id": "g649",
-      "status": "ACTIVE",
+      "status": "DUPLICATE",
       "date_discovered": "2026-08-09",
       "last_confirmed_active": "2026-08-09",
       "market_bucket": "standard 60s",
@@ -32273,7 +32398,8 @@
         "as_of": "2026-08-09",
         "anchor_usd": 4750,
         "over_market_pct": 12
-      }
+      },
+      "notes": "DUPLICATE 2026-08-13: same guitar as g647 (same dealer, weight and price; cross-listed on Reverb and the dealer site). Kept for history, hidden from live views."
     },
     {
       "url": "https://davesguitar.com/products/1958-les-paul-standard-reissue-iced-tea-burst-1",
@@ -32299,7 +32425,7 @@
       "tier": 1,
       "category": "les_paul",
       "id": "g650",
-      "status": "ACTIVE",
+      "status": "DUPLICATE",
       "date_discovered": "2026-08-09",
       "last_confirmed_active": "2026-08-09",
       "market_bucket": "standard 60s",
@@ -32344,7 +32470,8 @@
         "as_of": "2026-08-09",
         "anchor_usd": 4750,
         "over_market_pct": 12
-      }
+      },
+      "notes": "DUPLICATE 2026-08-13: same guitar as g647 (same dealer, weight and price; cross-listed on Reverb and the dealer site). Kept for history, hidden from live views."
     },
     {
       "url": "https://davesguitar.com/products/1956-les-paul-goldtop-reissue-vos-2",
@@ -34751,7 +34878,7 @@
       "reverb_id": "93978568",
       "category": "les_paul",
       "id": "g174",
-      "status": "ACTIVE",
+      "status": "DUPLICATE",
       "date_discovered": "2026-07-30",
       "last_confirmed_active": "2026-08-09",
       "market_bucket": "standard 60s",
@@ -34801,7 +34928,8 @@
           "score": 0.0,
           "note": "well above anchor"
         }
-      }
+      },
+      "notes": "DUPLICATE 2026-08-13: same guitar as g392 (same dealer, weight and price; cross-listed on Reverb and the dealer site). Kept for history, hidden from live views."
     },
     {
       "url": "https://willcuttguitars.com/products/gibson-es-335-50s-vintage-natural-280-es35500nnnh1-209760280",
@@ -34939,7 +35067,10 @@
           "score": 0.0,
           "note": "well above anchor"
         }
-      }
+      },
+      "alt_urls": [
+        "https://wildwoodguitars.com/products/wildwood-spec-1957-les-paul-standard-gloss-45 (duplicate listing)"
+      ]
     },
     {
       "reverb_id": "86055359",
@@ -35014,7 +35145,10 @@
           "score": 0.0,
           "note": "well above anchor"
         }
-      }
+      },
+      "alt_urls": [
+        "https://wildwoodguitars.com/products/wildwood-spec-1957-les-paul-standard-gloss-28 (duplicate listing)"
+      ]
     },
     {
       "url": "https://willcuttguitars.com/products/gibson-59-les-paul-standard-washed-cherry-sunburst-murphy-lab-light-aged-nh-368-lpr59psl21161-942368",
@@ -35302,7 +35436,14 @@
         "as_of": "2026-08-09",
         "anchor_usd": 5000,
         "over_market_pct": 20
-      }
+      },
+      "alt_urls": [
+        "https://davesguitar.com/products/1961-es-335-reissue-vintage-burst-7 (duplicate listing)",
+        "https://reverb.com/item/94596267-gibson-custom-shop-1961-es-335-reissue-sixties-cherry (duplicate listing)",
+        "https://reverb.com/item/93307662-gibson-custom-shop-1961-es-335-reissue-sixties-cherry (duplicate listing)",
+        "https://reverb.com/item/92451896-gibson-custom-shop-1961-es-335-reissue-vintage-burst (duplicate listing)",
+        "https://davesguitar.com/products/1961-es-335-reissue-sixties-cherry (duplicate listing)"
+      ]
     },
     {
       "dealer": "Dave's Guitar Shop",
@@ -35325,10 +35466,10 @@
       "case_included": true,
       "modifications": null,
       "measurements_source": "dealer measured",
-      "notes": "Target model ('61 Reissue) at ideal 7.6 lbs. Sibling units: 7.8 lbs at Marshfield (/products/1961-es-335-reissue-vintage-burst-5), 7.9 lbs at Milwaukee (/products/1961-es-335-reissue-vintage-burst-3).",
+      "notes": "Target model ('61 Reissue) at ideal 7.6 lbs. Sibling units: 7.8 lbs at Marshfield (/products/1961-es-335-reissue-vintage-burst-5), 7.9 lbs at Milwaukee (/products/1961-es-335-reissue-vintage-burst-3). | DUPLICATE 2026-08-13: same guitar as g027 (same dealer, weight and price; cross-listed on Reverb and the dealer site). Kept for history, hidden from live views.",
       "category": "es_335",
       "id": "g028",
-      "status": "ACTIVE",
+      "status": "DUPLICATE",
       "date_discovered": "2026-07-19",
       "last_confirmed_active": "2026-08-09",
       "market_bucket": "es-335 61 reissue",
@@ -35613,7 +35754,7 @@
       "note": "New from Dave's Guitar Shop, 7.6 lbs \u2014 squarely in the ideal window at $5,999.",
       "category": "es_335",
       "id": "g281",
-      "status": "ACTIVE",
+      "status": "DUPLICATE",
       "date_discovered": "2026-07-30",
       "last_confirmed_active": "2026-08-09",
       "market_bucket": "es-335 61 reissue",
@@ -35660,7 +35801,8 @@
           "score": 0.0,
           "note": "well above anchor"
         }
-      }
+      },
+      "notes": "DUPLICATE 2026-08-13: same guitar as g027 (same dealer, weight and price; cross-listed on Reverb and the dealer site). Kept for history, hidden from live views."
     },
     {
       "reverb_id": "93307662",
@@ -35687,7 +35829,7 @@
       "note": "New from Dave's, 7.6 lbs, Sixties Cherry, $5,999.",
       "category": "es_335",
       "id": "g286",
-      "status": "ACTIVE",
+      "status": "DUPLICATE",
       "date_discovered": "2026-07-30",
       "last_confirmed_active": "2026-08-09",
       "market_bucket": "es-335 61 reissue",
@@ -35734,7 +35876,8 @@
           "score": 0.0,
           "note": "well above anchor"
         }
-      }
+      },
+      "notes": "DUPLICATE 2026-08-13: same guitar as g027 (same dealer, weight and price; cross-listed on Reverb and the dealer site). Kept for history, hidden from live views."
     },
     {
       "reverb_id": "92946803",
@@ -35835,7 +35978,7 @@
       "note": "New from Dave's, Vintage Burst, 7.6 lbs, $5,999.",
       "category": "es_335",
       "id": "g288",
-      "status": "ACTIVE",
+      "status": "DUPLICATE",
       "date_discovered": "2026-07-30",
       "last_confirmed_active": "2026-08-09",
       "market_bucket": "es-335 61 reissue",
@@ -35882,7 +36025,8 @@
           "score": 0.0,
           "note": "well above anchor"
         }
-      }
+      },
+      "notes": "DUPLICATE 2026-08-13: same guitar as g027 (same dealer, weight and price; cross-listed on Reverb and the dealer site). Kept for history, hidden from live views."
     },
     {
       "reverb_id": "72585987",
@@ -35956,7 +36100,11 @@
           "score": 0.0,
           "note": "well above anchor"
         }
-      }
+      },
+      "alt_urls": [
+        "https://davesguitar.com/products/1961-es-335-reissue-vintage-burst-5 (duplicate listing)",
+        "https://davesguitar.com/products/1964-es-335-reissue-vintage-burst-2 (duplicate listing)"
+      ]
     },
     {
       "reverb_id": 100095523,
@@ -36033,7 +36181,10 @@
           "note": "well above anchor"
         }
       },
-      "dealer": "Reverb \u2013 Cream City Music"
+      "dealer": "Reverb \u2013 Cream City Music",
+      "alt_urls": [
+        "https://www.creamcitymusic.com/used-gibson-custom-1964-es-335-tdc-murphy-lab-ultra-light-aged-sixties-cherry-2022/ (duplicate listing)"
+      ]
     },
     {
       "url": "https://chicagomusicexchange.com/products/gibson-original-es-335-vintage-burst-serial-207760339-1371776",
@@ -36222,7 +36373,12 @@
         "as_of": "2026-08-09",
         "anchor_usd": 3848,
         "over_market_pct": -9
-      }
+      },
+      "alt_urls": [
+        "https://davesguitar.com/products/es-335-sixties-cherry (duplicate listing)",
+        "https://davesguitar.com/products/es-335-sixties-cherry-7 (duplicate listing)",
+        "https://davesguitar.com/products/es-336 (duplicate listing)"
+      ]
     },
     {
       "url": "https://davesguitar.com/products/es-335-sixties-cherry",
@@ -36248,7 +36404,7 @@
       "tier": 2,
       "category": "es_335",
       "id": "g684",
-      "status": "ACTIVE",
+      "status": "DUPLICATE",
       "date_discovered": "2026-08-09",
       "last_confirmed_active": "2026-08-09",
       "market_bucket": "es-335 modern",
@@ -36285,7 +36441,8 @@
         "as_of": "2026-08-09",
         "anchor_usd": 3848,
         "over_market_pct": -9
-      }
+      },
+      "notes": "DUPLICATE 2026-08-13: same guitar as g683 (same dealer, weight and price; cross-listed on Reverb and the dealer site). Kept for history, hidden from live views."
     },
     {
       "url": "https://davesguitar.com/products/es-335-sixties-cherry-7",
@@ -36311,7 +36468,7 @@
       "tier": 2,
       "category": "es_335",
       "id": "g685",
-      "status": "ACTIVE",
+      "status": "DUPLICATE",
       "date_discovered": "2026-08-09",
       "last_confirmed_active": "2026-08-09",
       "market_bucket": "es-335 modern",
@@ -36348,7 +36505,8 @@
         "as_of": "2026-08-09",
         "anchor_usd": 3848,
         "over_market_pct": -9
-      }
+      },
+      "notes": "DUPLICATE 2026-08-13: same guitar as g683 (same dealer, weight and price; cross-listed on Reverb and the dealer site). Kept for history, hidden from live views."
     },
     {
       "url": "https://davesguitar.com/products/es-336",
@@ -36374,7 +36532,7 @@
       "tier": 2,
       "category": "es_335",
       "id": "g690",
-      "status": "ACTIVE",
+      "status": "DUPLICATE",
       "date_discovered": "2026-08-09",
       "last_confirmed_active": "2026-08-09",
       "market_bucket": "es-335 modern",
@@ -36411,7 +36569,8 @@
         "as_of": "2026-08-09",
         "anchor_usd": 3848,
         "over_market_pct": -9
-      }
+      },
+      "notes": "DUPLICATE 2026-08-13: same guitar as g683 (same dealer, weight and price; cross-listed on Reverb and the dealer site). Kept for history, hidden from live views."
     },
     {
       "url": "https://chicagomusicexchange.com/products/gibson-custom-shop-1959-les-paul-standard-cme-spec-2448245",
@@ -37373,7 +37532,7 @@
       "tier": 2,
       "category": "es_335",
       "id": "g668",
-      "status": "ACTIVE",
+      "status": "DUPLICATE",
       "date_discovered": "2026-08-09",
       "last_confirmed_active": "2026-08-09",
       "market_bucket": "es-335 vintage",
@@ -37418,7 +37577,8 @@
         "as_of": "2026-08-09",
         "anchor_usd": 8250,
         "over_market_pct": 3
-      }
+      },
+      "notes": "DUPLICATE 2026-08-13: same guitar as g072 (same dealer, weight and price; cross-listed on Reverb and the dealer site). Kept for history, hidden from live views."
     },
     {
       "url": "https://willcuttguitars.com/products/gibson-1958-les-paul-standard-reissue-light-aged-lemon-burst-762-lpr58lalbnh1-82762",
@@ -37560,7 +37720,10 @@
         "as_of": "2026-08-09",
         "anchor_usd": 4750,
         "over_market_pct": -11
-      }
+      },
+      "alt_urls": [
+        "https://cartervintage.com/shop/gibson-les-paul-standard-1987-ebony/3EH4lG9jj6RKemvA4H91Chr2eQN (duplicate listing)"
+      ]
     },
     {
       "url": "https://willcuttguitars.com/products/gibson-es-335-figured-blood-moon-burst-042-es35f00mnnh1-201450042",
@@ -38240,7 +38403,7 @@
       "tier": 1,
       "category": "es_335",
       "id": "g468",
-      "status": "ACTIVE",
+      "status": "DUPLICATE",
       "date_discovered": "2026-08-09",
       "last_confirmed_active": "2026-08-09",
       "market_bucket": "es-335 modern",
@@ -38277,7 +38440,8 @@
         "as_of": "2026-08-09",
         "anchor_usd": 3848,
         "over_market_pct": 30
-      }
+      },
+      "notes": "DUPLICATE 2026-08-13: same guitar as g344 (same dealer, weight and price; cross-listed on Reverb and the dealer site). Kept for history, hidden from live views."
     },
     {
       "url": "https://cartervintage.com/shop/gibson-custom-shop-joe-perry-signature-boneyard-les-paul-2000s-green-tiger/2t3BoUeBQpO497qyqfwPhkpjsBI",
@@ -38587,7 +38751,7 @@
       "tier": 1,
       "category": "les_paul",
       "id": "g599",
-      "status": "ACTIVE",
+      "status": "DUPLICATE",
       "date_discovered": "2026-08-09",
       "last_confirmed_active": "2026-08-09",
       "market_bucket": "standard 60s",
@@ -38632,7 +38796,8 @@
         "as_of": "2026-08-09",
         "anchor_usd": 4750,
         "over_market_pct": 79
-      }
+      },
+      "notes": "DUPLICATE 2026-08-13: same guitar as g434 (same dealer, weight and price; cross-listed on Reverb and the dealer site). Kept for history, hidden from live views."
     },
     {
       "url": "https://reverb.com/item/96066403",
@@ -39261,7 +39426,10 @@
         "as_of": "2026-08-09",
         "anchor_usd": 4750,
         "over_market_pct": 16
-      }
+      },
+      "alt_urls": [
+        "https://chicagomusicexchange.com/products/gibson-custom-shop-1958-les-paul-standard-cme-spec-1385587 (duplicate listing)"
+      ]
     },
     {
       "url": "https://chicagomusicexchange.com/products/gibson-custom-shop-limited-run-1968-les-paul-custom-2441241",
@@ -39358,7 +39526,7 @@
       "tier": 2,
       "category": "les_paul",
       "id": "g774",
-      "status": "ACTIVE",
+      "status": "DUPLICATE",
       "date_discovered": "2026-08-09",
       "last_confirmed_active": "2026-08-09",
       "market_bucket": "standard 60s",
@@ -39403,7 +39571,8 @@
         "as_of": "2026-08-09",
         "anchor_usd": 4750,
         "over_market_pct": 16
-      }
+      },
+      "notes": "DUPLICATE 2026-08-13: same guitar as g772 (same dealer, weight and price; cross-listed on Reverb and the dealer site). Kept for history, hidden from live views."
     },
     {
       "url": "https://themusiczoo.com/products/gibson-custom-shop-54-les-paul-made-2-measure-heavy-antique-white-with-emgs",
@@ -40064,7 +40233,7 @@
       "tier": 1,
       "category": "les_paul",
       "id": "g515",
-      "status": "ACTIVE",
+      "status": "DUPLICATE",
       "date_discovered": "2026-08-09",
       "last_confirmed_active": "2026-08-09",
       "market_bucket": "standard 60s",
@@ -40109,7 +40278,8 @@
         "as_of": "2026-08-09",
         "anchor_usd": 4750,
         "over_market_pct": 37
-      }
+      },
+      "notes": "DUPLICATE 2026-08-13: same guitar as g005 (same dealer, weight and price; cross-listed on Reverb and the dealer site). Kept for history, hidden from live views."
     },
     {
       "url": "https://mmguitarbar.com/products/2016-gibson-custom-shop-true-historic-1958-les-paul-standard-r8-vintage-dark-burst-w-case-tags-coa",
@@ -41673,7 +41843,10 @@
           "score": 0.0,
           "note": "well above anchor"
         }
-      }
+      },
+      "alt_urls": [
+        "https://wildwoodguitars.com/products/wildwood-spec-1957-les-paul-standard-gloss-42 (duplicate listing)"
+      ]
     },
     {
       "url": "https://reverb.com/item/92638958",
@@ -41965,7 +42138,10 @@
         "over_market_pct": 32,
         "offers_enabled": false,
         "days_listed": 1292
-      }
+      },
+      "alt_urls": [
+        "https://wildwoodguitars.com/products/wildwood-spec-by-tom-murphy-1958-les-paul-standard-vos-21 (duplicate listing)"
+      ]
     },
     {
       "url": "https://chicagomusicexchange.com/products/gibson-custom-shop-1958-les-paul-standard-cme-spec-2486489",
@@ -42107,7 +42283,11 @@
         "as_of": "2026-08-09",
         "anchor_usd": 4750,
         "over_market_pct": 47
-      }
+      },
+      "alt_urls": [
+        "https://chicagomusicexchange.com/products/gibson-custom-shop-1959-les-paul-standard-cme-spec-1385693 (duplicate listing)",
+        "https://chicagomusicexchange.com/products/gibson-custom-shop-1959-les-paul-standard-cme-spec-2296200 (duplicate listing)"
+      ]
     },
     {
       "url": "https://willcuttguitars.com/products/gibson-m2m-1959-les-paul-standard-reissue-factory-burst-149-lpr59psl000000820-961149",
@@ -42204,7 +42384,7 @@
       "tier": 2,
       "category": "les_paul",
       "id": "g793",
-      "status": "ACTIVE",
+      "status": "DUPLICATE",
       "date_discovered": "2026-08-09",
       "last_confirmed_active": "2026-08-09",
       "market_bucket": "standard 60s",
@@ -42249,7 +42429,8 @@
         "as_of": "2026-08-09",
         "anchor_usd": 4750,
         "over_market_pct": 47
-      }
+      },
+      "notes": "DUPLICATE 2026-08-13: same guitar as g791 (same dealer, weight and price; cross-listed on Reverb and the dealer site). Kept for history, hidden from live views."
     },
     {
       "url": "https://chicagomusicexchange.com/products/gibson-custom-shop-1959-les-paul-standard-cme-spec-2296200",
@@ -42275,7 +42456,7 @@
       "tier": 2,
       "category": "les_paul",
       "id": "g794",
-      "status": "ACTIVE",
+      "status": "DUPLICATE",
       "date_discovered": "2026-08-09",
       "last_confirmed_active": "2026-08-09",
       "market_bucket": "standard 60s",
@@ -42320,7 +42501,8 @@
         "as_of": "2026-08-09",
         "anchor_usd": 4750,
         "over_market_pct": 47
-      }
+      },
+      "notes": "DUPLICATE 2026-08-13: same guitar as g791 (same dealer, weight and price; cross-listed on Reverb and the dealer site). Kept for history, hidden from live views."
     },
     {
       "url": "https://davesguitar.com/products/1956-les-paul-goldtop-reissue-vos",
@@ -42915,7 +43097,7 @@
       "tier": 1,
       "category": "les_paul",
       "id": "g544",
-      "status": "ACTIVE",
+      "status": "DUPLICATE",
       "date_discovered": "2026-08-09",
       "last_confirmed_active": "2026-08-09",
       "market_bucket": "standard 60s",
@@ -42960,7 +43142,8 @@
         "as_of": "2026-08-09",
         "anchor_usd": 4750,
         "over_market_pct": 41
-      }
+      },
+      "notes": "DUPLICATE 2026-08-13: same guitar as g243 (same dealer, weight and price; cross-listed on Reverb and the dealer site). Kept for history, hidden from live views."
     },
     {
       "url": "https://wildwoodguitars.com/products/wildwood-spec-1957-les-paul-standard-gloss-26",
@@ -43344,7 +43527,7 @@
       "tier": 1,
       "category": "les_paul",
       "id": "g631",
-      "status": "ACTIVE",
+      "status": "DUPLICATE",
       "date_discovered": "2026-08-09",
       "last_confirmed_active": "2026-08-09",
       "market_bucket": "standard 60s",
@@ -43389,7 +43572,8 @@
         "as_of": "2026-08-09",
         "anchor_usd": 4750,
         "over_market_pct": 41
-      }
+      },
+      "notes": "DUPLICATE 2026-08-13: same guitar as g230 (same dealer, weight and price; cross-listed on Reverb and the dealer site). Kept for history, hidden from live views."
     },
     {
       "url": "https://wildwoodguitars.com/products/wildwood-spec-1957-les-paul-standard-gloss-28",
@@ -43415,7 +43599,7 @@
       "tier": 1,
       "category": "les_paul",
       "id": "g643",
-      "status": "ACTIVE",
+      "status": "DUPLICATE",
       "date_discovered": "2026-08-09",
       "last_confirmed_active": "2026-08-09",
       "market_bucket": "standard 60s",
@@ -43460,7 +43644,8 @@
         "as_of": "2026-08-09",
         "anchor_usd": 4750,
         "over_market_pct": 41
-      }
+      },
+      "notes": "DUPLICATE 2026-08-13: same guitar as g249 (same dealer, weight and price; cross-listed on Reverb and the dealer site). Kept for history, hidden from live views."
     },
     {
       "url": "https://wildwoodguitars.com/products/wwgb953133-2025-wildwood-spec-murphy-lab-1959-les-paul-standard",
@@ -44332,7 +44517,10 @@
           "score": 0.0,
           "note": "well above anchor"
         }
-      }
+      },
+      "alt_urls": [
+        "https://wildwoodguitars.com/products/wildwood-spec-1957-les-paul-standard-gloss-65 (duplicate listing)"
+      ]
     },
     {
       "reverb_id": "90790908",
@@ -44859,7 +45047,10 @@
         "over_market_pct": 32,
         "offers_enabled": false,
         "days_listed": 1238
-      }
+      },
+      "alt_urls": [
+        "https://wildwoodguitars.com/products/wildwood-spec-by-tom-murphy-1958-les-paul-standard-vos-25 (duplicate listing)"
+      ]
     },
     {
       "url": "https://cartervintage.com/shop/gibson-murphy-lab-57-les-paul-standard-light-aged-2026-goldtop/3GsDlFZEeuzVMIZTYj6IIPhoSgZ",
@@ -44956,7 +45147,7 @@
       "tier": 2,
       "category": "les_paul",
       "id": "g748",
-      "status": "ACTIVE",
+      "status": "DUPLICATE",
       "date_discovered": "2026-08-09",
       "last_confirmed_active": "2026-08-09",
       "market_bucket": "standard 60s",
@@ -45001,7 +45192,8 @@
         "as_of": "2026-08-09",
         "anchor_usd": 4750,
         "over_market_pct": 16
-      }
+      },
+      "notes": "DUPLICATE 2026-08-13: same guitar as g238 (same dealer, weight and price; cross-listed on Reverb and the dealer site). Kept for history, hidden from live views."
     },
     {
       "url": "https://wildwoodguitars.com/products/wildwood-spec-1956-les-paul-standard-gloss-39",
@@ -45768,7 +45960,11 @@
         "as_of": "2026-08-09",
         "anchor_usd": 3848,
         "over_market_pct": 56
-      }
+      },
+      "alt_urls": [
+        "https://davesguitar.com/products/1959-es-355-reissue-vintage-natural (duplicate listing)",
+        "https://davesguitar.com/products/1959-es-335-reissue-vintage-natural (duplicate listing)"
+      ]
     },
     {
       "url": "https://davesguitar.com/products/1959-es-355-reissue-vintage-natural",
@@ -45794,7 +45990,7 @@
       "tier": 2,
       "category": "es_335",
       "id": "g688",
-      "status": "ACTIVE",
+      "status": "DUPLICATE",
       "date_discovered": "2026-08-09",
       "last_confirmed_active": "2026-08-09",
       "market_bucket": "es-335 modern",
@@ -45831,7 +46027,8 @@
         "as_of": "2026-08-09",
         "anchor_usd": 3848,
         "over_market_pct": 56
-      }
+      },
+      "notes": "DUPLICATE 2026-08-13: same guitar as g687 (same dealer, weight and price; cross-listed on Reverb and the dealer site). Kept for history, hidden from live views."
     },
     {
       "url": "https://davesguitar.com/products/1959-es-335-reissue-vintage-natural",
@@ -45857,7 +46054,7 @@
       "tier": 2,
       "category": "es_335",
       "id": "g691",
-      "status": "ACTIVE",
+      "status": "DUPLICATE",
       "date_discovered": "2026-08-09",
       "last_confirmed_active": "2026-08-09",
       "market_bucket": "es-335 modern",
@@ -45894,7 +46091,8 @@
         "as_of": "2026-08-09",
         "anchor_usd": 3848,
         "over_market_pct": 56
-      }
+      },
+      "notes": "DUPLICATE 2026-08-13: same guitar as g687 (same dealer, weight and price; cross-listed on Reverb and the dealer site). Kept for history, hidden from live views."
     },
     {
       "url": "https://chicagomusicexchange.com/products/gibson-custom-shop-1968-les-paul-custom-3-pickup-cme-2336154",
@@ -46398,7 +46596,10 @@
           "score": 0.0,
           "note": "well above anchor"
         }
-      }
+      },
+      "alt_urls": [
+        "https://wildwoodguitars.com/products/wildwood-spec-1957-les-paul-standard-gloss-57 (duplicate listing)"
+      ]
     },
     {
       "url": "https://themusiczoo.com/products/gibson-custom-shop-1959-les-paul-standard-made-2-measure-sorted-lightweight-vos-iced-tea",
@@ -46782,7 +46983,7 @@
       "tier": 2,
       "category": "les_paul",
       "id": "g771",
-      "status": "ACTIVE",
+      "status": "DUPLICATE",
       "date_discovered": "2026-08-09",
       "last_confirmed_active": "2026-08-09",
       "market_bucket": "standard 60s",
@@ -46827,7 +47028,8 @@
         "as_of": "2026-08-09",
         "anchor_usd": 4750,
         "over_market_pct": 41
-      }
+      },
+      "notes": "DUPLICATE 2026-08-13: same guitar as g245 (same dealer, weight and price; cross-listed on Reverb and the dealer site). Kept for history, hidden from live views."
     },
     {
       "url": "https://cartervintage.com/shop/gibson-custom-58-les-paul-standard-carmelita-neck-vos-2024-orange-lemon-fade/39X4hI9zvAWfzJFUP5yK1RyZhRJ",
@@ -47434,7 +47636,7 @@
       "tier": 2,
       "category": "les_paul",
       "id": "g785",
-      "status": "ACTIVE",
+      "status": "DUPLICATE",
       "date_discovered": "2026-08-09",
       "last_confirmed_active": "2026-08-09",
       "market_bucket": "standard 60s",
@@ -47479,7 +47681,8 @@
         "as_of": "2026-08-09",
         "anchor_usd": 4750,
         "over_market_pct": 81
-      }
+      },
+      "notes": "DUPLICATE 2026-08-13: same guitar as g444 (same dealer, weight and price; cross-listed on Reverb and the dealer site). Kept for history, hidden from live views."
     },
     {
       "dealer": "Reverb \u2013 Tone House Studios",
@@ -51560,7 +51763,10 @@
         "suggested_offer_usd": 8050,
         "discount_pct": 18,
         "rationale": "8% base; listed 210d; 78% over market anchor ($5498); condition/mods"
-      }
+      },
+      "alt_urls": [
+        "https://reverb.com/item/93978568-gibson-custom-shop-1959-les-paul-reissue-historic-makeovers-deluxe-package-2013-darkburst (duplicate listing)"
+      ]
     },
     {
       "url": "https://rudysmusic.com/products/1964-es-335-reissue-vos-60s-cherry",
@@ -51984,7 +52190,10 @@
         "as_of": "2026-08-09",
         "anchor_usd": 4750,
         "over_market_pct": 41
-      }
+      },
+      "alt_urls": [
+        "https://themusiczoo.com/products/gibson-custom-shop-1959-les-paul-standard-reissue-dirty-lemon-vos (duplicate listing)"
+      ]
     },
     {
       "url": "https://themusiczoo.com/products/gibson-custom-shop-1960-les-paul-standard-reissue-tangerine-burst-vos-1",
@@ -52126,7 +52335,10 @@
         "as_of": "2026-08-09",
         "anchor_usd": 4750,
         "over_market_pct": 52
-      }
+      },
+      "alt_urls": [
+        "https://themusiczoo.com/products/gibson-custom-shop-1960-les-paul-murphy-lab-ultra-light-aged-wide-tomato-burst-1 (duplicate listing)"
+      ]
     },
     {
       "url": "https://themusiczoo.com/products/gibson-custom-shop-1960-les-paul-murphy-lab-ultra-light-aged-wide-tomato-burst-1",
@@ -52152,7 +52364,7 @@
       "tier": 1,
       "category": "les_paul",
       "id": "g637",
-      "status": "ACTIVE",
+      "status": "DUPLICATE",
       "date_discovered": "2026-08-09",
       "last_confirmed_active": "2026-08-09",
       "market_bucket": "standard 60s",
@@ -52197,7 +52409,8 @@
         "as_of": "2026-08-09",
         "anchor_usd": 4750,
         "over_market_pct": 52
-      }
+      },
+      "notes": "DUPLICATE 2026-08-13: same guitar as g635 (same dealer, weight and price; cross-listed on Reverb and the dealer site). Kept for history, hidden from live views."
     },
     {
       "url": "https://rivingtonguitars.com/products/2017-gibson-custom-shop-the-vinny-25th-anniversary-es-335-silver-sparkle",
@@ -52857,7 +53070,7 @@
       "tier": 1,
       "category": "les_paul",
       "id": "g613",
-      "status": "ACTIVE",
+      "status": "DUPLICATE",
       "date_discovered": "2026-08-09",
       "last_confirmed_active": "2026-08-09",
       "market_bucket": "standard 60s",
@@ -52902,7 +53115,8 @@
         "as_of": "2026-08-09",
         "anchor_usd": 4750,
         "over_market_pct": 58
-      }
+      },
+      "notes": "DUPLICATE 2026-08-13: same guitar as g435 (same dealer, weight and price; cross-listed on Reverb and the dealer site). Kept for history, hidden from live views."
     },
     {
       "url": "https://rudysmusic.com/products/1959-les-paul-standard-reissue-mismatched-botb-110-top-golden-poppy-burst-heavy-aged-nh",
@@ -54305,7 +54519,7 @@
       "tier": 1,
       "category": "les_paul",
       "id": "g545",
-      "status": "ACTIVE",
+      "status": "DUPLICATE",
       "date_discovered": "2026-08-09",
       "last_confirmed_active": "2026-08-09",
       "market_bucket": "standard 60s",
@@ -54350,7 +54564,8 @@
         "as_of": "2026-08-09",
         "anchor_usd": 4750,
         "over_market_pct": 58
-      }
+      },
+      "notes": "DUPLICATE 2026-08-13: same guitar as g428 (same dealer, weight and price; cross-listed on Reverb and the dealer site). Kept for history, hidden from live views."
     },
     {
       "url": "https://wildwoodguitars.com/products/wildwood-spec-by-tom-murphy-1958-les-paul-standard-gloss-27",
@@ -54518,7 +54733,7 @@
       "tier": 1,
       "category": "les_paul",
       "id": "g615",
-      "status": "ACTIVE",
+      "status": "DUPLICATE",
       "date_discovered": "2026-08-09",
       "last_confirmed_active": "2026-08-09",
       "market_bucket": "standard 60s",
@@ -54563,7 +54778,8 @@
         "as_of": "2026-08-09",
         "anchor_usd": 4750,
         "over_market_pct": 58
-      }
+      },
+      "notes": "DUPLICATE 2026-08-13: same guitar as g435 (same dealer, weight and price; cross-listed on Reverb and the dealer site). Kept for history, hidden from live views."
     },
     {
       "url": "https://wildwoodguitars.com/products/wwgb82561-2023-wildwood-spec-murphy-lab-1958-les-paul-standard-light-aged",
@@ -54660,7 +54876,7 @@
       "tier": 1,
       "category": "les_paul",
       "id": "g622",
-      "status": "ACTIVE",
+      "status": "DUPLICATE",
       "date_discovered": "2026-08-09",
       "last_confirmed_active": "2026-08-09",
       "market_bucket": "standard 60s",
@@ -54705,7 +54921,8 @@
         "as_of": "2026-08-09",
         "anchor_usd": 4750,
         "over_market_pct": 102
-      }
+      },
+      "notes": "DUPLICATE 2026-08-13: same guitar as g436 (same dealer, weight and price; cross-listed on Reverb and the dealer site). Kept for history, hidden from live views."
     },
     {
       "url": "https://wildwoodguitars.com/products/wwcongb92589-2022-custom-shop-1959-wildwood-spec-les-paul-standard-gloss",
@@ -55578,7 +55795,7 @@
       "tier": 2,
       "category": "les_paul",
       "id": "g747",
-      "status": "ACTIVE",
+      "status": "DUPLICATE",
       "date_discovered": "2026-08-09",
       "last_confirmed_active": "2026-08-09",
       "market_bucket": "standard 60s",
@@ -55623,7 +55840,8 @@
         "as_of": "2026-08-09",
         "anchor_usd": 4750,
         "over_market_pct": 101
-      }
+      },
+      "notes": "DUPLICATE 2026-08-13: same guitar as g440 (same dealer, weight and price; cross-listed on Reverb and the dealer site). Kept for history, hidden from live views."
     },
     {
       "url": "https://reverb.com/item/97878082-gibson-es-355-1978-wine-red",
@@ -55883,7 +56101,7 @@
       "tier": 2,
       "category": "les_paul",
       "id": "g768",
-      "status": "ACTIVE",
+      "status": "DUPLICATE",
       "date_discovered": "2026-08-09",
       "last_confirmed_active": "2026-08-09",
       "market_bucket": "standard 60s",
@@ -55928,7 +56146,8 @@
         "as_of": "2026-08-09",
         "anchor_usd": 4750,
         "over_market_pct": 58
-      }
+      },
+      "notes": "DUPLICATE 2026-08-13: same guitar as g443 (same dealer, weight and price; cross-listed on Reverb and the dealer site). Kept for history, hidden from live views."
     },
     {
       "url": "https://wildwoodguitars.com/products/wildwood-spec-1959-les-paul-standard-vos-78",
