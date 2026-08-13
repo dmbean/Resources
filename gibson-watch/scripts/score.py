@@ -126,6 +126,24 @@ def neck_component(g):
     return max(score, 0.0), "; ".join(notes)
 
 
+P90_WORDS = ("p-90", "p90", "soapbar", "soap bar", "dog ear", "dogear")
+
+
+def is_p90_lp(g):
+    """P-90 Les Paul (buyer signal 2026-08-09: spec is humbucker LPs only).
+    '54/'56 Standard reissues (R4/R6) ship P-90s; LP Customs of those years do not."""
+    import re as _re
+    if g.get("category") != "les_paul":
+        return False
+    txt = " ".join(str(g.get(k) or "") for k in ("pickups", "model", "notes")).lower()
+    if any(w in txt for w in P90_WORDS):
+        return True
+    m = str(g.get("model") or "").lower()
+    if "les paul custom" in m or "black beauty" in m:
+        return False
+    return bool(_re.search(r"(1954|'54|\br4\b|1956|'56|\br6\b)", m))
+
+
 SLIM_WORDS = ("slimtaper", "slim taper", "slim", "1960", "60s", "fast c", "fast d",
               "medium c", "medium-slim", "thin", "skinny")
 FAT_WORDS = ("baseball", "chunky", "50s", "fat", "huge", "boat", "clubby")
@@ -190,6 +208,23 @@ def price_component(g):
     return max(0.0, 70.0 - (ratio - 1.15) * 200), "well above anchor"
 
 
+ES_SECONDARY = ("345", "355", "347", "340", "339", "336", "356")
+
+
+def family_penalty(g):
+    """Buyer signal 2026-08-09: prioritize ES-335s and Les Pauls over the other ES
+    models. The 345/355/347/340 stay in scope (same nut era, same construction) but
+    rank below an equivalent 335, so they never displace a core target."""
+    if g.get("category") != "es_335":
+        return 0.0, None
+    m = str(g.get("model") or "").lower()
+    if "335" in m:
+        return 0.0, None
+    if any(k in m for k in ES_SECONDARY):
+        return 6.0, "secondary ES model (-6: 335s and Les Pauls rank first)"
+    return 0.0, None
+
+
 def score(g):
     w, wn = weight_component(g)
     n, nn = neck_component(g)
@@ -197,6 +232,8 @@ def score(g):
     c, cn = condition_component(g)
     p, pn = price_component(g)
     total = 0.30 * w + 0.35 * n + 0.20 * s + 0.10 * c + 0.05 * p
+    pen, pen_note = family_penalty(g)
+    total = max(0.0, total - pen)
     g["score"] = round(total, 1)
     g["score_breakdown"] = {
         "weight_30pct": {"score": round(w, 1), "note": wn},
@@ -205,6 +242,8 @@ def score(g):
         "condition_10pct": {"score": round(c, 1), "note": cn},
         "price_5pct": {"score": round(p, 1), "note": pn},
     }
+    if pen_note:
+        g["score_breakdown"]["model_priority"] = {"score": -pen, "note": pen_note}
     return g
 
 

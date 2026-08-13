@@ -48,6 +48,12 @@ Long-running sourcing agent for a Gibson Les Paul and an ES-335. Runs every 24 h
    **Price cap from buyer signal (2026-07-19): $10,000** — do not ingest listings priced above
    $10k; existing entries above the cap are EXCLUDED (re-include if a price drop brings one under).
    **Finish exclusions for LPs (buyer signal 2026-07-29, generalized same day)**: Wine Red and ALL blue-family finishes (Pelham Blue, Blueberry Burst, Ocean Blue, Cobalt, etc.) — do not ingest Les Pauls in these finishes. Buyer's LP palette is warm/dark: Ebony, Unburst, Dirty Lemon, Bourbon Burst, Iced Tea, classic bursts. ES-335s unaffected.
+   **P-90 exclusion (buyer signal 2026-08-09)**: Les Pauls with P-90/soapbar pickups are OUT —
+   the buyer's LP spec is humbucker-equipped (Standard 60s, R0, PAF-style). This means '54 and
+   '56 Standard reissues (R4/R6) and Goldtops of those years do NOT qualify, however good the
+   weight or neck. '57+ reissues (R7/R8/R9/R0) are humbucker guitars and remain in scope.
+   Check the PICKUPS before scoring a Goldtop — this rule was missed once and put six P-90
+   guitars at the top of the board.
    **Model exclusions from buyer signals**: Les Paul Standard 60s Plain Top (rejected 2026-07-19)
    — do not ingest; existing entries are EXCLUDED. Figured-top Standard 60s remain in scope.
    **Standing MIJ/NYC hunt (added 2026-07-20)**: Japanese-made LP-style (Tokai LS/Love Rock,
@@ -65,6 +71,9 @@ Long-running sourcing agent for a Gibson Les Paul and an ES-335. Runs every 24 h
    LP 9.5 / ES 8.5 when a vibrato (Bigsby, Maestro, Vibrola, sideways) is fitted — the buyer
    likes vibratos and accepts their weight. Ideal bands unchanged, so lighter still ranks higher.
    Every sweep must record the vibrato type when present, or the allowance cannot be applied.
+   **Model priority (buyer signal 2026-08-09)**: ES-335s and Les Pauls are the CORE targets.
+   ES-345/355/347/340 stay in scope but carry a -6 score adjustment so they never outrank an
+   equivalent 335. Sweeps should spend effort on 335s and LPs first, other ES models second.
    **ES-family note (2026-08-09)**: sweeps cover ES-345/355/347/340 on the same rules as the 335. Always record Varitone (intact/bypassed/removed), stereo-vs-mono wiring, and weight-adding hardware (Bigsby/Maestro/TP-6/gold). ES-347s ship Dirty Fingers (hot ceramic, not PAF-style) — flag that explicitly.
    **Standing narrow-nut hunt**: every sweep must include dedicated queries for 1-9/16" nut ES-335s — the buyer's ideal nut, found only on 1965–1981 vintage examples (modern reissues are all 1-11/16"). Reverb API queries: "es-335 1 9/16", "es-335 narrow nut", "es-335 1.56", plus year-specific searches 1968–1980; also sweep dealers that publish nut widths (Carter, CME used, Gruhn).
 3. Dedupe against database by serial number, URL, and dealer inventory ID.
