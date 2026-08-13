@@ -2438,7 +2438,7 @@
       "id": "g055",
       "status": "ACTIVE",
       "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-08-09",
+      "last_confirmed_active": "2026-08-13",
       "market_bucket": "custom shop",
       "price_history": [
         {
@@ -3252,7 +3252,7 @@
       "id": "g054",
       "status": "ACTIVE",
       "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-08-09",
+      "last_confirmed_active": "2026-08-13",
       "market_bucket": "custom shop",
       "price_history": [
         {
@@ -3625,7 +3625,7 @@
       "id": "g053",
       "status": "ACTIVE",
       "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-08-09",
+      "last_confirmed_active": "2026-08-13",
       "market_bucket": "murphy lab",
       "price_history": [
         {
@@ -5577,6 +5577,180 @@
       }
     },
     {
+      "url": "https://www.chicagomusicexchange.com/products/gibson-custom-shop-1959-les-paul-standard-cme-spec-2296199",
+      "dealer": "Chicago Music Exchange",
+      "price_usd": 6999.0,
+      "year": 1959,
+      "model": "Gibson Custom Shop 1959 Les Paul Standard \"CME Spec\" Green Lemon VOS w/59 Carmelita Neck",
+      "finish": null,
+      "weight_lbs": 8.69,
+      "nut_width_in": null,
+      "fret1_depth_in": null,
+      "fret12_depth_in": null,
+      "neck_profile": "Carmelita (V1)",
+      "neck_profile_verbatim": "Shop 1959 Les Paul Standard \"CME Spec\" Green Lemon VOS w/59 Carmelita Neck | Carrying on Orville Gibson\u2019s historic pursuit of so",
+      "condition": "New",
+      "serial": null,
+      "city_state": "Chicago, IL",
+      "pickups": null,
+      "case_included": true,
+      "modifications": null,
+      "in_measured_window": false,
+      "note": null,
+      "seen_before": false,
+      "category": "les_paul",
+      "id": "g823",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-13",
+      "last_confirmed_active": "2026-08-13",
+      "market_bucket": "norlin lp",
+      "price_history": [
+        {
+          "date": "2026-08-13",
+          "price_usd": 6999.0
+        }
+      ],
+      "score": 88.0,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 8.69 lbs"
+        },
+        "neck_25pct": {
+          "score": 75.0,
+          "note": "nut unmeasured; 1st fret ok (53); 12th fret ok (49); depths inferred from the named carve, not measured \u2014 confirm with dealer; floored at 75 \u2014 documented slim shoulders (feel beats raw depth)"
+        },
+        "shoulders_30pct": {
+          "score": 90.0,
+          "note": "documented/replicated carve (shape known, not just depths): 'carmelita (v1)'"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "new"
+        },
+        "price_5pct": {
+          "score": 45.5,
+          "note": "well above anchor"
+        }
+      }
+    },
+    {
+      "url": "https://www.chicagomusicexchange.com/products/gibson-custom-shop-1959-les-paul-standard-cme-spec-2296187",
+      "dealer": "Chicago Music Exchange",
+      "price_usd": 6999.0,
+      "year": 1959,
+      "model": "Gibson Custom Shop 1959 Les Paul Standard \"CME Spec\" Dirty Lemon Fade VOS w/59 Carmelita Neck",
+      "finish": null,
+      "weight_lbs": 8.75,
+      "nut_width_in": null,
+      "fret1_depth_in": null,
+      "fret12_depth_in": null,
+      "neck_profile": "Carmelita (V1)",
+      "neck_profile_verbatim": "1959 Les Paul Standard \"CME Spec\" Dirty Lemon Fade VOS w/59 Carmelita Neck | Carrying on Orville Gibson\u2019s historic pursuit of so",
+      "condition": "New",
+      "serial": null,
+      "city_state": "Chicago, IL",
+      "pickups": null,
+      "case_included": true,
+      "modifications": null,
+      "in_measured_window": false,
+      "note": null,
+      "seen_before": false,
+      "category": "les_paul",
+      "id": "g827",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-13",
+      "last_confirmed_active": "2026-08-13",
+      "market_bucket": "norlin lp",
+      "price_history": [
+        {
+          "date": "2026-08-13",
+          "price_usd": 6999.0
+        }
+      ],
+      "score": 88.0,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 8.75 lbs"
+        },
+        "neck_25pct": {
+          "score": 75.0,
+          "note": "nut unmeasured; 1st fret ok (53); 12th fret ok (49); depths inferred from the named carve, not measured \u2014 confirm with dealer; floored at 75 \u2014 documented slim shoulders (feel beats raw depth)"
+        },
+        "shoulders_30pct": {
+          "score": 90.0,
+          "note": "documented/replicated carve (shape known, not just depths): 'carmelita (v1)'"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "new"
+        },
+        "price_5pct": {
+          "score": 45.5,
+          "note": "well above anchor"
+        }
+      }
+    },
+    {
+      "url": "https://www.chicagomusicexchange.com/products/gibson-custom-shop-1959-les-paul-standard-cme-spec-2296211",
+      "dealer": "Chicago Music Exchange",
+      "price_usd": 6999.0,
+      "year": 1959,
+      "model": "Gibson Custom Shop 1959 Les Paul Standard \"CME Spec\" Factory Burst VOS w/59 Carmelita Neck",
+      "finish": null,
+      "weight_lbs": 8.69,
+      "nut_width_in": null,
+      "fret1_depth_in": null,
+      "fret12_depth_in": null,
+      "neck_profile": "Carmelita (V1)",
+      "neck_profile_verbatim": "op 1959 Les Paul Standard \"CME Spec\" Factory Burst VOS w/59 Carmelita Neck | Carrying on Orville Gibson\u2019s historic pursuit of so",
+      "condition": "New",
+      "serial": null,
+      "city_state": "Chicago, IL",
+      "pickups": null,
+      "case_included": true,
+      "modifications": null,
+      "in_measured_window": false,
+      "note": null,
+      "seen_before": false,
+      "category": "les_paul",
+      "id": "g828",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-13",
+      "last_confirmed_active": "2026-08-13",
+      "market_bucket": "norlin lp",
+      "price_history": [
+        {
+          "date": "2026-08-13",
+          "price_usd": 6999.0
+        }
+      ],
+      "score": 88.0,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 8.69 lbs"
+        },
+        "neck_25pct": {
+          "score": 75.0,
+          "note": "nut unmeasured; 1st fret ok (53); 12th fret ok (49); depths inferred from the named carve, not measured \u2014 confirm with dealer; floored at 75 \u2014 documented slim shoulders (feel beats raw depth)"
+        },
+        "shoulders_30pct": {
+          "score": 90.0,
+          "note": "documented/replicated carve (shape known, not just depths): 'carmelita (v1)'"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "new"
+        },
+        "price_5pct": {
+          "score": 45.5,
+          "note": "well above anchor"
+        }
+      }
+    },
+    {
       "dealer": "Reverb \u2013 Diablo Guitars",
       "url": "https://reverb.com/item/98428382-gibson-es-335td-sunburst-1974-w-ohsc",
       "price_usd": 5499.99,
@@ -5723,6 +5897,64 @@
         "over_market_pct": 52
       },
       "notes": "Buyer-flagged 2026-08-13 as the reference example of a carve he likes (Carmelita/V1)."
+    },
+    {
+      "url": "https://www.chicagomusicexchange.com/products/gibson-custom-shop-1958-les-paul-standard-cme-spec-1385587",
+      "dealer": "Chicago Music Exchange",
+      "price_usd": 5499.0,
+      "year": 1958,
+      "model": "Gibson Custom Shop 1958 Les Paul Standard \"CME Spec\" Green Lemon VOS w/59 Carmelita Neck",
+      "finish": null,
+      "weight_lbs": 8.94,
+      "nut_width_in": null,
+      "fret1_depth_in": null,
+      "fret12_depth_in": null,
+      "neck_profile": "Carmelita (V1)",
+      "neck_profile_verbatim": "Shop 1958 Les Paul Standard \"CME Spec\" Green Lemon VOS w/59 Carmelita Neck | For over 20 years Gibson Custom has been carrying on",
+      "condition": "New",
+      "serial": null,
+      "city_state": "Chicago, IL",
+      "pickups": null,
+      "case_included": true,
+      "modifications": null,
+      "in_measured_window": false,
+      "note": null,
+      "seen_before": false,
+      "category": "les_paul",
+      "id": "g816",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-13",
+      "last_confirmed_active": "2026-08-13",
+      "market_bucket": "norlin lp",
+      "price_history": [
+        {
+          "date": "2026-08-13",
+          "price_usd": 5499.0
+        }
+      ],
+      "score": 87.5,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 90.7,
+          "note": "weight 8.94 lbs"
+        },
+        "neck_25pct": {
+          "score": 75.0,
+          "note": "nut unmeasured; 1st fret ok (53); 12th fret ok (49); depths inferred from the named carve, not measured \u2014 confirm with dealer; floored at 75 \u2014 documented slim shoulders (feel beats raw depth)"
+        },
+        "shoulders_30pct": {
+          "score": 90.0,
+          "note": "documented/replicated carve (shape known, not just depths): 'carmelita (v1)'"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "new"
+        },
+        "price_5pct": {
+          "score": 90.0,
+          "note": "at/under anchor"
+        }
+      }
     },
     {
       "reverb_id": 62639513,
@@ -7063,6 +7295,64 @@
       }
     },
     {
+      "url": "https://www.chicagomusicexchange.com/products/gibson-custom-shop-1959-les-paul-standard-cme-spec-2296216",
+      "dealer": "Chicago Music Exchange",
+      "price_usd": 6999.0,
+      "year": 1959,
+      "model": "Gibson Custom Shop 1959 Les Paul Standard \"CME Spec\" Dirty Lemon VOS w/59 Carmelita Neck",
+      "finish": null,
+      "weight_lbs": 8.88,
+      "nut_width_in": null,
+      "fret1_depth_in": null,
+      "fret12_depth_in": null,
+      "neck_profile": "Carmelita (V1)",
+      "neck_profile_verbatim": "Shop 1959 Les Paul Standard \"CME Spec\" Dirty Lemon VOS w/59 Carmelita Neck | Carrying on Orville Gibson\u2019s historic pursuit of so",
+      "condition": "New",
+      "serial": "952832 Series",
+      "city_state": "Chicago, IL",
+      "pickups": null,
+      "case_included": true,
+      "modifications": null,
+      "in_measured_window": false,
+      "note": null,
+      "seen_before": false,
+      "category": "les_paul",
+      "id": "g822",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-13",
+      "last_confirmed_active": "2026-08-13",
+      "market_bucket": "norlin lp",
+      "price_history": [
+        {
+          "date": "2026-08-13",
+          "price_usd": 6999.0
+        }
+      ],
+      "score": 86.4,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 94.7,
+          "note": "weight 8.88 lbs"
+        },
+        "neck_25pct": {
+          "score": 75.0,
+          "note": "nut unmeasured; 1st fret ok (53); 12th fret ok (49); depths inferred from the named carve, not measured \u2014 confirm with dealer; floored at 75 \u2014 documented slim shoulders (feel beats raw depth)"
+        },
+        "shoulders_30pct": {
+          "score": 90.0,
+          "note": "documented/replicated carve (shape known, not just depths): 'carmelita (v1)'"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "new"
+        },
+        "price_5pct": {
+          "score": 45.5,
+          "note": "well above anchor"
+        }
+      }
+    },
+    {
       "reverb_id": "94654693",
       "url": "https://reverb.com/item/94654693-gibson-custom-les-paul-60th-anniversary-limited-edition-v2-2020-tomato-soup-burst-001542",
       "dealer": "Guitar Showcase",
@@ -7133,6 +7423,130 @@
         "condition_10pct": {
           "score": 100.0,
           "note": "brand new"
+        },
+        "price_5pct": {
+          "score": 70.0,
+          "note": "slightly above anchor"
+        }
+      }
+    },
+    {
+      "url": "https://www.chicagomusicexchange.com/products/gibson-custom-shop-1958-les-paul-standard-cme-spec-2486489",
+      "dealer": "Chicago Music Exchange",
+      "price_usd": 5499.0,
+      "year": 1958,
+      "model": "Gibson Custom Shop 1958 Les Paul Standard \"CME Spec\" Factory Burst VOS w/59 Carmelita Neck",
+      "finish": null,
+      "weight_lbs": 9.0,
+      "nut_width_in": null,
+      "fret1_depth_in": null,
+      "fret12_depth_in": null,
+      "neck_profile": "Carmelita (V1)",
+      "neck_profile_verbatim": "op 1958 Les Paul Standard \"CME Spec\" Factory Burst VOS w/59 Carmelita Neck | Carrying on Orville Gibson\u2019s historic pursuit of so",
+      "condition": "New",
+      "serial": null,
+      "city_state": "Chicago, IL",
+      "pickups": null,
+      "case_included": true,
+      "modifications": null,
+      "in_measured_window": false,
+      "note": null,
+      "seen_before": false,
+      "category": "les_paul",
+      "id": "g817",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-13",
+      "last_confirmed_active": "2026-08-13",
+      "market_bucket": "norlin lp",
+      "price_history": [
+        {
+          "date": "2026-08-13",
+          "price_usd": 5499.0
+        }
+      ],
+      "score": 86.3,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 86.7,
+          "note": "weight 9.0 lbs"
+        },
+        "neck_25pct": {
+          "score": 75.0,
+          "note": "nut unmeasured; 1st fret ok (53); 12th fret ok (49); depths inferred from the named carve, not measured \u2014 confirm with dealer; floored at 75 \u2014 documented slim shoulders (feel beats raw depth)"
+        },
+        "shoulders_30pct": {
+          "score": 90.0,
+          "note": "documented/replicated carve (shape known, not just depths): 'carmelita (v1)'"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "new"
+        },
+        "price_5pct": {
+          "score": 90.0,
+          "note": "at/under anchor"
+        }
+      }
+    },
+    {
+      "url": "https://www.chicagomusicexchange.com/products/gibson-custom-59-les-paul-standard-cme-spec-kindred-2608692",
+      "dealer": "Chicago Music Exchange",
+      "price_usd": 6265.0,
+      "year": 2025,
+      "model": "Gibson Custom '59 Les Paul Standard \"CME Spec\" Kindred Burst 2025",
+      "finish": "Original",
+      "weight_lbs": 8.31,
+      "nut_width_in": 1.6875,
+      "fret1_depth_in": 0.89,
+      "fret12_depth_in": 0.98,
+      "neck_profile": "Carmelita (V1)",
+      "neck_profile_verbatim": "Carmelita, medium \"C\"",
+      "condition": "Used",
+      "serial": "951556 Tech Note",
+      "city_state": "Chicago, IL",
+      "pickups": "\"S\" Bucker pickups",
+      "case_included": true,
+      "modifications": null,
+      "in_measured_window": false,
+      "note": null,
+      "seen_before": false,
+      "category": "les_paul",
+      "id": "g818",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-13",
+      "last_confirmed_active": "2026-08-13",
+      "market_bucket": "custom shop",
+      "price_history": [
+        {
+          "date": "2026-08-13",
+          "price_usd": 6265.0
+        }
+      ],
+      "research_cluster": "standard-60s",
+      "research": [
+        "Neck feel: USA Standard '60s uses Gibson's modern SlimTaper \u2014 typically ~.80-.83\" at the 1st fret \u2014 but forums document real unit-to-unit variance from genuinely skinny to almost medium-C; fretwork and nut quality also vary.",
+        "Pickups: Burstbucker 61R/61T (Alnico V, slightly hot vintage-voiced) \u2014 brighter and more aggressive than Custombuckers; some find the 61T harsh into bright amps; 2019+ wiring is hand-wired with orange-drop caps, no PCB.",
+        "Known issues: weight is the big one \u2014 non-weight-relieved and commonly 9-10+ lbs (sub-9 lb examples get snapped up); also inconsistent nut slotting, occasional fret-end sprout, finish flaws under the burst.",
+        "Market/value: the mainstream benchmark Les Paul \u2014 liquid used market but steep initial depreciation (used commonly 25-35% under street); Plain Tops resell a bit lower than figured bursts; excellent players when you pick a good one.",
+        "Verify before buying: exact weight (ask for a scale photo \u2014 listings routinely guess low), neck measurements and fret ends, nut slots, top figure vs stock photos, and confirm Standard '60s vs a weight-relieved 'Classic' being misrepresented."
+      ],
+      "score": 86.2,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 8.31 lbs"
+        },
+        "neck_25pct": {
+          "score": 75.0,
+          "note": "nut ok (95); 1st fret ok (33); 12th fret ok (46); floored at 75 \u2014 documented slim shoulders (feel beats raw depth)"
+        },
+        "shoulders_30pct": {
+          "score": 90.0,
+          "note": "documented/replicated carve (shape known, not just depths): 'carmelita (v1)'"
+        },
+        "condition_10pct": {
+          "score": 70.0,
+          "note": "used"
         },
         "price_5pct": {
           "score": 70.0,
@@ -7217,6 +7631,64 @@
         "price_5pct": {
           "score": 90.0,
           "note": "at/under anchor"
+        }
+      }
+    },
+    {
+      "url": "https://www.chicagomusicexchange.com/products/gibson-custom-shop-1959-les-paul-standard-cme-spec-2448245",
+      "dealer": "Chicago Music Exchange",
+      "price_usd": 7199.0,
+      "year": 1959,
+      "model": "Gibson Custom Shop 1959 Les Paul Standard \"CME Spec\" Golden Poppy Burst VOS w/59 Carmelita Neck",
+      "finish": null,
+      "weight_lbs": 8.88,
+      "nut_width_in": null,
+      "fret1_depth_in": null,
+      "fret12_depth_in": null,
+      "neck_profile": "Carmelita (V1)",
+      "neck_profile_verbatim": "59 Les Paul Standard \"CME Spec\" Golden Poppy Burst VOS w/59 Carmelita Neck | Gibson Custom's 1959 Les Paul Standard Reissue is n",
+      "condition": "New",
+      "serial": null,
+      "city_state": "Chicago, IL",
+      "pickups": null,
+      "case_included": true,
+      "modifications": null,
+      "in_measured_window": false,
+      "note": null,
+      "seen_before": false,
+      "category": "les_paul",
+      "id": "g830",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-13",
+      "last_confirmed_active": "2026-08-13",
+      "market_bucket": "norlin lp",
+      "price_history": [
+        {
+          "date": "2026-08-13",
+          "price_usd": 7199.0
+        }
+      ],
+      "score": 86.1,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 94.7,
+          "note": "weight 8.88 lbs"
+        },
+        "neck_25pct": {
+          "score": 75.0,
+          "note": "nut unmeasured; 1st fret ok (53); 12th fret ok (49); depths inferred from the named carve, not measured \u2014 confirm with dealer; floored at 75 \u2014 documented slim shoulders (feel beats raw depth)"
+        },
+        "shoulders_30pct": {
+          "score": 90.0,
+          "note": "documented/replicated carve (shape known, not just depths): 'carmelita (v1)'"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "new"
+        },
+        "price_5pct": {
+          "score": 38.2,
+          "note": "well above anchor"
         }
       }
     },
@@ -8181,6 +8653,64 @@
       }
     },
     {
+      "url": "https://www.chicagomusicexchange.com/products/gibson-custom-shop-1959-les-paul-standard-cme-spec-2296188",
+      "dealer": "Chicago Music Exchange",
+      "price_usd": 6999.0,
+      "year": 1959,
+      "model": "Gibson Custom Shop 1959 Les Paul Standard \"CME Spec\" Dirty Lemon Fade VOS w/59 Carmelita Neck",
+      "finish": null,
+      "weight_lbs": 8.5,
+      "nut_width_in": null,
+      "fret1_depth_in": null,
+      "fret12_depth_in": null,
+      "neck_profile": "Carmelita (V1)",
+      "neck_profile_verbatim": "1959 Les Paul Standard \"CME Spec\" Dirty Lemon Fade VOS w/59 Carmelita Neck | Carrying on Orville Gibson\u2019s historic pursuit of so",
+      "condition": "Used",
+      "serial": null,
+      "city_state": "Chicago, IL",
+      "pickups": null,
+      "case_included": true,
+      "modifications": null,
+      "in_measured_window": false,
+      "note": null,
+      "seen_before": false,
+      "category": "les_paul",
+      "id": "g819",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-13",
+      "last_confirmed_active": "2026-08-13",
+      "market_bucket": "norlin lp",
+      "price_history": [
+        {
+          "date": "2026-08-13",
+          "price_usd": 6999.0
+        }
+      ],
+      "score": 85.0,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 8.5 lbs"
+        },
+        "neck_25pct": {
+          "score": 75.0,
+          "note": "nut unmeasured; 1st fret ok (53); 12th fret ok (49); depths inferred from the named carve, not measured \u2014 confirm with dealer; floored at 75 \u2014 documented slim shoulders (feel beats raw depth)"
+        },
+        "shoulders_30pct": {
+          "score": 90.0,
+          "note": "documented/replicated carve (shape known, not just depths): 'carmelita (v1)'"
+        },
+        "condition_10pct": {
+          "score": 70.0,
+          "note": "used"
+        },
+        "price_5pct": {
+          "score": 45.5,
+          "note": "well above anchor"
+        }
+      }
+    },
+    {
       "reverb_id": 97803920,
       "url": "https://reverb.com/item/97803920-gibson-custom-shop-1960-les-paul-murphy-lab-light-aged-bigsby-wildwood-spec-2025-botb-page-138",
       "title": "Gibson Custom Shop 1960 Les Paul Murphy Lab Light Aged Bigsby Wildwood Spec 2025 - BOTB Page 138",
@@ -8257,6 +8787,64 @@
         "suggested_offer_usd": 6900,
         "discount_pct": 14,
         "rationale": "8% base; 10% over market anchor ($7249); condition/mods"
+      }
+    },
+    {
+      "url": "https://www.chicagomusicexchange.com/products/gibson-custom-shop-1958-les-paul-standard-cme-spec-2486493",
+      "dealer": "Chicago Music Exchange",
+      "price_usd": 5499.0,
+      "year": 1958,
+      "model": "Gibson Custom Shop 1958 Les Paul Standard \"CME Spec\" Green Lemon VOS w/59 Carmelita Neck",
+      "finish": null,
+      "weight_lbs": 8.94,
+      "nut_width_in": null,
+      "fret1_depth_in": null,
+      "fret12_depth_in": null,
+      "neck_profile": "Carmelita (V1)",
+      "neck_profile_verbatim": "Shop 1958 Les Paul Standard \"CME Spec\" Green Lemon VOS w/59 Carmelita Neck | Carrying on Orville Gibson\u2019s historic pursuit of so",
+      "condition": "Used",
+      "serial": null,
+      "city_state": "Chicago, IL",
+      "pickups": null,
+      "case_included": true,
+      "modifications": null,
+      "in_measured_window": false,
+      "note": null,
+      "seen_before": false,
+      "category": "les_paul",
+      "id": "g815",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-13",
+      "last_confirmed_active": "2026-08-13",
+      "market_bucket": "norlin lp",
+      "price_history": [
+        {
+          "date": "2026-08-13",
+          "price_usd": 5499.0
+        }
+      ],
+      "score": 84.5,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 90.7,
+          "note": "weight 8.94 lbs"
+        },
+        "neck_25pct": {
+          "score": 75.0,
+          "note": "nut unmeasured; 1st fret ok (53); 12th fret ok (49); depths inferred from the named carve, not measured \u2014 confirm with dealer; floored at 75 \u2014 documented slim shoulders (feel beats raw depth)"
+        },
+        "shoulders_30pct": {
+          "score": 90.0,
+          "note": "documented/replicated carve (shape known, not just depths): 'carmelita (v1)'"
+        },
+        "condition_10pct": {
+          "score": 70.0,
+          "note": "used"
+        },
+        "price_5pct": {
+          "score": 90.0,
+          "note": "at/under anchor"
+        }
       }
     },
     {
@@ -8621,6 +9209,122 @@
       }
     },
     {
+      "url": "https://www.chicagomusicexchange.com/products/gibson-custom-shop-1959-les-paul-standard-cme-spec-2296200",
+      "dealer": "Chicago Music Exchange",
+      "price_usd": 6999.0,
+      "year": 1959,
+      "model": "Gibson Custom Shop 1959 Les Paul Standard \"CME Spec\" Green Lemon VOS w/59 Carmelita Neck",
+      "finish": null,
+      "weight_lbs": 9.0,
+      "nut_width_in": null,
+      "fret1_depth_in": null,
+      "fret12_depth_in": null,
+      "neck_profile": "Carmelita (V1)",
+      "neck_profile_verbatim": "Shop 1959 Les Paul Standard \"CME Spec\" Green Lemon VOS w/59 Carmelita Neck | Carrying on Orville Gibson\u2019s historic pursuit of so",
+      "condition": "New",
+      "serial": null,
+      "city_state": "Chicago, IL",
+      "pickups": null,
+      "case_included": true,
+      "modifications": null,
+      "in_measured_window": false,
+      "note": null,
+      "seen_before": false,
+      "category": "les_paul",
+      "id": "g821",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-13",
+      "last_confirmed_active": "2026-08-13",
+      "market_bucket": "norlin lp",
+      "price_history": [
+        {
+          "date": "2026-08-13",
+          "price_usd": 6999.0
+        }
+      ],
+      "score": 84.0,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 86.7,
+          "note": "weight 9.0 lbs"
+        },
+        "neck_25pct": {
+          "score": 75.0,
+          "note": "nut unmeasured; 1st fret ok (53); 12th fret ok (49); depths inferred from the named carve, not measured \u2014 confirm with dealer; floored at 75 \u2014 documented slim shoulders (feel beats raw depth)"
+        },
+        "shoulders_30pct": {
+          "score": 90.0,
+          "note": "documented/replicated carve (shape known, not just depths): 'carmelita (v1)'"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "new"
+        },
+        "price_5pct": {
+          "score": 45.5,
+          "note": "well above anchor"
+        }
+      }
+    },
+    {
+      "url": "https://www.chicagomusicexchange.com/products/gibson-custom-shop-1959-les-paul-standard-cme-spec-1385693",
+      "dealer": "Chicago Music Exchange",
+      "price_usd": 6999.0,
+      "year": 1959,
+      "model": "Gibson Custom Shop 1959 Les Paul Standard \"CME Spec\" Dirty Lemon VOS w/59 Carmelita Nec",
+      "finish": null,
+      "weight_lbs": 9.0,
+      "nut_width_in": null,
+      "fret1_depth_in": null,
+      "fret12_depth_in": null,
+      "neck_profile": "Carmelita (V1)",
+      "neck_profile_verbatim": "Shop 1959 Les Paul Standard \"CME Spec\" Dirty Lemon VOS w/59 Carmelita Nec | No specific Gibson model carries more intrigue and g",
+      "condition": "New",
+      "serial": "953260 Series",
+      "city_state": "Chicago, IL",
+      "pickups": null,
+      "case_included": true,
+      "modifications": null,
+      "in_measured_window": false,
+      "note": null,
+      "seen_before": false,
+      "category": "les_paul",
+      "id": "g825",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-13",
+      "last_confirmed_active": "2026-08-13",
+      "market_bucket": "norlin lp",
+      "price_history": [
+        {
+          "date": "2026-08-13",
+          "price_usd": 6999.0
+        }
+      ],
+      "score": 84.0,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 86.7,
+          "note": "weight 9.0 lbs"
+        },
+        "neck_25pct": {
+          "score": 75.0,
+          "note": "nut unmeasured; 1st fret ok (53); 12th fret ok (49); depths inferred from the named carve, not measured \u2014 confirm with dealer; floored at 75 \u2014 documented slim shoulders (feel beats raw depth)"
+        },
+        "shoulders_30pct": {
+          "score": 90.0,
+          "note": "documented/replicated carve (shape known, not just depths): 'carmelita (v1)'"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "new"
+        },
+        "price_5pct": {
+          "score": 45.5,
+          "note": "well above anchor"
+        }
+      }
+    },
+    {
       "reverb_id": "95569647",
       "url": "https://reverb.com/item/95569647-2023-gibson-es-335-custom-shop-61-reissue-murphy-lab-heavy-aged-60-s-cherry",
       "dealer": "G-Brat's Guitars",
@@ -8837,6 +9541,72 @@
         "as_of": "2026-08-09",
         "anchor_usd": 5000,
         "over_market_pct": 40
+      }
+    },
+    {
+      "url": "https://www.chicagomusicexchange.com/products/gibson-custom-shop-1960-les-paul-standard-cme-spec-2380693",
+      "dealer": "Chicago Music Exchange",
+      "price_usd": 8199.0,
+      "year": 1960,
+      "model": "Gibson Custom Shop 1960 Les Paul Standard \"CME Spec\" Heavy Antique Cobra Burst VOS w/'59 Carmelita Neck",
+      "finish": null,
+      "weight_lbs": 8.44,
+      "nut_width_in": null,
+      "fret1_depth_in": null,
+      "fret12_depth_in": null,
+      "neck_profile": "Carmelita (V1)",
+      "neck_profile_verbatim": "aul Standard \"CME Spec\" Heavy Antique Cobra Burst VOS w/'59 Carmelita Neck | Carrying on Orville Gibson\u2019s historic pursuit of so",
+      "condition": "Used",
+      "serial": "06082 Series",
+      "city_state": "Chicago, IL",
+      "pickups": null,
+      "case_included": true,
+      "modifications": null,
+      "in_measured_window": false,
+      "note": null,
+      "seen_before": false,
+      "category": "les_paul",
+      "id": "g836",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-13",
+      "last_confirmed_active": "2026-08-13",
+      "market_bucket": "norlin lp",
+      "price_history": [
+        {
+          "date": "2026-08-13",
+          "price_usd": 8199.0
+        }
+      ],
+      "research_cluster": "cs-r0-modern",
+      "research": [
+        "Neck feel: modern core R0s ship with the '1960 V2' medium-slim carve (~.82\" at the 1st fret, ~.95\" at the 12th) \u2014 forum consensus calls it 'a '59 neck on a diet'; Wildwood-spec R0s also typically measure around .82\" first fret, and only the V3/slim-taper variants get truly skinny (~.80\"/.89\").",
+        "Pickups: unpotted Custombuckers (Alnico III), widely praised on MLP/TGP as the best PAF-style pickup Gibson ships \u2014 airy, open, clear lows and classic midrange honk; Wildwood Spec versions are regarded as tonally equivalent, with differences mainly cosmetic.",
+        "Known issues: general 2019+ Historic complaints \u2014 occasional nut slot/fret-end sloppiness, inconsistent VOS/Murphy Lab finish work, weight variance (roughly 8.3-9.5 lbs, no weight relief), some checking-prone Murphy Lab lacquer; unpotted Custombuckers can squeal at high gain.",
+        "Market/value: the 2019 'reformulated' Historic line is considered the best regular-production era since True Historic; R0s trade slightly below equivalent R9s and hold value well used at roughly 60-75% of street; dealer-spec examples carry a modest resale premium.",
+        "Verify before buying: actual neck measurements (V2 vs V3 vs V1 \u2014 dealer listings are often wrong; ask for 1st/12th fret caliper numbers), weight, COA and case candy, serial format, no headstock repair under aging, and original unpotted Custombuckers."
+      ],
+      "score": 82.8,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 8.44 lbs"
+        },
+        "neck_25pct": {
+          "score": 75.0,
+          "note": "nut unmeasured; 1st fret ok (53); 12th fret ok (49); depths inferred from the named carve, not measured \u2014 confirm with dealer; floored at 75 \u2014 documented slim shoulders (feel beats raw depth)"
+        },
+        "shoulders_30pct": {
+          "score": 90.0,
+          "note": "documented/replicated carve (shape known, not just depths): 'carmelita (v1)'"
+        },
+        "condition_10pct": {
+          "score": 70.0,
+          "note": "used"
+        },
+        "price_5pct": {
+          "score": 1.9,
+          "note": "well above anchor"
+        }
       }
     },
     {
@@ -9210,6 +9980,64 @@
       "notes": "EXCLUDED 2026-08-09: P-90-equipped Les Paul. Buyer's spec is humbucker LPs (Standard 60s, R0, PAF-style); '54/'56 Standard reissues ship P-90s."
     },
     {
+      "url": "https://www.willcuttguitars.com/products/gibson-59-les-paul-standard-botb-page-74-vos-nh-botb_pg74-567-lpr59psl22403-95567",
+      "dealer": "Willcutt Guitars",
+      "price_usd": 7299.0,
+      "year": 1959,
+      "model": "Gibson Custom Shop Dealer Select 1959 Les Paul Standard Beauty of the Burst Page 74 VOS  (567)",
+      "finish": null,
+      "weight_lbs": 8.91,
+      "nut_width_in": 1.687,
+      "fret1_depth_in": 0.86,
+      "fret12_depth_in": 0.975,
+      "neck_profile": "Carmelita (V1); V1",
+      "neck_profile_verbatim": "R9 V1 Carmelita (0.860\" - 0.975\")",
+      "condition": null,
+      "serial": null,
+      "city_state": "Lexington, KY",
+      "pickups": "Custombucker Alnico III bridge and neck pickups, 3-way toggle switching",
+      "case_included": true,
+      "modifications": null,
+      "in_measured_window": true,
+      "note": null,
+      "seen_before": false,
+      "category": "les_paul",
+      "id": "g831",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-13",
+      "last_confirmed_active": "2026-08-13",
+      "market_bucket": "norlin lp",
+      "price_history": [
+        {
+          "date": "2026-08-13",
+          "price_usd": 7299.0
+        }
+      ],
+      "score": 82.3,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 92.7,
+          "note": "weight 8.91 lbs"
+        },
+        "neck_25pct": {
+          "score": 75.0,
+          "note": "nut ok (94); 1st fret ok (53); 12th fret ok (49); floored at 75 \u2014 documented slim shoulders (feel beats raw depth)"
+        },
+        "shoulders_30pct": {
+          "score": 90.0,
+          "note": "documented/replicated carve (shape known, not just depths): 'carmelita (v1); v1'"
+        },
+        "condition_10pct": {
+          "score": 70.0,
+          "note": "condition unstated"
+        },
+        "price_5pct": {
+          "score": 34.6,
+          "note": "well above anchor"
+        }
+      }
+    },
+    {
       "url": "https://reverb.com/item/89531553-gibson-cs-59-lp-std-guitar-943828",
       "dealer": "Sound Pure",
       "price_usd": 5795.0,
@@ -9561,6 +10389,64 @@
         "Market/value: Norlins are the fastest-appreciating Gibson segment \u2014 mylespaul's 'Norlin Prices Climbing' thread and Reverb data show stock 70s Deluxes around $3.5k\u20134.5k and clean examples to ~$8k, Standards and Customs similar or higher, with rare finishes (cherry, sparkle, wine red) commanding premiums; 70s is 'the new vintage' as 50s/60s bursts priced everyone out.",
         "Verify before buying: 1970\u201375 six-digit serials are nearly random \u2014 date via pot codes (137YYWW), 'Made in USA' stamp, volute and pancake construction details (see mylespaul FAQ 'Norlin identification 1970-1975'); check under UV/close light for headstock repairs (common, fine on a player at a discount but should knock 30-40% off), confirm mini-humbucker routes on a Deluxe are unmolested, weigh the guitar, and confirm original T-tops/mini-hums are present since pickup swaps are rampant."
       ]
+    },
+    {
+      "url": "https://www.chicagomusicexchange.com/products/gibson-custom-shop-1959-les-paul-standard-cme-spec-2430817",
+      "dealer": "Chicago Music Exchange",
+      "price_usd": 7799.0,
+      "year": 1959,
+      "model": "Gibson Custom Shop 1959 Les Paul Standard \"CME Spec\" AAA Torrefied Maple Factory Burst VOS NH w/'59 Carmelita Neck",
+      "finish": null,
+      "weight_lbs": 8.06,
+      "nut_width_in": null,
+      "fret1_depth_in": null,
+      "fret12_depth_in": null,
+      "neck_profile": "Carmelita (V1)",
+      "neck_profile_verbatim": "d \"CME Spec\" AAA Torrefied Maple Factory Burst VOS NH w/'59 Carmelita Neck | Carrying on Orville Gibson\u2019s historic pursuit of so",
+      "condition": "New",
+      "serial": null,
+      "city_state": "Chicago, IL",
+      "pickups": null,
+      "case_included": true,
+      "modifications": null,
+      "in_measured_window": false,
+      "note": null,
+      "seen_before": false,
+      "category": "les_paul",
+      "id": "g835",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-13",
+      "last_confirmed_active": "2026-08-13",
+      "market_bucket": "norlin lp",
+      "price_history": [
+        {
+          "date": "2026-08-13",
+          "price_usd": 7799.0
+        }
+      ],
+      "score": 81.8,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 84.0,
+          "note": "weight 8.06 lbs"
+        },
+        "neck_25pct": {
+          "score": 75.0,
+          "note": "nut unmeasured; 1st fret ok (53); 12th fret ok (49); depths inferred from the named carve, not measured \u2014 confirm with dealer; floored at 75 \u2014 documented slim shoulders (feel beats raw depth)"
+        },
+        "shoulders_30pct": {
+          "score": 90.0,
+          "note": "documented/replicated carve (shape known, not just depths): 'carmelita (v1)'"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "new"
+        },
+        "price_5pct": {
+          "score": 16.4,
+          "note": "well above anchor"
+        }
+      }
     },
     {
       "dealer": "Reverb \u2013 Gary's Gear Locker (private seller)",
@@ -11565,6 +12451,122 @@
       }
     },
     {
+      "url": "https://www.chicagomusicexchange.com/products/gibson-custom-shop-1959-les-paul-standard-cme-spec-2053551",
+      "dealer": "Chicago Music Exchange",
+      "price_usd": 6999.0,
+      "year": 1959,
+      "model": "Gibson Custom Shop 1959 Les Paul Standard \"CME Spec\" Slow Iced Tea Fade VOS w/60 V2 Neck",
+      "finish": null,
+      "weight_lbs": 8.62,
+      "nut_width_in": null,
+      "fret1_depth_in": null,
+      "fret12_depth_in": null,
+      "neck_profile": "V2",
+      "neck_profile_verbatim": "59 Les Paul Standard \"CME Spec\" Slow Iced Tea Fade VOS w/60 V2 Neck | Carrying on Orville Gibson\u2019s historic pursuit of so",
+      "condition": "New",
+      "serial": "953337 Series",
+      "city_state": "Chicago, IL",
+      "pickups": null,
+      "case_included": true,
+      "modifications": null,
+      "in_measured_window": false,
+      "note": null,
+      "seen_before": false,
+      "category": "les_paul",
+      "id": "g826",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-13",
+      "last_confirmed_active": "2026-08-13",
+      "market_bucket": "norlin lp",
+      "price_history": [
+        {
+          "date": "2026-08-13",
+          "price_usd": 6999.0
+        }
+      ],
+      "score": 79.0,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 8.62 lbs"
+        },
+        "neck_25pct": {
+          "score": 75.0,
+          "note": "nut unmeasured; 1st fret ok (73); 12th fret ok (69); depths inferred from the named carve, not measured \u2014 confirm with dealer; floored at 75 \u2014 documented slim shoulders (feel beats raw depth)"
+        },
+        "shoulders_30pct": {
+          "score": 60.0,
+          "note": "profile unclear: 'v2'"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "new"
+        },
+        "price_5pct": {
+          "score": 45.5,
+          "note": "well above anchor"
+        }
+      }
+    },
+    {
+      "url": "https://www.chicagomusicexchange.com/products/gibson-custom-shop-1959-les-paul-standard-cme-spec-2296206",
+      "dealer": "Chicago Music Exchange",
+      "price_usd": 6999.0,
+      "year": 1959,
+      "model": "Gibson Custom Shop 1959 Les Paul Standard \"CME Spec\" Factory Burst VOS w/60 V2 Neck",
+      "finish": null,
+      "weight_lbs": 8.62,
+      "nut_width_in": null,
+      "fret1_depth_in": null,
+      "fret12_depth_in": null,
+      "neck_profile": "V2",
+      "neck_profile_verbatim": "op 1959 Les Paul Standard \"CME Spec\" Factory Burst VOS w/60 V2 Neck | Carrying on Orville Gibson\u2019s historic pursuit of so",
+      "condition": "New",
+      "serial": null,
+      "city_state": "Chicago, IL",
+      "pickups": null,
+      "case_included": true,
+      "modifications": null,
+      "in_measured_window": false,
+      "note": null,
+      "seen_before": false,
+      "category": "les_paul",
+      "id": "g829",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-13",
+      "last_confirmed_active": "2026-08-13",
+      "market_bucket": "norlin lp",
+      "price_history": [
+        {
+          "date": "2026-08-13",
+          "price_usd": 6999.0
+        }
+      ],
+      "score": 79.0,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 8.62 lbs"
+        },
+        "neck_25pct": {
+          "score": 75.0,
+          "note": "nut unmeasured; 1st fret ok (73); 12th fret ok (69); depths inferred from the named carve, not measured \u2014 confirm with dealer; floored at 75 \u2014 documented slim shoulders (feel beats raw depth)"
+        },
+        "shoulders_30pct": {
+          "score": 60.0,
+          "note": "profile unclear: 'v2'"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "new"
+        },
+        "price_5pct": {
+          "score": 45.5,
+          "note": "well above anchor"
+        }
+      }
+    },
+    {
       "dealer": "Chicago Music Exchange",
       "url": "https://chicagomusicexchange.com/products/gibson-custom-60-les-paul-standard-reissue-cherry-2613097",
       "price_usd": 4395,
@@ -11710,6 +12712,72 @@
       ]
     },
     {
+      "url": "https://www.chicagomusicexchange.com/products/gibson-custom-60-les-paul-standard-reissue-sunburst-2630604",
+      "dealer": "Chicago Music Exchange",
+      "price_usd": 4395.0,
+      "year": 2020,
+      "model": "Gibson Custom '60 Les Paul Standard Reissue Sunburst 2020",
+      "finish": "Original",
+      "weight_lbs": 8.5,
+      "nut_width_in": 1.6875,
+      "fret1_depth_in": 0.8,
+      "fret12_depth_in": 0.92,
+      "neck_profile": null,
+      "neck_profile_verbatim": "medium \"C\"",
+      "condition": "Used",
+      "serial": "09190 Tech Notes",
+      "city_state": "Chicago, IL",
+      "pickups": null,
+      "case_included": true,
+      "modifications": null,
+      "in_measured_window": true,
+      "note": null,
+      "seen_before": false,
+      "category": "les_paul",
+      "id": "g838",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-13",
+      "last_confirmed_active": "2026-08-13",
+      "market_bucket": "custom shop",
+      "price_history": [
+        {
+          "date": "2026-08-13",
+          "price_usd": 4395.0
+        }
+      ],
+      "research_cluster": "standard-60s",
+      "research": [
+        "Neck feel: USA Standard '60s uses Gibson's modern SlimTaper \u2014 typically ~.80-.83\" at the 1st fret \u2014 but forums document real unit-to-unit variance from genuinely skinny to almost medium-C; fretwork and nut quality also vary.",
+        "Pickups: Burstbucker 61R/61T (Alnico V, slightly hot vintage-voiced) \u2014 brighter and more aggressive than Custombuckers; some find the 61T harsh into bright amps; 2019+ wiring is hand-wired with orange-drop caps, no PCB.",
+        "Known issues: weight is the big one \u2014 non-weight-relieved and commonly 9-10+ lbs (sub-9 lb examples get snapped up); also inconsistent nut slotting, occasional fret-end sprout, finish flaws under the burst.",
+        "Market/value: the mainstream benchmark Les Paul \u2014 liquid used market but steep initial depreciation (used commonly 25-35% under street); Plain Tops resell a bit lower than figured bursts; excellent players when you pick a good one.",
+        "Verify before buying: exact weight (ask for a scale photo \u2014 listings routinely guess low), neck measurements and fret ends, nut slots, top figure vs stock photos, and confirm Standard '60s vs a weight-relieved 'Classic' being misrepresented."
+      ],
+      "score": 78.6,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 8.5 lbs"
+        },
+        "neck_25pct": {
+          "score": 98.3,
+          "note": "nut ok (95); 1st fret ok (100); 12th fret ok (100)"
+        },
+        "shoulders_30pct": {
+          "score": 40.0,
+          "note": "no shoulder/profile info"
+        },
+        "condition_10pct": {
+          "score": 70.0,
+          "note": "used"
+        },
+        "price_5pct": {
+          "score": 100.0,
+          "note": "20% under anchor"
+        }
+      }
+    },
+    {
       "dealer": "Reverb \u2013 Dietze Music",
       "url": "https://reverb.com/item/98846758-gibson-wildwood-spec-1959-les-paul-standard-vos-2025-kindred-burst",
       "price_usd": 4950.0,
@@ -11852,6 +12920,64 @@
         },
         "price_5pct": {
           "score": 0.0,
+          "note": "well above anchor"
+        }
+      }
+    },
+    {
+      "url": "https://www.chicagomusicexchange.com/products/gibson-custom-shop-1959-les-paul-standard-cme-spec-2380691",
+      "dealer": "Chicago Music Exchange",
+      "price_usd": 7699.0,
+      "year": 1959,
+      "model": "Gibson Custom Shop 1959 Les Paul Standard \"CME Spec\" Red Pine Burst VOS w/'60 V2 Neck Profile",
+      "finish": null,
+      "weight_lbs": 8.62,
+      "nut_width_in": null,
+      "fret1_depth_in": null,
+      "fret12_depth_in": null,
+      "neck_profile": "V2",
+      "neck_profile_verbatim": "1959 Les Paul Standard \"CME Spec\" Red Pine Burst VOS w/'60 V2 Neck Profile | Carrying on Orville Gibson\u2019s historic pursu",
+      "condition": "New",
+      "serial": "96570 Series",
+      "city_state": "Chicago, IL",
+      "pickups": null,
+      "case_included": true,
+      "modifications": null,
+      "in_measured_window": false,
+      "note": null,
+      "seen_before": false,
+      "category": "les_paul",
+      "id": "g832",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-13",
+      "last_confirmed_active": "2026-08-13",
+      "market_bucket": "norlin lp",
+      "price_history": [
+        {
+          "date": "2026-08-13",
+          "price_usd": 7699.0
+        }
+      ],
+      "score": 77.8,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 8.62 lbs"
+        },
+        "neck_25pct": {
+          "score": 75.0,
+          "note": "nut unmeasured; 1st fret ok (73); 12th fret ok (69); depths inferred from the named carve, not measured \u2014 confirm with dealer; floored at 75 \u2014 documented slim shoulders (feel beats raw depth)"
+        },
+        "shoulders_30pct": {
+          "score": 60.0,
+          "note": "profile unclear: 'v2'"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "new"
+        },
+        "price_5pct": {
+          "score": 20.0,
           "note": "well above anchor"
         }
       }
@@ -13081,6 +14207,64 @@
       }
     },
     {
+      "url": "https://www.chicagomusicexchange.com/products/gibson-custom-shop-1959-les-paul-standard-cme-spec-2430822",
+      "dealer": "Chicago Music Exchange",
+      "price_usd": 7799.0,
+      "year": 1959,
+      "model": "Gibson Custom Shop 1959 Les Paul Standard \"CME Spec\" AAA Torrefied Maple Kindred Burst VOS w/'59 Carmelita Neck",
+      "finish": null,
+      "weight_lbs": 7.81,
+      "nut_width_in": null,
+      "fret1_depth_in": null,
+      "fret12_depth_in": null,
+      "neck_profile": "Carmelita (V1)",
+      "neck_profile_verbatim": "dard \"CME Spec\" AAA Torrefied Maple Kindred Burst VOS w/'59 Carmelita Neck | Carrying on Orville Gibson\u2019s historic pursuit of so",
+      "condition": "New",
+      "serial": null,
+      "city_state": "Chicago, IL",
+      "pickups": null,
+      "case_included": true,
+      "modifications": null,
+      "in_measured_window": false,
+      "note": null,
+      "seen_before": false,
+      "category": "les_paul",
+      "id": "g834",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-13",
+      "last_confirmed_active": "2026-08-13",
+      "market_bucket": "norlin lp",
+      "price_history": [
+        {
+          "date": "2026-08-13",
+          "price_usd": 7799.0
+        }
+      ],
+      "score": 76.8,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 67.3,
+          "note": "weight 7.81 lbs"
+        },
+        "neck_25pct": {
+          "score": 75.0,
+          "note": "nut unmeasured; 1st fret ok (53); 12th fret ok (49); depths inferred from the named carve, not measured \u2014 confirm with dealer; floored at 75 \u2014 documented slim shoulders (feel beats raw depth)"
+        },
+        "shoulders_30pct": {
+          "score": 90.0,
+          "note": "documented/replicated carve (shape known, not just depths): 'carmelita (v1)'"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "new"
+        },
+        "price_5pct": {
+          "score": 16.4,
+          "note": "well above anchor"
+        }
+      }
+    },
+    {
       "dealer": "Chicago Music Exchange",
       "url": "https://chicagomusicexchange.com/products/gibson-es-335-dot-figured-cherry-2004-2540943",
       "price_usd": 2750,
@@ -13666,6 +14850,72 @@
       }
     },
     {
+      "url": "https://www.chicagomusicexchange.com/products/gibson-custom-shop-1960-les-paul-standard-cme-spec-2486491",
+      "dealer": "Chicago Music Exchange",
+      "price_usd": 6999.0,
+      "year": 1960,
+      "model": "Gibson Custom Shop 1960 Les Paul Standard \"CME Spec\" Tomato Soup Burst VOS w/60 V2 Neck",
+      "finish": null,
+      "weight_lbs": 8.56,
+      "nut_width_in": null,
+      "fret1_depth_in": null,
+      "fret12_depth_in": null,
+      "neck_profile": "V2",
+      "neck_profile_verbatim": "960 Les Paul Standard \"CME Spec\" Tomato Soup Burst VOS w/60 V2 Neck | Carrying on Orville Gibson\u2019s historic pursuit of so",
+      "condition": "Used",
+      "serial": "05035 Series",
+      "city_state": "Chicago, IL",
+      "pickups": null,
+      "case_included": true,
+      "modifications": null,
+      "in_measured_window": false,
+      "note": null,
+      "seen_before": false,
+      "category": "les_paul",
+      "id": "g824",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-13",
+      "last_confirmed_active": "2026-08-13",
+      "market_bucket": "norlin lp",
+      "price_history": [
+        {
+          "date": "2026-08-13",
+          "price_usd": 6999.0
+        }
+      ],
+      "research_cluster": "cs-r0-modern",
+      "research": [
+        "Neck feel: modern core R0s ship with the '1960 V2' medium-slim carve (~.82\" at the 1st fret, ~.95\" at the 12th) \u2014 forum consensus calls it 'a '59 neck on a diet'; Wildwood-spec R0s also typically measure around .82\" first fret, and only the V3/slim-taper variants get truly skinny (~.80\"/.89\").",
+        "Pickups: unpotted Custombuckers (Alnico III), widely praised on MLP/TGP as the best PAF-style pickup Gibson ships \u2014 airy, open, clear lows and classic midrange honk; Wildwood Spec versions are regarded as tonally equivalent, with differences mainly cosmetic.",
+        "Known issues: general 2019+ Historic complaints \u2014 occasional nut slot/fret-end sloppiness, inconsistent VOS/Murphy Lab finish work, weight variance (roughly 8.3-9.5 lbs, no weight relief), some checking-prone Murphy Lab lacquer; unpotted Custombuckers can squeal at high gain.",
+        "Market/value: the 2019 'reformulated' Historic line is considered the best regular-production era since True Historic; R0s trade slightly below equivalent R9s and hold value well used at roughly 60-75% of street; dealer-spec examples carry a modest resale premium.",
+        "Verify before buying: actual neck measurements (V2 vs V3 vs V1 \u2014 dealer listings are often wrong; ask for 1st/12th fret caliper numbers), weight, COA and case candy, serial format, no headstock repair under aging, and original unpotted Custombuckers."
+      ],
+      "score": 76.0,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 8.56 lbs"
+        },
+        "neck_25pct": {
+          "score": 75.0,
+          "note": "nut unmeasured; 1st fret ok (73); 12th fret ok (69); depths inferred from the named carve, not measured \u2014 confirm with dealer; floored at 75 \u2014 documented slim shoulders (feel beats raw depth)"
+        },
+        "shoulders_30pct": {
+          "score": 60.0,
+          "note": "profile unclear: 'v2'"
+        },
+        "condition_10pct": {
+          "score": 70.0,
+          "note": "used"
+        },
+        "price_5pct": {
+          "score": 45.5,
+          "note": "well above anchor"
+        }
+      }
+    },
+    {
       "url": "https://wildwoodguitars.com/products/wildwood-spec-1959-les-paul-standard-light-aged-11",
       "dealer": "wildwoodguitars",
       "price_usd": 8499.0,
@@ -13806,6 +15056,72 @@
         "as_of": "2026-08-09",
         "anchor_usd": 5498,
         "over_market_pct": -12
+      }
+    },
+    {
+      "url": "https://www.mmguitarbar.com/products/2015-gibson-custom-shop-true-historic-1960-les-paul-standard-r0-vintage-cherry-sunburst-mint-w-case-tags-coa-1",
+      "dealer": "Mike & Mike's Guitar Bar",
+      "price_usd": 6499.99,
+      "year": 2015,
+      "model": "2015 Gibson Custom Shop True Historic 1960 Les Paul Standard R0 Vintage Cherry Sunburst, Mint w/ Case, Tags & COA",
+      "finish": null,
+      "weight_lbs": 8.44,
+      "nut_width_in": null,
+      "fret1_depth_in": 0.805,
+      "fret12_depth_in": 0.94,
+      "neck_profile": null,
+      "neck_profile_verbatim": null,
+      "condition": "New",
+      "serial": null,
+      "city_state": "Seattle, WA",
+      "pickups": "CustomBucker pickups are Gibson's latest highly praised PAF iteration",
+      "case_included": true,
+      "modifications": "aftermarket zip-on cover, the True Historic CoA, and all hangtags; the inspection card is d",
+      "in_measured_window": true,
+      "note": null,
+      "seen_before": false,
+      "category": "les_paul",
+      "id": "g845",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-13",
+      "last_confirmed_active": "2026-08-13",
+      "market_bucket": "r0",
+      "price_history": [
+        {
+          "date": "2026-08-13",
+          "price_usd": 6499.99
+        }
+      ],
+      "research_cluster": "true-historic",
+      "research": [
+        "Neck feel: 2015-16 True Historic R0s use the re-scanned 'True Historic' 1960 carve \u2014 slim but shouldered, roughly .82-.85\" at the 1st fret, with more accurate contours than 2013-14 models; described as the most vintage-accurate slim neck of its era.",
+        "Pickups: True Historic-spec unpotted Custombuckers \u2014 sweet, open and dynamic; tonally the same league as current Custombuckers.",
+        "Known issues: MLP consensus is 2015 batches were excellent but wood/top selection slipped in 2016; double-carved tops and thin-skin lacquer check easily; correct-material TH plastics shrink and crack like the originals; 'costs 30% more for 10% better' complaints dominate period threads.",
+        "Market/value: strong collector reputation as a short-lived top-of-line run \u2014 THs resell above standard 2013-16 Historics; R0 versions are rarer than R9s and considered sleepers; beware ordinary Historics passed off as THs at TH prices.",
+        "Verify before buying: authentic TH identity (period-correct vintage-style serial starting 0 xxxx, TH-specific COA and case), finish checking/repairs under the thin lacquer, original TH plastics, and pot/solder originality."
+      ],
+      "score": 75.6,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 8.44 lbs"
+        },
+        "neck_25pct": {
+          "score": 76.3,
+          "note": "nut unmeasured; 1st fret ok (100); 12th fret ok (69)"
+        },
+        "shoulders_30pct": {
+          "score": 40.0,
+          "note": "no shoulder/profile info"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "new"
+        },
+        "price_5pct": {
+          "score": 90.0,
+          "note": "at/under anchor"
+        }
       }
     },
     {
@@ -14463,6 +15779,72 @@
         "as_of": "2026-08-09",
         "anchor_usd": 4750,
         "over_market_pct": -7
+      }
+    },
+    {
+      "url": "https://www.chicagomusicexchange.com/products/gibson-custom-shop-1960-les-paul-standard-cme-spec-2259858",
+      "dealer": "Chicago Music Exchange",
+      "price_usd": 7699.0,
+      "year": 1960,
+      "model": "Gibson Custom Shop 1960 Les Paul Standard \"CME Spec\" Kindred Burst VOS w/60 V2 Neck",
+      "finish": null,
+      "weight_lbs": 8.75,
+      "nut_width_in": null,
+      "fret1_depth_in": null,
+      "fret12_depth_in": null,
+      "neck_profile": "V2",
+      "neck_profile_verbatim": "op 1960 Les Paul Standard \"CME Spec\" Kindred Burst VOS w/60 V2 Neck | Carrying on Orville Gibson\u2019s historic pursuit of so",
+      "condition": "Used",
+      "serial": null,
+      "city_state": "Chicago, IL",
+      "pickups": null,
+      "case_included": true,
+      "modifications": null,
+      "in_measured_window": false,
+      "note": null,
+      "seen_before": false,
+      "category": "les_paul",
+      "id": "g833",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-13",
+      "last_confirmed_active": "2026-08-13",
+      "market_bucket": "norlin lp",
+      "price_history": [
+        {
+          "date": "2026-08-13",
+          "price_usd": 7699.0
+        }
+      ],
+      "research_cluster": "cs-r0-modern",
+      "research": [
+        "Neck feel: modern core R0s ship with the '1960 V2' medium-slim carve (~.82\" at the 1st fret, ~.95\" at the 12th) \u2014 forum consensus calls it 'a '59 neck on a diet'; Wildwood-spec R0s also typically measure around .82\" first fret, and only the V3/slim-taper variants get truly skinny (~.80\"/.89\").",
+        "Pickups: unpotted Custombuckers (Alnico III), widely praised on MLP/TGP as the best PAF-style pickup Gibson ships \u2014 airy, open, clear lows and classic midrange honk; Wildwood Spec versions are regarded as tonally equivalent, with differences mainly cosmetic.",
+        "Known issues: general 2019+ Historic complaints \u2014 occasional nut slot/fret-end sloppiness, inconsistent VOS/Murphy Lab finish work, weight variance (roughly 8.3-9.5 lbs, no weight relief), some checking-prone Murphy Lab lacquer; unpotted Custombuckers can squeal at high gain.",
+        "Market/value: the 2019 'reformulated' Historic line is considered the best regular-production era since True Historic; R0s trade slightly below equivalent R9s and hold value well used at roughly 60-75% of street; dealer-spec examples carry a modest resale premium.",
+        "Verify before buying: actual neck measurements (V2 vs V3 vs V1 \u2014 dealer listings are often wrong; ask for 1st/12th fret caliper numbers), weight, COA and case candy, serial format, no headstock repair under aging, and original unpotted Custombuckers."
+      ],
+      "score": 74.8,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 8.75 lbs"
+        },
+        "neck_25pct": {
+          "score": 75.0,
+          "note": "nut unmeasured; 1st fret ok (73); 12th fret ok (69); depths inferred from the named carve, not measured \u2014 confirm with dealer; floored at 75 \u2014 documented slim shoulders (feel beats raw depth)"
+        },
+        "shoulders_30pct": {
+          "score": 60.0,
+          "note": "profile unclear: 'v2'"
+        },
+        "condition_10pct": {
+          "score": 70.0,
+          "note": "used"
+        },
+        "price_5pct": {
+          "score": 20.0,
+          "note": "well above anchor"
+        }
       }
     },
     {
@@ -15477,6 +16859,72 @@
       "dealer": "Reverb \u2013 Fleury (private seller)"
     },
     {
+      "url": "https://www.mmguitarbar.com/products/2014-gibson-custom-shop-les-paul-custom-black-beauty-near-mint-w-case-coa-tags",
+      "dealer": "Mike & Mike's Guitar Bar",
+      "price_usd": 4599.99,
+      "year": 2014,
+      "model": "2014 Gibson Custom Shop Les Paul Custom Black Beauty Near-Mint w/ Case, COA, Tags",
+      "finish": null,
+      "weight_lbs": 8.75,
+      "nut_width_in": null,
+      "fret1_depth_in": 0.82,
+      "fret12_depth_in": 0.975,
+      "neck_profile": null,
+      "neck_profile_verbatim": null,
+      "condition": "New",
+      "serial": null,
+      "city_state": "Seattle, WA",
+      "pickups": "490R/498T humbuckers",
+      "case_included": true,
+      "modifications": null,
+      "in_measured_window": true,
+      "note": null,
+      "seen_before": false,
+      "category": "les_paul",
+      "id": "g839",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-13",
+      "last_confirmed_active": "2026-08-13",
+      "market_bucket": "custom shop",
+      "price_history": [
+        {
+          "date": "2026-08-13",
+          "price_usd": 4599.99
+        }
+      ],
+      "research_cluster": "cs-r0-modern",
+      "research": [
+        "Neck feel: modern core R0s ship with the '1960 V2' medium-slim carve (~.82\" at the 1st fret, ~.95\" at the 12th) \u2014 forum consensus calls it 'a '59 neck on a diet'; Wildwood-spec R0s also typically measure around .82\" first fret, and only the V3/slim-taper variants get truly skinny (~.80\"/.89\").",
+        "Pickups: unpotted Custombuckers (Alnico III), widely praised on MLP/TGP as the best PAF-style pickup Gibson ships \u2014 airy, open, clear lows and classic midrange honk; Wildwood Spec versions are regarded as tonally equivalent, with differences mainly cosmetic.",
+        "Known issues: general 2019+ Historic complaints \u2014 occasional nut slot/fret-end sloppiness, inconsistent VOS/Murphy Lab finish work, weight variance (roughly 8.3-9.5 lbs, no weight relief), some checking-prone Murphy Lab lacquer; unpotted Custombuckers can squeal at high gain.",
+        "Market/value: the 2019 'reformulated' Historic line is considered the best regular-production era since True Historic; R0s trade slightly below equivalent R9s and hold value well used at roughly 60-75% of street; dealer-spec examples carry a modest resale premium.",
+        "Verify before buying: actual neck measurements (V2 vs V3 vs V1 \u2014 dealer listings are often wrong; ask for 1st/12th fret caliper numbers), weight, COA and case candy, serial format, no headstock repair under aging, and original unpotted Custombuckers."
+      ],
+      "score": 73.6,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 8.75 lbs"
+        },
+        "neck_25pct": {
+          "score": 66.3,
+          "note": "nut unmeasured; 1st fret ok (100); 12th fret ok (49)"
+        },
+        "shoulders_30pct": {
+          "score": 40.0,
+          "note": "no shoulder/profile info"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "new"
+        },
+        "price_5pct": {
+          "score": 100.0,
+          "note": "16% under anchor"
+        }
+      }
+    },
+    {
       "url": "https://www.creamcitymusic.com/gibson-custom-murphy-lab-1958-les-paul-standard-reissue-ultra-light-aged-washed-cherry-sunburst/",
       "dealer": "creamcitymusic",
       "price_usd": 5799.0,
@@ -16271,6 +17719,64 @@
       }
     },
     {
+      "url": "https://www.themusiczoo.com/products/gibson-custom-shop-1958-les-paul-made-2-measure-goldtop-with-sparkling-burgundy-stripe",
+      "dealer": "The Music Zoo",
+      "price_usd": 4449.0,
+      "year": 1958,
+      "model": "Gibson Custom Shop 1958 Les Paul Made 2 Measure Goldtop with Sparkling Burgundy Stripe Used",
+      "finish": null,
+      "weight_lbs": 8.12,
+      "nut_width_in": null,
+      "fret1_depth_in": 0.83,
+      "fret12_depth_in": 0.93,
+      "neck_profile": "V2",
+      "neck_profile_verbatim": "a bit from the usual chunky '58 neck profile to have a '60 V2 shape which we love for lead styles. Act fast on this one,",
+      "condition": "Used",
+      "serial": null,
+      "city_state": "Bethel, CT",
+      "pickups": "Custombucker Humbuckers CTS 500K Audio Taper Potentiometers, Paper-in-Oi",
+      "case_included": true,
+      "modifications": null,
+      "in_measured_window": true,
+      "note": null,
+      "seen_before": false,
+      "category": "les_paul",
+      "id": "g814",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-13",
+      "last_confirmed_active": "2026-08-13",
+      "market_bucket": "norlin lp",
+      "price_history": [
+        {
+          "date": "2026-08-13",
+          "price_usd": 4449.0
+        }
+      ],
+      "score": 72.9,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 88.0,
+          "note": "weight 8.12 lbs"
+        },
+        "neck_25pct": {
+          "score": 65.8,
+          "note": "nut unmeasured; 1st fret ok (73); 12th fret ok (74)"
+        },
+        "shoulders_30pct": {
+          "score": 60.0,
+          "note": "profile unclear: 'v2'"
+        },
+        "condition_10pct": {
+          "score": 70.0,
+          "note": "used"
+        },
+        "price_5pct": {
+          "score": 100.0,
+          "note": "19% under anchor"
+        }
+      }
+    },
+    {
       "url": "https://cartervintage.com/shop/gibson-es-335-1971-sunburst/38OqcGViNh4gBk6bqi1nHomWDOh",
       "dealer": "cartervintage",
       "price_usd": 6500.0,
@@ -16697,6 +18203,64 @@
         "suggested_offer_usd": 6000,
         "discount_pct": 14,
         "rationale": "8% base; 33% over market anchor ($5211); condition/mods"
+      }
+    },
+    {
+      "url": "https://www.chicagomusicexchange.com/products/gibson-custom-shop-1958-les-paul-standard-cme-spec-2486490",
+      "dealer": "Chicago Music Exchange",
+      "price_usd": 6999.0,
+      "year": 1958,
+      "model": "Gibson Custom Shop 1958 Les Paul Standard \"CME Spec\" Kindred Burst Light Aged w/60 V2 Neck",
+      "finish": null,
+      "weight_lbs": 9.0,
+      "nut_width_in": null,
+      "fret1_depth_in": null,
+      "fret12_depth_in": null,
+      "neck_profile": "V2",
+      "neck_profile_verbatim": "Les Paul Standard \"CME Spec\" Kindred Burst Light Aged w/60 V2 Neck | Carrying on Orville Gibson\u2019s historic pursuit of so",
+      "condition": "Used",
+      "serial": "86445 Series",
+      "city_state": "Chicago, IL",
+      "pickups": null,
+      "case_included": true,
+      "modifications": null,
+      "in_measured_window": false,
+      "note": null,
+      "seen_before": false,
+      "category": "les_paul",
+      "id": "g820",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-13",
+      "last_confirmed_active": "2026-08-13",
+      "market_bucket": "norlin lp",
+      "price_history": [
+        {
+          "date": "2026-08-13",
+          "price_usd": 6999.0
+        }
+      ],
+      "score": 72.0,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 86.7,
+          "note": "weight 9.0 lbs"
+        },
+        "neck_25pct": {
+          "score": 75.0,
+          "note": "nut unmeasured; 1st fret ok (73); 12th fret ok (69); depths inferred from the named carve, not measured \u2014 confirm with dealer; floored at 75 \u2014 documented slim shoulders (feel beats raw depth)"
+        },
+        "shoulders_30pct": {
+          "score": 60.0,
+          "note": "profile unclear: 'v2'"
+        },
+        "condition_10pct": {
+          "score": 70.0,
+          "note": "used"
+        },
+        "price_5pct": {
+          "score": 45.5,
+          "note": "well above anchor"
+        }
       }
     },
     {
@@ -17853,6 +19417,72 @@
       }
     },
     {
+      "url": "https://www.themusiczoo.com/products/gibson-custom-shop-1960-les-paul-standard-reissue-iced-tea-burst-vos",
+      "dealer": "The Music Zoo",
+      "price_usd": 6699.0,
+      "year": 1960,
+      "model": "Gibson Custom Shop 1960 Les Paul Standard Reissue Iced Tea Burst VOS",
+      "finish": null,
+      "weight_lbs": 8.56,
+      "nut_width_in": null,
+      "fret1_depth_in": 0.83,
+      "fret12_depth_in": 0.93,
+      "neck_profile": null,
+      "neck_profile_verbatim": null,
+      "condition": "New",
+      "serial": null,
+      "city_state": "Bethel, CT",
+      "pickups": "Custombucker pickups, the guitar sounds as good as it looks",
+      "case_included": true,
+      "modifications": null,
+      "in_measured_window": true,
+      "note": null,
+      "seen_before": false,
+      "category": "les_paul",
+      "id": "g848",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-13",
+      "last_confirmed_active": "2026-08-13",
+      "market_bucket": "norlin lp",
+      "price_history": [
+        {
+          "date": "2026-08-13",
+          "price_usd": 6699.0
+        }
+      ],
+      "research_cluster": "cs-r0-modern",
+      "research": [
+        "Neck feel: modern core R0s ship with the '1960 V2' medium-slim carve (~.82\" at the 1st fret, ~.95\" at the 12th) \u2014 forum consensus calls it 'a '59 neck on a diet'; Wildwood-spec R0s also typically measure around .82\" first fret, and only the V3/slim-taper variants get truly skinny (~.80\"/.89\").",
+        "Pickups: unpotted Custombuckers (Alnico III), widely praised on MLP/TGP as the best PAF-style pickup Gibson ships \u2014 airy, open, clear lows and classic midrange honk; Wildwood Spec versions are regarded as tonally equivalent, with differences mainly cosmetic.",
+        "Known issues: general 2019+ Historic complaints \u2014 occasional nut slot/fret-end sloppiness, inconsistent VOS/Murphy Lab finish work, weight variance (roughly 8.3-9.5 lbs, no weight relief), some checking-prone Murphy Lab lacquer; unpotted Custombuckers can squeal at high gain.",
+        "Market/value: the 2019 'reformulated' Historic line is considered the best regular-production era since True Historic; R0s trade slightly below equivalent R9s and hold value well used at roughly 60-75% of street; dealer-spec examples carry a modest resale premium.",
+        "Verify before buying: actual neck measurements (V2 vs V3 vs V1 \u2014 dealer listings are often wrong; ask for 1st/12th fret caliper numbers), weight, COA and case candy, serial format, no headstock repair under aging, and original unpotted Custombuckers."
+      ],
+      "score": 71.3,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 8.56 lbs"
+        },
+        "neck_25pct": {
+          "score": 65.8,
+          "note": "nut unmeasured; 1st fret ok (73); 12th fret ok (74)"
+        },
+        "shoulders_30pct": {
+          "score": 40.0,
+          "note": "no shoulder/profile info"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "new"
+        },
+        "price_5pct": {
+          "score": 56.4,
+          "note": "well above anchor"
+        }
+      }
+    },
+    {
       "reverb_id": "80479067",
       "url": "https://reverb.com/item/80479067-gibson-1960-reissue-les-paul-v2-001655-2021-tomato-soup-burst",
       "dealer": "Guitar Showcase",
@@ -18509,6 +20139,64 @@
         "as_of": "2026-07-30",
         "anchor_usd": 3775,
         "over_market_pct": -21
+      }
+    },
+    {
+      "url": "https://www.chicagomusicexchange.com/products/gibson-custom-shop-1959-les-paul-standard-cme-spec-1866092",
+      "dealer": "Chicago Music Exchange",
+      "price_usd": 8499.0,
+      "year": 1959,
+      "model": "Gibson Custom Shop 1959 Les Paul Standard \"CME Spec\" Cobra Burst Gloss W/Single Custom \"S\" Bucker & V2 Neck",
+      "finish": null,
+      "weight_lbs": 8.0,
+      "nut_width_in": null,
+      "fret1_depth_in": null,
+      "fret12_depth_in": null,
+      "neck_profile": "V2",
+      "neck_profile_verbatim": "d \"CME Spec\" Cobra Burst Gloss W/Single Custom \"S\" Bucker & V2 Neck | Carrying on Orville Gibson\u2019s historic pursuit of so",
+      "condition": "New",
+      "serial": "96427 Series",
+      "city_state": "Chicago, IL",
+      "pickups": "\"S\" Bucker & V2 Neck",
+      "case_included": true,
+      "modifications": null,
+      "in_measured_window": false,
+      "note": null,
+      "seen_before": false,
+      "category": "les_paul",
+      "id": "g837",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-13",
+      "last_confirmed_active": "2026-08-13",
+      "market_bucket": "norlin lp",
+      "price_history": [
+        {
+          "date": "2026-08-13",
+          "price_usd": 8499.0
+        }
+      ],
+      "score": 70.8,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 80.0,
+          "note": "weight 8.0 lbs"
+        },
+        "neck_25pct": {
+          "score": 75.0,
+          "note": "nut unmeasured; 1st fret ok (73); 12th fret ok (69); depths inferred from the named carve, not measured \u2014 confirm with dealer; floored at 75 \u2014 documented slim shoulders (feel beats raw depth)"
+        },
+        "shoulders_30pct": {
+          "score": 60.0,
+          "note": "profile unclear: 'v2'"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "new"
+        },
+        "price_5pct": {
+          "score": 0.0,
+          "note": "well above anchor"
+        }
       }
     },
     {
@@ -20323,7 +22011,7 @@
       "id": "g697",
       "status": "ACTIVE",
       "date_discovered": "2026-08-09",
-      "last_confirmed_active": "2026-08-09",
+      "last_confirmed_active": "2026-08-13",
       "market_bucket": "custom shop",
       "price_history": [
         {
@@ -21260,6 +22948,72 @@
       ]
     },
     {
+      "url": "https://www.themusiczoo.com/products/gibson-custom-shop-1960-les-paul-murphy-lab-ultra-light-aged-wide-tomato-burst-2",
+      "dealer": "The Music Zoo",
+      "price_usd": 7199.0,
+      "year": 1960,
+      "model": "Gibson Custom Shop 1960 Les Paul Murphy Lab Ultra Light Aged Wide Tomato Burst",
+      "finish": null,
+      "weight_lbs": 8.44,
+      "nut_width_in": 12.0,
+      "fret1_depth_in": 0.82,
+      "fret12_depth_in": 0.93,
+      "neck_profile": null,
+      "neck_profile_verbatim": null,
+      "condition": "New",
+      "serial": null,
+      "city_state": "Bethel, CT",
+      "pickups": "Custombucker Alnico 3 (Unpotted) Pickups 2 Volume, 2 Tone, CTS 500K Audi",
+      "case_included": true,
+      "modifications": null,
+      "in_measured_window": true,
+      "note": null,
+      "seen_before": false,
+      "category": "les_paul",
+      "id": "g855",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-13",
+      "last_confirmed_active": "2026-08-13",
+      "market_bucket": "norlin lp",
+      "price_history": [
+        {
+          "date": "2026-08-13",
+          "price_usd": 7199.0
+        }
+      ],
+      "research_cluster": "cs-r0-modern",
+      "research": [
+        "Neck feel: modern core R0s ship with the '1960 V2' medium-slim carve (~.82\" at the 1st fret, ~.95\" at the 12th) \u2014 forum consensus calls it 'a '59 neck on a diet'; Wildwood-spec R0s also typically measure around .82\" first fret, and only the V3/slim-taper variants get truly skinny (~.80\"/.89\").",
+        "Pickups: unpotted Custombuckers (Alnico III), widely praised on MLP/TGP as the best PAF-style pickup Gibson ships \u2014 airy, open, clear lows and classic midrange honk; Wildwood Spec versions are regarded as tonally equivalent, with differences mainly cosmetic.",
+        "Known issues: general 2019+ Historic complaints \u2014 occasional nut slot/fret-end sloppiness, inconsistent VOS/Murphy Lab finish work, weight variance (roughly 8.3-9.5 lbs, no weight relief), some checking-prone Murphy Lab lacquer; unpotted Custombuckers can squeal at high gain.",
+        "Market/value: the 2019 'reformulated' Historic line is considered the best regular-production era since True Historic; R0s trade slightly below equivalent R9s and hold value well used at roughly 60-75% of street; dealer-spec examples carry a modest resale premium.",
+        "Verify before buying: actual neck measurements (V2 vs V3 vs V1 \u2014 dealer listings are often wrong; ask for 1st/12th fret caliper numbers), weight, COA and case candy, serial format, no headstock repair under aging, and original unpotted Custombuckers."
+      ],
+      "score": 68.4,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 8.44 lbs"
+        },
+        "neck_25pct": {
+          "score": 58.1,
+          "note": "nut ok (0); 1st fret ok (100); 12th fret ok (74)"
+        },
+        "shoulders_30pct": {
+          "score": 40.0,
+          "note": "no shoulder/profile info"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "new"
+        },
+        "price_5pct": {
+          "score": 38.2,
+          "note": "well above anchor"
+        }
+      }
+    },
+    {
       "url": "https://retrofret.com/products/gibson-les-paul-deluxe-solid-body-electric-guitar-1973-12579",
       "dealer": "Retrofret",
       "price_usd": 5650.0,
@@ -21473,6 +23227,72 @@
         "as_of": "2026-08-09",
         "anchor_usd": 3848,
         "over_market_pct": 35
+      }
+    },
+    {
+      "url": "https://www.themusiczoo.com/products/gibson-custom-shop-1960-les-paul-standard-reissue-tangerine-burst-vos-1",
+      "dealer": "The Music Zoo",
+      "price_usd": 6699.0,
+      "year": 1960,
+      "model": "Gibson Custom Shop 1960 Les Paul Standard Reissue Tangerine Burst VOS",
+      "finish": null,
+      "weight_lbs": 8.69,
+      "nut_width_in": null,
+      "fret1_depth_in": 0.84,
+      "fret12_depth_in": 0.97,
+      "neck_profile": null,
+      "neck_profile_verbatim": null,
+      "condition": "New",
+      "serial": null,
+      "city_state": "Bethel, CT",
+      "pickups": "Custombucker pickups, the guitar sounds as good as it looks",
+      "case_included": true,
+      "modifications": null,
+      "in_measured_window": true,
+      "note": null,
+      "seen_before": false,
+      "category": "les_paul",
+      "id": "g850",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-13",
+      "last_confirmed_active": "2026-08-13",
+      "market_bucket": "norlin lp",
+      "price_history": [
+        {
+          "date": "2026-08-13",
+          "price_usd": 6699.0
+        }
+      ],
+      "research_cluster": "cs-r0-modern",
+      "research": [
+        "Neck feel: modern core R0s ship with the '1960 V2' medium-slim carve (~.82\" at the 1st fret, ~.95\" at the 12th) \u2014 forum consensus calls it 'a '59 neck on a diet'; Wildwood-spec R0s also typically measure around .82\" first fret, and only the V3/slim-taper variants get truly skinny (~.80\"/.89\").",
+        "Pickups: unpotted Custombuckers (Alnico III), widely praised on MLP/TGP as the best PAF-style pickup Gibson ships \u2014 airy, open, clear lows and classic midrange honk; Wildwood Spec versions are regarded as tonally equivalent, with differences mainly cosmetic.",
+        "Known issues: general 2019+ Historic complaints \u2014 occasional nut slot/fret-end sloppiness, inconsistent VOS/Murphy Lab finish work, weight variance (roughly 8.3-9.5 lbs, no weight relief), some checking-prone Murphy Lab lacquer; unpotted Custombuckers can squeal at high gain.",
+        "Market/value: the 2019 'reformulated' Historic line is considered the best regular-production era since True Historic; R0s trade slightly below equivalent R9s and hold value well used at roughly 60-75% of street; dealer-spec examples carry a modest resale premium.",
+        "Verify before buying: actual neck measurements (V2 vs V3 vs V1 \u2014 dealer listings are often wrong; ask for 1st/12th fret caliper numbers), weight, COA and case candy, serial format, no headstock repair under aging, and original unpotted Custombuckers."
+      ],
+      "score": 67.6,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 8.69 lbs"
+        },
+        "neck_25pct": {
+          "score": 51.0,
+          "note": "nut unmeasured; 1st fret ok (67); 12th fret ok (51)"
+        },
+        "shoulders_30pct": {
+          "score": 40.0,
+          "note": "no shoulder/profile info"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "new"
+        },
+        "price_5pct": {
+          "score": 56.4,
+          "note": "well above anchor"
+        }
       }
     },
     {
@@ -22416,6 +24236,72 @@
       }
     },
     {
+      "url": "https://www.themusiczoo.com/products/gibson-custom-shop-les-paul-custom-axcess-gloss-ebony",
+      "dealer": "The Music Zoo",
+      "price_usd": 5499.0,
+      "year": null,
+      "model": "Gibson Custom Shop Les Paul Custom Axcess Gloss Ebony",
+      "finish": null,
+      "weight_lbs": 8.38,
+      "nut_width_in": null,
+      "fret1_depth_in": 0.87,
+      "fret12_depth_in": 0.98,
+      "neck_profile": null,
+      "neck_profile_verbatim": null,
+      "condition": "New",
+      "serial": null,
+      "city_state": "Bethel, CT",
+      "pickups": "490R/490 pickups with coil splitting via push-pull con",
+      "case_included": true,
+      "modifications": null,
+      "in_measured_window": true,
+      "note": null,
+      "seen_before": false,
+      "category": "les_paul",
+      "id": "g841",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-13",
+      "last_confirmed_active": "2026-08-13",
+      "market_bucket": "custom shop",
+      "price_history": [
+        {
+          "date": "2026-08-13",
+          "price_usd": 5499.0
+        }
+      ],
+      "research_cluster": "cs-r0-modern",
+      "research": [
+        "Neck feel: modern core R0s ship with the '1960 V2' medium-slim carve (~.82\" at the 1st fret, ~.95\" at the 12th) \u2014 forum consensus calls it 'a '59 neck on a diet'; Wildwood-spec R0s also typically measure around .82\" first fret, and only the V3/slim-taper variants get truly skinny (~.80\"/.89\").",
+        "Pickups: unpotted Custombuckers (Alnico III), widely praised on MLP/TGP as the best PAF-style pickup Gibson ships \u2014 airy, open, clear lows and classic midrange honk; Wildwood Spec versions are regarded as tonally equivalent, with differences mainly cosmetic.",
+        "Known issues: general 2019+ Historic complaints \u2014 occasional nut slot/fret-end sloppiness, inconsistent VOS/Murphy Lab finish work, weight variance (roughly 8.3-9.5 lbs, no weight relief), some checking-prone Murphy Lab lacquer; unpotted Custombuckers can squeal at high gain.",
+        "Market/value: the 2019 'reformulated' Historic line is considered the best regular-production era since True Historic; R0s trade slightly below equivalent R9s and hold value well used at roughly 60-75% of street; dealer-spec examples carry a modest resale premium.",
+        "Verify before buying: actual neck measurements (V2 vs V3 vs V1 \u2014 dealer listings are often wrong; ask for 1st/12th fret caliper numbers), weight, COA and case candy, serial format, no headstock repair under aging, and original unpotted Custombuckers."
+      ],
+      "score": 66.0,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 8.38 lbs"
+        },
+        "neck_25pct": {
+          "score": 38.2,
+          "note": "nut unmeasured; 1st fret ok (47); 12th fret ok (46)"
+        },
+        "shoulders_30pct": {
+          "score": 40.0,
+          "note": "no shoulder/profile info"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "new"
+        },
+        "price_5pct": {
+          "score": 90.0,
+          "note": "at/under anchor"
+        }
+      }
+    },
+    {
       "url": "https://cartervintage.com/shop/gibson-58-les-paul-standard-reissue-vos-2025-iced-tea-burst/31btezxzndkwvAsFmFrQ9SaXfxb",
       "dealer": "Carter Vintage Guitars",
       "price_usd": 4750,
@@ -22692,6 +24578,72 @@
       }
     },
     {
+      "url": "https://www.themusiczoo.com/products/gibson-custom-shop-les-paul-custom-axcess-gloss-ebony-1",
+      "dealer": "The Music Zoo",
+      "price_usd": 5799.0,
+      "year": null,
+      "model": "Gibson Custom Shop Les Paul Custom Axcess Gloss Ebony",
+      "finish": null,
+      "weight_lbs": 8.44,
+      "nut_width_in": null,
+      "fret1_depth_in": 0.87,
+      "fret12_depth_in": 0.97,
+      "neck_profile": null,
+      "neck_profile_verbatim": null,
+      "condition": "New",
+      "serial": null,
+      "city_state": "Bethel, CT",
+      "pickups": "490R/490 pickups with coil splitting via push-pull con",
+      "case_included": true,
+      "modifications": null,
+      "in_measured_window": true,
+      "note": null,
+      "seen_before": false,
+      "category": "les_paul",
+      "id": "g844",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-13",
+      "last_confirmed_active": "2026-08-13",
+      "market_bucket": "custom shop",
+      "price_history": [
+        {
+          "date": "2026-08-13",
+          "price_usd": 5799.0
+        }
+      ],
+      "research_cluster": "cs-r0-modern",
+      "research": [
+        "Neck feel: modern core R0s ship with the '1960 V2' medium-slim carve (~.82\" at the 1st fret, ~.95\" at the 12th) \u2014 forum consensus calls it 'a '59 neck on a diet'; Wildwood-spec R0s also typically measure around .82\" first fret, and only the V3/slim-taper variants get truly skinny (~.80\"/.89\").",
+        "Pickups: unpotted Custombuckers (Alnico III), widely praised on MLP/TGP as the best PAF-style pickup Gibson ships \u2014 airy, open, clear lows and classic midrange honk; Wildwood Spec versions are regarded as tonally equivalent, with differences mainly cosmetic.",
+        "Known issues: general 2019+ Historic complaints \u2014 occasional nut slot/fret-end sloppiness, inconsistent VOS/Murphy Lab finish work, weight variance (roughly 8.3-9.5 lbs, no weight relief), some checking-prone Murphy Lab lacquer; unpotted Custombuckers can squeal at high gain.",
+        "Market/value: the 2019 'reformulated' Historic line is considered the best regular-production era since True Historic; R0s trade slightly below equivalent R9s and hold value well used at roughly 60-75% of street; dealer-spec examples carry a modest resale premium.",
+        "Verify before buying: actual neck measurements (V2 vs V3 vs V1 \u2014 dealer listings are often wrong; ask for 1st/12th fret caliper numbers), weight, COA and case candy, serial format, no headstock repair under aging, and original unpotted Custombuckers."
+      ],
+      "score": 65.8,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 8.44 lbs"
+        },
+        "neck_25pct": {
+          "score": 41.0,
+          "note": "nut unmeasured; 1st fret ok (47); 12th fret ok (51)"
+        },
+        "shoulders_30pct": {
+          "score": 40.0,
+          "note": "no shoulder/profile info"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "new"
+        },
+        "price_5pct": {
+          "score": 70.0,
+          "note": "slightly above anchor"
+        }
+      }
+    },
+    {
       "reverb_id": "90332817",
       "url": "https://reverb.com/item/90332817-vintage-1979-gibson-es-335-pro-semi-hollow-electric-guitar-sunburst-ohsc",
       "dealer": "Lovies Guitars ",
@@ -22762,6 +24714,72 @@
         "price_5pct": {
           "score": 100.0,
           "note": "28% under anchor"
+        }
+      }
+    },
+    {
+      "url": "https://www.themusiczoo.com/products/gibson-custom-shop-1960-les-paul-standard-reissue-vos-washed-cherry-sunburst",
+      "dealer": "The Music Zoo",
+      "price_usd": 6699.0,
+      "year": 1960,
+      "model": "Gibson Custom Shop 1960 Les Paul Standard Reissue VOS Washed Cherry Sunburst",
+      "finish": null,
+      "weight_lbs": 8.94,
+      "nut_width_in": null,
+      "fret1_depth_in": 0.84,
+      "fret12_depth_in": 0.96,
+      "neck_profile": null,
+      "neck_profile_verbatim": null,
+      "condition": "New",
+      "serial": null,
+      "city_state": "Bethel, CT",
+      "pickups": "Custombucker pickups, the guitar sounds as good as it looks! Includes: H",
+      "case_included": true,
+      "modifications": null,
+      "in_measured_window": true,
+      "note": null,
+      "seen_before": false,
+      "category": "les_paul",
+      "id": "g846",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-13",
+      "last_confirmed_active": "2026-08-13",
+      "market_bucket": "norlin lp",
+      "price_history": [
+        {
+          "date": "2026-08-13",
+          "price_usd": 6699.0
+        }
+      ],
+      "research_cluster": "cs-r0-modern",
+      "research": [
+        "Neck feel: modern core R0s ship with the '1960 V2' medium-slim carve (~.82\" at the 1st fret, ~.95\" at the 12th) \u2014 forum consensus calls it 'a '59 neck on a diet'; Wildwood-spec R0s also typically measure around .82\" first fret, and only the V3/slim-taper variants get truly skinny (~.80\"/.89\").",
+        "Pickups: unpotted Custombuckers (Alnico III), widely praised on MLP/TGP as the best PAF-style pickup Gibson ships \u2014 airy, open, clear lows and classic midrange honk; Wildwood Spec versions are regarded as tonally equivalent, with differences mainly cosmetic.",
+        "Known issues: general 2019+ Historic complaints \u2014 occasional nut slot/fret-end sloppiness, inconsistent VOS/Murphy Lab finish work, weight variance (roughly 8.3-9.5 lbs, no weight relief), some checking-prone Murphy Lab lacquer; unpotted Custombuckers can squeal at high gain.",
+        "Market/value: the 2019 'reformulated' Historic line is considered the best regular-production era since True Historic; R0s trade slightly below equivalent R9s and hold value well used at roughly 60-75% of street; dealer-spec examples carry a modest resale premium.",
+        "Verify before buying: actual neck measurements (V2 vs V3 vs V1 \u2014 dealer listings are often wrong; ask for 1st/12th fret caliper numbers), weight, COA and case candy, serial format, no headstock repair under aging, and original unpotted Custombuckers."
+      ],
+      "score": 65.5,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 90.7,
+          "note": "weight 8.94 lbs"
+        },
+        "neck_25pct": {
+          "score": 53.9,
+          "note": "nut unmeasured; 1st fret ok (67); 12th fret ok (57)"
+        },
+        "shoulders_30pct": {
+          "score": 40.0,
+          "note": "no shoulder/profile info"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "new"
+        },
+        "price_5pct": {
+          "score": 56.4,
+          "note": "well above anchor"
         }
       }
     },
@@ -25876,6 +27894,72 @@
       }
     },
     {
+      "url": "https://www.themusiczoo.com/products/gibson-custom-shop-1960-les-paul-murphy-lab-ultra-light-aged-wide-tomato-burst",
+      "dealer": "The Music Zoo",
+      "price_usd": 7199.0,
+      "year": 1960,
+      "model": "Gibson Custom Shop 1960 Les Paul Murphy Lab Ultra Light Aged Wide Tomato Burst",
+      "finish": null,
+      "weight_lbs": 8.75,
+      "nut_width_in": 12.0,
+      "fret1_depth_in": 0.84,
+      "fret12_depth_in": 0.95,
+      "neck_profile": null,
+      "neck_profile_verbatim": null,
+      "condition": "New",
+      "serial": null,
+      "city_state": "Bethel, CT",
+      "pickups": "Custombucker Alnico 3 (Unpotted) Pickups 2 Volume, 2 Tone, CTS 500K Audi",
+      "case_included": true,
+      "modifications": null,
+      "in_measured_window": true,
+      "note": null,
+      "seen_before": false,
+      "category": "les_paul",
+      "id": "g854",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-13",
+      "last_confirmed_active": "2026-08-13",
+      "market_bucket": "norlin lp",
+      "price_history": [
+        {
+          "date": "2026-08-13",
+          "price_usd": 7199.0
+        }
+      ],
+      "research_cluster": "cs-r0-modern",
+      "research": [
+        "Neck feel: modern core R0s ship with the '1960 V2' medium-slim carve (~.82\" at the 1st fret, ~.95\" at the 12th) \u2014 forum consensus calls it 'a '59 neck on a diet'; Wildwood-spec R0s also typically measure around .82\" first fret, and only the V3/slim-taper variants get truly skinny (~.80\"/.89\").",
+        "Pickups: unpotted Custombuckers (Alnico III), widely praised on MLP/TGP as the best PAF-style pickup Gibson ships \u2014 airy, open, clear lows and classic midrange honk; Wildwood Spec versions are regarded as tonally equivalent, with differences mainly cosmetic.",
+        "Known issues: general 2019+ Historic complaints \u2014 occasional nut slot/fret-end sloppiness, inconsistent VOS/Murphy Lab finish work, weight variance (roughly 8.3-9.5 lbs, no weight relief), some checking-prone Murphy Lab lacquer; unpotted Custombuckers can squeal at high gain.",
+        "Market/value: the 2019 'reformulated' Historic line is considered the best regular-production era since True Historic; R0s trade slightly below equivalent R9s and hold value well used at roughly 60-75% of street; dealer-spec examples carry a modest resale premium.",
+        "Verify before buying: actual neck measurements (V2 vs V3 vs V1 \u2014 dealer listings are often wrong; ask for 1st/12th fret caliper numbers), weight, COA and case candy, serial format, no headstock repair under aging, and original unpotted Custombuckers."
+      ],
+      "score": 64.7,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 8.75 lbs"
+        },
+        "neck_25pct": {
+          "score": 43.2,
+          "note": "nut ok (0); 1st fret ok (67); 12th fret ok (63)"
+        },
+        "shoulders_30pct": {
+          "score": 40.0,
+          "note": "no shoulder/profile info"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "new"
+        },
+        "price_5pct": {
+          "score": 38.2,
+          "note": "well above anchor"
+        }
+      }
+    },
+    {
       "url": "https://wildwoodguitars.com/products/wildwood-spec-1957-les-paul-standard-gloss-57",
       "dealer": "wildwoodguitars",
       "price_usd": 5499.0,
@@ -28523,6 +30607,72 @@
         "as_of": "2026-08-09",
         "anchor_usd": 4750,
         "over_market_pct": 5
+      }
+    },
+    {
+      "url": "https://www.themusiczoo.com/products/gibson-custom-shop-1960-les-paul-murphy-lab-ultra-light-aged-wide-tomato-burst-1",
+      "dealer": "The Music Zoo",
+      "price_usd": 7199.0,
+      "year": 1960,
+      "model": "Gibson Custom Shop 1960 Les Paul Murphy Lab Ultra Light Aged Wide Tomato Burst",
+      "finish": null,
+      "weight_lbs": 8.75,
+      "nut_width_in": 12.0,
+      "fret1_depth_in": 0.85,
+      "fret12_depth_in": 0.96,
+      "neck_profile": null,
+      "neck_profile_verbatim": null,
+      "condition": "New",
+      "serial": null,
+      "city_state": "Bethel, CT",
+      "pickups": "Custombucker Alnico 3 (Unpotted) Pickups 2 Volume, 2 Tone, CTS 500K Audi",
+      "case_included": true,
+      "modifications": null,
+      "in_measured_window": true,
+      "note": null,
+      "seen_before": false,
+      "category": "les_paul",
+      "id": "g856",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-13",
+      "last_confirmed_active": "2026-08-13",
+      "market_bucket": "norlin lp",
+      "price_history": [
+        {
+          "date": "2026-08-13",
+          "price_usd": 7199.0
+        }
+      ],
+      "research_cluster": "cs-r0-modern",
+      "research": [
+        "Neck feel: modern core R0s ship with the '1960 V2' medium-slim carve (~.82\" at the 1st fret, ~.95\" at the 12th) \u2014 forum consensus calls it 'a '59 neck on a diet'; Wildwood-spec R0s also typically measure around .82\" first fret, and only the V3/slim-taper variants get truly skinny (~.80\"/.89\").",
+        "Pickups: unpotted Custombuckers (Alnico III), widely praised on MLP/TGP as the best PAF-style pickup Gibson ships \u2014 airy, open, clear lows and classic midrange honk; Wildwood Spec versions are regarded as tonally equivalent, with differences mainly cosmetic.",
+        "Known issues: general 2019+ Historic complaints \u2014 occasional nut slot/fret-end sloppiness, inconsistent VOS/Murphy Lab finish work, weight variance (roughly 8.3-9.5 lbs, no weight relief), some checking-prone Murphy Lab lacquer; unpotted Custombuckers can squeal at high gain.",
+        "Market/value: the 2019 'reformulated' Historic line is considered the best regular-production era since True Historic; R0s trade slightly below equivalent R9s and hold value well used at roughly 60-75% of street; dealer-spec examples carry a modest resale premium.",
+        "Verify before buying: actual neck measurements (V2 vs V3 vs V1 \u2014 dealer listings are often wrong; ask for 1st/12th fret caliper numbers), weight, COA and case candy, serial format, no headstock repair under aging, and original unpotted Custombuckers."
+      ],
+      "score": 63.7,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 8.75 lbs"
+        },
+        "neck_25pct": {
+          "score": 39.0,
+          "note": "nut ok (0); 1st fret ok (60); 12th fret ok (57)"
+        },
+        "shoulders_30pct": {
+          "score": 40.0,
+          "note": "no shoulder/profile info"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "new"
+        },
+        "price_5pct": {
+          "score": 38.2,
+          "note": "well above anchor"
+        }
       }
     },
     {
@@ -33113,6 +35263,122 @@
       }
     },
     {
+      "url": "https://www.themusiczoo.com/products/gibson-custom-shop-1959-les-paul-standard-reissue-vos-washed-cherry-sunburst-3",
+      "dealer": "The Music Zoo",
+      "price_usd": 6699.0,
+      "year": 1959,
+      "model": "Gibson Custom Shop 1959 Les Paul Standard Reissue VOS Washed Cherry Sunburst",
+      "finish": null,
+      "weight_lbs": 8.62,
+      "nut_width_in": null,
+      "fret1_depth_in": 0.88,
+      "fret12_depth_in": 0.99,
+      "neck_profile": null,
+      "neck_profile_verbatim": null,
+      "condition": "New",
+      "serial": null,
+      "city_state": "Bethel, CT",
+      "pickups": "Custombucker Alnico III Pickups CTS 500K Audio Taper Potentiometers, Pap",
+      "case_included": true,
+      "modifications": null,
+      "in_measured_window": true,
+      "note": null,
+      "seen_before": false,
+      "category": "les_paul",
+      "id": "g847",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-13",
+      "last_confirmed_active": "2026-08-13",
+      "market_bucket": "norlin lp",
+      "price_history": [
+        {
+          "date": "2026-08-13",
+          "price_usd": 6699.0
+        }
+      ],
+      "score": 62.8,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 8.62 lbs"
+        },
+        "neck_25pct": {
+          "score": 32.0,
+          "note": "nut unmeasured; 1st fret ok (40); 12th fret ok (40)"
+        },
+        "shoulders_30pct": {
+          "score": 40.0,
+          "note": "no shoulder/profile info"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "new"
+        },
+        "price_5pct": {
+          "score": 56.4,
+          "note": "well above anchor"
+        }
+      }
+    },
+    {
+      "url": "https://www.themusiczoo.com/products/gibson-custom-shop-1959-les-paul-standard-reissue-vos-iced-tea",
+      "dealer": "The Music Zoo",
+      "price_usd": 6699.0,
+      "year": 1959,
+      "model": "Gibson Custom Shop 1959 Les Paul Standard Reissue VOS Iced Tea",
+      "finish": null,
+      "weight_lbs": 8.44,
+      "nut_width_in": null,
+      "fret1_depth_in": 0.88,
+      "fret12_depth_in": 0.99,
+      "neck_profile": null,
+      "neck_profile_verbatim": null,
+      "condition": "New",
+      "serial": null,
+      "city_state": "Bethel, CT",
+      "pickups": "Custombucker Alnico III Pickups CTS 500K Audio Taper Potentiometers, Pap",
+      "case_included": true,
+      "modifications": null,
+      "in_measured_window": true,
+      "note": null,
+      "seen_before": false,
+      "category": "les_paul",
+      "id": "g849",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-13",
+      "last_confirmed_active": "2026-08-13",
+      "market_bucket": "norlin lp",
+      "price_history": [
+        {
+          "date": "2026-08-13",
+          "price_usd": 6699.0
+        }
+      ],
+      "score": 62.8,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 8.44 lbs"
+        },
+        "neck_25pct": {
+          "score": 32.0,
+          "note": "nut unmeasured; 1st fret ok (40); 12th fret ok (40)"
+        },
+        "shoulders_30pct": {
+          "score": 40.0,
+          "note": "no shoulder/profile info"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "new"
+        },
+        "price_5pct": {
+          "score": 56.4,
+          "note": "well above anchor"
+        }
+      }
+    },
+    {
       "url": "https://reverb.com/item/96023515-gibson-custom-1959-les-paul-standard-reissue-ultra-light-aged-factory-burst",
       "dealer": "Round Hill Music Co",
       "price_usd": 7199.0,
@@ -34320,6 +36586,72 @@
         "as_of": "2026-08-09",
         "anchor_usd": 3848,
         "over_market_pct": -9
+      }
+    },
+    {
+      "url": "https://www.themusiczoo.com/products/gibson-custom-shop-les-paul-axcess-custom-made-2-measure-trans-black-torrified-maple-top-1",
+      "dealer": "The Music Zoo",
+      "price_usd": 7499.0,
+      "year": null,
+      "model": "Gibson Custom Shop Les Paul Axcess Custom Made 2 Measure Trans Black Torrified Maple Top",
+      "finish": null,
+      "weight_lbs": 8.5,
+      "nut_width_in": null,
+      "fret1_depth_in": 0.87,
+      "fret12_depth_in": 0.99,
+      "neck_profile": null,
+      "neck_profile_verbatim": null,
+      "condition": "New",
+      "serial": null,
+      "city_state": "Bethel, CT",
+      "pickups": null,
+      "case_included": true,
+      "modifications": null,
+      "in_measured_window": true,
+      "note": null,
+      "seen_before": false,
+      "category": "les_paul",
+      "id": "g857",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-13",
+      "last_confirmed_active": "2026-08-13",
+      "market_bucket": "custom shop",
+      "price_history": [
+        {
+          "date": "2026-08-13",
+          "price_usd": 7499.0
+        }
+      ],
+      "research_cluster": "cs-r0-modern",
+      "research": [
+        "Neck feel: modern core R0s ship with the '1960 V2' medium-slim carve (~.82\" at the 1st fret, ~.95\" at the 12th) \u2014 forum consensus calls it 'a '59 neck on a diet'; Wildwood-spec R0s also typically measure around .82\" first fret, and only the V3/slim-taper variants get truly skinny (~.80\"/.89\").",
+        "Pickups: unpotted Custombuckers (Alnico III), widely praised on MLP/TGP as the best PAF-style pickup Gibson ships \u2014 airy, open, clear lows and classic midrange honk; Wildwood Spec versions are regarded as tonally equivalent, with differences mainly cosmetic.",
+        "Known issues: general 2019+ Historic complaints \u2014 occasional nut slot/fret-end sloppiness, inconsistent VOS/Murphy Lab finish work, weight variance (roughly 8.3-9.5 lbs, no weight relief), some checking-prone Murphy Lab lacquer; unpotted Custombuckers can squeal at high gain.",
+        "Market/value: the 2019 'reformulated' Historic line is considered the best regular-production era since True Historic; R0s trade slightly below equivalent R9s and hold value well used at roughly 60-75% of street; dealer-spec examples carry a modest resale premium.",
+        "Verify before buying: actual neck measurements (V2 vs V3 vs V1 \u2014 dealer listings are often wrong; ask for 1st/12th fret caliper numbers), weight, COA and case candy, serial format, no headstock repair under aging, and original unpotted Custombuckers."
+      ],
+      "score": 62.2,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 8.5 lbs"
+        },
+        "neck_25pct": {
+          "score": 35.3,
+          "note": "nut unmeasured; 1st fret ok (47); 12th fret ok (40)"
+        },
+        "shoulders_30pct": {
+          "score": 40.0,
+          "note": "no shoulder/profile info"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "new"
+        },
+        "price_5pct": {
+          "score": 27.3,
+          "note": "well above anchor"
+        }
       }
     },
     {
@@ -39488,6 +41820,72 @@
       }
     },
     {
+      "url": "https://www.mmguitarbar.com/products/2019-gibson-custom-shop-historic-1959-les-paul-standard-r9-60th-anniversary-factory-burst-vos-w-case-coa-tags",
+      "dealer": "Mike & Mike's Guitar Bar",
+      "price_usd": 5699.99,
+      "year": 2019,
+      "model": "2019 Gibson Custom Shop Historic 1959 Les Paul Standard R9 60th Anniversary Factory Burst VOS w/ Case, CoA, Tags",
+      "finish": null,
+      "weight_lbs": 9.0,
+      "nut_width_in": null,
+      "fret1_depth_in": 0.88,
+      "fret12_depth_in": 0.995,
+      "neck_profile": null,
+      "neck_profile_verbatim": null,
+      "condition": "New",
+      "serial": null,
+      "city_state": "Seattle, WA",
+      "pickups": "CustomBuckers, Gibson's latest highly praised PAF iteration",
+      "case_included": true,
+      "modifications": null,
+      "in_measured_window": true,
+      "note": null,
+      "seen_before": false,
+      "category": "les_paul",
+      "id": "g843",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-13",
+      "last_confirmed_active": "2026-08-13",
+      "market_bucket": "r0",
+      "price_history": [
+        {
+          "date": "2026-08-13",
+          "price_usd": 5699.99
+        }
+      ],
+      "research_cluster": "r0-60th",
+      "research": [
+        "Neck feel: the 2020 60th Anniversary run split 1960 production into thirds \u2014 V2 is the 'Slim C' middle-of-1960 carve (~.82\"/.94-.95\"), while V3 is the 'Skinny C' late-1960 profile (~.80-.81\" first fret, ~.89-.90\" at the 12th), described as dramatically thinner up the board \u2014 sublime for some, fatiguing for fat-neck players.",
+        "Pickups: same unpotted Alnico III Custombuckers as the core Historic line; community verdict very positive \u2014 vintage-correct output, open and dynamic.",
+        "Known issues: few model-specific faults \u2014 the usual Custom Shop lottery (nut work, occasional heavy examples, VOS finish inconsistency); some V3 buyers report neck-profile surprise; anniversary-specific parts fade unevenly on played examples.",
+        "Market/value: reasonably collectible one-year anniversary run with hand-selected specs; sells used around or slightly above standard R0 money; clean V2 examples resell more easily than V3 (very slim neck narrows the buyer pool).",
+        "Verify before buying: which neck version it actually is (get caliper measurements \u2014 V2/V3 mislabeling is common on Reverb), COA/anniversary paperwork, weight, anniversary-correct knobs/plastics, and unmodified unpotted pickups."
+      ],
+      "score": 60.6,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 86.7,
+          "note": "weight 9.0 lbs"
+        },
+        "neck_25pct": {
+          "score": 30.6,
+          "note": "nut unmeasured; 1st fret ok (40); 12th fret ok (37)"
+        },
+        "shoulders_30pct": {
+          "score": 40.0,
+          "note": "no shoulder/profile info"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "new"
+        },
+        "price_5pct": {
+          "score": 100.0,
+          "note": "16% under anchor"
+        }
+      }
+    },
+    {
       "url": "https://cartervintage.com/shop/gibson-custom-58-les-paul-standard-carmelita-neck-vos-2024-orange-lemon-fade/39X4hI9zvAWfzJFUP5yK1RyZhRJ",
       "dealer": "cartervintage",
       "price_usd": 6199.0,
@@ -40071,6 +42469,72 @@
       }
     },
     {
+      "url": "https://www.themusiczoo.com/products/gibson-custom-shop-les-paul-axcess-custom-made-2-measure-one-pickup-dirty-lemon-burst-1",
+      "dealer": "The Music Zoo",
+      "price_usd": 6899.0,
+      "year": null,
+      "model": "Gibson Custom Shop Les Paul Axcess Custom Made 2 Measure One Pickup Dirty Lemon Burst",
+      "finish": null,
+      "weight_lbs": 8.12,
+      "nut_width_in": null,
+      "fret1_depth_in": 0.87,
+      "fret12_depth_in": 0.98,
+      "neck_profile": null,
+      "neck_profile_verbatim": null,
+      "condition": "New",
+      "serial": null,
+      "city_state": "Bethel, CT",
+      "pickups": "humbucker in Double Classic White",
+      "case_included": true,
+      "modifications": null,
+      "in_measured_window": true,
+      "note": null,
+      "seen_before": false,
+      "category": "les_paul",
+      "id": "g851",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-13",
+      "last_confirmed_active": "2026-08-13",
+      "market_bucket": "custom shop",
+      "price_history": [
+        {
+          "date": "2026-08-13",
+          "price_usd": 6899.0
+        }
+      ],
+      "research_cluster": "cs-r0-modern",
+      "research": [
+        "Neck feel: modern core R0s ship with the '1960 V2' medium-slim carve (~.82\" at the 1st fret, ~.95\" at the 12th) \u2014 forum consensus calls it 'a '59 neck on a diet'; Wildwood-spec R0s also typically measure around .82\" first fret, and only the V3/slim-taper variants get truly skinny (~.80\"/.89\").",
+        "Pickups: unpotted Custombuckers (Alnico III), widely praised on MLP/TGP as the best PAF-style pickup Gibson ships \u2014 airy, open, clear lows and classic midrange honk; Wildwood Spec versions are regarded as tonally equivalent, with differences mainly cosmetic.",
+        "Known issues: general 2019+ Historic complaints \u2014 occasional nut slot/fret-end sloppiness, inconsistent VOS/Murphy Lab finish work, weight variance (roughly 8.3-9.5 lbs, no weight relief), some checking-prone Murphy Lab lacquer; unpotted Custombuckers can squeal at high gain.",
+        "Market/value: the 2019 'reformulated' Historic line is considered the best regular-production era since True Historic; R0s trade slightly below equivalent R9s and hold value well used at roughly 60-75% of street; dealer-spec examples carry a modest resale premium.",
+        "Verify before buying: actual neck measurements (V2 vs V3 vs V1 \u2014 dealer listings are often wrong; ask for 1st/12th fret caliper numbers), weight, COA and case candy, serial format, no headstock repair under aging, and original unpotted Custombuckers."
+      ],
+      "score": 60.4,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 88.0,
+          "note": "weight 8.12 lbs"
+        },
+        "neck_25pct": {
+          "score": 38.2,
+          "note": "nut unmeasured; 1st fret ok (47); 12th fret ok (46)"
+        },
+        "shoulders_30pct": {
+          "score": 40.0,
+          "note": "no shoulder/profile info"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "new"
+        },
+        "price_5pct": {
+          "score": 49.1,
+          "note": "well above anchor"
+        }
+      }
+    },
+    {
       "url": "https://cartervintage.com/shop/gibson-collectors-choice-9-believer-burst-les-paul-2013-cherry-sunburst/3Fan5xJ1v143OwwHEYREyPMQx03",
       "dealer": "cartervintage",
       "price_usd": 9500.0,
@@ -40489,6 +42953,64 @@
         "as_of": "2026-08-09",
         "anchor_usd": 3848,
         "over_market_pct": 4
+      }
+    },
+    {
+      "url": "https://www.themusiczoo.com/products/gibson-custom-shop-1959-les-paul-made-2-measure-tangerine-burst-vos",
+      "dealer": "The Music Zoo",
+      "price_usd": 7599.0,
+      "year": 1959,
+      "model": "Gibson Custom Shop 1959 Les Paul Made 2 Measure Tangerine Burst VOS",
+      "finish": null,
+      "weight_lbs": 8.81,
+      "nut_width_in": 12.0,
+      "fret1_depth_in": 0.88,
+      "fret12_depth_in": 0.98,
+      "neck_profile": null,
+      "neck_profile_verbatim": null,
+      "condition": "New",
+      "serial": null,
+      "city_state": "Bethel, CT",
+      "pickups": "Custombucker Pickups 2 Volume, 2 Tone, CTS 500K Audio Taper Potentiomete",
+      "case_included": true,
+      "modifications": null,
+      "in_measured_window": true,
+      "note": null,
+      "seen_before": false,
+      "category": "les_paul",
+      "id": "g858",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-13",
+      "last_confirmed_active": "2026-08-13",
+      "market_bucket": "norlin lp",
+      "price_history": [
+        {
+          "date": "2026-08-13",
+          "price_usd": 7599.0
+        }
+      ],
+      "score": 60.1,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 99.3,
+          "note": "weight 8.81 lbs"
+        },
+        "neck_25pct": {
+          "score": 28.6,
+          "note": "nut ok (0); 1st fret ok (40); 12th fret ok (46)"
+        },
+        "shoulders_30pct": {
+          "score": 40.0,
+          "note": "no shoulder/profile info"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "new"
+        },
+        "price_5pct": {
+          "score": 23.7,
+          "note": "well above anchor"
+        }
       }
     },
     {
@@ -41161,6 +43683,72 @@
         "suggested_offer_usd": 5900,
         "discount_pct": 14,
         "rationale": "8% base; listed 444d"
+      }
+    },
+    {
+      "url": "https://www.mmguitarbar.com/products/2022-gibson-custom-shop-historic-1959-les-paul-standard-r9-70th-anniversary-washed-cherry-sunburst-gloss",
+      "dealer": "Mike & Mike's Guitar Bar",
+      "price_usd": 6899.99,
+      "year": 2022,
+      "model": "2022 Gibson Custom Shop Historic 1959 Les Paul Standard R9 70th Anniversary Washed Cherry Sunburst Gloss",
+      "finish": null,
+      "weight_lbs": 8.94,
+      "nut_width_in": null,
+      "fret1_depth_in": 0.88,
+      "fret12_depth_in": 0.985,
+      "neck_profile": null,
+      "neck_profile_verbatim": null,
+      "condition": "New",
+      "serial": null,
+      "city_state": "Seattle, WA",
+      "pickups": "CustomBuckers, Gibson's latest highly praised PAF iteration",
+      "case_included": true,
+      "modifications": null,
+      "in_measured_window": true,
+      "note": null,
+      "seen_before": false,
+      "category": "les_paul",
+      "id": "g853",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-13",
+      "last_confirmed_active": "2026-08-13",
+      "market_bucket": "custom shop",
+      "price_history": [
+        {
+          "date": "2026-08-13",
+          "price_usd": 6899.99
+        }
+      ],
+      "research_cluster": "cs-r0-modern",
+      "research": [
+        "Neck feel: modern core R0s ship with the '1960 V2' medium-slim carve (~.82\" at the 1st fret, ~.95\" at the 12th) \u2014 forum consensus calls it 'a '59 neck on a diet'; Wildwood-spec R0s also typically measure around .82\" first fret, and only the V3/slim-taper variants get truly skinny (~.80\"/.89\").",
+        "Pickups: unpotted Custombuckers (Alnico III), widely praised on MLP/TGP as the best PAF-style pickup Gibson ships \u2014 airy, open, clear lows and classic midrange honk; Wildwood Spec versions are regarded as tonally equivalent, with differences mainly cosmetic.",
+        "Known issues: general 2019+ Historic complaints \u2014 occasional nut slot/fret-end sloppiness, inconsistent VOS/Murphy Lab finish work, weight variance (roughly 8.3-9.5 lbs, no weight relief), some checking-prone Murphy Lab lacquer; unpotted Custombuckers can squeal at high gain.",
+        "Market/value: the 2019 'reformulated' Historic line is considered the best regular-production era since True Historic; R0s trade slightly below equivalent R9s and hold value well used at roughly 60-75% of street; dealer-spec examples carry a modest resale premium.",
+        "Verify before buying: actual neck measurements (V2 vs V3 vs V1 \u2014 dealer listings are often wrong; ask for 1st/12th fret caliper numbers), weight, COA and case candy, serial format, no headstock repair under aging, and original unpotted Custombuckers."
+      ],
+      "score": 60.0,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 90.7,
+          "note": "weight 8.94 lbs"
+        },
+        "neck_25pct": {
+          "score": 33.4,
+          "note": "nut unmeasured; 1st fret ok (40); 12th fret ok (43)"
+        },
+        "shoulders_30pct": {
+          "score": 40.0,
+          "note": "no shoulder/profile info"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "new"
+        },
+        "price_5pct": {
+          "score": 49.1,
+          "note": "well above anchor"
+        }
       }
     },
     {
@@ -42503,6 +45091,138 @@
         "as_of": "2026-08-09",
         "anchor_usd": 4750,
         "over_market_pct": 49
+      }
+    },
+    {
+      "url": "https://www.mmguitarbar.com/products/2022-gibson-custom-shop-historic-1959-les-paul-standard-r9-70th-anniversary-washed-cherry-sunburst-gloss-1",
+      "dealer": "Mike & Mike's Guitar Bar",
+      "price_usd": 6899.99,
+      "year": 2022,
+      "model": "2022 Gibson Custom Shop Historic 1959 Les Paul Standard R9 70th Anniversary Washed Cherry Sunburst Gloss",
+      "finish": null,
+      "weight_lbs": 9.0,
+      "nut_width_in": null,
+      "fret1_depth_in": 0.87,
+      "fret12_depth_in": 0.99,
+      "neck_profile": null,
+      "neck_profile_verbatim": null,
+      "condition": "New",
+      "serial": null,
+      "city_state": "Seattle, WA",
+      "pickups": "CustomBuckers, Gibson's latest highly praised PAF iteration",
+      "case_included": true,
+      "modifications": null,
+      "in_measured_window": true,
+      "note": null,
+      "seen_before": false,
+      "category": "les_paul",
+      "id": "g852",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-13",
+      "last_confirmed_active": "2026-08-13",
+      "market_bucket": "custom shop",
+      "price_history": [
+        {
+          "date": "2026-08-13",
+          "price_usd": 6899.99
+        }
+      ],
+      "research_cluster": "cs-r0-modern",
+      "research": [
+        "Neck feel: modern core R0s ship with the '1960 V2' medium-slim carve (~.82\" at the 1st fret, ~.95\" at the 12th) \u2014 forum consensus calls it 'a '59 neck on a diet'; Wildwood-spec R0s also typically measure around .82\" first fret, and only the V3/slim-taper variants get truly skinny (~.80\"/.89\").",
+        "Pickups: unpotted Custombuckers (Alnico III), widely praised on MLP/TGP as the best PAF-style pickup Gibson ships \u2014 airy, open, clear lows and classic midrange honk; Wildwood Spec versions are regarded as tonally equivalent, with differences mainly cosmetic.",
+        "Known issues: general 2019+ Historic complaints \u2014 occasional nut slot/fret-end sloppiness, inconsistent VOS/Murphy Lab finish work, weight variance (roughly 8.3-9.5 lbs, no weight relief), some checking-prone Murphy Lab lacquer; unpotted Custombuckers can squeal at high gain.",
+        "Market/value: the 2019 'reformulated' Historic line is considered the best regular-production era since True Historic; R0s trade slightly below equivalent R9s and hold value well used at roughly 60-75% of street; dealer-spec examples carry a modest resale premium.",
+        "Verify before buying: actual neck measurements (V2 vs V3 vs V1 \u2014 dealer listings are often wrong; ask for 1st/12th fret caliper numbers), weight, COA and case candy, serial format, no headstock repair under aging, and original unpotted Custombuckers."
+      ],
+      "score": 59.3,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 86.7,
+          "note": "weight 9.0 lbs"
+        },
+        "neck_25pct": {
+          "score": 35.3,
+          "note": "nut unmeasured; 1st fret ok (47); 12th fret ok (40)"
+        },
+        "shoulders_30pct": {
+          "score": 40.0,
+          "note": "no shoulder/profile info"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "new"
+        },
+        "price_5pct": {
+          "score": 49.1,
+          "note": "well above anchor"
+        }
+      }
+    },
+    {
+      "url": "https://www.themusiczoo.com/products/gibson-custom-shop-1960-les-paul-murphy-lab-avy-aged-tangerine-burst",
+      "dealer": "The Music Zoo",
+      "price_usd": 9199.0,
+      "year": 1960,
+      "model": "Gibson Custom Shop 1960 Les Paul Murphy Lab Heavy Aged Tangerine Burst",
+      "finish": null,
+      "weight_lbs": 8.12,
+      "nut_width_in": 12.0,
+      "fret1_depth_in": 0.83,
+      "fret12_depth_in": 0.96,
+      "neck_profile": null,
+      "neck_profile_verbatim": null,
+      "condition": "New",
+      "serial": null,
+      "city_state": "Bethel, CT",
+      "pickups": "Custombucker Alnico 3 (Unpotted) Pickups 2 Volume, 2 Tone, CTS 500K Audi",
+      "case_included": true,
+      "modifications": null,
+      "in_measured_window": true,
+      "note": null,
+      "seen_before": false,
+      "category": "les_paul",
+      "id": "g861",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-13",
+      "last_confirmed_active": "2026-08-13",
+      "market_bucket": "norlin lp",
+      "price_history": [
+        {
+          "date": "2026-08-13",
+          "price_usd": 9199.0
+        }
+      ],
+      "research_cluster": "cs-r0-modern",
+      "research": [
+        "Neck feel: modern core R0s ship with the '1960 V2' medium-slim carve (~.82\" at the 1st fret, ~.95\" at the 12th) \u2014 forum consensus calls it 'a '59 neck on a diet'; Wildwood-spec R0s also typically measure around .82\" first fret, and only the V3/slim-taper variants get truly skinny (~.80\"/.89\").",
+        "Pickups: unpotted Custombuckers (Alnico III), widely praised on MLP/TGP as the best PAF-style pickup Gibson ships \u2014 airy, open, clear lows and classic midrange honk; Wildwood Spec versions are regarded as tonally equivalent, with differences mainly cosmetic.",
+        "Known issues: general 2019+ Historic complaints \u2014 occasional nut slot/fret-end sloppiness, inconsistent VOS/Murphy Lab finish work, weight variance (roughly 8.3-9.5 lbs, no weight relief), some checking-prone Murphy Lab lacquer; unpotted Custombuckers can squeal at high gain.",
+        "Market/value: the 2019 'reformulated' Historic line is considered the best regular-production era since True Historic; R0s trade slightly below equivalent R9s and hold value well used at roughly 60-75% of street; dealer-spec examples carry a modest resale premium.",
+        "Verify before buying: actual neck measurements (V2 vs V3 vs V1 \u2014 dealer listings are often wrong; ask for 1st/12th fret caliper numbers), weight, COA and case candy, serial format, no headstock repair under aging, and original unpotted Custombuckers."
+      ],
+      "score": 59.3,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 88.0,
+          "note": "weight 8.12 lbs"
+        },
+        "neck_25pct": {
+          "score": 43.5,
+          "note": "nut ok (0); 1st fret ok (73); 12th fret ok (57)"
+        },
+        "shoulders_30pct": {
+          "score": 40.0,
+          "note": "no shoulder/profile info"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "new"
+        },
+        "price_5pct": {
+          "score": 0.0,
+          "note": "well above anchor"
+        }
       }
     },
     {
@@ -44047,6 +46767,64 @@
       }
     },
     {
+      "url": "https://www.themusiczoo.com/products/gibson-custom-shop-1959-les-paul-dirty-lemon-murphy-lab-light-aged-2",
+      "dealer": "The Music Zoo",
+      "price_usd": 8199.0,
+      "year": 1959,
+      "model": "Gibson Custom Shop 1959 Les Paul Dirty Lemon Murphy Lab Light Aged",
+      "finish": null,
+      "weight_lbs": 8.5,
+      "nut_width_in": 12.0,
+      "fret1_depth_in": 0.88,
+      "fret12_depth_in": 0.99,
+      "neck_profile": null,
+      "neck_profile_verbatim": null,
+      "condition": "New",
+      "serial": null,
+      "city_state": "Bethel, CT",
+      "pickups": "Custombucker Alnico 3 (Unpotted) Pickups 2 Volume, 2 Tone, CTS 500K Audi",
+      "case_included": true,
+      "modifications": null,
+      "in_measured_window": true,
+      "note": null,
+      "seen_before": false,
+      "category": "les_paul",
+      "id": "g859",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-13",
+      "last_confirmed_active": "2026-08-13",
+      "market_bucket": "norlin lp",
+      "price_history": [
+        {
+          "date": "2026-08-13",
+          "price_usd": 8199.0
+        }
+      ],
+      "score": 58.8,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 8.5 lbs"
+        },
+        "neck_25pct": {
+          "score": 26.7,
+          "note": "nut ok (0); 1st fret ok (40); 12th fret ok (40)"
+        },
+        "shoulders_30pct": {
+          "score": 40.0,
+          "note": "no shoulder/profile info"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "new"
+        },
+        "price_5pct": {
+          "score": 1.9,
+          "note": "well above anchor"
+        }
+      }
+    },
+    {
       "reverb_id": "89141615",
       "url": "https://reverb.com/item/89141615-gibson-custom-shop-wildwood-spec-1956-les-paul-standard-gloss",
       "dealer": "Wildwood Guitars",
@@ -44830,6 +47608,72 @@
         "as_of": "2026-08-09",
         "anchor_usd": 4750,
         "over_market_pct": 68
+      }
+    },
+    {
+      "url": "https://www.themusiczoo.com/products/gibson-custom-shop-les-paul-axcess-custom-made-2-measure-trans-black-torrified-maple-top",
+      "dealer": "The Music Zoo",
+      "price_usd": 5699.0,
+      "year": 2026,
+      "model": "Gibson Custom Shop Les Paul Axcess Custom Made 2 Measure Trans Black Torrified Maple Top 2026",
+      "finish": null,
+      "weight_lbs": 7.81,
+      "nut_width_in": null,
+      "fret1_depth_in": 0.88,
+      "fret12_depth_in": 0.9,
+      "neck_profile": null,
+      "neck_profile_verbatim": null,
+      "condition": "Used",
+      "serial": null,
+      "city_state": "Bethel, CT",
+      "pickups": null,
+      "case_included": true,
+      "modifications": null,
+      "in_measured_window": true,
+      "note": null,
+      "seen_before": false,
+      "category": "les_paul",
+      "id": "g842",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-13",
+      "last_confirmed_active": "2026-08-13",
+      "market_bucket": "custom shop",
+      "price_history": [
+        {
+          "date": "2026-08-13",
+          "price_usd": 5699.0
+        }
+      ],
+      "research_cluster": "cs-r0-modern",
+      "research": [
+        "Neck feel: modern core R0s ship with the '1960 V2' medium-slim carve (~.82\" at the 1st fret, ~.95\" at the 12th) \u2014 forum consensus calls it 'a '59 neck on a diet'; Wildwood-spec R0s also typically measure around .82\" first fret, and only the V3/slim-taper variants get truly skinny (~.80\"/.89\").",
+        "Pickups: unpotted Custombuckers (Alnico III), widely praised on MLP/TGP as the best PAF-style pickup Gibson ships \u2014 airy, open, clear lows and classic midrange honk; Wildwood Spec versions are regarded as tonally equivalent, with differences mainly cosmetic.",
+        "Known issues: general 2019+ Historic complaints \u2014 occasional nut slot/fret-end sloppiness, inconsistent VOS/Murphy Lab finish work, weight variance (roughly 8.3-9.5 lbs, no weight relief), some checking-prone Murphy Lab lacquer; unpotted Custombuckers can squeal at high gain.",
+        "Market/value: the 2019 'reformulated' Historic line is considered the best regular-production era since True Historic; R0s trade slightly below equivalent R9s and hold value well used at roughly 60-75% of street; dealer-spec examples carry a modest resale premium.",
+        "Verify before buying: actual neck measurements (V2 vs V3 vs V1 \u2014 dealer listings are often wrong; ask for 1st/12th fret caliper numbers), weight, COA and case candy, serial format, no headstock repair under aging, and original unpotted Custombuckers."
+      ],
+      "score": 58.2,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 67.3,
+          "note": "weight 7.81 lbs"
+        },
+        "neck_25pct": {
+          "score": 62.0,
+          "note": "nut unmeasured; 1st fret ok (40); 12th fret ok (100)"
+        },
+        "shoulders_30pct": {
+          "score": 40.0,
+          "note": "no shoulder/profile info"
+        },
+        "condition_10pct": {
+          "score": 70.0,
+          "note": "used"
+        },
+        "price_5pct": {
+          "score": 70.0,
+          "note": "slightly above anchor"
+        }
       }
     },
     {
@@ -46398,6 +49242,72 @@
       }
     },
     {
+      "url": "https://www.themusiczoo.com/products/gibson-custom-shop-les-paul-axcess-custom-figured-top-bengal-burst",
+      "dealer": "The Music Zoo",
+      "price_usd": 5499.0,
+      "year": null,
+      "model": "Gibson Custom Shop Les Paul Axcess Custom Figured Top Bengal Burst",
+      "finish": null,
+      "weight_lbs": 7.75,
+      "nut_width_in": null,
+      "fret1_depth_in": 0.84,
+      "fret12_depth_in": 0.98,
+      "neck_profile": null,
+      "neck_profile_verbatim": null,
+      "condition": "New",
+      "serial": null,
+      "city_state": "Bethel, CT",
+      "pickups": "490R (Neck), 498T (Bridge) Humbuckers Individual Volum",
+      "case_included": true,
+      "modifications": null,
+      "in_measured_window": true,
+      "note": null,
+      "seen_before": false,
+      "category": "les_paul",
+      "id": "g840",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-13",
+      "last_confirmed_active": "2026-08-13",
+      "market_bucket": "custom shop",
+      "price_history": [
+        {
+          "date": "2026-08-13",
+          "price_usd": 5499.0
+        }
+      ],
+      "research_cluster": "standard-60s",
+      "research": [
+        "Neck feel: USA Standard '60s uses Gibson's modern SlimTaper \u2014 typically ~.80-.83\" at the 1st fret \u2014 but forums document real unit-to-unit variance from genuinely skinny to almost medium-C; fretwork and nut quality also vary.",
+        "Pickups: Burstbucker 61R/61T (Alnico V, slightly hot vintage-voiced) \u2014 brighter and more aggressive than Custombuckers; some find the 61T harsh into bright amps; 2019+ wiring is hand-wired with orange-drop caps, no PCB.",
+        "Known issues: weight is the big one \u2014 non-weight-relieved and commonly 9-10+ lbs (sub-9 lb examples get snapped up); also inconsistent nut slotting, occasional fret-end sprout, finish flaws under the burst.",
+        "Market/value: the mainstream benchmark Les Paul \u2014 liquid used market but steep initial depreciation (used commonly 25-35% under street); Plain Tops resell a bit lower than figured bursts; excellent players when you pick a good one.",
+        "Verify before buying: exact weight (ask for a scale photo \u2014 listings routinely guess low), neck measurements and fret ends, nut slots, top figure vs stock photos, and confirm Standard '60s vs a weight-relieved 'Classic' being misrepresented."
+      ],
+      "score": 57.5,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 63.3,
+          "note": "weight 7.75 lbs"
+        },
+        "neck_25pct": {
+          "score": 48.2,
+          "note": "nut unmeasured; 1st fret ok (67); 12th fret ok (46)"
+        },
+        "shoulders_30pct": {
+          "score": 40.0,
+          "note": "no shoulder/profile info"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "new"
+        },
+        "price_5pct": {
+          "score": 90.0,
+          "note": "at/under anchor"
+        }
+      }
+    },
+    {
       "reverb_id": 67172934,
       "url": "https://reverb.com/item/67172934-gibson-murphy-lab-wildwood-spec-by-tom-murphy-1958-les-paul-standard-vos",
       "title": "Gibson Murphy Lab Wildwood Spec by Tom Murphy 1958 Les Paul Standard - VOS",
@@ -46819,6 +49729,64 @@
         "condition_10pct": {
           "score": 92.0,
           "note": "excellent"
+        },
+        "price_5pct": {
+          "score": 0.0,
+          "note": "well above anchor"
+        }
+      }
+    },
+    {
+      "url": "https://www.themusiczoo.com/products/gibson-custom-shop-1959-les-paul-standard-left-handed-made-2-measure-murphy-lab-light-aged-iced-tea",
+      "dealer": "The Music Zoo",
+      "price_usd": 9099.0,
+      "year": 1959,
+      "model": "Gibson Custom Shop 1959 Les Paul Standard Left-Handed Made 2 Measure Murphy Lab Light Aged Iced Tea",
+      "finish": null,
+      "weight_lbs": 8.94,
+      "nut_width_in": null,
+      "fret1_depth_in": 0.88,
+      "fret12_depth_in": 0.99,
+      "neck_profile": null,
+      "neck_profile_verbatim": null,
+      "condition": "New",
+      "serial": null,
+      "city_state": "Bethel, CT",
+      "pickups": "Humbuckers CTS 500K Audio Taper Potentiometers, Pa",
+      "case_included": true,
+      "modifications": null,
+      "in_measured_window": true,
+      "note": "LEFT-HANDED",
+      "seen_before": false,
+      "category": "les_paul",
+      "id": "g860",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-13",
+      "last_confirmed_active": "2026-08-13",
+      "market_bucket": "norlin lp",
+      "price_history": [
+        {
+          "date": "2026-08-13",
+          "price_usd": 9099.0
+        }
+      ],
+      "score": 57.2,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 90.7,
+          "note": "weight 8.94 lbs"
+        },
+        "neck_25pct": {
+          "score": 32.0,
+          "note": "nut unmeasured; 1st fret ok (40); 12th fret ok (40)"
+        },
+        "shoulders_30pct": {
+          "score": 40.0,
+          "note": "no shoulder/profile info"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "new"
         },
         "price_5pct": {
           "score": 0.0,
