@@ -133,8 +133,10 @@ def main():
             "breakdown": g.get("score_breakdown"),
             "thumb": thumb_uri(g["id"]),
             "offer": g.get("offer_intel"),
-            "plek": "plek" in " ".join(str(g.get(k) or "") for k in
-                                       ("condition", "modifications", "notes")).lower(),
+            "unpotted": any(w in " ".join(str(g.get(k) or "") for k in
+                            ("pickups", "notes", "modifications", "model")).lower()
+                            for w in ("unpotted", "un-potted", "not potted",
+                                      "non-potted", "no wax pot", "unwaxed")),
         })
     payload = json.dumps({"meta": meta, "bands": BANDS, "guitars": guitars},
                          ensure_ascii=False).replace("</", "<\\/")
@@ -297,7 +299,7 @@ details li{margin-bottom:4px}
     <option value="new">Sort: newest find</option>
   </select>
   <button id="hotbtn" class="toggle" type="button" aria-pressed="false" title="Fresh listings matching proven fast-seller patterns">Goes fast</button>
-  <button id="plekbtn" class="toggle" type="button" aria-pressed="false" title="Listing states PLEK fret work">PLEK'd</button>
+  <button id="unpotbtn" class="toggle" type="button" aria-pressed="false" title="Listing states unpotted pickups (no wax potting — more microphonic, more air)">Unpotted</button>
   <button id="offbtn" class="toggle" type="button" aria-pressed="false">Offers</button>
   <button id="nybtn" class="toggle" type="button" aria-pressed="false" title="Manhattan, Brooklyn, or Queens">NYC only</button>
   <select id="nutsel">
@@ -416,7 +418,7 @@ function card(g){
         <div class="gsub">${esc(g.finish||"")}</div>
       </div>
     </div>
-    <div class="chips"><span class="chip ${cls[0]}">${cls[1]}</span>${chipStatus(g.status)}${isNew?'<span class="chip newtoday" title="first found by the watch on this run — not necessarily newly listed">New find</span>':""}${oi.days_listed!=null&&oi.days_listed<=7?'<span class="chip fresh" title="listed on Reverb within the last week">Fresh listing</span>':""}${oi.offers_enabled?'<span class="chip offers">Offers</span>':""}${g.plek?'<span class="chip active" title="listing states PLEK fret work">PLEK’d</span>':""}${hot?`<span class="chip hot" title="${esc(hot)}">Goes fast</span>`:""}</div>
+    <div class="chips"><span class="chip ${cls[0]}">${cls[1]}</span>${chipStatus(g.status)}${isNew?'<span class="chip newtoday" title="first found by the watch on this run — not necessarily newly listed">New find</span>':""}${oi.days_listed!=null&&oi.days_listed<=7?'<span class="chip fresh" title="listed on Reverb within the last week">Fresh listing</span>':""}${oi.offers_enabled?'<span class="chip offers">Offers</span>':""}${g.unpotted?'<span class="chip active" title="listing states unpotted pickups">Unpotted</span>':""}${hot?`<span class="chip hot" title="${esc(hot)}">Goes fast</span>`:""}</div>
     <div class="specs">
       ${g.weight==null&&g.nyc
           ? `<div class="spec"><div class="v" style="font-size:11.5px;color:var(--cherry)" title="No published weight. Scored neutral because you can weigh it in person.">weigh in&nbsp;person</div><div class="k">Weight</div></div>`
@@ -454,7 +456,7 @@ function render(){
   if(nyOnly) gs=gs.filter(g=>g.nyc);
   if(offersOnly) gs=gs.filter(g=>g.offer&&g.offer.offers_enabled);
   if(hotOnly) gs=gs.filter(g=>hotReason(g));
-  if(plekOnly) gs=gs.filter(g=>g.plek);
+  if(unpotOnly) gs=gs.filter(g=>g.unpotted);
   const drawerActive = document.getElementById("statussel").value!=="live"
     || document.getElementById("colorsel").value!=="any"
     || document.getElementById("finishsel").value!=="any";
@@ -493,11 +495,11 @@ function rebuildFinishOptions(){
   sel.value=names.includes(prev)?prev:"any";
 }
 document.getElementById("colorsel").addEventListener("change",rebuildFinishOptions);
-let nyOnly=false,offersOnly=false,hotOnly=false,plekOnly=false;
-document.getElementById("plekbtn").addEventListener("click",e=>{
-  plekOnly=!plekOnly;
-  e.currentTarget.classList.toggle("on",plekOnly);
-  e.currentTarget.setAttribute("aria-pressed",String(plekOnly));
+let nyOnly=false,offersOnly=false,hotOnly=false,unpotOnly=false;
+document.getElementById("unpotbtn").addEventListener("click",e=>{
+  unpotOnly=!unpotOnly;
+  e.currentTarget.classList.toggle("on",unpotOnly);
+  e.currentTarget.setAttribute("aria-pressed",String(unpotOnly));
   render();
 });
 document.getElementById("hotbtn").addEventListener("click",e=>{
