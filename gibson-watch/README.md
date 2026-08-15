@@ -42,9 +42,39 @@ Long-running sourcing agent for a Gibson Les Paul and an ES-335. Runs every 24 h
   request 2026-07-29) — never make the buyer hunt for a URL on the board. Pull the `url`
   field from database.json for each id referenced.
 
+## Run shape (revised 2026-08-13 — dealer-first, light Reverb pass)
+
+Reverb served this environment a multi-hour anti-bot wall after the 2026-08-09 sweeps
+(~20k listings in a day). Dealer sites have never blocked us once. So the daily run is now:
+
+**Dealer sites first, and in full.** All 18 reachable shops, every run. They are also the
+better data: Carter Vintage, Music Zoo and Mike & Mike's publish per-guitar measured 1st/12th
+fret depths, which Reverb listings almost never carry, and the buyer's criteria are neck-shape
+driven. Wildwood/Willcutt/CME publish carve names. Never fetch sweetwater.com (PerimeterX),
+ludlowguitars.com (dead domain) or rainbowguitars.com (JS-only, no usable API).
+
+**Then ONE light Reverb pass, budgeted.** Hard ceiling of ~250 calls per run total:
+  - Verification: `python3 scripts/reverb_plan.py --budget 200 --date YYYY-MM-DD` picks which
+    live Reverb listings to re-check — everything scoring >=80 plus under-market/fresh
+    listings, then oldest-checked first. Verify only the ids it writes to
+    `reports/reverb-plan.json`. Do NOT re-verify all ~300+ every run.
+  - Sweeping: ~50 calls, a single agent, >=1.5s between calls, sorted by `published_at desc`
+    so the spend goes on genuinely new listings.
+  - NEVER run two Reverb-fetching agents at once. Give each agent its own scratch directory.
+  - On a 403: stop. Do not retry in a loop — retries extend the block. Report it, finish the
+    dealer half, and set `meta.reverb_verified` to the last date Reverb data was confirmed so
+    the board shows its staleness banner.
+
+**Say what was and was not covered** in every run summary. A dealer-only run is a valid run;
+a run that silently skipped Reverb is not.
+
 ## Run procedure (each 24h cycle)
 
-1. Re-confirm every ACTIVE listing's URL. Missing/sold → mark `SOLD` (keep in database). Price changed → mark `PRICE DROP`/`PRICE INCREASE` and append to `price_history`.
+1. Re-confirm listings. **Dealer-site listings: all of them, every run** (they never block).
+   **Reverb listings: only the ids from `scripts/reverb_plan.py`** — see Run shape above.
+   Missing/sold → mark `SOLD` (keep in database). Price changed → mark `PRICE DROP`/
+   `PRICE INCREASE` and append to `price_history`. After the Reverb pass, set
+   `meta.reverb_verified` to today only if the pass actually completed.
 2. Sweep all dealers in `dealers.md` for new listings (individual product pages only — never category/search pages).
    **NYC shops first (buyer signal 2026-07-29)**: start every sweep with the NYC-area shops —
    TR Crandall, Southside, Rudy's, Rivington, Retrofret, 30th Street, Main Drag, Ludlow
