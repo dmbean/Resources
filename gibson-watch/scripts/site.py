@@ -300,6 +300,7 @@ details li{margin-bottom:4px}
   </select>
   <button id="hotbtn" class="toggle" type="button" aria-pressed="false" title="Fresh listings matching proven fast-seller patterns">Goes fast</button>
   <button id="unpotbtn" class="toggle" type="button" aria-pressed="false" title="Listing states unpotted pickups (no wax potting — more microphonic, more air)">Unpotted</button>
+  <button id="thinbtn" class="toggle" type="button" aria-pressed="false" title="1st-fret depth under .80&quot; — the buyer's preferred ES-335 neck. Only matches listings that publish a measurement.">1st &lt; .80&#8243;</button>
   <button id="offbtn" class="toggle" type="button" aria-pressed="false">Offers</button>
   <button id="nybtn" class="toggle" type="button" aria-pressed="false" title="Manhattan, Brooklyn, or Queens">NYC only</button>
   <select id="nutsel">
@@ -457,6 +458,7 @@ function render(){
   if(offersOnly) gs=gs.filter(g=>g.offer&&g.offer.offers_enabled);
   if(hotOnly) gs=gs.filter(g=>hotReason(g));
   if(unpotOnly) gs=gs.filter(g=>g.unpotted);
+  if(thinOnly) gs=gs.filter(g=>g.f1!=null&&g.f1<0.80);
   const drawerActive = document.getElementById("statussel").value!=="live"
     || document.getElementById("colorsel").value!=="any"
     || document.getElementById("finishsel").value!=="any";
@@ -495,7 +497,13 @@ function rebuildFinishOptions(){
   sel.value=names.includes(prev)?prev:"any";
 }
 document.getElementById("colorsel").addEventListener("change",rebuildFinishOptions);
-let nyOnly=false,offersOnly=false,hotOnly=false,unpotOnly=false;
+let nyOnly=false,offersOnly=false,hotOnly=false,unpotOnly=false,thinOnly=false;
+document.getElementById("thinbtn").addEventListener("click",e=>{
+  thinOnly=!thinOnly;
+  e.currentTarget.classList.toggle("on",thinOnly);
+  e.currentTarget.setAttribute("aria-pressed",String(thinOnly));
+  render();
+});
 document.getElementById("unpotbtn").addEventListener("click",e=>{
   unpotOnly=!unpotOnly;
   e.currentTarget.classList.toggle("on",unpotOnly);

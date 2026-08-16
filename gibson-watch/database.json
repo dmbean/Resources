@@ -1071,82 +1071,6 @@
       ]
     },
     {
-      "dealer": "Reverb \u2013 Mike & Mike's Guitar Bar",
-      "url": "https://reverb.com/item/96595265-1975-gibson-es-335-tdc-vintage-semi-hollow-guitar-cherry-figured-maple-w-t-tops-case",
-      "price_usd": 5199.99,
-      "condition": "Excellent (near-mint per seller)",
-      "city_state": "Seattle, WA",
-      "year": 1975,
-      "model": "Gibson ES-335 TDC",
-      "finish": "Cherry (figured/curly maple body)",
-      "serial": null,
-      "weight_lbs": 7.5,
-      "nut_width_in": 1.5625,
-      "fret1_depth_in": 0.805,
-      "fret12_depth_in": 0.95,
-      "neck_profile": "Slender C (3-piece maple neck)",
-      "shoulder_description": "Seller describes 'Slender C' \u2014 slim, fast shoulders",
-      "fingerboard_radius": null,
-      "pickups": "Original T-Top humbuckers (neck 8.4k, bridge 7.1k)",
-      "case_included": "Vintage non-original black tolex hardshell case",
-      "modifications": "Replacement vintage-style pickup covers and reflector knobs; otherwise original (ABR-1 + trapeze)",
-      "measurements_source": "dealer measured",
-      "notes": "Reverb item 96595265. Best overall spec match in the sweep: 7 lbs 8 oz, 1-9/16 in nut, .805 in 1st fret \u2014 squarely in the ideal window. Pro setup, small-block board, six-digit serial dates to '74/'75. | Also listed on dealer site (mmguitarbar.com) - same guitar, tracked under Reverb URL. | Marked SOLD 2026-08-09.",
-      "category": "es_335",
-      "id": "g011",
-      "status": "SOLD",
-      "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-08-04",
-      "market_bucket": "es-335 norlin",
-      "price_history": [
-        {
-          "date": "2026-07-19",
-          "price_usd": 5199.99
-        }
-      ],
-      "score": 94.3,
-      "score_breakdown": {
-        "weight_30pct": {
-          "score": 100.0,
-          "note": "weight 7.5 lbs"
-        },
-        "neck_25pct": {
-          "score": 90.0,
-          "note": "nut ok (100); 1st fret ok (100); 12th fret ok (70)"
-        },
-        "shoulders_30pct": {
-          "score": 95.0,
-          "note": "slim/fast profile: 'slender c (3-piece maple neck) seller describes 'slender c' '"
-        },
-        "condition_10pct": {
-          "score": 98.0,
-          "note": "excellent (near-mint per seller)"
-        },
-        "price_5pct": {
-          "score": 70.0,
-          "note": "slightly above anchor"
-        }
-      },
-      "research_cluster": "norlin-335-early",
-      "research": [
-        "Neck feel: 1972-75 necks are generally slim-to-medium with the Norlin headstock volute and 3-piece construction (mahogany transitioning to maple ~1975); profiles vary but rarely reach 50s chunkiness.",
-        "Pickups: T-Tops throughout \u2014 clear, tight, slightly brighter than PAFs, less midrange complexity but excellent clean and edge-of-breakup; many examples have had swaps over 50 years.",
-        "Known issues: classic Norlin gripes \u2014 weight creep on some, crooked neck sets, mediocre fretwork, sunken tops around the bridge on some examples, the volute, and hit-or-miss quality declining through the decade.",
-        "Market/value: the affordable entry into vintage 335s \u2014 early-70s examples trade far below dot-necks; 'great for the money if you play it first' consensus; clean, light, straight-necked examples appreciating modestly.",
-        "Verify before buying: neck set straightness, top sinking under the bridge, actual weight, volute-area crack/repair, T-Top originality (DCR ~7.5k), and confirm year via pot codes since Norlin serials are notoriously ambiguous."
-      ],
-      "alt_urls": [
-        "https://mmguitarbar.com/products/1975-gibson-es-335-tdc-vintage-semi-hollow-guitar-cherry-figured-maple-w-t-tops-case-1"
-      ],
-      "offer_intel": {
-        "as_of": "2026-08-04",
-        "anchor_usd": 5000,
-        "over_market_pct": 4,
-        "offers_enabled": false,
-        "days_listed": 5
-      }
-    },
-    {
       "dealer": "Reverb \u2013 James's Shop (private seller)",
       "url": "https://reverb.com/item/99672257-gibson-exclusive-les-paul-standard-60s-aaa-bourbon-burst-guitar-with-case",
       "price_usd": 2045.0,
@@ -1440,6 +1364,82 @@
           "score": 90.0,
           "note": "at/under anchor"
         }
+      }
+    },
+    {
+      "dealer": "Reverb \u2013 Mike & Mike's Guitar Bar",
+      "url": "https://reverb.com/item/96595265-1975-gibson-es-335-tdc-vintage-semi-hollow-guitar-cherry-figured-maple-w-t-tops-case",
+      "price_usd": 5199.99,
+      "condition": "Excellent (near-mint per seller)",
+      "city_state": "Seattle, WA",
+      "year": 1975,
+      "model": "Gibson ES-335 TDC",
+      "finish": "Cherry (figured/curly maple body)",
+      "serial": null,
+      "weight_lbs": 7.5,
+      "nut_width_in": 1.5625,
+      "fret1_depth_in": 0.805,
+      "fret12_depth_in": 0.95,
+      "neck_profile": "Slender C (3-piece maple neck)",
+      "shoulder_description": "Seller describes 'Slender C' \u2014 slim, fast shoulders",
+      "fingerboard_radius": null,
+      "pickups": "Original T-Top humbuckers (neck 8.4k, bridge 7.1k)",
+      "case_included": "Vintage non-original black tolex hardshell case",
+      "modifications": "Replacement vintage-style pickup covers and reflector knobs; otherwise original (ABR-1 + trapeze)",
+      "measurements_source": "dealer measured",
+      "notes": "Reverb item 96595265. Best overall spec match in the sweep: 7 lbs 8 oz, 1-9/16 in nut, .805 in 1st fret \u2014 squarely in the ideal window. Pro setup, small-block board, six-digit serial dates to '74/'75. | Also listed on dealer site (mmguitarbar.com) - same guitar, tracked under Reverb URL. | Marked SOLD 2026-08-09.",
+      "category": "es_335",
+      "id": "g011",
+      "status": "SOLD",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-08-04",
+      "market_bucket": "es-335 norlin",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 5199.99
+        }
+      ],
+      "score": 93.9,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 7.5 lbs"
+        },
+        "neck_25pct": {
+          "score": 88.3,
+          "note": "nut ok (100); 1st fret ok (95); 12th fret ok (70)"
+        },
+        "shoulders_30pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: 'slender c (3-piece maple neck) seller describes 'slender c' '"
+        },
+        "condition_10pct": {
+          "score": 98.0,
+          "note": "excellent (near-mint per seller)"
+        },
+        "price_5pct": {
+          "score": 70.0,
+          "note": "slightly above anchor"
+        }
+      },
+      "research_cluster": "norlin-335-early",
+      "research": [
+        "Neck feel: 1972-75 necks are generally slim-to-medium with the Norlin headstock volute and 3-piece construction (mahogany transitioning to maple ~1975); profiles vary but rarely reach 50s chunkiness.",
+        "Pickups: T-Tops throughout \u2014 clear, tight, slightly brighter than PAFs, less midrange complexity but excellent clean and edge-of-breakup; many examples have had swaps over 50 years.",
+        "Known issues: classic Norlin gripes \u2014 weight creep on some, crooked neck sets, mediocre fretwork, sunken tops around the bridge on some examples, the volute, and hit-or-miss quality declining through the decade.",
+        "Market/value: the affordable entry into vintage 335s \u2014 early-70s examples trade far below dot-necks; 'great for the money if you play it first' consensus; clean, light, straight-necked examples appreciating modestly.",
+        "Verify before buying: neck set straightness, top sinking under the bridge, actual weight, volute-area crack/repair, T-Top originality (DCR ~7.5k), and confirm year via pot codes since Norlin serials are notoriously ambiguous."
+      ],
+      "alt_urls": [
+        "https://mmguitarbar.com/products/1975-gibson-es-335-tdc-vintage-semi-hollow-guitar-cherry-figured-maple-w-t-tops-case-1"
+      ],
+      "offer_intel": {
+        "as_of": "2026-08-04",
+        "anchor_usd": 5000,
+        "over_market_pct": 4,
+        "offers_enabled": false,
+        "days_listed": 5
       }
     },
     {
@@ -7235,80 +7235,6 @@
       }
     },
     {
-      "reverb_id": "94457520",
-      "url": "https://reverb.com/item/94457520-2020-gibson-custom-shop-61-es-335-reissue-ebony-vos-finish-coa-included-301",
-      "dealer": "TheGuitarBuyer",
-      "price_usd": 4800.0,
-      "year": 2020,
-      "model": "Custom Shop '61 ES-335 Reissue VOS",
-      "finish": "VOS Ebony",
-      "weight_lbs": 7.625,
-      "weight_as_stated": "7lb 10oz",
-      "nut_width_in": 1.68,
-      "fret1_depth_in": 0.81,
-      "fret12_depth_in": 0.92,
-      "neck_profile": "'61 slim",
-      "condition": "Very Good",
-      "serial": null,
-      "city_state": "Dayton, OH",
-      "pickups": "Custombucker",
-      "case_included": "Gibson brown case + COA + candy",
-      "modifications": null,
-      "published_at": "2026-02-11T08:35:12-08:00",
-      "offers_enabled": false,
-      "note": "7 lb 10 oz Ebony VOS '61 RI at $4,800 \u2014 ideal weight, rarer black finish, light playwear.",
-      "category": "es_335",
-      "id": "g282",
-      "status": "ACTIVE",
-      "date_discovered": "2026-07-30",
-      "last_confirmed_active": "2026-08-16",
-      "market_bucket": "es-335 61 reissue",
-      "price_history": [
-        {
-          "date": "2026-07-30",
-          "price_usd": 4800.0
-        }
-      ],
-      "research_cluster": "cs-61-reissue-335",
-      "research": [
-        "Neck feel: the 1961 reissue's 'Skinny C' SlimTaper was scanned from originals \u2014 thin (~.80\" range at the 1st fret) with vintage 1-11/16\" nut; owners say convincingly close to a real early-60s slim neck, noticeably slimmer than the '59 reissue carve.",
-        "Pickups: unpotted Custombuckers \u2014 airy PAF clarity, piano-like lows, classic 335 honk; regarded as a genuine upgrade over Memphis-era MHS/BB sets; unpotted caveat: microphonic squeal at very high gain.",
-        "Known issues: relatively few \u2014 Murphy Lab lacquer fragility/checking, weight variance (7.5-9 lbs), scattered nut/setup complaints; thin lacquer damages easily in shipping; hollow wings + unpotted pickups mean feedback management is part of ownership.",
-        "Market/value: current top-of-market for new 335s; Murphy Lab premium softens on resale (used ML often 25-30% off list) while VOS holds value best; has largely replaced clean vintage 335s in the 'best modern alternative' conversation.",
-        "Verify before buying: neck measurements (confirm the skinny '61 carve suits you vs the fatter '59 RI), weight, aging level and hidden damage within Murphy Lab wear, COA/case, center block rattles (tap test), original Custombuckers."
-      ],
-      "offer_intel": {
-        "as_of": "2026-08-09",
-        "anchor_usd": 5000,
-        "over_market_pct": -4,
-        "offers_enabled": false,
-        "days_listed": 179
-      },
-      "score": 86.4,
-      "score_breakdown": {
-        "weight_30pct": {
-          "score": 100.0,
-          "note": "weight 7.625 lbs"
-        },
-        "neck_25pct": {
-          "score": 66.7,
-          "note": "nut ok (0); 1st fret ok (100); 12th fret ok (100)"
-        },
-        "shoulders_30pct": {
-          "score": 95.0,
-          "note": "slim/fast profile: ''61 slim'"
-        },
-        "condition_10pct": {
-          "score": 82.0,
-          "note": "very good"
-        },
-        "price_5pct": {
-          "score": 60.0,
-          "note": "well above anchor"
-        }
-      }
-    },
-    {
       "url": "https://www.chicagomusicexchange.com/products/gibson-custom-shop-1959-les-paul-standard-cme-spec-2296216",
       "dealer": "Chicago Music Exchange",
       "price_usd": 6999.0,
@@ -7838,7 +7764,7 @@
         },
         "neck_25pct": {
           "score": 75.0,
-          "note": "nut ok (0); 1st fret ok (100); 12th fret ok (100); floored at 75 \u2014 documented slim shoulders (feel beats raw depth)"
+          "note": "nut ok (0); 1st fret ok (90); 12th fret ok (100); floored at 75 \u2014 documented slim shoulders (feel beats raw depth)"
         },
         "shoulders_30pct": {
           "score": 95.0,
@@ -8077,72 +8003,6 @@
       }
     },
     {
-      "dealer": "Reverb \u2013 Thunder Road Guitars PDX",
-      "url": "https://reverb.com/item/95830562-1967-gibson-es-335-cherry-all-original-guitar-097033",
-      "price_usd": 10999,
-      "condition": "Excellent",
-      "city_state": "Portland, OR",
-      "year": 1967,
-      "model": "Gibson ES-335TD",
-      "finish": "Cherry",
-      "serial": "097033",
-      "weight_lbs": 7.69,
-      "nut_width_in": 1.5625,
-      "fret1_depth_in": 0.82,
-      "fret12_depth_in": 1.03,
-      "neck_profile": "Mahogany neck, thin 60s carve",
-      "shoulder_description": null,
-      "fingerboard_radius": "12\"",
-      "pickups": "2 Patent # decal humbuckers, CTS pots dated 1966",
-      "case_included": "Newer non-original hardshell case",
-      "modifications": "None - all original (trapeze, ABR-1 with nylon saddles)",
-      "measurements_source": "dealer measured",
-      "notes": "Reverb item 95830562. 7 lb 11 oz. Pre-volute one-piece-neck era, 1 9/16 synthetic nut, low wide frets in excellent condition. 1st fret 0.82 at top of ideal range. | EXCLUDED 2026-07-19: buyer price cap $10,000.",
-      "category": "es_335",
-      "id": "g071",
-      "status": "EXCLUDED",
-      "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-07-19",
-      "market_bucket": "es-335 vintage",
-      "price_history": [
-        {
-          "date": "2026-07-19",
-          "price_usd": 10999
-        }
-      ],
-      "research_cluster": "norlin-335-early",
-      "research": [
-        "Neck feel: 1972-75 necks are generally slim-to-medium with the Norlin headstock volute and 3-piece construction (mahogany transitioning to maple ~1975); profiles vary but rarely reach 50s chunkiness.",
-        "Pickups: T-Tops throughout \u2014 clear, tight, slightly brighter than PAFs, less midrange complexity but excellent clean and edge-of-breakup; many examples have had swaps over 50 years.",
-        "Known issues: classic Norlin gripes \u2014 weight creep on some, crooked neck sets, mediocre fretwork, sunken tops around the bridge on some examples, the volute, and hit-or-miss quality declining through the decade.",
-        "Market/value: the affordable entry into vintage 335s \u2014 early-70s examples trade far below dot-necks; 'great for the money if you play it first' consensus; clean, light, straight-necked examples appreciating modestly.",
-        "Verify before buying: neck set straightness, top sinking under the bridge, actual weight, volute-area crack/repair, T-Top originality (DCR ~7.5k), and confirm year via pot codes since Norlin serials are notoriously ambiguous."
-      ],
-      "score": 85.6,
-      "score_breakdown": {
-        "weight_30pct": {
-          "score": 100.0,
-          "note": "weight 7.69 lbs"
-        },
-        "neck_25pct": {
-          "score": 66.7,
-          "note": "nut ok (100); 1st fret ok (100); 12th fret ok (0)"
-        },
-        "shoulders_30pct": {
-          "score": 95.0,
-          "note": "slim/fast profile: 'mahogany neck, thin 60s carve'"
-        },
-        "condition_10pct": {
-          "score": 92.0,
-          "note": "excellent"
-        },
-        "price_5pct": {
-          "score": 25.0,
-          "note": "well above anchor"
-        }
-      }
-    },
-    {
       "reverb_id": "97924994",
       "url": "https://reverb.com/item/97924994-2022-gibson-custom-61-es-335tdc-dot-reissue-cherry-w-ohsc",
       "dealer": "Imperial Vintage Guitars",
@@ -8216,6 +8076,80 @@
         "price_5pct": {
           "score": 70.0,
           "note": "slightly above anchor"
+        }
+      }
+    },
+    {
+      "reverb_id": "94457520",
+      "url": "https://reverb.com/item/94457520-2020-gibson-custom-shop-61-es-335-reissue-ebony-vos-finish-coa-included-301",
+      "dealer": "TheGuitarBuyer",
+      "price_usd": 4800.0,
+      "year": 2020,
+      "model": "Custom Shop '61 ES-335 Reissue VOS",
+      "finish": "VOS Ebony",
+      "weight_lbs": 7.625,
+      "weight_as_stated": "7lb 10oz",
+      "nut_width_in": 1.68,
+      "fret1_depth_in": 0.81,
+      "fret12_depth_in": 0.92,
+      "neck_profile": "'61 slim",
+      "condition": "Very Good",
+      "serial": null,
+      "city_state": "Dayton, OH",
+      "pickups": "Custombucker",
+      "case_included": "Gibson brown case + COA + candy",
+      "modifications": null,
+      "published_at": "2026-02-11T08:35:12-08:00",
+      "offers_enabled": false,
+      "note": "7 lb 10 oz Ebony VOS '61 RI at $4,800 \u2014 ideal weight, rarer black finish, light playwear.",
+      "category": "es_335",
+      "id": "g282",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-30",
+      "last_confirmed_active": "2026-08-16",
+      "market_bucket": "es-335 61 reissue",
+      "price_history": [
+        {
+          "date": "2026-07-30",
+          "price_usd": 4800.0
+        }
+      ],
+      "research_cluster": "cs-61-reissue-335",
+      "research": [
+        "Neck feel: the 1961 reissue's 'Skinny C' SlimTaper was scanned from originals \u2014 thin (~.80\" range at the 1st fret) with vintage 1-11/16\" nut; owners say convincingly close to a real early-60s slim neck, noticeably slimmer than the '59 reissue carve.",
+        "Pickups: unpotted Custombuckers \u2014 airy PAF clarity, piano-like lows, classic 335 honk; regarded as a genuine upgrade over Memphis-era MHS/BB sets; unpotted caveat: microphonic squeal at very high gain.",
+        "Known issues: relatively few \u2014 Murphy Lab lacquer fragility/checking, weight variance (7.5-9 lbs), scattered nut/setup complaints; thin lacquer damages easily in shipping; hollow wings + unpotted pickups mean feedback management is part of ownership.",
+        "Market/value: current top-of-market for new 335s; Murphy Lab premium softens on resale (used ML often 25-30% off list) while VOS holds value best; has largely replaced clean vintage 335s in the 'best modern alternative' conversation.",
+        "Verify before buying: neck measurements (confirm the skinny '61 carve suits you vs the fatter '59 RI), weight, aging level and hidden damage within Murphy Lab wear, COA/case, center block rattles (tap test), original Custombuckers."
+      ],
+      "offer_intel": {
+        "as_of": "2026-08-09",
+        "anchor_usd": 5000,
+        "over_market_pct": -4,
+        "offers_enabled": false,
+        "days_listed": 179
+      },
+      "score": 85.5,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 7.625 lbs"
+        },
+        "neck_25pct": {
+          "score": 63.3,
+          "note": "nut ok (0); 1st fret ok (90); 12th fret ok (100)"
+        },
+        "shoulders_30pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: ''61 slim'"
+        },
+        "condition_10pct": {
+          "score": 82.0,
+          "note": "very good"
+        },
+        "price_5pct": {
+          "score": 60.0,
+          "note": "well above anchor"
         }
       }
     },
@@ -8367,148 +8301,6 @@
           "score": 70.0,
           "note": "slightly above anchor"
         }
-      }
-    },
-    {
-      "dealer": "Wildwood Guitars",
-      "url": "https://wildwoodguitars.com/products/gibson-wildwood-spec-1961-es-335-reissue-3",
-      "price_usd": 6999,
-      "condition": "New",
-      "city_state": "Louisville, CO",
-      "year": null,
-      "model": "Gibson Custom Shop Wildwood Spec 1961 ES-335 Reissue (Gloss)",
-      "finish": "Viking Red",
-      "serial": "140659",
-      "weight_lbs": 7.55,
-      "nut_width_in": 1.6875,
-      "fret1_depth_in": 0.81,
-      "fret12_depth_in": 0.92,
-      "neck_profile": "'61 slim C (Wildwood Spec)",
-      "shoulder_description": "Slim '61 carve, .810/.920 - right in target depth windows",
-      "fingerboard_radius": "12\"",
-      "pickups": "2 Wildwood Spec Custombuckers",
-      "case_included": "Gibson hardshell",
-      "modifications": null,
-      "measurements_source": "dealer measured",
-      "notes": "Ideal weight 7.55 lbs; solid maple center block, no weight relief. Nut 1 11/16\" (wider than 1.56-1.60 vintage-narrow target). Verified in stock (Add to Cart) 2026-07-19.",
-      "category": "es_335",
-      "id": "g045",
-      "status": "ACTIVE",
-      "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-08-09",
-      "market_bucket": "es-335 61 reissue",
-      "price_history": [
-        {
-          "date": "2026-07-19",
-          "price_usd": 6999
-        }
-      ],
-      "score": 85.2,
-      "score_breakdown": {
-        "weight_30pct": {
-          "score": 100.0,
-          "note": "weight 7.55 lbs"
-        },
-        "neck_25pct": {
-          "score": 66.7,
-          "note": "nut ok (0); 1st fret ok (100); 12th fret ok (100)"
-        },
-        "shoulders_30pct": {
-          "score": 95.0,
-          "note": "slim/fast profile: ''61 slim c (wildwood spec) slim '61 carve, .810/.920 - right'"
-        },
-        "condition_10pct": {
-          "score": 100.0,
-          "note": "new"
-        },
-        "price_5pct": {
-          "score": 0.0,
-          "note": "well above anchor"
-        }
-      },
-      "research_cluster": "cs-61-reissue-335",
-      "research": [
-        "Neck feel: the 1961 reissue's 'Skinny C' SlimTaper was scanned from originals \u2014 thin (~.80\" range at the 1st fret) with vintage 1-11/16\" nut; owners say convincingly close to a real early-60s slim neck, noticeably slimmer than the '59 reissue carve.",
-        "Pickups: unpotted Custombuckers \u2014 airy PAF clarity, piano-like lows, classic 335 honk; regarded as a genuine upgrade over Memphis-era MHS/BB sets; unpotted caveat: microphonic squeal at very high gain.",
-        "Known issues: relatively few \u2014 Murphy Lab lacquer fragility/checking, weight variance (7.5-9 lbs), scattered nut/setup complaints; thin lacquer damages easily in shipping; hollow wings + unpotted pickups mean feedback management is part of ownership.",
-        "Market/value: current top-of-market for new 335s; Murphy Lab premium softens on resale (used ML often 25-30% off list) while VOS holds value best; has largely replaced clean vintage 335s in the 'best modern alternative' conversation.",
-        "Verify before buying: neck measurements (confirm the skinny '61 carve suits you vs the fatter '59 RI), weight, aging level and hidden damage within Murphy Lab wear, COA/case, center block rattles (tap test), original Custombuckers."
-      ],
-      "offer_intel": {
-        "as_of": "2026-08-09",
-        "anchor_usd": 5000,
-        "over_market_pct": 40
-      }
-    },
-    {
-      "dealer": "Wildwood Guitars",
-      "url": "https://wildwoodguitars.com/products/wildwood-spec-1961-es-335-figured-gloss",
-      "price_usd": 7249,
-      "condition": "New",
-      "city_state": "Louisville, CO",
-      "year": null,
-      "model": "Gibson Custom Shop Wildwood Spec 1961 ES-335 Figured Reissue (Gloss)",
-      "finish": "Vintage Natural",
-      "serial": "140233",
-      "weight_lbs": 7.66,
-      "nut_width_in": 1.6875,
-      "fret1_depth_in": 0.82,
-      "fret12_depth_in": 0.92,
-      "neck_profile": "'61 slim C (Wildwood Spec)",
-      "shoulder_description": "Slim '61 carve, .820/.920 in target windows",
-      "fingerboard_radius": "12\"",
-      "pickups": "2 Wildwood Spec Custombuckers",
-      "case_included": "Gibson hardshell",
-      "modifications": null,
-      "measurements_source": "dealer measured",
-      "notes": "Ideal-band 7.66 lbs with figured maple top. Sibling figured #140450 (7.76 lbs, .830/.930, $7,299) also in stock. Verified 2026-07-19.",
-      "category": "es_335",
-      "id": "g047",
-      "status": "ACTIVE",
-      "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-08-09",
-      "market_bucket": "es-335 61 reissue",
-      "price_history": [
-        {
-          "date": "2026-07-19",
-          "price_usd": 7249
-        }
-      ],
-      "score": 85.2,
-      "score_breakdown": {
-        "weight_30pct": {
-          "score": 100.0,
-          "note": "weight 7.66 lbs"
-        },
-        "neck_25pct": {
-          "score": 66.7,
-          "note": "nut ok (0); 1st fret ok (100); 12th fret ok (100)"
-        },
-        "shoulders_30pct": {
-          "score": 95.0,
-          "note": "slim/fast profile: ''61 slim c (wildwood spec) slim '61 carve, .820/.920 in targ'"
-        },
-        "condition_10pct": {
-          "score": 100.0,
-          "note": "new"
-        },
-        "price_5pct": {
-          "score": 0.0,
-          "note": "well above anchor"
-        }
-      },
-      "research_cluster": "cs-61-reissue-335",
-      "research": [
-        "Neck feel: the 1961 reissue's 'Skinny C' SlimTaper was scanned from originals \u2014 thin (~.80\" range at the 1st fret) with vintage 1-11/16\" nut; owners say convincingly close to a real early-60s slim neck, noticeably slimmer than the '59 reissue carve.",
-        "Pickups: unpotted Custombuckers \u2014 airy PAF clarity, piano-like lows, classic 335 honk; regarded as a genuine upgrade over Memphis-era MHS/BB sets; unpotted caveat: microphonic squeal at very high gain.",
-        "Known issues: relatively few \u2014 Murphy Lab lacquer fragility/checking, weight variance (7.5-9 lbs), scattered nut/setup complaints; thin lacquer damages easily in shipping; hollow wings + unpotted pickups mean feedback management is part of ownership.",
-        "Market/value: current top-of-market for new 335s; Murphy Lab premium softens on resale (used ML often 25-30% off list) while VOS holds value best; has largely replaced clean vintage 335s in the 'best modern alternative' conversation.",
-        "Verify before buying: neck measurements (confirm the skinny '61 carve suits you vs the fatter '59 RI), weight, aging level and hidden damage within Murphy Lab wear, COA/case, center block rattles (tap test), original Custombuckers."
-      ],
-      "offer_intel": {
-        "as_of": "2026-08-09",
-        "anchor_usd": 5000,
-        "over_market_pct": 45
       }
     },
     {
@@ -8999,6 +8791,77 @@
       }
     },
     {
+      "dealer": "Wildwood Guitars",
+      "url": "https://wildwoodguitars.com/products/gibson-wildwood-spec-1961-es-335-reissue-3",
+      "price_usd": 6999,
+      "condition": "New",
+      "city_state": "Louisville, CO",
+      "year": null,
+      "model": "Gibson Custom Shop Wildwood Spec 1961 ES-335 Reissue (Gloss)",
+      "finish": "Viking Red",
+      "serial": "140659",
+      "weight_lbs": 7.55,
+      "nut_width_in": 1.6875,
+      "fret1_depth_in": 0.81,
+      "fret12_depth_in": 0.92,
+      "neck_profile": "'61 slim C (Wildwood Spec)",
+      "shoulder_description": "Slim '61 carve, .810/.920 - right in target depth windows",
+      "fingerboard_radius": "12\"",
+      "pickups": "2 Wildwood Spec Custombuckers",
+      "case_included": "Gibson hardshell",
+      "modifications": null,
+      "measurements_source": "dealer measured",
+      "notes": "Ideal weight 7.55 lbs; solid maple center block, no weight relief. Nut 1 11/16\" (wider than 1.56-1.60 vintage-narrow target). Verified in stock (Add to Cart) 2026-07-19.",
+      "category": "es_335",
+      "id": "g045",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-08-09",
+      "market_bucket": "es-335 61 reissue",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 6999
+        }
+      ],
+      "score": 84.3,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 7.55 lbs"
+        },
+        "neck_25pct": {
+          "score": 63.3,
+          "note": "nut ok (0); 1st fret ok (90); 12th fret ok (100)"
+        },
+        "shoulders_30pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: ''61 slim c (wildwood spec) slim '61 carve, .810/.920 - right'"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "new"
+        },
+        "price_5pct": {
+          "score": 0.0,
+          "note": "well above anchor"
+        }
+      },
+      "research_cluster": "cs-61-reissue-335",
+      "research": [
+        "Neck feel: the 1961 reissue's 'Skinny C' SlimTaper was scanned from originals \u2014 thin (~.80\" range at the 1st fret) with vintage 1-11/16\" nut; owners say convincingly close to a real early-60s slim neck, noticeably slimmer than the '59 reissue carve.",
+        "Pickups: unpotted Custombuckers \u2014 airy PAF clarity, piano-like lows, classic 335 honk; regarded as a genuine upgrade over Memphis-era MHS/BB sets; unpotted caveat: microphonic squeal at very high gain.",
+        "Known issues: relatively few \u2014 Murphy Lab lacquer fragility/checking, weight variance (7.5-9 lbs), scattered nut/setup complaints; thin lacquer damages easily in shipping; hollow wings + unpotted pickups mean feedback management is part of ownership.",
+        "Market/value: current top-of-market for new 335s; Murphy Lab premium softens on resale (used ML often 25-30% off list) while VOS holds value best; has largely replaced clean vintage 335s in the 'best modern alternative' conversation.",
+        "Verify before buying: neck measurements (confirm the skinny '61 carve suits you vs the fatter '59 RI), weight, aging level and hidden damage within Murphy Lab wear, COA/case, center block rattles (tap test), original Custombuckers."
+      ],
+      "offer_intel": {
+        "as_of": "2026-08-09",
+        "anchor_usd": 5000,
+        "over_market_pct": 40
+      }
+    },
+    {
       "url": "https://reverb.com/item/100067356-gibson-custom-shop-wildwood-spec-60-les-paul-standard-v2-neck-murphy-painted-tom-s-tea-gloss-nh-81-91-8-38lbs",
       "dealer": "Reverb private seller (bobs-boutique-421)",
       "price_usd": 7800,
@@ -9141,6 +9004,72 @@
         "as_of": "2026-08-09",
         "anchor_usd": 3500,
         "over_market_pct": -6
+      }
+    },
+    {
+      "dealer": "Reverb \u2013 Thunder Road Guitars PDX",
+      "url": "https://reverb.com/item/95830562-1967-gibson-es-335-cherry-all-original-guitar-097033",
+      "price_usd": 10999,
+      "condition": "Excellent",
+      "city_state": "Portland, OR",
+      "year": 1967,
+      "model": "Gibson ES-335TD",
+      "finish": "Cherry",
+      "serial": "097033",
+      "weight_lbs": 7.69,
+      "nut_width_in": 1.5625,
+      "fret1_depth_in": 0.82,
+      "fret12_depth_in": 1.03,
+      "neck_profile": "Mahogany neck, thin 60s carve",
+      "shoulder_description": null,
+      "fingerboard_radius": "12\"",
+      "pickups": "2 Patent # decal humbuckers, CTS pots dated 1966",
+      "case_included": "Newer non-original hardshell case",
+      "modifications": "None - all original (trapeze, ABR-1 with nylon saddles)",
+      "measurements_source": "dealer measured",
+      "notes": "Reverb item 95830562. 7 lb 11 oz. Pre-volute one-piece-neck era, 1 9/16 synthetic nut, low wide frets in excellent condition. 1st fret 0.82 at top of ideal range. | EXCLUDED 2026-07-19: buyer price cap $10,000.",
+      "category": "es_335",
+      "id": "g071",
+      "status": "EXCLUDED",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "es-335 vintage",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 10999
+        }
+      ],
+      "research_cluster": "norlin-335-early",
+      "research": [
+        "Neck feel: 1972-75 necks are generally slim-to-medium with the Norlin headstock volute and 3-piece construction (mahogany transitioning to maple ~1975); profiles vary but rarely reach 50s chunkiness.",
+        "Pickups: T-Tops throughout \u2014 clear, tight, slightly brighter than PAFs, less midrange complexity but excellent clean and edge-of-breakup; many examples have had swaps over 50 years.",
+        "Known issues: classic Norlin gripes \u2014 weight creep on some, crooked neck sets, mediocre fretwork, sunken tops around the bridge on some examples, the volute, and hit-or-miss quality declining through the decade.",
+        "Market/value: the affordable entry into vintage 335s \u2014 early-70s examples trade far below dot-necks; 'great for the money if you play it first' consensus; clean, light, straight-necked examples appreciating modestly.",
+        "Verify before buying: neck set straightness, top sinking under the bridge, actual weight, volute-area crack/repair, T-Top originality (DCR ~7.5k), and confirm year via pot codes since Norlin serials are notoriously ambiguous."
+      ],
+      "score": 84.0,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 7.69 lbs"
+        },
+        "neck_25pct": {
+          "score": 60.0,
+          "note": "nut ok (100); 1st fret ok (80); 12th fret ok (0)"
+        },
+        "shoulders_30pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: 'mahogany neck, thin 60s carve'"
+        },
+        "condition_10pct": {
+          "score": 92.0,
+          "note": "excellent"
+        },
+        "price_5pct": {
+          "score": 25.0,
+          "note": "well above anchor"
+        }
       }
     },
     {
@@ -9337,6 +9266,77 @@
       }
     },
     {
+      "dealer": "Wildwood Guitars",
+      "url": "https://wildwoodguitars.com/products/wildwood-spec-1961-es-335-figured-gloss",
+      "price_usd": 7249,
+      "condition": "New",
+      "city_state": "Louisville, CO",
+      "year": null,
+      "model": "Gibson Custom Shop Wildwood Spec 1961 ES-335 Figured Reissue (Gloss)",
+      "finish": "Vintage Natural",
+      "serial": "140233",
+      "weight_lbs": 7.66,
+      "nut_width_in": 1.6875,
+      "fret1_depth_in": 0.82,
+      "fret12_depth_in": 0.92,
+      "neck_profile": "'61 slim C (Wildwood Spec)",
+      "shoulder_description": "Slim '61 carve, .820/.920 in target windows",
+      "fingerboard_radius": "12\"",
+      "pickups": "2 Wildwood Spec Custombuckers",
+      "case_included": "Gibson hardshell",
+      "modifications": null,
+      "measurements_source": "dealer measured",
+      "notes": "Ideal-band 7.66 lbs with figured maple top. Sibling figured #140450 (7.76 lbs, .830/.930, $7,299) also in stock. Verified 2026-07-19.",
+      "category": "es_335",
+      "id": "g047",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-08-09",
+      "market_bucket": "es-335 61 reissue",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 7249
+        }
+      ],
+      "score": 83.5,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 7.66 lbs"
+        },
+        "neck_25pct": {
+          "score": 60.0,
+          "note": "nut ok (0); 1st fret ok (80); 12th fret ok (100)"
+        },
+        "shoulders_30pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: ''61 slim c (wildwood spec) slim '61 carve, .820/.920 in targ'"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "new"
+        },
+        "price_5pct": {
+          "score": 0.0,
+          "note": "well above anchor"
+        }
+      },
+      "research_cluster": "cs-61-reissue-335",
+      "research": [
+        "Neck feel: the 1961 reissue's 'Skinny C' SlimTaper was scanned from originals \u2014 thin (~.80\" range at the 1st fret) with vintage 1-11/16\" nut; owners say convincingly close to a real early-60s slim neck, noticeably slimmer than the '59 reissue carve.",
+        "Pickups: unpotted Custombuckers \u2014 airy PAF clarity, piano-like lows, classic 335 honk; regarded as a genuine upgrade over Memphis-era MHS/BB sets; unpotted caveat: microphonic squeal at very high gain.",
+        "Known issues: relatively few \u2014 Murphy Lab lacquer fragility/checking, weight variance (7.5-9 lbs), scattered nut/setup complaints; thin lacquer damages easily in shipping; hollow wings + unpotted pickups mean feedback management is part of ownership.",
+        "Market/value: current top-of-market for new 335s; Murphy Lab premium softens on resale (used ML often 25-30% off list) while VOS holds value best; has largely replaced clean vintage 335s in the 'best modern alternative' conversation.",
+        "Verify before buying: neck measurements (confirm the skinny '61 carve suits you vs the fatter '59 RI), weight, aging level and hidden damage within Murphy Lab wear, COA/case, center block rattles (tap test), original Custombuckers."
+      ],
+      "offer_intel": {
+        "as_of": "2026-08-09",
+        "anchor_usd": 5000,
+        "over_market_pct": 45
+      }
+    },
+    {
       "dealer": "Empire Music",
       "url": "https://empiremusic.com/products/gibson-custom-shop-1959-les-paul-standard-murphy-lab-ultra-light-aged-sunrise-teaburst-61132",
       "price_usd": 7199,
@@ -9481,77 +9481,6 @@
         }
       },
       "notes": "EXCLUDED 2026-08-09: P-90-equipped Les Paul. Buyer's spec is humbucker LPs (Standard 60s, R0, PAF-style); '54/'56 Standard reissues ship P-90s. | Marked SOLD 2026-08-16."
-    },
-    {
-      "dealer": "Wildwood Guitars",
-      "url": "https://wildwoodguitars.com/products/wildwood-spec-1961-es-335-gloss-14",
-      "price_usd": 6999,
-      "condition": "New",
-      "city_state": "Louisville, CO",
-      "year": null,
-      "model": "Gibson Custom Shop Wildwood Spec 1961 ES-335 Reissue (Gloss)",
-      "finish": "Viking Red",
-      "serial": "140283",
-      "weight_lbs": 7.88,
-      "nut_width_in": 1.6875,
-      "fret1_depth_in": 0.81,
-      "fret12_depth_in": 0.92,
-      "neck_profile": "'61 slim C (Wildwood Spec)",
-      "shoulder_description": "Slim '61 carve, .810/.920 in target windows",
-      "fingerboard_radius": "12\"",
-      "pickups": "2 Wildwood Spec Custombuckers",
-      "case_included": "Gibson hardshell",
-      "modifications": null,
-      "measurements_source": "dealer measured",
-      "notes": "In-range 7.88 lbs; same spec as #140659 but heavier. Verified in stock 2026-07-19.",
-      "category": "es_335",
-      "id": "g046",
-      "status": "ACTIVE",
-      "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-08-09",
-      "market_bucket": "es-335 61 reissue",
-      "price_history": [
-        {
-          "date": "2026-07-19",
-          "price_usd": 6999
-        }
-      ],
-      "score": 82.8,
-      "score_breakdown": {
-        "weight_30pct": {
-          "score": 92.0,
-          "note": "weight 7.88 lbs"
-        },
-        "neck_25pct": {
-          "score": 66.7,
-          "note": "nut ok (0); 1st fret ok (100); 12th fret ok (100)"
-        },
-        "shoulders_30pct": {
-          "score": 95.0,
-          "note": "slim/fast profile: ''61 slim c (wildwood spec) slim '61 carve, .810/.920 in targ'"
-        },
-        "condition_10pct": {
-          "score": 100.0,
-          "note": "new"
-        },
-        "price_5pct": {
-          "score": 0.0,
-          "note": "well above anchor"
-        }
-      },
-      "research_cluster": "cs-61-reissue-335",
-      "research": [
-        "Neck feel: the 1961 reissue's 'Skinny C' SlimTaper was scanned from originals \u2014 thin (~.80\" range at the 1st fret) with vintage 1-11/16\" nut; owners say convincingly close to a real early-60s slim neck, noticeably slimmer than the '59 reissue carve.",
-        "Pickups: unpotted Custombuckers \u2014 airy PAF clarity, piano-like lows, classic 335 honk; regarded as a genuine upgrade over Memphis-era MHS/BB sets; unpotted caveat: microphonic squeal at very high gain.",
-        "Known issues: relatively few \u2014 Murphy Lab lacquer fragility/checking, weight variance (7.5-9 lbs), scattered nut/setup complaints; thin lacquer damages easily in shipping; hollow wings + unpotted pickups mean feedback management is part of ownership.",
-        "Market/value: current top-of-market for new 335s; Murphy Lab premium softens on resale (used ML often 25-30% off list) while VOS holds value best; has largely replaced clean vintage 335s in the 'best modern alternative' conversation.",
-        "Verify before buying: neck measurements (confirm the skinny '61 carve suits you vs the fatter '59 RI), weight, aging level and hidden damage within Murphy Lab wear, COA/case, center block rattles (tap test), original Custombuckers."
-      ],
-      "offer_intel": {
-        "as_of": "2026-08-09",
-        "anchor_usd": 5000,
-        "over_market_pct": 40
-      }
     },
     {
       "url": "https://www.chicagomusicexchange.com/products/gibson-custom-shop-1960-les-paul-standard-cme-spec-2380693",
@@ -10045,6 +9974,77 @@
           "score": 70.0,
           "note": "slightly above anchor"
         }
+      }
+    },
+    {
+      "dealer": "Wildwood Guitars",
+      "url": "https://wildwoodguitars.com/products/wildwood-spec-1961-es-335-gloss-14",
+      "price_usd": 6999,
+      "condition": "New",
+      "city_state": "Louisville, CO",
+      "year": null,
+      "model": "Gibson Custom Shop Wildwood Spec 1961 ES-335 Reissue (Gloss)",
+      "finish": "Viking Red",
+      "serial": "140283",
+      "weight_lbs": 7.88,
+      "nut_width_in": 1.6875,
+      "fret1_depth_in": 0.81,
+      "fret12_depth_in": 0.92,
+      "neck_profile": "'61 slim C (Wildwood Spec)",
+      "shoulder_description": "Slim '61 carve, .810/.920 in target windows",
+      "fingerboard_radius": "12\"",
+      "pickups": "2 Wildwood Spec Custombuckers",
+      "case_included": "Gibson hardshell",
+      "modifications": null,
+      "measurements_source": "dealer measured",
+      "notes": "In-range 7.88 lbs; same spec as #140659 but heavier. Verified in stock 2026-07-19.",
+      "category": "es_335",
+      "id": "g046",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-08-09",
+      "market_bucket": "es-335 61 reissue",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 6999
+        }
+      ],
+      "score": 81.9,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 92.0,
+          "note": "weight 7.88 lbs"
+        },
+        "neck_25pct": {
+          "score": 63.3,
+          "note": "nut ok (0); 1st fret ok (90); 12th fret ok (100)"
+        },
+        "shoulders_30pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: ''61 slim c (wildwood spec) slim '61 carve, .810/.920 in targ'"
+        },
+        "condition_10pct": {
+          "score": 100.0,
+          "note": "new"
+        },
+        "price_5pct": {
+          "score": 0.0,
+          "note": "well above anchor"
+        }
+      },
+      "research_cluster": "cs-61-reissue-335",
+      "research": [
+        "Neck feel: the 1961 reissue's 'Skinny C' SlimTaper was scanned from originals \u2014 thin (~.80\" range at the 1st fret) with vintage 1-11/16\" nut; owners say convincingly close to a real early-60s slim neck, noticeably slimmer than the '59 reissue carve.",
+        "Pickups: unpotted Custombuckers \u2014 airy PAF clarity, piano-like lows, classic 335 honk; regarded as a genuine upgrade over Memphis-era MHS/BB sets; unpotted caveat: microphonic squeal at very high gain.",
+        "Known issues: relatively few \u2014 Murphy Lab lacquer fragility/checking, weight variance (7.5-9 lbs), scattered nut/setup complaints; thin lacquer damages easily in shipping; hollow wings + unpotted pickups mean feedback management is part of ownership.",
+        "Market/value: current top-of-market for new 335s; Murphy Lab premium softens on resale (used ML often 25-30% off list) while VOS holds value best; has largely replaced clean vintage 335s in the 'best modern alternative' conversation.",
+        "Verify before buying: neck measurements (confirm the skinny '61 carve suits you vs the fatter '59 RI), weight, aging level and hidden damage within Murphy Lab wear, COA/case, center block rattles (tap test), original Custombuckers."
+      ],
+      "offer_intel": {
+        "as_of": "2026-08-09",
+        "anchor_usd": 5000,
+        "over_market_pct": 40
       }
     },
     {
@@ -10916,79 +10916,6 @@
       }
     },
     {
-      "url": "https://reverb.com/item/99232629-gibson-memphis-es-335-63-reissue-2013-tone-specific-bloombucker-pickups",
-      "dealer": "Mahar's Vintage Guitars",
-      "price_usd": 3799.95,
-      "year": 2013,
-      "model": "Memphis ES-335 '63 Reissue",
-      "finish": "Sunburst",
-      "weight_lbs": 7.375,
-      "nut_width_in": 1.6875,
-      "fret1_depth_in": 0.808,
-      "fret12_depth_in": 0.992,
-      "neck_profile": "Slim rounded '60s C",
-      "condition": "Excellent",
-      "serial": null,
-      "city_state": "Chico, CA",
-      "pickups": "Tone Specific Bloombuckers (aftermarket PAF-style, 7.34k/8.28k) - originals NOT included",
-      "case_included": "Original case",
-      "modifications": "Non-original pickups, solder and wiring",
-      "published_at": "2026-07-21",
-      "offers_enabled": false,
-      "note": "Older listing (Jul 21) not previously captured. Very light 7 lbs 6 oz. PAF-style Bloombuckers may suit buyer, but originals gone - factor into value.",
-      "category": "es_335",
-      "id": "g314",
-      "status": "SOLD",
-      "date_discovered": "2026-08-01",
-      "last_confirmed_active": "2026-08-09",
-      "market_bucket": "es-335 memphis",
-      "price_history": [
-        {
-          "date": "2026-08-01",
-          "price_usd": 3799.95
-        }
-      ],
-      "research_cluster": "memphis-335",
-      "research": [
-        "Neck feel: Memphis-era necks trend slim \u2014 2014 dots ~.80-.88\" with decent shoulder; 2015-18 add rolled fingerboard binding that owners love; profile varies by sub-model ('58/'63 reissues carry year-appropriate carves).",
-        "Pickups: MHS (Memphis Historic Spec) humbuckers \u2014 Alnico III vintage voicing; largely positive ('very vintage, mellow, smooth'), minority complaint: darker/softer than Burstbuckers into dark amps.",
-        "Known issues: QC inconsistency is the era's theme \u2014 mis-cut nuts and string-spacing errors, deep nut slots with high bridges, hide-glue squeeze-out visible through f-holes, occasional finish flaws; good examples rival Nashville CS output.",
-        "Market/value: strong used-value reputation since the Memphis plant closed (2019) \u2014 '58/'59/'63 reissues and Figured models have appreciated modestly and are the recommended sweet spot for vintage-voiced 335s under Custom Shop money.",
-        "Verify before buying: nut cut and string spacing (the era's signature flaw), setup feel or a return window, glue squeeze-out, which sub-model it actually is (big value differences), original MHS pickups, weight (7.5-9 lbs spread)."
-      ],
-      "offer_intel": {
-        "as_of": "2026-08-09",
-        "anchor_usd": 3500,
-        "over_market_pct": 9,
-        "offers_enabled": false,
-        "days_listed": 18
-      },
-      "score": 81.1,
-      "score_breakdown": {
-        "weight_30pct": {
-          "score": 97.5,
-          "note": "weight 7.375 lbs"
-        },
-        "neck_25pct": {
-          "score": 42.7,
-          "note": "nut ok (0); 1st fret ok (100); 12th fret ok (28)"
-        },
-        "shoulders_30pct": {
-          "score": 95.0,
-          "note": "slim/fast profile: 'slim rounded '60s c'"
-        },
-        "condition_10pct": {
-          "score": 92.0,
-          "note": "excellent"
-        },
-        "price_5pct": {
-          "score": 70.0,
-          "note": "slightly above anchor"
-        }
-      },
-      "notes": " | Marked SOLD 2026-08-16."
-    },
-    {
       "dealer": "Reverb \u2013 Guitar Chimp",
       "url": "https://reverb.com/item/87892067-1979-gibson-es-335td-walnut",
       "price_usd": 3699.0,
@@ -11667,6 +11594,79 @@
       }
     },
     {
+      "url": "https://reverb.com/item/99232629-gibson-memphis-es-335-63-reissue-2013-tone-specific-bloombucker-pickups",
+      "dealer": "Mahar's Vintage Guitars",
+      "price_usd": 3799.95,
+      "year": 2013,
+      "model": "Memphis ES-335 '63 Reissue",
+      "finish": "Sunburst",
+      "weight_lbs": 7.375,
+      "nut_width_in": 1.6875,
+      "fret1_depth_in": 0.808,
+      "fret12_depth_in": 0.992,
+      "neck_profile": "Slim rounded '60s C",
+      "condition": "Excellent",
+      "serial": null,
+      "city_state": "Chico, CA",
+      "pickups": "Tone Specific Bloombuckers (aftermarket PAF-style, 7.34k/8.28k) - originals NOT included",
+      "case_included": "Original case",
+      "modifications": "Non-original pickups, solder and wiring",
+      "published_at": "2026-07-21",
+      "offers_enabled": false,
+      "note": "Older listing (Jul 21) not previously captured. Very light 7 lbs 6 oz. PAF-style Bloombuckers may suit buyer, but originals gone - factor into value.",
+      "category": "es_335",
+      "id": "g314",
+      "status": "SOLD",
+      "date_discovered": "2026-08-01",
+      "last_confirmed_active": "2026-08-09",
+      "market_bucket": "es-335 memphis",
+      "price_history": [
+        {
+          "date": "2026-08-01",
+          "price_usd": 3799.95
+        }
+      ],
+      "research_cluster": "memphis-335",
+      "research": [
+        "Neck feel: Memphis-era necks trend slim \u2014 2014 dots ~.80-.88\" with decent shoulder; 2015-18 add rolled fingerboard binding that owners love; profile varies by sub-model ('58/'63 reissues carry year-appropriate carves).",
+        "Pickups: MHS (Memphis Historic Spec) humbuckers \u2014 Alnico III vintage voicing; largely positive ('very vintage, mellow, smooth'), minority complaint: darker/softer than Burstbuckers into dark amps.",
+        "Known issues: QC inconsistency is the era's theme \u2014 mis-cut nuts and string-spacing errors, deep nut slots with high bridges, hide-glue squeeze-out visible through f-holes, occasional finish flaws; good examples rival Nashville CS output.",
+        "Market/value: strong used-value reputation since the Memphis plant closed (2019) \u2014 '58/'59/'63 reissues and Figured models have appreciated modestly and are the recommended sweet spot for vintage-voiced 335s under Custom Shop money.",
+        "Verify before buying: nut cut and string spacing (the era's signature flaw), setup feel or a return window, glue squeeze-out, which sub-model it actually is (big value differences), original MHS pickups, weight (7.5-9 lbs spread)."
+      ],
+      "offer_intel": {
+        "as_of": "2026-08-09",
+        "anchor_usd": 3500,
+        "over_market_pct": 9,
+        "offers_enabled": false,
+        "days_listed": 18
+      },
+      "score": 80.4,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 97.5,
+          "note": "weight 7.375 lbs"
+        },
+        "neck_25pct": {
+          "score": 40.0,
+          "note": "nut ok (0); 1st fret ok (92); 12th fret ok (28)"
+        },
+        "shoulders_30pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: 'slim rounded '60s c'"
+        },
+        "condition_10pct": {
+          "score": 92.0,
+          "note": "excellent"
+        },
+        "price_5pct": {
+          "score": 70.0,
+          "note": "slightly above anchor"
+        }
+      },
+      "notes": " | Marked SOLD 2026-08-16."
+    },
+    {
       "url": "https://www.creamcitymusic.com/used-gibson-custom-1959-les-paul-standard-reissue-m2m-lemon-burst-gloss-2026/",
       "dealer": "Cream City Music",
       "price_usd": 5999,
@@ -11871,80 +11871,6 @@
       },
       "notes": "Serial 113361 cannot be dated reliably: Gibson reused six-digit ranges across 1970-1975, which is likely why the dealer says only \"vintage 70's\". Ask for pot date codes (accurate to within weeks) before buying.",
       "dealer": "Reverb \u2013 Bill's Music"
-    },
-    {
-      "url": "https://reverb.com/item/94538843-2017-gibson-custom-shop-es-335-64-ri-hand-select-sparkling-burgundy",
-      "dealer": "Watchtower Guitars (Reverb)",
-      "price_usd": 4395,
-      "year": 2017,
-      "model": "Gibson Custom Shop (Memphis-era) ES-335 1964 Reissue Hand Select",
-      "finish": "Sparkling Burgundy (apparent one-off; 'DEMO' marked on back of headstock)",
-      "weight_lbs": 7.75,
-      "nut_width_in": 1.6875,
-      "fret1_depth_in": 0.81,
-      "fret12_depth_in": 1.0,
-      "neck_profile": "'64 RI carve; 0.81 first fret / 1.00 twelfth fret (medium, not thin)",
-      "condition": "Excellent, all original, no repair history",
-      "serial": null,
-      "location": "Morristown, NJ (close-NJ, ~30 mi from Manhattan)",
-      "pickups": "MHS II with relic'd covers",
-      "case_included": true,
-      "modifications": "None; all original, OHSC + Custom Shop COA",
-      "published": "2026-07-30",
-      "note": "7 lb 12 oz \u2014 comfortably under the 8.0 hard cap. Memphis-era Custom Shop '64 RI (not literally the '61 RI subtarget). Listing created 2026-02-17, re-published/bumped 7/30; not in known IDs.",
-      "category": "es_335",
-      "id": "g298",
-      "status": "ACTIVE",
-      "date_discovered": "2026-07-31",
-      "last_confirmed_active": "2026-08-16",
-      "market_bucket": "es-335 memphis",
-      "price_history": [
-        {
-          "date": "2026-07-31",
-          "price_usd": 4395
-        }
-      ],
-      "research_cluster": "memphis-335",
-      "research": [
-        "Neck feel: Memphis-era necks trend slim \u2014 2014 dots ~.80-.88\" with decent shoulder; 2015-18 add rolled fingerboard binding that owners love; profile varies by sub-model ('58/'63 reissues carry year-appropriate carves).",
-        "Pickups: MHS (Memphis Historic Spec) humbuckers \u2014 Alnico III vintage voicing; largely positive ('very vintage, mellow, smooth'), minority complaint: darker/softer than Burstbuckers into dark amps.",
-        "Known issues: QC inconsistency is the era's theme \u2014 mis-cut nuts and string-spacing errors, deep nut slots with high bridges, hide-glue squeeze-out visible through f-holes, occasional finish flaws; good examples rival Nashville CS output.",
-        "Market/value: strong used-value reputation since the Memphis plant closed (2019) \u2014 '58/'59/'63 reissues and Figured models have appreciated modestly and are the recommended sweet spot for vintage-voiced 335s under Custom Shop money.",
-        "Verify before buying: nut cut and string spacing (the era's signature flaw), setup feel or a return window, glue squeeze-out, which sub-model it actually is (big value differences), original MHS pickups, weight (7.5-9 lbs spread)."
-      ],
-      "offer_intel": {
-        "as_of": "2026-08-09",
-        "anchor_usd": 3500,
-        "over_market_pct": 26,
-        "offers_enabled": true,
-        "days_listed": 10,
-        "suggested_offer_usd": 3850,
-        "discount_pct": 12,
-        "rationale": "8% base; 26% over market anchor ($3499)"
-      },
-      "score": 80.1,
-      "score_breakdown": {
-        "weight_30pct": {
-          "score": 100.0,
-          "note": "weight 7.75 lbs"
-        },
-        "neck_25pct": {
-          "score": 40.0,
-          "note": "nut ok (0); 1st fret ok (100); 12th fret ok (20)"
-        },
-        "shoulders_30pct": {
-          "score": 95.0,
-          "note": "slim/fast profile: ''64 ri carve; 0.81 first fret / 1.00 twelfth fret (medium, n'"
-        },
-        "condition_10pct": {
-          "score": 92.0,
-          "note": "excellent, all original, no repair history"
-        },
-        "price_5pct": {
-          "score": 48.9,
-          "note": "well above anchor"
-        }
-      }
     },
     {
       "dealer": "Reverb \u2013 Mike & Mike's Guitar Bar",
@@ -12320,6 +12246,80 @@
         "price_5pct": {
           "score": 100.0,
           "note": "18% under anchor"
+        }
+      }
+    },
+    {
+      "url": "https://reverb.com/item/94538843-2017-gibson-custom-shop-es-335-64-ri-hand-select-sparkling-burgundy",
+      "dealer": "Watchtower Guitars (Reverb)",
+      "price_usd": 4395,
+      "year": 2017,
+      "model": "Gibson Custom Shop (Memphis-era) ES-335 1964 Reissue Hand Select",
+      "finish": "Sparkling Burgundy (apparent one-off; 'DEMO' marked on back of headstock)",
+      "weight_lbs": 7.75,
+      "nut_width_in": 1.6875,
+      "fret1_depth_in": 0.81,
+      "fret12_depth_in": 1.0,
+      "neck_profile": "'64 RI carve; 0.81 first fret / 1.00 twelfth fret (medium, not thin)",
+      "condition": "Excellent, all original, no repair history",
+      "serial": null,
+      "location": "Morristown, NJ (close-NJ, ~30 mi from Manhattan)",
+      "pickups": "MHS II with relic'd covers",
+      "case_included": true,
+      "modifications": "None; all original, OHSC + Custom Shop COA",
+      "published": "2026-07-30",
+      "note": "7 lb 12 oz \u2014 comfortably under the 8.0 hard cap. Memphis-era Custom Shop '64 RI (not literally the '61 RI subtarget). Listing created 2026-02-17, re-published/bumped 7/30; not in known IDs.",
+      "category": "es_335",
+      "id": "g298",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-31",
+      "last_confirmed_active": "2026-08-16",
+      "market_bucket": "es-335 memphis",
+      "price_history": [
+        {
+          "date": "2026-07-31",
+          "price_usd": 4395
+        }
+      ],
+      "research_cluster": "memphis-335",
+      "research": [
+        "Neck feel: Memphis-era necks trend slim \u2014 2014 dots ~.80-.88\" with decent shoulder; 2015-18 add rolled fingerboard binding that owners love; profile varies by sub-model ('58/'63 reissues carry year-appropriate carves).",
+        "Pickups: MHS (Memphis Historic Spec) humbuckers \u2014 Alnico III vintage voicing; largely positive ('very vintage, mellow, smooth'), minority complaint: darker/softer than Burstbuckers into dark amps.",
+        "Known issues: QC inconsistency is the era's theme \u2014 mis-cut nuts and string-spacing errors, deep nut slots with high bridges, hide-glue squeeze-out visible through f-holes, occasional finish flaws; good examples rival Nashville CS output.",
+        "Market/value: strong used-value reputation since the Memphis plant closed (2019) \u2014 '58/'59/'63 reissues and Figured models have appreciated modestly and are the recommended sweet spot for vintage-voiced 335s under Custom Shop money.",
+        "Verify before buying: nut cut and string spacing (the era's signature flaw), setup feel or a return window, glue squeeze-out, which sub-model it actually is (big value differences), original MHS pickups, weight (7.5-9 lbs spread)."
+      ],
+      "offer_intel": {
+        "as_of": "2026-08-09",
+        "anchor_usd": 3500,
+        "over_market_pct": 26,
+        "offers_enabled": true,
+        "days_listed": 10,
+        "suggested_offer_usd": 3850,
+        "discount_pct": 12,
+        "rationale": "8% base; 26% over market anchor ($3499)"
+      },
+      "score": 79.3,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 7.75 lbs"
+        },
+        "neck_25pct": {
+          "score": 36.7,
+          "note": "nut ok (0); 1st fret ok (90); 12th fret ok (20)"
+        },
+        "shoulders_30pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: ''64 ri carve; 0.81 first fret / 1.00 twelfth fret (medium, n'"
+        },
+        "condition_10pct": {
+          "score": 92.0,
+          "note": "excellent, all original, no repair history"
+        },
+        "price_5pct": {
+          "score": 48.9,
+          "note": "well above anchor"
         }
       }
     },
@@ -16587,72 +16587,6 @@
       }
     },
     {
-      "dealer": "Chicago Music Exchange",
-      "url": "https://chicagomusicexchange.com/products/gibson-es-335-black-1968-2520236",
-      "price_usd": 20358,
-      "condition": "Used - Good (vintage, mostly original finish with small touch-ups)",
-      "city_state": "Chicago, IL",
-      "year": 1968,
-      "model": "Gibson ES-335 (factory Varitone example)",
-      "finish": "Black",
-      "serial": "952039",
-      "weight_lbs": 7.5,
-      "nut_width_in": 1.5625,
-      "fret1_depth_in": 0.82,
-      "fret12_depth_in": 0.99,
-      "neck_profile": "C profile",
-      "shoulder_description": null,
-      "fingerboard_radius": "12\"",
-      "pickups": "Patent-number-sticker humbuckers, neck 7.6k / bridge 8.1k",
-      "case_included": true,
-      "modifications": "Converted to mono; original Varitone/inductor removed (included in case), non-functional replacement Varitone installed; small finish touch-ups on top",
-      "measurements_source": "dealer measured",
-      "notes": "Ideal 7.5 lbs and 0.82\" first fret; pre-1972 but close to target era. Rare factory-Varitone black example; priced accordingly. | EXCLUDED 2026-07-19: buyer price cap $10,000.",
-      "category": "es_335",
-      "id": "g031",
-      "status": "EXCLUDED",
-      "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-07-19",
-      "market_bucket": "es-335 vintage",
-      "price_history": [
-        {
-          "date": "2026-07-19",
-          "price_usd": 20358
-        }
-      ],
-      "score": 74.2,
-      "score_breakdown": {
-        "weight_30pct": {
-          "score": 100.0,
-          "note": "weight 7.5 lbs"
-        },
-        "neck_25pct": {
-          "score": 76.7,
-          "note": "nut ok (100); 1st fret ok (100); 12th fret ok (30)"
-        },
-        "shoulders_30pct": {
-          "score": 60.0,
-          "note": "profile unclear: 'c profile'"
-        },
-        "condition_10pct": {
-          "score": 70.0,
-          "note": "used - good (vintage, mostly original finish with small touch-ups)"
-        },
-        "price_5pct": {
-          "score": 0.0,
-          "note": "well above anchor"
-        }
-      },
-      "research_cluster": "norlin-335-early",
-      "research": [
-        "Neck feel: 1972-75 necks are generally slim-to-medium with the Norlin headstock volute and 3-piece construction (mahogany transitioning to maple ~1975); profiles vary but rarely reach 50s chunkiness.",
-        "Pickups: T-Tops throughout \u2014 clear, tight, slightly brighter than PAFs, less midrange complexity but excellent clean and edge-of-breakup; many examples have had swaps over 50 years.",
-        "Known issues: classic Norlin gripes \u2014 weight creep on some, crooked neck sets, mediocre fretwork, sunken tops around the bridge on some examples, the volute, and hit-or-miss quality declining through the decade.",
-        "Market/value: the affordable entry into vintage 335s \u2014 early-70s examples trade far below dot-necks; 'great for the money if you play it first' consensus; clean, light, straight-necked examples appreciating modestly.",
-        "Verify before buying: neck set straightness, top sinking under the bridge, actual weight, volute-area crack/repair, T-Top originality (DCR ~7.5k), and confirm year via pot codes since Norlin serials are notoriously ambiguous."
-      ]
-    },
-    {
       "reverb_id": "80508746",
       "url": "https://reverb.com/item/80508746-gibson-custom-shop-60th-anniversary-60-les-paul-standard-reissue-v2-001797-2020-tomato-soup-burst",
       "dealer": "Guitar Showcase",
@@ -16726,87 +16660,6 @@
           "note": "slightly above anchor"
         }
       }
-    },
-    {
-      "reverb_id": 100306651,
-      "url": "https://reverb.com/item/100306651-gibson-memphis-es-335-block-2018-figured-antique-walnut",
-      "dealer_shop": "Fleury (private seller)",
-      "price_usd": 2399.0,
-      "year": 2018,
-      "model": "Gibson Memphis ES-335 Block",
-      "finish": "Figured Antique Walnut",
-      "weight_lbs": 7.93,
-      "nut_width_in": null,
-      "fret1_depth_in": 0.82,
-      "fret12_depth_in": 0.97,
-      "neck_profile": "Period-correct medium 'D'",
-      "condition": "Very Good - normal signs of playing and handling",
-      "serial": null,
-      "city_state": "Roswell, GA",
-      "pickups": "MHS humbuckers - Alnico III neck, Alnico II bridge",
-      "case_included": true,
-      "modifications": "Callaham ABR-1 bridge and steel tailpiece currently installed; original Gibson ABR-1 with titanium saddles and lightweight aluminum locking tailpiece included",
-      "published_at": "2026-08-09T20:14:54+03:00",
-      "offers_enabled": true,
-      "note": "FRESHEST OF THE SWEEP (pub 8/9). Weight 7.93 lbs is exact but SECOND-HAND - seller says 'weight was listed at 7.93 lbs when I purchased it', not a weight he took himself; re-weigh before committing, and note the Callaham steel tailpiece adds mass over the original aluminum one. Under the 8.0 ceiling but above the ideal band. Best neck depths of the modern group (.82/.97, closest to a Norlin slim taper). COA, factory paperwork and original hard case included; original parts included. Offers enabled at $2,995.",
-      "category": "es_335",
-      "id": "g347",
-      "status": "PRICE DROP",
-      "date_discovered": "2026-08-09",
-      "last_confirmed_active": "2026-08-16",
-      "market_bucket": "es-335 memphis",
-      "price_history": [
-        {
-          "date": "2026-08-09",
-          "price_usd": 2995
-        },
-        {
-          "date": "2026-08-16",
-          "price_usd": 2399.0
-        }
-      ],
-      "research_cluster": "memphis-335",
-      "research": [
-        "Neck feel: Memphis-era necks trend slim \u2014 2014 dots ~.80-.88\" with decent shoulder; 2015-18 add rolled fingerboard binding that owners love; profile varies by sub-model ('58/'63 reissues carry year-appropriate carves).",
-        "Pickups: MHS (Memphis Historic Spec) humbuckers \u2014 Alnico III vintage voicing; largely positive ('very vintage, mellow, smooth'), minority complaint: darker/softer than Burstbuckers into dark amps.",
-        "Known issues: QC inconsistency is the era's theme \u2014 mis-cut nuts and string-spacing errors, deep nut slots with high bridges, hide-glue squeeze-out visible through f-holes, occasional finish flaws; good examples rival Nashville CS output.",
-        "Market/value: strong used-value reputation since the Memphis plant closed (2019) \u2014 '58/'59/'63 reissues and Figured models have appreciated modestly and are the recommended sweet spot for vintage-voiced 335s under Custom Shop money.",
-        "Verify before buying: nut cut and string spacing (the era's signature flaw), setup feel or a return window, glue squeeze-out, which sub-model it actually is (big value differences), original MHS pickups, weight (7.5-9 lbs spread)."
-      ],
-      "offer_intel": {
-        "as_of": "2026-08-09",
-        "anchor_usd": 3500,
-        "over_market_pct": -14,
-        "offers_enabled": true,
-        "days_listed": 0,
-        "suggested_offer_usd": 2700,
-        "discount_pct": 10,
-        "rationale": "8% base; condition/mods"
-      },
-      "score": 74.1,
-      "score_breakdown": {
-        "weight_30pct": {
-          "score": 87.0,
-          "note": "weight 7.93 lbs"
-        },
-        "neck_25pct": {
-          "score": 67.0,
-          "note": "nut unmeasured; 1st fret ok (100); 12th fret ok (50)"
-        },
-        "shoulders_30pct": {
-          "score": 60.0,
-          "note": "profile unclear: 'period-correct medium 'd''"
-        },
-        "condition_10pct": {
-          "score": 82.0,
-          "note": "very good - normal signs of playing and handling"
-        },
-        "price_5pct": {
-          "score": 100.0,
-          "note": "31% under anchor"
-        }
-      },
-      "dealer": "Reverb \u2013 Fleury (private seller)"
     },
     {
       "url": "https://www.mmguitarbar.com/products/2014-gibson-custom-shop-les-paul-custom-black-beauty-near-mint-w-case-coa-tags",
@@ -17383,91 +17236,6 @@
       }
     },
     {
-      "reverb_id": 100228834,
-      "url": "https://reverb.com/item/100228834-gibson-es-335-cherry-1974",
-      "dealer_shop": "Chicago Music Exchange",
-      "price_usd": 6325.0,
-      "year": 1974,
-      "model": "Gibson ES-335 (Norlin era)",
-      "finish": "Cherry (original finish)",
-      "weight_lbs": 8.0,
-      "nut_width_in": 1.5625,
-      "fret1_depth_in": 0.82,
-      "fret12_depth_in": 0.96,
-      "neck_profile": "C profile",
-      "condition": "Good - light surface scratches on pickguard, more light scratches over the serial on back of headstock, hardware lightly tarnished; frets wide with light play wear, plays well with low action",
-      "serial": "525305",
-      "city_state": "Chicago, IL",
-      "pickups": "Original patent-number-embossed humbuckers (T-Top era), neck 7.8k / bridge 7.3k, original wiring",
-      "case_included": true,
-      "modifications": "None stated - original finish, original hardware, original electronics",
-      "published_at": "2026-08-07T18:41:28-04:00",
-      "offers_enabled": true,
-      "note": "TOP NORLIN REPLACEMENT. FRESH (pub 8/7). Closest structural match to the sold Mike & Mike's '75: Norlin-era, 1-9/16\" narrow nut, patent-number (T-Top-era) pickups, all-original, CONUS. Exact tech-measured weight 8 lbs - sits at the hard ceiling, 0.5 lb heavier than the 7.5 lb benchmark, so it fails the 7.5-7.8 ideal band. Free US_CON shipping, offers enabled - $6,325 is ~$1.1k over the sold guitar's ask, worth an offer. Full tech spec sheet with neck depths is a plus.",
-      "category": "es_335",
-      "id": "g341",
-      "status": "PRICE INCREASE",
-      "date_discovered": "2026-08-09",
-      "last_confirmed_active": "2026-08-16",
-      "market_bucket": "es-335 norlin",
-      "price_history": [
-        {
-          "date": "2026-08-09",
-          "price_usd": 6325
-        },
-        {
-          "date": "2026-08-09",
-          "price_usd": 5995.0
-        },
-        {
-          "date": "2026-08-16",
-          "price_usd": 6325.0
-        }
-      ],
-      "research_cluster": "norlin-335-early",
-      "research": [
-        "Neck feel: 1972-75 necks are generally slim-to-medium with the Norlin headstock volute and 3-piece construction (mahogany transitioning to maple ~1975); profiles vary but rarely reach 50s chunkiness.",
-        "Pickups: T-Tops throughout \u2014 clear, tight, slightly brighter than PAFs, less midrange complexity but excellent clean and edge-of-breakup; many examples have had swaps over 50 years.",
-        "Known issues: classic Norlin gripes \u2014 weight creep on some, crooked neck sets, mediocre fretwork, sunken tops around the bridge on some examples, the volute, and hit-or-miss quality declining through the decade.",
-        "Market/value: the affordable entry into vintage 335s \u2014 early-70s examples trade far below dot-necks; 'great for the money if you play it first' consensus; clean, light, straight-necked examples appreciating modestly.",
-        "Verify before buying: neck set straightness, top sinking under the bridge, actual weight, volute-area crack/repair, T-Top originality (DCR ~7.5k), and confirm year via pot codes since Norlin serials are notoriously ambiguous."
-      ],
-      "offer_intel": {
-        "as_of": "2026-08-09",
-        "anchor_usd": 5211,
-        "over_market_pct": 15,
-        "offers_enabled": true,
-        "days_listed": 2,
-        "suggested_offer_usd": 5150,
-        "discount_pct": 14,
-        "rationale": "8% base; 15% over market anchor ($5211); condition/mods"
-      },
-      "score": 73.0,
-      "score_breakdown": {
-        "weight_30pct": {
-          "score": 80.0,
-          "note": "weight 8.0 lbs"
-        },
-        "neck_25pct": {
-          "score": 86.7,
-          "note": "nut ok (100); 1st fret ok (100); 12th fret ok (60)"
-        },
-        "shoulders_30pct": {
-          "score": 60.0,
-          "note": "profile unclear: 'c profile'"
-        },
-        "condition_10pct": {
-          "score": 70.0,
-          "note": "good - light surface scratches on pickguard, more light scratches over the serial on back of headstock, hardware lightly tarnished; frets wide with light play wear, plays well with low action"
-        },
-        "price_5pct": {
-          "score": 47.0,
-          "note": "well above anchor"
-        }
-      },
-      "dealer": "Reverb \u2013 Chicago Music Exchange"
-    },
-    {
       "url": "https://willcuttguitars.com/products/gibson-m2m-1956-les-paul-standard-reissue-double-gold-454-lpr56psl000000664-65454",
       "dealer": "willcuttguitars",
       "price_usd": 5199.0,
@@ -17812,77 +17580,6 @@
       }
     },
     {
-      "url": "https://cartervintage.com/shop/gibson-es-335-1971-sunburst/38OqcGViNh4gBk6bqi1nHomWDOh",
-      "dealer": "cartervintage",
-      "price_usd": 6500.0,
-      "year": 1971,
-      "model": "ES-335",
-      "finish": "Sunburst",
-      "weight_lbs": 8.0,
-      "nut_width_in": null,
-      "fret1_depth_in": 0.81,
-      "fret12_depth_in": 0.93,
-      "neck_profile": "C",
-      "condition": null,
-      "serial": "GE3606-A",
-      "city_state": "Nashville, TN",
-      "pickups": "Neck 7.3k, Bridge 7.4k",
-      "case_included": null,
-      "modifications": "Replaced tuners, bridge (originals in case), replaced tailpiece, re-fretted, new nut.",
-      "note": "Gibson ES-335 1971, Sunburst",
-      "kind": "semi",
-      "vibrato": null,
-      "tier": 2,
-      "category": "es_335",
-      "id": "g693",
-      "status": "ACTIVE",
-      "date_discovered": "2026-08-09",
-      "last_confirmed_active": "2026-08-13",
-      "market_bucket": "es-335 norlin",
-      "price_history": [
-        {
-          "date": "2026-08-09",
-          "price_usd": 6500.0
-        }
-      ],
-      "research_cluster": "norlin-335-early",
-      "research": [
-        "Neck feel: 1972-75 necks are generally slim-to-medium with the Norlin headstock volute and 3-piece construction (mahogany transitioning to maple ~1975); profiles vary but rarely reach 50s chunkiness.",
-        "Pickups: T-Tops throughout \u2014 clear, tight, slightly brighter than PAFs, less midrange complexity but excellent clean and edge-of-breakup; many examples have had swaps over 50 years.",
-        "Known issues: classic Norlin gripes \u2014 weight creep on some, crooked neck sets, mediocre fretwork, sunken tops around the bridge on some examples, the volute, and hit-or-miss quality declining through the decade.",
-        "Market/value: the affordable entry into vintage 335s \u2014 early-70s examples trade far below dot-necks; 'great for the money if you play it first' consensus; clean, light, straight-necked examples appreciating modestly.",
-        "Verify before buying: neck set straightness, top sinking under the bridge, actual weight, volute-area crack/repair, T-Top originality (DCR ~7.5k), and confirm year via pot codes since Norlin serials are notoriously ambiguous."
-      ],
-      "score": 72.8,
-      "score_breakdown": {
-        "weight_30pct": {
-          "score": 80.0,
-          "note": "weight 8.0 lbs"
-        },
-        "neck_25pct": {
-          "score": 87.0,
-          "note": "nut unmeasured; 1st fret ok (100); 12th fret ok (90)"
-        },
-        "shoulders_30pct": {
-          "score": 60.0,
-          "note": "profile unclear: 'c'"
-        },
-        "condition_10pct": {
-          "score": 70.0,
-          "note": "condition unstated"
-        },
-        "price_5pct": {
-          "score": 40.0,
-          "note": "well above anchor"
-        }
-      },
-      "offer_intel": {
-        "as_of": "2026-08-09",
-        "anchor_usd": 5211,
-        "over_market_pct": 25
-      }
-    },
-    {
       "url": "https://cartervintage.com/shop/gibson-custom-shop-murphy-lab-light-aged-1959-les-paul-reissue-2025-ocean-blue/3Cm3sspKTTOXFpa42QR7SU9V01N",
       "dealer": "cartervintage",
       "price_usd": 9200.0,
@@ -18023,6 +17720,72 @@
         "anchor_usd": 5498,
         "over_market_pct": 42
       }
+    },
+    {
+      "dealer": "Chicago Music Exchange",
+      "url": "https://chicagomusicexchange.com/products/gibson-es-335-black-1968-2520236",
+      "price_usd": 20358,
+      "condition": "Used - Good (vintage, mostly original finish with small touch-ups)",
+      "city_state": "Chicago, IL",
+      "year": 1968,
+      "model": "Gibson ES-335 (factory Varitone example)",
+      "finish": "Black",
+      "serial": "952039",
+      "weight_lbs": 7.5,
+      "nut_width_in": 1.5625,
+      "fret1_depth_in": 0.82,
+      "fret12_depth_in": 0.99,
+      "neck_profile": "C profile",
+      "shoulder_description": null,
+      "fingerboard_radius": "12\"",
+      "pickups": "Patent-number-sticker humbuckers, neck 7.6k / bridge 8.1k",
+      "case_included": true,
+      "modifications": "Converted to mono; original Varitone/inductor removed (included in case), non-functional replacement Varitone installed; small finish touch-ups on top",
+      "measurements_source": "dealer measured",
+      "notes": "Ideal 7.5 lbs and 0.82\" first fret; pre-1972 but close to target era. Rare factory-Varitone black example; priced accordingly. | EXCLUDED 2026-07-19: buyer price cap $10,000.",
+      "category": "es_335",
+      "id": "g031",
+      "status": "EXCLUDED",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-07-19",
+      "market_bucket": "es-335 vintage",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 20358
+        }
+      ],
+      "score": 72.5,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 7.5 lbs"
+        },
+        "neck_25pct": {
+          "score": 70.0,
+          "note": "nut ok (100); 1st fret ok (80); 12th fret ok (30)"
+        },
+        "shoulders_30pct": {
+          "score": 60.0,
+          "note": "profile unclear: 'c profile'"
+        },
+        "condition_10pct": {
+          "score": 70.0,
+          "note": "used - good (vintage, mostly original finish with small touch-ups)"
+        },
+        "price_5pct": {
+          "score": 0.0,
+          "note": "well above anchor"
+        }
+      },
+      "research_cluster": "norlin-335-early",
+      "research": [
+        "Neck feel: 1972-75 necks are generally slim-to-medium with the Norlin headstock volute and 3-piece construction (mahogany transitioning to maple ~1975); profiles vary but rarely reach 50s chunkiness.",
+        "Pickups: T-Tops throughout \u2014 clear, tight, slightly brighter than PAFs, less midrange complexity but excellent clean and edge-of-breakup; many examples have had swaps over 50 years.",
+        "Known issues: classic Norlin gripes \u2014 weight creep on some, crooked neck sets, mediocre fretwork, sunken tops around the bridge on some examples, the volute, and hit-or-miss quality declining through the decade.",
+        "Market/value: the affordable entry into vintage 335s \u2014 early-70s examples trade far below dot-necks; 'great for the money if you play it first' consensus; clean, light, straight-necked examples appreciating modestly.",
+        "Verify before buying: neck set straightness, top sinking under the bridge, actual weight, volute-area crack/repair, T-Top originality (DCR ~7.5k), and confirm year via pot codes since Norlin serials are notoriously ambiguous."
+      ]
     },
     {
       "url": "https://wildwoodguitars.com/products/gibson-es-335-satin-225150012",
@@ -19023,6 +18786,158 @@
       }
     },
     {
+      "reverb_id": 100306651,
+      "url": "https://reverb.com/item/100306651-gibson-memphis-es-335-block-2018-figured-antique-walnut",
+      "dealer_shop": "Fleury (private seller)",
+      "price_usd": 2399.0,
+      "year": 2018,
+      "model": "Gibson Memphis ES-335 Block",
+      "finish": "Figured Antique Walnut",
+      "weight_lbs": 7.93,
+      "nut_width_in": null,
+      "fret1_depth_in": 0.82,
+      "fret12_depth_in": 0.97,
+      "neck_profile": "Period-correct medium 'D'",
+      "condition": "Very Good - normal signs of playing and handling",
+      "serial": null,
+      "city_state": "Roswell, GA",
+      "pickups": "MHS humbuckers - Alnico III neck, Alnico II bridge",
+      "case_included": true,
+      "modifications": "Callaham ABR-1 bridge and steel tailpiece currently installed; original Gibson ABR-1 with titanium saddles and lightweight aluminum locking tailpiece included",
+      "published_at": "2026-08-09T20:14:54+03:00",
+      "offers_enabled": true,
+      "note": "FRESHEST OF THE SWEEP (pub 8/9). Weight 7.93 lbs is exact but SECOND-HAND - seller says 'weight was listed at 7.93 lbs when I purchased it', not a weight he took himself; re-weigh before committing, and note the Callaham steel tailpiece adds mass over the original aluminum one. Under the 8.0 ceiling but above the ideal band. Best neck depths of the modern group (.82/.97, closest to a Norlin slim taper). COA, factory paperwork and original hard case included; original parts included. Offers enabled at $2,995.",
+      "category": "es_335",
+      "id": "g347",
+      "status": "PRICE DROP",
+      "date_discovered": "2026-08-09",
+      "last_confirmed_active": "2026-08-16",
+      "market_bucket": "es-335 memphis",
+      "price_history": [
+        {
+          "date": "2026-08-09",
+          "price_usd": 2995
+        },
+        {
+          "date": "2026-08-16",
+          "price_usd": 2399.0
+        }
+      ],
+      "research_cluster": "memphis-335",
+      "research": [
+        "Neck feel: Memphis-era necks trend slim \u2014 2014 dots ~.80-.88\" with decent shoulder; 2015-18 add rolled fingerboard binding that owners love; profile varies by sub-model ('58/'63 reissues carry year-appropriate carves).",
+        "Pickups: MHS (Memphis Historic Spec) humbuckers \u2014 Alnico III vintage voicing; largely positive ('very vintage, mellow, smooth'), minority complaint: darker/softer than Burstbuckers into dark amps.",
+        "Known issues: QC inconsistency is the era's theme \u2014 mis-cut nuts and string-spacing errors, deep nut slots with high bridges, hide-glue squeeze-out visible through f-holes, occasional finish flaws; good examples rival Nashville CS output.",
+        "Market/value: strong used-value reputation since the Memphis plant closed (2019) \u2014 '58/'59/'63 reissues and Figured models have appreciated modestly and are the recommended sweet spot for vintage-voiced 335s under Custom Shop money.",
+        "Verify before buying: nut cut and string spacing (the era's signature flaw), setup feel or a return window, glue squeeze-out, which sub-model it actually is (big value differences), original MHS pickups, weight (7.5-9 lbs spread)."
+      ],
+      "offer_intel": {
+        "as_of": "2026-08-09",
+        "anchor_usd": 3500,
+        "over_market_pct": -14,
+        "offers_enabled": true,
+        "days_listed": 0,
+        "suggested_offer_usd": 2700,
+        "discount_pct": 10,
+        "rationale": "8% base; condition/mods"
+      },
+      "score": 71.6,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 87.0,
+          "note": "weight 7.93 lbs"
+        },
+        "neck_25pct": {
+          "score": 57.0,
+          "note": "nut unmeasured; 1st fret ok (80); 12th fret ok (50)"
+        },
+        "shoulders_30pct": {
+          "score": 60.0,
+          "note": "profile unclear: 'period-correct medium 'd''"
+        },
+        "condition_10pct": {
+          "score": 82.0,
+          "note": "very good - normal signs of playing and handling"
+        },
+        "price_5pct": {
+          "score": 100.0,
+          "note": "31% under anchor"
+        }
+      },
+      "dealer": "Reverb \u2013 Fleury (private seller)"
+    },
+    {
+      "url": "https://cartervintage.com/shop/gibson-es-335-1971-sunburst/38OqcGViNh4gBk6bqi1nHomWDOh",
+      "dealer": "cartervintage",
+      "price_usd": 6500.0,
+      "year": 1971,
+      "model": "ES-335",
+      "finish": "Sunburst",
+      "weight_lbs": 8.0,
+      "nut_width_in": null,
+      "fret1_depth_in": 0.81,
+      "fret12_depth_in": 0.93,
+      "neck_profile": "C",
+      "condition": null,
+      "serial": "GE3606-A",
+      "city_state": "Nashville, TN",
+      "pickups": "Neck 7.3k, Bridge 7.4k",
+      "case_included": null,
+      "modifications": "Replaced tuners, bridge (originals in case), replaced tailpiece, re-fretted, new nut.",
+      "note": "Gibson ES-335 1971, Sunburst",
+      "kind": "semi",
+      "vibrato": null,
+      "tier": 2,
+      "category": "es_335",
+      "id": "g693",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-09",
+      "last_confirmed_active": "2026-08-13",
+      "market_bucket": "es-335 norlin",
+      "price_history": [
+        {
+          "date": "2026-08-09",
+          "price_usd": 6500.0
+        }
+      ],
+      "research_cluster": "norlin-335-early",
+      "research": [
+        "Neck feel: 1972-75 necks are generally slim-to-medium with the Norlin headstock volute and 3-piece construction (mahogany transitioning to maple ~1975); profiles vary but rarely reach 50s chunkiness.",
+        "Pickups: T-Tops throughout \u2014 clear, tight, slightly brighter than PAFs, less midrange complexity but excellent clean and edge-of-breakup; many examples have had swaps over 50 years.",
+        "Known issues: classic Norlin gripes \u2014 weight creep on some, crooked neck sets, mediocre fretwork, sunken tops around the bridge on some examples, the volute, and hit-or-miss quality declining through the decade.",
+        "Market/value: the affordable entry into vintage 335s \u2014 early-70s examples trade far below dot-necks; 'great for the money if you play it first' consensus; clean, light, straight-necked examples appreciating modestly.",
+        "Verify before buying: neck set straightness, top sinking under the bridge, actual weight, volute-area crack/repair, T-Top originality (DCR ~7.5k), and confirm year via pot codes since Norlin serials are notoriously ambiguous."
+      ],
+      "score": 71.5,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 80.0,
+          "note": "weight 8.0 lbs"
+        },
+        "neck_25pct": {
+          "score": 82.0,
+          "note": "nut unmeasured; 1st fret ok (90); 12th fret ok (90)"
+        },
+        "shoulders_30pct": {
+          "score": 60.0,
+          "note": "profile unclear: 'c'"
+        },
+        "condition_10pct": {
+          "score": 70.0,
+          "note": "condition unstated"
+        },
+        "price_5pct": {
+          "score": 40.0,
+          "note": "well above anchor"
+        }
+      },
+      "offer_intel": {
+        "as_of": "2026-08-09",
+        "anchor_usd": 5211,
+        "over_market_pct": 25
+      }
+    },
+    {
       "url": "https://reverb.com/item/100106523-gibson-custom-limited-edition-56-les-paul-standard-murphy-lab-light-aged-all-double-gold",
       "dealer": "Detroit Guitar",
       "price_usd": 6999.0,
@@ -19450,6 +19365,91 @@
           "note": "at/under anchor"
         }
       }
+    },
+    {
+      "reverb_id": 100228834,
+      "url": "https://reverb.com/item/100228834-gibson-es-335-cherry-1974",
+      "dealer_shop": "Chicago Music Exchange",
+      "price_usd": 6325.0,
+      "year": 1974,
+      "model": "Gibson ES-335 (Norlin era)",
+      "finish": "Cherry (original finish)",
+      "weight_lbs": 8.0,
+      "nut_width_in": 1.5625,
+      "fret1_depth_in": 0.82,
+      "fret12_depth_in": 0.96,
+      "neck_profile": "C profile",
+      "condition": "Good - light surface scratches on pickguard, more light scratches over the serial on back of headstock, hardware lightly tarnished; frets wide with light play wear, plays well with low action",
+      "serial": "525305",
+      "city_state": "Chicago, IL",
+      "pickups": "Original patent-number-embossed humbuckers (T-Top era), neck 7.8k / bridge 7.3k, original wiring",
+      "case_included": true,
+      "modifications": "None stated - original finish, original hardware, original electronics",
+      "published_at": "2026-08-07T18:41:28-04:00",
+      "offers_enabled": true,
+      "note": "TOP NORLIN REPLACEMENT. FRESH (pub 8/7). Closest structural match to the sold Mike & Mike's '75: Norlin-era, 1-9/16\" narrow nut, patent-number (T-Top-era) pickups, all-original, CONUS. Exact tech-measured weight 8 lbs - sits at the hard ceiling, 0.5 lb heavier than the 7.5 lb benchmark, so it fails the 7.5-7.8 ideal band. Free US_CON shipping, offers enabled - $6,325 is ~$1.1k over the sold guitar's ask, worth an offer. Full tech spec sheet with neck depths is a plus.",
+      "category": "es_335",
+      "id": "g341",
+      "status": "PRICE INCREASE",
+      "date_discovered": "2026-08-09",
+      "last_confirmed_active": "2026-08-16",
+      "market_bucket": "es-335 norlin",
+      "price_history": [
+        {
+          "date": "2026-08-09",
+          "price_usd": 6325
+        },
+        {
+          "date": "2026-08-09",
+          "price_usd": 5995.0
+        },
+        {
+          "date": "2026-08-16",
+          "price_usd": 6325.0
+        }
+      ],
+      "research_cluster": "norlin-335-early",
+      "research": [
+        "Neck feel: 1972-75 necks are generally slim-to-medium with the Norlin headstock volute and 3-piece construction (mahogany transitioning to maple ~1975); profiles vary but rarely reach 50s chunkiness.",
+        "Pickups: T-Tops throughout \u2014 clear, tight, slightly brighter than PAFs, less midrange complexity but excellent clean and edge-of-breakup; many examples have had swaps over 50 years.",
+        "Known issues: classic Norlin gripes \u2014 weight creep on some, crooked neck sets, mediocre fretwork, sunken tops around the bridge on some examples, the volute, and hit-or-miss quality declining through the decade.",
+        "Market/value: the affordable entry into vintage 335s \u2014 early-70s examples trade far below dot-necks; 'great for the money if you play it first' consensus; clean, light, straight-necked examples appreciating modestly.",
+        "Verify before buying: neck set straightness, top sinking under the bridge, actual weight, volute-area crack/repair, T-Top originality (DCR ~7.5k), and confirm year via pot codes since Norlin serials are notoriously ambiguous."
+      ],
+      "offer_intel": {
+        "as_of": "2026-08-09",
+        "anchor_usd": 5211,
+        "over_market_pct": 15,
+        "offers_enabled": true,
+        "days_listed": 2,
+        "suggested_offer_usd": 5150,
+        "discount_pct": 14,
+        "rationale": "8% base; 15% over market anchor ($5211); condition/mods"
+      },
+      "score": 71.3,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 80.0,
+          "note": "weight 8.0 lbs"
+        },
+        "neck_25pct": {
+          "score": 80.0,
+          "note": "nut ok (100); 1st fret ok (80); 12th fret ok (60)"
+        },
+        "shoulders_30pct": {
+          "score": 60.0,
+          "note": "profile unclear: 'c profile'"
+        },
+        "condition_10pct": {
+          "score": 70.0,
+          "note": "good - light surface scratches on pickguard, more light scratches over the serial on back of headstock, hardware lightly tarnished; frets wide with light play wear, plays well with low action"
+        },
+        "price_5pct": {
+          "score": 47.0,
+          "note": "well above anchor"
+        }
+      },
+      "dealer": "Reverb \u2013 Chicago Music Exchange"
     },
     {
       "url": "https://www.themusiczoo.com/products/gibson-custom-shop-1960-les-paul-standard-reissue-iced-tea-burst-vos",
@@ -19903,82 +19903,6 @@
           "score": 100.0,
           "note": "23% under anchor"
         }
-      }
-    },
-    {
-      "dealer": "Reverb \u2013 Rock N Roll Vintage & Synth City",
-      "url": "https://reverb.com/item/98179752-gibson-es-335-tdc-1969-cherry",
-      "price_usd": 8995,
-      "condition": "Very Good",
-      "city_state": "Chicago, IL",
-      "year": 1969,
-      "model": "Gibson ES-335TDC",
-      "finish": "Cherry",
-      "serial": null,
-      "weight_lbs": 7.55,
-      "nut_width_in": 1.57,
-      "fret1_depth_in": 0.811,
-      "fret12_depth_in": 1.01,
-      "neck_profile": null,
-      "shoulder_description": null,
-      "fingerboard_radius": null,
-      "pickups": "Original pickups (1969 patent-sticker era)",
-      "case_included": "Not stated in listing - confirm with dealer",
-      "modifications": "None stated; described as minty with impeccably clean finish",
-      "measurements_source": "dealer measured",
-      "notes": "Reverb item 98179752. Excellent weight (7.55) and ideal 1st-fret depth (0.811). Sparse description - verify pickup type and case before purchase.",
-      "category": "es_335",
-      "id": "g073",
-      "status": "ACTIVE",
-      "date_discovered": "2026-07-19",
-      "last_confirmed_active": "2026-08-16",
-      "market_bucket": "es-335 vintage",
-      "price_history": [
-        {
-          "date": "2026-07-19",
-          "price_usd": 8995
-        }
-      ],
-      "research_cluster": "norlin-335-early",
-      "research": [
-        "Neck feel: 1972-75 necks are generally slim-to-medium with the Norlin headstock volute and 3-piece construction (mahogany transitioning to maple ~1975); profiles vary but rarely reach 50s chunkiness.",
-        "Pickups: T-Tops throughout \u2014 clear, tight, slightly brighter than PAFs, less midrange complexity but excellent clean and edge-of-breakup; many examples have had swaps over 50 years.",
-        "Known issues: classic Norlin gripes \u2014 weight creep on some, crooked neck sets, mediocre fretwork, sunken tops around the bridge on some examples, the volute, and hit-or-miss quality declining through the decade.",
-        "Market/value: the affordable entry into vintage 335s \u2014 early-70s examples trade far below dot-necks; 'great for the money if you play it first' consensus; clean, light, straight-necked examples appreciating modestly.",
-        "Verify before buying: neck set straightness, top sinking under the bridge, actual weight, volute-area crack/repair, T-Top originality (DCR ~7.5k), and confirm year via pot codes since Norlin serials are notoriously ambiguous."
-      ],
-      "score": 70.9,
-      "score_breakdown": {
-        "weight_30pct": {
-          "score": 100.0,
-          "note": "weight 7.55 lbs"
-        },
-        "neck_25pct": {
-          "score": 68.7,
-          "note": "nut ok (96); 1st fret ok (100); 12th fret ok (10)"
-        },
-        "shoulders_30pct": {
-          "score": 40.0,
-          "note": "no shoulder/profile info"
-        },
-        "condition_10pct": {
-          "score": 82.0,
-          "note": "very good"
-        },
-        "price_5pct": {
-          "score": 70.0,
-          "note": "slightly above anchor"
-        }
-      },
-      "offer_intel": {
-        "as_of": "2026-08-09",
-        "anchor_usd": 8250,
-        "over_market_pct": 9,
-        "offers_enabled": true,
-        "days_listed": 38,
-        "suggested_offer_usd": 8100,
-        "discount_pct": 10,
-        "rationale": "8% base; condition/mods"
       }
     },
     {
@@ -21222,6 +21146,82 @@
       }
     },
     {
+      "dealer": "Reverb \u2013 Rock N Roll Vintage & Synth City",
+      "url": "https://reverb.com/item/98179752-gibson-es-335-tdc-1969-cherry",
+      "price_usd": 8995,
+      "condition": "Very Good",
+      "city_state": "Chicago, IL",
+      "year": 1969,
+      "model": "Gibson ES-335TDC",
+      "finish": "Cherry",
+      "serial": null,
+      "weight_lbs": 7.55,
+      "nut_width_in": 1.57,
+      "fret1_depth_in": 0.811,
+      "fret12_depth_in": 1.01,
+      "neck_profile": null,
+      "shoulder_description": null,
+      "fingerboard_radius": null,
+      "pickups": "Original pickups (1969 patent-sticker era)",
+      "case_included": "Not stated in listing - confirm with dealer",
+      "modifications": "None stated; described as minty with impeccably clean finish",
+      "measurements_source": "dealer measured",
+      "notes": "Reverb item 98179752. Excellent weight (7.55) and ideal 1st-fret depth (0.811). Sparse description - verify pickup type and case before purchase.",
+      "category": "es_335",
+      "id": "g073",
+      "status": "ACTIVE",
+      "date_discovered": "2026-07-19",
+      "last_confirmed_active": "2026-08-16",
+      "market_bucket": "es-335 vintage",
+      "price_history": [
+        {
+          "date": "2026-07-19",
+          "price_usd": 8995
+        }
+      ],
+      "research_cluster": "norlin-335-early",
+      "research": [
+        "Neck feel: 1972-75 necks are generally slim-to-medium with the Norlin headstock volute and 3-piece construction (mahogany transitioning to maple ~1975); profiles vary but rarely reach 50s chunkiness.",
+        "Pickups: T-Tops throughout \u2014 clear, tight, slightly brighter than PAFs, less midrange complexity but excellent clean and edge-of-breakup; many examples have had swaps over 50 years.",
+        "Known issues: classic Norlin gripes \u2014 weight creep on some, crooked neck sets, mediocre fretwork, sunken tops around the bridge on some examples, the volute, and hit-or-miss quality declining through the decade.",
+        "Market/value: the affordable entry into vintage 335s \u2014 early-70s examples trade far below dot-necks; 'great for the money if you play it first' consensus; clean, light, straight-necked examples appreciating modestly.",
+        "Verify before buying: neck set straightness, top sinking under the bridge, actual weight, volute-area crack/repair, T-Top originality (DCR ~7.5k), and confirm year via pot codes since Norlin serials are notoriously ambiguous."
+      ],
+      "score": 69.9,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 7.55 lbs"
+        },
+        "neck_25pct": {
+          "score": 65.0,
+          "note": "nut ok (96); 1st fret ok (89); 12th fret ok (10)"
+        },
+        "shoulders_30pct": {
+          "score": 40.0,
+          "note": "no shoulder/profile info"
+        },
+        "condition_10pct": {
+          "score": 82.0,
+          "note": "very good"
+        },
+        "price_5pct": {
+          "score": 70.0,
+          "note": "slightly above anchor"
+        }
+      },
+      "offer_intel": {
+        "as_of": "2026-08-09",
+        "anchor_usd": 8250,
+        "over_market_pct": 9,
+        "offers_enabled": true,
+        "days_listed": 38,
+        "suggested_offer_usd": 8100,
+        "discount_pct": 10,
+        "rationale": "8% base; condition/mods"
+      }
+    },
+    {
       "url": "https://cartervintage.com/shop/gibson-custom-shop-1959-les-paul-standard-2006-cherry-burst/3B2ZeBLoGOxLMiWRwXRdbxcwQ5e",
       "dealer": "cartervintage",
       "price_usd": 5250.0,
@@ -21959,77 +21959,6 @@
       }
     },
     {
-      "url": "https://cartervintage.com/shop/gibson-es-335-memphis-63-2015-cherry/3DXmuJV3mLB9zkoAvagoV7cOPKA",
-      "dealer": "cartervintage",
-      "price_usd": 4500.0,
-      "year": 2015,
-      "model": "ES-335 Memphis '63",
-      "finish": "Cherry",
-      "weight_lbs": 7.8,
-      "nut_width_in": 1.663,
-      "fret1_depth_in": 0.809,
-      "fret12_depth_in": 0.973,
-      "neck_profile": "C",
-      "condition": "Clean, minor signs of wear",
-      "serial": "GE3808-A",
-      "city_state": "Nashville, TN",
-      "pickups": "N 7.7k, B 7.9k",
-      "case_included": true,
-      "modifications": "Replaced pickups",
-      "note": "Gibson ES-335 Memphis '63 2015, Cherry",
-      "kind": "semi",
-      "vibrato": null,
-      "tier": 1,
-      "category": "es_335",
-      "id": "g481",
-      "status": "ACTIVE",
-      "date_discovered": "2026-08-09",
-      "last_confirmed_active": "2026-08-13",
-      "market_bucket": "es-335 memphis",
-      "price_history": [
-        {
-          "date": "2026-08-09",
-          "price_usd": 4500.0
-        }
-      ],
-      "research_cluster": "memphis-335",
-      "research": [
-        "Neck feel: Memphis-era necks trend slim \u2014 2014 dots ~.80-.88\" with decent shoulder; 2015-18 add rolled fingerboard binding that owners love; profile varies by sub-model ('58/'63 reissues carry year-appropriate carves).",
-        "Pickups: MHS (Memphis Historic Spec) humbuckers \u2014 Alnico III vintage voicing; largely positive ('very vintage, mellow, smooth'), minority complaint: darker/softer than Burstbuckers into dark amps.",
-        "Known issues: QC inconsistency is the era's theme \u2014 mis-cut nuts and string-spacing errors, deep nut slots with high bridges, hide-glue squeeze-out visible through f-holes, occasional finish flaws; good examples rival Nashville CS output.",
-        "Market/value: strong used-value reputation since the Memphis plant closed (2019) \u2014 '58/'59/'63 reissues and Figured models have appreciated modestly and are the recommended sweet spot for vintage-voiced 335s under Custom Shop money.",
-        "Verify before buying: nut cut and string spacing (the era's signature flaw), setup feel or a return window, glue squeeze-out, which sub-model it actually is (big value differences), original MHS pickups, weight (7.5-9 lbs spread)."
-      ],
-      "score": 69.4,
-      "score_breakdown": {
-        "weight_30pct": {
-          "score": 100.0,
-          "note": "weight 7.8 lbs"
-        },
-        "neck_25pct": {
-          "score": 49.0,
-          "note": "nut ok (0); 1st fret ok (100); 12th fret ok (47)"
-        },
-        "shoulders_30pct": {
-          "score": 60.0,
-          "note": "profile unclear: 'c'"
-        },
-        "condition_10pct": {
-          "score": 70.0,
-          "note": "clean, minor signs of wear"
-        },
-        "price_5pct": {
-          "score": 42.9,
-          "note": "well above anchor"
-        }
-      },
-      "offer_intel": {
-        "as_of": "2026-08-09",
-        "anchor_usd": 3500,
-        "over_market_pct": 29
-      }
-    },
-    {
       "url": "https://cartervintage.com/shop/gibson-1958-lays-makeover-les-paul-r8-2021-cherry-sunburst/3EHAXPT2RmR15GXQLtmnQAujpRQ",
       "dealer": "cartervintage",
       "price_usd": 9500.0,
@@ -22602,6 +22531,77 @@
         "as_of": "2026-08-09",
         "anchor_usd": 5498,
         "over_market_pct": -18
+      }
+    },
+    {
+      "url": "https://cartervintage.com/shop/gibson-es-335-memphis-63-2015-cherry/3DXmuJV3mLB9zkoAvagoV7cOPKA",
+      "dealer": "cartervintage",
+      "price_usd": 4500.0,
+      "year": 2015,
+      "model": "ES-335 Memphis '63",
+      "finish": "Cherry",
+      "weight_lbs": 7.8,
+      "nut_width_in": 1.663,
+      "fret1_depth_in": 0.809,
+      "fret12_depth_in": 0.973,
+      "neck_profile": "C",
+      "condition": "Clean, minor signs of wear",
+      "serial": "GE3808-A",
+      "city_state": "Nashville, TN",
+      "pickups": "N 7.7k, B 7.9k",
+      "case_included": true,
+      "modifications": "Replaced pickups",
+      "note": "Gibson ES-335 Memphis '63 2015, Cherry",
+      "kind": "semi",
+      "vibrato": null,
+      "tier": 1,
+      "category": "es_335",
+      "id": "g481",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-09",
+      "last_confirmed_active": "2026-08-13",
+      "market_bucket": "es-335 memphis",
+      "price_history": [
+        {
+          "date": "2026-08-09",
+          "price_usd": 4500.0
+        }
+      ],
+      "research_cluster": "memphis-335",
+      "research": [
+        "Neck feel: Memphis-era necks trend slim \u2014 2014 dots ~.80-.88\" with decent shoulder; 2015-18 add rolled fingerboard binding that owners love; profile varies by sub-model ('58/'63 reissues carry year-appropriate carves).",
+        "Pickups: MHS (Memphis Historic Spec) humbuckers \u2014 Alnico III vintage voicing; largely positive ('very vintage, mellow, smooth'), minority complaint: darker/softer than Burstbuckers into dark amps.",
+        "Known issues: QC inconsistency is the era's theme \u2014 mis-cut nuts and string-spacing errors, deep nut slots with high bridges, hide-glue squeeze-out visible through f-holes, occasional finish flaws; good examples rival Nashville CS output.",
+        "Market/value: strong used-value reputation since the Memphis plant closed (2019) \u2014 '58/'59/'63 reissues and Figured models have appreciated modestly and are the recommended sweet spot for vintage-voiced 335s under Custom Shop money.",
+        "Verify before buying: nut cut and string spacing (the era's signature flaw), setup feel or a return window, glue squeeze-out, which sub-model it actually is (big value differences), original MHS pickups, weight (7.5-9 lbs spread)."
+      ],
+      "score": 68.6,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 7.8 lbs"
+        },
+        "neck_25pct": {
+          "score": 46.0,
+          "note": "nut ok (0); 1st fret ok (91); 12th fret ok (47)"
+        },
+        "shoulders_30pct": {
+          "score": 60.0,
+          "note": "profile unclear: 'c'"
+        },
+        "condition_10pct": {
+          "score": 70.0,
+          "note": "clean, minor signs of wear"
+        },
+        "price_5pct": {
+          "score": 42.9,
+          "note": "well above anchor"
+        }
+      },
+      "offer_intel": {
+        "as_of": "2026-08-09",
+        "anchor_usd": 3500,
+        "over_market_pct": 29
       }
     },
     {
@@ -24752,73 +24752,6 @@
           "score": 56.4,
           "note": "well above anchor"
         }
-      }
-    },
-    {
-      "url": "https://cartervintage.com/shop/gibson-es-345-2007-sunburst/3EpBiPxpCdJgATrwUGFxj3dbXqG",
-      "dealer": "cartervintage",
-      "price_usd": 3500.0,
-      "year": 2007,
-      "model": "ES-345",
-      "finish": "Sunburst",
-      "weight_lbs": 8.0,
-      "nut_width_in": 1.712,
-      "fret1_depth_in": 0.812,
-      "fret12_depth_in": 0.913,
-      "neck_profile": "C",
-      "condition": "Very good, light player wear",
-      "serial": "GE3848-A",
-      "city_state": "Nashville, TN",
-      "pickups": "Bridge - 7.5; Neck - 7.5k",
-      "case_included": true,
-      "modifications": "Replaced switch",
-      "note": "Gibson ES-345 2007, Sunburst [345/355: Varitone/stereo circuit per model spec \u2014 verify with dealer]",
-      "kind": "semi",
-      "vibrato": null,
-      "tier": 2,
-      "category": "es_335",
-      "id": "g694",
-      "status": "ACTIVE",
-      "date_discovered": "2026-08-09",
-      "last_confirmed_active": "2026-08-13",
-      "market_bucket": "es-335 modern",
-      "price_history": [
-        {
-          "date": "2026-08-09",
-          "price_usd": 3500.0
-        }
-      ],
-      "score": 65.4,
-      "score_breakdown": {
-        "weight_30pct": {
-          "score": 80.0,
-          "note": "weight 8.0 lbs"
-        },
-        "neck_25pct": {
-          "score": 66.7,
-          "note": "nut ok (0); 1st fret ok (100); 12th fret ok (100)"
-        },
-        "shoulders_30pct": {
-          "score": 60.0,
-          "note": "profile unclear: 'c'"
-        },
-        "condition_10pct": {
-          "score": 82.0,
-          "note": "very good, light player wear"
-        },
-        "price_5pct": {
-          "score": 90.0,
-          "note": "at/under anchor"
-        },
-        "model_priority": {
-          "score": -6.0,
-          "note": "secondary ES model (-6: 335s and Les Pauls rank first)"
-        }
-      },
-      "offer_intel": {
-        "as_of": "2026-08-09",
-        "anchor_usd": 3848,
-        "over_market_pct": -9
       }
     },
     {
@@ -28508,6 +28441,73 @@
           "score": 70.0,
           "note": "slightly above anchor"
         }
+      }
+    },
+    {
+      "url": "https://cartervintage.com/shop/gibson-es-345-2007-sunburst/3EpBiPxpCdJgATrwUGFxj3dbXqG",
+      "dealer": "cartervintage",
+      "price_usd": 3500.0,
+      "year": 2007,
+      "model": "ES-345",
+      "finish": "Sunburst",
+      "weight_lbs": 8.0,
+      "nut_width_in": 1.712,
+      "fret1_depth_in": 0.812,
+      "fret12_depth_in": 0.913,
+      "neck_profile": "C",
+      "condition": "Very good, light player wear",
+      "serial": "GE3848-A",
+      "city_state": "Nashville, TN",
+      "pickups": "Bridge - 7.5; Neck - 7.5k",
+      "case_included": true,
+      "modifications": "Replaced switch",
+      "note": "Gibson ES-345 2007, Sunburst [345/355: Varitone/stereo circuit per model spec \u2014 verify with dealer]",
+      "kind": "semi",
+      "vibrato": null,
+      "tier": 2,
+      "category": "es_335",
+      "id": "g694",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-09",
+      "last_confirmed_active": "2026-08-13",
+      "market_bucket": "es-335 modern",
+      "price_history": [
+        {
+          "date": "2026-08-09",
+          "price_usd": 3500.0
+        }
+      ],
+      "score": 64.4,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 80.0,
+          "note": "weight 8.0 lbs"
+        },
+        "neck_25pct": {
+          "score": 62.7,
+          "note": "nut ok (0); 1st fret ok (88); 12th fret ok (100)"
+        },
+        "shoulders_30pct": {
+          "score": 60.0,
+          "note": "profile unclear: 'c'"
+        },
+        "condition_10pct": {
+          "score": 82.0,
+          "note": "very good, light player wear"
+        },
+        "price_5pct": {
+          "score": 90.0,
+          "note": "at/under anchor"
+        },
+        "model_priority": {
+          "score": -6.0,
+          "note": "secondary ES model (-6: 335s and Les Pauls rank first)"
+        }
+      },
+      "offer_intel": {
+        "as_of": "2026-08-09",
+        "anchor_usd": 3848,
+        "over_market_pct": -9
       }
     },
     {

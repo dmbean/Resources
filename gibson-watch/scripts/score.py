@@ -150,7 +150,9 @@ def neck_component(g):
         f12 = band_score(d12, 0.89, 0.92, 0.89, 0.92, falloff=0.14)
     else:
         nut = band_score(g.get("nut_width_in"), 1.56, 1.60, 1.5625, 1.5625, falloff=0.05)
-        f1 = band_score(g.get("fret1_depth_in"), 0.76, 0.82, 0.76, 0.82, falloff=0.06)
+        # Buyer signal 2026-08-16: for ES-335s he prefers a 1st fret UNDER .80".
+        # Ideal tightened to .76-.80; .80-.82 stays acceptable but no longer scores 100.
+        f1 = band_score(g.get("fret1_depth_in"), 0.76, 0.82, 0.76, 0.80, falloff=0.06)
         f12 = band_score(g.get("fret12_depth_in"), 0.86, 0.94, 0.87, 0.92, falloff=0.08)
     for label, s in (("nut", nut), ("1st fret", f1), ("12th fret", f12)):
         if s is not None:

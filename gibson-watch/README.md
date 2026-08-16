@@ -136,6 +136,10 @@ a run that silently skipped Reverb is not.
    ES-345/355/347/340 stay in scope but carry a -6 score adjustment so they never outrank an
    equivalent 335. Sweeps should spend effort on 335s and LPs first, other ES models second.
    **ES-family note (2026-08-09)**: sweeps cover ES-345/355/347/340 on the same rules as the 335. Always record Varitone (intact/bypassed/removed), stereo-vs-mono wiring, and weight-adding hardware (Bigsby/Maestro/TP-6/gold). ES-347s ship Dirty Fingers (hot ceramic, not PAF-style) — flag that explicitly.
+   **ES-335 1st-fret depth (buyer signal 2026-08-16)**: he prefers UNDER .80" at the 1st fret.
+   Ideal band is now .76-.80. Only ~1 in 3 ES listings publishes this figure, so sweeps must
+   capture it wherever stated and it is worth asking dealers for — Carter Vintage, Music Zoo
+   and Mike & Mike's measure per guitar and are the reliable sources.
    **Standing narrow-nut hunt**: every sweep must include dedicated queries for 1-9/16" nut ES-335s — the buyer's ideal nut, found only on 1965–1981 vintage examples (modern reissues are all 1-11/16"). Reverb API queries: "es-335 1 9/16", "es-335 narrow nut", "es-335 1.56", plus year-specific searches 1968–1980; also sweep dealers that publish nut widths (Carter, CME used, Gruhn).
 3. Dedupe against database by serial number, URL, and dealer inventory ID.
 4. Score new entries with `scripts/score.py`; do forum research (Reddit, The Gear Page, MyLesPaul) for each genuinely new listing and store a 5-bullet summary in the entry's `research` field.
