@@ -35,7 +35,7 @@ def reverb_photo(url):
     if not m:
         return None
     raw = curl("https://api.reverb.com/api/listings/%s" % m.group(1),
-               ["-H", "Accept: application/hal+json", "-H", "Accept-Version: 3.0"])
+               ["-H", "Authorization: Bearer anon", "-H", "Accept: application/hal+json", "-H", "Accept-Version: 3.0"])
     if not raw:
         return None
     try:

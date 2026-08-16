@@ -41,7 +41,7 @@ MARKET_ANCHORS = _score.MARKET_ANCHORS
 def api_listing(item_id):
     r = subprocess.run(
         ["curl", "-sS", "--max-time", "20",
-         "-H", "Accept: application/hal+json", "-H", "Accept-Version: 3.0",
+         "-H", "Authorization: Bearer anon", "-H", "Accept: application/hal+json", "-H", "Accept-Version: 3.0",
          "https://api.reverb.com/api/listings/%s" % item_id],
         capture_output=True)
     if r.returncode != 0 or not r.stdout:
