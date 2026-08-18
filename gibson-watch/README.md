@@ -152,6 +152,13 @@ a run that silently skipped Reverb is not.
    Ideal band is now .76-.80. Only ~1 in 3 ES listings publishes this figure, so sweeps must
    capture it wherever stated and it is worth asking dealers for — Carter Vintage, Music Zoo
    and Mike & Mike's measure per guitar and are the reliable sources.
+   **NO RESALE CRITERION (buyer directive 2026-08-16)**: he is buying ONE 335 and ONE Les Paul to keep
+   forever. Never argue against a guitar on resale/collector-value grounds. Mods, refrets, replaced
+   binding and drilled tops are acceptable if the guitar feels and sounds right. The pickup-originality
+   score stays, but it exists because of his own tone A/B, not because originality preserves value.
+   **1-9/16" nut is validated by feel (2026-08-16)**: he compared a modern 1-11/16" D-profile neck
+   against narrow-nut necks and preferred the narrow ones. Only 17 live ES-335s have it. Surface every
+   narrow-nut find immediately, and rank it above a nominally better-specced modern guitar.
    **Standing narrow-nut hunt**: every sweep must include dedicated queries for 1-9/16" nut ES-335s — the buyer's ideal nut, found only on 1965–1981 vintage examples (modern reissues are all 1-11/16"). Reverb API queries: "es-335 1 9/16", "es-335 narrow nut", "es-335 1.56", plus year-specific searches 1968–1980; also sweep dealers that publish nut widths (Carter, CME used, Gruhn).
 3. Dedupe against database by serial number, URL, and dealer inventory ID.
 4. Score new entries with `scripts/score.py`; do forum research (Reddit, The Gear Page, MyLesPaul) for each genuinely new listing and store a 5-bullet summary in the entry's `research` field.
