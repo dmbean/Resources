@@ -1,8 +1,8 @@
 {
   "meta": {
     "created": "2026-07-19",
-    "last_run": "2026-08-16",
-    "run_count": 9,
+    "last_run": "2026-08-18",
+    "run_count": 10,
     "current_best": {
       "les_paul": {
         "id": "g302",
@@ -14226,6 +14226,62 @@
       }
     },
     {
+      "id": "g863",
+      "reverb_id": 89043287,
+      "url": "https://reverb.com/item/89043287",
+      "dealer": "Reverb \u2013 Tone Wolf",
+      "price_usd": 6199,
+      "year": 1988,
+      "model": "Gibson Les Paul Standard \"Pre-Historic\" Reissue",
+      "finish": "Heritage Dark Sunburst",
+      "weight_lbs": 9.0625,
+      "fret1_depth_in": 0.81,
+      "fret12_depth_in": 0.98,
+      "neck_profile": "60s carve, rounded apex, not too thin",
+      "condition": "Excellent",
+      "city_state": "Brooklyn, NY",
+      "pickups": "Bill Lawrence-designed HB-R/HB-L \"The Original\" circuit-board humbuckers (original)",
+      "case_included": true,
+      "modifications": "none - parts and electronics original; ABR-1 retaining wire missing; fret ends have cracked the binding slightly",
+      "published_at": "2025-04-14",
+      "category": "les_paul",
+      "market_bucket": "pre-historic reissue",
+      "note": "Quilted top, never had a pickguard. .810 at the 1st fret is the slimmest first-fret measurement of any Gibson LP in the shop. 9 lb 1 oz is just over the 9.0 ceiling.",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-18",
+      "last_confirmed_active": "2026-08-18",
+      "offers_enabled": null,
+      "price_history": [
+        {
+          "date": "2026-08-18",
+          "price_usd": 6199
+        }
+      ],
+      "score": 79.7,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 75.8,
+          "note": "weight 9.0625 lbs"
+        },
+        "neck_25pct": {
+          "score": 64.9,
+          "note": "nut unmeasured; 1st fret ok (100); 12th fret ok (46)"
+        },
+        "shoulders_30pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: '60s carve, rounded apex, not too thin'"
+        },
+        "condition_10pct": {
+          "score": 92.0,
+          "note": "excellent"
+        },
+        "price_5pct": {
+          "score": 60.0,
+          "note": "no market anchor"
+        }
+      }
+    },
+    {
       "url": "https://reverb.com/item/100143144-gibson-les-paul-standard-60s-aaa-flame-honey-lemon-burst",
       "dealer": "Star City Guitar Depot",
       "price_usd": 2298.0,
@@ -16852,7 +16908,7 @@
       "id": "g449",
       "status": "EXCLUDED",
       "date_discovered": "2026-08-09",
-      "last_confirmed_active": "2026-08-09",
+      "last_confirmed_active": "2026-08-18",
       "market_bucket": "wildwood spec",
       "price_history": [
         {
@@ -17826,6 +17882,64 @@
         "as_of": "2026-08-09",
         "anchor_usd": 5648,
         "over_market_pct": 19
+      }
+    },
+    {
+      "id": "g862",
+      "reverb_id": 98111382,
+      "url": "https://reverb.com/item/98111382",
+      "dealer": "Reverb \u2013 Tone Wolf",
+      "price_usd": 18499,
+      "year": 2010,
+      "model": "Gibson Custom Shop Collector's Choice #1 Melvyn Franks 1959 Les Paul VOS",
+      "finish": "Lemonburst",
+      "weight_lbs": 8.5,
+      "nut_width_in": 1.6875,
+      "fret1_depth_in": 0.89,
+      "fret12_depth_in": 0.99,
+      "neck_profile": "rounded C, vintage, not overly large",
+      "condition": "Excellent",
+      "city_state": "Brooklyn, NY",
+      "pickups": "Burstbuckers, neck pickup reverse-mounted and out of phase (Greeny spec)",
+      "case_included": true,
+      "modifications": "none - original pickguard and COA included",
+      "published_at": "2026-06-11",
+      "category": "les_paul",
+      "market_bucket": "collector's choice",
+      "research_cluster": "cs-r9-collectors-choice",
+      "note": "COLLECTOR'S CHOICE #1 - the Greeny/Melvyn Franks '59 replica the buyer researched. 8 lb 8 oz is inside the ideal LP band and the only in-band Les Paul weight in the shop. But $18,499 is 85% over the $10,000 cap, so this is a reference guitar to play, not to buy.",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-18",
+      "last_confirmed_active": "2026-08-18",
+      "offers_enabled": null,
+      "price_history": [
+        {
+          "date": "2026-08-18",
+          "price_usd": 18499
+        }
+      ],
+      "score": 74.2,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 100.0,
+          "note": "weight 8.5 lbs"
+        },
+        "neck_25pct": {
+          "score": 56.1,
+          "note": "nut ok (95); 1st fret ok (33); 12th fret ok (40)"
+        },
+        "shoulders_30pct": {
+          "score": 60.0,
+          "note": "profile unclear: 'rounded c, vintage, not overly large'"
+        },
+        "condition_10pct": {
+          "score": 92.0,
+          "note": "excellent"
+        },
+        "price_5pct": {
+          "score": 60.0,
+          "note": "no market anchor"
+        }
       }
     },
     {
@@ -19002,7 +19116,7 @@
       "id": "g389",
       "status": "ACTIVE",
       "date_discovered": "2026-08-09",
-      "last_confirmed_active": "2026-08-16",
+      "last_confirmed_active": "2026-08-18",
       "market_bucket": "r0",
       "price_history": [
         {
@@ -24214,7 +24328,7 @@
       "id": "g414",
       "status": "ACTIVE",
       "date_discovered": "2026-08-09",
-      "last_confirmed_active": "2026-08-16",
+      "last_confirmed_active": "2026-08-18",
       "market_bucket": "mij lp",
       "price_history": [
         {
@@ -28722,6 +28836,64 @@
         "price_5pct": {
           "score": 70.0,
           "note": "slightly above anchor"
+        }
+      }
+    },
+    {
+      "id": "g871",
+      "reverb_id": 94849028,
+      "url": "https://reverb.com/item/94849028",
+      "dealer": "Reverb \u2013 Tone Wolf",
+      "price_usd": 1999,
+      "year": 2004,
+      "model": "Epiphone Elitist 1963 ES-335 Dot (MIJ)",
+      "finish": "Natural",
+      "weight_lbs": 8.6875,
+      "nut_width_in": 1.6875,
+      "fret1_depth_in": 0.81,
+      "fret12_depth_in": 0.9,
+      "neck_profile": "classic ES carve - slimmer C with a 60s feel",
+      "condition": "Very Good",
+      "city_state": "Brooklyn, NY",
+      "pickups": "Humbuckers (model not stated)",
+      "case_included": true,
+      "modifications": "Refretted with medium jumbo wire; bone nut fitted; notable pick wear on the guard",
+      "published_at": "2026-03-05",
+      "category": "es_335",
+      "market_bucket": "mij 335",
+      "research_cluster": "mij-335",
+      "note": "Only 335-format instrument at Tone Wolf. MIJ Elitist, well regarded. 8 lb 11 oz is over the 8.0 ES ceiling and the nut is 1-11/16\", not the 1-9/16\" the buyer prefers.",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-18",
+      "last_confirmed_active": "2026-08-18",
+      "offers_enabled": null,
+      "price_history": [
+        {
+          "date": "2026-08-18",
+          "price_usd": 1999
+        }
+      ],
+      "score": 64.5,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 25.0,
+          "note": "weight 8.6875 lbs"
+        },
+        "neck_25pct": {
+          "score": 63.3,
+          "note": "nut ok (0); 1st fret ok (90); 12th fret ok (100)"
+        },
+        "shoulders_30pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: 'classic es carve - slimmer c with a 60s feel'"
+        },
+        "condition_10pct": {
+          "score": 82.0,
+          "note": "very good"
+        },
+        "price_5pct": {
+          "score": 90.0,
+          "note": "at/under anchor"
         }
       }
     },
@@ -36770,6 +36942,63 @@
       "notes": "DUPLICATE 2026-08-13: same guitar as g772 (same dealer, weight and price; cross-listed on Reverb and the dealer site). Kept for history, hidden from live views."
     },
     {
+      "id": "g869",
+      "reverb_id": 96066364,
+      "url": "https://reverb.com/item/96066364",
+      "dealer": "Reverb \u2013 Tone Wolf",
+      "price_usd": 3999,
+      "year": 1976,
+      "model": "Gibson Les Paul Deluxe",
+      "finish": "Cherry Sunburst",
+      "weight_lbs": 9.8125,
+      "fret1_depth_in": 0.8,
+      "fret12_depth_in": 0.98,
+      "neck_profile": "thin oval C, consistent to the heel",
+      "condition": "Good",
+      "city_state": "Brooklyn, NY",
+      "pickups": "Dual mini-humbuckers (original)",
+      "case_included": true,
+      "modifications": "Newer bridge and jack plate (originals included); RS Guitarworks aged tuners (originals included)",
+      "published_at": "2026-04-16",
+      "category": "les_paul",
+      "market_bucket": "deluxe",
+      "status": "EXCLUDED",
+      "notes": "EXCLUDED 2026-08-18: mini-humbuckers, unconverted. Buyer rule: no mini-humbuckers.",
+      "note": "Pancake body, 3-piece maple neck. Mini-humbuckers and 9 lb 13 oz.",
+      "date_discovered": "2026-08-18",
+      "last_confirmed_active": "2026-08-18",
+      "offers_enabled": null,
+      "price_history": [
+        {
+          "date": "2026-08-18",
+          "price_usd": 3999
+        }
+      ],
+      "score": 62.5,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 25.8,
+          "note": "weight 9.8125 lbs"
+        },
+        "neck_25pct": {
+          "score": 64.9,
+          "note": "nut unmeasured; 1st fret ok (100); 12th fret ok (46)"
+        },
+        "shoulders_30pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: 'thin oval c, consistent to the heel'"
+        },
+        "condition_10pct": {
+          "score": 70.0,
+          "note": "good"
+        },
+        "price_5pct": {
+          "score": 60.0,
+          "note": "no market anchor"
+        }
+      }
+    },
+    {
       "reverb_id": 74505108,
       "url": "https://reverb.com/item/74505108-gibson-murphy-lab-wildwood-spec-1957-les-paul-standard-heavy-aged",
       "title": "Gibson Murphy Lab Wildwood Spec 1957 Les Paul Standard - Heavy Aged",
@@ -38640,7 +38869,7 @@
       "id": "g392",
       "status": "ACTIVE",
       "date_discovered": "2026-08-09",
-      "last_confirmed_active": "2026-08-16",
+      "last_confirmed_active": "2026-08-18",
       "market_bucket": "custom shop",
       "price_history": [
         {
@@ -47741,7 +47970,7 @@
       "note": "BULLSEYE ON MODEL: R0 + Wildwood Spec + Murphy Lab, all three target categories at once. VIBRATO: factory Bigsby, so the 9.5 lb ceiling applies and this lands exactly on it. Neck .830/.940 is right at the buyer's target band.",
       "category": "les_paul",
       "id": "g387",
-      "status": "EXCLUDED",
+      "status": "DUPLICATE",
       "date_discovered": "2026-08-09",
       "last_confirmed_active": "2026-08-09",
       "market_bucket": "wildwood spec",
@@ -47792,7 +48021,7 @@
         "discount_pct": 14,
         "rationale": "8% base; 10% over market anchor ($7249); condition/mods"
       },
-      "notes": "EXCLUDED 2026-08-13: vibrato on a Les Paul. Buyer wants vibratos on semi-hollows only."
+      "notes": "EXCLUDED 2026-08-13: vibrato on a Les Paul. Buyer wants vibratos on semi-hollows only. | DUPLICATE 2026-08-18: same Reverb listing (97803920) as g449, entered twice by two sweeps. Kept for history, hidden from live views."
     },
     {
       "reverb_id": "90562131",
@@ -50595,7 +50824,7 @@
       "id": "g391",
       "status": "ACTIVE",
       "date_discovered": "2026-08-09",
-      "last_confirmed_active": "2026-08-16",
+      "last_confirmed_active": "2026-08-18",
       "market_bucket": "custom shop",
       "price_history": [
         {
@@ -52003,7 +52232,7 @@
       "id": "g390",
       "status": "ACTIVE",
       "date_discovered": "2026-08-09",
-      "last_confirmed_active": "2026-08-16",
+      "last_confirmed_active": "2026-08-18",
       "market_bucket": "custom shop",
       "price_history": [
         {
@@ -57023,6 +57252,62 @@
       }
     },
     {
+      "id": "g866",
+      "reverb_id": 98956068,
+      "url": "https://reverb.com/item/98956068",
+      "dealer": "Reverb \u2013 Tone Wolf",
+      "price_usd": 4199,
+      "year": 2014,
+      "model": "Gibson Custom Shop 1957 Les Paul Standard Reissue VOS (R7)",
+      "finish": "Goldtop Darkback",
+      "weight_lbs": 9.25,
+      "fret1_depth_in": 0.91,
+      "fret12_depth_in": 1.01,
+      "neck_profile": "D shape, decent shoulder, almost flat apex",
+      "condition": "Good",
+      "city_state": "Brooklyn, NY",
+      "pickups": "Custombuckers (humbuckers - a 1957 reissue, not a P-90 goldtop)",
+      "case_included": true,
+      "modifications": "none stated; visible player wear",
+      "published_at": "2026-06-29",
+      "category": "les_paul",
+      "market_bucket": "r7",
+      "note": "R7 goldtop with HUMBUCKERS, not P-90s - 1957 is the year Gibson switched. Fails on both weight (9 lb 4 oz) and neck (.910 with a decent shoulder, the opposite of the slim-shouldered carve the buyer is after).",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-18",
+      "last_confirmed_active": "2026-08-18",
+      "offers_enabled": null,
+      "price_history": [
+        {
+          "date": "2026-08-18",
+          "price_usd": 4199
+        }
+      ],
+      "score": 51.7,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 63.3,
+          "note": "weight 9.25 lbs"
+        },
+        "neck_25pct": {
+          "score": 16.3,
+          "note": "nut unmeasured; 1st fret ok (20); 12th fret ok (29)"
+        },
+        "shoulders_30pct": {
+          "score": 60.0,
+          "note": "profile unclear: 'd shape, decent shoulder, almost flat apex'"
+        },
+        "condition_10pct": {
+          "score": 76.0,
+          "note": "good (+P-90 in neck \u2014 buyer-requested)"
+        },
+        "price_5pct": {
+          "score": 60.0,
+          "note": "no market anchor"
+        }
+      }
+    },
+    {
       "url": "https://reverb.com/item/71925846",
       "dealer": "Reverb \u2013 ProAudioStar",
       "price_usd": 3000,
@@ -59924,6 +60209,66 @@
       }
     },
     {
+      "id": "g864",
+      "reverb_id": 93795767,
+      "url": "https://reverb.com/item/93795767",
+      "dealer": "Reverb \u2013 Tone Wolf",
+      "price_usd": 4499,
+      "year": 2020,
+      "model": "Gibson Custom Shop Les Paul Custom VOS (MOD stamp)",
+      "finish": "Ebony",
+      "weight_lbs": 9.6875,
+      "fret1_depth_in": 0.83,
+      "fret12_depth_in": 0.975,
+      "neck_profile": "modern oval C",
+      "condition": "Very Good",
+      "city_state": "Brooklyn, NY",
+      "pickups": "Seymour Duncan Hot Rodded set - SH-4 bridge / SH-2 neck (swapped; originals not included)",
+      "case_included": true,
+      "modifications": "Pickups swapped to Duncans; cream pickup rings, cream toggle ring and gold speed knobs fitted; MOD stamp on the headstock",
+      "published_at": "2025-12-31",
+      "category": "les_paul",
+      "market_bucket": "les paul custom",
+      "note": "Black LP Custom - the format the buyer played and liked at 30th Street. Neck .830/.975 is close to target, but 9 lb 11 oz is well over the 9.0 ceiling, which is the exact reason the 30th Street Custom was passed over.",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-18",
+      "last_confirmed_active": "2026-08-18",
+      "offers_enabled": null,
+      "price_history": [
+        {
+          "date": "2026-08-18",
+          "price_usd": 4499
+        }
+      ],
+      "score": 46.7,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 34.2,
+          "note": "weight 9.6875 lbs"
+        },
+        "neck_25pct": {
+          "score": 53.0,
+          "note": "nut unmeasured; 1st fret ok (73); 12th fret ok (49)"
+        },
+        "shoulders_30pct": {
+          "score": 60.0,
+          "note": "profile unclear: 'modern oval c'"
+        },
+        "condition_10pct": {
+          "score": 82.0,
+          "note": "very good"
+        },
+        "price_5pct": {
+          "score": 60.0,
+          "note": "no market anchor"
+        },
+        "originality": {
+          "score": -6.0,
+          "note": "pickups/electronics replaced (buyer found this tone 'just ok')"
+        }
+      }
+    },
+    {
       "dealer": "Reverb \u2013 Andrew's Gear Depot (private seller)",
       "url": "https://reverb.com/item/99645608",
       "price_usd": 1075.0,
@@ -60752,6 +61097,62 @@
       }
     },
     {
+      "id": "g868",
+      "reverb_id": 93268076,
+      "url": "https://reverb.com/item/93268076",
+      "dealer": "Reverb \u2013 Tone Wolf",
+      "price_usd": 4899,
+      "year": 1981,
+      "model": "Gibson Les Paul Custom",
+      "finish": "Metallic Red",
+      "weight_lbs": 10.375,
+      "fret1_depth_in": 0.81,
+      "fret12_depth_in": 0.99,
+      "neck_profile": "medium D, filling out toward the heel",
+      "condition": "Good",
+      "city_state": "Brooklyn, NY",
+      "pickups": "Tim Shaw humbuckers (stamped 392 481 / 393 481)",
+      "case_included": true,
+      "modifications": "Refretted; nut replaced; newer strap buttons; heavy play wear including exposed wood on the back of the neck",
+      "published_at": "2025-11-24",
+      "category": "les_paul",
+      "market_bucket": "norlin custom",
+      "note": "10 lb 6 oz - the heaviest guitar in the shop, and well over a pound past the ceiling. Metallic Red is also outside the warm/dark finish range. Maple neck, Norlin era.",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-18",
+      "last_confirmed_active": "2026-08-18",
+      "offers_enabled": null,
+      "price_history": [
+        {
+          "date": "2026-08-18",
+          "price_usd": 4899
+        }
+      ],
+      "score": 43.5,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 0.0,
+          "note": "weight 10.375 lbs"
+        },
+        "neck_25pct": {
+          "score": 62.0,
+          "note": "nut unmeasured; 1st fret ok (100); 12th fret ok (40)"
+        },
+        "shoulders_30pct": {
+          "score": 60.0,
+          "note": "profile unclear: 'medium d, filling out toward the heel'"
+        },
+        "condition_10pct": {
+          "score": 70.0,
+          "note": "good"
+        },
+        "price_5pct": {
+          "score": 60.0,
+          "note": "no market anchor"
+        }
+      }
+    },
+    {
       "url": "https://rivingtonguitars.com/products/2022-gibson-es-335-tobacco-sunburst-w-original-hardshell-case",
       "dealer": "Rivington Guitars",
       "price_usd": 3195,
@@ -61038,6 +61439,62 @@
       }
     },
     {
+      "id": "g872",
+      "reverb_id": 99954077,
+      "url": "https://reverb.com/item/99954077",
+      "dealer": "Reverb \u2013 Tone Wolf",
+      "price_usd": 2799,
+      "year": 2024,
+      "model": "Gibson ES-330",
+      "finish": "Antique Natural",
+      "weight_lbs": 6.1875,
+      "fret1_depth_in": 0.85,
+      "fret12_depth_in": 0.95,
+      "neck_profile": "rounded, medium depth, oval at the apex",
+      "condition": "Excellent",
+      "city_state": "Brooklyn, NY",
+      "pickups": "Dogear P-90s (no humbucker anywhere)",
+      "case_included": true,
+      "modifications": "none - pick marks on the guard",
+      "published_at": "2026-07-31",
+      "category": "es_335",
+      "market_bucket": "es-330",
+      "note": "Fully hollow ES-330: no centre block and no humbucker. Not an ES-335 and outside the target family, but at 6 lb 3 oz it is by far the lightest guitar in the shop.",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-18",
+      "last_confirmed_active": "2026-08-18",
+      "offers_enabled": null,
+      "price_history": [
+        {
+          "date": "2026-08-18",
+          "price_usd": 2799
+        }
+      ],
+      "score": 41.9,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 0.0,
+          "note": "weight 6.1875 lbs"
+        },
+        "neck_25pct": {
+          "score": 47.0,
+          "note": "nut unmeasured; 1st fret ok (40); 12th fret ok (70)"
+        },
+        "shoulders_30pct": {
+          "score": 60.0,
+          "note": "profile unclear: 'rounded, medium depth, oval at the apex'"
+        },
+        "condition_10pct": {
+          "score": 92.0,
+          "note": "excellent"
+        },
+        "price_5pct": {
+          "score": 60.0,
+          "note": "no market anchor"
+        }
+      }
+    },
+    {
       "url": "https://southsideguitars.com/products/1978-Gibson-ES-355-Wine-Red-Lyre-p835735372",
       "dealer": "Southside Guitars",
       "price_usd": 7250,
@@ -61184,6 +61641,62 @@
       }
     },
     {
+      "id": "g867",
+      "reverb_id": 95341051,
+      "url": "https://reverb.com/item/95341051",
+      "dealer": "Reverb \u2013 Tone Wolf",
+      "price_usd": 2299,
+      "year": 2014,
+      "model": "Gibson Les Paul Traditional (120th Anniversary)",
+      "finish": "Honeyburst",
+      "weight_lbs": 9.1875,
+      "fret1_depth_in": 0.9,
+      "fret12_depth_in": 1.01,
+      "neck_profile": "50s carve",
+      "condition": "Good",
+      "city_state": "Brooklyn, NY",
+      "pickups": "'59 Tribute humbuckers with Orange Drop capacitors",
+      "case_included": true,
+      "modifications": "Tuners changed to Grovers, original screw holes filled; notable buckle wear through to bare wood on the back",
+      "published_at": "2026-03-23",
+      "category": "les_paul",
+      "market_bucket": "traditional",
+      "note": "50s carve at .900/1.010 and 9 lb 3 oz - fails weight and neck. No offers accepted.",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-18",
+      "last_confirmed_active": "2026-08-18",
+      "offers_enabled": null,
+      "price_history": [
+        {
+          "date": "2026-08-18",
+          "price_usd": 2299
+        }
+      ],
+      "score": 41.2,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 67.5,
+          "note": "weight 9.1875 lbs"
+        },
+        "neck_25pct": {
+          "score": 19.6,
+          "note": "nut unmeasured; 1st fret ok (27); 12th fret ok (29)"
+        },
+        "shoulders_30pct": {
+          "score": 20.0,
+          "note": "fat/50s-style profile: '50s carve'"
+        },
+        "condition_10pct": {
+          "score": 70.0,
+          "note": "good"
+        },
+        "price_5pct": {
+          "score": 60.0,
+          "note": "no market anchor"
+        }
+      }
+    },
+    {
       "url": "https://retrofret.com/products/gibson-es-335-dot-semi-hollow-body-electric-guitar-1987-12253",
       "dealer": "Retrofret Vintage Guitars",
       "price_usd": 4500,
@@ -61316,6 +61829,63 @@
         "price_5pct": {
           "score": 0.0,
           "note": "well above anchor"
+        }
+      }
+    },
+    {
+      "id": "g870",
+      "reverb_id": 95341046,
+      "url": "https://reverb.com/item/95341046",
+      "dealer": "Reverb \u2013 Tone Wolf",
+      "price_usd": 2150,
+      "year": 2022,
+      "model": "Gibson 70s Les Paul Deluxe",
+      "finish": "Goldtop",
+      "weight_lbs": 10.375,
+      "fret1_depth_in": 0.88,
+      "fret12_depth_in": 0.985,
+      "neck_profile": "D shape, fuller shoulder, almost flat apex",
+      "condition": "Good",
+      "city_state": "Brooklyn, NY",
+      "pickups": "Mini-humbuckers",
+      "case_included": true,
+      "modifications": "Notable impact damage on the lower side near the input jack - lacquer cracked or missing in several areas",
+      "published_at": "2026-03-23",
+      "category": "les_paul",
+      "market_bucket": "deluxe",
+      "status": "EXCLUDED",
+      "notes": "EXCLUDED 2026-08-18: mini-humbuckers, unconverted. Buyer rule: no mini-humbuckers.",
+      "note": "Mini-humbuckers, 10 lb 6 oz, and impact damage to the side.",
+      "date_discovered": "2026-08-18",
+      "last_confirmed_active": "2026-08-18",
+      "offers_enabled": null,
+      "price_history": [
+        {
+          "date": "2026-08-18",
+          "price_usd": 2150
+        }
+      ],
+      "score": 36.4,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 0.0,
+          "note": "weight 10.375 lbs"
+        },
+        "neck_25pct": {
+          "score": 33.4,
+          "note": "nut unmeasured; 1st fret ok (40); 12th fret ok (43)"
+        },
+        "shoulders_30pct": {
+          "score": 60.0,
+          "note": "profile unclear: 'd shape, fuller shoulder, almost flat apex'"
+        },
+        "condition_10pct": {
+          "score": 70.0,
+          "note": "good"
+        },
+        "price_5pct": {
+          "score": 60.0,
+          "note": "no market anchor"
         }
       }
     },
@@ -62320,6 +62890,66 @@
         }
       },
       "notes": "DUPLICATE of g402 (same Reverb item, ingested twice under different URL forms)."
+    },
+    {
+      "id": "g865",
+      "reverb_id": 84532940,
+      "url": "https://reverb.com/item/84532940",
+      "dealer": "Reverb \u2013 Tone Wolf",
+      "price_usd": 5899,
+      "year": 2023,
+      "model": "Gibson Custom Shop Les Paul Custom, Murphy Lab Ultra Light Aged",
+      "finish": "Ebony",
+      "weight_lbs": 9.9375,
+      "fret1_depth_in": 0.85,
+      "fret12_depth_in": 1.01,
+      "neck_profile": "modern C low, fattening subtly toward the heel",
+      "condition": "Excellent",
+      "city_state": "Brooklyn, NY",
+      "pickups": "DiMarzio DP103 / DP100 (swapped)",
+      "case_included": true,
+      "modifications": "Pickups swapped to DiMarzios; electronics appear partly rewired",
+      "published_at": "2024-09-06",
+      "category": "les_paul",
+      "market_bucket": "les paul custom",
+      "note": "Black LP Custom, Murphy Lab. 9 lb 15 oz - the heaviest Custom Shop guitar in the shop and nearly a pound over the ceiling.",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-18",
+      "last_confirmed_active": "2026-08-18",
+      "offers_enabled": null,
+      "price_history": [
+        {
+          "date": "2026-08-18",
+          "price_usd": 5899
+        }
+      ],
+      "score": 26.5,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 17.5,
+          "note": "weight 9.9375 lbs"
+        },
+        "neck_25pct": {
+          "score": 36.3,
+          "note": "nut unmeasured; 1st fret ok (60); 12th fret ok (29)"
+        },
+        "shoulders_30pct": {
+          "score": 20.0,
+          "note": "fat/50s-style profile: 'modern c low, fattening subtly toward the heel'"
+        },
+        "condition_10pct": {
+          "score": 92.0,
+          "note": "excellent"
+        },
+        "price_5pct": {
+          "score": 60.0,
+          "note": "no market anchor"
+        },
+        "originality": {
+          "score": -6.0,
+          "note": "pickups/electronics replaced (buyer found this tone 'just ok')"
+        }
+      }
     }
   ]
 }
