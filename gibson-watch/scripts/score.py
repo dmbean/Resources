@@ -282,6 +282,13 @@ DOCUMENTED_CARVES = ("carmelita", "v1 neck", "v2 neck", "v3 neck", "skinny c",
                      "made to measure", "dealer select", "botb", "beauty of the burst")
 
 
+# Gibson Custom names its Les Paul carves V1/V2/V3, and listings phrase them freely:
+# "'60 V2 Neck", "V2 profile", "V1 (Carmelita)". Match the bare token on word boundaries
+# so the carve is recognised however the dealer wrote it. Caught 2026-08-18 on g404, whose
+# spec block reads "Neck Profile : '60 V2 Neck".
+V_CARVE_RE = re.compile(r"\bv[123]\b")
+
+
 NEGATORS = (" vs ", " vs. ", "instead of", "rather than", "not a ", "not the ",
             "unlike", "no longer", "as opposed to")
 
@@ -300,16 +307,21 @@ def shoulder_component(g):
     if not text:
         return 40.0, "no shoulder/profile info"
     text = _strip_negated(text)
-    if g["category"] == "les_paul" and any(w in text for w in DOCUMENTED_CARVES):
+    fat = any(w in text for w in FAT_WORDS)
+    slim = any(w in text for w in SLIM_WORDS)
+    if g["category"] == "les_paul":
+        if any(w in text for w in V3_WORDS):
+            return 100.0, "V3/Skinny C — buyer-preferred carve: '%s'" % text[:60]
         # Buyer signal 2026-08-13: he values necks characterised beyond raw depth numbers —
         # named carves replicating a specific, well-regarded guitar, where the shoulders and
         # taper are documented rather than guessed. That is exactly what this component
-        # measures, so a documented carve scores high here even when depths are unstated.
-        return 90.0, "documented/replicated carve (shape known, not just depths): '%s'" % text[:60]
-    if g["category"] == "les_paul" and any(w in text for w in V3_WORDS):
-        return 100.0, "V3/Skinny C — buyer-preferred carve: '%s'" % text[:60]
-    fat = any(w in text for w in FAT_WORDS)
-    slim = any(w in text for w in SLIM_WORDS)
+        # measures, so a documented carve scores high even when depths are unstated. A carve
+        # that is BOTH documented and described as slim keeps the 95 slim wording earns on
+        # its own — being named must never cost a guitar points (caught 2026-08-18).
+        if any(w in text for w in DOCUMENTED_CARVES) or V_CARVE_RE.search(text):
+            if slim and not fat:
+                return 95.0, "documented carve, slim-described: '%s'" % text[:60]
+            return 90.0, "documented/replicated carve (shape known, not just depths): '%s'" % text[:60]
     if fat and slim:
         return 60.0, "mixed slim/fat signals: '%s'" % text[:60]
     if fat:
