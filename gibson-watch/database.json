@@ -6,13 +6,13 @@
     "current_best": {
       "les_paul": {
         "id": "g302",
-        "score": 97.5,
+        "score": 101.5,
         "model": "Gibson Custom Shop 1959 Les Paul Standard Reissue (R9) VOS",
         "url": "https://reverb.com/item/99980303-2026-gibson-custom-shop-les-paul-standard-59-reissue-r9-vos-8-4-lbs-dirty-lemon-burst"
       },
       "es_335": {
         "id": "g068",
-        "score": 91.5,
+        "score": 95.5,
         "model": "Gibson ES-335TD",
         "url": "https://reverb.com/item/98285616-gibson-es-335td-cherry-sunburst-1972"
       }
@@ -19997,6 +19997,72 @@
           "note": "well above anchor"
         }
       }
+    },
+    {
+      "url": "https://southsideguitars.com/products/1999-Gibson-ES-335-Dot-Black-Ebony-p803601666",
+      "dealer": "Southside Guitars",
+      "price_usd": 3750,
+      "year": 1999,
+      "model": "Gibson ES-335 Dot",
+      "finish": "Ebony/Black",
+      "weight_lbs": null,
+      "nut_width_in": null,
+      "fret1_depth_in": null,
+      "fret12_depth_in": null,
+      "neck_profile": "Dot reissue (1960-style slim taper) \u2014 not measured",
+      "condition": "Very nice, light play wear, all original",
+      "serial": "90999397 (last digits partly obscured; year/day digits clear)",
+      "city_state": "Brooklyn, NY",
+      "pickups": null,
+      "case_included": true,
+      "modifications": "none - all original",
+      "published_at": "2026-07-20",
+      "note": "No vibrato. Also Reverb id 94008933. Weight not published - NYC, weigh in person.",
+      "category": "es_335",
+      "id": "g375",
+      "status": "ACTIVE",
+      "date_discovered": "2026-08-09",
+      "last_confirmed_active": "2026-08-09",
+      "market_bucket": "es-335 modern",
+      "price_history": [
+        {
+          "date": "2026-08-09",
+          "price_usd": 3750
+        }
+      ],
+      "score": 71.2,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 65.0,
+          "note": "weight unpublished \u2014 NYC, weigh in person (neutral)"
+        },
+        "neck_25pct": {
+          "score": 35.0,
+          "note": "no neck measurements (capped)"
+        },
+        "shoulders_30pct": {
+          "score": 95.0,
+          "note": "slim/fast profile: 'dot reissue (1960-style slim taper) \u2014 not measured'"
+        },
+        "condition_10pct": {
+          "score": 70.0,
+          "note": "very nice, light play wear, all original"
+        },
+        "price_5pct": {
+          "score": 70.0,
+          "note": "slightly above anchor"
+        },
+        "originality": {
+          "score": 4.0,
+          "note": "original pickups/electronics (buyer's favourite tone so far)"
+        }
+      },
+      "offer_intel": {
+        "as_of": "2026-08-09",
+        "anchor_usd": 3848,
+        "over_market_pct": -3
+      },
+      "notes": "BUYER FAVOURITE 2026-08-16 \u2014 played in person, 'loved the sound and sustain'; best tone reaction recorded. Serial decodes as Gibson's 8-digit YDDDYRRR scheme: 1st+5th digits = 99 -> 1999, digits 2-4 = 099 -> April 9 1999. Nashville-built (Kalamazoo closed 1984; the Memphis ES plant came ~2000), so one of the last Nashville ES-335s. Grover tuners are period-correct for a 1990s Dot, not a replacement. CONFIRM WITH SHOP: exact weight (ceiling is 8.0 and modern Dots often run 8-9), and that the pickups are '57 Classics as expected for the era. Nut is expected to be 1-11/16\" (modern Dot spec, NOT the 1-9/16\" ideal) but that is the model spec, not a measurement of this guitar \u2014 ask the shop to put a ruler on it."
     },
     {
       "reverb_id": "80479067",
@@ -53326,71 +53392,6 @@
         "as_of": "2026-08-09",
         "anchor_usd": 8250,
         "over_market_pct": 9
-      }
-    },
-    {
-      "url": "https://southsideguitars.com/products/1999-Gibson-ES-335-Dot-Black-Ebony-p803601666",
-      "dealer": "Southside Guitars",
-      "price_usd": 3750,
-      "year": 1999,
-      "model": "Gibson ES-335 Dot",
-      "finish": "Ebony/Black",
-      "weight_lbs": null,
-      "nut_width_in": null,
-      "fret1_depth_in": null,
-      "fret12_depth_in": null,
-      "neck_profile": null,
-      "condition": "Very nice, light play wear, all original",
-      "serial": "90959357 (SKU)",
-      "city_state": "Brooklyn, NY",
-      "pickups": null,
-      "case_included": true,
-      "modifications": "none - all original",
-      "published_at": "2026-07-20",
-      "note": "No vibrato. Also Reverb id 94008933. Weight not published - NYC, weigh in person.",
-      "category": "es_335",
-      "id": "g375",
-      "status": "ACTIVE",
-      "date_discovered": "2026-08-09",
-      "last_confirmed_active": "2026-08-09",
-      "market_bucket": "es-335 modern",
-      "price_history": [
-        {
-          "date": "2026-08-09",
-          "price_usd": 3750
-        }
-      ],
-      "score": 54.8,
-      "score_breakdown": {
-        "weight_30pct": {
-          "score": 65.0,
-          "note": "weight unpublished \u2014 NYC, weigh in person (neutral)"
-        },
-        "neck_25pct": {
-          "score": 35.0,
-          "note": "no neck measurements (capped)"
-        },
-        "shoulders_30pct": {
-          "score": 40.0,
-          "note": "no shoulder/profile info"
-        },
-        "condition_10pct": {
-          "score": 70.0,
-          "note": "very nice, light play wear, all original"
-        },
-        "price_5pct": {
-          "score": 70.0,
-          "note": "slightly above anchor"
-        },
-        "originality": {
-          "score": 4.0,
-          "note": "original pickups/electronics (buyer's favourite tone so far)"
-        }
-      },
-      "offer_intel": {
-        "as_of": "2026-08-09",
-        "anchor_usd": 3848,
-        "over_market_pct": -3
       }
     },
     {
