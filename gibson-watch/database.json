@@ -61796,7 +61796,7 @@
       "reverb_id": "97583753",
       "category": "les_paul",
       "id": "g170",
-      "status": "ACTIVE",
+      "status": "DUPLICATE",
       "date_discovered": "2026-07-30",
       "last_confirmed_active": "2026-08-16",
       "market_bucket": "standard 60s",
@@ -61846,7 +61846,8 @@
           "score": 90.0,
           "note": "at/under anchor"
         }
-      }
+      },
+      "notes": "DUPLICATE of g407 (same Reverb item, ingested twice under different URL forms)."
     },
     {
       "url": "https://reverb.com/item/94932822-used-gibson-custom-shop-les-paul-1959-reissue-cme-spec-cherry-tea-burst-w-ohsc",
@@ -61872,7 +61873,7 @@
       "reverb_id": "94932822",
       "category": "les_paul",
       "id": "g172",
-      "status": "PRICE DROP",
+      "status": "DUPLICATE",
       "date_discovered": "2026-07-30",
       "last_confirmed_active": "2026-08-16",
       "market_bucket": "norlin lp",
@@ -61918,7 +61919,8 @@
           "score": 90.0,
           "note": "at/under anchor"
         }
-      }
+      },
+      "notes": "DUPLICATE of g404 (same Reverb item, ingested twice under different URL forms)."
     },
     {
       "url": "https://reverb.com/item/92707223-used-gibson-custom-shop-59-les-paul-standard-reissue-vos-green-lemon-fade",
@@ -62261,7 +62263,7 @@
       "reverb_id": "90905732",
       "category": "les_paul",
       "id": "g176",
-      "status": "PRICE DROP",
+      "status": "DUPLICATE",
       "date_discovered": "2026-07-30",
       "last_confirmed_active": "2026-08-16",
       "market_bucket": "standard 60s",
@@ -62315,7 +62317,8 @@
           "score": 0.0,
           "note": "well above anchor"
         }
-      }
+      },
+      "notes": "DUPLICATE of g402 (same Reverb item, ingested twice under different URL forms)."
     }
   ]
 }
