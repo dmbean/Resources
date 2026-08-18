@@ -136,6 +136,18 @@ a run that silently skipped Reverb is not.
    ES-345/355/347/340 stay in scope but carry a -6 score adjustment so they never outrank an
    equivalent 335. Sweeps should spend effort on 335s and LPs first, other ES models second.
    **ES-family note (2026-08-09)**: sweeps cover ES-345/355/347/340 on the same rules as the 335. Always record Varitone (intact/bypassed/removed), stereo-vs-mono wiring, and weight-adding hardware (Bigsby/Maestro/TP-6/gold). ES-347s ship Dirty Fingers (hot ceramic, not PAF-style) — flag that explicitly.
+   **Nashville-era Dots now in scope (buyer evidence 2026-08-16)**: 1990-2002 ES-335 Dot
+   reissues qualify. The buyer played an all-original 1999 Dot (g375) and loved its sound and
+   sustain — the best tone reaction recorded so far. ES production moved to Memphis around
+   2000, so 1990s Dots are Nashville-built and carry '57 Classics (PAF-style Alnico II), which
+   matches his stated pickup preference. This era was previously outside the year targets and
+   the board holds only ONE example as a result — sweep it deliberately.
+   **Pickup originality (buyer evidence 2026-08-16)**: he A/B'd two 335s at one shop. The
+   all-original 1999 Dot: "loved the sound and sustain". The 1974 with Seymour Duncans,
+   non-original electronics and a Nashville-bridge conversion: "pickups and sustain just ok",
+   despite a neck he liked. Original/period-correct electronics predict his tone better than
+   year does — scored as +4 original / -6 replaced. Scope to pickups and electronics only;
+   he did not object to refrets or tuner changes.
    **ES-335 1st-fret depth (buyer signal 2026-08-16)**: he prefers UNDER .80" at the 1st fret.
    Ideal band is now .76-.80. Only ~1 in 3 ES listings publishes this figure, so sweeps must
    capture it wherever stated and it is worth asking dealers for — Carter Vintage, Music Zoo

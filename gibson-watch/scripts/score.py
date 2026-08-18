@@ -348,6 +348,32 @@ def condition_component(g):
     return score, note
 
 
+ORIGINAL_WORDS = ("all original", "100% original", "fully original", "original pickups",
+                  "original electronics", "original pots", "untouched")
+REPLACED_PU_WORDS = ("pickups changed", "pickups replaced", "pickup swap", "replaced pickups",
+                     "non-original electronics", "non original electronics", "aftermarket pickup",
+                     "seymour duncan", "duncans", "dimarzio", "bare knuckle", "fralin",
+                     "replacement pickups", "pickups swapped", "rewound")
+
+
+def originality(g):
+    """Pickup/electronics originality.
+
+    Buyer evidence 2026-08-16, from two guitars he played back to back at the same shop:
+    the ALL-ORIGINAL 1999 ES-335 Dot (g375) — "loved the sound and sustain"; the 1974
+    ES-335 (g376) with Seymour Duncans, non-original electronics and a Nashville bridge
+    conversion — "pickups and sustain were just ok", despite a neck he found comfortable.
+    Original/period-correct electronics predict the tone he wants better than year does.
+    Scope this to PICKUPS AND ELECTRONICS only — he did not object to refrets or tuners."""
+    txt = " ".join(str(g.get(k) or "") for k in
+                   ("pickups", "modifications", "notes", "condition")).lower()
+    if any(w in txt for w in REPLACED_PU_WORDS):
+        return -6.0, "pickups/electronics replaced (buyer found this tone 'just ok')"
+    if any(w in txt for w in ORIGINAL_WORDS):
+        return 4.0, "original pickups/electronics (buyer's favourite tone so far)"
+    return 0.0, None
+
+
 def price_component(g):
     price = g.get("price_usd")
     anchor = MARKET_ANCHORS.get(g.get("market_bucket") or "", None)
@@ -391,7 +417,8 @@ def score(g):
     # carries nearly as much as raw depth measurements, because that is what decides feel.
     total = 0.30 * w + 0.25 * n + 0.30 * s + 0.10 * c + 0.05 * p
     pen, pen_note = family_penalty(g)
-    total = max(0.0, total - pen)
+    orig, orig_note = originality(g)
+    total = max(0.0, total - pen + orig)
     g["score"] = round(total, 1)
     g["score_breakdown"] = {
         "weight_30pct": {"score": round(w, 1), "note": wn},
@@ -402,6 +429,8 @@ def score(g):
     }
     if pen_note:
         g["score_breakdown"]["model_priority"] = {"score": -pen, "note": pen_note}
+    if orig_note:
+        g["score_breakdown"]["originality"] = {"score": orig, "note": orig_note}
     return g
 
 
