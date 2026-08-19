@@ -2,6 +2,42 @@
 
 Long-running sourcing agent for a Gibson Les Paul and an ES-335. Runs every 24 hours.
 
+## SCOPE CHANGE 2026-08-19 — the Les Paul is bought
+
+The buyer purchased a **2015 Gibson Les Paul Custom '68 Reissue** from the ProAudioStar Brooklyn
+floor (tracked as `g873`, status `ACQUIRED`). It was never listed online — it appears nowhere in the
+497-listing shop sweeps.
+
+**The active hunt is now ES-335 only.** ES-345/355/347/340 stay secondary at the usual −6.
+
+- All 535 live Les Paul records were set to status `ARCHIVED` in place. Their prior status is
+  recorded in each note. **Nothing was deleted** — the never-delete rule still governs.
+- `meta.search_scope = "es_335"`. `meta.acquired.les_paul` records the purchase.
+- `site.py` treats `ARCHIVED` and `ACQUIRED` as not-live, so they drop out of the board's default
+  views but remain reachable through the status filter.
+- Do **not** re-ingest Les Pauls on future runs, and do not un-archive these without being asked.
+
+### Rolled fretboard edges — new criterion, 10% of the score
+
+The buyer named it alongside slim shoulders as what closed the purchase: *"the shoulders and rolled
+fretboard edges really did it for me."*
+
+- `rolled_edges()` in `score.py` scores **100** when a listing states it and **70** when it is a
+  documented factory spec on that line but the listing is silent. Same evidence discipline as
+  pickups: stated beats inferred, and era alone never counts as stated.
+- On a 335 the fingerboard is **bound**, so what gets eased is the binding. Dealers write it as
+  "rolled binding" as often as "rolled fingerboard edges" — both match.
+- Lines where it is factory spec: **Gibson Custom / Murphy Lab ES reissues** (Murphy Lab advertises
+  "extra-rolled fingerboard binding" at every aging tier) and **Gibson Memphis 2015–2018**.
+- Board has a `Rolled edges` filter and per-card chips distinguishing stated from spec-inferred.
+
+Weights are now: **weight 30 · shoulders 25 · neck depths 20 · rolled edges 10 · condition 10 ·
+price 5.** Feel (shoulders + rolled edges) outweighs raw depth numbers, which is what the buyer has
+said repeatedly and has now demonstrated with a purchase.
+
+The replaced-pickup penalty softened from −6 to −3: he kept pickups that "weren't what I was looking
+for" because the neck won.
+
 ## Layout
 
 - `database.json` — historical database of every guitar ever found. Never delete entries; mark status instead (`ACTIVE`, `SOLD`, `PRICE DROP`, `PRICE INCREASE`). Each entry keeps full specs, score breakdown, price history, and discovery/confirmation dates.

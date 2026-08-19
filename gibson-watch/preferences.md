@@ -47,3 +47,23 @@ _None yet — no rejections or favorites recorded. Log them below as they happen
 | 2026-08-16 | — | "Add a filter for a first fret depth of < .80\" — that would be my preference for 335s" | ES-335 ideal 1st-fret band tightened from .76-.82 to .76-.80 (.80-.82 still acceptable, no longer scores 100). Board gets a `1st < .80\"` toggle. COVERAGE PROBLEM: only 64 of 188 live ES listings publish a 1st-fret figure at all, and just 8 are under .80\" — so the filter shows a real but small slice, and a guitar with no published depth is invisible to it rather than excluded. Sweeps should ask dealers for 1st-fret depth on ES-335s the way they already do for weight. |
 | 2026-08-16 | g375 FAVOURITE (1999 ES-335 Dot, all original, $3,750), g376 lukewarm (1974 ES-335, Duncans), black LP Custom @ 30th St $5,500 (weight rejected) | Played all three in person. "Loved the sound and sustain" of the all-original 1999 Dot; the 1974's neck was comfortable but "pickups and sustain were just ok" — it has Seymour Duncans, non-original electronics and a Nashville-bridge conversion. Liked the LP Custom "a lot except for its weight". THREE INFERENCES: (1) pickup/electronics ORIGINALITY predicts his tone preference better than year — scored +4/-6; (2) 1990-2002 Nashville-era Dots are in scope and can deliver the tone he wants ('57 Classics, PAF-style) — the board held only 1 because the era was outside the year targets; (3) LP Custom is a wanted model, weight is the binding constraint, confirmed by feel. ALSO: the 30th St LP Custom is not listed online anywhere (their site has 388 products, 0 Gibsons; their Reverb shop has 5 listings) — NYC floor stock is invisible to the watch. |
 | 2026-08-16 | — | "I'm not looking for resale value, I'm looking for 1 335 and 1 LP that I will have forever" + "the 99's neck felt good (kind of a D shape) but not as good as the 1 9/16 necks I've tried" | TWO DECISIVE CLARIFICATIONS. (1) GOAL: two keepers, not a portfolio. Resale/collector value is NOT a criterion — heavy mods, refrets, replaced binding, drilled tops do not disqualify a guitar. The originality scoring stays, but it is justified on TONE evidence only (his own A/B), never on value. Do not raise resale as an objection again unless he asks. (2) The 1-9/16\" nut is now VALIDATED BY FEEL, not just stated as a spec: he has played modern 1-11/16\" D-profile necks against narrow-nut necks and prefers the narrow ones. Narrow nut outranks a nominally better-specced modern guitar. Only 17 live ES-335s have it and only 2 are NYC-playable — treat every narrow-nut find as high priority and surface it immediately. |
+
+---
+
+## 2026-08-19 — the Les Paul is bought; hunt narrows to 335s
+
+**Purchase: 2015 Gibson Les Paul Custom '68 Reissue, ProAudioStar Brooklyn** (tracked as g873).
+
+Bought off the floor before it was ever listed online — it appears nowhere in the 497-listing
+ProAudioStar sweeps. That is the third confirmation of the floor-vs-Reverb gap, after 30th Street
+and the Brooklyn/Texas shop-address mismatch. **Walking in beats the database for NYC shops.**
+
+| Signal | What he said | What changed |
+|---|---|---|
+| **Scope** | "let's update our search to only focus on 335s" | Les Paul search closed. All 535 live LP records set to ARCHIVED in place — statuses preserved in their notes, nothing deleted. `meta.search_scope = es_335`. |
+| **Rolled fretboard edges** | "the shoulders and rolled fretboard edges really did it for me" | New scoring component at **10%**, taken from raw depth measurements. Stated-in-listing scores 100; a documented factory spec on that line scores 70. New board filter and card chip. |
+| **Shoulders confirmed again** | same sentence | Shoulders stay a top-weighted term. Feel is now 35% of the score (shoulders 25 + rolled edges 10) against 20% for depth numbers. |
+| **Pickups matter less than modelled** | "the pickups on it weren't what I was looking for, but they're unique enough for me to want to keep them" | Replaced-pickup penalty softened −6 → −3. The 1999-Dot-vs-1974 tone evidence still stands, but it must not outweigh a neck that fits the hand. |
+| **He bought a Custom** | — | Worth noting against my own 2026-08-18 advice that Customs are a structural weight fight. He played it and the neck won. Feel beats the spec sheet; weight stays a hard ES ceiling but is no longer treated as decisive on its own. |
+
+Weights now: **weight 30 · shoulders 25 · neck depths 20 · rolled edges 10 · condition 10 · price 5.**

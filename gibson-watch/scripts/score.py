@@ -2,7 +2,8 @@
 """Deterministic scorer for the Gibson Watch database.
 
 Rescores every guitar in database.json in place and regenerates reports/master.csv.
-Weights: weight 30%, shoulder profile 30%, neck measurements 25%, condition 10%, price 5%.
+Weights: weight 30%, shoulder profile 25%, neck measurements 20%, rolled edges 10%,
+condition 10%, price 5%.
 (Shoulders raised from 20% and depths cut from 35% on 2026-08-13: the buyer said slim
 shoulders are a big part of what he is after, and shape decides feel more than depth does.)
 Run from the gibson-watch/ directory: python3 scripts/score.py
@@ -368,6 +369,45 @@ REPLACED_PU_WORDS = ("pickups changed", "pickups replaced", "pickup swap", "repl
                      "replacement pickups", "pickups swapped", "rewound")
 
 
+ROLLED_WORDS = ("rolled binding", "rolled fingerboard", "rolled fretboard",
+                "rolled neck binding", "rolled board", "rolled edges", "rolled edge",
+                "hand-rolled", "hand rolled", "eased binding", "eased edges",
+                "broken-in binding", "played-in binding")
+
+# Eras and lines where rolled binding is a documented factory spec rather than wear.
+ROLLED_SPEC_MARKERS = ("murphy lab", "gibson custom 1959 es", "1959 es-335 reissue",
+                       "1961 es-335 reissue", "1963 es-335 reissue", "1964 es-335 reissue",
+                       "'59 es-335 reissue", "'63 es-335 reissue", "'64 es-335 reissue")
+
+
+def rolled_edges(g):
+    """Rolled/eased fingerboard binding.
+
+    Buyer signal 2026-08-19, on the Les Paul Custom he actually bought: "the shoulders and
+    rolled fretboard edges really did it for me." He names this alongside shoulders as the
+    thing that closed a purchase, so it belongs in the feel bucket rather than as a nicety.
+
+    On a 335 the board is bound, so what gets eased is the binding, not bare wood — dealers
+    write it as 'rolled binding' as often as 'rolled fingerboard edges'. Both count.
+
+    Stated-in-the-listing only. Gibson Memphis 2015-2018 and the Custom Shop/Murphy Lab ES
+    reissues carry it as a factory spec, but era alone is inferred, not documented, so it
+    scores lower than a dealer saying it outright — the same rule applied to pickups.
+    """
+    txt = " ".join(str(g.get(k) or "") for k in
+                   ("neck_profile", "shoulder_description", "modifications",
+                    "note", "notes", "model")).lower()
+    if any(w in txt for w in ROLLED_WORDS):
+        return 100.0, "rolled/eased fingerboard binding stated in the listing"
+    model = " ".join(str(g.get(k) or "") for k in ("model", "note", "notes")).lower()
+    if any(m in model for m in ROLLED_SPEC_MARKERS):
+        return 70.0, "rolled binding is a factory spec on this line (not stated in the listing)"
+    year, dealer = g.get("year"), (g.get("model") or "").lower()
+    if isinstance(year, int) and 2015 <= year <= 2018 and "memphis" in dealer:
+        return 70.0, "Gibson Memphis 2015-18 — rolled neck binding was a factory spec that era"
+    return 0.0, "no rolled-edge information"
+
+
 def originality(g):
     """Pickup/electronics originality.
 
@@ -380,7 +420,11 @@ def originality(g):
     txt = " ".join(str(g.get(k) or "") for k in
                    ("pickups", "modifications", "notes", "condition")).lower()
     if any(w in txt for w in REPLACED_PU_WORDS):
-        return -6.0, "pickups/electronics replaced (buyer found this tone 'just ok')"
+        # Softened from -6 on 2026-08-19. The buyer bought a Les Paul whose pickups "weren't
+        # what I was looking for" and chose to keep them, because feel decided it. Non-original
+        # electronics still predict the tone he liked less well, but they must not outweigh a
+        # neck that fits the hand.
+        return -3.0, "pickups/electronics replaced (a real but secondary negative)"
     if any(w in txt for w in ORIGINAL_WORDS):
         return 4.0, "original pickups/electronics (buyer's favourite tone so far)"
     return 0.0, None
@@ -427,15 +471,20 @@ def score(g):
     # Buyer signal 2026-08-13: "slim shoulders are a big part of what I'm after".
     # Rebalanced from the original 35/20 depth-vs-shoulders split: shoulder profile now
     # carries nearly as much as raw depth measurements, because that is what decides feel.
-    total = 0.30 * w + 0.25 * n + 0.30 * s + 0.10 * c + 0.05 * p
+    r, rn = rolled_edges(g)
+    # Buyer signal 2026-08-19: shoulders and rolled edges together closed his Les Paul
+    # purchase. Feel now carries 35% (shoulders 25 + rolled edges 10), taken from raw depth
+    # measurements, which he has repeatedly said matter less to him than how a neck feels.
+    total = 0.30 * w + 0.20 * n + 0.25 * s + 0.10 * r + 0.10 * c + 0.05 * p
     pen, pen_note = family_penalty(g)
     orig, orig_note = originality(g)
     total = max(0.0, total - pen + orig)
     g["score"] = round(total, 1)
     g["score_breakdown"] = {
         "weight_30pct": {"score": round(w, 1), "note": wn},
-        "neck_25pct": {"score": round(n, 1), "note": nn},
-        "shoulders_30pct": {"score": round(s, 1), "note": sn},
+        "neck_20pct": {"score": round(n, 1), "note": nn},
+        "shoulders_25pct": {"score": round(s, 1), "note": sn},
+        "rolled_edges_10pct": {"score": round(r, 1), "note": rn},
         "condition_10pct": {"score": round(c, 1), "note": cn},
         "price_5pct": {"score": round(p, 1), "note": pn},
     }

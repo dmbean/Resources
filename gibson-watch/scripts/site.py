@@ -133,6 +133,8 @@ def main():
             "breakdown": g.get("score_breakdown"),
             "thumb": thumb_uri(g["id"]),
             "offer": g.get("offer_intel"),
+            "rolled": ((g.get("score_breakdown") or {})
+                       .get("rolled_edges_10pct", {}) or {}).get("score", 0) or 0,
             "unpotted": any(w in " ".join(str(g.get(k) or "") for k in
                             ("pickups", "notes", "modifications", "model")).lower()
                             for w in ("unpotted", "un-potted", "not potted",
@@ -243,6 +245,9 @@ input[type=search]{flex:1;min-width:110px}
 .card.hot{border-color:var(--cherry)}
 .card.hot .photo{border-bottom:2px solid var(--cherry)}
 .chip.offers{background:var(--amber);color:var(--bg)}
+.chip.rolled{background:var(--good);color:var(--bg)}
+.chip.rolledspec{background:var(--good-soft);color:var(--good)}
+.chip.acquired{background:var(--ink);color:var(--bg)}
 .offerline{font-size:12px;border:1px dashed var(--amber);border-radius:6px;padding:6px 9px;color:var(--ink)}
 .offerline b{color:var(--amber)}
 .specs{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:8px 0}
@@ -300,6 +305,7 @@ details li{margin-bottom:4px}
   </select>
   <button id="hotbtn" class="toggle" type="button" aria-pressed="false" title="Fresh listings matching proven fast-seller patterns">Goes fast</button>
   <button id="unpotbtn" class="toggle" type="button" aria-pressed="false" title="Listing states unpotted pickups (no wax potting — more microphonic, more air)">Unpotted</button>
+  <button id="rollbtn" class="toggle" type="button" aria-pressed="false" title="Rolled/eased fingerboard binding — stated in the listing, or a documented factory spec on that line. The feature that closed the buyer's Les Paul purchase.">Rolled edges</button>
   <button id="thinbtn" class="toggle" type="button" aria-pressed="false" title="1st-fret depth under .80&quot; — the buyer's preferred ES-335 neck. Only matches listings that publish a measurement.">1st &lt; .80&#8243;</button>
   <button id="offbtn" class="toggle" type="button" aria-pressed="false">Offers</button>
   <button id="nybtn" class="toggle" type="button" aria-pressed="false" title="Manhattan, Brooklyn, or Queens">NYC only</button>
@@ -372,7 +378,7 @@ function nutSpec(g){
   return `<div class="spec"><div class="v" title="${g.nut}&quot;">${fracIn(g.nut)}${tick(g.cat,"nut",g.nut)}</div><div class="k">Nut</div></div>`;
 }
 function chipStatus(s){
-  const m={ACTIVE:["active","Active"],"PRICE DROP":["pricedrop","Price drop"],"PRICE INCREASE":["priceup","Price up"],SOLD:["sold","Sold"],EXCLUDED:["sold","Excluded"],DUPLICATE:["sold","Duplicate"]};
+  const m={ACTIVE:["active","Active"],"PRICE DROP":["pricedrop","Price drop"],"PRICE INCREASE":["priceup","Price up"],SOLD:["sold","Sold"],EXCLUDED:["sold","Excluded"],DUPLICATE:["sold","Duplicate"],ARCHIVED:["sold","Archived"],ACQUIRED:["acquired","Bought"]};
   const [cls,label]=m[s]||["active",esc(s||"")];
   return `<span class="chip ${cls}">${label}</span>`;
 }
@@ -381,7 +387,7 @@ function hotReason(g){
   // badge stays rare: must be fresh (≤21d on market, or ≤7d since we found it when the
   // market age is unknown), then under-market with real specs, narrow-nut vintage, or
   // top-spec-under-anchor.
-  if(g.status==="SOLD"||g.status==="EXCLUDED"||g.status==="DUPLICATE") return null;
+  if(g.status==="SOLD"||g.status==="EXCLUDED"||g.status==="DUPLICATE"||g.status==="ARCHIVED"||g.status==="ACQUIRED") return null;
   const oi=g.offer||{}, om=oi.over_market_pct, dl=oi.days_listed;
   const foundAge=(Date.parse(DATA.meta.last_run)-Date.parse(g.found))/864e5;
   const fresh = dl!=null ? dl<=21 : foundAge<=7;
@@ -410,7 +416,7 @@ function card(g){
   const photo = g.thumb
     ? `<a class="photo" href="${esc(g.url)}" target="_blank" rel="noopener"><img src="${g.thumb}" alt="${esc(g.model||"")}" loading="lazy"></a>`
     : `<div class="photo none">No photo</div>`;
-  return `<div class="card ${(g.status==="SOLD"||g.status==="EXCLUDED"||g.status==="DUPLICATE")?"sold":""} ${hot?"hot":""}">
+  return `<div class="card ${(g.status==="SOLD"||g.status==="EXCLUDED"||g.status==="DUPLICATE"||g.status==="ARCHIVED")?"sold":""} ${hot?"hot":""}">
     ${photo}
     <div class="toprow">
       <div class="scoreblock"><div class="scorenum ${stier}">${g.score==null?"—":g.score}</div><div class="scorelabel">score</div></div>
@@ -419,7 +425,7 @@ function card(g){
         <div class="gsub">${esc(g.finish||"")}</div>
       </div>
     </div>
-    <div class="chips"><span class="chip ${cls[0]}">${cls[1]}</span>${chipStatus(g.status)}${isNew?'<span class="chip newtoday" title="first found by the watch on this run — not necessarily newly listed">New find</span>':""}${oi.days_listed!=null&&oi.days_listed<=7?'<span class="chip fresh" title="listed on Reverb within the last week">Fresh listing</span>':""}${oi.offers_enabled?'<span class="chip offers">Offers</span>':""}${g.unpotted?'<span class="chip active" title="listing states unpotted pickups">Unpotted</span>':""}${hot?`<span class="chip hot" title="${esc(hot)}">Goes fast</span>`:""}</div>
+    <div class="chips"><span class="chip ${cls[0]}">${cls[1]}</span>${chipStatus(g.status)}${isNew?'<span class="chip newtoday" title="first found by the watch on this run — not necessarily newly listed">New find</span>':""}${oi.days_listed!=null&&oi.days_listed<=7?'<span class="chip fresh" title="listed on Reverb within the last week">Fresh listing</span>':""}${oi.offers_enabled?'<span class="chip offers">Offers</span>':""}${g.unpotted?'<span class="chip active" title="listing states unpotted pickups">Unpotted</span>':""}${g.rolled>=100?'<span class="chip rolled" title="listing states rolled/eased fingerboard binding">Rolled edges</span>':(g.rolled>0?'<span class="chip rolledspec" title="rolled binding is a documented factory spec on this line, though this listing does not say so">Rolled (spec)</span>':"")}${hot?`<span class="chip hot" title="${esc(hot)}">Goes fast</span>`:""}</div>
     <div class="specs">
       ${g.weight==null&&g.nyc
           ? `<div class="spec"><div class="v" style="font-size:11.5px;color:var(--cherry)" title="No published weight. Scored neutral because you can weigh it in person.">weigh in&nbsp;person</div><div class="k">Weight</div></div>`
@@ -458,12 +464,13 @@ function render(){
   if(offersOnly) gs=gs.filter(g=>g.offer&&g.offer.offers_enabled);
   if(hotOnly) gs=gs.filter(g=>hotReason(g));
   if(unpotOnly) gs=gs.filter(g=>g.unpotted);
+  if(rollOnly) gs=gs.filter(g=>g.rolled>0);
   if(thinOnly) gs=gs.filter(g=>g.f1!=null&&g.f1<0.80);
   const drawerActive = document.getElementById("statussel").value!=="live"
     || document.getElementById("colorsel").value!=="any"
     || document.getElementById("finishsel").value!=="any";
   document.getElementById("drawerdot").hidden = !drawerActive;
-  if(status==="live") gs=gs.filter(g=>g.status!=="SOLD"&&g.status!=="EXCLUDED"&&g.status!=="DUPLICATE");
+  if(status==="live") gs=gs.filter(g=>g.status!=="SOLD"&&g.status!=="EXCLUDED"&&g.status!=="DUPLICATE"&&g.status!=="ARCHIVED"&&g.status!=="ACQUIRED");
   if(nut!=="any") gs=gs.filter(g=>{
     if(nut==="unknown") return g.nut==null;
     if(g.nut==null) return false;
@@ -497,7 +504,7 @@ function rebuildFinishOptions(){
   sel.value=names.includes(prev)?prev:"any";
 }
 document.getElementById("colorsel").addEventListener("change",rebuildFinishOptions);
-let nyOnly=false,offersOnly=false,hotOnly=false,unpotOnly=false,thinOnly=false;
+let nyOnly=false,offersOnly=false,hotOnly=false,unpotOnly=false,thinOnly=false,rollOnly=false;
 document.getElementById("thinbtn").addEventListener("click",e=>{
   thinOnly=!thinOnly;
   e.currentTarget.classList.toggle("on",thinOnly);
@@ -508,6 +515,12 @@ document.getElementById("unpotbtn").addEventListener("click",e=>{
   unpotOnly=!unpotOnly;
   e.currentTarget.classList.toggle("on",unpotOnly);
   e.currentTarget.setAttribute("aria-pressed",String(unpotOnly));
+  render();
+});
+document.getElementById("rollbtn").addEventListener("click",e=>{
+  rollOnly=!rollOnly;
+  e.currentTarget.classList.toggle("on",rollOnly);
+  e.currentTarget.setAttribute("aria-pressed",String(rollOnly));
   render();
 });
 document.getElementById("hotbtn").addEventListener("click",e=>{
@@ -555,7 +568,7 @@ document.getElementById("q").addEventListener("input",render);
     return y>=1965&&y<=1981&&age<=14;
   };
   const picks = DATA.guitars
-    .filter(g=>g.status!=="SOLD"&&g.status!=="EXCLUDED"&&g.status!=="DUPLICATE"&&g.nyc&&(hotReason(g)||g.score>=75||vintageFresh(g)))
+    .filter(g=>g.status!=="SOLD"&&g.status!=="EXCLUDED"&&g.status!=="DUPLICATE"&&g.status!=="ARCHIVED"&&g.status!=="ACQUIRED"&&g.nyc&&(hotReason(g)||g.score>=75||vintageFresh(g)))
     .sort((a,b)=>(b.score||0)-(a.score||0)).slice(0,4);
   if(!picks.length) return;
   document.getElementById("spotlight").hidden=false;
@@ -569,7 +582,7 @@ document.getElementById("q").addEventListener("input",render);
     </a>`;
   }).join("");
 })();
-const m=DATA.meta, live=DATA.guitars.filter(g=>g.status!=="SOLD"&&g.status!=="EXCLUDED").length;
+const m=DATA.meta, live=DATA.guitars.filter(g=>g.status!=="SOLD"&&g.status!=="EXCLUDED"&&g.status!=="DUPLICATE"&&g.status!=="ARCHIVED"&&g.status!=="ACQUIRED").length;
 document.getElementById("substat").innerHTML=
   `<b>${live}</b> live listings · <b>${DATA.guitars.length}</b> tracked all-time · last sweep <b>${esc(m.last_run)}</b> · run #<b>${m.run_count}</b> — ● spec in target band, ○ outside` + (m.reverb_verified && m.reverb_verified !== m.last_run   ? `<br><span style="color:var(--cherry)">⚠ Reverb listings last re-verified <b>${esc(m.reverb_verified)}</b> — their prices and sold/live status may be out of date (Reverb was rate-limiting this sweep).</span>` : "");
 render();
