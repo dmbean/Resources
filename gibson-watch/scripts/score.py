@@ -372,7 +372,7 @@ REPLACED_PU_WORDS = ("pickups changed", "pickups replaced", "pickup swap", "repl
 # Language that evidences a guitar has actually been played, as opposed to merely being old.
 WEAR_WORDS = ("play wear", "player wear", "played", "buckle", "pick wear", "fret wear",
               "finish wear", "worn", "checking", "patina", "honest wear", "well-loved",
-              "well loved", "refret", "re-fret", "player grade", "road worn", "dings")
+              "well loved", "refret", "re-fret", "player grade", "player-grade", "road worn", "dings")
 
 ROLLED_WORDS = ("rolled binding", "rolled fingerboard", "rolled fretboard",
                 "rolled neck binding", "rolled board", "rolled edges", "rolled edge",

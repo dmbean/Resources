@@ -64498,6 +64498,80 @@
       }
     },
     {
+      "id": "g874",
+      "reverb_id": 102323495,
+      "url": "https://reverb.com/item/102323495",
+      "dealer": "Reverb private seller (Studio City, CA \u2014 1 feedback, not a preferred seller)",
+      "city_state": "Studio City, CA",
+      "price_usd": 3100.0,
+      "year": 1980,
+      "model": "Gibson ES-335TD",
+      "finish": "Ebony (factory black)",
+      "condition": "Very Good (seller's grade) \u2014 listing describes it as player-grade with heavy finish wear",
+      "serial": "80580027",
+      "pickups": "NOT VERIFIED \u2014 listing says \"likely contains\" T-Tops or early Tim Shaws; the seller has not looked",
+      "case_included": null,
+      "modifications": "Seller states 100% original. Newly self-inflicted scratches from polishing; seller quotes $600 to repair.",
+      "weight_lbs": null,
+      "nut_width_in": null,
+      "fret1_depth_in": null,
+      "fret12_depth_in": null,
+      "published_at": "2026-09-27",
+      "status": "ACTIVE",
+      "category": "es_335",
+      "market_bucket": "es-335 norlin",
+      "research_cluster": "norlin-335",
+      "date_discovered": "2026-11-14",
+      "last_confirmed_active": "2026-11-14",
+      "price_history": [
+        {
+          "date": "2026-11-14",
+          "price_usd": 3100.0
+        }
+      ],
+      "note": "Factory Ebony 1980 ES-335TD. Serial 80580027 decodes to 27 Feb 1980 (day 058), 27th instrument stamped that day \u2014 ranking under 501 confirms a KALAMAZOO build under the Gibson convention of numbering from 001 at Kalamazoo and 501 at Nashville. NO WEIGHT and NO NUT WIDTH stated anywhere in a 3,136-character description. 1980 sits on the wrong side of the nut-width cliff documented in research/nut-width-by-era.md: 1977-81 records run 4-of-5 at 1.67-1.6875\", not the 1-9/16\" the buyer validated by feel.",
+      "notes": "CAUTION 2026-11-14. The description is built on pasted AI chatbot output the seller did not edit: it addresses the seller in second person (\"Based on your serial number\"), carries a \"(contact info removed)\" artifact, and misdates the serial as 25 Feb / day 56 two paragraphs after correctly saying 27 Feb. Its valuation figures ($5,800-6,800 private, $7,000-8,000 retail) are generated text, not comps \u2014 the seller says so: \"I have listed what I found online what these guitars are valued at.\" The listing also contradicts itself on direction of travel, saying both \"I HAVE LOWERED THE PRICE ... -$1000\" and \"The asking price ... has been adjusted upward\". The $5,000 strike-through is the seller's own invented anchor, so the \"$1,900 price drop\" is a discount from a number that was never a market price.",
+      "offer_intel": {
+        "as_of": "2026-11-14",
+        "offers_enabled": true,
+        "anchor_usd": null,
+        "suggested_offer_usd": 2600,
+        "rationale": "self-inflicted finish damage; no weight or nut stated; 1-feedback private seller"
+      },
+      "score": 44.7,
+      "score_breakdown": {
+        "weight_30pct": {
+          "score": 0.0,
+          "note": "no exact weight stated"
+        },
+        "neck_20pct": {
+          "score": 35.0,
+          "note": "no neck measurements (capped)"
+        },
+        "shoulders_25pct": {
+          "score": 60.0,
+          "note": "profile unclear: 'listing: \"player-grade\", \"aged with incredible player charac'"
+        },
+        "rolled_edges_10pct": {
+          "score": 55.0,
+          "note": "vintage with documented play wear \u2014 bound edges are very likely eased, but confirm from photos"
+        },
+        "condition_10pct": {
+          "score": 82.0,
+          "note": "very good (seller's grade) \u2014 listing describes it as player-grade with heavy finish wear"
+        },
+        "price_5pct": {
+          "score": 100.0,
+          "note": "38% under anchor"
+        },
+        "originality": {
+          "score": 4.0,
+          "note": "original pickups/electronics (buyer's favourite tone so far)"
+        }
+      },
+      "shoulder_description": "Listing: \"player-grade\", \"aged with incredible player character\", \"the natural wear on the back beautifully exposes the underlying wood grain beneath the custom factory color\". No carve, nut width or depth figures given anywhere."
+    },
+    {
       "url": "https://reverb.com/item/88893398",
       "dealer": "Reverb \u2013 Big Apple Guitars NYC",
       "price_usd": 3087,
