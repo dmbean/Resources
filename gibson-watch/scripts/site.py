@@ -21,6 +21,13 @@ THUMBS = os.path.join(HERE, "site", "thumbs")
 CARD_PX, CARD_Q = 232, 46
 
 
+# Set by thumb_uri so the build can refuse to ship un-re-encoded images. Silently falling
+# back to full-size thumbs produced a 22MB page on 2026-11-14 (the system Pillow was present
+# but missing its _imaging extension, so every re-encode raised and was swallowed). A build
+# that cannot shrink its images must say so, not quietly blow the artifact size limit.
+_THUMB_FAILURES = []
+
+
 def thumb_uri(gid):
     path = os.path.join(THUMBS, "%s.jpg" % gid)
     if not os.path.exists(path):
@@ -33,7 +40,8 @@ def thumb_uri(gid):
         buf = io.BytesIO()
         im.convert("RGB").save(buf, "JPEG", quality=CARD_Q, optimize=True)
         data = buf.getvalue()
-    except Exception:
+    except Exception as exc:
+        _THUMB_FAILURES.append("%s: %s" % (gid, exc))
         with open(path, "rb") as f:
             data = f.read()
     return "data:image/jpeg;base64," + base64.b64encode(data).decode("ascii")
@@ -148,6 +156,16 @@ def main():
     with open(OUT, "w") as f:
         f.write(html)
     print("wrote %s (%d guitars)" % (OUT, len(guitars)))
+
+    if _THUMB_FAILURES:
+        raise SystemExit(
+            "ABORT: %d of %d thumbnails could not be re-encoded, so the page ships full-size "
+            "images and will exceed the 16MB artifact limit.\n"
+            "First failures: %s\n"
+            "Fix Pillow for THIS interpreter (python3 -m pip install --break-system-packages "
+            "--upgrade Pillow) and rebuild. Do not publish the page produced by this run."
+            % (len(_THUMB_FAILURES), len(guitars), "; ".join(_THUMB_FAILURES[:3]))
+        )
 
 
 HTML_TEMPLATE = r"""<title>Gibson Watch</title>
