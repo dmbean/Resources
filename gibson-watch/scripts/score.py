@@ -369,6 +369,11 @@ REPLACED_PU_WORDS = ("pickups changed", "pickups replaced", "pickup swap", "repl
                      "replacement pickups", "pickups swapped", "rewound")
 
 
+# Language that evidences a guitar has actually been played, as opposed to merely being old.
+WEAR_WORDS = ("play wear", "player wear", "played", "buckle", "pick wear", "fret wear",
+              "finish wear", "worn", "checking", "patina", "honest wear", "well-loved",
+              "well loved", "refret", "re-fret", "player grade", "road worn", "dings")
+
 ROLLED_WORDS = ("rolled binding", "rolled fingerboard", "rolled fretboard",
                 "rolled neck binding", "rolled board", "rolled edges", "rolled edge",
                 "hand-rolled", "hand rolled", "eased binding", "eased edges",
@@ -405,6 +410,18 @@ def rolled_edges(g):
     year, dealer = g.get("year"), (g.get("model") or "").lower()
     if isinstance(year, int) and 2015 <= year <= 2018 and "memphis" in dealer:
         return 70.0, "Gibson Memphis 2015-18 — rolled neck binding was a factory spec that era"
+    # Caught 2026-11-14 while answering a question about Norlin-era 335s: every one of the 41
+    # records from that era scored 0 here, which is a defect in this function rather than a
+    # fact about the guitars. Decades of playing eases bound fingerboard edges on their own —
+    # it is how a vintage neck comes to feel broken in. Credit it only where the listing
+    # documents real play wear, so this stays evidence-based and never fires on age alone,
+    # and score it below a stated spec because it still needs confirming from photos.
+    wear = " ".join(str(g.get(k) or "") for k in
+                    ("condition", "modifications", "note", "notes")).lower()
+    if (isinstance(year, int) and year <= 1980
+            and any(w in wear for w in WEAR_WORDS)):
+        return 55.0, ("vintage with documented play wear — bound edges are very likely eased, "
+                      "but confirm from photos")
     return 0.0, "no rolled-edge information"
 
 
